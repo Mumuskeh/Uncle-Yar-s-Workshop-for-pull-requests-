@@ -1,0 +1,29 @@
+-Module:
+MCX Spear [Onerock]
+
+----------------------------------------------------------
+-Compatibility:
+Note: Disable the items/settings/npc_loadouts folder.
+
+----------------------------------------------------------
+-Explanation:
+
+Renamed npc loadout filename to ensure nothing crosses with ATHIS's MCX Spear (which is a different model chambered for a different ammo).
+Fully randomized in NPC loadouts the possible attachments (the gun is only carried by legend ranks anyways).
+Allows selling the rifle to traders.
+
+Added default actor effects settings.
+
+Grok's Stash Overhaul integration.
+Grok's GBOOBS integration.
+Lootboxes integration.
+PDA Interactive integration.
+
+----------------------------------------------------------
+-Patches:
+
+Vanilla silencer.
+Makes the rifle use the vanilla SR-25 silencer, while stopping the SLX-68 suppresor from being added. For those who want to keep item bloat under control.
+
+----------------------------------------------------------
+-Known issues:

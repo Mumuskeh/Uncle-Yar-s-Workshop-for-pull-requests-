@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_aug_a3_custom_300_bas">
+		<text>Steyr AUG A3 Commando - .300 Blackout</text>
+	</string>
+	<string id="st_wpn_aug_a3_custom_300_bas_descr">
+		<text>Steyr AUG (Armee Universal Gewehr - Army Universal Rifle) is an Austrian 5.56x45mm NATO bullpup assault rifle, designed in the 1960s by Steyr-Daimler-Puch and now manufactured by Steyr Mannlicher GmbH & Co KG. The Steyr AUG A3 differs from the base model in the presence of four Picatinny slats: the top one is used for attaching sights, a grenade launcher or a vertical front handle can be attached to the bottom, and a laser pointer or other necessary additional equipment is attached to the side.\n
+		This is a modification based on the AUG A3 M2 variant, chambered for .300 AAC Blackout.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Trijicon Acog (x4) and PEQ LA5 LAM.\n 
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+	<string id="st_wpn_m4_ru556_300">
+		<text>Ruger SR-556 (BaS)</text>
+	</string>
+	<string id="st_wpn_m4_ru556_300_descr">
+		<text>The SR-556 is a semi-automatic AR-15 style rifle manufactured by Sturm, Ruger & Co. The rifle was introduced in 2009 in .223 Remington/5.56?45mm NATO and as a .308 Winchester AR-10 variant in 2013, the SR-762. It is one of several AR-15 rifles to use a gas piston operation. Ruger announced on May 15, 2009 on the SR-556 being produced, and in January 2016, Ruger discontinued all existing SR-556 rifles in preparation for a new takedown variant.\n
+		Several of these rifles came to the Zone through the scientists. According to rumors, six small containers with these guns were sent from foreign sponsors to Professor Sakharov, but 5 of them were lost before arrival.\n
+		This weapon has been converted to use .300 AAC Blackout ammunition, reducing its range in exchange of firepower.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+</string_table>

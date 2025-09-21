@@ -9,6 +9,8 @@ Also, you know, modders should do their minimal research beforehand. You know wh
 
 ----------------------------------------------------------
 -Explanation:
+Originally a merge of mods like HellblaueHoelle's Fire Rate Fix, Georg_Ravioli's AN-94 Fire Rate Fix, and some bits from Strogglet15 & Blackgrowl's mods.
+
 A holistic rebalance of the whole arsenal, using certain mods as stepping stones: HellblaueHoelle's Fire Rate Fix, Georg_Ravioli's AN-94 Fire Rate Fix, and Phosibl3's ReWeight Ammo among others.
 
 It fixes the simplest aspect of weaponry by observing real life firearms. Broadly this means reduced range, in exchange of things like lower weight, higher fire rate and/or muzzle velocity. Or the other way around.
@@ -121,7 +123,8 @@ It covers individual mods.
 Currently the list is as follows, listed by authors:
 Athis: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre
 Bert: Mauser C96, Sten
-Billwa: FG42, IZH18 and MP18, M240, M3A1 Grease Gun, Milkor MGL, Type 56 Pack
+Beli fosfor: SIG Sauer P365
+Billwa: FG42, IZH18 and MP18, MAC-10, M240, M3A1 Grease Gun, Milkor MGL, Type 56 Pack
 Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
 Firebreath: Tommy gun drop
 Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, MP9, QBZ 95
@@ -130,6 +133,7 @@ Maid: Agram 2000
 NickolasNikova: Type 89
 Pillii: Glock RONI, Honey Badger and .300 BLK Framework, UDP-9
 Popottara: Sturmgewehr 57
+Retrogue: RWAP
 Sibercat: AR Pack Complete
 Soulcrystal: Arisaka quality control, Benelli M4
 Teivaz: Gunslinger P90 Tactical
@@ -137,8 +141,10 @@ TheParazit's PL14
 
 Some further notes:
 Billwa's Izh-18 & MP18: adapted changes made by Meylin in the Anomaly Discord. Izh-18 more accurate than double barrel shotguns. Both guns slightly more damaging, further reaching, and harder to break.
+Billwa's MAC-10: ue to ID fuckery, if you use the patch for Hisalute's Packs, but not Billwa's MAC itself, this may give a greater fire range than intended to MWP's MAC-10. But it's not an important difference, and you need the patch in my Hisalute fix pack to play with both together, so any potential issues are deemed as "eh".
 JMerc's Arbiter Pack: range nerfed for all guns (a silenced revolver capping targets at 610 meters? Get serious), and hit push halved for Bushmaster (it's only half an AR-15 rifle, not a SVD or something like that).
 Pillii's Honeybadger: range reduced to 400 meters, similar to 9x39 guns.
+Retrogue's RWAP: Didn't change as much as it could be done. Almost all guns were given the same weight of 3kgs, and some of them I had no luck finding reliable stats around. Given half of the rifles are M4 clones, I treated them as such.
 Soulcrystal's Arisaka Quality Control. Touched the muzzle velocity down a bit, and firerate up another bit. Very small bits, mind you. I was going to nerf the range but then I've read about being able to reach 1500~ in real life and [HESITATION].
 Soulcrystal's Benelli M4: range nerfed from 1000 (!) to 100, now uses NATO silencer for vanilla compatibility.
 
@@ -149,13 +155,6 @@ Currently the list is as follows, listed by authors:
 Blackgrowl: AEK Kit, G36 Pack, and Pretty Pistols Pack
 Firebreath: AUGmented
 JukeCappatalist: AKM Pack.
-
-Blackgrowl's K-50M, MAT-49, and Sassy Ithaca
-TheParazit's PL14
-
--New Weapon Swaps module. This is meant for mods that make X-to-Y gun changes, and goes last to make sure changes are applied on top of whatever else is done in the vanilla patch.
-For now this will cover Blackgrowl's AEK Kit, G36 Pack, and PPP, Firebreath's AUGmented, and JukeCappatalist's AKM Pack (already patched ones are moved here from the Other Mods module).
-
 
 ----------------------------------------------------------
 -Known issues:

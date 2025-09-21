@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_sg553bk_rwap">
+		<text>SIG SG-553 BK</text>
+	</string>
+	<string id="st_wpn_sg553bktac_rwap">
+		<text>SIG SG-553 BK Tactical</text>
+	</string>
+	<string id="st_wpn_sg553bk_rwap_descr">
+		<text>The SIG 553 is an improved version of the SG 552 released in 2008, with one key advantage, the recoil spring is now wrapped around the piston rod as in the 550/551 models. This addresses several reliability issues encountered in the 552 and allows the usage of the standard 550/551 charging handle. Further factory options for the SG 553 rifle series are an integrated receiver Picatinny rail and an adjustable butt stock.\n
+		The SG 553 BK is a variant chambered for the .300 AAC Blackout cartridge, first shown in 2016.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2016</text>
+	</string>
+
+</string_table>

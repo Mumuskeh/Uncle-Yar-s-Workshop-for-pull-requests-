@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_p365">
+		<text>SIG Sauer P365</text>
+	</string>
+	<string id="st_wpn_p365_descr">
+		<text>An everyday carry handgun manufactured by SIG Sauer. Chambered in 9x19 caliber, of 10 round capacity. It is commonly carried by ISG members and Mercenaries through the Zone. It's a lightweight option due to its small size and light materials.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: None\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: None</text>
+	</string>	
+</string_table>

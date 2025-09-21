@@ -27,10 +27,10 @@ The odd ranks (trainee, professional, expert, legend) are barely used most of th
 
 Proper loadout overhauls may not be compatible with these changes.
 
-
 ----------------------------------------------------------
 -Patches:
 Mods adding new guns may not work correctly without observing the new changes.
+
 
 GRENATA expansion
 Redistribution of vanilla grenades to all factions, as by default almost no one carried them. This will make the game harder, and defensive play against grenades users a more important aspect. If the words "Clear Sky Limansk" sends you into horrified screaming, don't use this. Though of course, you can tweak the file as you like for a reduced effect.
@@ -43,17 +43,12 @@ All masters have access to thermite grenades. Military factions and Monolith sta
 
 
 Anomalous Grenades patch
-Master ecologists and Monolithians may carry any of the four.
-
+Master ecologists and Monolithians may carry any of the four types.
 Masters in CS, Duty, Freedom, and ISG may carry one particular type.
-
-Traders will change similarly and require higher goodwill.
-
-Note: Disable the gamedata/configs/items/trade folder in the original Anomalous Grenades.
 
 
 Urban Tactics patch
-Mere rework of the original file to work correctly.
+Mere rework of the original file to work correctly with the new changes.
 
 Note: Disable the mod_npc_loadouts_urban_tactics.ltx file in the original Urban Tactics, or make sure this one overwrites it.
 

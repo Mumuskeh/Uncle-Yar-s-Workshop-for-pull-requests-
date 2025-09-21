@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scopes>
+  <wpn_crosshair_bravo4 x="0" y="0" width="2048" height="1536">
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_bravo4</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_l</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_r</texture>
+    </auto_static>
+  </wpn_crosshair_bravo4>
+  <wpn_crosshair_hamr x="0" y="0" width="2048" height="1536">
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_hamr</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_l</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_r</texture>
+    </auto_static>
+  </wpn_crosshair_hamr>
+  <wpn_crosshair_razorhd x="0" y="0" width="2048" height="1536">
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_razorhd</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_l</texture>
+    </auto_static>
+    <auto_static x="0" y="0" width="1024" height="768" stretch="1">
+      <texture>wpn_crosshair_add_r</texture>
+    </auto_static>
+  </wpn_crosshair_razorhd>
+</scopes>

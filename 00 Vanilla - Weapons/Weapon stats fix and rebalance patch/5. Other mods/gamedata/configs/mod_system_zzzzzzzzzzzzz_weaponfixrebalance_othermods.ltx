@@ -55,6 +55,16 @@ fire_distance	= 200
 $spawn			= "weapons\spectre_tac"
 fire_distance	= 220
 
+;MCX SPEAR
+;this is the 6.8x51 model
+![wpn_sig_spear]
+$spawn			= "weapons\sig_spear_6.8x51"
+bullet_speed	= 915 ; 802
+
+![wpn_sig_spear_tan]
+$spawn			= "weapons\sig_spear_6.8x51_tan"
+bullet_speed	= 915 ; 802
+
 ;TWCP
 ![wpn_mk47]
 inv_weight		= 3.17 ; 3.26
@@ -75,6 +85,18 @@ cost			= 60980
 fire_distance	= 750 ; 1000
 bullet_speed	= 960
 rpm				= 700
+
+
+;BELI FOSFOR  ============ ============ ============ ============
+
+![wpn_p365]
+$spawn			= "weapons\p365"
+; hit_impulse					= 30
+; hit_power					= 0.35, 0.35, 0.35, 0.35
+fire_distance	= 100 ; 230
+; bullet_speed				= 340
+; rpm							= 390
+
 
 ;BERT  ============ ============ ============ ============
 
@@ -140,6 +162,18 @@ bullet_speed	= 274
 ![wpn_greasegun]
 fire_distance	= 200
 bullet_speed	= 274
+
+;MAC-10
+![wpn_mac10]
+$spawn			= "weapons\mac10"
+fire_distance	= 100
+rpm				= 1146
+;in case someone uses the patch in my Hisalute pack, as I change the ID for that one
+![wpn_mac10_45]
+$spawn			= "weapons\mac10_45"
+fire_distance	= 50
+bullet_speed	= 280
+rpm				= 1146
 
 ;Milkor
 ![wpn_m32_mgl]
@@ -374,6 +408,15 @@ bullet_speed	= 925
 rpm				= 1050
 
 
+;;LILJMA  ============ ============ ============ ============
+
+;Sig P320
+![wpn_p320]
+$spawn			= "weapons\p320"
+fire_distance	= 100
+bullet_speed	= 762
+rpm				= 600
+
 ;;MAID  ============ ============ ============ ============
 
 ;Agram 2000
@@ -408,6 +451,19 @@ fire_distance	= 500 ; 1000
 bullet_speed	= 920 ; 910
 
 
+;ONEROCK  ============ ============ ============ ============
+
+;MCX SPEAR
+;this is the 7.62 model, unlike ATHIS' or the one in RWAP
+![wpn_mcx_spear]
+$spawn			= "weapons\mcx_spear"
+inv_weight		= 3.8 ; 2.90
+; hit_impulse                              = 30
+; hit_power                                = 0.49, 0.49, 0.49, 0.49
+fire_distance	= 700 ; 1000
+bullet_speed	= 792 ; 880
+rpm				= 850 ; 770
+
 ;PILLII  ============ ============ ============ ============
 
 ;Glock roni
@@ -436,6 +492,140 @@ fire_distance	= 200
 fire_distance	= 800
 bullet_speed	= 750
 rpm				= 525
+
+
+;;RETROGUE  ============ ============ ============ ============
+
+;RWAP
+;Lotta M4 clones here... wait no, worse, they're just customized M4s :_D
+
+![wpn_am17_rwap]
+$spawn			= "weapons\am17_rwap"
+inv_weight		= 2.5 ; 3.00
+fire_distance	= 650 ; 1000
+rpm				= 850 ; 880
+
+![wpn_amb17_rwap]
+$spawn			= "weapons\amb17_rwap"
+inv_weight		= 2.9 ; 3.00
+fire_distance	= 300 ; 690
+bullet_speed	= 300 ; 600
+rpm				= 700 ; 800
+
+![wpn_bcm_rwap]
+$spawn			= "weapons\am17_rwap"
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+rpm				= 850 ; 770
+
+![wpn_cr7_rwap]
+$spawn			= "weapons\cr7_rwap"
+
+![wpn_g95k_rwap]
+$spawn			= "weapons\g95k_rwap"
+fire_distance	= 400 ; 1000
+bullet_speed	= 915 ; 880
+rpm				= 850 ; 770
+
+![wpn_gen12_rwap]
+$spawn			= "weapons\gen12_rwap"
+fire_distance	= 100
+
+![wpn_hk416_rwap]
+$spawn			= "weapons\hk416_rwap"
+inv_weight		= 3.12 ; 3.00
+fire_modes		= 1, -1
+fire_distance	= 600 ; 750
+bullet_speed	= 810 ; 880
+rpm				= 720 ; 850
+
+![wpn_hk416smr_rwap]
+$spawn			= "weapons\hk416smr_rwap"
+inv_weight		= 3.12 ; 3.00
+fire_modes		= 1, -1
+fire_distance	= 700 ; 1000
+bullet_speed	= 810 ; 880
+rpm				= 720 ; 770
+
+![wpn_krnk_rwap]
+$spawn			= "weapons\krnk_rwap"
+inv_weight		= 2.85 ; 3.00
+fire_distance	= 500 ; 690
+bullet_speed	= 680 ; 600
+rpm				= 725 ; 880
+
+![wpn_ks1_rwap]
+$spawn			= "weapons\ks1_rwap"
+inv_weight		= 3.12 ; 3.00
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+
+![wpn_l119a2_rwap]
+$spawn			= "weapons\l119a2_rwap"
+
+![wpn_m110k1_rwap]
+$spawn			= "weapons\l119a2_rwap"
+inv_weight		= 6.27 ; 4.5
+bullet_speed	= 783 ; 800
+
+![wpn_mb47_rwap]
+$spawn			= "weapons\mb47_rwap"
+
+![wpn_mcx_rwap]
+$spawn			= "weapons\mcx_rwap"
+inv_weight		= 2.61 ; 3.00
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.5, 0.5, 0.5, 0.5
+fire_distance	= 500 ; 1000
+bullet_speed	= 915
+rpm				= 850 ; 770
+
+![wpn_mcxspear_rwap]
+$spawn			= "weapons\mcxspear_rwap"
+inv_weight		= 3.4 ; 3.00
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+rpm				= 850 ; 770
+
+![wpn_mpx_rwap]
+$spawn			= "weapons\mpx_rwap"
+inv_weight		= 2.7 ; 2.80
+fire_distance	= 250
+
+![wpn_n4_rwap]
+$spawn			= "weapons\n4_rwap"
+inv_weight		= 3.12 ; 3.00
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+
+![wpn_rattler_rwap]
+$spawn			= "weapons\rattler_rwap"
+inv_weight		= 2.5 ; 3.00
+hit_impulse		= 25 ; 33
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.62, 0.62, 0.62, 0.62
+fire_distance	= 375 ; 600
+bullet_speed	= 850 ; 500
+; rpm				= 900  ?
+
+![wpn_sg553_rwap]
+$spawn			= "weapons\sg553_rwap"
+inv_weight		= 3.080 ; 3.10
+fire_distance	= 400 ; 900
+bullet_speed	= 911 ; 715
+rpm				= 700 ; 600
+
+![wpn_sg553tac_rwap]
+$spawn			= "weapons\sg553tac_rwap"
+inv_weight		= 3.130 ; 3.10
+fire_distance	= 400 ; 900
+bullet_speed	= 911 ; 715
+rpm				= 700 ; 600
+
+![wpn_urgi_rwap]
+$spawn			= "weapons\urgi_rwap"
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+rpm				= 850 ; 770
 
 
 ;;SIBERCAT DEMONIZED LASSIE  ============ ============ ============ ============
@@ -480,8 +670,18 @@ bullet_speed	= 351 ; 345
 
 ;;Teivaz  ============ ============ ============ ============
 
+;Colt 357
+![wpn_revolver357]
+$spawn			= "weapons\revolver357"
+; hit_impulse						= 45
+; hit_power						= 0.6, 0.6, 0.6, 0.6
+; fire_distance					= 500
+; bullet_speed					= 430
+; rpm								= 200
+
 ;Gunslinger P90 Tactical
 ![wpn_p90tac]
+$spawn			= "weapons\p90tac"
 fire_distance	= 400
 bullet_speed	= 715
 rpm				= 975

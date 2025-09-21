@@ -1,0 +1,600 @@
+[wpn_cr7_rwap]:identity_immunities,weapon_probability,default_weapon_params,wpn_g3_sounds
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\sig550"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_cr7_rwap
+
+class								= WP_SVD
+slot								= 2
+animation_slot						= 2
+ef_main_weapon_type					= 2
+ef_weapon_type						= 8
+hand_dependence						= 1
+single_handed						= 0
+
+default_to_ruck						= false
+sprint_allowed						= true
+
+icons_texture						= ui\rwapar_weapon_icons
+inv_grid_height						= 2
+inv_grid_width						= 6
+inv_grid_x							= 0
+inv_grid_y							= 6
+inv_name							= st_wpn_cr7
+inv_name_short						= st_wpn_cr7
+description							= st_wpn_cr7_descr
+
+kind								= w_sniper
+inv_weight							= 6.80
+cost								= 80000
+repair_type							= rifle_7
+weapon_class						= sniper_rifle
+
+hud									= wpn_cr7_rwap_hud
+visual								= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+position							= -0.026, 0.11, -0.25
+orientation							= 0, 0, 0
+fire_point							= 0, 0.218, 0.656
+fire_point2							= 0, 0.161, 0.583
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position						= -0.07, -0.24, -0.2
+strap_orientation					= 0, 0, 110
+ph_mass								= 4
+
+flame_particles						= weapons\generic_weapon05
+smoke_particles						= amik\weapons\smoke_particles\smoke_particles_01
+grenade_flame_particles				= amik\weapons\grenade_flame_particles\grenade_flame_particles_00
+
+shell_point							= -0.02, 0.17, 0.18
+shell_dir							= 0,0,0.4
+shell_particles						= weapons\762x54
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 5
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_svu, up_gr_seconab_svu, up_gr_thirdab_svu, up_gr_fourtab_svu, up_gr_fourtcd_svu, up_gr_fourtef_svu, up_gr_fifthab_svu
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_svu
+
+upgr_icon_x							= 600
+upgr_icon_y							= 300
+upgr_icon_width						= 300
+upgr_icon_height					= 100
+
+fire_modes							= 1
+ammo_class							= ammo_magnum_300, ammo_magnum_300_bad, ammo_magnum_300_verybad
+ammo_elapsed						= 10
+ammo_mag_size						= 10
+startup_ammo						= 20
+
+scopes								= acog, eot, ac10632, c-more, exps3, bravo4, hamr, razorhd, he510, e0t2, leupold, marchf, specter
+scope_status						= 0
+scope_zoom_factor					= 0
+
+silencer_name						= wpn_sil_nato
+silencer_status						= 2
+silencer_x							= 250
+silencer_y							= 5
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= amik\weapons\smoke_particles\silencer_smoke_particles_02
+
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name				= wpn_addon_grenade_launcher
+grenade_launcher_status				= 0
+grenade_launcher_x					= 126
+grenade_launcher_y					= 24
+launch_speed						= 0
+
+hit_impulse							= 40
+hit_power							= 1.0, 1.0, 1.0, 1.0
+hit_type							= fire_wound
+fire_distance						= 1200
+bullet_speed						= 900
+rpm									= 100
+rpm_empty_click						= 200
+
+use_aim_bullet						= false
+time_to_aim							= 0.0 ;	3.0
+zoom_dof							= 0.5, 1.0, 180
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0.0, 0.5, 5, 2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 5.3
+fire_dispersion_base				= 0.24
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.0005
+misfire_start_condition				= 0.7 ;	0.68
+misfire_start_prob					= 0.06
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.1
+
+condition_queue_shot_dec			= 0.0009
+condition_shot_dec					= 0.0009
+
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 0.556
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.0675
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 0.9
+zoom_cam_relax_speed				= 10
+zoom_cam_dispersion					= 0.466
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.0525
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 0.85
+
+PDM_disp_accel_factor				= 2.3
+PDM_disp_base						= 0.8
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 2.3
+
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 360
+holder_fov_modifier					= 1.0
+holder_range_modifier				= 1.0
+min_radius							= 0
+max_radius							= 500
+hit_probability_gd_novice			= 1.00
+hit_probability_gd_stalker			= 1.00
+hit_probability_gd_veteran			= 1.00
+hit_probability_gd_master			= 1.00
+
+kill_msg_x							= 0
+kill_msg_y							= 28
+kill_msg_width						= 84
+kill_msg_height						= 28
+
+snd_empty					= weapons\noveske\empty
+snd_draw					= weapons\noveske\draw
+snd_holster					= weapons\noveske\hide
+snd_reload					= weapons\cr7\reload
+snd_reload_empty			= weapons\cr7\reload_empty
+scripted_snd_bore			= weapons\cr7\inspect
+scripted_snd_bore_empty		= weapons\noveske\inspect_1
+scripted_snd_bore_jammed	= weapons\noveske\inspect_3
+snd_reload_misfire			= weapons\cr7\unjam
+snd_switch_mode				= weapons\noveske\fireswitch
+
+scripted_snd_ammo_check				= weapons\noveske\magcheck
+scripted_snd_ammo_check_empty		= weapons\noveske\magcheck
+scripted_snd_ammo_check_jammed		= weapons\noveske\magcheck
+scripted_snd_ammo_check_empty_jammed= weapons\noveske\magcheck
+; ---------------------------------------------------------------------------------------------------------------------------------------
+[wpn_cr7_rwap_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= 0.0, -0.02, 0
+hands_position_16x9		= 0.0, -0.02, 0
+hands_orientation			= 0.0, 2, -4
+hands_orientation_16x9		= 0.0, 2, -4
+
+aim_hud_offset_pos			= -0.06418, 0.017, -0.055
+aim_hud_offset_pos_16x9		= -0.06418, 0.017, -0.055
+aim_hud_offset_rot			= 0.034, 0, -0.0625
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.0625
+
+lowered_hud_offset_pos		= 0.038, -0.02, 0
+lowered_hud_offset_pos_16x9	= 0.038, -0.02, 0
+lowered_hud_offset_rot		= -0.05,-0.7,0.45
+lowered_hud_offset_rot_16x9	= -0.05,-0.7,0.45
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+anm_bore		= cr7_inspect_h, cr7_inspect_wpn
+anm_bore_empty	= cr7_inspect_empty_h, cr7_inspect_empty_wpn
+anm_bore_jammed	= cr7_inspect_jam_h, cr7_inspect_jam_wpn
+anm_show		= cr7_draw_h, cr7_idle_wpn, 0.75 
+anm_show_empty	= cr7_draw_h, cr7_idle_wpn_empty, 0.75
+anm_show_jammed	= cr7_draw_h, cr7_idle_wpn_jam, 0.75 
+anm_hide		= cr7_hide_h, cr7_idle_wpn
+anm_hide_empty	= cr7_hide_h, cr7_idle_wpn_empty
+anm_hide_jammed	= cr7_hide_h, cr7_idle_wpn_jam
+
+anm_idle					= cr7_idle_h, cr7_idle_wpn
+anm_idle_aim_moving			= cr7_walk_h, cr7_idle_wpn
+anm_idle_aim_moving_crouch	= cr7_walk_h, cr7_idle_wpn, 0.8 
+anm_idle_moving				= cr7_walk_h, cr7_idle_wpn, 0.95 
+anm_idle_moving_crouch		= cr7_walk_h, cr7_idle_wpn
+anm_idle_sprint				= cr7_sprint_h, cr7_idle_wpn, 1.2
+
+anm_idle_empty						= cr7_idle_h, cr7_idle_wpn_empty
+anm_idle_aim_empty					= cr7_aim_h, cr7_idle_wpn_empty	
+anm_idle_aim_moving_empty			= cr7_walk_h, cr7_idle_wpn_empty
+anm_idle_aim_moving_crouch_empty	= cr7_walk_h, cr7_idle_wpn_empty, 0.8 
+anm_idle_moving_empty				= cr7_walk_h, cr7_idle_wpn_empty, 0.95 
+anm_idle_moving_crouch_empty		= cr7_walk_h, cr7_idle_wpn_empty
+anm_idle_sprint_empty				= cr7_sprint_h, cr7_idle_wpn_empty, 1.2
+
+anm_idle_jammed						= cr7_idle_h, cr7_idle_wpn_jam
+anm_idle_aim_jammed					= cr7_aim_h, cr7_idle_wpn_jam
+anm_idle_aim_moving_jammed			= cr7_walk_h, cr7_idle_wpn_jam 
+anm_idle_aim_moving_crouch_jammed	= cr7_walk_h, cr7_idle_wpn_jam, 0.8 
+anm_idle_moving_jammed				= cr7_walk_h, cr7_idle_wpn_jam, 0.95 
+anm_idle_moving_crouch_jammed		= cr7_walk_h, cr7_idle_wpn_jam
+anm_idle_sprint_jammed				= cr7_sprint_h, cr7_idle_wpn_jam, 1.2
+
+anm_reload			= cr7_reload_h, cr7_reload_wpn
+anm_reload_empty	= cr7_reload_empty_h, cr7_reload_wpn_empty
+
+anm_reload_misfire	= cr7_unjam_h, cr7_unjam_wpn
+
+anm_switch_mode		= cr7_fire_switch_h, cr7_fire_switch_wpn
+
+anm_shots		= cr7_shoot
+anm_idle_aim	= cr7_aim_h, cr7_aim_wpn
+
+anm_ammo_check				= cr7_mag_check_h, cr7_mag_check_wpn
+anm_ammo_check_empty		= cr7_mag_check_h, cr7_mag_check_empty_wpn
+anm_ammo_check_jammed		= cr7_mag_check_h, cr7_mag_check_jam_wpn
+anm_ammo_check_empty_jammed	= cr7_mag_check_h, cr7_mag_check_jam_empty_wpn
+
+ ; Transition/Intermediate Animations
+anm_sprint2walk			= cr7_sprint2walk, cr7_idle_wpn, 1
+anm_sprint2walk_empty	= cr7_sprint2walk, cr7_idle_wpn_empty, 1
+anm_sprint2walk_jam		= cr7_sprint2walk, cr7_idle_wpn_jam, 1
+
+; Transition Definitions
+ts_pattern_sprint2walk		= anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+ts_pattern_sprint2walk_aim	= anm_idle_sprint, ^anm_idle_aim.*, anm_sprint2walk, 1
+ts_strict_sprint2walk_idle	= anm_idle_sprint, anm_idle, anm_sprint2walk
+ts_strict_sprint2walk_move	= anm_idle_sprint, anm_idle_moving, anm_sprint2walk
+
+shell_bone	= bolt
+shell_dir	= 0, 1, 0
+shell_point	= 0,0,0
+
+fire_bone	= wpn_body
+fire_point	= 0.01, 0.022, 0.95
+freelook_z_offset_mul	= 0.1
+
+;------------------------------------------------------------------------------------------------
+[wpn_cr7_rwap_acog]:wpn_cr7_rwap
+inv_weight		= 6.90
+
+hud				= wpn_cr7_rwap_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 76
+1icon_layer_y	= -8
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_acog_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_acog_hud
+
+aim_hud_offset_pos			= -0.0637, 0.021, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.021, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;-------------------------------------------------------------------------------
+[wpn_cr7_rwap_ac10632]:wpn_cr7_rwap
+1icon_layer		= ac10632
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+inv_weight		= 6.82
+
+hud				= wpn_cr7_rwap_ac10632_hud
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_ac10632_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_ac10632_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.021, -0.0720
+aim_hud_offset_pos_16x9		= -0.0637, 0.021, -0.0720
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;-------------------------------------------------------------------------------
+[wpn_cr7_rwap_eot]:wpn_cr7_rwap
+1icon_layer		= eot
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+inv_weight		= 6.82
+
+hud				= wpn_cr7_rwap_eot_hud
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_eot_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_xps2_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.017, -0.0720
+aim_hud_offset_pos_16x9		= -0.0637, 0.017, -0.0720
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;-----------------------------------------------------------------------------
+[wpn_cr7_rwap_c-more]:wpn_cr7_rwap
+visual			= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+hud				= wpn_cr7_rwap_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+inv_weight		= 6.82
+
+[wpn_cr7_rwap_c-more_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_c-more_hud.ogf
+
+aim_hud_offset_pos			= -0.064, 0.022, -0.072
+aim_hud_offset_pos_16x9		= -0.064, 0.022, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_e0t2]:wpn_cr7_rwap
+1icon_layer		= e0t2
+1icon_layer_x	= 110
+1icon_layer_y	= -6
+
+inv_weight		= 6.82
+
+hud				= wpn_cr7_rwap_e0t2_hud
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_e0t2_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_xps2_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.017, -0.0720
+aim_hud_offset_pos_16x9		= -0.0637, 0.017, -0.0720
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_exps3]:wpn_cr7_rwap
+1icon_layer		= exps3
+1icon_layer_x	= 110
+1icon_layer_y	= -6
+
+inv_weight		= 6.82
+
+hud				= wpn_cr7_rwap_exps3_hud
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_exps3_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_exps3_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.0075, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.0075, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_he510]:wpn_cr7_rwap
+1icon_layer		= he510
+1icon_layer_x	= 110
+1icon_layer_y	= -6
+
+inv_weight		= 6.82
+
+hud				= wpn_cr7_rwap_he510_hud
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_he510_hud]:wpn_cr7_rwap_hud
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_he510_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.0175, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.0175, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_bravo4]:wpn_cr7_rwap
+inv_weight		= 6.90
+
+hud				= wpn_cr7_rwap_bravo4_hud
+
+1icon_layer		= bravo4
+1icon_layer_x	= 76
+1icon_layer_y	= -8
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_bravo4
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+use_alt_aim_hud	= true
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_bravo4_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_bravo4_hud
+
+aim_hud_offset_pos			= -0.064, 0.019, -0.072
+aim_hud_offset_pos_16x9		= -0.064, 0.019, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+
+aim_hud_offset_alt_pos		= -0.0637, -0.039, -0.0720
+aim_hud_offset_alt_pos_16x9	= -0.0637, -0.039, -0.0720
+aim_hud_offset_alt_rot		= 0.034, 0, -0.0625
+aim_hud_offset_alt_rot_16x9	= 0.034, 0, -0.0625
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_hamr]:wpn_cr7_rwap
+inv_weight		= 6.90
+
+hud				= wpn_cr7_rwap_hamr_hud
+
+1icon_layer		= hamr
+1icon_layer_x	= 76
+1icon_layer_y	= -8
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_hamr
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+use_alt_aim_hud	= true
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_hamr_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_hamr_hud
+
+aim_hud_offset_pos			= -0.0637, 0.0135, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.0135, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+
+aim_hud_offset_alt_pos		= -0.0637, -0.027, -0.0720
+aim_hud_offset_alt_pos_16x9	= -0.0637, -0.027, -0.0720
+aim_hud_offset_alt_rot		= 0.034, 0, -0.0625
+aim_hud_offset_alt_rot_16x9	= 0.034, 0, -0.0625
+;--------------------------------------------------------------------------------
+[wpn_cr7_rwap_razorhd]:wpn_cr7_rwap
+inv_weight		= 7
+
+hud				= wpn_cr7_rwap_razorhd_hud
+
+1icon_layer		= razorhd
+1icon_layer_x	= 76
+1icon_layer_y	= -8
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_razorhd
+scope_zoom_factor	= 11.5
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+use_alt_aim_hud	= true
+
+visual	= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_razorhd_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_razorhd_hud
+
+aim_hud_offset_pos			= -0.0637, 0.0128, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.0128, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+
+aim_hud_offset_alt_pos		= -0.0635, -0.045, -0.11
+aim_hud_offset_alt_pos_16x9	= -0.0635, -0.045, -0.11
+aim_hud_offset_alt_rot		= 0.034, 0, -0.0625
+aim_hud_offset_alt_rot_16x9	= 0.034, 0, -0.0625
+;------------------------------------------------------------------------------------------------
+[wpn_cr7_rwap_specter]:wpn_cr7_rwap
+1icon_layer		= specter
+1icon_layer_x	= 65
+1icon_layer_y	= -14
+
+inv_weight		= 6.90
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+hud				= wpn_cr7_rwap_specter_hud
+; visual		= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_specter_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_specter_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.018, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.018, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+
+aim_hud_offset_alt_pos		= -0.0637, -0.012, -0.11
+aim_hud_offset_alt_pos_16x9	= -0.0637, -0.012, -0.11
+aim_hud_offset_alt_rot		= 0.038, 0, -0.0625
+aim_hud_offset_alt_rot_16x9	= 0.038, 0, -0.0625
+;------------------------------------------------------------------------------------------------
+[wpn_cr7_rwap_leupold]:wpn_cr7_rwap
+1icon_layer		= leupold
+1icon_layer_x	= 85
+1icon_layer_y	= -2
+
+inv_weight		= 7
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold_rmr
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+hud				= wpn_cr7_rwap_leupold_hud
+; visual		= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_leupold_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_leupold_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.02, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.02, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+;------------------------------------------------------------------------------------------------
+[wpn_cr7_rwap_marchf]:wpn_cr7_rwap
+1icon_layer		= marchf
+1icon_layer_x	= 75
+1icon_layer_y	= -10
+
+inv_weight		= 7.10
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+hud				= wpn_cr7_rwap_marchf_hud
+; visual		= dynamics\weapons\wpn_cr7_rwap\wpn_cr7_rwap.ogf
+
+[wpn_cr7_rwap_marchf_hud]:wpn_cr7_rwap_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_cr7_rwap\wpn_cr7_rwap_marchf_hud.ogf
+
+aim_hud_offset_pos			= -0.0637, 0.0128, -0.072
+aim_hud_offset_pos_16x9		= -0.0637, 0.0128, -0.072
+aim_hud_offset_rot			= 0.034, 0, -0.068
+aim_hud_offset_rot_16x9		= 0.034, 0, -0.068
+
+aim_hud_offset_alt_pos		= -0.0635, -0.045, -0.11
+aim_hud_offset_alt_pos_16x9	= -0.0635, -0.045, -0.11
+aim_hud_offset_alt_rot		= 0.034, 0, -0.0625
+aim_hud_offset_alt_rot_16x9	= 0.034, 0, -0.0625

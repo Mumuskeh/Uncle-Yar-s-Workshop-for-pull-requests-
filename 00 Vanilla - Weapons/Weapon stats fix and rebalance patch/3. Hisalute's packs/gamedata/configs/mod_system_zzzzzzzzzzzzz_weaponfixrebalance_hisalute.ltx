@@ -181,6 +181,8 @@ bullet_speed	= 840
 
 ![wpn_hk51]
 $spawn			= "weapons\hk51"
+hit_impulse		= 40 ; 35
+hit_power		= 1.0, 1.0, 1.0, 1.0 ; 0.57, 0.57, 0.57, 0.57
 
 ![wpn_hpsa_2022]
 $spawn			= "weapons\hpsa_2022"
@@ -196,11 +198,17 @@ $spawn			= "weapons\m4_des"
 fire_distance	= 500
 
 ![wpn_m16a4_sniper]
-$spawn			= "weapons\m16a4_sniper"
+$spawn			= "weapons\sam-r"
 fire_distance	= 650
 
 ![wpn_mac10]
 $spawn			= "weapons\mac10"
+fire_distance	= 50
+bullet_speed	= 280
+rpm				= 1146
+;in case someone uses my patch for Billwa's MAC, as I change the ID for this one
+![wpn_mac10_45]
+$spawn			= "weapons\mac10_45"
 fire_distance	= 50
 bullet_speed	= 280
 rpm				= 1146
@@ -210,11 +218,6 @@ $spawn			= "weapons\mac11"
 kind			= w_pistol
 fire_distance	= 100
 rpm				= 1350
-
-![wpn_mac10_9x19]
-$spawn			= "weapons\mac10_9x19"
-fire_distance	= 100
-rpm				= 1146
 
 ![wpn_mg36]
 fire_distance	= 600
@@ -226,9 +229,9 @@ fire_distance	= 600
 ![wpn_mk48]
 $spawn			= "weapons\mk48"
 inv_weight		= 8.2
-fire_distance	= 850 ;1000
-bullet_speed	= 855 ;940
-cam_dispersion	= 1.17 ;1.27
+fire_distance	= 850 ; 1000
+bullet_speed	= 855 ; 940
+cam_dispersion	= 1.17 ; 1.27
 
 ![wpn_mp9]
 ;it uses 5.7 ammo so we look at the p90. Also nerf the rpm but not too much
@@ -291,6 +294,7 @@ $spawn			= "weapons\saiga_m3"
 fire_distance	= 500
 
 ![wpn_scar_556]
+$spawn			= "weapons\scar_556"
 inv_weight		= 3.29
 fire_distance	= 500
 bullet_speed	= 710

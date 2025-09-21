@@ -1,0 +1,642 @@
+;---------------------------- AUG 3 CUSTOM CQC .300 -----------------------------------------
+[wpn_aug_a3_custom_300_bas]:wpn_aug_a3_custom_bas
+$spawn			= "weapons\aug_a3_custom_300_bas"
+parent_section	= wpn_aug_a3_custom_300_bas
+
+inv_name		= st_wpn_aug_a3_custom_300_bas
+inv_name_short	= st_wpn_aug_a3_custom_300_bas
+description		= st_wpn_aug_a3_custom_300_bas_descr
+
+hud				= wpn_aug_a3_custom_300_bas_hud
+
+cost			= 56600
+
+ammo_class		= ammo_300blk_ap, ammo_300blk_fmj
+; ammo_class		=  ammo_300blk_fmj, ammo_300blk_fmj_bad, ammo_300blk_fmj_verybad, ammo_300blk_ap, ammo_300blk_ap_bad, ammo_300blk_ap_verybad
+
+hit_impulse		= 30
+hit_power		= 0.57, 0.57, 0.57, 0.57
+fire_distance	= 400
+bullet_speed	= 259
+ap_modifier		= 1.3
+
+condition_queue_shot_dec	= 0.0010
+condition_shot_dec			= 0.0010
+
+[wpn_aug_a3_custom_300_bas_hud]:wpn_aug_a3_custom_bas_hud
+
+;---------------------------- RUGER SR566 .300 -----------------------------------------
+[wpn_m4_ru556_300]:wpn_m4_ru556
+$spawn			= "weapons\m4_ru556_300"
+parent_section	= wpn_m4_ru556_300
+
+inv_name		= st_wpn_m4_ru556_300
+inv_name_short	= st_wpn_m4_ru556_300
+description		= st_wpn_m4_ru556_300_descr
+
+cost			= 56600
+
+ammo_class		= ammo_300blk_ap, ammo_300blk_fmj
+; ammo_class		=  ammo_300blk_fmj, ammo_300blk_fmj_bad, ammo_300blk_fmj_verybad, ammo_300blk_ap, ammo_300blk_ap_bad, ammo_300blk_ap_verybad
+
+hit_impulse		= 30
+hit_power		= 0.57, 0.57, 0.57, 0.57
+fire_distance	= 400
+bullet_speed	= 259
+ap_modifier		= 1.3
+
+condition_queue_shot_dec	= 0.0010
+condition_shot_dec			= 0.0010
+
+[wpn_m4_ru556_300_hud]:wpn_m4_ru556_hud
+
+[wpn_m4_ru556_300_acog]:wpn_m4_ru556_300
+inv_weight		= 3.3
+
+hud				= wpn_m4_ru556_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+visual	= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_acog_hud]:wpn_m4_ru556_acog_hud
+
+[wpn_m4_ru556_300_specter]:wpn_m4_ru556_300
+$spawn			= "weapons\m4_ru556_specter"
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 65
+1icon_layer_y	= -8
+
+inv_weight		= 3.620
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_specter_hud]:wpn_m4_ru556_specter_hud
+
+[wpn_m4_ru556_300_leupold]:wpn_m4_ru556_300
+$spawn			= "weapons\m4_ru556_leupold"
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_leupold_hud
+
+1icon_layer		= leupold
+1icon_layer_x	= 65
+1icon_layer_y	= -4
+
+inv_weight		= 3.630
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold_rmr
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_leupold_hud]:wpn_m4_ru556_leupold_hud
+
+[wpn_m4_ru556_300_pn23]:wpn_m4_ru556_300
+$spawn			= "weapons\m4_ru556_pn23"
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_pn23_hud
+
+1icon_layer		= pn23
+1icon_layer_x	= 64
+1icon_layer_y	= -12
+
+;scope_nightvision	= scope_nightvision_3gen
+
+nv_scope_status	= 1
+
+inv_weight		= 3.600
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_pn23_hud]:wpn_m4_ru556_pn23_hud
+
+[wpn_m4_ru556_300_gauss_sight]:wpn_m4_ru556_300
+$spawn			= "weapons\m4_ru556_gauss_sight"
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_gauss_sight_hud
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 64
+1icon_layer_y	= 2
+
+inv_weight		= 4.350
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_gauss_sight_hud]:wpn_m4_ru556_gauss_sight_hud
+
+[wpn_m4_ru556_300_marchf]:wpn_m4_ru556_300
+1icon_layer		= marchf
+1icon_layer_x	= 75
+1icon_layer_y	= -3
+
+inv_weight		= 3.590
+
+hud				= wpn_m4_ru556_marchf_hud
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_m4_ru556_300_marchf_hud]:wpn_m4_ru556_marchf_hud
+
+[wpn_m4_ru556_300_ac10632]:wpn_m4_ru556_300
+1icon_layer		= ac10632
+1icon_layer_x	= 90
+1icon_layer_y	= -5
+
+inv_weight		= 3.075
+
+hud				= wpn_m4_ru556_ac10632_hud
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+[wpn_m4_ru556_300_ac10632_hud]:wpn_m4_ru556_ac10632_hud
+
+[wpn_m4_ru556_300_eot]:wpn_m4_ru556_300
+1icon_layer		= eot
+1icon_layer_x	= 90
+1icon_layer_y	= -4
+
+inv_weight		= 3.250
+
+hud				= wpn_m4_ru556_eot_hud
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+[wpn_m4_ru556_300_eot_hud]:wpn_m4_ru556_eot_hud
+
+[wpn_m4_ru556_300_c-more]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+hud				= wpn_m4_ru556_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 90
+1icon_layer_y	= -4
+
+inv_weight		= 3.250
+
+[wpn_m4_ru556_300_c-more_hud]:wpn_m4_ru556_c-more_hud
+
+[wpn_m4_ru556_300_0kp2]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_0kp2_hud
+
+inv_weight		= 3.150
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 90
+1icon_layer_y	= 0
+
+[wpn_m4_ru556_300_0kp2_hud]:wpn_m4_ru556_0kp2_hud
+
+[wpn_m4_ru556_300_mepro]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_mepro_hud
+
+inv_weight		= 3.322
+
+1icon_layer		= mepro
+1icon_layer_x	= 90
+1icon_layer_y	= 0
+
+[wpn_m4_ru556_300_mepro_hud]:wpn_m4_ru556_mepro_hud
+
+[wpn_m4_ru556_300_aimpoint]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_aimpoint_hud
+
+inv_weight		= 3.080
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 90
+1icon_layer_y	= -10
+
+[wpn_m4_ru556_300_aimpoint_hud]:wpn_m4_ru556_aimpoint_hud
+
+[wpn_m4_ru556_300_point_aimpro]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_point_aimpro_hud
+
+inv_weight		= 3.280
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+[wpn_m4_ru556_300_point_aimpro_hud]:wpn_m4_ru556_point_aimpro_hud
+
+[wpn_m4_ru556_300_ekp8_18]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_ekp8_18_hud
+
+inv_weight		= 3.222
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 90
+1icon_layer_y	= 2
+
+[wpn_m4_ru556_300_ekp8_18_hud]:wpn_m4_ru556_ekp8_18_hud
+
+[wpn_m4_ru556_300_e0t2]:wpn_m4_ru556_300
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+hud				= wpn_m4_ru556_e0t2_hud
+
+inv_weight		= 3.177
+
+1icon_layer		= e0t2
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+[wpn_m4_ru556_300_e0t2_hud]:wpn_m4_ru556_e0t2_hud
+
+[wpn_m4_ru556_300_compm4s]:wpn_m4_ru556_300
+hud				= wpn_m4_ru556_compm4s_hud
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -10
+
+inv_weight		= 3.330
+
+[wpn_m4_ru556_300_compm4s_hud]:wpn_m4_ru556_compm4s_hud
+
+[wpn_m4_ru556_300_kemper]:wpn_m4_ru556_300
+inv_weight		= 3.216
+
+hud				= wpn_m4_ru556_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 100
+1icon_layer_y	= -6
+
+visual			= dynamics\weapons\wpn_ru556\wpn_ru556_world.ogf
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_m4_ru556_300_kemper_hud]:wpn_m4_ru556_kemper_hud
+
+
+
+;------------------------------------ SCAR-SC ----------------------------------------------
+[wpn_scar_sc_tac]:wpn_scar_l_tac
+parent_section			= wpn_scar_sc_tac
+
+; icons_texture			= ui\ui_icon_bas_scar-l
+
+; inv_grid_width			= 5
+; inv_grid_height			= 2
+; inv_grid_x				= 0
+; inv_grid_y				= 0
+
+inv_name				= st_wpn_scar_sc_tac
+inv_name_short			= st_wpn_scar_sc_tac
+description				= st_wpn_scar_sc_tac_descr
+
+cost					= 59230
+
+hud						= wpn_scar_sc_tac_hud
+visual					= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+ammo_class		= ammo_300blk_ap, ammo_300blk_fmj
+; ammo_class		=  ammo_300blk_fmj, ammo_300blk_fmj_bad, ammo_300blk_fmj_verybad, ammo_300blk_ap, ammo_300blk_ap_bad, ammo_300blk_ap_verybad
+
+hit_impulse		= 30
+hit_power		= 0.57, 0.57, 0.57, 0.57
+fire_distance	= 225
+bullet_speed	= 259
+ap_modifier		= 1.3
+
+condition_queue_shot_dec= 0.0009
+condition_shot_dec		= 0.0009
+
+;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
+[wpn_scar_sc_tac_hud]:wpn_scar_l_tac_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_hud.ogf
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_scar_sc_tac_acog]:wpn_scar_sc_tac
+inv_weight		= 3.650
+
+hud				= wpn_scar_sc_tac_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 96
+1icon_layer_y	= -18
+
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+[wpn_scar_sc_tac_acog_hud]:wpn_scar_l_tac_acog_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_scar_sc_tac_ac10632]:wpn_scar_sc_tac
+1icon_layer		= ac10632
+1icon_layer_x	= 110
+1icon_layer_y	= -18
+
+inv_weight		= 3.415
+
+hud				= wpn_scar_sc_tac_ac10632_hud
+
+visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+[wpn_scar_sc_tac_ac10632_hud]:wpn_scar_l_tac_ac10632_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_scar_sc_tac_eot]:wpn_scar_sc_tac
+1icon_layer		= eot
+1icon_layer_x	= 110
+1icon_layer_y	= -16
+
+inv_weight		= 3.600
+
+hud				= wpn_scar_sc_tac_eot_hud
+
+visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+[wpn_scar_sc_tac_eot_hud]:wpn_scar_l_tac_eot_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_scar_sc_tac_c-more]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 110
+1icon_layer_y	= -16
+
+inv_weight		= 3.600
+
+[wpn_scar_sc_tac_c-more_hud]:wpn_scar_l_tac_c-more_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_scar_sc_tac_specter]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 75
+1icon_layer_y	= -18
+
+inv_weight			= 3.970
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud			= true
+
+[wpn_scar_sc_tac_specter_hud]:wpn_scar_l_tac_specter_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_scar_sc_tac_mepro]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_mepro_hud
+
+inv_weight		= 3.670
+
+1icon_layer		= mepro
+1icon_layer_x	= 110
+1icon_layer_y	= -14
+
+[wpn_scar_sc_tac_mepro_hud]:wpn_scar_l_tac_mepro_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_mepro_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_leupold]:wpn_scar_sc_tac
+visual				= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud					= wpn_scar_sc_tac_leupold_hud
+
+1icon_layer			= leupold
+1icon_layer_x		= 85
+1icon_layer_y		= -14
+
+inv_weight			= 3.980
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+
+[wpn_scar_sc_tac_leupold_hud]:wpn_scar_l_tac_leupold_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_leupold_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_aimpoint]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_aimpoint_hud
+
+inv_weight		= 3.430
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 106
+1icon_layer_y	= -18
+
+[wpn_scar_sc_tac_aimpoint_hud]:wpn_scar_l_tac_aimpoint_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_aimpoint_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_point_aimpro]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_point_aimpro_hud
+
+inv_weight		= 3.630
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 110
+1icon_layer_y	= -20
+
+[wpn_scar_sc_tac_point_aimpro_hud]:wpn_scar_l_tac_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_aimpoint_pro_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_ekp8_18]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_ekp8_18_hud
+
+inv_weight		= 3.570
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 110
+1icon_layer_y	= -10
+
+[wpn_scar_sc_tac_ekp8_18_hud]:wpn_scar_l_tac_ekp8_18_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_ekp8_18_hud.
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_e0t2]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_e0t2_hud
+
+inv_weight		= 3.525
+
+1icon_layer		= e0t2
+1icon_layer_x	= 110
+1icon_layer_y	= -16
+
+[wpn_scar_sc_tac_e0t2_hud]:wpn_scar_l_tac_e0t2_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_e0t2_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_pn23]:wpn_scar_sc_tac
+visual				= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud					= wpn_scar_sc_tac_pn23_hud
+
+1icon_layer			= pn23
+1icon_layer_x		= 76
+1icon_layer_y		= -20
+
+;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
+
+nv_scope_status		= 1
+
+inv_weight			= 3.900
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_scar_sc_tac_pn23_hud]:wpn_scar_l_tac_pn23_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_pn23_hud.ogf
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_gauss_sight]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_gauss_sight_hud
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 70
+1icon_layer_y	= -10
+
+inv_weight			= 4.700
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+
+;installed_upgrades	= up_fourtc_svd_nimble
+
+[wpn_scar_sc_tac_gauss_sight_hud]:wpn_scar_l_tac_gauss_sight_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_gauss_hud.ogf
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_compm4s]:wpn_scar_sc_tac
+hud				= wpn_scar_sc_tac_compm4s_hud
+
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 120
+1icon_layer_y	= -20
+
+inv_weight		= 3.680
+
+[wpn_scar_sc_tac_compm4s_hud]:wpn_scar_l_tac_compm4s_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_compm4s_hud.ogf
+;--------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_kemper]:wpn_scar_l_tac_kemper
+inv_weight		= 3.570
+
+hud				= wpn_scar_sc_tac_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 120
+1icon_layer_y	= -20
+
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_scar_sc_tac_kemper_hud]:wpn_scar_l_tac_kemper_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_kemper_hud.ogf
+;------------------------------------------------------------------------------------------------
+[wpn_scar_sc_tac_0kp2]:wpn_scar_sc_tac
+visual			= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_world.ogf
+
+hud				= wpn_scar_sc_tac_0kp2_hud
+
+inv_weight		= 3.500
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 105
+1icon_layer_y	= -12
+
+[wpn_scar_sc_tac_0kp2_hud]:wpn_scar_l_tac_0kp2_hud
+item_visual	= dynamics\weapons\wpn_scar_sc_tac\wpn_scar_sc_tac_0kp2_hud.ogf

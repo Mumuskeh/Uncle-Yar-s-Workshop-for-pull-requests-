@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_mag_aug_300">
+		<text>Standard 5.56x45 AUG Magazine</text>
+	</string>
+	<string id="st_mag_aug_300_descr">
+		<text>Proprietary 30-round magazine for the first generation of AUG rifles. Later variants have a magwell that adapts them to use the standard STANAG pattern.\n
+		This particular magazine is fit for .300 AAC Blackout.</text>
+	</string>
+</string_table>

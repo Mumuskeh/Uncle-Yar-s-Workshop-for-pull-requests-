@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sig_spear">
+		<text>SIG MCX SPEAR</text>
+	</string>
+	<string id="st_wpn_sig_spear_descr">
+		<text>The SIG MCX SPEAR is a prototype, next generation rifle being developed by the US ARMY along with the powerful 6.8x51 Fury round to replace the M4 platform and 5.56x45 ammo. It's a mystery how UNISG got their hands on such an advanced prototype but there may be other interests at play in the Zone. This is the standard variant of the rifle with two firing modes and can be fitted with a grenade launcher and various optics for close to mid range.</text>
+	</string>
+<!-- 
+	<string id="st_wpn_sig_spear_cqb">
+		<text>SIG MCX SPEAR-C</text>
+	</string>
+	<string id="st_wpn_sig_spear_cqb_descr">
+		<text>The SIG MCX SPEAR is a prototype, next generation rifle being developed by the US ARMY along with the powerful 6.8x51 Fury round to replace the M4 platform and 5.56x45 ammo. It's a mystery how UNISG got their hands on such an advanced prototype but there may be other interests at play in the Zone. This is the close quarters variant of the rifle and is intended for urban environments. It has an integrally supressed barrel with three firing modes and a higher rate of fire. It can be fitted with various optics for close to mid range.</text>
+	</string>
+
+	<string id="st_wpn_sig_spear_sniper">
+		<text>SIG MCX SPEAR-S</text>
+	</string>
+	<string id="st_wpn_sig_spear_sniper_descr">
+		<text>The SIG MCX SPEAR is a prototype, next generation rifle being developed by the US ARMY along with the powerful 6.8x51 Fury round to replace the M4 platform and 5.56x45 ammo. It's a mystery how UNISG got their hands on such an advanced prototype but there may be other interests at play in the Zone. This is the long range variant of the rifle and is intended for use as a designated marksman rifle. It has a longer barrel and single fire mode with match trigger for high accuracy. It can be fitted with various optics for mid to long ranges.</text>
+	</string>
+ -->
+	<string id="ammo_6.8x51_ap">
+		<text>6.8x51mm FURY AP rounds</text>
+	</string>
+	<string id="ammo_6.8x51_ap_descr">
+		<text>Prototype .277 FURY armor-piercing round with a hardened steel core. Developed for use with the SIG MCX SPEAR as next generation ammunition. It retains high damage with extreme performance against body armor. Constant upkeep of the rifle is necessary due to the high wear caused by the prototype nature of this round.\n
+		%c[ui_gray_2] - %c[ui_gray_2] Armor penetration power: %c[ui_gray_1]BR6 (74)\n
+		%c[ui_gray_2] - %c[ui_gray_2] Flesh damage power: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="ammo_6.8x51_ap_s">
+		<text>6.8x51 "FURY"</text>
+	</string>
+
+	<string id="st_mag_sig_6.8x51">
+		<text>Standard 6.8x51 Magazine</text>
+	</string>
+	<string id="st_mag_sig_6.8x51_descr">
+		<text>Standard 20-round 6.8x51 magazine used in the SIG MCX SPEAR line of rifles.</text>
+	</string>
+
+	<string id="st_mag_sig_ext_6.8x51">
+		<text>Extended 6.8x51 Magazine</text>
+	</string>
+	<string id="st_mag_sig_ext_6.8x51_descr">
+		<text>Extended 30-round 6.8x51 magazine. Can be retooled for 7.62x51 rounds.</text>
+	</string>
+
+	<string id="st_mag_stanag_7.62x51_ext_descr">
+		<text>Extended STANAG-style Magazine for 7.62x51 NATO rounds. Used in the HK417, SCAR and SR-25. Holds 30 rounds. Can be retooled for 6.8x51 rounds.</text>
+	</string>
+
+	<string id="st_mag_overlylarge_50_762x51_drum">
+		<text>AR-10 7.62x51 50-round drum magazine</text>
+	</string>	
+	<string id="st_mag_overlylarge_50_762x51_drum_descr">
+		<text>50-round 7.62x51 drum magazine that fit STANAG pattern rifles. Can be retooled for 6.8x51 rounds.</text>
+	</string>
+
+	<string id="st_mag_overlylarge_50_68x51_drum">
+		<text>AR-10 6.8x51 50-round drum magazine</text>
+	</string>
+	<string id="st_mag_overlylarge_50_68x51_drum_descr">
+		<text>50-round 6.8x51 drum magazine that fit STANAG pattern rifles. Can be retooled for 7.62x51 rounds.</text>
+	</string>
+
+</string_table>	
