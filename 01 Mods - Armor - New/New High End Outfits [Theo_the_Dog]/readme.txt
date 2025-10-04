@@ -17,7 +17,7 @@ Includes integration for:
 1st Person View.
 Grok's Stash Overhaul. The SKATs are rare as a SKAT, and the Ancient suit will also be very rare, given it's a great Sunrise outfit.
 Mags Redux. Outfits will have the corresponding carry capacity of SKATs and Sunrises.
-Outfit Attachment Overhaul.
+Outfit Attachment Overhaul. Outfits will be able to carry plates as per that mod.
 
 ----------------------------------------------------------
 -Patches:

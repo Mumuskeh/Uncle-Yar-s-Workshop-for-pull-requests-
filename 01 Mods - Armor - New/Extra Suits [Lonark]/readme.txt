@@ -15,7 +15,7 @@ Includes integration for:
 Grok's Stash Overhaul. The new outfits will as rare to find in stashes as the vanilla equivalents.
 Mags Redux. Like ExoSEVA above. Bandit's don't get the extra pouches like the vanilla ones, given these versions seem more like status symbols. The Sin SEVA, being the worst SEVA, carries 1 medium mag less (same as the SSPM).
 Outfits Affect Movespeed.
-Outfit Attachment Overhaul.
+Outfit Attachment Overhaul. Outfits will be able to carry plates as per that mod.
 PDA Interactive. Outfits (except Sin) can be ordered.
 Powered Exoskeletons.
 
