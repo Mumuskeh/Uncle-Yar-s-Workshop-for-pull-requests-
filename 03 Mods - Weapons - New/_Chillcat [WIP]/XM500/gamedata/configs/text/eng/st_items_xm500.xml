@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_xm500">
+		<text>Barrett XM500</text>
+	</string>
+	<string id="st_wpn_xm500_descr">	 
+		<text>The Barrett XM500 is a self—loading large-caliber sniper rifle developed by the American company Barrett Firearms based on the Barrett M82. 12.7?99 mm (.50 BMG) cartridges are used to fire this rifle. Technically, it is a 10-charge rifle, built in a bullpup layout and uses a gas-discharge automatic with a rotary bolt locking the barrel. The rifle is equipped with an optical sight and a muzzle brake.</text>
+	</string>
+</string_table>

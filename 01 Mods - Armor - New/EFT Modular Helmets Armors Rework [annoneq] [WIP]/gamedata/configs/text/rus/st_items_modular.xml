@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Upgrade Parts -->
+	<string id="st_cryechops">
+		<text>Дополнительное бронирование Crye Airframe Chops</text>
+	</string>
+	<string id="st_cryechops_descr">
+		<text>Дополнительное бронирование для шлема Airframe, которое защищает область ушей и челюсть от осколков и малокалиберных рикошетов.</text>
+	</string>
+
+	<string id="st_fshield">
+		<text>Многоударный баллистический лицевой щит-забрало для шлема Ops-Core FAST</text>
+	</string>
+	<string id="st_fshield_descr">
+		<text>Специальный высокопрочный баллистический визор для шлема Ops-Core, используемый в штурмовых группах спецназа.</text>
+	</string>	
+
+	<string id="st_visor">
+		<text>Визор для шлема Ops-Core FAST Visor</text>
+	</string>
+	<string id="st_visor_descr">
+		<text>Предназначены для защиты глаз и части лица военнослужащего от осколков снарядов, мин, гранат, капель химически агрессивных (неразъедающих) жидкостей и масел, грубодисперсных аэрозолей, тепловых факторов, атмосферных воздействий и механических повреждений при ведении всех видов боевых действий.</text>
+	</string>	
+	
+	<string id="st_slaap">
+		<text>Дополнительное бронирование SLAAP для Ops-Core</text>
+	</string>
+	<string id="st_slaap_descr">
+		<text>Дополнительное бронирование для шлема Ops-Core FAST, выполненное из специальной полиэтиленовой плиты 5-го класса защиты.</text>
+	</string>
+	
+	<string id="st_altyn_fshield">
+		<text>Бронезабрало для шлема Алтын</text>
+	</string>
+	<string id="st_altyn_fshield_descr">
+		<text>Специальное бронезабрало для тяжелого шлема Алтын. Повышает шансы на выживание при попаданиях пуль или осколков в лицо.</text>
+	</string>	
+
+	<string id="st_maska_fshield">
+		<text>Бронезабрало для шлема Маска-1Щ (Killa)</text>
+	</string>
+	<string id="st_maska_fshield_descr">
+		<text>Специальное забрало для бронешлема Маска-1Щ выполненное из металла в авторском дизайне Киллы.</text>
+	</string>	
+
+	<string id="st_mandible">
+		<text>Мандибула Ops-Core Fast GUNSIGHT</text>
+	</string>
+	<string id="st_mandible_descr">
+		<text>Специальная дополнительная баллистическая защита для шлема Ops-Core FAST, устанавливаемая на боковые бронещитки Side Armor</text>
+	</string>	
+
+	<string id="st_trooper_fshield">
+		<text>Дополнительный модуль Tac-Kek Heavy Trooper на шлем</text>
+	</string>
+	<string id="st_trooper_fshield_descr">
+		<text>Tac-Kek Heavy Trooper, дополнительный модуль баллистическая маска на шлем по типу Ops Core, по мотивам известной киновселенной. Таков путь.</text>
+	</string>	
+
+	<string id="st_helm_gssh">
+		<text>Активные наушники ГСШ-01</text>
+	</string>
+	<string id="st_helm_gssh_descr">
+		<text>Активные наушники, которые идут вместе с комплектом Ратник. </text>
+	</string>	
+
+	<string id="st_zsh12m_fshield">
+<text>Бронезабрало для ЗШ-1-2М</text>
+</string>
+<string id="st_zsh12m_fshield_descr">
+<text>%c[ui_gray_1]Специальный забрало для шлема ЗШ-1-2М. Изготовлен из прочных материалов.\n \n
+</text>
+</string>
+
+<string id="st_caimanmandible">
+<text>Гибридная защита нижней челюсти Galvion Caiman</text>
+</string>
+<string id="st_caimanmandible_descr">
+<text>%c[ui_gray_1]Особая дополнительная баллистическая защита для шлема Caimain Hybrid, установленная на боковых направляющих. Изготовлено Galvion.\n \n
+</text>
+</string>
+<string id="st_caimanaplique">
+<text>Гибридная баллистическая аппликация «Гальвион Кайман»</text>
+</string>
+<string id="st_caimanaplique_descr">
+<text>%c[ui_gray_1]Дополнительное крепление шлема для повышения баллистической и осколочной защиты гибридного шлема Caiman. Изготовлено Galvion.\n \n
+</text>
+</string>
+<string id="st_caimanvisor">
+<text>Визор Galvion Caiman</text>
+</string>
+<string id="st_caimanvisor_descr">
+<text>%c[ui_gray_1]Закрытый баллистический визор для установки на кожух шлема Caimain Hybrid. Изготовлено Galvion.\n \n
+</text>
+</string>
+
+<string id="st_vulkan5fshield">
+<text>Бронезабрало для шлема Вулкан-5</text>
+</string>
+<string id="st_vulkan5fshield_descr">
+<text>%c[ui_gray_1]Специальный бронированное забрало для тяжелого шлема Вулкан-5. Увеличивает шансы выжить при попадании пуль и осколков.\n \n
+</text>
+</string>
+
+<string id="st_rystfshield">
+<text>Бронезабрало для Рысь-Т</text>
+</string>
+<string id="st_rystfshield_descr">
+<text>%c[ui_gray_1]Специальный бронезащитный щиток для тяжелого штурмового шлема «Рысь-Т». Увеличивает шансы выжить при попадании пуль и осколков.\n \n
+</text>
+</string>
+
+<string id="st_lshz2fshield">
+<text>Забрало ЛШЗ-2ДТМ</text>
+</string>
+<string id="st_lshz2fshield_descr">
+<text>%c[ui_gray_1]Забрала для шлема ЛШЗ-2ДТМ состоит из комбинации композиционного материала и бронестекла, что обеспечивает повышенную защиту.\n \n
+</text>
+</string>
+<string id="st_lshz2aventail">
+<text>Бармица ЛШЗ-2ДТМ</text>
+</string>
+<string id="st_lshz2aventail_descr">
+<text>%c[ui_gray_1]Дополнительная бронезащита затылка и шеи для шлема ЛШЗ-2ДТМ.\n \n
+</text>
+</string>
+<string id="st_lshz2aventail_flora">
+<text>Бармица ЛШЗ-2ДТМ (Флора)</text>
+</string>
+<string id="st_lshz2floracover">
+<text>Чехол ЛШЗ-2ДТМ (Флора)</text>
+</string>
+<string id="st_lshz2floracover_descr">
+<text>%c[ui_gray_1]Антибликовый чехол «Флора» для каски ЛШЗ-2ДТМ.\n \n
+</text>
+</string>
+
+<!-- Modular Helmets -->
+
+	<string id="st_helm_crye">
+		<text>Crye Precision Airframe Tan (Airframe Tan)</text>
+	</string>
+	<string id="st_helm_crye_descr">
+		<text>%c[ui_gray_1]Баллистический шлем AirFrame устанавливает стандарты защиты, комфорта и модульности. Уникальный дизайн шлема совмещает в себе систему вентиляции и минимизирует урон от взрывной волны.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_altyn">
+		<text>Алтын</text>
+	</string>
+	<string id="st_helm_altyn_descr">
+		<text>%c[ui_gray_1]«Алтын» прошел реальные боевые испытания в Афганистане и Чечне и до сих пор остается на вооружении органов МВД РФ и армейского спецназа. Возможна установка бронированного забрала.\n \n
+		</text>
+	</string>
+	
+	<string id="st_helm_maska">
+		<text>Маска-1Щ (Killa)</text>
+	</string>
+	<string id="st_helm_maska_descr">
+		<text>%c[ui_gray_1]Защитный шлем «Маска-1» появился на вооружении в 1991 году, как замена шлему «Сфера». Личный шлем Киллы.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_lzsh">
+		<text>ЛШЗ</text>
+	</string>
+	<string id="st_helm_lzsh_descr">
+		<text>%c[ui_gray_1]Легкий защитный шлем российского производства. По сути копия шлема Ops-core Fast, но с более низкими характеристиками.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_tackek">
+		<text>Tac-Kek Fast MT (реплика)</text>
+	</string>
+	<string id="st_helm_tackek_descr">
+		<text>%c[ui_gray_1]Небаллистическая реплика шлема Ops-Core Fast от Tac-Kek. Может быть модифицирован различными компонентами. Во славу Поролоновых Войн!\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_gallet">
+		<text>MSA Gallet TC 800 High Cut</text>
+	</string>
+	<string id="st_helm_gallet_descr">
+		<text>%c[ui_gray_1]Баллистический шлем MSA TC 800, предназначенный для применения тактическими командами полицейского спецназа, в боевых и разведывательных операциях. Может быть модифицирован различными компонентами.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_ops">
+		<text>Ops-Core Fast MT</text>
+	</string>
+	<string id="st_helm_ops_descr">
+		<text>%c[ui_gray_1]Баллистический шлем Ops-Core Fast SUPER HIGH CUT (Fast MT) популярный у спецподразделений всего мира. Может быть модифицирован различными компонентами.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_kiver">
+		<text>Кивер-М</text>
+	</string>
+	<string id="st_helm_kiver_descr">
+		<text>%c[ui_gray_1]Пуленепробиваемый бронешлем.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_wendy">
+		<text>EXFIL</text>
+	</string>
+<string id="st_helm_wendy_descr">
+		<text>%c[ui_gray_1]Team Wendy EXFIL Ballistic (EXFIL), один из самых последних тактических баллистических шлемов с широкими возможностями по его кастомизации.\n \n
+		</text>
+</string>
+<string id="st_helm_nfmhjelm">
+<text>NFM HJELM</text>
+</string>
+<string id="st_helm_nfmhjelm_descr">
+<text>%c[ui_gray_1]В системе HJELM нового поколения реализованы новые идеи модульности навесного оборудования и электроники без дополнительного веса и громоздкости, как в предыдущих поколениях. Изготовлено NFM.\n \n
+</text>
+</string>
+	
+<string id="st_helm_zsh12m">
+<text>ЗШ-1-2М</text>
+</string>
+<string id="st_helm_zsh12m_black">
+<text>ЗШ-1-2М (Чёрный чехол)</text>
+</string>
+<string id="st_helm_zsh12m_descr">
+<text>%c[ui_gray_1]Шлем ЗШ-1-2М состоит из прочного сплава, покрытого изнутри арамидной тканью, не допускающей пробития защитного слоя и поглощающей динамическое воздействие пуль или осколков. Поставляется в оливково-сером цвете с черной крышкой.\n \n
+</text>
+</string>
+<string id="st_helm_caiman">
+<text>Galvion Caiman</text>
+</string>
+<string id="st_helm_caiman_descr">
+<text>%c[ui_gray_1]Шлем Caiman Hybrid — это легкий шлем спецназа нового поколения. Серия модульных аксессуаров дополняет комплектацию, обеспечивая пользователям легкую, удобную и максимальную защиту головы. Изготовлено Galvion.\n \n
+</text>
+</string>
+<string id="st_helm_vulkan5">
+<text>Вулкан-5 ЛШЗ-5</text>
+</string>
+<string id="st_helm_vulkan5_descr">
+<text>%c[ui_gray_1]Шлем повышенной защиты ЛШЗ-5 «Вулкан-5» предназначен для использования в составе боевой экипировки с круговой защитой головы 6-го класса (российский ГОСТ) от средних и тяжелых осколков.\n \n
+</text>
+</string>
+<string id="st_helm_ryst">
+<text>Рысь-Т</text>
+</string>
+<string id="st_helm_ryst_descr">
+<text>%c[ui_gray_1]Бронешлем «Рысь-Т» («Рысь-Т») представляет собой улучшенную и облегченную версию знаменитого шлема «Алтын». Состоит на вооружении штурмовых подразделений МВД России. Может быть оснащен специальным бронезабралом.\n \n
+</text>
+</string>
+<string id="st_helm_lshz2">
+<text>БНТИ ЛШЗ-2ДТМ</text>
+</string>
+<string id="st_helm_lshz2full">
+<text>БНТИ ЛШЗ-2ДТМ (Полный)</text>
+</string>
+<string id="st_helm_lshz2_descr">
+<text>%c[ui_gray_1]Шлем ЛШЗ-2ДТМ предназначен для ношения с целью защиты от пуль стрелкового оружия головы пользователя, а также для защиты от пуль стрелкового оружия. Дополнитеьную защиту пользователя (лицо и шея) можно получить при ношении чехла и бармицы.\n \n
+</text>
+</string>
+<string id="st_helm_lshz2_flora">
+<text>БНТИ ЛШЗ-2ДТМ (Чехол Флора)</text>
+</string>
+<string id="st_helm_lshz2full_flora">
+<text>БНТИ ЛШЗ-2ДТМ (Чехол Флора) Полный</text>
+</string>
+
+<!-- Modular Backpacks -->
+	<string id="st_modular_backpack">
+		<text>Модульный рюкзак неизвестного бренда</text>
+	</string>
+	<string id="st_modular_backpack_descr">
+		<text>%c[ui_gray_1]Один из новейших модульных рюкзаков с широкими возможностями индивидуальной настройки.\n \n
+		</text>
+	</string>
+	<string id="st_backpack_pouch">
+		<text>Чехол неизвестной марки для модульного рюкзака</text>
+	</string>
+	<string id="st_backpack_pouch_descr">
+		<text>%c[ui_gray_1]Чехол для модульного рюкзака, который дает дополнительное место для хранения вещей в рюкзаке.\n \n
+		</text>
+	</string>
+<!-- Modular Armors -->
+	<string id="st_iotv">
+		<text>Бронежилет IOTV Gen4</text>
+	</string>
+	<string id="st_iotv_descr">
+		<text>%c[ui_gray_1]Улучшенный внешний тактический жилет (IOTV) Gen IV предназначен для обеспечения максимальной свободы движений, необходимой для принятия правильных огневых позиций, а также гибкости для выполнения задач и маневрирования. Оптимальные конструктивные характеристики обеспечивают наилучшее распределение веса как баллистической бронезащиты, так и дополнительного несущего оборудования, что обеспечивает повышенный комфорт, продолжительность ношения и мобильность.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_ramiona">
+		<text>Нарукавники бронежилета IOTV Gen4</text>
+	</string>
+	<string id="st_iotv_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники для бронежилета IOTV Gen4.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_pelvis">
+		<text>Бронежилет IOTV Gen4, крышка таза</text>
+	</string>
+	<string id="st_iotv_pelvis_descr">
+		<text>%c[ui_gray_1]Чехол таза для бронежилета IOTV Gen4.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_black">
+		<text>Бронежилет IOTV Gen4 (черный)</text>
+	</string>
+	<string id="st_iotv_ramiona_black">
+		<text>Бронежилет IOTV Gen4, черные нарукавники</text>
+	</string>
+	<string id="st_iotv_ramiona_black_descr">
+		<text>%c[ui_gray_1]Черные нарукавники для бронежилета IOTV Gen4.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_pelvis_black">
+		<text>Бронежилет IOTV Gen4, черная крышка таза</text>
+	</string>
+	<string id="st_iotv_pelvis_black_descr">
+		<text>%c[ui_gray_1]Черный тазовый чехол для бронежилета IOTV Gen4.\n \n
+		</text>
+	</string>
+	<string id="st_redut">
+		<text>Бронежилет ФОРТ Редут-М</text>
+	</string>
+	<string id="st_redut_descr">
+		<text>%c[ui_gray_1]«Редут М» представляет собой модифицированную версию хорошо зарекомендовавшего себя бронежилета «Редут», состоящего на вооружении спецподразделений ФСБ. Жилет создан на основе передовых технологий в области индивидуальной брони. Благодаря оптимизированной форме бронеэлементов и внешнему покрытию со специальной демпфирующей-вентиляционной системой бронежилет Редут М обладает отличными функциональными качествами, что облегчает активные действия, в том числе связанные с применением транспортных средств и в ограниченном пространстве..\n \n
+		</text>
+	</string>
+	<string id="st_redut_ramiona">
+		<text>Нарукавники ФОРТ Редут-М</text>
+	</string>
+	<string id="st_redut_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники для бронежилета ФОРТ Редут-М.\n \n
+		</text>
+	</string>
+	<string id="st_redut_pelvis">
+		<text>Бронежилет ФОРТ Редут-М, защита таза</text>
+	</string>
+	<string id="st_redut_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза к бронежилету ФОРТ Редут-М.\n \n
+		</text>
+	</string>
+	<string id="st_redut_pelvissides">
+		<text>Бронежилет ФОРТ Редут-М с защитой таза и нарукавниками</text>
+	</string>
+	<string id="st_redut_pelvissides_descr">
+		<text>%c[ui_gray_1]Таз и боковые пластины бронежилета ФОРТ Редут-М.\n \n
+		</text>
+	</string>
+	<string id="st_redut_sides">
+		<text>Боковые пластины бронежилета ФОРТ Редут-М</text>
+	</string>
+	<string id="st_redut_sides_descr">
+		<text>%c[ui_gray_1]Таз и боковые пластины бронежилета ФОРТ Редут-М.\n \n
+		</text>
+	</string>
+	<string id="st_6b43">
+		<text>Бронежилет 6Б43 Забрало-Ш</text>
+	</string>
+	<string id="st_6b43_descr">
+		<text>%c[ui_gray_1]Бронежилет 6Б43 предназначен для защиты от пуль легкого оружия, в том числе БП и ПП, осколков гранат, мин и холодного оружия, а также снижения риска возникновения послепроникающих эффектов в боевых ситуациях.\n \n
+		</text>
+	</string>
+	<string id="st_6b43_ramiona">
+		<text>Бронежилет 6Б43 Забрало-Ш, нарукавники</text>
+	</string>
+	<string id="st_6b43_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники к бронежилету 6Б43 Забрало-Ш.\n \n
+		</text>
+	</string>
+	<string id="st_6b43_pelvis">
+		<text>Бронежилет 6Б43 Забрало-Ш, защита таза</text>
+	</string>
+	<string id="st_6b43_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза к бронежилету 6Б43 Забрало-Ш.\n \n
+		</text>
+	</string>
+	<string id="st_thor_pelvis">
+		<text>Защита таза NFM THOR Integrated Carrier</text>
+	</string>
+	<string id="st_thor_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза для бронежилета NFM THOR Integrated Carrier.\n \n
+		</text>
+	</string>
+	<string id="st_thor_ramiona">
+		<text>Нарукавники бронежилета NFM THOR Integrated Carrier</text>
+	</string>
+	<string id="st_thor_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники для бронежилета NFM THOR Integrated Carrier.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan_pelvis">
+		<text>Защита таза NFM THOR Integrated Carrier</text>
+	</string>
+	<string id="st_thor_tan_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза для бронежилета NFM THOR Integrated Carrier коричневого цвета.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan_ramiona">
+		<text>Бронежилет NFM THOR Integrated Carrier, коричневые нарукавники</text>
+	</string>
+	<string id="st_thor_tan_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники коричневого цвета для бронежилета NFM THOR Integrated Carrier.\n \n
+		</text>
+	</string>
+	<string id="st_thor">
+		<text>Бронежилет NFM THOR Integrated Carrier</text>
+	</string>
+	<string id="st_thor_descr">
+		<text>%c[ui_gray_1]Штурмовой бронежилет полной защиты THOR оснащен мягкими и жесткими бронеэлементами для защиты от осколков и пуль пистолетного и винтовочного калибров. Производитель NFM.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan">
+		<text>Бронежилет NFM THOR Integrated Carrier (TAN)</text>
+	</string>
+	<string id="st_apc_pelvis">
+		<text>Защита таза PARACLETE APC</text>
+	</string>
+	<string id="st_apc_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза для PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc_ramiona">
+		<text>Нарукавники PARACLETE APC</text>
+	</string>
+	<string id="st_apc_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники для PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc_pelvis">
+		<text>Защита таза PARACLETE APC (Мультикамерный)</text>
+	</string>
+	<string id="st_apc_mc_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза для мультикамерной APC PARACLETE.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc_ramiona">
+		<text>Нарукавники PARACLETE APC (Мультикамерный)</text>
+	</string>
+	<string id="st_apc_mc_ramiona_descr">
+		<text>%c[ui_gray_1]Нарукавники для мультикамерной APC PARACLETE.\n \n
+		</text>
+	</string>
+	<string id="st_apc">
+		<text>APC</text>
+	</string>
+	<string id="st_apc_descr">
+		<text>%c[ui_gray_1]Advanced Plate Carrier (APC), созданный для того, чтобы позволить оператору получить немедленную защиту от мощного штурмового оружия, выводит производительность на новый уровень. Сочетая в себе функциональность тактического жилета с простотой носителя пластин, БТР вмещает мягкие баллистические панели, жесткие бронеплиты уровня III или IV и подсумки для снаряжения.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc">
+		<text>APC (Мультикамерный)</text>
+	</string>
+	<string id="st_helm_shapeshifter">
+		<text>Шлем-маска оборотня</text>
+	</string>
+	<string id="st_helm_shapeshifter_descr">
+		<text>%c[ui_gray_1]Легендарная маска с защитой лица.\n \n
+		</text>
+	</string>
+	<string id="st_a18">
+		<text>A18 GOLIATH-G</text>
+	</string>
+	<string id="st_a18_descr">
+		<text>%c[ui_gray_1]Модульный бронежилет для особых специальных операций. Производитель Ars Arma.\n \n</text>
+	</string>
+	<string id="st_a18_ramiona">
+		<text>Чехол A18 GOLIATH-G</text>
+	</string>
+	<string id="st_a18_ramiona_descr">
+		<text>%c[ui_gray_1]Защитный чехол для Ars Arma A18 GOLIATH-G.\n \n</text>
+	</string>
+	<string id="st_a18_pelvis">
+		<text>Защита таза A18 GOLIATH-G</text>
+	</string>
+	<string id="st_a18_pelvis_descr">
+		<text>%c[ui_gray_1]Защита таза для Ars Arma A18 GOLIATH-G.\n \n</text>
+</string>
+</string_table>

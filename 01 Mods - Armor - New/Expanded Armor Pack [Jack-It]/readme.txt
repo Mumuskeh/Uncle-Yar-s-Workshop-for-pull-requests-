@@ -1,5 +1,6 @@
 -Module:
 DLTX Minimod - Expanded Armor Pack [Jack-It, Demonized]
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 
 ----------------------------------------------------------
 -Compatibility:
@@ -34,16 +35,15 @@ If you want extra functionality for this, my addons for Outfit Attachment Overha
 ----------------------------------------------------------
 -Patches:
 
-Full Upgrades.
+Full Upgrades
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 Rework of the original patch in DLTX Minimod, adapted to changes in this rework.
 
-
-Model variants.
+Model variants
 These are the same optional models from the original mod, renamed so they can work for the rework. The Rogue variant with Exohelm does not have that extra helmet protection though, for now.
-
 To keep the package download to a reasonable size, the helmet textures for the alternate Legend model have been reduced from 4k to 1k. You can still get the og 4k textures from DLTX Minimod.
 
-
+Nav's Masks
 
 ----------------------------------------------------------
 -Known issues:

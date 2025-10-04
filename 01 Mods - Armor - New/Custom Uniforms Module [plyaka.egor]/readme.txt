@@ -21,5 +21,7 @@ Outfits (except ISG and Monolith) can be ordered.
 ----------------------------------------------------------
 -Patches:
 
+Nav's Masks
+
 ----------------------------------------------------------
 -Known issues:

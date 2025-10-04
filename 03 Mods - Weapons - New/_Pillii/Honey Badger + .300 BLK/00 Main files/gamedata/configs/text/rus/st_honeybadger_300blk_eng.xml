@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_honeybadger">
+		<text>Honey Badger </text>
+	</string>
+	<string id="st_wpn_honeybadger_descr">
+		<text>Honey Badger - это винтовка с патроном .300 AAC Blackout. Разработанная совместно с Blackout 300 AAC, модель Honey Badger превзошла все ожидания, но так и не попала на коммерческий рынок. Спустя годы компания Q возродила этот проект. Ее редко можно встретить среди опытных наемников, хотя можно увидеть, как опытные бойцы Монолита используют ее в качестве трофея. \n \n
+		%c[ui_gray_2]Аддоны: \n
+		%c[d_purple] • %c[ui_gray_2] Прицелы: Все прицелы для планки Пикатинни.\n
+		%c[d_purple] • %c[ui_gray_2] Глушитель: НАТО.\n
+		%c[ui_gray_2]ПОДРОБНЕЕ: \n		
+		%c[d_purple] • %c[ui_gray_2] Дозвуковой.\n </text>
+	</string>
+	
+		<string id="st_wpn_honeybadger_556x45">
+		<text>AAC Honey Badger SBR</text>
+	</string>Я
+	<string id="st_wpn_honeybadger_556x45_descr">
+		<text>Honey Badger - это винтовка с патроном .300 AAC Blackout. Разработанная совместно с Blackout 300 AAC, модель Honey Badger превзошла все ожидания, но так и не попала на коммерческий рынок. Спустя годы компания Q возродила этот проект. Он был модифицирован под патрон 5' 56x45, и ее редко можно встретить у опытных наемников, хотя опытные бойцы Монолита могут использовать ее в качестве трофея. \n \n
+		%c[ui_gray_2]Аддоны: \n
+		%c[d_purple] • %c[ui_gray_2] Прицелы: Все прицелы для планки Пикатинни.\n
+		%c[d_purple] • %c[ui_gray_2] Глушитель: НАТО.\n
+		%c[ui_gray_2]ПОДРОБНЕЕ: \n		
+		%c[d_purple] • %c[ui_gray_2] Дозвуковой.\n </text>
+	</string>
+	
+	<string id="ammo_300blk_ap">
+		<text>.300BLK TAC-TX AP</text>
+	</string>
+	<string id="ammo_300blk_ap_descr">
+		<text>110-граммовый патрон TAC-TX представляет собой дозвуковой бронебойный снаряд с пулей с мягким наконечником и твердым стальным сердечником, выступающим из корпуса. Для стрельбы скрытно требуется глушитель. Из-за своей редкости это редкий прицел в зоне. Эффективен против бронежилета.\n \n%c[ui_gray_2] - %c[ui_gray_2] Пробивная способность брони: %c[ui_gray_1]BR5\n%c[ui_gray_2] - %c[ui_gray_2] Сила урона плоти: %c[ui_gray_1] высокая\n \n%c[ui_gray_1] СПЕЦИАЛЬНАЯ:\n \n%c[d_red] - %c[ui_gray_2] субзвуковые боеприпасы\n%c[ui_gray_2] - %c[ui_gray_2] падение снаряда значительно увеличивается с увеличением расстояния</text>
+	</string>
+	<string id="ammo_300blk_ap_s">
+		<text>.300BLK AP</text>
+	</string>
+	
+	<string id="ammo_300blk_fmj">
+		<text>.300BLK FMJ</text>
+	</string>
+	<string id="ammo_300blk_fmj_descr">
+		<text>Этот 147-граммовый патрон представляет собой дозвуковой патрон с полностью медным корпусом и специально спроектированной носовой частью. Для стрельбы скрытно требуется глушитель.\n \n%c[ui_gray_2] - %c[ui_gray_2] Пробивная способность брони: %c[ui_gray_1]BR3\n%c[ui_gray_2] - %c[ui_gray_2] Сила урона плоти: %c[ui_gray_1] высокая\n \n%c[ui_gray_1] СПЕЦИАЛЬНАЯ:\n \n%c[d_red] - %c[ui_gray_2] субзвуковые боеприпасы\n%c[ui_gray_2] - %c[ui_gray_2] падение снаряда значительно увеличивается с увеличением расстояния</text>
+	</string>
+	<string id="ammo_300blk_fmj_s">
+		<text>.300BLK FMJ</text>
+	</string>
+</string_table>

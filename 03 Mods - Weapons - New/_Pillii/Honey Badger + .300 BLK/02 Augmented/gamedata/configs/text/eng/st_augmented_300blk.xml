@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_wpn_aug_a3">
+	<string id="st_wpn_aug3_300">
 		<text>AUG A3 M2 .300 Blackout</text>
 	</string>
-	<string id="st_wpn_aug_a3_descr">
+	<string id="st_wpn_aug3_300_descr">
 		<text>Steyr AUG A3 is a further improvement of both the A1 and A2, introduced in 2005. It is also the current standard rifle of the Austrian Army, replacing both A1 and A2. Having the same Picatinny Rail integration as the A2 in full-length, as well as coming with an external bolt release located above the magwell, the rifle is easily able to fit any ironsight or reflex sight, including any scope. It is the modern iteration of the AUG, hence the most common rifle, but that doesn't make it a commodity in The Zone.\n
-		This is a M2 variant chambered for .300 AAC Blackout.\n
+		This is an A3 M2 variant chambered for .300 AAC Blackout.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] NATO compatible suppressor\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount) and OKP-7.</text>

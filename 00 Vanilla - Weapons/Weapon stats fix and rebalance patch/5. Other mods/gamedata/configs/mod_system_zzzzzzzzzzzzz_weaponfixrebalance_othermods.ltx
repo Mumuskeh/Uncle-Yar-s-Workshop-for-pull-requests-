@@ -4,7 +4,7 @@
 ;;;;;;; OTHER MODS
 
 
-;ATHIS  ============ ============ ============ ============
+;ATHIS 	============	============	============	============
 
 ;AK101 SP
 ![wpn_ak101_sp]
@@ -87,7 +87,7 @@ bullet_speed	= 960
 rpm				= 700
 
 
-;BELI FOSFOR  ============ ============ ============ ============
+;BELI FOSFOR 	============	============	============	============
 
 ![wpn_p365]
 $spawn			= "weapons\p365"
@@ -98,7 +98,7 @@ fire_distance	= 100 ; 230
 ; rpm							= 390
 
 
-;BERT  ============ ============ ============ ============
+;BERT 	============	============	============	============
 
 ;Mauser C96
 ![wpn_c96]
@@ -113,7 +113,7 @@ fire_distance	= 100
 bullet_speed	= 365
 
 
-;;BILLWA  ============ ============ ============ ============
+;;BILLWA 	============	============	============	============
 
 ;DP27
 ![wpn_dp27]
@@ -210,7 +210,7 @@ bullet_speed	= 750 ; 950
 rpm				= 650 ; 720
 
 
-;;BLACKGROWL  ============ ============ ============ ============
+;;BLACKGROWL 	============	============	============	============
 
 ;Ithaca
 ![wpn_ithacam37]
@@ -246,7 +246,7 @@ bullet_speed	= 366 ; 402
 rpm				= 600
 
 
-;;FIREBREATH  ============ ============ ============ ============
+;;FIREBREATH 	============	============	============	============
 
 ;Tommy gun drop
 ![wpn_thompson_m1a1]
@@ -259,7 +259,7 @@ $spawn			= "weapons\thompson_1921"
 bullet_speed	= 285
 
 
-;;JMERC  ============ ============ ============ ============
+;;JMERC 	============	============	============	============
 
 ;Ghost Armory - 50 Beowulf Weapon Pack
 ;we'll balance them similarly to how I do in Late Comers: hits very hard, but short range
@@ -378,37 +378,132 @@ fire_distance	= 120
 ; rpm						= 325
 
 
+;;KMACK	============	============	============	============
 
-;;LEWD  ============ ============ ============ ============
+; SIG MCX LVAW
+;a small, integrally suppresed subsonic MCX, so we look at the tweaks for RWAP's
+;range should be a bit higher than SMGs with 300 BKT, but this is a 5.45 model so a bit lower than M4s
+;Only rpm I can find is 927 on demo guns, with production models supposed to be a bit lower
+;no reason for ap_modifier that I can see, unless this were the 300 BKT model
+;would the 5.45 model be subsonic? can't find anything about it
+![wpn_lvaw]
+$spawn			= "weapons\mcx_lvaw"
+inv_weight		= 2.20 ; 2.04
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.57, 0.57, 0.57, 0.57
+fire_distance	= 410 ; 650
+; bullet_speed	= 600 ; 259
+rpm				= 877 ; 857
+!ap_modifier
+
+;Mosin Trio
+; The _k is basically a Mosin duplicate. The carbine gets nerfed a bit in relation to that, and the and obrez a bit more. The Shiv is an obrez, but given it's special, it retains a bit of power.
+![wpn_mosin_carbine]
+; hit_impulse					= 38
+hit_power		= 1.1, 1.1, 1.1, 1.1 ; 1.18, 1.18, 1.18, 1.18
+fire_distance	= 650 ;1100
+bullet_speed	= 710 ;760
+
+![wpn_mosin_k]
+inv_weight		= 3.9 ;3.7
+hit_impulse		= 40 ; 45
+hit_power		= 1.1, 1.1, 1.1, 1.1 ; 1.18, 1.18, 1.18, 1.18
+fire_distance	= 850 ;1100
+bullet_speed	= 865 ;760
+
+![wpn_obrez]
+$spawn			= "weapons\mosin_obrez"
+inv_weight		= 3.2 ;3
+hit_impulse		= 38 ; 45
+hit_power		= 1.0, 1.0, 1.0, 1.0 ; 1.17, 1.17, 1.17, 1.17
+fire_distance	= 500 ; 1100
+bullet_speed	= 680 ; 760
+
+![wpn_shiv]
+$spawn			= "weapons\mosin_shiv"
+inv_weight		= 3.2 ;3
+hit_impulse		= 40; 45
+hit_power		= 1.1, 1.1, 1.1, 1.1 ; 1.17, 1.17, 1.17, 1.17
+fire_distance	= 500 ; 1100
+bullet_speed	= 680 ; 760
+
+; Walther PDP
+;the official Walther page for the PDP '4 Full Size specifies 21.5 oz weight empty, and mag capacity of 18 rounds
+![wpn_lvaw]
+$spawn			= "weapons\walther_pdp"
+inv_weight		= 0.609 ; 0.625
+ammo_elapsed	= 18 ; 30
+ammo_mag_size	= 18 ; 30
+; hit_impulse					= 24
+; hit_power					= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100 ; 400
+; bullet_speed				= 360
+; rpm							= 500
+
+;Walther PPQ Q5 Match
+;the official Walther page for the Q5 Match M1 specifies 27.9 oz weight empty, and mag capacity of 15 rounds
+![wpn_ppq5]
+$spawn			= "weapons\walther_ppq5"
+inv_weight		= 0.790 ; 0.625
+ammo_elapsed	= 15 ; 18
+ammo_mag_size	= 15 ; 18
+; hit_impulse					= 24
+; hit_power					= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100 ; 400
+; bullet_speed				= 360
+; rpm							= 500
+
+
+;;KHYBER  ============ ============ ============ ============
+
+;S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers
+![wpn_akvs]
+$spawn			= "weapons\akvs"
+![wpn_akvs2]
+$spawn			= "weapons\akvs2"
+![wpn_ots12]
+$spawn			= "weapons\wpn_ots12"
+![wpn_ots12v2]
+$spawn			= "weapons\wpn_ots12v2"
+![wpn_ots12v2s]
+$spawn			= "weapons\wpn_ots12v2s"
+
+
+;;LEWD 	============	============	============	============
 
 ;FAMAS Replacer
 ![wpn_famas_commando]
+$spawn			= "weapons\famas_commando"
 fire_distance	= 400
 bullet_speed	= 900
 rpm				= 1000
 
 ![wpn_famas_f1]
+$spawn			= "weapons\famas_f1"
 fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1000
 
 ![wpn_famas_felin]
+$spawn			= "weapons\famas_felin"
 fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1000
 
 ![wpn_famas_felin_s]
+$spawn			= "weapons\famas_felin_s"
 fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1000
 
 ![wpn_famas_g2]
+$spawn			= "weapons\famas_g2"
 fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1050
 
 
-;;LILJMA  ============ ============ ============ ============
+;;LILJMA 	============	============	============	============
 
 ;Sig P320
 ![wpn_p320]
@@ -417,7 +512,7 @@ fire_distance	= 100
 bullet_speed	= 762
 rpm				= 600
 
-;;MAID  ============ ============ ============ ============
+;;MAID 	============	============	============	============
 
 ;Agram 2000
 ![wpn_agram2000]
@@ -430,7 +525,7 @@ misfire_end_condition	= 0.26
 misfire_end_prob		= 0.21
 
 
-;NICKOLASNIKOVA  ============ ============ ============ ============
+;NICKOLASNIKOVA 	============	============	============	============
 
 ;Armsel Protecta
 ;already tweaked in the main file, but this mod gives some of the Protectas longer barrels
@@ -451,20 +546,20 @@ fire_distance	= 500 ; 1000
 bullet_speed	= 920 ; 910
 
 
-;ONEROCK  ============ ============ ============ ============
+;ONEROCK 	============	============	============	============
 
 ;MCX SPEAR
 ;this is the 7.62 model, unlike ATHIS' or the one in RWAP
 ![wpn_mcx_spear]
 $spawn			= "weapons\mcx_spear"
 inv_weight		= 3.8 ; 2.90
-; hit_impulse                              = 30
-; hit_power                                = 0.49, 0.49, 0.49, 0.49
+; hit_impulse							 	= 30
+; hit_power									= 0.49, 0.49, 0.49, 0.49
 fire_distance	= 700 ; 1000
 bullet_speed	= 792 ; 880
 rpm				= 850 ; 770
 
-;PILLII  ============ ============ ============ ============
+;PILLII 	============	============	============	============
 
 ;Glock roni
 ![wpn_glock_auto]
@@ -485,7 +580,7 @@ $spawn			= "weapons\udp9"
 fire_distance	= 200
 
 
-;;POPOTTARA  ============ ============ ============ ============
+;;POPOTTARA 	============	============	============	============
 
 ;Sturmgewehr 57
 ![wpn_sg510]
@@ -494,7 +589,7 @@ bullet_speed	= 750
 rpm				= 525
 
 
-;;RETROGUE  ============ ============ ============ ============
+;;RETROGUE 	============	============	============	============
 
 ;RWAP
 ;Lotta M4 clones here... wait no, worse, they're just customized M4s :_D
@@ -605,7 +700,7 @@ hit_impulse		= 25 ; 33
 hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.62, 0.62, 0.62, 0.62
 fire_distance	= 375 ; 600
 bullet_speed	= 850 ; 500
-; rpm				= 900  ?
+; rpm				= 900	?
 
 ![wpn_sg553_rwap]
 $spawn			= "weapons\sg553_rwap"
@@ -628,7 +723,7 @@ bullet_speed	= 915 ; 880
 rpm				= 850 ; 770
 
 
-;;SIBERCAT DEMONIZED LASSIE  ============ ============ ============ ============
+;;SIBERCAT DEMONIZED LASSIE 	============	============	============	============
 
 ;AR Pack Complete
 
@@ -648,7 +743,7 @@ fire_distance	= 500
 rpm				= 700
 
 
-;;SOULCRYSTAL  ============ ============ ============ ============
+;;SOULCRYSTAL 	============	============	============	============
 
 ;Arisaka quality control
 ![wpn_arisaka]
@@ -668,7 +763,8 @@ bullet_speed	= 351 ; 345
 ;I see numbers of 24 rounds per minute, but that seems too low?
 ;fire_distance	= 24 ; 400
 
-;;Teivaz  ============ ============ ============ ============
+
+;;Teivaz 	============	============	============	============
 
 ;Colt 357
 ![wpn_revolver357]
@@ -687,8 +783,7 @@ bullet_speed	= 715
 rpm				= 975
 
 
-
-;;TheParazit  ============ ============ ============ ============
+;;TheParazit 	============	============	============	============
 
 ;PL14
 ![wpn_pl14]

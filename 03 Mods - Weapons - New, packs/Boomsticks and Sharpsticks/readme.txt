@@ -1,5 +1,6 @@
 -Module:
 Boomsticks and Sharpsticks [Mich]
+https://www.moddb.com/mods/stalker-anomaly/addons/boomsticks-and-sharpsticks
 
 ----------------------------------------------------------
 -Compatibility:
@@ -18,9 +19,11 @@ Integration into Grok's Stash Overhaul.
 -Patches:
 
 Bigger Ammo Boxes (DLTX Minimod) + BaS.
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 Makes that mod cover the BaS ammo. File renamed to ensure being loaded last. Original mod not required.
 
 Cheaper Ammo (DLTX Minimod) + BaS.
+https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
 Makes that mod cover the BaS ammo. File renamed to ensure being loaded last. Original mod not required.
 
 ----------------------------------------------------------

@@ -9,7 +9,9 @@ NOTE: You still need the original mod. Disable the textures/ui folder and the co
 -Explanation:
 Configs and icon files are now consolidated into a single file each. This way there's fewer itty bitty loose files to load.
 
-Integration into Grok's Stash Overhaul patch.
+Grok's Stash Overhaul integration.
+Lootboxes integration.
+PDA Interactive integration.
 
 ----------------------------------------------------------
 -Patches:

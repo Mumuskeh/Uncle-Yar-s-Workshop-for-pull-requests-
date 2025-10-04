@@ -29,6 +29,8 @@ Beli fosfor: SIG Sauer P365
 Billwa: DP27, IZH18 and MP18
 Blackgrowl: Sassy Ithaca, K-50M, MAT-49, Pretty Pistols Pack
 Firebreath: AUGmented
+Khyber: S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers
+Kmack: Mosin Trio, Walther PDP, and Walther PPQ Q5 Match
 Pillii: Glock RONI, UDP-9
 Soulcrystal: Benelli M4, FB Vis
 TheParazit: PL14

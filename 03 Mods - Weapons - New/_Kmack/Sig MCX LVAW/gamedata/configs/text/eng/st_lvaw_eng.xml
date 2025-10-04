@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_lvaw_556x45">
+		<text>Sig Sauer LVAW</text>
+	</string>
+	<string id="st_wpn_lvaw_556x45_descr">
+		<text>The SIG LVAW (Low Visibility Assault Weapon) is a short-barreled, suppressed, select-fire variant of the SIG MCX rifle, designed for military and law enforcement use as a personal defense weapon, featuring a short barrel and compact design.\n
+		This model is chambered for 5.45mm.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny rails.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: Integral Suppressor.\n
+		%c[ui_gray_2]DETAILS:\n
+		%c[d_purple] • %c[ui_gray_2] Subsonic</text>
+	</string>
+</string_table>

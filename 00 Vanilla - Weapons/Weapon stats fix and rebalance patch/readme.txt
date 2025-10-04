@@ -86,7 +86,7 @@ PENDING: 7.xmm weapons, snipers, and LMGs in general, .
 
 All changes follows the same balancing ideas as the file for vanilla guns. The files have plenty of comments for further insights on changes.
 
--Boomsticks and Sharpsticks.
+Boomsticks and Sharpsticks
 This includes guns from BaS itself and explicit addons such as BaS Extra Weapons, Saiga drum kit, and BaS Plus Saiga Tactical.
 
 Ammo price and weight
@@ -128,6 +128,7 @@ Billwa: FG42, IZH18 and MP18, MAC-10, M240, M3A1 Grease Gun, Milkor MGL, Type 56
 Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
 Firebreath: Tommy gun drop
 Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, MP9, QBZ 95
+Kmack: Mosin Trio, SIG MCX LVAW, Walther PDP, and Walther PPQ Q5 Match
 Lewdnatic: FAMAS Replacer
 Maid: Agram 2000
 NickolasNikova: Type 89

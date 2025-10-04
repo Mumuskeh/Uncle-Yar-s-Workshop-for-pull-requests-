@@ -13,6 +13,7 @@ DLTX conversion and minor fixes. Its changes seem to answer to a much older vers
 -Patches:
 
 Separated Helmets 1.5.2
+https://www.moddb.com/mods/stalker-anomaly/addons/separated-helmets-and-outfits-for-anomaly-152
 
 ----------------------------------------------------------
 -Known issues:

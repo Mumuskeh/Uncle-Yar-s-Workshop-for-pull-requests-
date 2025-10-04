@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Upgrade Parts -->
+	<string id="st_cryechops">
+		<text>Crye Airframe Chops</text>
+	</string>
+	<string id="st_cryechops_descr">
+		<text>Additional booking for the Airframe helmet, which protects the ear and the jaw area from fragmentation and small-caliber ricochets.</text>
+	</string>
+
+	<string id="st_fshield">
+		<text>Multi-hit ballistic face shield-visor</text>
+	</string>
+	<string id="st_fshield_descr">
+		<text>Special high-strength ballistic visor, used by the special forces assault teams.</text>
+	</string>	
+
+	<string id="st_visor">
+		<text>Ops-Core FAST Visor</text>
+	</string>
+	<string id="st_visor_descr">
+		<text>FAST Visor designed to protect the eyes and part of the serviceman's face from shell fragments, mines, grenades, drops of chemically aggressive liquids and oils, coarsely dispersed aerosols, thermal factors, atmospheric influences and mechanical damages in all types of combat operations.</text>
+	</string>	
+	
+	<string id="st_slaap">
+		<text>SLAAP armor Plate</text>
+	</string>
+	<string id="st_slaap_descr">
+		<text>Additional armor for the Ops-Core FAST helmet, made of a special polyethylene plate (5th protection class).</text>
+	</string>
+	
+	<string id="st_altyn_fshield">
+		<text>Altyn face shield</text>
+	</string>
+	<string id="st_altyn_fshield_descr">
+		<text>Special armored face shield for heavy helmet Altyn. Increases the chances of surviving the impacts of bullets and shrapnel.</text>
+	</string>	
+
+	<string id="st_maska_fshield">
+		<text>Maska 1Sch face shield</text>
+	</string>
+	<string id="st_maska_fshield_descr">
+		<text>Special faceshield for Maska 1Sch helmet</text>
+	</string>	
+
+	<string id="st_mandible">
+		<text>Ops-Core Fast GUNSIGHT Mandible</text>
+	</string>
+	<string id="st_mandible_descr">
+		<text>Special additional ballistic protection for the Ops-Core FAST helmet, mounted on the Side Armor component. (Fits LZSh light helmet aswell)</text>
+	</string>	
+
+	<string id="st_trooper_fshield">
+		<text>Tac-Kek Heavy Trooper mask</text>
+	</string>
+	<string id="st_trooper_fshield_descr">
+		<text>Tac-Kek Heavy Trooper, an additional helmet ballistic mask module based on the Ops Core type, based on the famous movie universe. This is the way.</text>
+	</string>	
+
+	<string id="st_helm_gssh">
+		<text>GSSh-01 active headset</text>
+	</string>
+	<string id="st_helm_gssh_descr">
+		<text>GSSh-01 headset is used in Russian Ratnik military gear set.</text>
+	</string>
+
+	<string id="st_zsh12m_fshield">
+		<text>ZSh-1-2M face shield</text>
+	</string>
+	<string id="st_zsh12m_fshield_descr">
+		<text>%c[ui_gray_1]A special face shield for the ZSH-1-2M armored helmet. Made of heavy-duty materials.\n \n
+		</text>
+	</string>
+
+	<string id="st_caimanmandible">
+		<text>Galvion Caiman Hybrid Ballistic Mandible Guard</text>
+	</string>
+	<string id="st_caimanmandible_descr">
+		<text>%c[ui_gray_1]A special additional ballistic protection for the Caimain Hybrid helmet, mounted on the side rails. Manufactured by Galvion.\n \n
+		</text>
+	</string>
+	<string id="st_caimanaplique">
+		<text>Galvion Caiman Hybrid Ballistic Applique</text>
+	</string>
+	<string id="st_caimanaplique_descr">
+		<text>%c[ui_gray_1]An additional up-armor helmet shell attachment to elevate or enhance ballistic and fragmentation protection of the Caiman Hybrid Helmet. Manufactured by Galvion.\n \n
+		</text>
+	</string>
+	<string id="st_caimanvisor">
+		<text>Galvion Caiman Fixed Arm Visor</text>
+	</string>
+	<string id="st_caimanvisor_descr">
+		<text>%c[ui_gray_1]A locked-in ballistic visor shield for installation on the Caimain Hybrid helmet's shroud. Manufactured by Galvion.\n \n
+		</text>
+	</string>
+
+	<string id="st_vulkan5fshield">
+		<text>Vulkan-5 helmet face shield</text>
+	</string>
+	<string id="st_vulkan5fshield_descr">
+		<text>%c[ui_gray_1]A special armored face shield for the Vulkan-5 heavy helmet. Increases the chances of surviving the impacts of bullets and shrapnel.\n \n
+		</text>
+	</string>
+
+	<string id="st_rystfshield">
+		<text>Rys-T face shield</text>
+	</string>
+	<string id="st_rystfshield_descr">
+		<text>%c[ui_gray_1]A special armored face shield for the "Rys-T" heavy assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel.\n \n
+		</text>
+	</string>
+
+	<string id="st_lshz2fshield">
+		<text>LShZ-2DTM face shield</text>
+	</string>
+	<string id="st_lshz2fshield_descr">
+		<text>%c[ui_gray_1]The protective structure of the bulletproof faceshield for the helmet LSHZ-2DTM consists of a combination of composite material and bulletproof glass, which provides increased protection.\n \n
+		</text>
+	</string>
+	<string id="st_lshz2aventail">
+		<text>LShZ-2DTM aventail</text>
+	</string>
+	<string id="st_lshz2aventail_descr">
+		<text>%c[ui_gray_1]An additional armored protection for lower back head part and neck for the LSHZ-2DTM helmet.\n \n
+		</text>
+	</string>
+	<string id="st_lshz2aventail_flora">
+		<text>LShZ-2DTM aventail (Flora)</text>
+	</string>
+	<string id="st_lshz2floracover">
+		<text>LShZ-2DTM cover (Flora)</text>
+	</string>
+	<string id="st_lshz2floracover_descr">
+		<text>%c[ui_gray_1]A flora anti-glare cover for the LShZ-2DTM helmet.\n \n
+		</text>
+	</string>
+
+<!-- Modular Helmets -->
+
+	<string id="st_helm_crye">
+		<text>Crye Precision Airframe Tan</text>
+	</string>
+	<string id="st_helm_crye_descr">
+		<text>%c[ui_gray_1]The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_altyn">
+		<text>Altyn helmet</text>
+	</string>
+	<string id="st_helm_altyn_descr">
+		<text>%c[ui_gray_1]"Altyn" passed real combat tests in Afghanistan and Chechnya and is still in service with the Ministry of Internal Affairs of the Russian Federation and the army special forces. The installation of an armored visor shield is possible.\n \n
+		</text>
+	</string>
+	
+	<string id="st_helm_maska">
+		<text>Maska 1Sch helmet</text>
+	</string>
+	<string id="st_helm_maska_descr">
+		<text>%c[ui_gray_1]Protective helmet "Maska-1" appeared in service in 1991, as a replacement for the "Sphere" helmet.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_lzsh">
+		<text>LZSh light helmet</text>
+	</string>
+	<string id="st_helm_lzsh_descr">
+		<text>%c[ui_gray_1]Lightweight protective helmet made in Russia. In fact the copy of Ops-core Fast helmet, but with lower characteristics.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_tackek">
+		<text>Tac-Kek Fast MT Helmet</text>
+	</string>
+	<string id="st_helm_tackek_descr">
+		<text>%c[ui_gray_1]A non-ballistic replica of the Ops-Core Fast helmet from Tac-Kek. It can be modified by various components.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_gallet">
+		<text>MSA Gallet TC 800 High Cut combat helmet</text>
+	</string>
+	<string id="st_helm_gallet_descr">
+		<text>%c[ui_gray_1]Ballistic helmet MSA TC 800, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_ops">
+		<text>Ops-Core Fast MT SUPER HIGH CUT Helmet</text>
+	</string>
+	<string id="st_helm_ops_descr">
+		<text>%c[ui_gray_1]Ops-Core Fast ballistic helmet is popular in special forces all around the world. Can be modified with different components. Comes in black and tan.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_kiver">
+		<text>Kiver-M Helmet</text>
+	</string>
+	<string id="st_helm_kiver_descr">
+		<text>%c[ui_gray_1]Ballistic helmet.\n \n
+		</text>
+	</string>
+
+	<string id="st_helm_wendy">
+		<text>Team Wendy EXFIL Ballistic Helmet</text>
+	</string>
+	<string id="st_helm_wendy_descr">
+		<text>%c[ui_gray_1]One of the most recent tactical ballistic helmets with extensive customization capabilities. Comes in black and coyote tan.\n \n
+		</text>
+	</string>
+	<string id="st_helm_nfmhjelm">
+		<text>NFM HJELM helmet</text>
+	</string>
+	<string id="st_helm_nfmhjelm_descr">
+		<text>%c[ui_gray_1]The new-gen HJELM system applies new ideas for modularity of attachments and electronics without the extra weight and bulk of previous generations. Manufactured by NFM.\n \n
+		</text>
+	</string>
+	<string id="st_helm_zsh12m">
+		<text>ZSh-1-2M helmet</text>
+	</string>
+	<string id="st_helm_zsh12m_black">
+		<text>ZSh-1-2M helmet (Black Cover)</text>
+	</string>
+	<string id="st_helm_zsh12m_descr">
+		<text>%c[ui_gray_1]The ZSh-1-2M helmet consists of a durable alloy covered from the inside by aramid fabrics which does not allow penetration of the protective layer and absorbs the dynamic impact of bullets or shrapnel. Comes in olive drab and with a black cover.\n \n
+		</text>
+	</string>
+	<string id="st_helm_caiman">
+		<text>Galvion Caiman Hybrid helmet</text>
+	</string>
+	<string id="st_helm_caiman_descr">
+		<text>%c[ui_gray_1]The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion.\n \n
+		</text>
+	</string>
+	<string id="st_helm_vulkan5">
+		<text>Vulkan-5 LShZ-5 bulletproof helmet</text>
+	</string>
+	<string id="st_helm_vulkan5_descr">
+		<text>%c[ui_gray_1]The Vulkan-5 LShZ-5 high-level protection helmet is intended for use in a set of combat equipment with circular 6-class (Russian GOST) head protection from medium to heavy projectiles.\n \n
+		</text>
+	</string>
+	<string id="st_helm_ryst">
+		<text>Rys-T bulletproof helmet</text>
+	</string>
+	<string id="st_helm_ryst_descr">
+		<text>%c[ui_gray_1]The "Rys-T" ("Lynx-T") armored helmet is an improved and lightweight version of the famous "Altyn" helmet. It is in service with the assault units of the Ministry of Internal Affairs of Russia. Can be equipped with a special armored visor.\n \n
+		</text>
+	</string>
+	<string id="st_helm_lshz2">
+		<text>BNTI LShZ-2DTM helmet</text>
+	</string>
+	<string id="st_helm_lshz2_descr">
+		<text>%c[ui_gray_1]The LSHZ-2DTM helmet is intended for periodic wearing with the purpose of protection from bullets of small arms of a user’s head, as well as for protection from bullets of small arms of a user’s face and neck when equipeed with a visor and aventail.\n \n
+		</text>
+	</string>
+	<string id="st_helm_lshz2_flora">
+		<text>BNTI LShZ-2DTM helmet (Flora Cover)</text>
+	</string>
+
+<!-- Modular Backpacks -->
+	<string id="st_modular_backpack">
+		<text>Unkown Brand Modular Backpack</text>
+	</string>
+	<string id="st_modular_backpack_descr">
+		<text>%c[ui_gray_1]One of the most recent modular backpacks with extensive customization capabilities.\n \n
+%c[ui_gray_3]CHARACTERISTICS:\n
+%c[d_blue] - %c[ui_gray_2] widespread use\n
+%c[d_blue] - %c[ui_gray_2] is used to store items\n
+%c[0,100,255,150] - %c[ui_gray_2] can be used as a stash\n
+		</text>
+	</string>
+	<string id="st_backpack_pouch">
+		<text>Unkown Brand Pouch for Modular Backpack</text>
+	</string>
+	<string id="st_backpack_pouch_descr">
+		<text>%c[ui_gray_1]Pouch for modular backpack that gives extra space to hold your stuff in backpack.\n \n
+		</text>
+	</string>
+<!-- Modular Armors -->
+	<string id="st_iotv">
+		<text>IOTV Gen4 body armor</text>
+	</string>
+	<string id="st_iotv_descr">
+		<text>%c[ui_gray_1]The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_ramiona">
+		<text>IOTV Gen4 body armor arms cover</text>
+	</string>
+	<string id="st_iotv_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for IOTV Gen4 body armor.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_pelvis">
+		<text>IOTV Gen4 body armor pelvis cover</text>
+	</string>
+	<string id="st_iotv_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for IOTV Gen4 body armor.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_black">
+		<text>IOTV Gen4 body armor (Black)</text>
+	</string>
+	<string id="st_iotv_ramiona_black">
+		<text>IOTV Gen4 body armor black arms cover</text>
+	</string>
+	<string id="st_iotv_ramiona_black_descr">
+		<text>%c[ui_gray_1]Black arms cover for IOTV Gen4 body armor.\n \n
+		</text>
+	</string>
+	<string id="st_iotv_pelvis_black">
+		<text>IOTV Gen4 body armor black pelvis cover</text>
+	</string>
+	<string id="st_iotv_pelvis_black_descr">
+		<text>%c[ui_gray_1]Black pelvis cover for IOTV Gen4 body armor.\n \n
+		</text>
+	</string>
+	<string id="st_redut">
+		<text>FORT Redut-M body armor</text>
+	</string>
+	<string id="st_redut_descr">
+		<text>%c[ui_gray_1]"Redut M" is a modified version of the Redut well-proven body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces.\n \n
+		</text>
+	</string>
+	<string id="st_redut_ramiona">
+		<text>FORT Redut-M body armor arms cover</text>
+	</string>
+	<string id="st_redut_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for FORT Redut-M body armor.\n \n
+		</text>
+	</string>
+	<string id="st_redut_pelvis">
+		<text>FORT Redut-M body armor pelvis cover</text>
+	</string>
+	<string id="st_redut_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for FORT Redut-M body armor.\n \n
+		</text>
+	</string>
+	<string id="st_redut_pelvissides">
+		<text>FORT Redut-M body armor pelvis and sides cover</text>
+	</string>
+	<string id="st_redut_pelvissides_descr">
+		<text>%c[ui_gray_1]Pelvis and sides cover for FORT Redut-M body armor.\n \n
+		</text>
+	</string>
+	<string id="st_redut_sides">
+		<text>FORT Redut-M body armor sides cover</text>
+	</string>
+	<string id="st_redut_sides_descr">
+		<text>%c[ui_gray_1]Sides cover for FORT Redut-M body armor.\n \n
+		</text>
+	</string>
+	<string id="st_6b43">
+		<text>6B43 Zabralo-Sh body armor</text>
+	</string>
+	<string id="st_6b43_descr">
+		<text>%c[ui_gray_1]The 6B43 bulletproof vest is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations.\n \n
+		</text>
+	</string>
+	<string id="st_6b43_ramiona">
+		<text>6B43 Zabralo-Sh body armor arms cover</text>
+	</string>
+	<string id="st_6b43_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for 6B43 Zabralo-Sh body armor.\n \n
+		</text>
+	</string>
+	<string id="st_6b43_pelvis">
+		<text>6B43 Zabralo-Sh body armor pelvis cover</text>
+	</string>
+	<string id="st_6b43_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for 6B43 Zabralo-Sh body armor.\n \n
+		</text>
+	</string>
+	<string id="st_thor_pelvis">
+		<text>NFM THOR Integrated Carrier body armor pelvis cover</text>
+	</string>
+	<string id="st_thor_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for NFM THOR Integrated Carrier body armor.\n \n
+		</text>
+	</string>
+	<string id="st_thor_ramiona">
+		<text>NFM THOR Integrated Carrier body armor arms cover</text>
+	</string>
+	<string id="st_thor_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for NFM THOR Integrated Carrier body armor.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan_pelvis">
+		<text>NFM THOR Integrated Carrier body armor tan pelvis cover</text>
+	</string>
+	<string id="st_thor_tan_pelvis_descr">
+		<text>%c[ui_gray_1]Tan pelvis cover for NFM THOR Integrated Carrier body armor.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan_ramiona">
+		<text>NFM THOR Integrated Carrier body armor tan arms cover</text>
+	</string>
+	<string id="st_thor_tan_ramiona_descr">
+		<text>%c[ui_gray_1]Tan arms cover for NFM THOR Integrated Carrier body armor.\n \n
+		</text>
+	</string>
+	<string id="st_thor">
+		<text>NFM THOR Integrated Carrier body armor</text>
+	</string>
+	<string id="st_thor_descr">
+		<text>%c[ui_gray_1]The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM.\n \n
+		</text>
+	</string>
+	<string id="st_thor_tan">
+		<text>NFM THOR Integrated Carrier body armor (TAN)</text>
+	</string>
+	<string id="st_apc_pelvis">
+		<text>PARACLETE APC pelvis cover</text>
+	</string>
+	<string id="st_apc_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc_ramiona">
+		<text>PARACLETE APC arms cover</text>
+	</string>
+	<string id="st_apc_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc_pelvis">
+		<text>PARACLETE APC pelvis cover (Multicam)</text>
+	</string>
+	<string id="st_apc_mc_pelvis_descr">
+		<text>%c[ui_gray_1]Multicam pelvis cover for PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc_ramiona">
+		<text>PARACLETE APC arms cover (Multicam)</text>
+	</string>
+	<string id="st_apc_mc_ramiona_descr">
+		<text>%c[ui_gray_1]Multicam arms cover for PARACLETE APC.\n \n
+		</text>
+	</string>
+	<string id="st_apc">
+		<text>PARACLETE APC</text>
+	</string>
+	<string id="st_apc_descr">
+		<text>%c[ui_gray_1]Designed to allow the operator to gain immediate protection against high powered assault weapons, the Advanced Plate Carrier (APC) takes performance to new levels. Blending the functionality of a tactical vest with the simplicity of a plate carrier, the APC accommodates soft ballistic panels, Level III or IV hard armor plates and equipment pouches.\n \n
+		</text>
+	</string>
+	<string id="st_apc_mc">
+		<text>PARACLETE APC (Multicam)</text>
+	</string>
+	<string id="st_helm_shapeshifter">
+		<text>Shapeshifter helmet with face cover</text>
+	</string>
+	<string id="st_helm_shapeshifter_descr">
+		<text>%c[ui_gray_1]Legendary helmet with face cover.\n \n
+		</text>
+	</string>
+	<string id="st_a18">
+		<text>Ars Arma A18 GOLIATH-G</text>
+	</string>
+	<string id="st_a18_descr">
+		<text>%c[ui_gray_1]An armored vest highly modular for certain special operations. Manufactured by Ars Arma.\n \n
+		</text>
+	</string>
+	<string id="st_a18_ramiona">
+		<text>Ars Arma A18 GOLIATH-G arms cover</text>
+	</string>
+	<string id="st_a18_ramiona_descr">
+		<text>%c[ui_gray_1]Arms cover for Ars Arma A18 GOLIATH-G.\n \n
+		</text>
+	</string>
+	<string id="st_a18_pelvis">
+		<text>Ars Arma A18 GOLIATH-G pelvis cover</text>
+	</string>
+	<string id="st_a18_pelvis_descr">
+		<text>%c[ui_gray_1]Pelvis cover for Ars Arma A18 GOLIATH-G.\n \n
+		</text>
+	</string>
+	<string id="st_helm_mcu2p">
+		<text>MCU-2/P protective mask</text>
+	</string>
+	<string id="st_helm_mcu2p_descr">
+		<text>%c[ui_gray_1]The MCU-2/P is a protective mask used by the United States Air Force and United States Navy, originally designed for the US Army as the XM-30 mask.\n \n
+		</text>
+	</string>
+	<string id="st_helm_crye_mcu2p">
+		<text>Crye Precision Airframe Tan (MCU-2/P)</text>
+	</string>
+</string_table>

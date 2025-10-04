@@ -20,7 +20,9 @@ Integration into Grok's Stash Overhaul and PDA Interactive.
 ----------------------------------------------------------
 -Patches:
 
-Boomsticks and Sharpsticks. To use the BaS scopes.
+Boomsticks and Sharpsticks
+https://www.moddb.com/mods/stalker-anomaly/addons/boomsticks-and-sharpsticks
+To use the BaS scopes.
 
 ----------------------------------------------------------
 -Known issues:

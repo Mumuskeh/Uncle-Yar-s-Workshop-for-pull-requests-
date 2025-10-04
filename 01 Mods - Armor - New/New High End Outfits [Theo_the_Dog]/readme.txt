@@ -24,5 +24,7 @@ Outfits will have the corresponding carry capacity of SKATs and Sunrises.
 ----------------------------------------------------------
 -Patches:
 
+Nav's Masks
+
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="st_wpn_gp100_stx">
+	<text>Nagant M1895 "Metro"</text>
+</string>
+<string id="st_wpn_gp100_stx_descr">
+	<text>The Nagant Model of 1895 was a seven-shot service revolver developed in Belgium and adopted by the Imperial Russian Army as its standard sidearm. The Brothers Nagant - Leon and Emile - had already lent their name to the famous Mosin-Nagant bolt-action service rifle also adopted by Imperial Russian forces back in 1891. The rifle utilized an integral magazine with repeat-fire capabilities and proved a huge upgrade to the old, single-shot Berdan series used by Russian infantry prior. The Tsarist Army then moved to adopt a standard service revolver to further modernize its infantry forces and this became the Nagant Model of 1895 (or simply the "M1895") which went on to serve Russian forces well into the communist Soviet era. The revolver emerged from an 1894 patent granted to Leon Nagant.\nThis special variant of the Nagant comes with a fixed suppressor and can shoot 7.62x25 caliber ammunitions. It originates from the craftmens of Moscow's "Metro Armory". Tales say that a Stalker named "Artyom" left a crate of those models in a secret location when he crossed the Zone.\n
+	%c[ui_gray_2]ATTACHMENTS:\n
+	%c[d_purple] • %c[ui_gray_2] .45 compatible suppressor (fixed)</text>
+</string>
+
+</string_table>
