@@ -26,9 +26,11 @@ Outfits have also been rebalanced, particularly the matter of not having proper 
 -ISG Radsuit Ghost: added to the NPC spawn pool.
 -Merc PS5 Wolfhound: head protection buffed to exohelm level. Upgrade icon coordinates fixed.
 
-1st Person View integration.
-Grok's Stash Overhaul integration. Some outfits will be rarer than their standard vanilla counterparts.
-Mags Redux integration. Not as simple as other patches. Some outfits get worse or better carrying capacities than the standard suit, depending on description, for example if it mentions being modified for lightness, capacities, or being designed instead of improvised.
+Includes integration for:
+1st Person View.
+Grok's Stash Overhaul. Some outfits will be rarer than their standard vanilla counterparts.
+Mags Redux. Not as simple as other patches. Some outfits get worse or better carrying capacities than the standard suit, depending on description, for example if it mentions being modified for lightness, capacities, or being designed instead of improvised.
+Outfit Attachment Overhaul.
 
 If you want extra functionality for this, my addons for Outfit Attachment Overhaul and Armor Modkits include patches for them.
 

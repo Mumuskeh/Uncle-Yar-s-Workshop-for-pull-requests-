@@ -28,8 +28,11 @@ Reworked distribution to NPCs:
 -Loners, bandits, and Renegades are terciary users, getting only the cheaper guns, and even then, veterans get the cheaper guns, and masters the more expensive ones. Shared guns are Kriss Gen 1, MP510, Tommy 10mm, and all Glocks 20 and 29. Loners also get the UMP10, Bren Ten and USP10. Bandits get the Kimber Eclipse and Renegades the Kimber Jagare.
 
 
-Integrated into Arszi's Mutant Bleeding + Optimized Patch, Grok's Stash Overhaul, Interactive PDA, Lootboxes, and Weapon Parts Overhaul.
-
+Includes integration for:
+Grok's Stash Overhaul.
+Interactive PDA.
+Lootboxes.
+Weapon Parts Overhaul.
 
 The Lite option includes everything mentioned, but disables some of the new guns. This is meant for performance sake as their models are not as optimized as they could be. I don't want to ruin the whole point of the "ecosystem", but this option will disable some of the guns with the worst optimizated models and redundant choices:
 -Banshee MkGs (shorty)
@@ -43,6 +46,8 @@ Some like the Kriss Gen2 and Gen 3, P220 (10mm), and USP 10 have a pass for now 
 
 ----------------------------------------------------------
 -Patches:
+
+Arszi's Mutant Bleeding + Optimized Patch
 
 Armor Modkits addon - Extra Kits for Outfits and Guns.
 https://www.moddb.com/mods/stalker-anomaly/addons/armor-modkits-extra-kits-addon
