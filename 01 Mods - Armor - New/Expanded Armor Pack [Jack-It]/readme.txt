@@ -30,7 +30,8 @@ Includes integration for:
 1st Person View.
 Grok's Stash Overhaul. Some outfits will be rarer than their standard vanilla counterparts.
 Mags Redux. Not as simple as other patches. Some outfits get worse or better carrying capacities than the standard suit, depending on description, for example if it mentions being modified for lightness, capacities, or being designed instead of improvised.
-Outfit Attachment Overhaul.
+Outfits Affect Movespeed.
+Outfit Attachment Overhaul. Outfits will be able to carry plates as per that mod.
 
 If you want extra functionality for this, my addons for Outfit Attachment Overhaul and Armor Modkits include patches for them.
 
@@ -46,6 +47,9 @@ These are the same optional models from the original mod, renamed so they can wo
 To keep the package download to a reasonable size, the helmet textures for the alternate Legend model have been reduced from 4k to 1k. You can still get the og 4k textures from DLTX Minimod.
 
 Nav's Masks
+
+Outfits Affect Movespeed for DLTX Minimod version
+As it says. Don't use this for the reworked version here. 
 
 ----------------------------------------------------------
 -Known issues:

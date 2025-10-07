@@ -22,6 +22,7 @@ Nav's Masks
 
 Outfits Affect Movespeed - Faster protoexos
 The default OAM integration gives the mod's protoexos a somewhat "normal" walking and sprinting speed. This overwrites it so they move faster, the same way OAM does by default for the vanilla ones.
+To be paired with the OAM Vanilla faster protoexos tweak also included in this pack.
 
 ----------------------------------------------------------
 -Known issues:

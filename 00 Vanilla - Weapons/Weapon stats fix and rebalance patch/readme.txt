@@ -1,6 +1,11 @@
 -Module:
 Weapon stats fix and rebalance patch
 
+Some of the mods merged with the permission of their authors:
+HellblaueHoelle's Fire Rate Fix
+Georg_Ravioli's AN-94 Fire Rate Fix
+Phosibl3's ReWeight Ammo
+
 ----------------------------------------------------------
 -Compatibility:
 The vanilla file will also affect mods that reuse the same IDs. Both good and intended, though some incongruencies may happen if a particular weapon is changed into a different one, like Blackgrowl's Pretty Pistols Pack. They will be looked at.
@@ -9,9 +14,7 @@ Also, you know, modders should do their minimal research beforehand. You know wh
 
 ----------------------------------------------------------
 -Explanation:
-Originally a merge of mods like HellblaueHoelle's Fire Rate Fix, Georg_Ravioli's AN-94 Fire Rate Fix, and some bits from Strogglet15 & Blackgrowl's mods.
-
-A holistic rebalance of the whole arsenal, using certain mods as stepping stones: HellblaueHoelle's Fire Rate Fix, Georg_Ravioli's AN-94 Fire Rate Fix, and Phosibl3's ReWeight Ammo among others.
+Holistic, realistic-ish minded, rebalance of the vanilla weapons. Originally a simple merge of other mods, it grew to be their own beast.
 
 It fixes the simplest aspect of weaponry by observing real life firearms. Broadly this means reduced range, in exchange of things like lower weight, higher fire rate and/or muzzle velocity. Or the other way around.
 
@@ -23,6 +26,8 @@ There are patches intended for different packs; individual mods are grouped up i
 
 
 Highlights are:
+
+-Ammo: ammo weight has been reduced.
 
 -Pistols: fire distance down to an average-ish of 75-150 meters, caliber depending.
 Pistols are strictly close range, not for sniping, but big calibers will reach the furthest out of sheer force. 9x18 are squirt guns.
