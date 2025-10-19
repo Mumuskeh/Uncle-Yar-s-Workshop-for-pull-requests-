@@ -3,11 +3,11 @@ NPC_loadouts files rank fix
 
 ----------------------------------------------------------
 -Compatibility:
-Place this very early in your load order.
+Place the main files very early in your load order, and the expansion and patches later than the patched mods.
 
-Don't use this with my BaS Lite files either; they also include these changes and you may risks errors and crashes.
+You don't need the main files if you also use BaS Lite, as it includes these changes as well.
 
-Incompatible with NPC loadout overhauls unless they're patched for it..
+Incompatible with NPC loadout overhauls unless they're patched for it.
 
 Mods adding new guns may want to observe the new sections in case patching is needed.
 
@@ -23,7 +23,7 @@ Weapon entries for master ranks have also been simplified so that their ammo and
 
 Also added "extra" sections to most faction ranks that lacked them. This makes easier for mods to add grenades to NPC loadouts.
 
-The odd ranks (trainee, professional, expert, legend) are barely used most of the time. Some mods try to add weapons to them, and fail because of this. I may come back and enable them for proper use, but that may require some extensive balancing effort that I'm not sure I'm capable off
+The odd ranks (trainee, professional, expert, legend) are barely used most of the time. Some mods try to add weapons to them, and fail because of this. I may come back and enable them for proper use, but that may require some extensive balancing effort that I'm not sure I'm capable off.
 
 Proper loadout overhauls may not be compatible with these changes.
 
@@ -51,6 +51,19 @@ Urban Tactics patch
 Mere rework of the original file to work correctly with the new changes.
 
 Note: Disable the mod_npc_loadouts_urban_tactics.ltx file in the original Urban Tactics, or make sure this one overwrites it.
+
+
+M67 Grenade patch
+Carried by masters, except loners, bandits, and renegades.
+Monolith and Freedom start carrying at veteran.
+Mercs and ISG start carrying at experienced.
+Do not use the "More Common M67S" option with this.
+
+
+Stick Grenade patch
+Carried by poor factions, and some of the solvent ones that don't follow any particular hierarchy as well: loners, bandits, Sin, and renegades.
+The M24 can be carried by most lower ranks. The Splitterringgranate will be carried by veterans and masters, and the anti tank Stielhandgranate will only be carried by masters.
+
 
 ----------------------------------------------------------
 -Known issues:

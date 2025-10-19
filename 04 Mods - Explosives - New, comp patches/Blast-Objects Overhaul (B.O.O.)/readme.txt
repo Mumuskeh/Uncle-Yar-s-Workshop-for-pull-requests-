@@ -27,6 +27,10 @@ It has a problem where it looks for a vanilla animation file that BOO overwrites
 
 Flash Grenades Updated + Flash Mk2 Animation merge (included in this patch pack)
 
+M67 Grenade
+
+Stick Grenade
+The anti tank bundle has half the thrown distance as every other grenade, due to weight and size. GET OUT OF THE WAY.
 
 ----------------------------------------------------------
 -Known issues:

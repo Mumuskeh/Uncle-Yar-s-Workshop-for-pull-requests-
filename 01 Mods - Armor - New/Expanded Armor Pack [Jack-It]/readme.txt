@@ -19,11 +19,11 @@ Outfits have also been rebalanced, particularly the matter of not having proper 
 -Loner NBC Ranger: torso protection nerfed from Berill to Sunrise level, but buffed head protection from none to respirator level.
 -Loner PS5 variants: torso protection nerfed from radsuit to PS5 level, and head protection buffed from battle helmet to either respirator level except for the Wayfarer variant.
 -Loner SKAT Strider: head protection nerfed from battle helmet to respirator level.
--Loner SKAT Knife: head protection buffed from none to battle helmet level.
+-Loner SKAT Knife: head protection buffed from none to battle helmet level. Removed camouflage effect (????).
 -Loner Radsuit Legend: buffed to the same protection level as vanilla radsuit variants.
 -Trenchcoat Scar: head protection buffed from none to respirator level.
--ISG LCS Operator: torso protection nerfed from SKAT to Berill level, but head protection buffed from none to battle helm level.
--ISG Radsuit Ghost: added to the NPC spawn pool.
+-ISG LCS Operator: torso protection nerfed from SKAT to Berill level, but head protection buffed from none to battle helm level. Reduced camouflage effect by a quarter of the original.
+-ISG Radsuit Ghost: added to the NPC spawn pool. Reduced camouflage effect by a quarter of the original.
 -Merc PS5 Wolfhound: head protection buffed to exohelm level. Upgrade icon coordinates fixed.
 
 Includes integration for:

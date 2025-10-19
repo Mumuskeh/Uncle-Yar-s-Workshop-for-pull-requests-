@@ -5,6 +5,8 @@ Remote Controlled Explosives [chool] - Blast-Objects Overhaul (B.O.O.) [dubious-
 -Compatibility:
 NOTE: Do not mix with the separated DLTXd files for either mod, also included in this patch pack.
 
+Disable both B.O.O. and RCE's configs folders.
+
 ----------------------------------------------------------
 -Explanation:
 The Remote IEDs integrated into BOO have been stripped away. This way you can still have the aggressive actions of BOO while keeping remote functionality, and we reduce our number of items in the game.
