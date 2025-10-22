@@ -105,12 +105,18 @@ fire_distance	= 100 ; 230
 fire_distance	= 175
 bullet_speed	= 350
 rpm				= 120
+;If using my tweaks
+![wpn_c96_7.62]
+fire_distance	= 175
+bullet_speed	= 350
+rpm				= 120
 
 ;Sten
 ![wpn_sten]
 inv_weight		= 3.2
 fire_distance	= 100
 bullet_speed	= 365
+rpm				= 500 ; 540
 
 
 ;;BILLWA 	============	============	============	============
@@ -169,8 +175,8 @@ $spawn			= "weapons\mac10"
 fire_distance	= 100
 rpm				= 1146
 ;in case someone uses the patch in my Hisalute pack, as I change the ID for that one
+;repeating from the hisalute patch for safety
 ![wpn_mac10_45]
-$spawn			= "weapons\mac10_45"
 fire_distance	= 50
 bullet_speed	= 280
 rpm				= 1146
@@ -215,6 +221,7 @@ rpm				= 650 ; 720
 ;Ithaca
 ![wpn_ithacam37]
 fire_distance	= 100 ; 300
+rpm				= 12 ; 60
 ![wpn_ithacam37_trench]
 $spawn			= "weapons\ithacam37_stakeout"
 fire_distance	= 150 ; 320
@@ -250,6 +257,8 @@ rpm				= 600
 ;Tommy gun drop
 ![wpn_thompson_m1a1]
 $spawn			= "weapons\thompson_m1a1"
+hit_impulse		= 40
+hit_power		= 0.55, 0.55, 0.55, 0.55
 inv_weight		= 4.5
 bullet_speed	= 285
 rpm				= 750
@@ -288,7 +297,6 @@ ef_weapon_type	= 6
 single_handed	= 0
 inv_weight		= 1.4
 cost			= 24410
-silencer_name	= wpn_sil_gemtech
 hit_impulse		= 24
 hit_power		= 0.47, 0.47, 0.47, 0.47
 fire_distance	= 200
@@ -305,7 +313,6 @@ ef_weapon_type	= 6
 single_handed	= 0
 inv_weight		= 1.6
 cost			= 42410
-silencer_name	= wpn_sil_gemtech
 hit_impulse		= 24
 hit_power		= 0.47, 0.47, 0.47, 0.47
 fire_distance	= 200

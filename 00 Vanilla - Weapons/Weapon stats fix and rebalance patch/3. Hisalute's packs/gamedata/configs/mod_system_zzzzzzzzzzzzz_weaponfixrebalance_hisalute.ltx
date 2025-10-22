@@ -3,6 +3,8 @@
 
 ;;;;Hisalute's
 
+; Some guns are repeated, due to changing the IDs in my tweaks pack
+
 ;;SWP ============ ============ ============ ============
 
 ![wpn_borz]
@@ -107,13 +109,18 @@ rpm				= 100 ; 85
 
 ![wpn_sten]
 $spawn			= "weapons\sten"
-inv_weight		= 3.2
 fire_distance	= 100
-bullet_speed	= 365
+rpm				= 500 ; 550
 ![wpn_sten_mkv]
 $spawn			= "weapons\sten_mkv"
+rpm				= 550
 ![wpn_sten_762]
 $spawn			= "weapons\sten_762"
+fire_distance	= 200
+![wpn_sten_mkiis]
+fire_distance	= 100
+rpm				= 500 ; 550
+![wpn_sten_mkii_762]
 fire_distance	= 200
 
 ![wpn_tiss]
@@ -157,6 +164,8 @@ fire_distance	= 375
 ![wpn_big_ben]
 $spawn			= "weapons\big_ben"
 fire_distance	= 200
+![wpn_desert_eagle_bigben]
+fire_distance	= 200
 
 ![wpn_cbj]
 $spawn			= "weapons\cbj"
@@ -171,6 +180,9 @@ fire_distance	= 500
 bullet_speed	= 900
 
 ![wpn_g18c]
+fire_distance	= 100
+bullet_speed	= 375
+![wpn_glock18c]
 fire_distance	= 100
 bullet_speed	= 375
 
@@ -243,6 +255,26 @@ fire_distance	= 300
 bullet_speed	= 710
 rpm				= 1000
 
+;in case we use the patch for Jmerc's
+![wpn_mp9_57]
+inv_weight		= 1.4
+cost			= 26410
+hit_impulse		= 28
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 300
+bullet_speed	= 710
+rpm				= 1000
+![wpn_mp9_57_tac]
+inv_weight		= 1.6
+cost			= 46410
+hit_impulse		= 28
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 300
+bullet_speed	= 710
+rpm				= 1100
+
+
+
 ![wpn_ots27]
 $spawn			= "weapons\ots27"
 fire_distance	= 100
@@ -298,6 +330,12 @@ $spawn			= "weapons\scar_556"
 inv_weight		= 3.29
 fire_distance	= 500
 bullet_speed	= 710
+![wpn_scar_l]
+$spawn			= "weapons\scar_556"
+inv_weight		= 3.29
+fire_distance	= 500
+bullet_speed	= 710
+
 
 ![wpn_spas12_slug]
 fire_distance	= 175 ; 500

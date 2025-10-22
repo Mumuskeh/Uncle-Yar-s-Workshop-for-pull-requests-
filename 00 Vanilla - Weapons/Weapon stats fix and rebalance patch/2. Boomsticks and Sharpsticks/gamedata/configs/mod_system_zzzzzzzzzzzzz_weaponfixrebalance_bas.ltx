@@ -218,6 +218,9 @@ rpm				= 725
 
 ![wpn_colt1911_n]
 inv_weight		= 1.075
+upgrades			= up_gr_firstab_colt1911, up_gr_seconab_colt1911, up_gr_thirdab_colt1911, up_gr_fourtab_colt1911, up_gr_fifthab_colt1911
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_colt1911
 fire_distance	= 100
 bullet_speed	= 253
 
@@ -272,15 +275,18 @@ cost			= 78930
 inv_weight		= 7.750
 cost			= 100530
 
-
 ![wpn_glock17]
 $spawn			= "weapons\glock17"
+upgrades		= up_gr_firstab_glock, up_gr_seconab_glock, up_gr_thirdab_glock, up_gr_fourtab_glock, up_gr_fifthab_glock, up_gr_fifthcd_glock
+upgrade_scheme	= upgrade_scheme_beretta
 fire_distance	= 100
 bullet_speed	= 375
 ![wpn_glock17_m1]
 $spawn			= "weapons\glock17_m1"
 ;cost: base gun + 5k for handgun
 cost			= 15960 ; 16960
+upgrades		= up_gr_firstab_glock, up_gr_seconab_glock, up_gr_thirdab_glock, up_gr_fourtab_glock, up_gr_fifthab_glock, up_gr_fifthcd_glock
+upgrade_scheme	= upgrade_scheme_beretta
 fire_distance	= 100
 bullet_speed	= 375
 
@@ -301,12 +307,16 @@ cost			= 21880 ; 15880
 ;decent addons, +7500
 cost			= 29380 ; 25880
 
+;eh, actually Korths are supposed to be extra moolah so fuck it
 ![wpn_korth]
 $spawn			= "weapons\korth"
+upgrades		= up_gr_firstab_colt1911, up_gr_seconab_colt1911, up_gr_thirdab_colt1911, up_gr_fourtab_colt1911, up_gr_fifthab_colt1911
+upgrade_scheme	= upgrade_scheme_colt1911
 fire_distance	= 100
 ![wpn_korth_custom]
 $spawn			= "weapons\korth_custom"
-;cost: eh, actually Korths are supposed to be extra moolah so fuck it
+upgrades		= up_gr_firstab_colt1911, up_gr_seconab_colt1911, up_gr_thirdab_colt1911, up_gr_fourtab_colt1911, up_gr_fifthab_colt1911
+upgrade_scheme	= upgrade_scheme_colt1911
 fire_distance	= 120
 
 ![wpn_ks23]
@@ -442,6 +452,8 @@ cost			= 78850 ; 165120
 rpm				= 700 ; 650
 
 ![wpn_pl15]
+upgrades		= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
+upgrade_scheme	= upgrade_scheme_usp
 fire_distance	= 100
 ![wpn_pl15_lazup_pl15]
 ;cost: base gun + upgrade kit cost (lazup_pl15: 12300)
@@ -451,6 +463,8 @@ cost			= 39260
 cost			= 79260
 
 ![wpn_pl15_tan]
+upgrades		= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
+upgrade_scheme	= upgrade_scheme_usp
 fire_distance	= 100
 ![wpn_pl15_tan_lazup_pl15]
 ;cost: base gun + upgrade kit cost (lazup_pl15: 12300)
@@ -664,6 +678,8 @@ cost			= 55550 ; 140850
 $spawn			= "weapons\usp_tac"
 ;cost: base gun + 5k for hand gun + 15k for alledged scientist work and artefact materials + 5k for rarity (Match 9mm was discontinued)
 cost			= 40360 ; 54600
+upgrades		= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
+upgrade_scheme	= upgrade_scheme_usp
 fire_distance	= 100
 bullet_speed	= 300
 rpm				= 500
