@@ -252,6 +252,39 @@ bullet_speed	= 366 ; 402
 rpm				= 600
 
 
+;;CHILLCAT 	============	============	============	============
+
+; Let's standardize their damage to VSSK levels
+
+;MC-572 Astarta
+![wpn_mc572]
+hit_impulse		= 75 ; 60
+;it's sold as a Barret killer, let's buff the damage closer to it
+hit_power		= 2.75, 2.75, 2.75, 2.75 ; 2.5, 2.5, 2.5, 2.5
+fire_distance	= 1800
+bullet_speed	= 1330
+rpm				= 150
+
+;OSV96
+![wpn_osv96]
+parent_section	= wpn_osv96
+hit_impulse		= 75 ; 50
+hit_power		= 2.25, 2.25, 2.25, 2.25 ; 3.0
+; fire_distance	= 1800
+; "The rifle is capable of engaging infantry at a distance of up to 1800 meters and can combat materiel targets at ranges up to 2500 meters". Fuek hueg range, but no changes then.
+bullet_speed	= 890 ; 853
+rpm				= 20 ; 100
+
+;technically a .50 BMG M82 in Bullpup config
+;XM500
+![wpn_xm500]
+$spawn			= "weapons\mc572"
+hit_power		= 3.0 ; 2.7, 2.7, 2.7, 2.7
+fire_distance	= 1800
+bullet_speed	= 853
+rpm				= 100
+
+
 ;;FIREBREATH 	============	============	============	============
 
 ;Tommy gun drop
@@ -343,45 +376,109 @@ fire_distance	= 500
 bullet_speed	= 930
 rpm				= 650
 
-;Beretta pack
-; need to research them more
-![wpn_beretta_92g1]
-;fictional, so who knows
-$spawn			= "weapons\beretta_92g1"
-fire_distance	= 100
 
+;;Beretta pack
+; need to research them more
+;repeating for my tweaks
+
+;70
 ![wpn_beretta_m70]
-;actually small calibers?
-$spawn			= "weapons\beretta_m70"
+$spawn			= "weapons\beretta_70"
+hit_power		= 0.45, 0.45, 0.45, 0.45
+fire_distance	= 75
+; bullet_speed			= 300
+; rpm						= 400
+![wpn_beretta_70]
+hit_power		= 0.45, 0.45, 0.45, 0.45
 fire_distance	= 75
 ; bullet_speed			= 300
 ; rpm						= 400
 
-![wpn_beretta_93]
-$spawn			= "weapons\beretta_93"
-fire_distance	= 100
-bullet_speed	= 380
-rpm				= 700
-
+;80 Target, actually .22 lr?
 ![wpn_berettatarget]
-;actually .22 lr?
 $spawn			= "weapons\berettatarget"
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+inv_weight		= 0.835
+fire_distance	= 150
+; bullet_speed	= 450
+; rpm				= 380
+![wpn_beretta_87_target]
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
 inv_weight		= 0.835
 fire_distance	= 150
 ; bullet_speed	= 450
 ; rpm				= 380
 
+;Renetti, fictional, so who knows
+![wpn_beretta_92g1]
+$spawn			= "weapons\beretta_92_g1"
+shell_particles	= weapons\9x19
+upgrades		= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100
+![wpn_beretta_92_g1]
+shell_particles	= weapons\9x19
+upgrades		= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100
+
+;Cutlass, wtf is this weeb shit :_D
+;it's also chambered in .45, when it should be 9mm
 ![wpn_beretta_cutlass]
 $spawn			= "weapons\beretta_cutlass"
+shell_particles	= weapons\9x19
+ammo_class		= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100
+; bullet_speed	= 240
+; rpm				= 320
+![wpn_beretta_92_cutlass]
+shell_particles	= weapons\9x19
+ammo_class		= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
 fire_distance	= 100
 ; bullet_speed	= 240
 ; rpm				= 320
 
+;Samurai edge, sure, private custom guns from a the other side of the world, why not :_D
 ![wpn_sam_edge]
 $spawn			= "weapons\sam_edge"
+shell_particles	= weapons\9x19
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
 fire_distance	= 120
 ; bullet_speed			= 362
 ; rpm						= 325
+![wpn_sam_edge]
+shell_particles			= weapons\9x19
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 120
+; bullet_speed			= 362
+; rpm						= 325
+
+;93R
+![wpn_beretta_93]
+$spawn			= "weapons\beretta_93"
+shell_particles	= weapons\9x19
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100
+bullet_speed	= 380
+rpm				= 700
+![wpn_beretta_93r]
+shell_particles	= weapons\9x19
+hit_impulse		= 24
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 100
+bullet_speed	= 380
+rpm				= 700
 
 
 ;;KMACK	============	============	============	============

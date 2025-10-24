@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_osv96">
+		<text>OSV-96 "Cracker"</text>
+	</string>
+	<string id="st_wpn_osv96_descr">
+		<text>The OSV-96 is a Russian self-loading large-caliber sniper rifle. It was developed in Tula by specialists of the Instrument Engineering Design Bureau (KBP). The rifle is self-loading, the automation works by removing powder gases from the barrel, locking is carried out by turning the bolt with 4 firing stops directly behind the barrel, which allows you to unload the receiver and make it fold around the front end, just behind the place where the barrel is attached. Folding is necessary, since in combat-ready form the rifle has a very long length and is inconvenient to store and transport (at the same time, the breech section of the barrel and the receiver overlap to prevent clogging).</text>
+	</string>
+
+</string_table>

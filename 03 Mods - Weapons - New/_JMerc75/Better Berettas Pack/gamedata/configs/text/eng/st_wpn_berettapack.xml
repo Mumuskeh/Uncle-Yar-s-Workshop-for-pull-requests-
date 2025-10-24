@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_beretta_70">
+		<text>Beretta 70</text>
+	</string>
+	<string id="st_wpn_beretta_70_descr">
+		<text>The Beretta 70 is a magazine-fed, single-action semi-automatic pistol series designed and produced by Beretta of Italy, which replaced the earlier 7.65mm Beretta M1935 pistol. Some pistols in this series were also marketed as the Falcon, New Puma, New Sable, Jaguar, and Cougar (not to be confused with the later Beretta 8000, which was also marketed as Cougar). The gun is notable for its appearances in film, and is also the first compact Beretta pistol to feature several improvements commonly found in Beretta pistols for the rest of the century. The 70 Series incorporated a cross-bolt safety modeled after that used on the M1951, but this safety was also difficult to operate with a single hand, and could also accidentally be switched on or off depending on the user's grip.</text>
+	</string>
+
+	<string id="st_wpn_beretta_87_target">
+		<text>Beretta 87 Target</text>
+	</string>
+	<string id="st_wpn_beretta_87_target_descr">
+		<text>Take the 87 Target out of its box, add optics (if desired) and it is competition ready, or ready to be put through its paces at training. Thanks to a built-in Weaver style rail, mounting optics can be done in a flash. The sights are adjustable, and the magazine features a sturdy rubber pad. The frame has a bevelled part for easy magazine insertion. Comes standard with plastic grips but walnut grips are available on request.\n
+		You'll find the trigger pull on the 87 Target to be very light and crisp. The pistol is designed to remain upright when set down on a flat surface, ready to be quickly gripped, magazine loaded and raised to the target.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Deltapoint, Aimpoint Low and RMR sights\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 9mm suppressor</text>
+	</string>
+
+	<string id="st_wpn_beretta_92_g1">
+		<text>Beretta 92 "Renetti"</text>
+	</string>
+	<string id="st_wpn_beretta_92_g1_descr">
+		<text>The Beretta 92 Renetti is a special designation of the classic 92s, capable of full automatic fire due to it&#39;s selector switch and high magazine capacity, it&#39;s compensator helps mantaining stability both while wielding it and firing it.</text>
+	</string>
+
+    <string id="st_wpn_beretta_92_cutlass">
+		<text>Beretta 92FS Inox "Sword Cutlass"</text>
+	</string>
+	<string id="st_wpn_beretta_92_cutlass_descr">
+		<text>The Beretta 92 (also Beretta 96 and Beretta 98) is a series of semi-automatic pistols designed and manufactured by Beretta of Italy. The Beretta 92 was designed in 1975, and production began in 1976. Many variants in several different calibers continue to be used to the present.
+		This is a customized Beretta 92FS Inox with a 5.9 inch barrel and slide configuration, 1 inch longer than any standard Beretta 92 model. They are engraved with "9mm Sword Cutlass", the Jolly Roger of the famous pirate Calico Jack (which is also inlaid into the ivory grips), and a Thai inscription meaning "Manufactured by Praiyachat - Special Specs". Praiyachat, a Thai gunsmith.</text>
+	</string>
+		<!-- 		Rebeccca "Revy" Lee uses dual Sword Cutlass pistols as her personal sidearm. They're customized Beretta 92FS Inox pistols with a 5.9 inch barrel and slide configuration, 1 inch longer than any standard Beretta 92 model. They are engraved with "9mm Sword Cutlass", the Jolly Roger of the famous pirate Calico Jack (which is also inlaid into the ivory grips), and a Thai inscription meaning "Manufactured by Praiyachat - Special Specs". Praiyachat, a Thai gunsmith. -->
+
+	<string id="st_wpn_beretta_92_sam_edge">
+		<text>Beretta 92 "Samurai Edge"</text>
+	</string>
+	<string id="st_wpn_beretta_92_sam_edge_descr">
+		<text>The Beretta Samurai Edge is a legendary firearm prominently used by a renown scientist. Known for its sleek and menacing design, this exceptional weapon combines the reliability of the Beretta handgun with the custom craftsmanship of a skilled bladesmith. Crafted from the finest materials, it boasts a precision-engineered frame and a remarkable balance, enabling swift and accurate targeting in dire situations. Adorned with intricate engravings and intricate detailing, the Samurai Edge exudes an air of both elegance and lethal intent. It has become an iconic symbol of resilience and survival, trusted by those who face unimaginable horrors with unwavering determination.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 9mm suppressor</text>
+	</string>
+
+	<string id="st_wpn_beretta_93r">
+		<text>Beretta 93R</text>
+	</string>
+	<string id="st_wpn_beretta_93r_descr">
+		<text>The Beretta 93R is an Italian selective-fire machine pistol, designed and manufactured by Beretta in the late 1970s for police and military use, that is derived from their semi-automatic Beretta 92. The &#34;R&#34; stands for Raffica, which is Italian for &#34;volley&#34;, &#34;flurry&#34;, or &#34;burst&#34; (sometimes spoken &#34;R&#34; as &#34;Rapid&#34; in English).\n
+		The Beretta 93R is mechanically similar to the Beretta 92. It can be selected to fire either a three round burst or single fire. A selector switch enables the operator to alternate between the two firing modes. The pistol is fitted with a collapsible angled foregrip at the front end of the trigger guard to provide better stability when firing. A folding steel buttstock can be attached at the heel of the grip. The Beretta 93R is much more controllable compared to other machine pistols because it was designed with only a three round burst mode as well as a ported barrel.</text>
+	</string>
+
+</string_table>
