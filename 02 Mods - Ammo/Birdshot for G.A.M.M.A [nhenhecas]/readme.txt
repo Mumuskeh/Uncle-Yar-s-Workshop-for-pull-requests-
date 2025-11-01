@@ -16,6 +16,8 @@ Also fixed how the ammo is added to weapons, and expanded the shotguns eligible 
 And I know this was our man's first mod, but please, pleasepleaseplease.
 64MBs or baby Monolith forbid, *128 MGs* files for icons that can fill a 16 KBs ARE NOT A REASONABLE PROPOSITION.
 
+Mags Redux support, so the shells can be loaded into vanilla magazines.
+
 ----------------------------------------------------------
 -Patches:
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_spectre">
+		<text>SITES Spectre M4</text>
+	</string>
+	<string id="st_wpn_spectre_descr">
+		<text>The Spectre M4 is a 9x19mm submachine gun developed in 1980 by Italian manufacturer SITES for use by counter-terrorist and police units. Despite being mainly made out of steel, it is a compact and light weapon, designed for instant firepower in close combat at short ranges. Production ceased in 1997 with the closure of SITES. This particular gun seems to bear the mark of Greco Sport S.A. which produced a small number of copies until 2001.\n
+		In the Zone, the Spectre is well liked for its great handling, low weight and compact size, making it a very good weapon for scavengers and artifact hunters who don't need a fighting weapon, and just want something light to carry on them for personal defense from mutants and bandits at close range.</text>
+	</string>
+
+	<string id="st_wpn_spectre_tac">
+		<text>SITES Spectre M4 Tactical</text>
+	</string>
+	<string id="st_wpn_spectre_tac_descr">
+		<text>The Spectre M4 is a 9x19mm submachine gun developed in 1980 by Italian manufacturer SITES for use by counter-terrorist and police units. Despite being mainly made out of steel, it is a compact and light weapon, designed for instant firepower in close combat at short ranges.\n
+		This gun has been modified to better fit the role of a PDW. A stock and laser have been added for better control of the high rate of fire.</text>
+	</string>
+
+	<string id="st_mag_spectre_9x19_default">
+		<text>Standard 9x19 Spectre M4 Magazine</text>
+	</string>
+	<string id="st_mag_spectre_9x19_default_descr">
+		<text>30-round quad-stack magazine for the Spectre M4. It employs an unconventional four-column design, meaning that with only a slightly wider frame, it can pack a standard number of rounds in a magazine only as tall as a pack of cigarettes.</text>
+	</string>
+
+	<string id="st_mag_spectre_9x19_casket">
+		<text>50-round 9x19 Spectre M4 Magazine</text>
+	</string>
+	<string id="st_mag_spectre_9x19_casket_descr">
+		<text>50-round quad-stack magazine for the Spectre M4. Offers a lot of firepower, but it's extremely heavy and the quad-stack nature makes it difficult to load in rounds quickly.</text>
+	</string>
+
+</string_table>

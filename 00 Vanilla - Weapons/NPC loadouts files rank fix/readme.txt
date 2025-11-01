@@ -1,5 +1,5 @@
 -Module:
-NPC_loadouts files rank fix
+NPC loadouts files rank fix
 
 ----------------------------------------------------------
 -Compatibility:
@@ -13,11 +13,12 @@ Mods adding new guns may want to observe the new sections in case patching is ne
 
 ----------------------------------------------------------
 -Explanation:
-The base vanilla npc_loadouts files have a couple of problems, I think. They're supposed to provide a pool of weapons based on faction rank of an NPC (novice, experienced, veteran, master) and whether they're main or secondary weapons.
+The base vanilla files for NPC loadouts have a couple of problems, I think. They're supposed to provide a pool of weapons based on faction rank of an NPC (novice, experienced, veteran, master) and whether they're main or secondary weapons.
 
 However for many rookie ranks many secondary guns like pistols were treated like main weapons, the secondary weapon pool unused. It also means that any mod trying to add weapons and isn't aware of this problem might end up not doing anything. Now, rookies will have proper access to both main and secondary weapons, and mods may add their weapons properly.
 
 Some factions share the same rank pool for rookies and experienced, mainly Mercs and ISG. I made an experienced pool for each and copypasted there the best guns from the rookie pool. Mods that look for such a experienced pool will now work correctly, though not other pools that vanilla doesn't use. If recommend pairing this with the weapon mods fixes also included in this patch pack.
+Ecologist masters will now use the same pool of secondary weapons that eco mercs and ecologist experts use, instead of the dinky novice pool.
 
 Weapon entries for master ranks have also been simplified so that their ammo and attachments are always random, instead of several entries with different variables. Do tell if this cause any trouble for you
 

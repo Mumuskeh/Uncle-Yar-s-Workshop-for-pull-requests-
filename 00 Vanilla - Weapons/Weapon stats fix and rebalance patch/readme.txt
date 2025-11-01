@@ -50,13 +50,14 @@ These are intended for clandestine close quarters assault. Sniping a dude up a t
 
 
 -12.7mm weapons:
-Ash-12 and VSSK fire distance down to 300 and 800 meters, respectively. Ash-12 gets a heavy damage buff to compensate.
+Ash-12 and VSSK fire distance down to 300 and 800 meters, respectively.
 12.7 ammo is sort of an .50 analogue, with the Ash-12 being used as 9x39 cranked up to eleven, and the VSSK an anti materiel rifle. You usually use those on armor, not on a fleshy target across kilometers.
+To compensate,  Ash-12 gets a heavy damage buff, and is allowed to use a silencer. If you use Blackgrowl's AShey 'n ShAKky, make sure to use the Other Mods patch (further below), so the new silencer is respected.
 
 
 -Shotguns:
 Range reduced, compensated in some cases by lower weight or higher fire rate (most are pump or breech loaders anyway).
-Given both buckshot and slugs follow the same range per gun, we will follow these rules. Hopefully those ranges are enough for your slugs. Do tell your impressions.:
+Given both buckshot and slugs follow the same range per gun, we will follow these rules. Hopefully those ranges are enough for your slugs. Do tell your impressions:
 	Sawn offs breech loaders: 50 meters
 	Full length breech loaders: 125 meters
 	The rest (magazine, pump, etc): 100 meters
@@ -131,6 +132,7 @@ Bert: Mauser C96, Sten
 Beli fosfor: SIG Sauer P365
 Billwa: FG42, IZH18 and MP18, MAC-10, M240, M3A1 Grease Gun, Milkor MGL, Type 56 Pack, Stick Grenade
 Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
+Chillcat: MC-572, OSV96, and XM500
 Firebreath: Tommy gun drop
 hellcolonel: Anomalous Grenades
 Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, MP9, QBZ 95

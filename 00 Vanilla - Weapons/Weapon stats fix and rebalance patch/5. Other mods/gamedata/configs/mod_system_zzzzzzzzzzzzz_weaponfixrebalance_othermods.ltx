@@ -91,12 +91,18 @@ rpm				= 700
 
 ![wpn_p365]
 $spawn			= "weapons\p365"
-; hit_impulse					= 30
-; hit_power					= 0.35, 0.35, 0.35, 0.35
+parent_section	= wpn_p365
+hit_impulse		= 25 ; 30
+hit_power		= 0.46, 0.46, 0.46, 0.46 ; 0.35, 0.35, 0.35, 0.35
 fire_distance	= 100 ; 230
-; bullet_speed				= 340
+bullet_speed	= 362; 340
 ; rpm							= 390
 
+;from my patch
+![wpn_p365-380]
+fire_distance	= 90
+bullet_speed	= 295
+rpm				= 430
 
 ;BERT 	============	============	============	============
 
@@ -247,7 +253,9 @@ fire_distance	= 200 ; 400
 bullet_speed	= 366 ; 402
 
 ;Ashey shakey
-;just making sure the Shak retains its rpm
+;just making sure the Shak retains its rpm, and the Ash the new silencer
+![wpn_ash12]
+silencer_name	= wpn_sil_shak12
 ![wpn_shak12]
 rpm				= 600
 
