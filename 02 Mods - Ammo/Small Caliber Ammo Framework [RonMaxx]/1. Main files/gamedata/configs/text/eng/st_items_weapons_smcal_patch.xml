@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
 <string_table>
 
 	<string id="st_wpn_vz68">
@@ -39,9 +38,37 @@
 		<text>Skorpion vz.64</text>
 	</string>
 	<string id="st_wpn_vz64_descr">
-		<text>The Škorpion vz. 68 (or Sa vz. 61 Skorpion) is an experimental variant of the Škorpion vz. 61, a Czechoslovak machine pistol developed in 1959 by Miroslav Rybář (1924–1970), and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Česká zbrojovka arms factory in Uherský Brod from 1963 to 1979. This version uses .380 ACP ammunition, though given the relative scarcity of that caliber in the Zone, it didn't catch up as much as the 9x19mm caliber model. It seems strange anybody would bother to dust off an experimental design for a caliber that's scarcer and weaker than the popular 9x19 in the Zone, but it could be someone bought this gun as a personal order. \n \n
+		<text>The Škorpion vz. 68 (or Sa vz. 61 Skorpion) is an experimental variant of the Škorpion vz. 61, a Czechoslovak machine pistol developed in 1959 by Miroslav Rybář (1924–1970), and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Česká zbrojovka arms factory in Uherský Brod from 1963 to 1979. This version uses .380 ACP ammunition, though given the relative scarcity of that caliber in the Zone, it didn't catch up as much as the 9x19mm caliber model. It seems strange anybody would bother to dust off an experimental design for a caliber that's scarcer and weaker than the popular 9x19 in the Zone, but it could be someone bought this gun as a personal order.\n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] .380 ACP compatible suppressor\n \n</text>
+	</string>
+
+	<string id="st_mag_vz61_9x19_fmj">
+		<text>Standard 9x19 vz.68 Magazine</text>
+	</string>
+	<string id="st_mag_vz61_9x19_fmj_descr">
+		<text>20-round standard issue Vz.68 magazine. A reliable weapon that enjoys immense popularity with the criminal underworld.</text>
+	</string>
+
+	<string id="st_mag_vz61_9x18_fmj">
+		<text>Modified 9x18 vz.68 Magazine</text>
+	</string>
+	<string id="st_mag_vz61_9x18_fmj_descr">
+		<text>20-round Vz.68 magazine modified slightly to feed 9x18 Makarov rounds.</text>
+	</string>
+
+	<string id="st_mag_vz61_32acp">
+		<text>Standard 9x19 vz.61 Magazine</text>
+	</string>
+	<string id="st_mag_vz61_32acp_descr">
+		<text>20-round standard issue Vz.61 magazine.</text>
+	</string>
+
+	<string id="st_mag_vz64_380acp">
+		<text>Standard 9x19 vz.64 Magazine</text>
+	</string>
+	<string id="st_mag_vz64_380acp_descr">
+		<text>20-round standard issue Vz.64 magazine.</text>
 	</string>
 
 </string_table>
