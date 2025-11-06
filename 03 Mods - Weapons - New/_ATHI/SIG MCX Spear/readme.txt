@@ -22,7 +22,7 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer.
+Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
 Makes the rifle use the vanilla SR-25 silencer.
 
 Arszi's Mutant Bleeding + Optimized Patch

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<string_table>
-	<string id="st_wpn_p365_descr">
-		<text>The SIG Sauer P365 is a striker-fired subcompact semi-automatic pistol manufactured by SIG Sauer, intended for everyday carry. Chambered in 9x19 caliber with a 10 round capacity, it is lightweight thanks to its small size and light materials. It has been adopted in the United States by some police departments, and in Denmark bythe  Military Police and the Special Operations Command. It is commonly carried by ISG members and Mercenaries through the Zone.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] - %c[ui_gray_2] Silencer: Gemtech</text>
-	</string>
-
-</string_table>

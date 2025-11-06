@@ -99,7 +99,8 @@ zoom_dof				= -1000, 1.0, 1000
 zoom_enabled			= true
 zoom_rotate_time		= 0.25
 reload_dof				= 0.0, 0.5, 5, 1.7
-control_inertion_factor = 1.0f
+control_inertion_factor	= 1.0f
+crosshair_inertion		= 2.8
 fire_dispersion_base	= 0.15
 fire_dispersion_condition_factor= 0.001
 inertion_origin_aim_offset	= -0.03
@@ -149,7 +150,8 @@ kill_msg_height		= 23
 weapon_lower_speed	= 0.2
 
 hud_fov	= 0.6
-;---------------------------------------------------------------------SND-------------------------------------------------------------------------------
+
+;-----------------------------------------------------------------SND-----------------------------------------------------------------------------------
 snd_draw				= eft_wp\shared\draw_pistol
 snd_holster				= eft_wp\shared\hide_pistol
 snd_empty				= eft_wp\shared\empty_click_pistol
@@ -174,17 +176,18 @@ aim_hud_offset_pos_16x9	= -0.059324, 0.035918, -0.013995
 aim_hud_offset_rot		= 0.063735, 0.07871, 0.021062
 aim_hud_offset_rot_16x9	= 0.063735, 0.07871, 0.021062
 
-hands_position_16x9		= -0.007600,-0.166500,-0.300000
+hands_orientation		= -0.5, 1., 1.15
 hands_orientation_16x9	= 4.469942,4.346008,3.605055
+hands_position			= -0.031, -0.17, 0
+hands_position_16x9		= -0.007600,-0.166500,-0.300000
 
-hands_position		= -0.031, -0.17, 0
-hands_orientation	= -0.5, 1., 1.15
+lowered_hud_offset_pos	= 0,0.1,0
+lowered_hud_offset_pos_16x9	= 0,0,0
+lowered_hud_offset_rot	= 0.3,-0.1,0.1
+lowered_hud_offset_rot_16x9	= 0.3,-0.1,0.1
 
 safemode_anm	= 
 safemode_anm2	= 
-
-lowered_hud_offset_pos	= 0,0.1,0
-lowered_hud_offset_rot	= 0.3,-0.1,0.1
 
 gl_hud_offset_pos	= 0, 0, 0
 gl_hud_offset_rot	= 0, 0, 0
@@ -192,36 +195,32 @@ gl_hud_offset_rot	= 0, 0, 0
 lean_hud_offset_pos	= 0, 0, 0
 lean_hud_offset_rot	= 0, 0, 0
 
-anm_show				= pm_new_eft_ins_draw, idle
-anm_show_empty			= pm_new_eft_ins_draw, idle_empty
-anm_hide				= pm_new_eft_ins_hide, idle
-anm_hide_empty			= pm_new_eft_ins_hide, idle_empty
-anm_idle				= pm_new_eft_ins_idle, idle
-anm_idle_empty			= pm_new_eft_ins_idle, idle_empty
-anm_shots				= pm_new_eft_ins_shoot, shoot
-anm_shot_l				= pm_new_eft_ins_shoot, shoot_last
-anm_idle_aim			= pm_new_eft_ins_idle_aim, idle
-anm_idle_aim_empty		= pm_new_eft_ins_idle_aim, idle_empty
-anm_reload				= pm_new_eft_ins_reload, reload
-anm_reload_empty		= pm_new_eft_ins_reload_empty, reload_empty
-anm_idle_moving 		= pm_new_eft_ins_idle_moving, idle ,0.7
-anm_idle_moving_empty 	= pm_new_eft_ins_idle_moving, idle_empty ,0.7
-anm_idle_sprint			= pm_new_eft_ins_idle_sprint, idle
-anm_idle_sprint_empty	= pm_new_eft_ins_idle_sprint, idle_empty
-anm_bore				= pm_new_eft_ins_idle_aim, idle
-anm_bore_empty			= pm_new_eft_ins_idle_aim, idle
-anm_reload_misfire		= pm_new_eft_ins_reload_empty, reload_empty
+anm_bore						= pm_new_eft_ins_idle_aim, idle
+anm_bore_empty					= pm_new_eft_ins_idle_aim, idle
+anm_hide						= pm_new_eft_ins_hide, idle
+anm_hide_empty					= pm_new_eft_ins_hide, idle_empty
+anm_idle						= pm_new_eft_ins_idle, idle
+anm_idle_aim					= pm_new_eft_ins_idle_aim, idle
+anm_idle_aim_empty				= pm_new_eft_ins_idle_aim, idle_empty
+anm_idle_empty					= pm_new_eft_ins_idle, idle_empty
+anm_idle_moving					= pm_new_eft_ins_idle_moving, idle ,0.7
+anm_idle_moving_empty			= pm_new_eft_ins_idle_moving, idle_empty ,0.7
+anm_idle_sprint					= pm_new_eft_ins_idle_sprint, idle
+anm_idle_sprint_empty			= pm_new_eft_ins_idle_sprint, idle_empty
+anm_reload						= pm_new_eft_ins_reload, reload
+anm_reload_empty				= pm_new_eft_ins_reload_empty, reload_empty
+anm_shot_l						= pm_new_eft_ins_shoot, shoot_last
+anm_shots						= pm_new_eft_ins_shoot, shoot
+anm_show						= pm_new_eft_ins_draw, idle
+anm_show_empty					= pm_new_eft_ins_draw, idle_empty
+anm_reload_misfire				= pm_new_eft_ins_reload_empty, reload_empty
 
+shell_bone	= wpn_body
+shell_point	= 0,0,0.25
 shell_dir	= 0,0,0.4
 
-shell_point	= 0,0,0.25
-shell_bone	= wpn_body
-
-fire_point	= 0,0,0
 fire_bone	= muzzle
-
-lowered_hud_offset_pos_16x9	= 0,0,0
-lowered_hud_offset_rot_16x9	= 0.3,-0.1,0.1
+fire_point	= 0,0,0
 
 ;----------------------------------------------------------------------------------------------------------------------------------------------------
 ;------------------------------------------------------------------------------------------------
@@ -248,7 +247,7 @@ icons_texture			= ui\berettas_icon
 inv_grid_height			= 1
 inv_grid_width			= 2
 inv_grid_x				= 0
-inv_grid_y				= 4
+inv_grid_y				= 1
 inv_name				= st_wpn_beretta_87_target
 inv_name_short			= st_wpn_beretta_87_target
 description				= st_wpn_beretta_87_target_descr
@@ -270,9 +269,9 @@ flame_particles			= weapons\generic_weapon03
 smoke_particles			= weapons\generic_shoot_00
 grenade_flame_particles	= weapons\generic_weapon01
 
-shell_point		 		= 0.0, 0.133, 0.047
-shell_dir		 		= 0.0, 0.0, 0.4
-shell_particles	 		= weapons\9x19
+shell_point				= 0.0, 0.133, 0.047
+shell_dir				= 0.0, 0.0, 0.4
+shell_particles			= weapons\9x19
 
 light_disabled			= false
 light_color				= 0.6, 0.5, 0.3
@@ -294,7 +293,6 @@ ammo_class				= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x
 ammo_elapsed			= 15
 ammo_mag_size			= 15
 startup_ammo			= 90
-
 
 scopes					= aim_low, deltapoint, rmr
 scope_status			= 0
@@ -351,8 +349,6 @@ cam_dispersion_inc		= 0.0
 cam_max_angle			= 50.0
 cam_max_angle_horz		= 50.0
 cam_step_angle_horz		= 0.42
-zoom_cam_dispersion		= 1.5
-
 
 PDM_disp_accel_factor	= 1.055
 PDM_disp_base			= 0.65
@@ -378,22 +374,26 @@ weapon_lower_speed	= 0.2
 
 hud_fov	= 0.6
 
+zoom_cam_dispersion		= 1.5
 ;-----------------------------------------------------------------SND-----------------------------------------------------------------------------------
 snd_draw				= eft_wp\shared\draw_pistol
 snd_holster				= eft_wp\shared\hide_pistol
+snd_empty				= eft_wp\shared\empty_click_pistol
+snd_reload				= weapons\pl15\grach_reload
+snd_reload_empty		= weapons\pl15\grach_reload_empty
 snd_shoot				= wpn_cz75_snd_shoot
 snd_shoot_actor			= wpn_cz75_snd_shoot_actor
 snd_silncer_shot		= wpn_9_2_snd_silenced
 snd_silncer_shot_actor	= wpn_9_2_snd_silenced_actor
-snd_reload				= weapons\pl15\grach_reload
-snd_reload_empty		= weapons\pl15\grach_reload_empty
 snd_reload_misfire		= weapons\pl15\grach_unjam
-snd_empty				= eft_wp\shared\empty_click_pistol
-
+;-----------------------------------------------------------------HUD-----------------------------------------------------------------------------------
 [wpn_beretta_87_target_hud]:hud_base
 item_visual			= anomaly_weapons\wpn_berettatarget\wpn_berettatarget_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
+
+item_position		= 0.00118, -0.00292, -0.020271
+item_orientation	= 1.360395, 8.453989, -2.489095
 
 aim_hud_offset_pos		= -0.039279, 0.014868, -0.050993
 aim_hud_offset_pos_16x9	= -0.039279, 0.014868, -0.050993
@@ -404,9 +404,6 @@ hands_orientation		= -0.146977, -8.485554, 1.320001
 hands_orientation_16x9	= -0.146977, -8.485554, 1.320001
 hands_position			= 0.033576, 0.038062, -0.154696
 hands_position_16x9		= 0.033576, 0.038062, -0.154696
-
-item_orientation	= 1.360395, 8.453989, -2.489095
-item_position		= 0.00118, -0.00292, -0.020271
 
 lowered_hud_offset_pos		= -0.011413, 0.017693, 0
 lowered_hud_offset_pos_16x9	= -0.011413, 0.017693, 0
@@ -548,7 +545,7 @@ icons_texture			= ui\berettas_icon
 inv_grid_height			= 1
 inv_grid_width			= 2
 inv_grid_x				= 0
-inv_grid_y				= 5
+inv_grid_y				= 2
 inv_name				= st_wpn_beretta_92_cutlass
 inv_name_short			= st_wpn_beretta_92_cutlass
 description				= st_wpn_beretta_92_cutlass_descr
@@ -570,9 +567,9 @@ flame_particles			= weapons\generic_weapon03
 smoke_particles			= weapons\generic_shoot_00
 grenade_flame_particles	= weapons\generic_weapon01
 
-shell_point		 		= 0.0, 0.133, 0.161
-shell_dir		 		= 0.0, 0.0, 0.4
-shell_particles			= weapons\9x18
+shell_point				= 0.0, 0.133, 0.161
+shell_dir				= 0.0, 0.0, 0.4
+shell_particles			= weapons\9x19
 
 light_disabled			= false
 light_color				= 0.6, 0.5, 0.3
@@ -581,22 +578,22 @@ light_time				= 0.2
 light_var_color			= 0.05
 light_var_range			= 0.5
 
-upgrades				= up_gr_firstab_fnp45, up_gr_seconab_fnp45, up_gr_thirdab_fnp45, up_gr_fourtab_fnp45, up_gr_fifthab_fnp45
+upgrades				= up_gr_firstab_beretta, up_gr_seconab_beretta, up_gr_thirdab_beretta, up_gr_fourtab_beretta, up_gr_fifthab_beretta, up_gr_fifthcd_beretta
 installed_upgrades		=
-upgrade_scheme			= upgrade_scheme_usp
+upgrade_scheme			= upgrade_scheme_beretta
 upgr_icon_x				= 1300
 upgr_icon_y				= 1800
 upgr_icon_width			= 150
 upgr_icon_height		= 100
 
 fire_modes				= 1
-ammo_class				= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_class				= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
 ammo_elapsed			= 15
 ammo_mag_size			= 15
 startup_ammo			= 90
 
-scope_status			= 0
 scope_name				= wpn_addon_scope
+scope_status			= 0
 
 silencer_status			= 0
 silencer_x				= 82
@@ -612,8 +609,8 @@ grenade_class			= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
 grenade_launcher_status	= 0
 launch_speed			= 0
 
-hit_impulse				= 43
-hit_power				= 0.58, 0.58, 0.58, 0.58
+hit_impulse				= 30
+hit_power				= 0.50, 0.50, 0.50, 0.50
 hit_type				= fire_wound
 fire_distance			= 270
 bullet_speed			= 240
@@ -670,28 +667,32 @@ kill_msg_y		= 153
 kill_msg_width	= 37
 kill_msg_height	= 24
 
+hud_fov	= 0.6
+
 zoom_cam_dispersion			= 0.5
 zoom_cam_dispersion_inc		= 0.1
 zoom_cam_relax_speed		= 10
 zoom_cam_dispersion_frac	= 0.5
 
-hud_fov	= 0.6
 ;-----------------------------------------------------------------SND-----------------------------------------------------------------------------------
 snd_draw				= eft_wp\shared\draw_pistol
 snd_holster				= eft_wp\shared\hide_pistol
+snd_empty				= eft_wp\shared\empty_click_pistol
+snd_reload				= weapons\pl15_young_prince\pl15_reload
+snd_reload_empty		= weapons\pl15_young_prince\pl15_reload_empty
 snd_shoot				= wpn_1911_snd_shoot
 snd_shoot_actor			= wpn_1911_snd_shoot_actor
 snd_silncer_shot		= wpn_45_1_snd_silenced
 snd_silncer_shot_actor	= wpn_45_1_snd_silenced_actor
-snd_reload				= weapons\pl15_young_prince\pl15_reload
-snd_reload_empty		= weapons\pl15_young_prince\pl15_reload_empty
 snd_reload_misfire		= weapons\pl15\grach_unjam
-snd_empty				= eft_wp\shared\empty_click_pistol
 ;-----------------------------------------------------------------HUD-----------------------------------------------------------------------------------
 [wpn_beretta_92_cutlass_hud]:hud_base
 item_visual			= anomaly_weapons\wpn_beretta93\wpn_bcutlass_hud.ogf
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
+
+item_position		= 0.000406, 0.002629, -0.01103
+item_orientation	= 1.363395, 8.451855, -2.489095
 
 aim_hud_offset_pos		= -0.040691, 0.024557, -0.02518
 aim_hud_offset_pos_16x9	= -0.040691, 0.024557, -0.02518
@@ -703,13 +704,11 @@ hands_orientation_16x9	= 1.102009, -7.013009, 1.320001
 hands_position			= 0.040082, 0.033878, -0.17895
 hands_position_16x9		= 0.040082, 0.033878, -0.17895
 
-item_orientation	= 1.363395, 8.451855, -2.489095
-item_position		= 0.000406, 0.002629, -0.01103
-
 lowered_hud_offset_pos		= -0.010931, 0.018406, 0
 lowered_hud_offset_pos_16x9	= -0.010931, 0.018406, 0
 lowered_hud_offset_rot		= 0.278241, -0.090079, 0.1
 lowered_hud_offset_rot_16x9	= 0.278241, -0.090079, 0.1
+
 
 anm_bore						= blnd_tt33_bore_bs, idle
 anm_bore_empty					= blnd_tt33_bore_bs, idle_empty
@@ -742,7 +741,6 @@ shell_point	= -0.03, -0.05, 0.1
 
 fire_bone	= muzzle
 fire_point	= 0, 0, 0
-
 ;------------------------------------------------------------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_beretta_92_g1]:identity_immunities,weapon_probability,default_weapon_params,wpn_beretta_sounds
@@ -768,7 +766,7 @@ icons_texture			= ui\berettas_icon
 inv_grid_height			= 2
 inv_grid_width			= 2
 inv_grid_x				= 0
-inv_grid_y				= 1
+inv_grid_y				= 3
 inv_name				= st_wpn_beretta_92_g1
 inv_name_short			= st_wpn_beretta_92_g1
 description				= st_wpn_beretta_92_g1_descr
@@ -792,7 +790,7 @@ grenade_flame_particles	= weapons\generic_weapon01
 
 shell_point		 		= 0.0, 0.133, 0.161
 shell_dir		 		= 0.0, 0.0, 0.4
-shell_particles			= weapons\9x18
+shell_particles			= weapons\9x19
 
 light_disabled			= false
 light_color				= 0.6, 0.5, 0.3
@@ -801,7 +799,7 @@ light_time				= 0.2
 light_var_color			= 0.05
 light_var_range			= 0.5
 
-upgrades				= up_gr_firstab_fnp45, up_gr_seconab_fnp45, up_gr_thirdab_fnp45, up_gr_fourtab_fnp45, up_gr_fifthab_fnp45
+upgrades				= up_gr_firstab_usp_match, up_gr_seconab_usp_match, up_gr_thirdab_usp_match, up_gr_fourtab_usp_match, up_gr_fifthab_usp_match
 installed_upgrades		=
 upgrade_scheme			= upgrade_scheme_usp
 upgr_icon_x				= 1300
@@ -989,7 +987,7 @@ icons_texture			= ui\berettas_icon
 inv_grid_height			= 2
 inv_grid_width			= 2
 inv_grid_x				= 0
-inv_grid_y				= 6
+inv_grid_y				= 5
 
 inv_name				= st_wpn_beretta_92_sam_edge
 inv_name_short			= st_wpn_beretta_92_sam_edge
@@ -1262,7 +1260,7 @@ icons_texture			= ui\berettas_icon
 inv_grid_height			= 1
 inv_grid_width			= 2
 inv_grid_x				= 0
-inv_grid_y				= 3
+inv_grid_y				= 7
 inv_name				= st_wpn_beretta_93r
 inv_name_short			= st_wpn_beretta_93r
 description				= st_wpn_beretta_93r_descr
@@ -1286,7 +1284,7 @@ grenade_flame_particles	= weapons\generic_weapon01
 
 shell_point		 		= 0.0, 0.133, 0.161
 shell_dir		 		= 0.0, 0.0, 0.4
-shell_particles			= weapons\9x18
+shell_particles			= weapons\9x19
 
 light_disabled			= false
 light_color				= 0.6, 0.5, 0.3

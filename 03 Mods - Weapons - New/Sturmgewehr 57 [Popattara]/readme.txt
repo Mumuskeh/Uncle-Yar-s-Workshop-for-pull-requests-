@@ -24,7 +24,8 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer. The SR25 silencer will be used instead of a BaS one, for those who play without BaS.
+Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
+The SR25 silencer will be used instead of a BaS one, for those who play without BaS.
 
 ----------------------------------------------------------
 -Known issues:

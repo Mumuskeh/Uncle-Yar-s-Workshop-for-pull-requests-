@@ -1,0 +1,31 @@
+-Module:
+HK433 - Kilo 141 Port (GmodMW) [Sedzhimol]
+
+----------------------------------------------------------
+-Compatibility:
+NOTE: You need the original mod. Let this overwrite it.
+
+Internal IDs have been changed for easier debug and inventory ordering. This makes this mod incompatible with Mik's HK433, but why would you use two mods adding the same thing?
+
+----------------------------------------------------------
+-Explanation:
+
+Allows to sell the gun to traders.
+Added default actor effects configs.
+
+Integration into:
+Grok's Enhanced Recoil
+Grok's Stash Overhaul
+Lootboxes
+Mags Redux. You need its BaS patch.
+PDA Interactive
+Weapon Parts Overhaul
+
+----------------------------------------------------------
+-Patches:
+
+DX8-9 compliant textures
+Textures recompressed in BC3 format in 512-1k resolution (only a bit smaller than original).
+
+----------------------------------------------------------
+-Known issues:

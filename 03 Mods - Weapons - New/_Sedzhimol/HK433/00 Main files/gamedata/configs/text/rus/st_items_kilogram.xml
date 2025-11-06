@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	BaS Weapons
+-->
+
+<string_table>
+<string id="st_wpn_kilogram">
+		<text>Heckler & Koch "HK433"</text>
+	</string>
+	<string id="st_wpn_kilogram_descr">
+		<text>Это оружие сочетает в себе особенности конструкции штурмовых винтовок G36 и HK416, используя систему газоотвода с коротким ходом газового поршня от G36 и нижний ресивер по типу HK416, а также быстросъемный ствол. Ствольная коробка состоит из двух частей — верхней (upper receiver) и нижней (lower receiver). Запирание ствола производится поворотом затвора.\n 
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+	    %c[d_purple] • %c[d_green] Прицелы: %c[0,250,250,0]нектоторые прицелы для планки %c[d_cyan]"пикатини"\n
+		%c[d_purple] • %c[d_green] Интегрированный глушитель\n \n</text>
+	</string>
+</string_table>

@@ -1,0 +1,32 @@
+-Module:
+CAA AK Alfa Standalone [Sedzhimol]
+
+----------------------------------------------------------
+-Compatibility:
+NOTE: You need the original mod. Let this overwrite it.
+
+If you require BaS but don't want two redundant guns, you can use BaS Lite and opt out of BaS' AK Alfa.
+
+----------------------------------------------------------
+-Explanation:
+
+Allows to sell the gun to traders.
+Added default actor effects configs.
+
+Icon file trimmed.
+
+Integrated into vanilla fetch tasks.
+
+Integration into:
+Grok's Enhanced Recoil
+Grok's Stash Overhaul
+Lootboxes
+Mags Redux. You need its BaS patch.
+PDA Interactive
+Weapon Parts Overhaul
+
+----------------------------------------------------------
+-Patches:
+
+----------------------------------------------------------
+-Known issues:

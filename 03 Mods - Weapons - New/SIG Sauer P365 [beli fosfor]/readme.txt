@@ -28,7 +28,7 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer
+Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
 Uses the vanilla Gemtech silencer, instead of the BaS Black Box.
 
 Small Caliber Ammo Framework

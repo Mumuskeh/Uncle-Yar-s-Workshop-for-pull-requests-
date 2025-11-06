@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_mag_vis35">
+		<text>Standard 9x19 FB Radom Vis 35 Magazine</text>
+	</string>
+	<string id="st_mag_vis35_descr">
+		<text>Standard FB Radom Vis 35 Magazine holding 8 rounds. While the Vis's rather low capacity makes it obsolete compared to other more modern 9x19 handguns, it is still beloved for it's accuracy.</text>
+	</string>
+	<string id="st_mag_vis35_s">
+		<text>Vis 35 Magazine</text>
+	</string>
+
+	<string id="st_wpn_vis35">
+		<text>FB Radom Vis 35</text>
+	</string>
+	<string id="st_wpn_vis35_s">
+		<text>Vis 35</text>
+	</string>
+	<string id="st_wpn_vis35_descr">
+		<text>
+		The Pistolet wz. 35 Vis is a single-action, hammer-fired, locked-breech pistol designed by Piotr Wilniewczyc and Jan Skrzypi?ski in 1930. The pistol bears many internal and external similarities to the famous Colt M1911A1, to the point that some parts are almost interchangeable. Unlike the M1911, the Vis is cammed by a ledge of sorts, which contacts a portion of the barrel and forces it down as it is moved rearward with the slide by the recoil force. Known for its accuracy, stability and reliability. The Vis was generally regarded as one of the best military pistols of that period.\n \n
+		</text>
+	</string>
+
+	<string id="st_wpn_vis35_b">
+		<text>FB Radom Vis 35 "Black"</text>
+	</string>
+	<string id="st_wpn_vis35_b_s">
+		<text>Dark Vis 35</text>
+	</string>
+	<string id="st_wpn_vis35_b_descr">
+		<text>
+		The Pistolet wz. 35 Vis is a single-action, hammer-fired, locked-breech pistol designed by Piotr Wilniewczyc and Jan Skrzypi?ski in 1930. The pistol bears many internal and external similarities to the famous Colt M1911A1, to the point that some parts are almost interchangeable. Unlike the M1911, the Vis is cammed by a ledge of sorts, which contacts a portion of the barrel and forces it down as it is moved rearward with the slide by the recoil force. Known for its accuracy, stability and reliability. The Vis was generally regarded as one of the best military pistols of that period. This one has been given a black coating to reduce glaring.\n \n
+		</text>
+	</string>
+</string_table>

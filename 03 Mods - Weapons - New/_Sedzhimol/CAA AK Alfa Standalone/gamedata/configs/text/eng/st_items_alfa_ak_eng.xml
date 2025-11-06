@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak_alfa">
+		<text>CAA AK-Alfa</text>
+  	</string>
+  	<string id="st_wpn_ak_alfa_descr">
+		<text>Developed in Israel by Command Arms & Acessories (CAA), the AK-Alfa assault rifle was first presented to the public in 2016. This weapon is marketed under two brands - "Kalashnikov USA" and "Kalashnikov Israel".\n
+		The AK-Alpha assault rifle is an attempt to improve the ergonomics of the AK rifle while maintaining its main advantages - high reliability and ease of maintenance. The base for the AK-Alpha is the receiver, the barrel with the gas tube, the bolt group and the main components of the trigger of the Russian-made Saiga carbine.\n
+		It seems this weapon was brought to the Zone by the ISG faction.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: 5.56x45 compatible suppressor\n</text>
+  	</string>
+</string_table>
