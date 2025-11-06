@@ -12,7 +12,9 @@ Reworked the npc loadouts a bit. Only veterans and masters will carry it, vetera
 Edited text to clarify this is the 5.45mm model.
 Moved both icons to the same file.
 
-Mags Redux integration.
+Integrated into:
+Mags Redux
+Weapon Parts Overahul
 
 ----------------------------------------------------------
 -Patches:

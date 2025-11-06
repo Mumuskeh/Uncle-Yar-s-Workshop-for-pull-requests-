@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_uzi">
+		<text>IMI Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_s">
+		<text>Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_descr">
+		<text>
+		The Uzi is an open-bolt, blowback-operated submachine gun designed by Major Uziel "Uzi" Gal in the late 1940s.\n
+		It was one of the first weapons to use a telescoping bolt design which allows the magazine to be housed in the pistol grip for a shorter weapon.\n
+		Mainly constructed from stamped sheet metal, the Uzi has relatively few moving parts, making it easy to strip for maintenance or repair.\n
+		It is used throughout the world as a police and special-forces firearm, and has been manufactured by Israel Military Industries, FN Herstal, and other manufacturers.\n \n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Aimpoint T1, Barska ES AC10632, Docter III, EOTech XPS3-0 and Trijicon RMR optics (after modification)\n
+        %c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor\n
+		</text>
+	</string>
+
+	<string id="st_wpn_uzi_mini">
+		<text>IMI Mini Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_mini_s">
+		<text>Mini Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_mini_descr">
+		<text>
+		The Mini Uzi is an open-bolt, blowback-operated submachine gun first introduced in 1980.\n
+		It is a compact version of the famous Uzi which, despite its small size, retains the robustness and reliability of the original.\n
+		Featuring reduced barrel length and a slightly modified mechanism, the Mini Uzi has a greater automatic rate of fire due to the shorter bolt.\n
+		This version is particularly popular for operations in urban environments and confined spaces.\n \n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Aimpoint T1, Barska ES AC10632, Docter III and Trijicon RMR optics (after modification)\n
+        %c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor\n
+		</text>
+	</string>
+
+	<string id="st_wpn_uzi_micro">
+		<text>IMI Micro Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_micro_s">
+		<text>Micro Uzi</text>
+	</string>
+	<string id="st_wpn_uzi_micro_descr">
+		<text>
+		The Micro Uzi is an closed-bolt, blowback-operated submachine gun first introduced in 1986.\n
+		It is an extremely scaled down version of the Uzi with a similar stock model as the Mini Uzi.\n
+		Featuring reduced barrel length, shorter bolt and increased cyclic rate, the Micro Uzi fires from a closed bolt to improve single-shot accuracy.\n
+		It has seen use in several armed forces and ultimately surpassed by the Uzi Pro in 2010.\n \n
+		%c[ui_gray_3]ATTACHMENTS:\n
+        %c[d_purple] • %c[ui_gray_2] 9x19 compatible suppressor\n
+		</text>
+	</string>
+
+
+	<string id="st_mag_uzi_9x19">
+		<text>20-round 9x19 Uzi Magazine</text>
+	</string>
+	<string id="st_mag_uzi_9x19_s">
+		<text>Uzi 20-rounder</text>
+	</string>
+	<string id="st_mag_uzi_9x19_descr">
+		<text>
+		20-round magazine for the Uzi family of submachine guns. Standard for the Mini and Micro versions.
+		</text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended">
+		<text>32-round 9x19 Uzi Magazine</text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended_s">
+		<text>Uzi 32-rounder</text>
+	</string>
+	<string id="st_mag_uzi_9x19_extended_descr">
+		<text>
+		32-round extended magazine for the Uzi family of submachine guns. Standard for the classic version.
+		</text>
+	</string>
+	
+	<string id="st_mag_uzi_11.43x23">
+		<text>12-round .45 ACP Uzi Magazine</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_s">
+		<text>Uzi 12-rounder</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_descr">
+		<text>
+		12-round magazine for the Uzi family of submachine guns. Modified to take .45 ACP rounds.
+		</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended">
+		<text>16-round .45 ACP Uzi Magazine</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended_s">
+		<text>Uzi 16-rounder</text>
+	</string>
+	<string id="st_mag_uzi_11.43x23_extended_descr">
+		<text>
+		16-round magazine for the Uzi family of submachine guns. Modified to take .45 ACP rounds.
+		</text>
+	</string>
+
+
+	<string id="st_up_uzi_rail_name">
+		<text>Scope mount</text>
+	</string>
+	<string id="st_up_uzi_rail_descr">
+		<text>
+		A rail mount for installing various optics on the Uzi submachine gun.
+		</text>
+	</string>
+</string_table>

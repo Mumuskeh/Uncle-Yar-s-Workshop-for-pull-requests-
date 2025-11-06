@@ -9,14 +9,14 @@ parent_section     			= wpn_p90tac
 hud_fov            			= 0.65
 class              			= WP_LR300
 slot               			= 2
-animation_slot     			= 8
+animation_slot				= 8
 ef_main_weapon_type			= 2
-ef_weapon_type     			= 6
-hand_dependence    			= 1
-single_handed      			= 0
+ef_weapon_type				= 6
+hand_dependence				= 1
+single_handed				= 0
 
 default_to_ruck				= false
-sprint_allowed 				= true
+sprint_allowed				= true
 
 icons_texture				= ui\p90tac
 inv_grid_height				= 2
@@ -105,15 +105,15 @@ bullet_speed            	= 720
 rpm                     	= 900
 rpm_empty_click         	= 200
 
-use_aim_bullet                  	= false
-time_to_aim                     	= 0.0 ;  3.0
-zoom_dof                        	= 0.5, 1.0, 180
-zoom_enabled                    	= true
-zoom_rotate_time                	= 0.25
-reload_dof                      	= 0.0, 0.5, 5, 2
-control_inertion_factor				= 1.0f
-crosshair_inertion              	= 4.5
-fire_dispersion_base            	= 0.35
+use_aim_bullet              	= false
+time_to_aim                 	= 0.0 ;  3.0
+zoom_dof                    	= 0.5, 1.0, 180
+zoom_enabled                	= true
+zoom_rotate_time            	= 0.25
+reload_dof                  	= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion          	= 4.5
+fire_dispersion_base        	= 0.35
 fire_dispersion_condition_factor	= 0.001
 
 misfire_probability    		= 0.005
@@ -174,7 +174,7 @@ kill_msg_height				= 23
 [wpn_p90tac_hud]:hud_base
 item_visual         		= anomaly_weapons\wpn_p90tac\wpn_p90tac_hud.ogf
 attach_place_idx    		= 0
-zoom_hide_crosshair 		= true   
+zoom_hide_crosshair 		= true
 
 item_position   			= 0, 0, 0
 item_orientation			= 0, 0, 0
@@ -221,19 +221,14 @@ anm_shots_aim_l           	= p_aim_shoot, p90_aim_shoot
 anm_idle_aim_start        	= p_aim_start, idle
 anm_idle_aim_end          	= p_aim_end, idle
 
-
-
 ;--- Переходы спринта---
-
 anm_sprint_start			= p_sprint_start
 anm_sprint_end  			= p_sprint_end
 
-
 ;--- Паттерны спринта---
-
 ts_pattern_sprint_start  	= .+, anm_idle_sprint, anm_sprint_start, 1
 ts_pattern_sprint_end    	= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
-ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end  
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
 
 shell_bone 					= wpn_body
 shell_dir  					= 200, 200, 200
@@ -252,46 +247,46 @@ use_alt_aim_hud				= true
 
 ;------------------------------------------------------------------------------------------------
 [wpn_p90tac_ac10632]:wpn_p90tac
-1icon_layer                              = ac10632
-1icon_layer_x			= 125
-1icon_layer_y			= -12
-inv_weight                               = 4.215
-hud                                      = wpn_p90tac_ac10632_hud
+1icon_layer		= ac10632
+1icon_layer_x	= 125
+1icon_layer_y	= -12
+inv_weight		= 4.215
+hud				= wpn_p90tac_ac10632_hud
 
 [wpn_p90tac_ac10632_hud]:wpn_p90tac_hud
-item_visual                              = anomaly_weapons\wpn_p90tac\wpn_p90tac_ac10632_hud.ogf
-aim_hud_offset_pos               = -0.000831, -0.020844, -0.009869
-aim_hud_offset_pos_16x9          = -0.000831, -0.020844, -0.009869
-aim_hud_offset_rot               = 0.030946, -0.006825, 0.004
-aim_hud_offset_rot_16x9          = 0.030946, -0.006825, 0.004
+item_visual	= anomaly_weapons\wpn_p90tac\wpn_p90tac_ac10632_hud.ogf
+aim_hud_offset_pos		= -0.000831, -0.020844, -0.009869
+aim_hud_offset_pos_16x9	= -0.000831, -0.020844, -0.009869
+aim_hud_offset_rot		= 0.030946, -0.006825, 0.004
+aim_hud_offset_rot_16x9	= 0.030946, -0.006825, 0.004
 
 ;------------------------------------------------------------------------------------------------
 [wpn_p90tac_acog]:wpn_p90tac
-1icon_layer                              = acog
-1icon_layer_x			= 125
-1icon_layer_y			= -12
-hud                                      = wpn_p90tac_acog_hud
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_acog
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+1icon_layer		= acog
+1icon_layer_x	= 125
+1icon_layer_y	= -12
+hud				= wpn_p90tac_acog_hud
+scope_status	= 1
+scope_texture	= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_p90tac_acog_hud]:wpn_p90tac_hud
-item_visual                              = anomaly_weapons\wpn_p90tac\wpn_p90tac_acog_hud.ogf
-aim_hud_offset_pos               = -0.00089, -0.025578, -0.103651
-aim_hud_offset_pos_16x9          = -0.00089, -0.025578, -0.103651
+item_visual	= anomaly_weapons\wpn_p90tac\wpn_p90tac_acog_hud.ogf
+aim_hud_offset_pos		= -0.00089, -0.025578, -0.103651
+aim_hud_offset_pos_16x9	= -0.00089, -0.025578, -0.103651
 
 ;------------------------------------------------------------------------------------------------
 [wpn_p90tac_eot]:wpn_p90tac
-1icon_layer                              = eot
-1icon_layer_x			= 125
-1icon_layer_y			= -12
-inv_weight                               = 4.4
-hud                                      = wpn_p90tac_eot_hud
+1icon_layer		= eot
+1icon_layer_x	= 125
+1icon_layer_y	= -12
+inv_weight		= 4.4
+hud				= wpn_p90tac_eot_hud
 
 [wpn_p90tac_eot_hud]:wpn_p90tac_hud
-item_visual                              = anomaly_weapons\wpn_p90tac\wpn_p90tac_eot_hud.ogf
-aim_hud_offset_pos               = 0.000445, -0.017003, -0.021262
-aim_hud_offset_pos_16x9          = 0.000445, -0.017003, -0.021262
-aim_hud_offset_rot               = 0.033782, -0.013362, 0.004
-aim_hud_offset_rot_16x9          = 0.033782, -0.013362, 0.004
+item_visual	= anomaly_weapons\wpn_p90tac\wpn_p90tac_eot_hud.ogf
+aim_hud_offset_pos		= 0.000445, -0.017003, -0.021262
+aim_hud_offset_pos_16x9	= 0.000445, -0.017003, -0.021262
+aim_hud_offset_rot		= 0.033782, -0.013362, 0.004
+aim_hud_offset_rot_16x9	= 0.033782, -0.013362, 0.004

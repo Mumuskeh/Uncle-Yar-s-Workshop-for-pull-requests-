@@ -13,7 +13,9 @@ One possible situation could be overwriting. BaS has its own copy of the vanilla
 
 Integration into the vanilla dynamic item spawn, reward, and stash systems.
 
-Integration into Grok's Stash Overhaul.
+Integration into:
+Grok's Stash Overhaul
+Weapon Parts Overhaul (same file as in WPO itself, but updated/touched up a lil bit, for example for correct inheritance of AUG and L85 quirks)
 
 ----------------------------------------------------------
 -Patches:

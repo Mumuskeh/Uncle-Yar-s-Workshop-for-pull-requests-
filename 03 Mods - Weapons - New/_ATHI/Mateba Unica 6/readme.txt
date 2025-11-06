@@ -15,7 +15,10 @@ ATHIS' edit is a proper rework of the TAZ Mateba that I already patched for Diph
 
 It adds duplicates of each version chambered in .44, though do note I nerf the range and weight of all (four in total) revolvers.
 
-Integration into Grok's Stash Overhaul and PDA Interactive.
+Integration into:
+Grok's Stash Overhaul
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

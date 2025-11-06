@@ -8,10 +8,13 @@ RSH 12 [billwa]
 -Explanation:
 Can sell now to traders.
 
-Integration into PDA Interactive
+Integration into:
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
 Revolver Parts
 Grants the gun the appropiate parts, as available.
 

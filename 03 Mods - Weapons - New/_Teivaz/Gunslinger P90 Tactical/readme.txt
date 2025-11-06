@@ -15,7 +15,10 @@ It also didn't work NPC loadouts like every other kid. It does it now by DLTX, b
 
 It also adds it to traders. To accommodate it in the higher supply tier, the normal P90 is moved down one supply lower.
 
-Integration into Grok's Stash Overhaul and PDA Interactive.
+Integration into:
+Grok's Stash Overhaul
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

@@ -14,7 +14,11 @@ Fixes faulty NPC loadouts and being able to sell to traders. Recommended use of 
 
 Integration into the vanilla corpse, reward, and stash systems.
 
-Integration into Arszi's Mutant Bleeding + Optimized patch, Grok's Stash Overhaul and PDA Interactive.
+Integration into:
+Arszi's Mutant Bleeding + Optimized patch
+Grok's Stash Overhaul
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

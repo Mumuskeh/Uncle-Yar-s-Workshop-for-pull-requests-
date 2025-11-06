@@ -13,15 +13,17 @@ Trader distribution. Allows to sell to traders.
 
 Icon file reduced. Could actually use a redo of the icon itself but eh.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-Mags Redux integration. VSSK mags will be used.
-PDA Interactive integration.
+Integrated into:
+Grok's Stash Overhaul
+Lootboxes
+Mags Redux. VSSK mags will be used.
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer
+Vanilla silencer [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
 The MC-572 will use a vanilla KZRZP silencer, instead of the BaS Remington 700 Lapua.
 
 ----------------------------------------------------------

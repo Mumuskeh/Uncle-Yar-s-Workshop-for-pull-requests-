@@ -15,7 +15,11 @@ Its support for Weapon Cover Tilt it's fixed. It monkey patches things properly 
 
 As an aside, technically the real SG 510 is chambered in 7.5×55mm GP 11 rounds which I'm not making for this, so this is actually a SG 510-4 variant with the 510's face. We could make it actually be the 510-4, but that would need messing with textures first and I ain't getting into that now.
 
-Integration into Grok's Stash Overhaul, GBOOBS, and PDA Interactive.
+Integration into:
+Grok's Stash Overhaul
+GBOOBS
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

@@ -15,12 +15,15 @@ Configs and icon files are now consolidated into a single file each. This way th
 
 Technically they say there will be more guns. So if the mod ever updates, this patch may probably cease to be useful.
 
-Integration into Grok's Stash Overhaul and PDA Interactive.
+Integration into:
+Grok's Stash Overhaul
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencers.
+Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
 Weapons will use vanilla silencers instead of BaS ones.
 Not neccesary with the patch in AO3 Late Comers, as that will make the rifles use the .50 suppresor included there.
 

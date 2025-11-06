@@ -14,15 +14,17 @@ Allows selling the rifle to traders.
 
 Added default actor effects settings.
 
-Grok's Stash Overhaul integration.
-Grok's GBOOBS integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integration into:
+Grok's Stash Overhaul
+Grok's GBOOBS
+Lootboxes
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer.
+Vanilla silencer
 Makes the rifle use the vanilla SR-25 silencer, while stopping the SLX-68 suppresor from being added. For those who want to keep item bloat under control.
 
 ----------------------------------------------------------

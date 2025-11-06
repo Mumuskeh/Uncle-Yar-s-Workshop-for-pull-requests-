@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_kimber_custom">
+		<text>Kimber 1911</text>
+	</string>
+
+	<string id="st_wpn_kimber_custom_descr">
+		<text>Kimber Custom — полуавтоматический пистолет в стиле M1911. Он разработан, производится и распространяется компанией Kimber Manufacturing, Inc. в Йонкерсе, штат Нью-Йорк.\n \n
+		%c[ui_gray_2]Навесное оборудование: Глушитель под .45 ACP\n </text>
+	</string>
+
+</string_table>

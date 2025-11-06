@@ -92,7 +92,7 @@ PENDING: 7.xmm weapons, snipers, and LMGs in general, .
 
 All changes follows the same balancing ideas as the file for vanilla guns. The files have plenty of comments for further insights on changes.
 
-Boomsticks and Sharpsticks
+-Boomsticks and Sharpsticks
 This includes guns from BaS itself and explicit addons such as BaS Extra Weapons, Saiga drum kit, and BaS Plus Saiga Tactical.
 
 Ammo price and weight
@@ -117,14 +117,14 @@ Saiga 20
 Will now use a vanilla silencer like the vanilla Saiga 12.
 
 
--Hisalute's weapon mods.
+-Hisalute's weapon mods
 It covers Simple Weapon Pack, Misc Weapon Pack, and MG42 + MG3
 
 
--Ammo packs.
+-Ammo packs
 It covers other mods that add new ammo, currently 10mm Auto Ecosystem and Arsenal Overhaul 3 Late Comers.
 
--Other Mods.
+-Other Mods
 It covers individual mods.
 Currently the list is as follows, listed by authors:
 Athis: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre
@@ -135,7 +135,7 @@ Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
 Chillcat: MC-572, OSV96, and XM500
 Firebreath: Tommy gun drop
 hellcolonel: Anomalous Grenades
-Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, MP9, QBZ 95
+Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, Ghost Armory - 50 Beowulf Weapon Pack, Luger P08, MP9, QBZ 95
 Kmack: Mosin Trio, SIG MCX LVAW, Walther PDP, and Walther PPQ Q5 Match
 Lewdnatic: FAMAS Replacer
 Maid: Agram 2000
@@ -156,19 +156,34 @@ Arbiter Pack: range nerfed for all guns (a silenced revolver capping targets at 
 Honeybadger: range reduced to 400 meters, similar to 9x39 guns.
 Retrogue's RWAP: Didn't change as much as it could be done. Almost all guns were given the same weight of 3kgs, and some of them I had no luck finding reliable stats around. Given half of the rifles are M4 clones, I treated them as such.
 Arisaka Quality Control. Touched the muzzle velocity down a bit, and firerate up another bit. Very small bits, mind you. I was going to nerf the range but then I've read about being able to reach 1500~ in real life and [HESITATION].
-Benelli M4: range nerfed from 1000 (!) to 100, now uses NATO silencer for vanilla compatibility.
+Benelli M4: range nerfed from 1000 (!) to 100
 
 Stick Grenade: the M24 and Splinter now cheaper and lighter; the bundle has x7 the value and weigh of the M24, making it substantially heavier and expensive.
 Flash Grenades Updated: Increased the weight of all grenades. I could only find the real weight of the M84, so given all three were using the same 15 grams, now they all have the same weight 45.
 Anomalous Grenades. In a progression starting with the vanilla RGD5 and for each grenade that's more expensive than the previous one, added 10 grams to their weight. Meaning the less expensive one now weighs 41 grams, and the most expensive 71 grams.
 
 
--Weapon Swaps module.
+-Weapon Swaps module
 This is meant for mods that swap X gun for Y gun, to make sure changes are applied on top of whatever else is done in the vanilla patch.
 Currently the list is as follows, listed by authors:
 Blackgrowl: AEK Kit, G36 Pack, and Pretty Pistols Pack
 Firebreath: AUGmented
 JukeCappatalist: AKM Pack.
 
+
+-No BaS addon
+For those who don't like mods abusing BaS as a requisite. It will make guns from mods that use BaS silencers and scopes use vanilla silencers instead, and remove their list of BaS scopes.
+For example, WP shotguns will use PSB1 while NATO ones use NATO silencer. And big caliber sniper rifles will use the KZRZP.
+This is only for BaS silencers and mods with their own silencer are not covered.
+
+Currently covered:
+ATHI: AK101 SP
+Chillcat: MC-572 Astarta
+FrostyChun: Ready Or Not pack (Beretta 1301)
+JMerc: Arbiter Weapon Pack, Ghost Armory - 50 Beowulf Weapon Pack, MP9
+Nullpath_01: KSG12
+SoulCrystal: Benelli M4
+
 ----------------------------------------------------------
 -Known issues:
+

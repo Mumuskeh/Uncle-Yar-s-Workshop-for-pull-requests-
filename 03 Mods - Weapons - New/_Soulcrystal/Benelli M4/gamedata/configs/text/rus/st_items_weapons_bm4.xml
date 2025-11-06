@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_bm4">
+		<text>Benelli M4 Super 90</text>
+	</string>
+	<string id="st_wpn_bm4_s">
+		<text>M1014</text>
+	</string>
+	<string id="st_wpn_bm4_descr">
+		<text>
+		Benelli M4 — уникальное полуавтоматическое ружье с автоматическим регулированием газоотводной системы (A.R.G.O.), разработанное компанией Benelli Armi S.p.A.\n
+		Это оружие оснащено планкой Пикатинни, полностью регулируемым прицелом с апертурой Ghost Ring и регулируемой по горизонтали мушкой.\n
+		Стальные детали оружия имеют матово-черное фосфатное покрытие, устойчивое к коррозии, а алюминиевые детали — матовое твердое анодирование.\n
+		Эта конкретная модель оснащена фиксированным прикладом и тритиевыми ночными прицелами.\n \n
+		%c[ui_gray_3]Навесное оборудование:\n
+		%c[d_purple] • %c[ui_gray_2] SilencerCo Salvo® 12.\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Aimpoint T1, Barska ES AC10632, C-More, Docter III, ELCAN SpecterDr, EOTech, EOTech XPS3-0 and Leupold Mark 8 CQBSS 1.1-8x24.\n
+		</text>
+	</string>	
+</string_table>

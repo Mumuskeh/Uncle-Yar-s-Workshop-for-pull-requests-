@@ -12,9 +12,11 @@ Added the gun to a few traders and allows you to sell it.
 NPC loadouts were a bit strangely distributed. Gave it mainly to factions included for new game loadouts, and randomized loadout configurations for master ranks.
 Icon file trimmed.
 
-Grok's Stashes Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integration into:
+Grok's Stashes Overhaul
+Lootboxes
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

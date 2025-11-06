@@ -27,12 +27,11 @@ Reworked distribution to NPCs:
 -Freedom and Clear Sky become the secondary users, getting only basic versions of the weapons but barely no variants. Freedom gets the Bren Ten SF and Kriss Gen 2, and Clear Sky the P320 XTEN and the Banshee MkGs.
 -Loners, bandits, and Renegades are terciary users, getting only the cheaper guns, and even then, veterans get the cheaper guns, and masters the more expensive ones. Shared guns are Kriss Gen 1, MP510, Tommy 10mm, and all Glocks 20 and 29. Loners also get the UMP10, Bren Ten and USP10. Bandits get the Kimber Eclipse and Renegades the Kimber Jagare.
 
-
-Includes integration for:
-Grok's Stash Overhaul.
-Interactive PDA.
-Lootboxes.
-Weapon Parts Overhaul.
+Integrated into:
+Grok's Stash Overhaul
+Interactive PDA
+Lootboxes
+Weapon Parts Overhaul (now for realsies)
 
 The Lite option includes everything mentioned, but disables some of the new guns. This is meant for performance sake as their models are not as optimized as they could be. I don't want to ruin the whole point of the "ecosystem", but this option will disable some of the guns with the worst optimizated models and redundant choices:
 -Banshee MkGs (shorty)

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_p08">
+		<text>Luger P08</text>
+	</string>
+	<string id="st_wpn_p08_descr">
+		<text>The Pistole Parabellum or Parabellum-Pistole (Pistol Parabellum), commonly known as just the Luger or Luger P08, is a toggle-locked recoil-operated semi-automatic pistol. The Luger was produced in several models and by several nations from 1898 to 1949.\n
+		The design was first patented by Georg Luger. It was meant to be an improvement of the Borchardt C-93 pistol, and was initially produced as the Parabellum Automatic Pistol, Borchardt-Luger System by the German arms manufacturer Deutsche Waffen- und Munitionsfabriken (DWM). The first production model was known as the Modell 1900 Parabellum. It was followed by the "Marinepistole 1904" for the Imperial German Navy.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] 9mm Suppressor</text>
+	</string>
+
+	<string id="st_mag_p08_default">
+		<text>Luger P08 Magazine</text>
+	</string>
+	<string id="st_mag_p08_default_descr">
+		<text>Magazine for the Luger P08 pistol, it holds 8 rounds of 9x19 ammunition.</text>
+	</string>
+
+	<string id="st_mag_p08_snail">
+		<text>Luger P08 Snail Drum Magazine</text>
+	</string>
+	<string id="st_mag_p08_snail_descr">
+		<text>Magazine for the Luger P08 pistol, it holds 32 rounds of 9x19 ammunition. Originally made for the "Artillery Luger", modified with a wooden stock for German stormtroopers in WWI, it was later used as the magazine of the MP18 sub-machinegun.</text>
+	</string>
+
+</string_table>

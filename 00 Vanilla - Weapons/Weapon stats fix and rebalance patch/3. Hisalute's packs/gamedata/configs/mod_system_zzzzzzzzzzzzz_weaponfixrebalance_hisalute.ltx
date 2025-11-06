@@ -37,6 +37,10 @@ parent_section	= wpn_garand
 inv_weight		= 4.31
 fire_distance	= 457
 rpm				= 50
+![wpn_m1_garand]
+inv_weight		= 4.31
+fire_distance	= 457
+rpm				= 50
 
 ![wpn_m1a1]
 $spawn			= "weapons\m1a1"
@@ -77,6 +81,7 @@ rpm				= 750
 
 ![wpn_ppsh41_stick]
 $spawn			= "weapons\ppsh41_stick"
+parent_section	= wpn_ppsh41_stick
 
 ![wpn_w70]
 $spawn			= "weapons\w70"
@@ -94,14 +99,24 @@ $spawn			= "weapons\gp100_sniper"
 fire_distance	= 150 ; 400
 ![wpn_w500]
 $spawn			= "weapons\w500"
+parent_section	= wpn_sw500
 fire_distance	= 200 ; 400
-;in case you use my revolver addon
-![wpn_w500_12]
-fire_distance	= 125
-![wpn_gp100_44]
+;in case you use my tweaks
+![wpn_ruger_redhawk_45]
+$spawn			= "weapons\ruger_redhawk_45"
+fire_distance	= 100 ; 400
+![wpn_ruger_redhawk_357_sniper]
+$spawn			= "weapons\ruger_redhawk_357_sniper"
+fire_distance	= 150 ; 400
+![wpn_sw500]
+$spawn			= "weapons\sw500"
+fire_distance	= 200 ; 400
+![wpn_ruger_redhawk_44]
 fire_distance	= 200
-![wpn_gp100_44_sniper]
+![wpn_ruger_redhawk_44_sniper]
 fire_distance	= 250
+![wpn_sw500_12]
+fire_distance	= 125
 
 ![wpn_shorty]
 fire_distance	= 65 ; 300
@@ -134,6 +149,7 @@ $spawn			= "weapons\vepr134_camo"
 
 ![wpn_zm92]
 $spawn			= "weapons\zm92"
+parent_section	= wpn_zm92
 inv_weight		= 3.57	
 fire_distance	= 400
 bullet_speed	= 678
@@ -150,6 +166,7 @@ bullet_speed	= 350
 $spawn			= "weapons\aa12_cust"
 
 ![wpn_aek919k]
+parent_section	= wpn_aek919k
 inv_weight		= 1.6
 fire_distance	= 100
 bullet_speed	= 315
@@ -174,6 +191,7 @@ bullet_speed	= 830
 
 ![wpn_fnfalo]
 $spawn			= "weapons\fnfalo"
+parent_section	= wpn_fnfalo
 
 ![wpn_fn2000_gl]
 fire_distance	= 500
@@ -273,8 +291,6 @@ fire_distance	= 300
 bullet_speed	= 710
 rpm				= 1100
 
-
-
 ![wpn_ots27]
 $spawn			= "weapons\ots27"
 fire_distance	= 100
@@ -295,6 +311,10 @@ bullet_speed	= 878
 
 ![wpn_raffica]
 $spawn			= "weapons\raffica"
+fire_distance	= 100
+bullet_speed	= 380
+rpm				= 700
+![wpn_beretta_93r]
 fire_distance	= 100
 bullet_speed	= 380
 rpm				= 700
@@ -358,6 +378,10 @@ $spawn			= "weapons\svu_sniper"
 ![wpn_trophy_ak]
 $spawn			= "weapons\trophy_ak"
 fire_distance	= 500
+![wpn_ak_trophy]
+$spawn			= "weapons\ak_trophy"
+fire_distance	= 500
+
 
 ; ![wpn_vepr_ar]
 ; fire_distance           = 1000

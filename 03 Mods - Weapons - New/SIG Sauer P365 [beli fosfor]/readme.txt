@@ -23,6 +23,7 @@ Grok's Stash Overhaul
 GBOOBS
 Lootboxes
 PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

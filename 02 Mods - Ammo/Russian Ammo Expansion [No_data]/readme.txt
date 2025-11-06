@@ -32,7 +32,7 @@ Beli fosfor: SIG Sauer P365
 Billwa: DP27, IZH18 and MP18, MP40, Type 56 and 81 Rifles Pack
 Blackgrowl: Sassy Ithaca, K-50M, MAT-49
 Firebreath: ACE 52, Retype 63
-JMerc: MP5K, MP9, TEC-9, Winchester Model 1887 Shotgun
+JMerc: Luger P08, MP5K, MP9, TEC-9, Winchester Model 1887 Shotgun
 Joseph Porta: Speedloaders and ammo for Revolvers
 Khyber: S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers
 Kmack: Mosin Trio, Walther PDP, and Walther PPQ Q5 Match

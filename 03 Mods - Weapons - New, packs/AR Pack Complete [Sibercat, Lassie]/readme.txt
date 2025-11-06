@@ -19,9 +19,14 @@ The Mags Redux files are also tweaked. Some data was redundant when it could jus
 
 Integrated into vanilla actor effects.
 
-Integrated into Arszi's Mutant Bleeding + Optimized Patch, Interactive PDA, Lootboxes, and Urban Tactics.
+Integrated into:
+Interactive PDA
+Lootboxes
+Urban Tactics
+Weapon Parts OVerhaul
 
-The Lite option includes everything mentioned, but adds only the new rifles (DDM4 V7, alt M4A1 RAS, M16A4 Long M203, M16A1) for further compatibility with whatever else you may choose to remodel/reanimate the vanilla AR rifles. 
+
+The Lite option includes everything mentioned above, but adds only the new rifles (DDM4 V7, alt M4A1 RAS, M16A4 Long M203, M16A1) for further compatibility with whatever else you may choose to remodel/reanimate the vanilla AR rifles. 
 
 ----------------------------------------------------------
 -Patches:

@@ -14,9 +14,11 @@ Icon file trimmed.
 
 Moved mag file to proper directory path.
 
-Grok's Stashes Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integration into:
+Grok's Stashes Overhaul
+Lootboxes
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

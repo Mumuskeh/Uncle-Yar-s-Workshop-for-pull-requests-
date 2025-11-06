@@ -4,7 +4,7 @@ Only released in Gamma Discord server.
 
 ----------------------------------------------------------
 -Compatibility:
-Note: Disable the items/settings/npc_loadouts, and items/settings/trade folders.
+NOTE: You still need the original mod. Disable the configs folder.
 
 ----------------------------------------------------------
 -Explanation:
@@ -13,9 +13,11 @@ Renamed npc loadout filename to ensure nothing crosses with Onerock's MCX Spear 
 Fixed inheritance assignment for sounds configs.
 Consolidated trade files. Some traders will also sell both versions of the rifles, others only the black or tan version.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integration into:
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

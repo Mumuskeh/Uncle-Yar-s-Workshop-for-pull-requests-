@@ -15,11 +15,13 @@ Icon file reduced. Could actually use a redo of the icon itself but eh.
 
 Default actor effects.
 
-Grok's Enhanced recoil integration.
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-Mags Redux integration. M82 mags will be used.
-PDA Interactive integration.
+Integrated into:
+Grok's Enhanced recoil
+Grok's Stash Overhaul
+Lootboxes
+Mags Redux. M82 mags will be used.
+PDA Interactive
+Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:

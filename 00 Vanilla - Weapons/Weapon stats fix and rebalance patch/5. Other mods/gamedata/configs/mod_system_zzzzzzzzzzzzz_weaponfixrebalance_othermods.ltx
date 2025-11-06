@@ -9,7 +9,6 @@
 ;AK101 SP
 ![wpn_ak101_sp]
 $spawn			= "weapons\ak101_sp"
-silencer_name	= wpn_sil_atg
 fire_distance	= 500
 
 ;AK103 BP
@@ -59,10 +58,11 @@ fire_distance	= 220
 ;this is the 6.8x51 model
 ![wpn_sig_spear]
 $spawn			= "weapons\sig_spear_6.8x51"
+parent_section	= wpn_sig_spear_6.8x51
 bullet_speed	= 915 ; 802
-
 ![wpn_sig_spear_tan]
 $spawn			= "weapons\sig_spear_6.8x51_tan"
+parent_section	= wpn_sig_spear_6.8x51_tan
 bullet_speed	= 915 ; 802
 
 ;TWCP
@@ -308,59 +308,17 @@ $spawn			= "weapons\thompson_1921"
 bullet_speed	= 285
 
 
+;;FROSTYCHUN 	============	============	============	============
+
+;Ready or not Pack
+![wpn_sr16]
+$spawn			= "weapons\sr16"
+inv_weight		= 2.9 ; 3.0
+fire_distance	= 500 ; 800
+rpm				= 750 ; 800
+
+
 ;;JMERC 	============	============	============	============
-
-;Ghost Armory - 50 Beowulf Weapon Pack
-;we'll balance them similarly to how I do in Late Comers: hits very hard, but short range
-![wpn_m4_beowulf]
-$spawn			= "weapons\ar_50b"
-hit_impulse		= 70 ; 55
-hit_power		= 1.2, 1.2, 1.2, 1.2 ; 0.75, 0.75, 0.75, 0.75
-fire_distance	= 250 ; 700
-bullet_speed	= 500 ; 700
-;The patch in Late Comers gives it the wpn_ar_50b ID, but it already balances it like this so all good
-
-![wpn_mdr_50]
-$spawn			= "weapons\mdr_50"
-hit_impulse		= 75 ; 60
-hit_power		= 1.25, 1.25, 1.25, 1.25 ; 0.85, 0.85, 0.85, 0.85
-fire_distance	= 350 ; 800
-bullet_speed	= 525 ; 700
-rpm				= 400 ; 520
-
-;MP9
-; Holy shit what's this about making a 9mm smg hit like a rifle? For a pistol slot? "slightly reduced damage" my ass
-![wpn_mp9_n]
-$spawn			= "weapons\mp9_n"
-slot			= 2
-ef_main_weapon_type	= 2
-ef_weapon_type	= 6
-single_handed	= 0
-inv_weight		= 1.4
-cost			= 24410
-hit_impulse		= 24
-hit_power		= 0.47, 0.47, 0.47, 0.47
-fire_distance	= 200
-bullet_speed	= 710
-rpm				= 900
-rpm_empty_click	= 200
-ap_modifier		= 1
-
-![wpn_mp9_j]
-$spawn			= "weapons\mp9_j"
-slot			= 2
-ef_main_weapon_type	= 2
-ef_weapon_type	= 6
-single_handed	= 0
-inv_weight		= 1.6
-cost			= 42410
-hit_impulse		= 24
-hit_power		= 0.47, 0.47, 0.47, 0.47
-fire_distance	= 200
-bullet_speed	= 710
-;a jump of 200 rpm seems too big
-rpm				= 1000
-ap_modifier		= 1
 
 ;Arbiter pack
 ![wpn_arbiter_bushmaster]
@@ -375,15 +333,6 @@ fire_distance	= 100
 ![wpn_arbiter_revolver]
 $spawn			= "weapons\arbiter_revolver"
 fire_distance	= 150
-
-;QBZ 95
-![wpn_qbz95]
-$spawn			= "weapons\qbz95"
-inv_weight		= 3.25
-fire_distance	= 500
-bullet_speed	= 930
-rpm				= 650
-
 
 ;;Beretta pack
 ; need to research them more
@@ -488,6 +437,77 @@ fire_distance	= 100
 bullet_speed	= 380
 rpm				= 700
 
+; Luger P08
+![wpn_p08]
+$spawn			= "weapons\p08"
+parent_section	= wpn_p08
+inv_weight		= 0.871 ; 0.625
+hit_impulse		= 24 ; 35
+hit_power		= 0.46, 0.46, 0.46, 0.46 ; 0.50, 0.50, 0.50, 0.50
+fire_distance	= 100 ; 400
+bullet_speed	= 375 ; 450
+rpm				= 116 ; 270
+
+;Ghost Armory - 50 Beowulf Weapon Pack
+;we'll balance them similarly to how I do in Late Comers: hits very hard, but short range
+![wpn_m4_beowulf]
+$spawn			= "weapons\ar_50b"
+hit_impulse		= 70 ; 55
+hit_power		= 1.2, 1.2, 1.2, 1.2 ; 0.75, 0.75, 0.75, 0.75
+fire_distance	= 250 ; 700
+bullet_speed	= 500 ; 700
+;The patch in Late Comers gives it the wpn_ar_50b ID, but it already balances it like this so all good
+
+![wpn_mdr_50]
+$spawn			= "weapons\mdr_50"
+hit_impulse		= 75 ; 60
+hit_power		= 1.25, 1.25, 1.25, 1.25 ; 0.85, 0.85, 0.85, 0.85
+fire_distance	= 350 ; 800
+bullet_speed	= 525 ; 700
+rpm				= 400 ; 520
+
+;MP9
+; Holy shit what's this about making a 9mm smg hit like a rifle? For a pistol slot? "slightly reduced damage" my ass
+![wpn_mp9_n]
+$spawn			= "weapons\mp9_n"
+slot			= 2
+ef_main_weapon_type	= 2
+ef_weapon_type	= 6
+single_handed	= 0
+inv_weight		= 1.4
+cost			= 24410
+hit_impulse		= 24
+hit_power		= 0.47, 0.47, 0.47, 0.47
+fire_distance	= 200
+bullet_speed	= 710
+rpm				= 900
+rpm_empty_click	= 200
+ap_modifier		= 1
+
+![wpn_mp9_j]
+$spawn			= "weapons\mp9_j"
+slot			= 2
+ef_main_weapon_type	= 2
+ef_weapon_type	= 6
+single_handed	= 0
+inv_weight		= 1.6
+cost			= 42410
+hit_impulse		= 24
+hit_power		= 0.47, 0.47, 0.47, 0.47
+fire_distance	= 200
+bullet_speed	= 710
+;a jump of 200 rpm seems too big
+rpm				= 1000
+ap_modifier		= 1
+
+;QBZ 95
+![wpn_qbz95]
+$spawn			= "weapons\qbz95"
+inv_weight		= 3.25
+fire_distance	= 500
+bullet_speed	= 930
+rpm				= 650
+
 
 ;;KMACK	============	============	============	============
 
@@ -505,7 +525,6 @@ hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.57, 0.57, 0.57, 0.57
 fire_distance	= 410 ; 650
 ; bullet_speed	= 600 ; 259
 rpm				= 877 ; 857
-!ap_modifier
 
 ;Mosin Trio
 ; The _k is basically a Mosin duplicate. The carbine gets nerfed a bit in relation to that, and the and obrez a bit more. The Shiv is an obrez, but given it's special, it retains a bit of power.
@@ -662,10 +681,11 @@ bullet_speed	= 920 ; 910
 ;MCX SPEAR
 ;this is the 7.62 model, unlike ATHIS' or the one in RWAP
 ![wpn_mcx_spear]
-$spawn			= "weapons\mcx_spear"
+$spawn			= "weapons\sig_spear_7.62x51"
+parent_section	= wpn_sig_spear_7.62x51
 inv_weight		= 3.8 ; 2.90
-; hit_impulse							 	= 30
-; hit_power									= 0.49, 0.49, 0.49, 0.49
+; hit_impulse			= 30
+; hit_power				= 0.49, 0.49, 0.49, 0.49
 fire_distance	= 700 ; 1000
 bullet_speed	= 792 ; 880
 rpm				= 850 ; 770
@@ -865,7 +885,6 @@ rpm				= 30
 
 ;Benelli M4
 ![wpn_benelli_m4]
-silencer_name	= wpn_sil_atg
 fire_distance	= 100
 
 ;FB Vis
@@ -882,7 +901,7 @@ bullet_speed	= 351 ; 345
 $spawn			= "weapons\revolver357"
 ; hit_impulse						= 45
 ; hit_power						= 0.6, 0.6, 0.6, 0.6
-; fire_distance					= 500
+fire_distance	= 150
 ; bullet_speed					= 430
 ; rpm								= 200
 

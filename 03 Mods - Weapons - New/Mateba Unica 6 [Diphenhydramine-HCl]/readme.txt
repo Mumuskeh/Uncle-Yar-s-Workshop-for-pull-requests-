@@ -15,7 +15,9 @@ Blacklisted the guns from the new 3D ballistics. Unfortunately, the model has wa
 
 Why not use Joseph Porta's instead? Well sure, I love it, but those models' number of materials add up and end up being murder on my potato. :_D
 
-Integration for Grok's Stash Overhaul.
+Integration into:
+Grok's Stash Overhaul
+Weapon Parts Overhaul
     
 ----------------------------------------------------------
 -Patches:

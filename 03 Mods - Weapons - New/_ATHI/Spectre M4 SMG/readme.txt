@@ -27,6 +27,7 @@ Grok's Stash Overhaul
 Grok's Enhanced Recoil
 Lootboxes
 PDA Interactive
+Weapon Parts OVerhaul
 
 ----------------------------------------------------------
 -Patches:

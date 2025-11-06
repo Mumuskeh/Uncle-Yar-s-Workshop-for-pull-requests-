@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_colt_anaconda_44">
+		<text>Colt Anaconda .44 Magnum</text>
+	</string>
+	<string id="st_wpn_colt_anaconda_44_descr">
+		<text>The Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company from 1990 to 2003. Chambered for the powerful .44 Magnum and .45 Colt centerfire ammunition cartridges, the Anaconda marked Colt's first foray into the popular large-bore Magnum pistol market, but were plagued with poor accuracy. Changes to the barrels quickly corrected the problems to the point that Colt billed its new pistol as among the most accurate .44 Magnum revolvers in production.</text>
+	</string>
+
+</string_table>
