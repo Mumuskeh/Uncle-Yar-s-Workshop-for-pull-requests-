@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!--
+	LEWD AMMO 50 BMG
+-->
+<string_table>
+
+	<string id="lewd_ammo_amax">
+		<text>.50 BMG Hornady A-Max</text>
+	</string>
+	<string id="lewd_ammo_amax_descr">
+		<text>A .50 BMG (12.7x99mm) Hornady A-Max match-grade cartridge with a 48.6 gram lead core bullet with a copper semi-jacket and an aluminium tip in a brass case. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		This is a sniper cartridge often used by long-range shooters, characterized by outstanding accuracy and ballistic coefficient. Due to the sheer power of the cartridge it is able to penetrate basic ballistic protections while also offering great stopping power effect and terminal performance.\n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR4\n
+		%c[d_purple] • %c[ui_gray_2] Type: Match</text>
+	</string>
+
+	<string id="lewd_ammo_hsmhp">
+		<text>.50 BMG HSM HP</text>
+	</string>
+	<string id="lewd_ammo_hsmhp_descr">
+		<text>A .50 BMG (12.7x99mm) HSM HP hunting cartridge with a 48.6 gram lead core bullet with a brass semi-jacket in a brass case. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		This is a specially designed hunting cartridge utilising a hollow-point bullet, designed to expand during penetration and create a large wound cavity. Due to the sheer power of the cartridge it is able to penetrate basic ballistic protections while also offering great stopping power effect and terminal performance.\n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR4\n
+		%c[d_purple] • %c[ui_gray_2] Type: Hollow Point</text>
+	</string>
+
+	<string id="lewd_ammo_m8">
+		<text>.50 BMG M8 API</text>
+	</string>
+	<string id="lewd_ammo_m8_descr">
+		<text>A .50 BMG (12.7x99mm) M8 API military cartridge with a 43.6 gram bullet featuring a pointed hardened steel core with incendiary composition in the tip under a copper jacket and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		Designed primarily to neutralize armored vehicles, aerial vehicles and hostile personnel behind covers, not to mention its excellent results against most modern ballistic body protections as well as having a considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR5+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Armor Piercing Incendiary</text>
+	</string>
+
+	<string id="lewd_ammo_m33">
+		<text>.50 BMG M33 Ball</text>
+	</string>
+	<string id="lewd_ammo_m33_descr">
+		<text>A .50 BMG (12.7x99mm) M33 Ball military cartridge with a 43 gram bullet featuring a pointed mild steel core in a copper jacket and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		Designed primarily to neutralize lightly armored and unarmored targets. It is able to penetrate basic and intermediate ballistic protections while possessing considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR4+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Ball</text>
+	</string>
+
+	<string id="lewd_ammo_mk211">
+		<text>.50 BMG Mk211 Mod0 MP</text>
+	</string>
+	<string id="lewd_ammo_mk211_descr">
+		<text>The legendary .50 BMG (12.7x99mm) Mk211 Mod0 multi-purpose sniper cartridge with a 43.5 gram bullet featuring a small pointed tungsten carbide core covered in zirconium powder, high-explosive PETN load, mild steel cup and an incendiary tip, all put into a copper jacket in a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. This is a modification of Nammo's NM140 F3 created for US Armed Forces. The NM140 F3 itself is adopted by all NATO forces and is used against armored and aerial targets. It has one of the most impressive anti-materiel performances when compared with other .50 BMG types of ammunition. The damage inflicted by it is so severe in fact, that there has been much debate across the world of its legality to be used against personnel. The round penetrates the most advanced body armor systems in the world, while also exploding on impact, sending deadly incinerated shrapnel behind the penetrated barrier.\n
+		%c[ui_gray_2]Country of origin: Kingdom of Norway/United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR5+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Multi-Purpose</text>
+	</string>
+
+	<string id="lewd_ammo_mk263">
+		<text>.50 BMG Mk263 Mod2 AP</text>
+	</string>
+	<string id="lewd_ammo_mk263_descr">
+		<text>A .50 BMG (12.7x99mm) Mk263 Mod2 AP military match-grade cartridge with a 48.6 gram armor-piercing bullet featuring a hardened steel core in a copper jacket and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		Designed primarily to neutralize armored vehicles, aerial vehicles and hostile personnel behind covers, not to mention its excellent results against most modern ballistic body protections as well as having a considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: United States of America\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR5+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Armor Piercing</text>
+	</string>
+
+	<string id="lewd_ammo_nm173">
+		<text>12.7x99 NM173 Grade A APi-S</text>
+	</string>
+	<string id="lewd_ammo_nm173_descr">
+		<text>A 12.7x99 (.50 BMG) NM173 Grade A APi-S military match-grade cartridge with a 47 gram armor-piercing-incendiary bullet featuring a tungsten carbide core in a steel cup and lead supporting body with incendiary mix in the tip in a copper jacket and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		This cartridge is produced by Nammo and has been adopted by militaries of 15 NATO countries. Designed primarily to neutralize armored vehicles, aerial vehicles and hostile personnel behind covers, not to mention its excellent results against most modern ballistic body protections as well as having a considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: Kingdom of Norway\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR6\n
+		%c[d_purple] • %c[ui_gray_2] Type: Armor Piercing Incendiary</text>
+	</string>
+
+	<string id="lewd_ammo_apsx">
+		<text>.50 Browning SwissP AP SX</text>
+	</string>
+	<string id="lewd_ammo_apsx_descr">
+		<text>A .50 Browning (12.7x99) SwissP AP SX high-quality match-grade cartridge with a 43.5 gram armor-piercing sniper bullet featuring a large pointed tungsten carbide core under a polymer tip and in a brass body and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		This cartridge is produced by Nammo and has been adopted by militaries of 15 NATO countries. This ammunition is produced by SwissP and has found great popularity among western European special forces snipers. Designed primarily to neutralize armored vehicles, aerial vehicles and hostile personnel behind covers with great precision, not to mention its excellent results against most modern ballistic body protections as well as having a considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: Swiss Confederation\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR6+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Armor Piercing/Match</text>
+	</string>
+
+	<string id="lewd_ammo_hcsx">
+		<text>.50 Browning SwissP HC SX</text>
+	</string>
+	<string id="lewd_ammo_hcsx_descr">
+		<text>A .50 Browning (12.7x99) SwissP HC SX high-quality match-grade cartridge with a 47.5 gram armor-piercing sniper bullet featuring a full-bore hardened steel penetrator in a brass body and a brass case. Features double valleys to reduce bearing surface thereby decreasing friction and increasing stability. The first .50 BMG cartridges officially entered service in 1921 and saw massive success in World War 2 when used in the M2 Browning machine gun.\n
+		This cartridge is produced by Nammo and has been adopted by militaries of 15 NATO countries. This ammunition is produced by SwissP and has found great popularity among western European special forces snipers. Designed primarily to neutralize armored vehicles, aerial vehicles and hostile personnel behind covers with great precision, not to mention its excellent results against most modern ballistic body protections as well as having a considerable stopping power effect and the ability to inflict severe adverse effects on the target after impact. The damage inflicted on target is practically almost 100% lethal, as being hit by a .50 BMG round of any type usually means dismemberment or a critical loss of body tissue. However, due to its design, it has a very high chance of bouncing off various surfaces.\n
+		%c[ui_gray_2]Country of origin: Swiss Confederation\n
+		%c[d_purple] • %c[ui_gray_2] Tissue Damage: Very High\n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: BR5+\n
+		%c[d_purple] • %c[ui_gray_2] Type: Armor Piercing/Match</text>
+	</string>
+
+</string_table>

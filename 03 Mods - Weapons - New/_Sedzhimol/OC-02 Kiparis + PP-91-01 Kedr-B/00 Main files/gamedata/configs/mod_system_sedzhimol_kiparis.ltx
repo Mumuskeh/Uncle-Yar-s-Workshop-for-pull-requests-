@@ -1,0 +1,479 @@
+![wpn_kiparis]
+bullet_bones		= bullet_3, bullet_2, bullet_1
+
+hud_fov				= 0.6
+
+ammo_elapsed		= 30
+ammo_mag_size		= 30
+startup_ammo		= 90
+
+orientation			= 1.186132, -3.943603, 0
+position			= -0.023336, 0.000226, -0.009525
+strap_position		= -0.126613, -0.221281, 0.116928
+
+flame_particles		= ghost_particles\weapons\generic_smoke_eft_sil		
+smoke_particles		= ghost_particles\weapons\flame_eft_sks	
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil 
+
+icons_texture		= ui\ui_kiparik_icons
+inv_grid_width		= 4
+inv_grid_height		= 2
+inv_grid_x			= 0
+inv_grid_y			= 0
+
+upgr_icon_path		= ui\ui_kiparik_icons
+upgr_icon_x			= 0
+upgr_icon_y			= 100
+upgr_icon_width		= 250
+upgr_icon_height	= 150
+
+inv_name			= st_wpn_kiparis
+inv_name_short		= st_wpn_kiparis
+description			= st_wpn_kiparis_descr
+
+hud					= wpn_kiparis_hud
+visual				= dynamics\weapons\wpn_kiparis\wpn_kiparis.ogf
+
+shell_particles		= ;weapons\9x18
+
+silencer_x			= 188
+silencer_y			= 10
+
+snd_draw			= wpn\kiparis\ak74_draw
+snd_holster			= wpn\kiparis\p90_hide
+snd_reload			= wpn\kiparis\reload_part_saw
+snd_reload_empty	= wpn\kiparis\reload_empty_saw
+snd_reload_misfire	= wpn\kiparis\rasklin
+snd_switch_mode		= wpn\kiparis\fire_mode_switch
+
+scripted_snd_ammo_check				= wpn\kiparis\mag_check_saw
+scripted_snd_ammo_check_empty		= wpn\kiparis\mag_check_saw
+scripted_snd_ammo_check_aim			= $no_sound
+scripted_snd_ammo_check_aim_empty	= $no_sound
+snd_bore							= $no_sound
+
+![wpn_kiparis_hud]
+item_visual	= anomaly_weapons\wpn_kiparis\wpn_kiparis_hud.ogf
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.06101, 0.03604, -0.072812
+aim_hud_offset_pos_16x9	= -0.06101, 0.03604, -0.072812
+aim_hud_offset_rot		= 0, 0.027883, -0.035053
+aim_hud_offset_rot_16x9	= 0, 0.027883, -0.035053
+
+hands_orientation		= 1.401173, -0.039803, -2.645336
+hands_orientation_16x9	= 1.401173, -0.039803, -2.645336
+hands_position			= -0.021327, 0.010654, 0.007948
+hands_position_16x9		= -0.021327, 0.010654, 0.007948
+
+lowered_hud_offset_pos		= 0.066434, -0.004754, 0.007759
+lowered_hud_offset_pos_16x9	= 0.066434, -0.004754, 0.007759
+lowered_hud_offset_rot		= 0.186898, -0.469335, 0.1
+lowered_hud_offset_rot_16x9	= 0.186898, -0.469335, 0.1
+;-----------------------------------------------------------------------------------		
+anm_hide					= kiparis_hide_sedzhimol
+anm_show					= kiparis_draw_sedzhimol
+anm_idle					= kiparis_idle_sedzhimol
+anm_idle_aim				= kiparis_idle_aim_sedzhimol
+anm_idle_aim_moving			= kiparis_moving_sedzhimol, idle, 0.75
+anm_idle_aim_moving_crouch	= kiparis_moving_sedzhimol, idle, 0.7
+anm_idle_moving				= kiparis_moving_sedzhimol
+anm_idle_sprint				= kiparis_sprint_sedzhimol
+anm_reload					= kiparis_reload_part_sedzhimol
+anm_reload_empty			= kiparis_reload_full_sedzhimol
+anm_reload_misfire			= kiparis_misfire_sedzhimol
+anm_shot_l					= kiparis_shoot_sedzhimol
+anm_shots					= kiparis_shoot_sedzhimol
+anm_shot_l_aim				= kiparis_shot_aim
+anm_shots_aim				= kiparis_shot_aim
+anm_switch_mode				= kiparis_switch_mode_sedzhimol
+
+anm_ammo_check				= kiparis_mag_check_sedzhimol, kiparis_mag_check_sedzhimol
+anm_ammo_check_empty		= kiparis_mag_check_sedzhimol, kiparis_mag_check_empty_sedzhimol
+anm_ammo_check_aim			= kiparis_idle_aim_sedzhimol, idle
+anm_ammo_check_empty_aim	= kiparis_idle_aim_sedzhimol, idle
+
+anm_bore			= kiparis_osmotr_sedzhimol, idle
+anm_bore_empty		= kiparis_osmotr_sedzhimol, idle
+anm_bore_aim		= kiparis_idle_aim_sedzhimol, idle
+anm_bore_empty_aim	= kiparis_idle_aim_sedzhimol, idle
+	
+anm_sprint_start	= kiparis_sprint_start_sedzhimol
+anm_sprint_end		= kiparis_sprint_end_sedzhimol
+
+anm_idle_aim_start	= kiparis_aim_in_sedzhimol
+anm_idle_aim_end	= kiparis_aim_in_sedzhimol
+;---------------------Fake empty--------------------------------------------------------------
+anm_hide_empty						= kiparis_hide_sedzhimol
+anm_show_empty						= kiparis_draw_sedzhimol
+anm_idle_empty						= kiparis_idle_sedzhimol
+anm_idle_aim_empty					= kiparis_idle_aim_sedzhimol
+anm_idle_aim_moving_empty			= kiparis_moving_sedzhimol, idle, 0.75
+anm_idle_aim_moving_crouch_empty	= kiparis_moving_sedzhimol, idle, 0.7
+anm_idle_moving_empty				= kiparis_moving_sedzhimol
+anm_idle_sprint_empty				= kiparis_sprint_sedzhimol
+anm_switch_mode_empty				= kiparis_switch_mode_sedzhimol
+	
+anm_sprint_start_empty		= kiparis_sprint_start_sedzhimol
+anm_sprint_end_empty		= kiparis_sprint_end_sedzhimol
+
+anm_idle_aim_start_empty	= kiparis_aim_in_sedzhimol
+anm_idle_aim_end_empty		= kiparis_aim_in_sedzhimol
+;-----------------------------------------------------------------------------------
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+;-----------------------------------------------------------------------------------	
+shell_bone	= wpn_body
+shell_dir	= 0.0, 1.0, 0.0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_kiparis_saw]:wpn_kiparis
+parent_section		= wpn_kiparis_saw
+
+bullet_bones		= bullet_3, bullet_2, bullet_1
+
+scopes				= ac10632, eot, acog
+scope_status		= 0
+
+orientation			= 1.186132, -3.943603, 0
+position			= -0.023336, 0.000226, -0.009525
+strap_position		= -0.126613, -0.221281, 0.116928
+
+icons_texture		= ui\ui_kiparik_icons
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 4
+inv_grid_y			= 0
+
+upgr_icon_path		= ui\ui_kiparik_icons
+upgr_icon_x			= 250
+upgr_icon_y			= 100
+upgr_icon_width		= 250
+upgr_icon_height	= 150
+
+inv_name			= st_wpn_kiparis_saw
+inv_name_short		= st_wpn_kiparis_saw
+description			= st_wpn_kiparis_saw_descr
+
+inv_weight			= 1.6
+
+silencer_x			= 241
+silencer_y			= 7
+
+cost				= 40000
+
+ammo_elapsed		= 50
+ammo_mag_size		= 50
+startup_ammo		= 100
+
+hud					= wpn_kiparis_saw_hud
+visual				= dynamics\weapons\wpn_kiparis\wpn_kiparis_saw.ogf
+
+snd_reload			= wpn\kiparis\reload_part_saw
+snd_reload_empty	= wpn\kiparis\reload_empty_saw
+
+scripted_snd_ammo_check			= wpn\kiparis\mag_check_saw
+scripted_snd_ammo_check_empty	= wpn\kiparis\mag_check_saw
+
+[wpn_kiparis_saw_hud]:wpn_kiparis_hud
+item_visual	= anomaly_weapons\wpn_kiparis\wpn_kiparis_saw_hud.ogf
+;----------------------------------------------------------------------------------- 
+hands_orientation		= 0.200534, 0.190617, -2.645336
+hands_orientation_16x9	= 0.200534, 0.190617, -2.645336
+
+aim_hud_offset_pos		= -0.060589, 0.03675, -0.072741
+aim_hud_offset_pos_16x9	= -0.060589, 0.03675, -0.072741
+aim_hud_offset_rot		= 0.000993, 0.006078, -0.035053
+aim_hud_offset_rot_16x9	= 0.000993, 0.006078, -0.035053
+;----------------------------------------------------------------------------------- 
+anm_hide					= kiparis_hide_sedzhimol_sk2
+anm_show					= kiparis_draw_sedzhimol_sk2
+anm_idle					= kiparis_idle_sedzhimol_sk2
+anm_idle_aim				= kiparis_idle_aim_sedzhimol_sk2
+anm_idle_aim_moving			= kiparis_moving_sedzhimol_sk2, idle, 0.75
+anm_idle_aim_moving_crouch	= kiparis_moving_sedzhimol_sk2, idle, 0.7
+anm_idle_moving				= kiparis_moving_sedzhimol_sk2
+anm_idle_sprint				= kiparis_sprint_sedzhimol_sk2
+anm_reload					= kiparis_reload_part_sedzhimol_sk2, kiparis_reload_part_sedzhimol_sk1
+anm_reload_empty			= kiparis_reload_full_sedzhimol_sk2, kiparis_reload_full_sedzhimol_sk1
+anm_reload_misfire			= kiparis_misfire_sedzhimol_sk2, kiparis_misfire_sedzhimol
+anm_shot_l					= kiparis_shoot_sedzhimol_skb
+anm_shots					= kiparis_shoot_sedzhimol_skb
+anm_shot_l_aim				= kiparis_aim_shoot_sedzhimol_skb
+anm_shots_aim				= kiparis_aim_shoot_sedzhimol_skb
+anm_switch_mode				= kiparis_switch_mode_sedzhimol_sk2
+
+anm_ammo_check				= kiparis_mag_check_sedzhimol_sk2, kiparis_mag_check_sedzhimol_sk1
+anm_ammo_check_empty		= kiparis_mag_check_sedzhimol_sk2, kiparis_mag_check_empty_sedzhimol_sk1
+anm_ammo_check_aim			= kiparis_idle_aim_sedzhimol_sk2, idle
+anm_ammo_check_empty_aim	= kiparis_idle_aim_sedzhimol_sk2, idle
+
+anm_bore			= kiparis_osmotr_sedzhimol_sk2, idle
+anm_bore_empty		= kiparis_osmotr_sedzhimol_sk2, idle
+anm_bore_aim		= kiparis_idle_aim_sedzhimol_sk2, idle
+anm_bore_empty_aim	= kiparis_idle_aim_sedzhimol_sk2, idle
+;-----------------------------------------------------------------------------------
+anm_sprint_start	= kiparis_sprint_start_sedzhimol_sk2
+anm_sprint_end		= kiparis_sprint_end_sedzhimol_sk2
+
+anm_idle_aim_start	= kiparis_aim_in_sedzhimol_sk2
+anm_idle_aim_end	= kiparis_aim_in_sedzhimol_sk2
+;---------------------------Fake empty--------------------------------------------------------
+anm_hide_empty	= kiparis_hide_sedzhimol_sk2
+anm_show_empty	= kiparis_draw_sedzhimol_sk2
+
+anm_idle_empty						= kiparis_idle_sedzhimol_sk2
+anm_idle_aim_empty					= kiparis_idle_aim_sedzhimol_sk2
+anm_idle_aim_moving_empty			= kiparis_moving_sedzhimol_sk2, idle, 0.75
+anm_idle_aim_moving_crouch_empty	= kiparis_moving_sedzhimol_sk2, idle, 0.7
+anm_idle_moving_empty				= kiparis_moving_sedzhimol_sk2
+anm_idle_sprint_empty				= kiparis_sprint_sedzhimol_sk2
+anm_switch_mode_empty				= kiparis_switch_mode_sedzhimol_sk2
+	
+anm_sprint_start_empty		= kiparis_sprint_start_sedzhimol_sk2
+anm_sprint_end_empty		= kiparis_sprint_end_sedzhimol_sk2
+
+anm_idle_aim_start_empty	= kiparis_aim_in_sedzhimol_sk2
+anm_idle_aim_end_empty		= kiparis_aim_in_sedzhimol_sk2
+;-----------------------------------------------------------------------------------
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+;-----------------------------------------------------------------------------------
+[wpn_kiparis_saw_ac10632]:wpn_kiparis_saw
+inv_weight		= 1.715
+
+hud				= wpn_kiparis_saw_ac10632_hud
+visual			= dynamics\weapons\wpn_kiparis\wpn_kiparis_saw_ac10632.ogf
+
+1icon_layer		= ac10632
+1icon_layer_x	= 107
+1icon_layer_y	= -14				
+
+[wpn_kiparis_saw_ac10632_hud]:wpn_kiparis_saw_hud
+item_visual	= anomaly_weapons\wpn_kiparis\wpn_kiparis_saw_ac10632_hud.ogf
+aim_hud_offset_pos		= -0.06048, 0.00569, -0.072812
+aim_hud_offset_pos_16x9	= -0.06048, 0.00569, -0.072812
+aim_hud_offset_rot		= -0.000998, 0.004179, -0.028651
+aim_hud_offset_rot_16x9	= -0.000998, 0.004179, -0.028651
+;------------------------------------------------------------------------------------------------
+[wpn_kiparis_saw_eot]:wpn_kiparis_saw
+hud				= wpn_kiparis_saw_eot_hud
+visual			= dynamics\weapons\wpn_kiparis\wpn_kiparis_saw_eot.ogf
+
+inv_weight		= 1.827
+
+1icon_layer		= eot
+1icon_layer_x	= 108
+1icon_layer_y	= -9
+
+[wpn_kiparis_saw_eot_hud]:wpn_kiparis_saw_hud
+item_visual	= anomaly_weapons\wpn_kiparis\wpn_kiparis_saw_eot_hud.ogf
+aim_hud_offset_pos		= -0.061169, 0.009027, -0.072812
+aim_hud_offset_pos_16x9	= -0.061169, 0.009027, -0.072812
+aim_hud_offset_rot		= 0.000848, 0.004603, -0.028651
+aim_hud_offset_rot_16x9	= 0.000848, 0.004603, -0.028651
+;------------------------------------------------------------------------------------------------
+[wpn_kiparis_saw_acog]:wpn_kiparis_saw
+inv_weight		= 1.950
+
+hud				= wpn_kiparis_saw_acog_hud
+visual			= dynamics\weapons\wpn_kiparis\wpn_kiparis_saw_acog.ogf
+
+1icon_layer		= acog
+1icon_layer_x	= 103
+1icon_layer_y	= -12
+
+scope_status	= 1
+scope_texture	= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+use_alt_aim_hud		= true
+[wpn_kiparis_saw_acog_hud]:wpn_kiparis_saw_hud
+item_visual	= anomaly_weapons\wpn_kiparis\wpn_kiparis_saw_acog_hud.ogf
+aim_hud_offset_alt_pos		= -0.077328, -0.06286, -0.055322
+aim_hud_offset_alt_pos_16x9	= -0.077328, -0.06286, -0.055322
+aim_hud_offset_alt_rot		= -0.074011, 0.065735, 0.742479
+aim_hud_offset_alt_rot_16x9	= -0.074011, 0.065735, 0.742479
+aim_hud_offset_pos		= -0.061064, 0.005465, -0.10537
+aim_hud_offset_pos_16x9	= -0.061064, 0.005465, -0.10537
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+
+[wpn_kedr]:wpn_kiparis
+parent_section		= wpn_kedr
+
+bullet_bones		= bullet_3, bullet_2, bullet_1
+
+hud_fov				= 0.6
+
+cost				= 11488
+
+orientation			= 2.813008, -3.380963, 0
+position			= -0.022925, -0.146689, -0.036972
+strap_position		= -0.170561, -0.34402, 0.191951
+
+ammo_elapsed		= 30
+ammo_mag_size		= 30
+startup_ammo		= 90
+
+icons_texture		= ui\ui_kedr_icon
+inv_grid_width		= 4
+inv_grid_height		= 2
+inv_grid_x			= 0
+inv_grid_y			= 0
+
+upgr_icon_path		= ui\ui_kedr_icon
+upgr_icon_x			= 0
+upgr_icon_y			= 100
+upgr_icon_width		= 250
+upgr_icon_height	= 150
+
+inv_name			= st_wpn_kedr
+inv_name_short		= st_wpn_kedr
+description			= st_wpn_kedr_descr
+
+hud					= wpn_kedr_hud
+visual				= dynamics\weapons\wpn_pp91b\wpn_pp91b.ogf
+
+shell_particles		= ;weapons\9x18
+
+silencer_x			= 175
+silencer_y			= 1
+
+snd_draw			= wpn\kedr\ak74_draw
+snd_holster			= wpn\kedr\p90_hide
+snd_reload			= wpn\kedr\reload_part
+snd_reload_empty	= wpn\kedr\reload_empty
+snd_reload_misfire	= wpn\kedr\rasklin
+snd_switch_mode		= wpn\kedr\fire_mode_switch
+
+scripted_snd_ammo_check					= wpn\kedr\mag_check
+scripted_snd_ammo_check_empty			= wpn\kedr\mag_check
+scripted_snd_ammo_check_empty_jammed	= wpn\kedr\mag_check
+scripted_snd_ammo_check_aim				= $no_sound
+scripted_snd_ammo_check_aim_empty		= $no_sound
+snd_bore								= $no_sound
+
+[wpn_kedr_hud]:wpn_kiparis_hud
+item_visual	= anomaly_weapons\wpn_pp91b\wpn_pp91b_hud.ogf
+
+item_position					= 0, 0, 0
+item_orientation				= 0, 0, 0
+
+aim_hud_offset_pos		= -0.060799, 0.037744, -0.072812
+aim_hud_offset_pos_16x9	= -0.060799, 0.037744, -0.072812
+aim_hud_offset_rot		= -0.001136, 0.027406, -0.031716
+aim_hud_offset_rot_16x9	= -0.001136, 0.027406, -0.031716
+
+hands_orientation		= 1.401173, -0.039803, -2.645336
+hands_orientation_16x9	= 1.401173, -0.039803, -2.645336
+hands_position			= -0.021327, 0.010654, 0.007948
+hands_position_16x9		= -0.021327, 0.010654, 0.007948
+
+lowered_hud_offset_pos		= 0.066434, -0.004754, 0.007759
+lowered_hud_offset_pos_16x9	= 0.066434, -0.004754, 0.007759
+lowered_hud_offset_rot		= 0.186898, -0.469335, 0.1
+lowered_hud_offset_rot_16x9	= 0.186898, -0.469335, 0.1
+;-----------------------------------------------------------------------------------		
+anm_hide					= pp91b_hide_sedzhimol
+anm_show					= pp91b_draw_sedzhimol
+anm_idle					= pp91b_idle_sedzhimol
+anm_idle_aim				= pp91b_idle_aim_sedzhimol
+anm_idle_aim_moving			= pp91b_moving_sedzhimol, idle, 0.75
+anm_idle_aim_moving_crouch	= pp91b_moving_sedzhimol, idle, 0.7
+anm_idle_moving				= pp91b_moving_sedzhimol
+anm_idle_sprint				= pp91b_sprint_sedzhimol
+anm_reload					= pp91b_reload_part_sedzhimol
+anm_reload_empty			= pp91b_reload_full_sedzhimol
+anm_reload_misfire			= pp91b_misfire_sedzhimol
+anm_shots					= pp91b_shot_sedzhimol
+anm_switch_mode				= pp91b_switch_mode_sedzhimol
+
+anm_ammo_check			= pp91b_mag_check_sedzhimol, pp91b_mag_check_sedzhimol
+anm_ammo_check_empty	= pp91b_mag_check_sedzhimol, pp91b_mag_check_empty_sedzhimol
+anm_ammo_check_aim		= pp91b_idle_aim_sedzhimol, idle
+
+anm_bore				= pp91b_osmotr_sedzhimol, idle
+anm_bore_aim			= pp91b_idle_aim_sedzhimol, idle
+	
+anm_sprint_start		= pp91b_sprint_start_sedzhimol
+anm_sprint_end			= pp91b_sprint_end_sedzhimol
+
+anm_idle_aim_start		= pp91b_aim_in_sedzhimol
+anm_idle_aim_end		= pp91b_aim_in_sedzhimol
+;---------------------Empty--------------------------------------------------------------
+anm_hide_empty						= pp91b_hide_sedzhimol, idle_empty
+anm_show_empty						= pp91b_draw_sedzhimol, idle_empty
+anm_idle_empty						= pp91b_idle_sedzhimol, idle_empty
+anm_idle_aim_empty					= pp91b_idle_aim_sedzhimol, idle_empty
+anm_idle_aim_moving_empty			= pp91b_moving_sedzhimol, idle_empty, 0.75
+anm_idle_aim_moving_crouch_empty	= pp91b_moving_sedzhimol, idle_empty, 0.7
+anm_idle_moving_empty				= pp91b_moving_sedzhimol, idle_empty
+anm_idle_sprint_empty				= pp91b_sprint_sedzhimol, idle_empty
+anm_switch_mode_empty				= pp91b_switch_mode_sedzhimol, idle_empty
+anm_reload_misfire_empty			= pp91b_misfire_sedzhimol, pp91b_misfire_to_empty_sedzhimol
+anm_shot_l							= pp91b_shot_sedzhimol, pp91b_shot_last_sedzhimol
+	
+anm_sprint_start_empty		= pp91b_sprint_start_sedzhimol, idle_empty
+anm_sprint_end_empty		= pp91b_sprint_end_sedzhimol, idle_empty
+		
+anm_idle_aim_start_empty	= pp91b_aim_in_sedzhimol, idle_empty
+anm_idle_aim_end_empty		= pp91b_aim_in_sedzhimol, idle_empty
+
+anm_ammo_check_empty_aim	= pp91b_idle_aim_sedzhimol, idle_empty
+
+anm_bore_empty		= pp91b_osmotr_sedzhimol, idle_empty
+anm_bore_empty_aim	= pp91b_idle_aim_sedzhimol, idle_empty
+;--------------------Jammed For Misfire Empty---------------------------------------
+anm_hide_empty_jammed						= pp91b_hide_sedzhimol, idle
+anm_show_empty_jammed						= pp91b_draw_sedzhimol, idle
+anm_idle_empty_jammed						= pp91b_idle_sedzhimol, idle
+anm_idle_aim_empty_jammed					= pp91b_idle_aim_sedzhimol, idle
+anm_idle_aim_moving_empty_jammed			= pp91b_moving_sedzhimol, idle, 0.75
+anm_idle_aim_moving_crouch_empty_jammed		= pp91b_moving_sedzhimol, idle, 0.7
+anm_idle_moving_empty_jammed				= pp91b_moving_sedzhimol, idle
+anm_idle_sprint_empty_jammed				= pp91b_sprint_sedzhimol, idle
+anm_switch_mode_empty_jammed				= pp91b_switch_mode_sedzhimol, idle
+anm_shot_l_jammed							= pp91b_shot_sedzhimol, pp91b_shot_sedzhimol
+
+anm_ammo_check_empty_jammed		= pp91b_mag_check_sedzhimol, pp91b_mag_check_sedzhimol_jammed_empty
+anm_ammo_check_aim_empty_jammed	= pp91b_idle_aim_sedzhimol, idle
+
+anm_bore_empty_jammed		= pp91b_osmotr_sedzhimol, idle
+anm_bore_empty_aim_jammed	= pp91b_idle_aim_sedzhimol, idle
+	
+anm_sprint_start_empty_jammed	= pp91b_sprint_start_sedzhimol, idle
+anm_sprint_end_empty_jammed		= pp91b_sprint_end_sedzhimol, idle
+		
+anm_idle_aim_start_empty_jammed	= pp91b_aim_in_sedzhimol, idle
+anm_idle_aim_end_empty_jammed	= pp91b_aim_in_sedzhimol, idle
+
+anm_shot_l_aim			= pp91b_shot_sedzhimol_aim, pp91b_shot_last_sedzhimol
+anm_shots_aim			= pp91b_shot_sedzhimol_aim
+anm_shot_l_aim_jammed	= pp91b_shot_sedzhimol_aim, pp91b_shot_sedzhimol
+;-----------------------------------------------------------------------------------
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+;-----------------------------------------------------------------------------------	
+shell_bone	= wpn_body
+shell_dir	= 0.0, 1.0, 0.0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0

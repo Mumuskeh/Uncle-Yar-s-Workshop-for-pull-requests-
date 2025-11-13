@@ -10,16 +10,14 @@ Allows you to sell the new ammo.
 
 Integration into the vanilla stash system.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integrated into:
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:
-
-Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
-Makes sure to implement the new ammo into Arszi's system.
-
 
 Gun mods patches
 A number of mod guns will use the new ammo.

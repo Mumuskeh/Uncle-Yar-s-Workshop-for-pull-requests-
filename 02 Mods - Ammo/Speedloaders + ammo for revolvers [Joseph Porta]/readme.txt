@@ -7,7 +7,7 @@ NOTE: Disable the original mod's textures/ui and configs/items/trade folders.
 
 If you use the 556x45 patch, remove this original file:
 mag_speedloaders_revolvers_556x45 - Copia.ltx
-Or rename it to just
+Or just rename it to
 mag_speedloaders_revolvers_556x45.ltx
 
 ----------------------------------------------------------
@@ -19,12 +19,17 @@ Trader files have also been streamlined. You can sell ammo, and if you disable t
 
 Integration into the vanilla corpse, dynamic item spawn, reward, and stash systems.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration-
-PDA Interactive integration.
+Integrated into:
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:
+
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach + Arti's Ballistics
+The ammo may work differently with Arti's Ballistics.
 
 ----------------------------------------------------------
 -Known issues:

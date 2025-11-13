@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_honeybadger">
+		<text>Honey Badger</text>
+	</string>
+	<string id="st_wpn_honeybadger_descr">
+		<text> The Honey Badger by Q is a rifle chambered in .300 AAC Blackout. Developed in conjunction with 300 AAC Blackout, the Honey Badger was born, exceeded expectations, but never made it to the commercial market. Years later the Q company revived the project. Can be rarely found among experienced mercenaries, although expert Monolith forces can be seen using it as a trophy.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny rails\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: Attachable Suppressor\n
+		%c[ui_gray_2]DETAILS:\n		
+		%c[d_purple] • %c[ui_gray_2] Subsonic</text>
+	</string>
+
+	<string id="st_wpn_honeybadger_556x45">
+		<text>AAC Honey Badger SBR</text>
+	</string>
+	<string id="st_wpn_honeybadger_556x45_descr">
+		<text>The Honey Badger by Q is a rifle chambered in .300 AAC Blackout. Developed in conjunction with 300 AAC Blackout, the Honey Badger was born, exceeded expectations, but never made it to the commercial market. Years later the Q company revived the project. Can be rarely found among experienced mercenaries, although expert Monolith forces can be seen using it as a trophy.\n
+		It has been modified to fit the 5'56x45 cartridge.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny rails\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: Attachable Suppressor\n
+		%c[ui_gray_2]DETAILS:\n		
+		%c[d_purple] • %c[ui_gray_2] Subsonic</text>
+	</string>
+
+	<string id="ammo_300blk_ap">
+		<text>.300 Blackout AP rounds</text>
+	</string>
+	<string id="ammo_300blk_ap_descr">
+		<text>The 110gr TAC-TX cartridge is a subsonic armour-piercing round with a jacketed soft point bullet with a hard steel core that protrudes from the casing. Requires a suppressor for stealth firing. Due to its rarity it's a rare sight in the zone. Effective against body armour.</text>
+	</string>
+	<string id="ammo_300blk_ap_s">
+		<text>.300 BLK AP</text>
+	</string>
+
+	<string id="ammo_300blk_fmj">
+		<text>.300 Blackout FMJ rounds</text>
+	</string>
+	<string id="ammo_300blk_fmj_descr">
+		<text>This 147gr cartridge is a subsonic round with an all-copper design and specially engineered nose cavity. Requires a suppressor for stealth firing.</text>
+	</string>
+	<string id="ammo_300blk_fmj_s">
+		<text>.300 BLK FMJ</text>
+	</string>
+	
+	<string id="st_mag_stanag_300blk_default">
+		<text>Standard .300 Blackout STANAG magazine</text>
+	</string>
+	<string id="st_mag_stanag_300blk_default_descr">
+		<text>30-round HK STANAG magazine refitted for .300 Blackout. While this round is similar enough to the 5.45, making magazines technically compatible with both calibers, the bullet itself is bigger, and chambering a .300 round in a 5.45 barrel risks the gun exploding in your hands. That so, it is good practice to load .300 BLK in separated and easily identifiable magazines to avoid dangerous mix ups.</text>
+	</string>
+	
+	<string id="st_mag_stanag_300blk_fast">
+		<text>Fast-Loading .300 Blackout PMAG magazine</text>
+	</string>
+	<string id="st_mag_stanag_300blk_fast_descr">
+		<text>Fast-Loading PMAG 30 round magazine refitted for .300 Blackout. Considerably lighter than its steel counterpart, the ergonomic design facilitates quick loading of cartridges.</text>
+	</string>
+
+	<string id="st_mag_stanag_300blk_small">
+		<text>Fast-Loading Low-Cap .300 Blackout PMAG magazine</text>
+	</string>
+	<string id="st_mag_stanag_300blk_small_descr">
+		<text>20 round PMAG style magazine refitted for .300 Blackout. The smaller size allows faster reloads while being carried in pouches intended for pistol magazines.</text>
+	</string>
+
+	<string id="st_mag_stanag_300blk_extended">
+		<text>Extended .300 Blackout PMAG magazine</text>
+	</string>
+	<string id="st_mag_stanag_300blk_extended_descr">
+		<text>Extended 40-round polymer magazine refitted for .300 Blackout.</text>
+	</string>
+
+	<string id="st_mag_stanag_300blk_casket">
+		<text>Extended .300 Blackout PMAG magazine</text>
+	</string>
+	<string id="st_mag_stanag_300blk_casket_descr">
+		<text>60-round quad-stack magazine refitted for .300 Blackout. Offers a lot of firepower, but is extremely heavy and the quad-stack nature makes it difficult to load in rounds quickly.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_akm_5.45x39_drum">
+		<text>"Molot" 75-round drum magazine</text>
+	</string>
+	<string id="st_mag_akm_5.45x39_drum_descr">
+		<text>
+		A 75-round metal drum magazine for 5.45x39 AK pattern rifles, it will also fit any compatible weapon system.
+		</text>
+	</string>
+
+</string_table>

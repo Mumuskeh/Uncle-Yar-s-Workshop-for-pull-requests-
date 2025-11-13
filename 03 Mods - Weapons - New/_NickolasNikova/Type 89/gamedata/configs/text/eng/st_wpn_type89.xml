@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_type89">
+		<text>Howa Type 89</text>
+	</string>
+	<string id="st_wpn_type89_short">
+		<text>Type 89</text>
+	</string>
+	<string id="st_wpn_type89_descr">
+		<text>The Howa Type 89 Assault Rifle is a Japanese firearm utilized by the Japan Self-Defense Forces, the Japan Coast Guard's Special Security Team units, and the Special Assault Team. It has never been exported outside Japan due to the strict Japanese Arms Export Ban. It's still unclear how this weapon appear in the Zone</text>
+	</string>
+</string_table>

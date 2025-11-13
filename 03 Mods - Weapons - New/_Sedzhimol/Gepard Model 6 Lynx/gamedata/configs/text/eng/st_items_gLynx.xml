@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<string id="st_wpn_gm6_lynx">
+		<text>Gepard Model 6 "Lynx"</text>
+	</string>
+	<string id="st_wpn_gm6_lynx_descr">
+		<text>The large-caliber sniper rifle "GM6 Lуnх" (Gepard Model 6 Lynx) was developed and manufactured by the Hungarian company "SERO Ltd". It became a continuation of the "Gepard" model range. The main purpose of the rifle "GM6 Lуnх" is to defeat light armored vehicles, electronic structures, missile launchers, the enemy in shelters and buildings, as well as helicopters in hover mode at a distance of up to 600-800 meters.\n</text> 
+	</string>
+</string_table>

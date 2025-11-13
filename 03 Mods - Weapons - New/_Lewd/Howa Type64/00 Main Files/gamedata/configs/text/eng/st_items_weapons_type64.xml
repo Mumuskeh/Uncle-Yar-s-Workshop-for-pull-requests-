@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_type64">
+		<text>Howa Type 64</text>
+	</string>
+	<string id="st_wpn_type64_descr">
+		<text>
+		The Howa Type 64 Battle Rifle (Roku-yon-shiki-jidou-shoujuu), is a Japanese battle rifle used exclusively by the Japan Self-Defense Forces and the Japanese Coast Guard.\n
+		It is a gas-operated, selective fire weapon which is chambered for the 7.62x51mm NATO round and uses a detachable 20-round box magazine. The Type 64 has never been exported due to Japan's strict anti-hardware export laws. It has been superseded by the more advanced Howa Type 89 from 1989 to 1990, but is still in service with all branches of the Self-Defense Forces and the Japanese Coast Guard.\n
+		The JGSDF's Oita Prefecture garrison had encountered supply problems when they were not able to account for 30 Howa Type 64s that had been lost, despite a massive search conducted by 95,000 soldiers on January 24, 2007. One can only speculate where they landed. But in one corner of the sport center's basement there are pieces of an old wooden crate with Japanese marking on it...</text>
+	</string>
+
+	<string id="st_addon_scope_m84_howa">
+		<text>USMC M84 Sniper Scope</text>
+	</string>
+	<string id="st_addon_scope_m84_howa_descr">
+		<text>Originally developed for the U.S. military during World War II, the M84 telescope established itself as one of the most reliable and battle-tested optical solutions in defense applications. It replaced the M81 and M82 models and was issued in April 1945. During development, it competed with other designs with magnifications ranging from 3X to 4.5X. It has a universal focus, field of view is 27 feet at 100 yd, diameter is .870 in., length with rubber eye-piece and sunshade extended is 13.2 in., the reticle is a post with horizontal cross-wire, eye relief is 5 in. and it was sealed with rubber gaskets to keep out moisture. Only a small number was produced, and they were never used in war. Some M1D rifles fitted with that scope eventually found use in service in the late 70s. Some rare models reached the Zone, very probably through adventurers who thought bringing a piece of their gun collection would give them a vintage touch.</text>
+	</string>
+</string_table>

@@ -19,14 +19,14 @@ MP-412 Rex will be able to load .380 ACP without further ado. Very simple config
 
 Integration into the vanilla corpse, reward, and stash systems.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integrated into:
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:
-
-Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
 
 ----------------------------------------------------------
 -Known issues:

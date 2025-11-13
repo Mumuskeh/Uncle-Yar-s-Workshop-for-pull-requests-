@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_groza_duty">
+		<text>OTs-14-2A Groza "Branka"</text>
+	</string>
+	<string id="st_wpn_groza_duty_descr">
+		<text>The OTs-14-2A is an experimental Groza model chambered in 5.45x39mm M74 Soviet. Not widely adopted due to redundancy caused by preference for the better ballistic performance of the 7.62x39mm round when fired through a short barrel.\n
+		This particular model made it into the zone and into the hands of some veteran Duty Stalker. He lovingly nicknamed his gun "Бранка", labelled it as such and spraypainted it in Duty camo. Additionally, he only ever used 75-round drum magazines.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed: GP-25 Grenade launcher and EKP 1S-03 "Kobra"\n
+		%c[d_purple] • %c[ui_gray_2] Installed: 75-round drum magazine for 5.45x39mm M74 Soviet\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: none\n</text>
+	</string>
+
+</string_table>

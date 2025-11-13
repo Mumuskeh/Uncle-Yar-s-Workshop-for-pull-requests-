@@ -8,7 +8,10 @@ MP7 Re-Imagined [Krepin]
 -Explanation:
 Integration into the vanilla corpse, reward, and stash systems.
 
-Integration into Grok's Stash Overhaul and PDA Interactive.
+Integration into:
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
+Grok's Stash Overhaul
+PDA Interactive.
 
 ----------------------------------------------------------
 -Patches:

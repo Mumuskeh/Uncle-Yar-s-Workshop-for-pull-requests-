@@ -8,14 +8,14 @@ Neko's 30-06 Springfield Mod [Inunekochan]
 -Explanation:
 Integration into the vanilla corpse, and dynamic item spawn systems.
 
-Grok's Stash Overhaul integration.
-Lootboxes integration.
-PDA Interactive integration.
+Integrated into:
+Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:
-
-Arszi's Mutant Bleeding + Optimization Patch
 
 ----------------------------------------------------------
 -Known issues:
