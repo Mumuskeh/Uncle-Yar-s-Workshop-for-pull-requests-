@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m1carbine_j">
+		<text>M1 Carbine - .357</text>
+	</string>
+	<string id="st_wpn_m1carbine_j_descr">
+		<text>The M1 Carbine is a modernized variant of the classic World War II-era lightweight rifle, re-engineered to fire the powerful and versatile .357 Magnum cartridge. Retaining its iconic compact profile and semi-automatic operation, this version offers enhanced stopping power and improved performance in close- to mid-range engagements. The .357 Magnum chambering provides excellent penetration and recoil control in a handy package, making it ideal for home defense, law enforcement, and enthusiasts seeking a nostalgic yet practical carbine. Featuring updated materials and reinforced internals to handle the higher pressures of the magnum load, this reimagined M1 Carbine blends classic ergonomics with modern ballistic performance.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_m1paratrooper_j">
+		<text>M1A1 Carbine - .357</text>
+	</string>
+	<string id="st_wpn_m1paratrooper_j_descr">
+		<text>The M1A1 Carbine in .357 Magnum is a modern reimagining of the classic WWII-era paratrooper’s rifle, blending vintage design with the potent stopping power of a revolver cartridge. Retaining the iconic folding wire stock, lightweight profile, and rugged simplicity of the original, this carbine has been rechambered to fire the hard-hitting .357 Magnum, offering superior terminal ballistics at close to medium ranges. Its gas-operated action has been reengineered to handle the increased pressure, while a reinforced 10- to 15-round detachable magazine ensures reliable feeding. Perfect for brush hunting, home defense, or nostalgic shooting, the .357 Magnum M1A1 delivers both history and horsepower in a compact package.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+    <string id="st_wpn_m1carbine_og">
+		<text>M1 Carbine - .30-06 Springfield</text>
+	</string>
+	<string id="st_wpn_m1carbine_og_descr">
+		<text>The M1 Carbine is a lightweight, semi-automatic carbine that was introduced to US military during World War II. It was meant to be a primary weapon of rear echelon troops and those soldiers who did not need or couldn't carry a long and heavy infantry rifle like M1 Garand. It was very well liked in the WWII and after and is widely regarded as a reliable and effective weapon that is very easy to control even for less experienced shooters. Over 6 millions of these weapons were produced, more than any other US WWII weapon. After the war the M1 was used up until Vietnam war by US and even longer by more than 50 other countries. M1 Carbine was sold in big numbers on civilian market in US, leading it to be a popular rifle for gunsmiths to customize and convert to different calibers. While this tendency has slowed due to shrinking rifle stocks and an increase in value of original configuration rifles, many customized rifles still exist.\n
+		The M1 Carbine is chambered in .30-06 Springfield round (7.62x63mm), the standard cartridge back then.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+
+	<string id="st_wpn_m1paratrooper_og">
+		<text>M1A1 Carbine - .30-06 Springfield</text>
+	</string>
+	<string id="st_wpn_m1paratrooper_og_descr">
+		<text>The M1A1 Carbine is a paratrooper variant of M1 Carbine, a lightweight, semi-automatic carbine that was introduced to US military during World War II. It was developed specially for paratroopers, as it was very light and folding stock made it easier to airdrop with it. Apart from folding stock, the weapon is exactly the same. M1 Carbine was meant to be a primary weapon of rear echelon troops and those soldiers who did not need or couldn't carry a long and heavy infantry rifle like M1 Garand. It was very well liked in the WWII and after and is widely regarded as a reliable and effective weapon that is very easy to control even for less experienced shooters. Over 6 millions of these weapons were produced, more than any other US WWII weapon. Unlike the M1 Carbine, the M1A1 is a rare weapon and it is rarely seen outside museums and private collections, however, many fakes and reproductions exist.\n
+		This is a "traditional model", so it is chambered in .30-06 Springfield round (7.62x63mm), the standard cartridge back then.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith modification kit</text>
+	</string>
+<!-- 
+	<string id="st_mag_m1carbine_j">
+		<text>M1 Carbine Magazine</text>
+	</string>
+	<string id="st_mag_m1carbine_j_descr">
+		<text>Standard magazine for the M1 Carbine, it holds 10 rounds of .357 Magnum ammunition. \n \n</text>
+	</string>
+ -->
+
+	<string id="st_mag_m1_3006_basic">
+		<text>Basic .30-60 Springfield M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_3006_basic_descr">
+		<text>15 round magazine for the M1A1 Carbine, chambered for .30-60 Springfield.\n
+		The M1 carbine entered service with a straight 15-round magazine, but the introduction of the M2 carbine in October 1944 brought into service the curved 30-round box magazine. After WWII, the 30-round magazine quickly became the standard magazine for both the M1 and M2 carbines, although the 15-round magazine remained in service until the end of the Vietnam War.</text>
+	</string>
+
+	<string id="st_mag_m1_3006_default">
+		<text>Standard .30-60 Springfield M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_3006_default_descr">
+		<text>30 round magazine for the M1A1 Carbine, chambered for .30-60 Springfield.\n
+		The M1 carbine entered service with a straight 15-round magazine, but the introduction of the M2 carbine in October 1944 brought into service the curved 30-round box magazine. After WWII, the 30-round magazine quickly became the standard magazine for both the M1 and M2 carbines, although the 15-round magazine remained in service until the end of the Vietnam War.</text>
+	</string>
+
+	<string id="st_mag_m1_357_basic">
+		<text>Modified .357 Basic M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_basic_descr">
+		<text>10 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+	<string id="st_mag_m1_357_default">
+		<text>Modified .357 Standard M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_default_descr">
+		<text>20 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+</string_table>

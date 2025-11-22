@@ -36,6 +36,7 @@ Khyber: S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers
 Kmack: Mosin Trio, Walther PDP, and Walther PPQ Q5 Match
 Maid: Agram 2000
 Pillii: Glock RONI, UDP-9
+Pumkin0: Mosin & SKS stripper clips
 Soulcrystal: Benelli M4, FB Radom Vis 35
 TheParazit: PL14
 BaS Extra Weapons

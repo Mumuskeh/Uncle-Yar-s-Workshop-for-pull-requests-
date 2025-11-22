@@ -5,7 +5,7 @@
 
 ; Some guns are repeated, due to changing the IDs in my tweaks pack
 
-;;SWP ============ ============ ============ ============
+;;SWP	============	============	============	============
 
 ![wpn_borz]
 $spawn			= "weapons\borz"
@@ -36,28 +36,28 @@ $spawn			= "weapons\garand"
 parent_section	= wpn_garand
 inv_weight		= 4.31
 fire_distance	= 457
-rpm				= 50
 ![wpn_m1_garand]
 inv_weight		= 4.31
 fire_distance	= 457
-rpm				= 50
 
 ![wpn_m1a1]
 $spawn			= "weapons\m1a1"
 parent_section	= wpn_m1a1
-hit_impulse		= 45
-hit_power		= 0.6, 0.6, 0.6, 0.6
 inv_weight		= 2.4
-fire_distance	= 200
+hit_impulse		= 45 ; 28
+hit_power		= 0.6, 0.6, 0.6, 0.6 ; 0.46, 0.46, 0.46, 0.46
+fire_distance	= 200 ;600
 bullet_speed	= 440
-rpm				= 70
+rpm				= 850 ;750
+
 ![wpn_m1carbine]
 $spawn			= "weapons\m1carbine"
 parent_section	= wpn_m1carbine
 hit_impulse		= 28
 hit_power		= 0.46, 0.46, 0.46, 0.46
-fire_distance	= 400
-bullet_speed	= 715
+fire_distance	= 400 ; 500
+bullet_speed	= 715 ; 440
+rpm				= 850 ; 750
 
 ![wpn_grease]
 fire_distance	= 200
@@ -155,7 +155,7 @@ fire_distance	= 400
 bullet_speed	= 678
 
 
-;;;MWP ============ ============ ============ ============
+;;;MWP	============	============	============	============
 
 ![wpn_aa12]
 $spawn			= "weapons\aa12"
@@ -384,8 +384,8 @@ fire_distance	= 500
 
 
 ; ![wpn_vepr_ar]
-; fire_distance           = 1000
-; bullet_speed            = 715
+; fire_distance			= 1000
+; bullet_speed			= 715
 
 ![wpn_vepr12_drum]
 ;mostly the same as the vanilla vpr12, except in weight and rpm
@@ -400,7 +400,7 @@ $spawn			= "weapons\vbr"
 fire_distance	= 75
 
 
-;;;MG42 + MG3 ============ ============ ============ ============
+;;;MG42 + MG3	============	============	============	============
 
 ![wpn_mg42]
 inv_weight		= 11.6

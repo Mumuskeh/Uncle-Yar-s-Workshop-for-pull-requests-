@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m1carbine_j">
+		<text>M1 Carbine</text>
+	</string>
+	<string id="st_wpn_m1carbine_j_descr">
+		<text>The M1 Carbine is a modernized variant of the classic World War II-era lightweight rifle, re-engineered to fire the powerful and versatile .357 Magnum cartridge. Retaining its iconic compact profile and semi-automatic operation, this version offers enhanced stopping power and improved performance in close- to mid-range engagements. The .357 Magnum chambering provides excellent penetration and recoil control in a handy package, making it ideal for home defense, law enforcement, and enthusiasts seeking a nostalgic yet practical carbine. Featuring updated materials and reinforced internals to handle the higher pressures of the magnum load, this reimagined M1 Carbine blends classic ergonomics with modern ballistic performance. \n \n</text>
+	</string>
+
+	<string id="st_wpn_m1paratrooper_j">
+		<text>M1A1 Carbine</text>
+	</string>
+	<string id="st_wpn_m1paratrooper_j_descr">
+		<text>The M1A1 Carbine in .357 Magnum is a modern reimagining of the classic WWII-era paratrooper’s rifle, blending vintage design with the potent stopping power of a revolver cartridge. Retaining the iconic folding wire stock, lightweight profile, and rugged simplicity of the original, this carbine has been rechambered to fire the hard-hitting .357 Magnum, offering superior terminal ballistics at close to medium ranges. Its gas-operated action has been reengineered to handle the increased pressure, while a reinforced 10- to 15-round detachable magazine ensures reliable feeding. Perfect for brush hunting, home defense, or nostalgic shooting, the .357 Magnum M1A1 delivers both history and horsepower in a compact package. \n \n</text>
+	</string>
+
+<!-- 
+	<string id="st_mag_m1carbine_j">
+		<text>M1 Carbine Magazine</text>
+	</string>
+	<string id="st_mag_m1carbine_j_descr">
+		<text>Standard magazine for the M1 Carbine, it holds 10 rounds of .357 Magnum ammunition. \n \n</text>
+	</string>
+ -->
+
+	<string id="st_mag_m1_357_basic">
+		<text>Modified .357 Basic M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_basic_descr">
+		<text>10 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+	<string id="st_mag_m1_357_default">
+		<text>Modified .357 Standard M1 Magazine</text>
+	</string>
+	<string id="st_mag_m1_357_default_descr">
+		<text>20 round magazine for the M1 Carbine, modified to load .357 ammunition.</text>
+	</string>
+
+</string_table>

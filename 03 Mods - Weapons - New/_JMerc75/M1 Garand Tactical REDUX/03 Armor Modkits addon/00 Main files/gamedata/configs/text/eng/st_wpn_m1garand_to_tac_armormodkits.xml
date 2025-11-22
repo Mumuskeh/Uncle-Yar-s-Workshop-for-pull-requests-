@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_garand_j_descr">
+		<text>The M1 Garand is a semi-automatic rifle, developed in 1930s and adopted in 1936 as the service rifle of the US military. Widely considered the best service rifle of entire WWII - General Patton called it "the greatest battle implement ever devised" - it greatly increased the firepower of US infantry squads compared to typical squad of other countries, who used bolt-action rifles. Mechanically, M1 is a gas operated firearm, using a long-stroke gas piston system with rotating bolt. It is fed by a unique en-bloc clip holding 8 rounds.\n
+		The M1 Garand rifle was chambered in .30-06 Springfield round (7.62x63mm), which was standard cartridge back then, but the U.S. Navy rechambered it for the 7.62?51mm NATO round. The Mod 1 model fixed issues the previous Mod 0 had with the barrel, and added a piece of plastic to make sure the user didn't put the original 30-06 cartridge in the gun.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_garand_tac_descr">
+		<text>The M1 Garand is a semi-automatic rifle, developed in 1930s and adopted in 1936 as the service rifle of the US military. Widely considered the best service rifle of entire WWII - General Patton called it "the greatest battle implement ever devised" - it greatly increased the firepower of US infantry squads compared to typical squad of other countries, who used bolt-action rifles. Mechanically, M1 is a gas operated firearm, using a long-stroke gas piston system with rotating bolt. It is fed by a unique en-bloc clip holding 8 rounds.\n
+		The Tactical variant includes polymer furniture instead of wooden, as well as a Picatinny rail on top of the handguard to mount optics. This rifle is also chambered for 7.62x51.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount)\n
+		%c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+</string_table>

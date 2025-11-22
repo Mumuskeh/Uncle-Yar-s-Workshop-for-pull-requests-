@@ -449,6 +449,42 @@ fire_distance	= 100 ; 400
 bullet_speed	= 375 ; 450
 rpm				= 116 ; 270
 
+
+;M1 Garand
+![wpn_garand_j]
+$spawn			= "weapons\garand_j"
+parent_section	= wpn_garand_j
+inv_weight		= 4.31
+; fire_distance	= 457
+
+;M1 M1A1 carbines
+
+![wpn_m1carbine_j]
+$spawn			= "weapons\m1carbine_j"
+parent_section	= wpn_m1carbine_j
+hit_impulse		= 45 ; 70
+hit_power		= 0.6, 0.6, 0.6, 0.6 ; 0.75, 0.75 0.75, 0.75
+fire_distance	= 200 ; 850
+bullet_speed	= 440 ; 650
+rpm				= 850 ; 300
+
+hit_impulse		= 28
+hit_power		= 0.46, 0.46, 0.46, 0.46
+fire_distance	= 400
+bullet_speed	= 715
+rpm				= 850 ;750
+
+![wpn_m1paratrooper_j]
+$spawn			= "weapons\m1paratrooper_j"
+parent_section	= wpn_m1paratrooper_j
+inv_weight		= 2.4
+hit_impulse		= 45 ; 62
+hit_power		= 0.6, 0.6, 0.6, 0.6 ; 0.7, 0.7 0.7, 0.7
+fire_distance	= 200 ; 850
+bullet_speed	= 440 ; 550
+rpm				= 850 ; 450
+
+
 ;Ghost Armory - 50 Beowulf Weapon Pack
 ;we'll balance them similarly to how I do in Late Comers: hits very hard, but short range
 ![wpn_m4_beowulf]

@@ -1,0 +1,238 @@
+;------------------------------------------------------------------------------------------------
+[wpn_m1carbine_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_desert_eagle_sounds
+GroupControlSection				= spawn_group
+discovery_dependency			=
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\m1carbine_j"
+scheduled						= off
+cform							= skeleton
+
+class							= WP_PM
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 3
+ef_weapon_type					= 11
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\m1carbinej_icon
+inv_grid_width					= 5
+inv_grid_height					= 1
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_m1carbine_j
+inv_name_short					= st_wpn_m1carbine_j
+description						= st_wpn_m1carbine_j_descr
+
+kind							= w_rifle
+inv_weight						= 2.6
+cost							= 27651
+repair_type						= pistol
+
+hud								= wpn_m1carbine_j_hud
+visual							= dynamics\weapons\wpn_m1carbine_j\wpn_m1carbine_j_world.ogf
+position						= -0.023026, -0.109107, 0.006331
+orientation						= 0, 0, 0
+fire_point						= 0.000798, 0.148998, 0.527696
+ph_mass							= 1
+
+flame_particles					= weapons\generic_weapon03
+smoke_particles					= weapons\generic_shoot_00
+
+shell_point						= 0.0, 0.133, 0.047
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\556x45
+
+light_color						= 0.6, 0.5, 0.3
+light_range						= 3.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_desert_eagle, up_gr_seconab_desert_eagle, up_gr_thirdab_desert_eagle, up_gr_fourtab_desert_eagle, up_gr_fifthab_desert_eagle
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_desert_eagle
+upgr_icon_path					= ui\m1carbinej_icon
+upgr_icon_x						= 250
+upgr_icon_y						= 0
+upgr_icon_width					= 250
+upgr_icon_height				= 100
+
+fire_modes						= 1
+ammo_class						= ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
+ammo_elapsed					= 15
+ammo_mag_size					= 15
+
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_status					= 0
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_launcher_status			= 0
+
+hit_impulse						= 70
+hit_power						= 0.75, 0.75 0.75, 0.75
+hit_type						= fire_wound
+fire_distance					= 850
+bullet_speed					= 650
+rpm								= 300
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+use_first_bullet				= false
+time_to_aim						= 0.0 ;	2.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 4.8
+fire_dispersion_base			= 0.31
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.004
+misfire_start_condition			= 0.7 ;	0.88
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0012
+condition_shot_dec				= 0.0012
+
+cam_return						= 0
+cam_relax_speed					= 10
+cam_dispersion					= 0.556
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0675
+cam_max_angle					= 54.0
+cam_max_angle_horz				= 54.0
+cam_step_angle_horz				= 1.62
+zoom_cam_relax_speed			= 10
+zoom_cam_dispersion				= 0.466
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.0525
+zoom_cam_max_angle				= 54.0
+zoom_cam_max_angle_horz			= 54.0
+zoom_cam_step_angle_horz		= 1.57
+
+PDM_disp_accel_factor			= 1.745
+PDM_disp_base					= 0.84
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 1.745
+
+hworner_fov_modifier			= 1.0
+hworner_range_modifier			= 1.0
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x			= 194
+kill_msg_y			= 123
+kill_msg_width		= 46
+kill_msg_height		= 27
+weapon_lower_speed	= 0.2
+
+snd_reload				= weapons\m1carbinej\m1carbinej_reload
+snd_reload_empty		= weapons\m1carbinej\m1carbinej_reload_empty
+snd_reload_misfire		= weapons\m1carbinej\m1carbinej_unjam
+
+snd_shoot				= wpn_m16_snd_shoot
+snd_shoot_actor			= wpn_m16_snd_shoot_actor
+snd_silncer_shot		= wpn_556_snd_silenced
+snd_silncer_shot_actor	= wpn_556_snd_silenced_actor 
+
+[wpn_m1carbine_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_m1carbine_j\wpn_m1carbine_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.054083, 0.029297, -0.112926
+aim_hud_offset_pos_16x9	= -0.054083, 0.029297, -0.112926
+aim_hud_offset_rot		= 0.011102, 0.006999, 0
+aim_hud_offset_rot_16x9	= 0.011102, 0.006999, 0
+
+hands_orientation		= 0.391252, 0.764017, 0
+hands_orientation_16x9	= 0.391252, 0.764017, 0
+hands_position			= 0.000428, -0.005264, 0.047004
+hands_position_16x9		= 0.000428, -0.005264, 0.047004
+
+lowered_hud_offset_pos		= 0.061626, -0.008173, 0
+lowered_hud_offset_pos_16x9	= 0.061626, -0.008173, 0
+lowered_hud_offset_rot		= 0.104623, -0.508694, 0.1
+lowered_hud_offset_rot_16x9	= 0.104623, -0.508694, 0.1
+
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide							= m1carbinej_holster, idle
+anm_hide_empty						= m1carbinej_holster, idle_empty
+anm_idle							= m1carbinej_idle, idle
+anm_idle_empty						= m1carbinej_idle, idle_empty
+anm_idle_aim						= m1carbinej_idle_aim, idle
+anm_idle_aim_empty					= m1carbinej_idle_aim, idle_empty
+anm_idle_aim_moving					= m1carbinej_idle_aim, idle, 1.5
+anm_idle_aim_moving_empty			= m1carbinej_idle_aim, idle_empty, 1.5
+anm_idle_aim_moving_crouch			= m1carbinej_idle_aim, idle, 1.2
+anm_idle_aim_moving_empty_crouch	= m1carbinej_idle_aim, idle_empty, 1.2
+anm_idle_moving						= m1carbinej_walk, idle, 1.9
+anm_idle_moving_empty				= m1carbinej_walk, idle_empty, 1.9
+anm_idle_moving_crouch				= m1carbinej_walk, idle, 1.4
+anm_idle_moving_crouch_empty		= m1carbinej_walk, idle_empty, 1.4
+anm_idle_sprint						= m1carbinej_run, idle, 1.9
+anm_idle_sprint_empty				= m1carbinej_run, idle_empty, 1.9
+anm_reload							= m1carbinej_reload, reload
+anm_reload_empty					= m1carbinej_reload_empty, reload_empty
+anm_shots							= m1carbinej_shoot, shoot
+anm_shot_l							= m1carbinej_shoot, shoot_last
+anm_show							= m1carbinej_draw, idle
+anm_show_empty						= m1carbinej_draw, idle_empty
+anm_bore							= m1carbinej_inspect, idle
+anm_bore_empty						= m1carbinej_inspect, idle_empty
+anm_reload_misfire					= m1carbinej_unjam, unjam
+
+shell_bone	= charging_handle
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
+
+;------------------------------------------------------------------------------------------------
+
+;;==================================================================================================
+
+[wpn_m1carbine_og]:wpn_m1carbine_j
+$spawn			= "weapons\m1carbine_og"
+parent_section	= wpn_m1carbine_og
+
+inv_name		= st_wpn_m1carbine_og
+inv_name_short	= st_wpn_m1carbine_og
+description		= st_wpn_m1carbine_og_descr
+
+ammo_class		= ammo_3006_neko_fmj_m1, ammo_3006_neko_fmj_m2, ammo_3006_neko_ap, ammo_3006_neko_ap_m1917, ammo_3006_neko_sp, ammo_3006_neko_hp, ammo_3006_neko_match, ammo_3006_neko_api_m14, ammo_3006_neko_cast
+
+hit_impulse		= 40
+hit_power       = 1.21, 1.21, 1.21, 1.21
+fire_distance	= 274
+bullet_speed	= 607
