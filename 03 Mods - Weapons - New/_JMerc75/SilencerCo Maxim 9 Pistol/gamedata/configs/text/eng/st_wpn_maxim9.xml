@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_maxim9">
+		<text>SilencerCo Maxim 9 (Integrated Suppressor)</text>
+	</string>
+	<string id="st_wpn_maxim9_descr">
+		<text>The SilencerCo Maxim 9 is the world’s first integrally suppressed 9mm handgun that is holster-able and hearing safe with all types of 9mm ammunition. Shipped in its full-length configuration, the Maxim 9 comes with everything the user needs to shorten the overall length by more than 1”; in the short configuration, the Maxim 9 remains hearing safe with subsonic ammunition. Regardless of which configuration you use, the Maxim 9 represents one of the greatest strides made in both pistol and suppressor technology. No more choosing between keeping your pistol as short as possible and enduring deafening sound or adding a silencer and dealing with the added length and weight. Now, you can have the best of all worlds with the Maxim 9.</text>
+	</string>
+
+	<string id="st_wpn_maxim9_alt">
+		<text>SilencerCo Maxim 9</text>
+	</string>
+	<string id="st_wpn_maxim9_alt_descr">
+		<text>The SilencerCo Maxim 9 is the world’s first integrally suppressed 9mm handgun that is holster-able and hearing safe with all types of 9mm ammunition. Shipped in its full-length configuration, the Maxim 9 comes with everything the user needs to shorten the overall length by more than 1”; in the short configuration, the Maxim 9 remains hearing safe with subsonic ammunition. Regardless of which configuration you use, the Maxim 9 represents one of the greatest strides made in both pistol and suppressor technology. No more choosing between keeping your pistol as short as possible and enduring deafening sound or adding a silencer and dealing with the added length and weight. Now, you can have the best of all worlds with the Maxim 9. \n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Osprey 9mm Suppressor</text>
+	</string>
+</string_table>

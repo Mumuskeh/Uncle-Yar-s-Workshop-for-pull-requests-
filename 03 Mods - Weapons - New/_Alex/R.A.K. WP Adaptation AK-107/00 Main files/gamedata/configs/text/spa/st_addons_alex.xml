@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_wpn_ak107">
+        <text>AK 107</text>
+    </string>
+    <string id="st_wpn_ak107_descr">
+        <text>El fusil de asalto AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Incluye sistema de retroceso balanceado (usado en AL-7 y AEK-971) que mejora la precision en rafagas un 15-20% vs AK74M. Posteriormente se abandono este sistema. En 2011, IZHMASH presento una version mejorada sin sistema balanceado, con riel Picatinny integrado y mira dioptrica ajustable que reemplaza la mira U tradicional.\n \n
+        %c[ui_gray_2]Accesorios: \n
+        %c[ui_gray_2] Silenciador: TGP-A\n
+        %c[ui_gray_2] Miras: Rieles Picatinny y Dovetail\n
+        %c[ui_gray_2] Lanzagranadas: GP-25\n \n</text>
+    </string>
+
+    <string id="st_addon_alt_aim_low">
+        <text>Montura lateral con mira Aim Low</text>
+    </string>
+    <string id="st_addon_alt_aim_low_descr">
+        <text>Permite instalar mira secundaria Aim Low de perfil bajo para mayor efectividad con opticas. NO SE PUEDE REMOVER tras instalacion.\n \n</text>
+    </string>
+
+    <string id="st_addon_alt_deltapoint">
+        <text>Montura lateral con mira Deltapoint</text>
+    </string>
+    <string id="st_addon_alt_deltapoint_descr">
+        <text>Permite instalar mira secundaria Deltapoint de perfil bajo para mayor efectividad con opticas. NO SE PUEDE REMOVER tras instalacion.\n \n</text>
+    </string>
+
+    <string id="st_addon_alt_docter">
+        <text>Montura lateral con mira Docter Sight III</text>
+    </string>
+    <string id="st_addons_alt_docter_descr">
+        <text>Permite instalar mira secundaria Docter Sight III de perfil bajo para mayor efectividad con opticas. NO SE PUEDE REMOVER tras instalacion.\n \n</text>
+    </string>
+
+    <string id="st_addon_alt_rmr">
+        <text>Montura lateral con mira RMR</text>
+    </string>
+    <string id="st_addon_alt_rmr_descr">
+        <text>Permite instalar mira secundaria RMR de perfil bajo para mayor efectividad con opticas. NO SE PUEDE REMOVER tras instalacion.\n \n</text>
+    </string>
+
+    <string id="st_addon_chaser107">
+        <text>Kit "Chaser" para AK-107</text>
+    </string>
+    <string id="st_addon_chaser107_descr">
+        <text>Kit de modificacion para combate contra multiples objetivos. NO SE PUEDE REMOVER.\n
+        %c[ui_gray_2] Tambor de 95 balas\n
+        %c[ui_gray_2] Guardamanos tactico\n
+        %c[ui_gray_2] Empuñadura frontal\n
+        %c[ui_gray_2] Laser apuntador\n
+        %c[ui_gray_2] Culata Magpul ajustable\n
+        %c[ui_gray_2] Funda para Rotor 43\n
+        %c[ui_gray_2] Accesorio RK-1\n
+        %c[ui_gray_2] Frenillo mejorado\n \n</text>
+    </string>
+
+    <string id="st_addon_custom107">
+        <text>Kit "Custom" para AK-107</text>
+    </string>
+    <string id="st_addon_custom107_descr">
+        <text>Kit ergonomico optimizado para combate contra personal. NO SE PUEDE REMOVER.\n
+        %c[ui_gray_2] Cargador de 45 balas\n
+        %c[ui_gray_2] Guardamanos táctico\n
+        %c[ui_gray_2] Empunadura Magpul\n
+        %c[ui_gray_2] Laser apuntador\n
+        %c[ui_gray_2] Culata Magpul ajustable\n
+        %c[ui_gray_2] Funda para Rotor 43\n
+        %c[ui_gray_2] Accesorio RK-1\n
+        %c[ui_gray_2] Marcadores de tritio\n \n</text>
+    </string>
+
+    <string id="st_addon_raptor107">
+        <text>Kit "Raptor" para AK-107</text>
+    </string>
+    <string id="st_addon_raptor107_descr">
+        <text>Kit de alto rendimiento para multiples objetivos. NO SE PUEDE REMOVER.\n
+        %c[ui_gray_2] Cargador de 60 balas\n
+        %c[ui_gray_2] Guardamanos tactico\n
+        %c[ui_gray_2] Empunadura Magpul\n
+        %c[ui_gray_2] Laser apuntador\n
+        %c[ui_gray_2] Culata Magpul ajustable\n
+        %c[ui_gray_2] Funda para Rotor 43\n
+        %c[ui_gray_2] Accesorio RK-1\n
+        %c[ui_gray_2] Frenillo mejorado\n \n</text>
+    </string>
+
+    <string id="st_addon_ranger107">
+        <text>Kit "Ranger" para AK-107</text>
+    </string>
+    <string id="st_addon_ranger107_descr">
+        <text>Kit de francotirador nocturno con cambio a 7.62x39. NO SE PUEDE REMOVER.\n
+        %c[ui_gray_2] Cargador 7.62x39 (30 balas)\n
+        %c[ui_gray_2] Guardamanos tactico\n
+        %c[ui_gray_2] Empuñadura Magpul\n
+        %c[ui_gray_2] Camuflaje completo\n
+        %c[ui_gray_2] Culata Magpul ajustable\n
+        %c[ui_gray_2] Mira termica\n
+        %c[ui_gray_2] Accesorio RK-1\n \n</text>
+    </string>
+</string_table>

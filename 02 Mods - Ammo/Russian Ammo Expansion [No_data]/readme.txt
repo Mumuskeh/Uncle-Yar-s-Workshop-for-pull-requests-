@@ -24,6 +24,7 @@ A number of mod guns will use the new ammo.
 Support for Mags Redux is also provided, as RAE only provides supports for vanilla and BaS magazines.
 
 New guns patch:
+Alex: AK107, Vulcan-M
 ATHIS: AK103 BP, Calico M510, Groza custom, M4 Spectre, MK47, MP155, RPK16 drum.
 Bert: Mauser C96, Sten
 Beli fosfor: SIG Sauer P365

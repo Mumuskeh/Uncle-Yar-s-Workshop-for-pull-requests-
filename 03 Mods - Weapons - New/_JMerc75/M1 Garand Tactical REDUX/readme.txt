@@ -1,5 +1,6 @@
 -Module:
 M1 Garand Tactical REDUX [JMerc] 
+A Gamma mod, but available in their Discord server.
 
 ----------------------------------------------------------
 -Compatibility:

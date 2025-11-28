@@ -1,0 +1,656 @@
+; АК-107 «Chaser» I.W.P Animation, Port SeDzhimol + addon Animation and Retexture Meowie, Alex Adaptation.Version OLD Format Scopes 2D
+
+[wpn_ak107_chaser107]:wpn_ak107
+GroupControlSection			= spawn_group
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\ak-74"
+scheduled					= off
+cform						= skeleton
+parent_section				= wpn_ak107_chaser107
+
+class						= WP_AK74
+slot						= 2
+animation_slot				= 2
+ef_main_weapon_type			= 2
+ef_weapon_type				= 8
+hand_dependence				= 1
+single_handed				= 0
+
+default_to_ruck				= false
+sprint_allowed				= true
+
+;___________________________ Icon ___________________________________
+
+icons_texture				= ui\ak107
+
+inv_grid_width				= 6
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 12
+
+inv_name					= st_wpn_ak107_chaser
+inv_name_short				= st_wpn_ak107_chaser
+description					= st_wpn_ak107_chaser_descr
+inv_weight					= 5.400
+
+;____________________________________________________________________
+
+kind						= w_rifle
+cost						= 80000
+repair_type					= rifle_5
+weapon_class				= assault_rifle
+
+hud							= wpn_ak107_chaser107_hud
+visual						= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_world.ogf
+
+position					= -0.026, 0.0, 0.0
+orientation					= 0, 0, 0
+
+fire_point					= 0, 0.0, 0.656
+fire_point2					= 0, 0.161, 0.583
+
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+strap_position				= -0.26, -0.11, 0.25
+strap_orientation			= -15, -9, 110
+
+ph_mass						= 4
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= ghost_particles\weapons\flame_eft_sks
+grenade_flame_particles		= weapons\generic_weapon01
+
+shell_point					= 0.07,0.2,0.466
+shell_dir					= 0.0, 1.0, 0.0
+shell_bone					= wpn_body
+shell_particles				= weapons\545x39
+
+light_disabled				= false
+light_color					= 0.6, 0.5, 0.3
+light_range					= 5
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
+
+;___________________________ Upgrades ___________________________________
+
+upgrades					=
+;installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_ak74
+
+upgr_icon_path				= ui\ak107
+upgr_icon_x					= 350
+upgr_icon_y					= 450
+upgr_icon_width				= 350
+upgr_icon_height			= 150
+
+;____________________________________________________________________
+
+fire_modes					= 1, 3, -1
+ammo_class					= ammo_5.45x39_fmj, ammo_5.45x39_fmj_bad, ammo_5.45x39_fmj_verybad, ammo_5.45x39_ep, ammo_5.45x39_ep_bad, ammo_5.45x39_ep_verybad, ammo_5.45x39_ap, ammo_5.45x39_ap_bad, ammo_5.45x39_ap_verybad
+ammo_elapsed				= 95
+ammo_mag_size				= 95
+startup_ammo				= 285
+
+;___________________________ Scopes ___________________________________
+
+scopes						= 1p29, ac10632, acog, c-more, eot, kobra, ps01, pso1m21, wpn_addon_scope_po4x34
+
+scope_status				= 0
+scope_zoom_factor			= 0
+use_alt_aim_hud				= true
+scope_x						= 84
+scope_y						= 6
+scope_texture				=
+laser_status				= true
+
+;___________________________ Silencer ___________________________________
+
+silencer_name				= wpn_sil_rotor
+silencer_status				= 2
+
+silencer_x					= 253
+silencer_y					= 13
+
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
+
+;___________________________ Grenade launcher ___________________________________
+
+grenade_class				= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name		= wpn_addon_grenade_launcher
+grenade_launcher_status		= 0
+
+grenade_launcher_x			= 157
+grenade_launcher_y			= 21
+launch_speed				= 0
+
+ ;___________________________ TTX ___________________________________
+
+hit_impulse					= 25
+hit_power					= 0.5, 0.5, 0.5, 0.5
+hit_type					= fire_wound
+fire_distance				= 1000
+bullet_speed				= 900
+rpm							= 850
+rpm_empty_click				= 200
+
+use_aim_bullet				= false
+time_to_aim					= 0.0;	3.0
+
+zoom_dof					= 0.5, 1.0, 180
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+
+reload_dof					= 0.0, 0.5, 5, 2
+control_inertion_factor		= 1.0f
+crosshair_inertion			= 5.7
+
+fire_dispersion_base		= 0.3
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability			= 0.005
+misfire_start_condition		= 0.7 ;	0.73
+misfire_start_prob			= 0.007
+misfire_end_condition		= 0.1
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0008
+condition_shot_dec			= 0.0008
+
+cam_return					= 0
+cam_relax_speed				= 10
+cam_dispersion				= 0.545
+cam_dispersion_frac			= 1.02
+cam_dispersion_inc			= 0.0625
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 1.08
+zoom_cam_relax_speed		= 10
+zoom_cam_dispersion			= 0.515
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_dispersion_inc		= 0.0525
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 0.98
+
+PDM_disp_accel_factor		= 2.45
+PDM_disp_base				= 1.0
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 2.45
+
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 360
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_x					= 0
+kill_msg_y					= 28
+kill_msg_width				= 84
+kill_msg_height				= 28
+
+hud_fov						= 0.65
+
+;_________________________________________________ Sounds ______________________________________________________
+
+snd_bore			= $no_sound
+snd_show			= $no_sound
+
+snd_hide			= $no_sound
+snd_show			= weapons\ak107\ak107_show
+
+snd_hide			= weapons\ak107\ak107_hide
+
+snd_show_w_gl		= weapons\ak107\ak107_show
+snd_hide_w_gl		= weapons\ak107\ak107_hide
+
+snd_show_g			= weapons\ak107\ak107_gl_on
+snd_hide_g			= weapons\ak107\ak107_gl_off
+
+;======================== Reload	=======================================================
+
+snd_empty			= weapons\ak107\ak107_empty
+snd_reload			= weapons\ak107\ak107_chaser_reload
+snd_reload_empty	= weapons\ak107\ak107_chaser_reload_empty
+snd_reload_misfire	= weapons\ak107\ak107_chaser_misfire
+
+;======================== Shoot	=======================================================
+
+snd_shoot			= weapons\ak107\ak107_shoot
+
+snd_silncer_shot	= weapons\ak107\ak107_shoot_sil
+
+;======================== Switch mode	=======================================================
+
+snd_switch_mode	= weapons\ak107\ak107_mode_switch
+snd_switch		= $no_sound
+snd_switch_g	= weapons\ak107\ak107_gl_on
+snd_switch		= weapons\ak107\ak107_gl_off
+
+;======================== Ammo check	=======================================================
+
+;__________________________________________ HUD parameters ____________________________________________________
+
+[wpn_ak107_chaser107_hud]:hud_base
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+;======================== Hud Position	=======================================================
+
+item_position		= 0, 0, -0.010662
+item_orientation	= 0,0,0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+hands_orientation		= 0.267111, 0.150146, 0
+hands_orientation_16x9	= 0.267111, 0.150146, 0
+hands_position			= -0.02, 0, -0.182026
+hands_position_16x9		= -0.02, 0, -0.182026
+
+aim_hud_offset_pos		= -0.000531, 0.004155, -0.004403
+aim_hud_offset_pos_16x9	= -0.000531, 0.004155, -0.004403
+aim_hud_offset_rot		= -0.005457, 0.005006, 0.01422
+aim_hud_offset_rot_16x9	= -0.005457, 0.005006, 0.01422
+
+aim_hud_offset_alt_pos		= -0.059498, -0.043959, 0.004917
+aim_hud_offset_alt_pos_16x9	= -0.059498, -0.043959, 0.004917
+aim_hud_offset_alt_rot		= 0.002438, 0.009876, 0.666454
+aim_hud_offset_alt_rot_16x9	= 0.002438, 0.009876, 0.666454
+
+gl_hud_offset_pos		= -0.09743, -0.306852, -0.268799
+gl_hud_offset_pos_16x9	= -0.09743, -0.306852, -0.268799
+gl_hud_offset_rot		= -0.6256, 0.058042, 0.046114
+gl_hud_offset_rot_16x9	= -0.6256, 0.058042, 0.046114
+
+;======================== BORING	=======================================================
+
+anm_bore	= ak107_chaser_idle
+
+;======================== HIDE	==========================================================
+
+anm_hide	= ak107_chaser_holster
+
+;======================== SHOW	==========================================================
+
+anm_show	= ak107_chaser_draw
+
+;======================== IDLE	==========================================================
+
+anm_idle				= ak107_chaser_idle
+anm_idle_moving_slow	= ak107_chaser_moving_slow
+anm_idle_moving			= ak107_chaser_moving
+
+anm_idle_moving_crouch	= ak107_chaser_crouch
+anm_idle_aim_moving		= ak107_chaser_moving_aim
+
+;======================== AIM TRANSITIONS	====================================================
+
+anm_idle_aim		= aim_idle_ak107_chaser
+anm_idle_aim_start	= aim_start_ak107_chaser
+anm_idle_aim_end	= aim_end_ak107_chaser
+
+;======================== SPRINT TRANSITIONS AND PATERN	====================================================
+
+anm_sprint_start	= ak107_chaser_sprint_start
+anm_idle_sprint		= ak107_chaser_sprint
+anm_sprint_end		= ak107_chaser_sprint_end
+
+;----------------------------------------------------------------------------------------
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+;======================== RELOAD	==========================================================
+
+anm_reload			= ak107_chaser_reload, reload
+anm_reload_empty	= ak107_chaser_reload_empty, reload_empty
+
+anm_reload_misfire		= ak107_chaser_misfire, misfire
+anm_reload_misfire_aim	= ak107_chaser_misfire_aim, misfire
+
+;======================== SWITCH MODE	=======================================================
+
+anm_switch_mode		= ak107_chaser_firemode
+anm_switch_mode_aim	= ak107_chaser_firemode_aim
+
+;========================SHOOTS===========================================================
+
+anm_shots			= ak107_chaser_shoot,	ak107_chaser_shoot
+anm_shots_variant1	= ak107_chaser_shoot1, ak107_chaser_shoot1
+anm_shots_variant2	= ak107_chaser_shoot2, ak107_chaser_shoot2
+
+anm_shots_aim			= ak107_chaser_shoot_aim,	ak107_chaser_shoot_aim
+anm_shots_aim_variant1	= ak107_chaser_shoot_aim1, ak107_chaser_shoot_aim1
+anm_shots_aim_variant2	= ak107_chaser_shoot_aim2, ak107_chaser_shoot_aim2
+
+
+;_____________________________________ Parameters of the shells sprite for HUD __________________________
+
+shell_point	= 0,0.03,0.15
+shell_dir	= 0.0, 1.0, 0.0
+shell_bone	= shell
+
+fire_point	= 0, 0, 0
+fire_bone	= muzzle
+fire_point2	= 0, 0, 0
+
+;____________________________________________________ Addons _______________________________________________________________________________________________________
+
+;__________________________________________________________ 1P29 (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_1p29]:wpn_ak107_chaser107
+
+1icon_layer		= 1p29
+1icon_layer_x	= 63
+1icon_layer_y	= 6
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_1p29_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_1p29_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_texture		= wpn_crosshair_1p29
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_1p29_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_1p29_hud.ogf
+
+aim_hud_offset_pos		= -0.000319, -0.015474, -0.018979
+aim_hud_offset_pos_16x9	= -0.000319, -0.015474, -0.018979
+aim_hud_offset_rot		= 0.001716, 0.004477, 0
+aim_hud_offset_rot_16x9	= 0.001716, 0.004477, 0
+
+;__________________________________________________________ AC10632 (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_ac10632]:wpn_ak107_chaser107
+
+1icon_layer		= ac10632
+1icon_layer_x	= 86
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_ac10632_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_ac10632_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_ac10632_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.000531, -0.017675, 0.004416
+aim_hud_offset_pos_16x9	= -0.000531, -0.017675, 0.004416
+aim_hud_offset_rot		= 0.003645, 0.00486, -0.004334
+aim_hud_offset_rot_16x9	= 0.003645, 0.00486, -0.004334
+
+;__________________________________________________________ ACOG (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_acog]:wpn_ak107_chaser107
+
+1icon_layer		= acog
+1icon_layer_x	= 82
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_acog_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_acog_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_texture		= wpn_crosshair_acog
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_acog_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.000427, -0.017391, -0.040105
+aim_hud_offset_pos_16x9	= -0.000427, -0.017391, -0.040105
+aim_hud_offset_rot		= 0.00834, 0.00411, -0.006113
+aim_hud_offset_rot_16x9	= 0.00834, 0.00411, -0.006113
+
+;__________________________________________________________ C-MORE (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_c-more]:wpn_ak107_chaser107
+
+1icon_layer		= c-more
+1icon_layer_x	= 96
+1icon_layer_y	= -5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_c-more_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_c-more_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_c-more_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.000258, -0.013837, -0.033623
+aim_hud_offset_pos_16x9	= -0.000258, -0.013837, -0.033623
+aim_hud_offset_rot		= 0.001461, 0.005152, 0
+aim_hud_offset_rot_16x9	= 0.001461, 0.005152, 0
+
+;__________________________________________________________ EOTech 553 (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_eot]:wpn_ak107_chaser107
+
+1icon_layer		= eot
+1icon_layer_x	= 98
+1icon_layer_y	= -8
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_eot_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_eot_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_eot_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.000313, -0.020813, -0.023954
+aim_hud_offset_pos_16x9	= -0.000313, -0.020813, -0.023954
+aim_hud_offset_rot		= 0.001298, 0.005123, 0.004118
+aim_hud_offset_rot_16x9	= 0.001298, 0.005123, 0.004118
+
+;__________________________________________________________ Кобра ЭП-1С-03(BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_kobra]:wpn_ak107_chaser107
+
+1icon_layer		= kobra
+1icon_layer_x	= 72
+1icon_layer_y	= 5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_kobra_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_kobra_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_kobra_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_kobra_hud.ogf
+
+aim_hud_offset_pos		= -0.000682, -0.012693, 0.007175
+aim_hud_offset_pos_16x9	= -0.000682, -0.012693, 0.007175
+aim_hud_offset_rot		= 0.001152, 0.005536, 0
+aim_hud_offset_rot_16x9	= 0.001152, 0.005536, 0
+
+;_________________________________________ PO4X34 (MsPizza727) [BASE] ____________________________________________
+
+[wpn_ak107_chaser107_wpn_addon_scope_po4x34]:wpn_ak107_chaser107
+
+1icon_layer		= wpn_addon_scope_po4x34
+1icon_layer_x	= 61
+1icon_layer_y	= -8
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_po4x34_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_po4x34_world.ogf
+zoom_step_count		= 1
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= on
+
+scope_texture		= wpn_crosshair_po4x34
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_po4x34_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_po4x34_hud.ogf
+
+aim_hud_offset_pos		= 5.5e-05, -0.006512, -0.026177
+aim_hud_offset_pos_16x9	= 5.5e-05, -0.006512, -0.026177
+aim_hud_offset_rot		= -6.1e-05, 0.003888, 0
+aim_hud_offset_rot_16x9	= -6.1e-05, 0.003888, 0
+
+;__________________________________________________________ ПСО-1M (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_ps01]:wpn_ak107_chaser107
+
+1icon_layer		= ps01
+1icon_layer_x	= 46
+1icon_layer_y	= 0
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_ps01_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_pso_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_texture		= wpn_crosshair_pso1
+
+use_alt_aim_hud	= true
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_ps01_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_pso_hud.ogf
+
+aim_hud_offset_pos		= 0.012485, -0.000546, 0.015724
+aim_hud_offset_pos_16x9	= 0.012485, -0.000546, 0.015724
+aim_hud_offset_rot		= 0.002637, 0.004632, 0
+aim_hud_offset_rot_16x9	= 0.002637, 0.004632, 0
+
+
+;__________________________________________________________ ПСО-1M2-1 (BaS)[BASE] ___________________________________________________
+
+[wpn_ak107_chaser107_pso1m21]:wpn_ak107_chaser107
+
+1icon_layer		= pso1m21
+1icon_layer_x	= 46
+1icon_layer_y	= 0
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_pso1m21_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_pso1m21_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_texture		= wpn_crosshair_pso2_vss
+
+use_alt_aim_hud	= true
+
+;---------------------------------------------------------------------------------------
+
+[wpn_ak107_chaser107_pso1m21_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_pso1m21_hud.ogf
+
+aim_hud_offset_pos		= 0.014375, -0.002812, -0.010178
+aim_hud_offset_pos_16x9	= 0.014375, -0.002812, -0.010178
+aim_hud_offset_rot		= 0.003217, 0.005988, -0.009946
+aim_hud_offset_rot_16x9	= 0.003217, 0.005988, -0.009946

@@ -1,0 +1,2416 @@
+; АК-107 SeDzhimol Animation, Model + Texture Risovalshik and Retexture Meowie, Alex Adaptation.
+; Version 3DSS+PRS+MS.Based on G.A.M.M.A shaders
+
+
+
+
+;;;;;;;;;;;;; BASE ;;;;;;;;;;;;;;;;;;;
+
+![wpn_ak107]
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= lens
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+
+>scopes	= ac10632, c-more, eot, kobra
+
+![wpn_ak107_0kp2]
+ms_count			= 6
+
+![wpn_ak107_1p29]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+!scope_texture		= wpn_crosshair_1p29
+
+![wpn_ak107_1p59]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 5
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 10
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_1p59
+
+![wpn_ak107_1p76]
+ms_count			= 2
+
+![wpn_ak107_1p78gs]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2.5
+s3ds_exit_pupil		= 0.5
+magnification		= 2.8
+!scope_texture		= wpn_crosshair_1p78gs
+
+![wpn_ak107_1pn93]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_1pn93n2_1gs]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93n2_1gs
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_2gen
+
+;__________________________________________________________ AC10632 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_ac10632]:wpn_ak107
+
+1icon_layer		= ac10632
+1icon_layer_x	= 93
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_ak107_ac10632_hud
+visual			= dynamics\weapons\wpn_ak107\wpn_ak107_ac10632_world.ogf
+
+ms_count			= 8
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_ac10632_hud]:wpn_ak107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107\wpn_ak107_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.058562, -0.004289, -0.052281
+aim_hud_offset_pos_16x9	= -0.058562, -0.004289, -0.052281
+aim_hud_offset_rot		= 0.001487, 0.008555, 0.015433
+aim_hud_offset_rot_16x9	= 0.001487, 0.008555, 0.015433
+
+![wpn_ak107_acog]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+s3ds_chroma_power	= 0.031
+s3ds_reticle_type	= 3
+magnification		= 2.8
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+
+!scope_texture		= wpn_crosshair_acog
+
+![wpn_ak107_ado]
+s3ds_reticle_size	= 5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+magnification		= 9
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_ado
+
+![wpn_ak107_aim_low]
+ms_count			= 2
+
+![wpn_ak107_aimpoint]
+ms_count			= 2
+
+![wpn_ak107_point_aimpro]
+ms_count			= 2
+
+![wpn_ak107_bravo4]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.035
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+;__________________________________________________________ C-MORE (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_c-more]:wpn_ak107
+
+1icon_layer		= c-more
+1icon_layer_x	= 105
+1icon_layer_y	= -4
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_ak107_c-more_hud
+visual			= dynamics\weapons\wpn_ak107\wpn_ak107_c-more_world.ogf
+
+ms_count			= 2
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_c-more_hud]:wpn_ak107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107\wpn_ak107_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.05867, 0.000332, -0.054126
+aim_hud_offset_pos_16x9	= -0.05867, 0.000332, -0.054126
+aim_hud_offset_rot		= 0.000143, 0.008653, 0.00384
+aim_hud_offset_rot_16x9	= 0.000143, 0.008653, 0.00384
+
+![wpn_ak107_compm4s]
+ms_count			= 2
+
+![wpn_ak107_cortex]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.9
+s3ds_ffp			= 1
+magnification		= 12
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_cortex
+
+![wpn_ak107_deltapoint]
+ms_count			= 2
+
+![wpn_ak107_devo]
+s3ds_reticle_size	= 4.6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.525
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 6
+
+!scope_texture		= wpn_crosshair_devo
+
+![wpn_ak107_e0t2]
+ms_count			= 6
+
+![wpn_ak107_e0t2_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_eot_magn
+
+![wpn_ak107_echo1]
+s3ds_reticle_size	= 0.85
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.02
+s3ds_dirt_intensity	= 0.1
+s3ds_image_type		= 3
+s3ds_reticle_type	= 8
+
+![wpn_ak107_ekp8_02]
+ms_count			= 4
+
+![wpn_ak107_ekp8_18]
+ms_count			= 4
+
+;__________________________________________________________ EOTech 553 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_eot]:wpn_ak107
+
+1icon_layer		= eot
+1icon_layer_x	= 105
+1icon_layer_y	= -6
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_ak107_eot_hud
+visual			= dynamics\weapons\wpn_ak107\wpn_ak107_eot_world.ogf
+
+ms_count			= 6
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_eot_hud]:wpn_ak107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107\wpn_ak107_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.058189, -0.005989, -0.064353
+aim_hud_offset_pos_16x9	= -0.058189, -0.005989, -0.064353
+aim_hud_offset_rot		= 0.001788, 0.007955, 0.018263
+aim_hud_offset_rot_16x9	= 0.001788, 0.007955, 0.018263
+
+![wpn_ak107_exps3]
+ms_count			= 6
+
+![wpn_ak107_gauss_sight]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_image_type		= 2
+s3ds_reticle_type	= 6
+ms_count			= 2
+magnification		= 10
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_gauss_sight
+
+![wpn_ak107_hamr]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+![wpn_ak107_he510]
+ms_count			= 2
+
+;__________________________________________________________ Кобра ЭП-1С-03(BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_kobra]:wpn_ak107
+
+1icon_layer		= kobra
+1icon_layer_x	= 75
+1icon_layer_y	= 0
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_ak107_kobra_hud
+visual			= dynamics\weapons\wpn_ak107\wpn_ak107_kobra_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_kobra_hud]:wpn_ak107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107\wpn_ak107_kobra_hud.ogf
+
+aim_hud_offset_pos		= -0.058289, -0.004085, -0.020564
+aim_hud_offset_pos_16x9	= -0.058289, -0.004085, -0.020564
+aim_hud_offset_rot		= -0.009372, 0.008223, 0.014992
+aim_hud_offset_rot_16x9	= -0.009372, 0.008223, 0.014992
+
+![wpn_ak107_leupold]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_ffp			= 1
+magnification		= 8
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_leupold
+
+![wpn_ak107_march_f_shorty]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_march_shorty
+
+![wpn_ak107_marchf]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_marchf
+
+![wpn_ak107_mepro]
+ms_count			= 2
+
+![wpn_ak107_monstrum]
+s3ds_reticle_size	= 3
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.8
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 2
+
+!scope_texture		= wpn_crosshair_monstrum
+
+![wpn_ak107_okp]
+ms_count			= 6
+
+![wpn_ak107_p1x42]
+ms_count			= 3
+
+![wpn_ak107_p4x32]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+
+![wpn_ak107_pk6]
+ms_count			= 3
+
+![wpn_ak107_pka]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 5
+s3ds_min_zoom_1x	= 1
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_pka
+
+![wpn_ak107_pn23]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_pn23
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_wpn_addon_scope_po4x34]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+
+!scope_texture		= wpn_crosshair_po4x34
+
+![wpn_ak107_ps320]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+s3ds_chroma_power	= 0.045
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_ps320
+
+![wpn_ak107_ps01]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso1
+
+![wpn_ak107_pso1m21]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_pso2]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_rakurs]
+ms_count			= 2
+
+![wpn_ak107_razorhd]
+s3ds_ffp			= 1
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_razorhd
+
+![wpn_ak107_rmr]
+ms_count			= 2
+
+![wpn_ak107_romeo4]
+ms_count			= 4
+
+![wpn_ak107_romeo8]
+ms_count			= 4
+
+![wpn_ak107_specter]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.04
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_specter
+
+![wpn_ak107_susatov]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_susat
+
+![wpn_ak107_tac30]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+![wpn_ak107_trihawk]
+s3ds_reticle_size	= 3.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.66
+s3ds_chroma_power	= 0.028
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_trihawk
+
+
+![wpn_ak107_uh1_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 7
+
+!scope_texture		= wpn_crosshair_uh1_magn
+
+
+![wpn_ak107_usp1]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_usp1
+
+![wpn_ak107_vulcan]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.6
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 3.5
+
+!scope_texture		= wpn_crosshair_vulcan
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+
+
+
+;;;;;;;;;;;;; CHASER ;;;;;;;;;;;;;;;;;;;
+
+![wpn_ak107_chaser107]
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= lens
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+
+; ???
+; inv_weight	= 3.800
+
+>scopes	= ac10632, c-more, eot, kobra
+
+![wpn_ak107_chaser107_0kp2]
+ms_count			= 6
+
+![wpn_ak107_chaser107_1p29]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_1p29
+
+![wpn_ak107_chaser107_1p59]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 5
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 10
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_1p59
+
+![wpn_ak107_chaser107_1p76]
+ms_count			= 2
+
+![wpn_ak107_chaser107_1p78gs]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2.5
+s3ds_exit_pupil		= 0.5
+magnification		= 2.8
+
+!scope_texture		= wpn_crosshair_1p78gs
+
+![wpn_ak107_chaser107_1pn93]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_chaser107_1pn93n2_1gs]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93n2_1gs
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_2gen
+
+;__________________________________________________________ AC10632 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_chaser107_ac10632]:wpn_ak107_chaser107
+
+1icon_layer		= ac10632
+1icon_layer_x	= 86
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_ac10632_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_ac10632_world.ogf
+
+ms_count			= 8
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_chaser107_ac10632_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.000531, -0.017675, 0.004416
+aim_hud_offset_pos_16x9	= -0.000531, -0.017675, 0.004416
+aim_hud_offset_rot		= 0.003645, 0.00486, -0.004334
+aim_hud_offset_rot_16x9	= 0.003645, 0.00486, -0.004334
+
+![wpn_ak107_chaser107_acog]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+s3ds_chroma_power	= 0.031
+s3ds_reticle_type	= 3
+magnification		= 2.8
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+
+!scope_texture		= wpn_crosshair_acog
+
+![wpn_ak107_chaser107_ado]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+magnification		= 9
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_ado
+
+![wpn_ak107_chaser107_aim_low]
+ms_count			= 2
+
+![wpn_ak107_chaser107_aimpoint]
+ms_count			= 2
+
+![wpn_ak107_chaser107_point_aimpro]
+ms_count			= 2
+
+![wpn_ak107_chaser107_bravo4]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.035
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+;__________________________________________________________ C-MORE (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_chaser107_c-more]:wpn_ak107_chaser107
+
+1icon_layer		= c-more
+1icon_layer_x	= 96
+1icon_layer_y	= -5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_c-more_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_c-more_world.ogf
+
+ms_count			= 2
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_chaser107_c-more_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.000258, -0.013837, -0.033623
+aim_hud_offset_pos_16x9	= -0.000258, -0.013837, -0.033623
+aim_hud_offset_rot		= 0.001461, 0.005152, 0
+aim_hud_offset_rot_16x9	= 0.001461, 0.005152, 0
+
+![wpn_ak107_chaser107_compm4s]
+ms_count			= 2
+
+![wpn_ak107_chaser107_cortex]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.9
+s3ds_ffp			= 1
+magnification		= 12
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_cortex
+
+![wpn_ak107_chaser107_deltapoint]
+ms_count			= 2
+
+![wpn_ak107_chaser107_devo]
+s3ds_reticle_size	= 4.6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.525
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 6
+
+!scope_texture		= wpn_crosshair_devo
+
+![wpn_ak107_chaser107_d0cter]
+ms_count			= 2
+
+![wpn_ak107_chaser107_e0t2]
+ms_count			= 6
+
+![wpn_ak107_chaser107_e0t2_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_eot_magn
+
+![wpn_ak107_chaser107_echo1]
+s3ds_reticle_size	= 0.85
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.02
+s3ds_dirt_intensity	= 0.1
+s3ds_image_type		= 3
+s3ds_reticle_type	= 8
+
+![wpn_ak107_chaser107_ekp8_02]
+ms_count			= 4
+
+![wpn_ak107_chaser107_ekp8_18]
+ms_count			= 4
+
+;__________________________________________________________ EOTech 553 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_chaser107_eot]:wpn_ak107_chaser107
+
+1icon_layer		= eot
+1icon_layer_x	= 98
+1icon_layer_y	= -8
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_eot_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_eot_world.ogf
+
+ms_count			= 6
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_chaser107_eot_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.000313, -0.020813, -0.023954
+aim_hud_offset_pos_16x9	= -0.000313, -0.020813, -0.023954
+aim_hud_offset_rot		= 0.001298, 0.005123, 0.004118
+aim_hud_offset_rot_16x9	= 0.001298, 0.005123, 0.004118
+
+![wpn_ak107_chaser107_exps3]
+ms_count			= 6
+
+![wpn_ak107_chaser107_gauss_sight]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_image_type		= 2
+s3ds_reticle_type	= 6
+ms_count			= 2
+magnification		= 10
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_gauss_sight
+
+![wpn_ak107_chaser107_gee36]
+s3ds_reticle_size	= 5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.65
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_g36s
+
+![wpn_ak107_chaser107_hamr]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+![wpn_ak107_chaser107_he510]
+ms_count			= 2
+
+;__________________________________________________________ Кобра ЭП-1С-03(BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_chaser107_kobra]:wpn_ak107_chaser107
+
+1icon_layer		= kobra
+1icon_layer_x	= 72
+1icon_layer_y	= 5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 14
+
+hud				= wpn_ak107_chaser107_kobra_hud
+visual			= dynamics\weapons\wpn_ak107_chaser\wpn_ak107_chaser_kobra_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_chaser107_kobra_hud]:wpn_ak107_chaser107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_chaser\wpn_ak107_chaser_kobra_hud.ogf
+
+aim_hud_offset_pos		= -0.000682, -0.012693, 0.007175
+aim_hud_offset_pos_16x9	= -0.000682, -0.012693, 0.007175
+aim_hud_offset_rot		= 0.001152, 0.005536, 0
+aim_hud_offset_rot_16x9	= 0.001152, 0.005536, 0
+
+![wpn_ak107_chaser107_lco1]
+ms_count			= 2
+
+![wpn_ak107_chaser107_leupold]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_ffp			= 1
+magnification		= 8
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_leupold
+
+![wpn_ak107_chaser107_march_f_shorty]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_march_shorty
+
+![wpn_ak107_chaser107_marchf]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_marchf
+
+![wpn_ak107_chaser107_mepro]
+ms_count			= 2
+
+![wpn_ak107_chaser107_monstrum]
+s3ds_reticle_size	= 3
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.8
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 2
+
+!scope_texture		= wpn_crosshair_monstrum
+
+![wpn_ak107_chaser107_okp]
+ms_count			= 6
+
+![wpn_ak107_chaser107_p1x42]
+ms_count			= 3
+
+![wpn_ak107_chaser107_p4x32]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+
+![wpn_ak107_chaser107_pk6]
+ms_count			= 3
+
+![wpn_ak107_chaser107_pka]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 5
+s3ds_min_zoom_1x	= 1
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_pka
+
+![wpn_ak107_chaser107_pn23]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_pn23
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_chaser107_wpn_addon_scope_po4x34]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+
+!scope_texture		= wpn_crosshair_po4x34
+
+![wpn_ak107_chaser107_ps320]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+s3ds_chroma_power	= 0.045
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_ps320
+
+![wpn_ak107_chaser107_ps01]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso1
+
+![wpn_ak107_chaser107_pso1m21]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_chaser107_pso2]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_chaser107_rakurs]
+ms_count			= 2
+
+![wpn_ak107_chaser107_razorhd]
+s3ds_ffp			= 1
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_razorhd
+
+![wpn_ak107_chaser107_rmr]
+ms_count			= 2
+
+![wpn_ak107_chaser107_romeo4]
+ms_count			= 4
+
+![wpn_ak107_chaser107_romeo8]
+ms_count			= 4
+
+![wpn_ak107_chaser107_specter]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.04
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_specter
+
+![wpn_ak107_chaser107_susatov]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_susat
+
+![wpn_ak107_chaser107_tac30]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_tac30
+
+![wpn_ak107_chaser107_trihawk]
+s3ds_reticle_size	= 3.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.66
+s3ds_chroma_power	= 0.028
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_trihawk
+
+![wpn_ak107_chaser107_uh1_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 7
+
+!scope_texture		= wpn_crosshair_uh1_magn
+
+![wpn_ak107_chaser107_usp1]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_usp1
+
+![wpn_ak107_chaser107_vulcan]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.6
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 3.5
+
+!scope_texture		= wpn_crosshair_vulcan
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+
+
+
+;;;;;;;;;;;;; CUSTOM ;;;;;;;;;;;;;;;;;;;
+
+![wpn_ak107_custom107]
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= lens
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+
+; ???
+; inv_weight	= 3.800
+
+>scopes	= ac10632, c-more, eot, kobra
+
+![wpn_ak107_custom107_0kp2]
+ms_count			= 6
+
+![wpn_ak107_custom107_1p29]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_1p29
+
+![wpn_ak107_custom107_1p59]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 5
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 10
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_1p59
+
+![wpn_ak107_custom107_1p76]
+ms_count			= 2
+
+![wpn_ak107_custom107_1p78gs]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2.5
+s3ds_exit_pupil		= 0.5
+magnification		= 2.8
+
+!scope_texture		= wpn_crosshair_1p78gs
+
+![wpn_ak107_custom107_1pn93]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_custom107_1pn93n2_1gs]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93n2_1gs
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_2gen
+
+;__________________________________________________________ AC10632 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_custom107_ac10632]:wpn_ak107_custom107
+
+1icon_layer		= ac10632
+1icon_layer_x	= 88
+1icon_layer_y	= -25
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+hud				= wpn_ak107_custom107_ac10632_hud
+visual			= dynamics\weapons\wpn_ak107_custom\wpn_ak107_custom_ac10632_world.ogf
+
+ms_count			= 8
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_custom107_ac10632_hud]:wpn_ak107_custom107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_custom\wpn_ak107_custom_ac10632_hud.ogf
+
+aim_hud_offset_pos		= 0.013398, -0.013535, 0.03596
+aim_hud_offset_pos_16x9	= 0.013398, -0.013535, 0.03596
+aim_hud_offset_rot		= 0.003062, 0.004181, -0.005695
+aim_hud_offset_rot_16x9	= 0.003062, 0.004181, -0.005695
+
+![wpn_ak107_custom107_acog]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+s3ds_chroma_power	= 0.031
+s3ds_reticle_type	= 3
+magnification		= 2.8
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+
+!scope_texture		= wpn_crosshair_acog
+
+![wpn_ak107_custom107_ado]
+s3ds_reticle_size	= 5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+magnification		= 9
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_ado
+
+![wpn_ak107_custom107_aim_low]
+ms_count			= 2
+
+![wpn_ak107_custom107_aimpoint]
+ms_count			= 2
+
+![wpn_ak107_custom107_point_aimpro]
+ms_count			= 2
+
+![wpn_ak107_custom107_bravo4]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.035
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+;__________________________________________________________ C-MORE (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_custom107_c-more]:wpn_ak107_custom107
+
+1icon_layer		= c-more
+1icon_layer_x	= 101
+1icon_layer_y	= -22
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+hud				= wpn_ak107_custom107_c-more_hud
+visual			= dynamics\weapons\wpn_ak107_custom\wpn_ak107_custom_c-more_world.ogf
+
+ms_count			= 2
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_custom107_c-more_hud]:wpn_ak107_custom107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_custom\wpn_ak107_custom_c-more_hud.ogf
+
+aim_hud_offset_pos		= 0.013487, -0.010685, 0.01101
+aim_hud_offset_pos_16x9	= 0.013487, -0.010685, 0.01101
+aim_hud_offset_rot		= 0.003411, 0.004602, -0.004342
+aim_hud_offset_rot_16x9	= 0.003411, 0.004602, -0.004342
+
+![wpn_ak107_custom107_compm4s]
+ms_count			= 2
+
+![wpn_ak107_custom107_cortex]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.9
+s3ds_ffp			= 1
+magnification		= 12
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_cortex
+
+![wpn_ak107_custom107_deltapoint]
+ms_count			= 2
+
+![wpn_ak107_custom107_devo]
+s3ds_reticle_size	= 4.6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.525
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 6
+
+!scope_texture		= wpn_crosshair_devo
+
+![wpn_ak107_custom107_d0cter]
+ms_count			= 2
+
+![wpn_ak107_custom107_e0t2]
+ms_count			= 6
+
+![wpn_ak107_custom107_e0t2_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_eot_magn
+
+![wpn_ak107_custom107_echo1]
+s3ds_reticle_size	= 0.85
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.02
+s3ds_dirt_intensity	= 0.1
+s3ds_image_type		= 3
+s3ds_reticle_type	= 8
+
+![wpn_ak107_custom107_ekp8_02]
+ms_count			= 4
+
+![wpn_ak107_custom107_ekp8_18]
+ms_count			= 4
+
+;__________________________________________________________ EOTech 553 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_custom107_eot]:wpn_ak107_custom107
+
+1icon_layer		= eot
+1icon_layer_x	= 99
+1icon_layer_y	= -25
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+hud				= wpn_ak107_custom107_eot_hud
+visual			= dynamics\weapons\wpn_ak107_custom\wpn_ak107_custom_eot_world.ogf
+
+ms_count			= 6
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_custom107_eot_hud]:wpn_ak107_custom107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_custom\wpn_ak107_custom_eot_hud.ogf
+
+aim_hud_offset_pos		= 0.013494, -0.015587, 0.001992
+aim_hud_offset_pos_16x9	= 0.013494, -0.015587, 0.001992
+aim_hud_offset_rot		= 0.0025, 0.004166, -0.003564
+aim_hud_offset_rot_16x9	= 0.0025, 0.004166, -0.003564
+
+![wpn_ak107_custom107_exps3]
+ms_count			= 6
+
+![wpn_ak107_custom107_gauss_sight]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_image_type		= 2
+s3ds_reticle_type	= 6
+ms_count			= 2
+magnification		= 10
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_gauss_sight
+
+![wpn_ak107_custom107_gee36]
+s3ds_reticle_size	= 5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.65
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_g36s
+
+![wpn_ak107_custom107_hamr]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+![wpn_ak107_custom107_he510]
+ms_count			= 2
+
+;__________________________________________________________ Кобра ЭП-1С-03(BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_custom107_kobra]:wpn_ak107_custom107
+
+1icon_layer		= kobra
+1icon_layer_x	= 73
+1icon_layer_y	= -11
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+hud				= wpn_ak107_custom107_kobra_hud
+visual			= dynamics\weapons\wpn_ak107_custom\wpn_ak107_custom_kobra_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_custom107_kobra_hud]:wpn_ak107_custom107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_custom\wpn_ak107_custom_kobra_hud.ogf
+
+aim_hud_offset_pos		= 0.013449, -0.008424, 0.01293
+aim_hud_offset_pos_16x9	= 0.013449, -0.008424, 0.01293
+aim_hud_offset_rot		= 0.001309, 0.003666, -0.005693
+aim_hud_offset_rot_16x9	= 0.001309, 0.003666, -0.005693
+
+![wpn_ak107_custom107_lco1]
+ms_count			= 2
+
+![wpn_ak107_custom107_leupold]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_ffp			= 1
+magnification		= 8
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_leupold
+
+![wpn_ak107_custom107_march_f_shorty]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_march_shorty
+
+![wpn_ak107_custom107_marchf]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_marchf
+
+![wpn_ak107_custom107_mepro]
+ms_count			= 2
+
+![wpn_ak107_custom107_monstrum]
+s3ds_reticle_size	= 3
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.8
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 2
+
+!scope_texture		= wpn_crosshair_monstrum
+
+![wpn_ak107_custom107_okp]
+ms_count			= 6
+
+![wpn_ak107_custom107_p1x42]
+ms_count			= 3
+
+![wpn_ak107_custom107_p4x32]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+
+![wpn_ak107_custom107_pk6]
+ms_count			= 3
+
+![wpn_ak107_custom107_pka]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 5
+s3ds_min_zoom_1x	= 1
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_pka
+
+![wpn_ak107_custom107_pn23]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_pn23
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_custom107_wpn_addon_scope_po4x34]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+
+!scope_texture		= wpn_crosshair_po4x34
+
+![wpn_ak107_custom107_ps320]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+s3ds_chroma_power	= 0.045
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_ps320
+
+![wpn_ak107_custom107_ps01]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso1
+
+![wpn_ak107_custom107_pso1m21]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_custom107_pso2]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_custom107_rakurs]
+ms_count			= 2
+
+![wpn_ak107_custom107_razorhd]
+s3ds_ffp			= 1
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_razorhd
+
+![wpn_ak107_custom107_rmr]
+ms_count			= 2
+
+![wpn_ak107_custom107_romeo4]
+ms_count			= 4
+
+![wpn_ak107_custom107_romeo8]
+ms_count			= 4
+
+![wpn_ak107_custom107_specter]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.04
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_specter
+
+![wpn_ak107_custom107_susatov]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_susat
+
+![wpn_ak107_custom107_tac30]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_tac30
+
+![wpn_ak107_custom107_trihawk]
+s3ds_reticle_size	= 3.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.66
+s3ds_chroma_power	= 0.028
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_trihawk
+
+![wpn_ak107_custom107_uh1_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 7
+
+!scope_texture		= wpn_crosshair_uh1_magn
+
+![wpn_ak107_custom107_usp1]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_usp1
+
+![wpn_ak107_custom107_vulcan]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.6
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 3.5
+
+!scope_texture		= wpn_crosshair_vulcan
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+
+
+;;;;;;;;;;;;; RANGER ;;;;;;;;;;;;;;;;;;;
+
+![wpn_ak107_ranger107]
+
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= lens
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+
+s3ds_exit_pupil		= 0.2
+s3ds_eye_relief		= 2
+s3ds_image_type		= 3
+s3ds_reticle_size	= 6
+
+; scope_texture		=
+
+
+
+;;;;;;;;;;;;; RAPTOR ;;;;;;;;;;;;;;;;;;;
+
+![wpn_ak107_raptor107]
+; lewd_lens_hide_enabled	= true
+; lewd_lens_hide_bone		= lens
+; lewd_lens_hide_delays	= 0.1,0
+; lewd_lens_hide_aim_mode	= true, false, false
+
+; ???
+; inv_weight	= 3.800
+
+>scopes	= ac10632, ac11090, c-more, eot, kobra
+
+![wpn_ak107_raptor107_0kp2]
+ms_count			= 6
+
+![wpn_ak107_raptor107_1p29]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_1p29
+
+![wpn_ak107_raptor107_1p59]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 5
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 10
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_1p59
+
+![wpn_ak107_raptor107_1p76]
+ms_count			= 2
+
+![wpn_ak107_raptor107_1p78gs]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2.5
+s3ds_exit_pupil		= 0.5
+magnification		= 2.8
+
+!scope_texture		= wpn_crosshair_1p78gs
+
+![wpn_ak107_raptor107_1pn93]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_raptor107_1pn93n2_1gs]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_1pn93n2_1gs
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_2gen
+
+;__________________________________________________________ AC10632 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_raptor107_ac10632]:wpn_ak107_raptor107
+
+1icon_layer		= ac10632
+1icon_layer_x	= 86
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 10
+
+hud				= wpn_ak107_raptor107_ac10632_hud
+visual			= dynamics\weapons\wpn_ak107_raptor\wpn_ak107_raptor_ac10632_world.ogf
+
+ms_count			= 8
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_raptor107_ac10632_hud]:wpn_ak107_raptor107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_raptor\wpn_ak107_raptor_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.053753, 0.003736, -0.046312
+aim_hud_offset_pos_16x9	= -0.053753, 0.003736, -0.046312
+aim_hud_offset_rot		= 0.008952, 0.006592, -0.040802
+aim_hud_offset_rot_16x9	= 0.008952, 0.006592, -0.040802
+
+;__________________________________________________________ AC11090 (Party_50 and MsPizza727)[PRS Only] ___________________________________________________
+
+@[wpn_ak107_raptor107_ac11090]:wpn_ak107_raptor107
+
+1icon_layer		= ac11090
+1icon_layer_x	= 86
+1icon_layer_y	= -10
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 10
+
+hud				= wpn_ak107_raptor107_ac11090_hud
+visual			= dynamics\weapons\wpn_ak107_raptor\wpn_ak107_raptor_ac11090_world.ogf
+
+ms_count			= 8
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_raptor107_ac11090_hud]:wpn_ak107_raptor107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_raptor\wpn_ak107_raptor_ac11090_hud.ogf
+
+aim_hud_offset_pos		= -0.053102, 0.011777, -0.046312
+aim_hud_offset_pos_16x9	= -0.053102, 0.011777, -0.046312
+aim_hud_offset_rot		= 0.008883, 0.005643, -0.039452
+aim_hud_offset_rot_16x9	= 0.008883, 0.005643, -0.039452
+
+![wpn_ak107_raptor107_acog]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+s3ds_chroma_power	= 0.031
+s3ds_reticle_type	= 3
+magnification		= 2.8
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+
+!scope_texture		= wpn_crosshair_acog
+
+![wpn_ak107_raptor107_ado]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.55
+magnification		= 9
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_ado
+
+![wpn_ak107_raptor107_aim_acro]
+ms_count			= 2
+
+![wpn_ak107_raptor107_aim_low]
+ms_count			= 2
+
+![wpn_ak107_raptor107_aimpoint]
+ms_count			= 2
+
+![wpn_ak107_raptor107_point_aimpro]
+ms_count			= 2
+
+![wpn_ak107_raptor107_bravo4]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.035
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+;__________________________________________________________ C-MORE (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_raptor107_c-more]:wpn_ak107_raptor107
+
+1icon_layer		= c-more
+1icon_layer_x	= 96
+1icon_layer_y	= -5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 10
+
+hud				= wpn_ak107_raptor107_c-more_hud
+visual			= dynamics\weapons\wpn_ak107_raptor\wpn_ak107_raptor_c-more_world.ogf
+
+ms_count			= 2
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_raptor107_c-more_hud]:wpn_ak107_raptor107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_raptor\wpn_ak107_raptor_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.053693, 0.004952, -0.046312
+aim_hud_offset_pos_16x9	= -0.053693, 0.004952, -0.046312
+aim_hud_offset_rot		= 0.008094, 0.006491, -0.039452
+aim_hud_offset_rot_16x9	= 0.008094, 0.006491, -0.039452
+
+![wpn_ak107_raptor107_compm4s]
+ms_count			= 2
+
+![wpn_ak107_raptor107_cortex]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.9
+s3ds_ffp			= 1
+magnification		= 12
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_cortex
+
+![wpn_ak107_raptor107_deltapoint]
+ms_count			= 2
+
+![wpn_ak107_raptor107_devo]
+s3ds_reticle_size	= 4.6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.525
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 6
+
+!scope_texture		= wpn_crosshair_devo
+
+![wpn_ak107_raptor107_d0cter]
+ms_count			= 2
+
+![wpn_ak107_raptor107_e0t2]
+ms_count			= 6
+
+![wpn_ak107_raptor107_e0t2_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_eot_magn
+
+![wpn_ak107_raptor107_echo1]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.02
+s3ds_dirt_intensity	= 0.1
+s3ds_image_type		= 3
+s3ds_reticle_type	= 8
+
+![wpn_ak107_raptor107_ekp8_02]
+ms_count			= 4
+
+![wpn_ak107_raptor107_ekp8_18]
+ms_count			= 4
+
+;__________________________________________________________ EOTech 553 (BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_raptor107_eot]:wpn_ak107_raptor107
+
+1icon_layer		= eot
+1icon_layer_x	= 98
+1icon_layer_y	= -8
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 10
+
+hud				= wpn_ak107_raptor107_eot_hud
+visual			= dynamics\weapons\wpn_ak107_raptor\wpn_ak107_raptor_eot_world.ogf
+
+ms_count			= 6
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_raptor107_eot_hud]:wpn_ak107_raptor107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_raptor\wpn_ak107_raptor_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.053375, 0.000184, -0.046312
+aim_hud_offset_pos_16x9	= -0.053375, 0.000184, -0.046312
+aim_hud_offset_rot		= 0.008026, 0.006219, -0.047121
+aim_hud_offset_rot_16x9	= 0.008026, 0.006219, -0.047121
+
+![wpn_ak107_raptor107_exps3]
+ms_count			= 6
+
+![wpn_ak107_raptor107_gauss_sight]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_image_type		= 2
+s3ds_reticle_type	= 6
+ms_count			= 2
+magnification		= 10
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_gauss_sight
+
+![wpn_ak107_raptor107_gee36]
+s3ds_reticle_size	= 5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.65
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_g36s
+
+![wpn_ak107_raptor107_hamr]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.35
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_hamr
+
+![wpn_ak107_raptor107_he510]
+ms_count			= 2
+
+![wpn_ak107_raptor107_kmz_1p69]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 5
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 10
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_1p59
+
+;__________________________________________________________ Кобра ЭП-1С-03(BaS)[BASE] ___________________________________________________
+
+@[wpn_ak107_raptor107_kobra]:wpn_ak107_raptor107
+
+1icon_layer		= kobra
+1icon_layer_x	= 72
+1icon_layer_y	= 5
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 10
+
+hud				= wpn_ak107_raptor107_kobra_hud
+visual			= dynamics\weapons\wpn_ak107_raptor\wpn_ak107_raptor_kobra_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 0
+zoom_rotate_time	= 0.25
+
+
+;---------------------------------------------------------------------------------------
+
+@[wpn_ak107_raptor107_kobra_hud]:wpn_ak107_raptor107_hud
+
+item_visual	= anomaly_weapons\wpn_ak107_raptor\wpn_ak107_raptor_kobra_hud.ogf
+
+aim_hud_offset_pos		= -0.053214, 0.004302, -0.046312
+aim_hud_offset_pos_16x9	= -0.053214, 0.004302, -0.046312
+aim_hud_offset_rot		= 0.005609, 0.005638, -0.039452
+aim_hud_offset_rot_16x9	= 0.005609, 0.005638, -0.039452
+
+![wpn_ak107_raptor107_lco1]
+ms_count			= 2
+
+![wpn_ak107_raptor107_leupold_mk4cqt]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.525
+s3ds_reticle_type	= 1
+s3ds_ffp			= 0
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 3
+
+![wpn_ak107_raptor107_leupold]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_ffp			= 1
+magnification		= 8
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_leupold
+
+![wpn_ak107_raptor107_march_f_shorty]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_march_shorty
+
+![wpn_ak107_raptor107_marchf]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 24
+min_magnification	= 3
+
+!scope_texture		= wpn_crosshair_marchf
+
+![wpn_ak107_raptor107_mepro]
+ms_count			= 2
+
+![wpn_ak107_raptor107_mh1wjuliet4]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0.01
+s3ds_dirt_intensity	= 0.1
+s3ds_reticle_type	= 7
+magnification		= 4
+
+![wpn_ak107_raptor107_monstrum]
+s3ds_reticle_size	= 3
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.8
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 2
+
+!scope_texture		= wpn_crosshair_monstrum
+
+![wpn_ak107_raptor107_npz_po156]
+s3ds_reticle_size	= 5.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.75
+s3ds_ffp			= 1
+s3ds_reticle_type	= 2
+s3ds_min_zoom_fov	= 35.1
+s3ds_max_zoom_fov	= 9.05
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 6
+
+![wpn_ak107_raptor107_npz_psopctny]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.34
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 4
+
+![wpn_ak107_raptor107_npz_psu]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+s3ds_min_zoom_fov	= 56
+s3ds_max_zoom_fov	= 20
+s3ds_chroma_power	= 0.04
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 4
+
+![wpn_ak107_raptor107_okp]
+ms_count			= 6
+
+![wpn_ak107_raptor107_optex_anpsv4]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 3
+s3ds_exit_pupil		= 0.28
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 3.6
+
+!scope_texture		= wpn_crosshair_vulcan
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_raptor107_osprey_734]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.4
+magnification		= 4
+
+![wpn_ak107_raptor107_p1x42]
+ms_count			= 3
+
+![wpn_ak107_raptor107_p4x32]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 1
+
+![wpn_ak107_raptor107_pa_sl25]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 1.9
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.3
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_black, scope_red
+magnification		= 2.5
+
+![wpn_ak107_raptor107_pilad_brevis]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.4
+magnification		= 4
+
+![wpn_ak107_raptor107_pk6]
+ms_count			= 3
+
+![wpn_ak107_raptor107_pka]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 5
+s3ds_min_zoom_1x	= 1
+s3ds_reticle_type	= 1
+ms_count			= 2
+ms_colors			= scope_red, scope_green
+
+!scope_texture		= wpn_crosshair_pka
+
+![wpn_ak107_raptor107_pks07]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.4
+magnification		= 4
+
+![wpn_ak107_raptor107_pn23]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_pn23
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen
+
+![wpn_ak107_raptor107_wpn_addon_scope_po4x34]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+
+!scope_texture		= wpn_crosshair_po4x34
+
+![wpn_ak107_raptor107_ps320]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+s3ds_ffp			= 0
+s3ds_chroma_power	= 0.045
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_ps320
+
+![wpn_ak107_raptor107_ps01]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso1
+
+![wpn_ak107_raptor107_pso1m21]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_raptor107_pso2]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_pso2_vss
+
+![wpn_ak107_raptor107_rakurs]
+ms_count			= 2
+
+![wpn_ak107_raptor107_razorhd]
+s3ds_ffp			= 1
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0
+magnification		= 6
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_razorhd
+
+![wpn_ak107_raptor107_rmr]
+ms_count			= 2
+
+![wpn_ak107_raptor107_romeo4]
+ms_count			= 4
+
+![wpn_ak107_raptor107_romeo8]
+ms_count			= 4
+
+![wpn_ak107_raptor107_sb_32050pm2]
+s3ds_reticle_size	= 5.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.4
+magnification		= 4
+
+![wpn_ak107_raptor107_steiner_r1x]
+s3ds_reticle_size	= 5.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.4
+s3ds_chroma_power	= 0.04
+s3ds_dirt_intensity	= 0.4
+magnification		= 4
+
+![wpn_ak107_raptor107_specter]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_chroma_power	= 0.04
+s3ds_reticle_type	= 4
+ms_count			= 3
+ms_colors			= scope_black, scope_red_dim, scope_red
+magnification		= 4
+min_magnification	= 1
+
+!scope_texture		= wpn_crosshair_specter
+
+![wpn_ak107_raptor107_susatov]
+s3ds_reticle_size	= 4
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_susat
+
+![wpn_ak107_raptor107_tac30]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+
+!scope_texture		= wpn_crosshair_tac30
+
+![wpn_ak107_raptor107_trihawk]
+s3ds_reticle_size	= 3.2
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.66
+s3ds_chroma_power	= 0.028
+magnification		= 3
+
+!scope_texture		= wpn_crosshair_trihawk
+
+![wpn_ak107_raptor107_uh1_magd]
+s3ds_reticle_size	= 3.9
+s3ds_eye_relief		= 2.4
+s3ds_chroma_power	= 0
+s3ds_reticle_type	= 7
+
+!scope_texture		= wpn_crosshair_uh1_magn
+
+![wpn_ak107_raptor107_usp1]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.24
+magnification		= 4
+
+!scope_texture		= wpn_crosshair_usp1
+
+![wpn_ak107_raptor107_vortex_spitfire]
+s3ds_reticle_size	= 6
+s3ds_eye_relief		= 1.9
+s3ds_exit_pupil		= 0.35
+s3ds_chroma_power	= 0.025
+s3ds_dirt_intensity	= 0.2
+magnification		= 3
+
+![wpn_ak107_raptor107_vulcan]
+s3ds_reticle_size	= 4.5
+s3ds_eye_relief		= 2
+s3ds_exit_pupil		= 0.6
+s3ds_chroma_power	= 0.05
+s3ds_image_type		= 1
+s3ds_reticle_type	= 7
+ms_count			= 2
+magnification		= 3.5
+
+!scope_texture		= wpn_crosshair_vulcan
+
+!nv_scope_status		= 1
+!scope_nightvision	= !scope_nightvision_1gen

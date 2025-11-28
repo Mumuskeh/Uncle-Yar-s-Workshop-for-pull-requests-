@@ -1,69 +1,93 @@
 [up_sect_fiftha_uzi] ; scope
-cost                                     = 2969
-value                                    = +500
-inv_weight                               = +0.05
+cost										= 2969
+value										= +500
+inv_weight									= +0.05
 
 [up_sect_fifthc_uzi]
-cost                                     = 6969
-value                                    = "11.43x23"
-ammo_class                               = ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
-condition_shot_dec                       = +0.0004
-condition_queue_shot_dec                 = +0.0003
-misfire_start_prob                       = 0.0011
-misfire_end_prob                         = 0.012
-rpm                                      = -100
-;shell_particles                          = weapons\45acp ;doesnt work
+cost										= 6969
+value										= "11.43x23"
+ammo_class									= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+condition_shot_dec							= +0.0004
+condition_queue_shot_dec					= +0.0003
+misfire_start_prob							= 0.0011
+misfire_end_prob							= 0.012
+rpm											= -100
+;shell_particles								= weapons\45acp	;doesnt	work
 
 [up_sect_fiftha_uzi_micro]
-cost                                     = 5613
-value                                    = "11.43x23"
-ammo_class                               = ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
-condition_shot_dec                       = +0.0004
-condition_queue_shot_dec                 = +0.0003
-misfire_start_prob                       = 0.0011
-misfire_end_prob                         = 0.012
-rpm                                      = -100
+cost										= 3150
+value										= +15
+
+condition_shot_dec							= -0.00014
+condition_queue_shot_dec					= -0.00014
+misfire_start_prob							= -0.001
+misfire_end_prob							= -0.016
+inv_weight									= +0.15
+
+[up_sect_fifthc_uzi_micro]
+cost										= 5613
+value										= "11.43x23"
+ammo_class									= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+condition_shot_dec							= +0.0004
+condition_queue_shot_dec					= +0.0003
+misfire_start_prob							= 0.0011
+misfire_end_prob							= 0.012
+rpm											= -100
 
 ;----------------------------------------------------------------------------------------------------------------------
 [up_fiftha_uzi]:up_info_type_a
-scheme_index                             = 0, 4
-effects                                  = up_gr_fifthcd_uzi
-section                                  = up_sect_fiftha_uzi
+scheme_index								= 0, 4
+effects										= up_gr_fifthcd_uzi
+section										= up_sect_fiftha_uzi
 
-property                                 = prop_scope_attach
+property									= prop_scope_attach
 
-name                                     = st_up_uzi_rail_name
-description                              = st_up_uzi_rail_descr
-icon                                     = ui_inGame2_upgrade_mount_1
+name										= st_up_uzi_rail_name
+description									= st_up_uzi_rail_descr
+icon										= ui_inGame2_upgrade_mount_1
 
 [up_fifthc_uzi]:up_info_type_a
-scheme_index                             = 1, 6
-effects                                  = 
-section                                  = up_sect_fifthc_uzi
+scheme_index								= 1, 6
+effects										= 
+section										= up_sect_fifthc_uzi
 
-property                                 = prop_calibre
+property									= prop_calibre
 
-name                                     = st_up_cal_1143_name
-description                              = st_up_cal_1143_descr
-icon                                     = ui_inGame2_upgrade_Gadyuka_5_18
+name										= st_up_cal_1143_name
+description									= st_up_cal_1143_descr
+icon										= ui_inGame2_upgrade_Gadyuka_5_18
 
 [up_fiftha_uzi_micro]:up_info_type_a
-scheme_index                             = 0, 4
-effects                                  = 
-section                                  = up_sect_fiftha_uzi_micro
+scheme_index								= 0, 4
+effects										= 
+section										= up_sect_fiftha_uzi_micro
 
-property                                 = prop_calibre
+property									= prop_reliability
 
-name                                     = st_up_cal_1143_name
-description                              = st_up_cal_1143_descr
-icon                                     = ui_inGame2_upgrade_Gadyuka_5_18
+name										= st_up_zat_b4_name
+description									= st_up_zat_b4_descr
+icon										= ui_inGame2_upgrade_Gadyuka_5_6
+
+[up_fifthc_uzi_micro]:up_info_type_a
+scheme_index								= 1, 6
+effects										= up_gr_fifthcd_uzi_micro
+section										= up_sect_fiftha_uzi_micro
+
+property									= prop_calibre
+
+name										= st_up_cal_1143_name
+description									= st_up_cal_1143_descr
+icon										= ui_inGame2_upgrade_Gadyuka_5_18
 
 ;----------------------------------------------------------------------------------------------------------------------
 [up_gr_fifthab_uzi]
-elements                                 = up_fiftha_uzi
+elements									= up_fiftha_uzi
 
 [up_gr_fifthcd_uzi]
-elements                                 = up_fifthc_uzi
+elements									= up_fifthc_uzi
 
 [up_gr_fifthab_uzi_micro]
-elements                                 = up_fiftha_uzi_micro
+elements									= up_fiftha_uzi_micro
+
+[up_gr_fifthcd_uzi_micro]
+elements									= up_fifthc_uzi_micro

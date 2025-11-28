@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp5k">
+		<text>MP5K</text>
+	</string>
+	<string id="st_wpn_mp5k_descr">
+		<text>The MP5K is a compact and highly versatile submachine gun that originated in Germany. Manufactured by Heckler & Koch, it is a shortened version of the iconic MP5, designed for close-quarters combat and concealed carry purposes. The "K" in its name stands for "Kurz," which translates to "short" in German, indicating its compact size. Featuring a lightweight design and a folding stock, the MP5K is renowned for its exceptional accuracy, reliability, and ease of use. It fires 9x19mm Parabellum rounds and has a high rate of fire, making it a favorite among military and law enforcement agencies worldwide. Its compact size and impressive performance make it an ideal choice for special operations units and security forces operating in confined spaces.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most red dot sights for Picatinny/weaver\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Osprey-9mm Suppressor\n</text>
+	</string>
+
+	<string id="st_wpn_mp5k_short">
+		<text>MP5K CQC</text>
+	</string>
+	<string id="st_wpn_mp5k_short_descr">
+		<text>The MP5K is a compact and highly versatile submachine gun that originated in Germany. Manufactured by Heckler & Koch, it is a shortened version of the iconic MP5, designed for close-quarters combat and concealed carry purposes. The "K" in its name stands for "Kurz," which translates to "short" in German, indicating its compact size. Featuring a lightweight design and a folding stock, the MP5K is renowned for its exceptional accuracy, reliability, and ease of use. It fires 9x19mm Parabellum rounds and has a high rate of fire, making it a favorite among military and law enforcement agencies worldwide. Its compact size and impressive performance make it an ideal choice for special operations units and security forces operating in confined spaces.\n
+		Stock removed for one handed operations.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most red dot sights for Picatinny/weaver\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Osprey-9mm Suppressor</text>
+	</string>
+
+</string_table>

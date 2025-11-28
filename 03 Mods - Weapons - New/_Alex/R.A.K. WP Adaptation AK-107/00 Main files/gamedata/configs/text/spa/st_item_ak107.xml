@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak107">
+		<text>AK 107</text>
+	</string>
+	<string id="st_wpn_ak107_descr">
+		<text>El fusil de asalto Alexandrov-Kalashnikov AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Cuenta con sistema. de automatizacion balanceada usado previamente en los modelos AL-7 y AEK-971. Este sistema. mejora la precision en rafagas desde posiciones inestables en un 15-20% comparado con el AK74M, aunque posteriormente se abandono este sistema.. En 2011, IZHMASH mostro una version mejorada del AK-107 como posible reemplazo del AK74M, eliminando el sistema. balanceado y anadiendo una nueva cubierta con riel Picatinny integrado para miras opticas, junto con una mira dioptrica ajustable que reemplaza la mira abierta tradicional con muesca en U.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[ui_gray_2] Silenciador: Rotor-43\n
+		%c[ui_gray_2] Miras: Riel Picatinny/Weaver y Dovetail\n
+		%c[ui_gray_2] Lanzagranadas: GP-25 "Kostyor"\n \n</text>
+	</string>
+
+	<string id="st_wpn_ak107_custom">
+		<text>AK 107 "Custom"</text>
+	</string>
+	<string id="st_wpn_ak107_custom_descr">
+		<text>El fusil de asalto Alexandrov-Kalashnikov AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Cuenta con sistema. de automatizacion balanceada usado previamente en los modelos AL-7 y AEK-971. Este sistema. mejora la precision en rafagas desde posiciones inestables en un 15-20% comparado con el AK74M, aunque posteriormente se abandono este sistema. En 2011, IZHMASH mostro una version mejorada del AK-107 como posible reemplazo del AK74M, eliminando el sistema. balanceado y anadiendo una nueva cubierta con riel Picatinny integrado para miras opticas, junto con una mira dioptrica ajustable que reemplaza la mira abierta tradicional con muesca en U.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[ui_gray_2] Silenciador: Rotor-43\n
+		%c[ui_gray_2] Miras: Riel Picatinny/Weaver y Dovetail\n
+		%c[ui_gray_2] Lanzagranadas: No\n \n</text>
+	</string>
+
+	<string id="st_wpn_ak107_raptor">
+		<text>AK 107 "Raptor"</text>
+	</string>
+	<string id="st_wpn_ak107_raptor_descr">
+		<text>El fusil de asalto Alexandrov-Kalashnikov AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Cuenta con sistema. de automatizacion balanceada usado previamente en los modelos AL-7 y AEK-971. Este sistema. mejora la precision en rafagas desde posiciones inestables en un 15-20% comparado con el AK74M, aunque posteriormente se abandono este sistema. En 2011, IZHMASH mostro una version mejorada del AK-107 como posible reemplazo del AK74M, eliminando el sistema. balanceado y anadiendo una nueva cubierta con riel Picatinny integrado para miras opticas, junto con una mira dioptrica ajustable que reemplaza la mira abierta tradicional con muesca en U.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[ui_gray_2] Silenciador: Rotor-43\n
+		%c[ui_gray_2] Miras: Riel Picatinny/Weaver y Dovetail\n
+		%c[ui_gray_2] Lanzagranadas: No\n \n</text>
+	</string>
+
+	<string id="st_wpn_ak107_chaser">
+		<text>AK 107 "Chaser"</text>
+	</string>
+	<string id="st_wpn_ak107_chaser_descr">
+		<text>El fusil de asalto Alexandrov-Kalashnikov AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Cuenta con sistema. de automatizacion balanceada usado previamente en los modelos AL-7 y AEK-971. Este sistema. mejora la precision en rafagas desde posiciones inestables en un 15-20% comparado con el AK74M, aunque posteriormente se abandono este sistema. En 2011, IZHMASH mostro una version mejorada del AK-107 como posible reemplazo del AK74M, eliminando el sistema. balanceado y anadiendo una nueva cubierta con riel Picatinny integrado para miras opticas, junto con una mira dioptrica ajustable que reemplaza la mira abierta tradicional con muesca en U.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[ui_gray_2] Silenciador: Rotor-43\n
+		%c[ui_gray_2] Miras: Riel Picatinny/Weaver y Dovetail\n
+		%c[ui_gray_2] Lanzagranadas: No\n \n</text>
+	</string>
+
+	<string id="st_wpn_ak107_ranger">
+		<text>AK 107 "Ranger"</text>
+	</string>
+	<string id="st_wpn_ak107_ranger_descr">
+		<text>El fusil de asalto Alexandrov-Kalashnikov AK-107 fue desarrollado en la Fabrica de Maquinaria de Izhevsk basado en el AK74M. Pertenece a la "serie 100" de fusiles AK. Cuenta con sistema. de automatizacion balanceada usado previamente en los modelos AL-7 y AEK-971. Este sistema. mejora la precision en rafagas desde posiciones inestables en un 15-20% comparado con el AK74M, aunque posteriormente se abandono este sistema. En 2011, IZHMASH mostro una version mejorada del AK-107 como posible reemplazo del AK74M, eliminando el sistema. balanceado y anadiendo una nueva cubierta con riel Picatinny integrado para miras opticas, junto con una mira dioptrica ajustable que reemplaza la mira abierta tradicional con muesca en U.\n
+                      Esta version ha sido modificada con el kit "Ranger" para uso nocturno mediante cambio de calibre e instalacion de mira optica mejorada con vision termica, ademas de incluir camuflaje para operaciones en la Zona de Exclusion de Chernobil.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[ui_gray_2] Silenciador: Rotor-43\n
+		%c[ui_gray_2] Miras: Mira optica integrada con vision termica\n
+		%c[ui_gray_2] Lanzagranadas: No\n \n</text>
+	</string>
+</string_table>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mp133_short">
+		<text>MP-133 (Obrez)</text>
+	</string>
+	<string id="st_wpn_mp133_obrez_descr">
+		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets.\n
+		This particular firearm was cut down for concealability at the cost of increased recoil and less accuracy.</text>
+	</string>
+
+	<string id="st_wpn_mp153_short">
+		<text>MP-153 (Obrez)</text>
+	</string>
+	<string id="st_wpn_mp153_obrez_descr">
+		<text>The MP-153 self-loading shotgun was the first semi-automatic shotgun designed and manufactured by Izhevsk Mechanical Plant. It was developed along with the pump action MP-133 shotgun and shares many parts and assemblies with it.\n
+		This particular firearm was cut down for concealability at the cost of increased recoil and less accuracy.</text>
+	</string>
+
+</string_table>

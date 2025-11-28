@@ -1,0 +1,71 @@
+![wpn_vulcan_m]
+>scopes	= devo, vulcan
+
+;_________________________________________ Devo (ATHI) [3DSS+PRS Only] ____________________________________________
+[wpn_vulcan_m_devo]:wpn_vulcan_m
+1icon_layer		= devo
+1icon_layer_x	= 96
+1icon_layer_y	= -24
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_vulcan_m_devo_hud
+!visual			= dynamics\weapons\wpn_vulcan_m\wpn_vulcan_m_devo_world.ogf
+zoom_step_count	= 1
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= on
+
+scope_texture		= wpn_crosshair_devo
+
+use_alt_aim_hud		= true
+;---------------------------------------------------------------------------------------
+[wpn_vulcan_m_devo_hud]:wpn_vulcan_m_hud
+item_visual	= anomaly_weapons\wpn_vulcan_m\wpn_vulcan_m_devo_hud.ogf
+
+aim_hud_offset_pos		= 0.025869, -0.000944, -0.00726
+aim_hud_offset_pos_16x9	= 0.025869, -0.000944, -0.00726
+aim_hud_offset_rot		= 0.002217, 0.004585, 0
+aim_hud_offset_rot_16x9	= 0.002217, 0.004585, 0	
+
+aim_hud_offset_alt_pos		= 0.025757, -0.013581, 0
+aim_hud_offset_alt_pos_16x9	= 0.025757, -0.013581, 0
+aim_hud_offset_alt_rot		= 0.000994, 0.005927, 0
+aim_hud_offset_alt_rot_16x9	= 0.000994, 0.005927, 0
+
+;_________________________________________ Vulcan (ATHI) [3DSS Only] ____________________________________________
+[wpn_vulcan_m_vulcan]:wpn_vulcan_m
+1icon_layer		= vulcan
+1icon_layer_x	= 81
+1icon_layer_y	= -26
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+hud				= wpn_vulcan_m_vulcan_hud
+!visual			= dynamics\weapons\wpn_vulcan_m\wpn_vulcan_m_vulcan_world.ogf
+zoom_step_count	= 1
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= off
+
+scope_texture	= wpn_crosshair_vulcan
+
+!nv_scope_status   = 1
+!scope_nightvision = !scope_nightvision_1gen
+
+;---------------------------------------------------------------------------------------
+[wpn_vulcan_m_vulcan_hud]:wpn_vulcan_m_hud
+item_visual	= anomaly_weapons\wpn_vulcan_m\wpn_vulcan_m_vulcan_hud.ogf
+
+aim_hud_offset_pos		= 0.026129, -0.012938, 0.008533
+aim_hud_offset_pos_16x9	= 0.026129, -0.012938, 0.008533
+aim_hud_offset_rot		= 0.002624, 0.005859, 0
+aim_hud_offset_rot_16x9	= 0.002624, 0.005859, 0

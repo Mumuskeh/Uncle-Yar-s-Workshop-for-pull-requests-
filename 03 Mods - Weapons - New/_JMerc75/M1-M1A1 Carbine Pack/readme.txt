@@ -1,5 +1,6 @@
 -Module:
 M1-M1A1 Carbine Pack [JMerc] 
+A Gamma mod, but available in their Discord server.
 
 ----------------------------------------------------------
 -Compatibility:

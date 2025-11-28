@@ -4,6 +4,29 @@
 ;;;;;;; OTHER MODS
 
 
+; ALEX 	============	============	============	============
+
+![wpn_ak107]
+$spawn			= "weapons\ak107"
+fire_distance	= 500 ; 1000
+![wpn_ak107_chaser107]
+$spawn			= "weapons\ak107_chaser107"
+![wpn_ak107_custom107]
+$spawn			= "weapons\ak107_custom107"
+![wpn_ak107_ranger107]
+$spawn			= "weapons\ak107_ranger107"
+;still gotta decide the range of 7.62
+fire_distance	= 1000
+![wpn_ak107_raptor107]
+$spawn			= "weapons\ak107_raptor107"
+
+![wpn_vulcan_m]
+$spawn			= "weapons\vulcan_m"
+inv_weight		= 3.8 ; 4.500
+fire_distance	= 500 ; 1000
+rpm				= 660 ; 600
+
+
 ;ATHIS 	============	============	============	============
 
 ;AK101 SP
@@ -65,27 +88,6 @@ $spawn			= "weapons\sig_spear_6.8x51_tan"
 parent_section	= wpn_sig_spear_6.8x51_tan
 bullet_speed	= 915 ; 802
 
-;TWCP
-![wpn_mk47]
-inv_weight		= 3.17 ; 3.26
-; hit_impulse				= 25
-; hit_power				= 0.49, 0.49, 0.49, 0.49
-fire_distance	= 800 ; 1000
-; bullet_speed			= 880
-; rpm						= 650
-
-![wpn_mp155]
-$spawn		= "weapons\mp155"
-fire_distance	= 100 ; 300
-
-![wpn_rpk74_16_drum]
-;changes based on those for BaS' RPK 16
-$spawn			= "weapons\rpk74_16_drum"
-cost			= 60980
-fire_distance	= 750 ; 1000
-bullet_speed	= 960
-rpm				= 700
-
 
 ;BELI FOSFOR 	============	============	============	============
 
@@ -116,6 +118,27 @@ rpm				= 120
 fire_distance	= 175
 bullet_speed	= 350
 rpm				= 120
+
+;Desert Tech MDR
+![wpn_dtmdr] ; 5.56x45
+inv_weight		= 3.72 ; 3.77
+fire_distance	= 600
+bullet_speed	= 960 ; 880
+rpm				= 625 ; 650
+
+![wpn_dtmdr_black] ; 7.62x51
+$spawn			= "weapons\dtmdr_black"
+inv_weight		= 3.83 ; 3.77
+fire_modes		= 1 ; 1, -1
+fire_distance	= 900 ; 1100
+rpm				= 625 ; 650
+
+;MSBS Grot
+![wpn_grot]
+inv_weight		= 3.55 ; 3.4
+fire_distance	= 500 ; 1000
+bullet_speed	= 870 ; 890
+rpm				= 800 ; 750
 
 ;Sten
 ![wpn_sten]
@@ -200,20 +223,17 @@ $spawn			= "weapons\type56"
 fire_distance	= 500 ; 900
 bullet_speed	= 735; 715
 rpm				= 650 ; 600
-
 ![wpn_type56_1]
 $spawn			= "weapons\type56_1"
 fire_distance	= 500 ; 900
 bullet_speed	= 735; 715
 rpm				= 650 ; 600
-
 ![wpn_type56_2]
 $spawn			= "weapons\type56_2"
 inv_weight		= 3.9 ; 3.6
 fire_distance	= 500 ; 900
 bullet_speed	= 735; 715
 rpm				= 650 ; 600
-
 ![wpn_type81]
 $spawn			= "weapons\type81"
 inv_weight		= 3.4 ; 3.3
@@ -292,6 +312,16 @@ hit_power		= 3.0 ; 2.7, 2.7, 2.7, 2.7
 fire_distance	= 1800
 bullet_speed	= 853
 rpm				= 100
+
+
+;; Dionisiy9x39  ============ ============ ============ ============
+
+;Scorpion EVO 3
+![wpn_scorpion_evo]
+inv_weight		= 2.6 ; 2.9
+fire_distance	= 200 ; 400
+bullet_speed	= 370 ; 402
+rpm				= 1150 ; 800
 
 
 ;;FIREBREATH 	============	============	============	============
@@ -404,7 +434,7 @@ fire_distance	= 100
 ; bullet_speed	= 240
 ; rpm				= 320
 
-;Samurai edge, sure, private custom guns from a the other side of the world, why not :_D
+;Samurai edge, sure, private custom guns from the other side of the world, why not :_D
 ![wpn_sam_edge]
 $spawn			= "weapons\sam_edge"
 shell_particles	= weapons\9x19
@@ -503,6 +533,24 @@ fire_distance	= 350 ; 800
 bullet_speed	= 525 ; 700
 rpm				= 400 ; 520
 
+;MP5K
+![wpn_mp5k]
+$spawn			= "weapons\mp5k"
+inv_weight		= 1.99 ; 3.1
+silencer_name	= ; wpn_sil_osp9
+silencer_status	= 0 ; 2
+fire_distance	= 200 ; 500
+bullet_speed	= 375 ; 450
+rpm				= 900 ; 1000
+![wpn_mp5k_short]
+$spawn			= "weapons\mp5k_short"
+inv_weight		= 1.5
+silencer_name	= ; wpn_sil_osp9
+silencer_status	= 0 ; 2
+fire_distance	= 200 ; 500
+bullet_speed	= 375 ; 450
+rpm				= 900 ; 1000
+
 ;MP9
 ; Holy shit what's this about making a 9mm smg hit like a rifle? For a pistol slot? "slightly reduced damage" my ass
 ![wpn_mp9_n]
@@ -511,7 +559,6 @@ slot			= 2
 ef_main_weapon_type	= 2
 ef_weapon_type	= 6
 single_handed	= 0
-inv_weight		= 1.4
 cost			= 24410
 hit_impulse		= 24
 hit_power		= 0.47, 0.47, 0.47, 0.47
@@ -629,11 +676,11 @@ $spawn			= "weapons\akvs"
 ![wpn_akvs2]
 $spawn			= "weapons\akvs2"
 ![wpn_ots12]
-$spawn			= "weapons\wpn_ots12"
+$spawn			= "weapons\ots12"
 ![wpn_ots12v2]
-$spawn			= "weapons\wpn_ots12v2"
+$spawn			= "weapons\ots12v2"
 ![wpn_ots12v2s]
-$spawn			= "weapons\wpn_ots12v2s"
+$spawn			= "weapons\ots12v2s"
 
 
 ;;LEWD 	============	============	============	============
@@ -669,6 +716,25 @@ fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1050
 
+![wpn_50bmg_deagle]
+$spawn			= "weapons\50bmg_deagle"
+![wpn_50bmg_deagle_tac]
+$spawn			= "weapons\50bmg_deagle_tac"
+
+![wpn_groza_duty]
+fire_distance	= 650 ; 600
+
+![wpn_sig552_tactical]
+fire_distance	= 350
+bullet_speed	= 725
+rpm				= 700
+
+![wpn_thompsonmodern]
+$spawn			= "weapons\thompsonmodern"
+
+![wpn_type64]
+$spawn			= "weapons\type64"
+
 
 ;;LILJMA 	============	============	============	============
 
@@ -678,6 +744,7 @@ $spawn			= "weapons\p320"
 fire_distance	= 100
 bullet_speed	= 762
 rpm				= 600
+
 
 ;;MAID 	============	============	============	============
 
@@ -709,28 +776,6 @@ $spawn			= "weapons\type89"
 inv_weight		= 3.5 ; 4.06
 fire_distance	= 500 ; 1000
 bullet_speed	= 920 ; 910
-
-
-;LEWD 	============	============	============	============
-
-![wpn_50bmg_deagle]
-$spawn			= "weapons\50bmg_deagle"
-![wpn_50bmg_deagle_tac]
-$spawn			= "weapons\50bmg_deagle_tac"
-
-![wpn_groza_duty]
-fire_distance	= 650 ; 600
-
-![wpn_sig552_tactical]
-fire_distance	= 350
-bullet_speed	= 725
-rpm				= 700
-
-![wpn_thompsonmodern]
-$spawn			= "weapons\thompsonmodern"
-
-![wpn_type64]
-$spawn			= "weapons\type64"
 
 
 ;ONEROCK 	============	============	============	============
@@ -917,8 +962,7 @@ rpm				= 850 ; 770
 ![wpn_gm6]
 inv_weight		= 10.5 ; 11.5
 
-
-;Kiparis
+;OC-02 Kiparis + PP-91-01 Kedr-B
 ![wpn_kiparis_saw]
 inv_weight		= 1.75
 
@@ -931,6 +975,11 @@ rpm				= 1000
 ![wpn_kilo141]
 ; hit_impulse						= 25
 ; hit_power						= 0.485, 0.485, 0.485, 0.485
+fire_distance	= 500 ; 1000
+bullet_speed	= 800 ; 832
+rpm				= 850 ; 700
+; In case you use my patches
+![wpn_hk433]
 fire_distance	= 500 ; 1000
 bullet_speed	= 800 ; 832
 rpm				= 850 ; 700
@@ -1002,6 +1051,35 @@ rpm				= 975
 $spawn			= "weapons\pl14"
 fire_distance	= 100
 
+
+;; 	============	============	============	============
+;TWCP
+![wpn_mk47]
+inv_weight		= 3.17 ; 3.26
+hit_impulse		= 34
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 800 ; 1000
+; bullet_speed			= 880
+; rpm						= 650
+
+![wpn_mp155]
+$spawn			= "weapons\mp155"
+parent_section	= wpn_mp155
+fire_distance	= 100 ; 300
+
+;changes based on those for BaS' RPK 16
+![wpn_rpk16]
+$spawn			= "weapons\rpk16"
+cost			= 60980
+fire_distance	= 750 ; 1000
+bullet_speed	= 960
+rpm				= 700
+![wpn_rpk74_16_drum]
+$spawn			= "weapons\rpk74_16_drum"
+cost			= 60980
+fire_distance	= 750 ; 1000
+bullet_speed	= 960
+rpm				= 700
 
 
 

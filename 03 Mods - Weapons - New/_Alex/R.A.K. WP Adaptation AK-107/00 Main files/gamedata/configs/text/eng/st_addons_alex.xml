@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_alt_aim_low">
+		<text>Side mount with Aim Low sight</text>
+	</string>
+	<string id="st_addon_alt_aim_low_descr">
+		<text>Modification module for installing secondary Aim Low sight with low-profile mount. Improves effectiveness with optics. CANNOT BE REMOVED after installation.\n \n</text>
+	</string>
+
+	<string id="st_addon_alt_deltapoint">
+		<text>Side mount with Deltapoint sight</text>
+	</string>
+	<string id="st_addon_alt_deltapoint_descr">
+		<text>Modification module for installing secondary Deltapoint sight with low-profile mount. Improves effectiveness with optics. CANNOT BE REMOVED after installation.\n \n</text>
+	</string>
+
+	<string id="st_addon_alt_docter">
+		<text>Side mount with Docter Sight III</text>
+	</string>
+	<string id="st_addons_alt_docter_descr">
+		<text>Modification module for installing secondary Docter Sight III with low-profile mount. Improves effectiveness with optics. CANNOT BE REMOVED after installation.\n \n</text>
+	</string>
+
+	<string id="st_addon_alt_rmr">
+		<text>Side mount with RMR sight</text>
+	</string>
+	<string id="st_addon_alt_rmr_descr">
+		<text>Modification module for installing secondary RMR sight with low-profile mount. Improves effectiveness with optics. CANNOT BE REMOVED after installation.\n \n</text>
+	</string>
+
+	<string id="st_addon_chaser107">
+		<text>AK-107 "Chaser" modification kit</text>
+	</string>
+	<string id="st_addon_chaser107_descr">
+		<text>Complete modification kit for AK-107 designed for maximum effectiveness against multiple targets. CANNOT BE REMOVED after installation.\n
+		%c[ui_gray_2] 95-round drum magazine\n
+		%c[ui_gray_2] Tactical handguard for accessories\n
+		%c[ui_gray_2] Tactical foregrip\n
+		%c[ui_gray_2] Laser aiming module\n
+		%c[ui_gray_2] Magpul telescopic stock\n
+		%c[ui_gray_2] Rotor 43 suppressor cover\n
+		%c[ui_gray_2] RK-1 bolt attachment\n
+		%c[ui_gray_2] Enhanced muzzle brake\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_custom107">
+		<text>AK-107 "Custom" modification kit</text>
+	</string>
+	<string id="st_addon_custom107_descr">
+		<text>Complete modification kit for AK-107 optimized for ergonomics and anti-personnel use. CANNOT BE REMOVED after installation.\n
+		%c[ui_gray_2] 45-round extended magazine\n
+		%c[ui_gray_2] Tactical handguard for accessories\n
+		%c[ui_gray_2] Magpul pistol grip\n
+		%c[ui_gray_2] Laser aiming module\n
+		%c[ui_gray_2] Magpul telescopic stock\n
+		%c[ui_gray_2] Rotor 43 suppressor cover\n
+		%c[ui_gray_2] RK-1 bolt attachment\n
+		%c[ui_gray_2] Tritium night sights\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_raptor107">
+		<text>AK-107 "Raptor" modification kit</text>
+	</string>
+	<string id="st_addon_raptor107_descr">
+		<text>Complete modification kit for AK-107 optimized for multi-target engagement and improved ergonomics. CANNOT BE REMOVED after installation.\n
+		%c[ui_gray_2] 60-round quad-stack magazine\n
+		%c[ui_gray_2] Tactical handguard for accessories\n
+		%c[ui_gray_2] Magpul pistol grip\n
+		%c[ui_gray_2] Laser aiming module\n
+		%c[ui_gray_2] Magpul telescopic stock\n
+		%c[ui_gray_2] Rotor 43 suppressor cover\n
+		%c[ui_gray_2] RK-1 bolt attachment\n
+		%c[ui_gray_2] Enhanced muzzle brake\n \n
+		</text>
+	</string>
+
+	<string id="st_addon_ranger107">
+		<text>AK-107 "Ranger" modification kit</text>
+	</string>
+	<string id="st_addon_ranger107_descr">
+		<text>Complete modification kit for AK-107 featuring caliber conversion and specialized night operations configuration with thermal optics. CANNOT BE REMOVED after installation.\n
+		%c[ui_gray_2] 30-round 7.62x39 magazine\n
+		%c[ui_gray_2] Tactical handguard for accessories\n
+		%c[ui_gray_2] Magpul pistol grip\n
+		%c[ui_gray_2] Camouflage wrap for optics/handguard/suppressor\n
+		%c[ui_gray_2] Magpul telescopic stock\n
+		%c[ui_gray_2] Optical sight with thermal vision attachment\n
+		%c[ui_gray_2] RK-1 bolt attachment\n \n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_vulcan_st2">
+		<text>Vulcan-M «Maliuk»</text>
+	</string>
+	<string id="st_wpn_vulcan_st2_descr">
+		<text>Vulkan-M, o «Maliuk» — rifle de asalto de produccion ucraniana con configuracion bullpup. Es una version profundamente modernizada del rifle de asalto Kalashnikov. Una de las variantes del rifle de asalto «Vepr».El rifle esta equipado con un riel Picatinny en el cajon de mecanismos, una palanca de liberacion del cargador detras del gatillo, una nueva empunadura de control de fuego y un boton de seguro sobre la guarda del gatillo, delante del gatillo. Se han realizado una serie de cambios en el diseno del cajon de mecanismos, el canon, el portacerrojo, el piston de gas y el mecanismo de disparo.Adoptado por las Fuerzas Armadas de Ucrania en 2017 bajo el nombre de rifle de asalto especial «Vulkan».El desarrollo del rifle comenzo en 2005 con la participacion de especialistas de la empresa OOO «Interproinvest» teniendo en cuenta la experiencia obtenida en el desarrollo de los rifles de asalto «Vepr». El primer modelo experimental recibio el nombre de «Vulkan».\n
+
+El segundo prototipo, en cuyo diseno se incorporaron 12 cambios y mejoras (eyector de casquillos gastados ajustable, liberacion del cargador detras del gatillo, miras mecanicas desmontables, posibilidad de montar un silenciador, montura para bipodes desmontables) recibio el nombre de «Maliuk». Se fabrico un ejemplar de demostracion.\n
+
+En enero de 2015 el rifle se mostro nuevamente — en el campo de entrenamiento de Goncharovsky en la region de Chernihiv, esta vez con una mira de colimador montada en la tapa del cajon de mecanismos.\n
+
+En la exposicion «Armas y Seguridad 2018» se presento una version actualizada del rifle. Entre otras cosas, adquirio un selector de fuego ambidiestro ergonomico, que hizo que el uso del rifle fuera igualmente comodo tanto para «diestros» como para «zurdos»; un revestimiento aplicado en las piezas y componentes del rifle, que ademas de hacer mas comodo el manejo, tambien prolonga su ciclo de vida; un nuevo mecanismo de disparo mejorado, cuyo uso permitio aumentar la cadencia de fuego a 700 disparos/min. El «Maliuk» actualizado tambien recibio un nuevo canon con mas estrias, lo que mejoro los indicadores de agrupacion y precision.\n
+
+El 3 de octubre de 2017 en una rueda de prensa en el Centro de Medios de Crisis Ucraniano, el representante del Ministerio de Defensa Dmitro Gutsuliak informo que los rifles de asalto especiales «Vulkan» fueron adoptados por las Fuerzas Armadas de Ucrania.
+
+Fue utilizado durante las operaciones militares en el este de Ucrania por una de las unidades de las SSO[3], asi como durante las operaciones militares en Ucrania por soldados de las Fuerzas Armadas de Ucrania.\n \n
+		%c[ui_gray_2]Accesorios: \n
+		%c[d_purple] • %c[ui_gray_2] Silenciador:ATH\n
+		%c[d_purple] • %c[ui_gray_2] Miras:Riel Picatinny Weaver\n
+		%c[d_purple] • %c[ui_gray_2] Lanzagranadas:No\n \n</text>
+	</string>
+</string_table>

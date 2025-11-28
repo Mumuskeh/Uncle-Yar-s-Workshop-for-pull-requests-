@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_knife_grandpa">
+		<text>Grandpa's Old Knife</text>
+	</string>
+	<string id="st_knife_grandpa_descr">
+		<text>\n \n%c[ui_gray_1]A simple, well-worn pocket knife that's seen decades of use. The worn wooden handle fits comfortably in the palm, and the carbon steel blade, though slightly rusty, still holds a decent edge. This humble tool has probably cut more bread and whittled more wood than it's seen combat, but in a pinch, it'll do the job.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] reliable and simple design\n
+		%c[d_blue] • %c[ui_gray_2] lightweight and easy to carry\n
+		%c[d_blue] • %c[ui_gray_2] decent for everyday tasks\n
+		%c[d_red] • %c[d_red] not ideal for serious combat\n
+		%c[d_red] • %c[d_red] shows its age with reduced effectiveness</text>
+	</string>
+</string_table>

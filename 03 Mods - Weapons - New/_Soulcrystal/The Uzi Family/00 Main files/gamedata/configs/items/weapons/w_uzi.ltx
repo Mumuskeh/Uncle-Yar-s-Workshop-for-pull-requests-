@@ -10,7 +10,6 @@ snd_reload_misfire				= weapons\uzi\uzi_unjam
 scripted_snd_bore				= weapons\uzi\uzi_inspect
 scripted_snd_ammo_check			= weapons\uzi\uzi_magcheck
 scripted_snd_ammo_check_empty	= weapons\uzi\uzi_magcheck
-
 ;------------------------------------------------------------------------------------------------
 [wpn_uzi]:identity_immunities,weapon_probability,default_weapon_params,wpn_uzi_sounds
 GroupControlSection				= spawn_group
@@ -181,7 +180,6 @@ kill_msg_height					= 23
 
 script_binding					= hidebone_uzi_upgrade.bind
 
-
 [wpn_uzi_hud]:hud_base
 item_visual						= anomaly_weapons\wpn_uzi\wpn_uzi_hud.ogf
 attach_place_idx				= 0
@@ -213,9 +211,7 @@ lowered_hud_offset_rot_16x9		= 0.1, -0.5, 0.15
 lean_hud_offset_pos				= 0, 0, 0
 lean_hud_offset_rot				= 0, 0, 0
 
-
 ; anm
-
 anm_bore						= h_uzi_inspect, uzi_inspect
 anm_bore_empty					= h_uzi_inspect, uzi_inspect_empty
 
@@ -247,7 +243,6 @@ anm_ammo_check					= h_uzi_magcheck, uzi_magcheck
 anm_ammo_check_empty			= h_uzi_magcheck, uzi_magcheck_empty
 
 ; trans
-
 anm_idle_aim_start		= h_uzi_idle2aim, uzi_idle, 1.15
 anm_idle_aim_end		= h_uzi_aim2idle, uzi_aim2idle, 1.15
 
@@ -261,9 +256,7 @@ anm_sprint2idle			= h_uzi_sprint2idle, uzi_sprint2idle, 1.225
 ts_pattern_sprint2aim	= ^anm_idle_sprint.*, ^anm_idle_aim.*, anm_sprint2aim, 2
 anm_sprint2aim			= h_uzi_sprint2aim, uzi_idle, 1.1
 
-
 ; random shit
-
 shell_bone					= wpn_body
 shell_point					= 0, 0, -10
 
@@ -282,14 +275,12 @@ shooting_ret_aim_speed		= 7.5
 
 freelook_z_offset_mul		= 0.4
 
-
 [wpn_uzi_ac10632]:wpn_uzi
 hud							= wpn_uzi_ac10632_hud
 
 1icon_layer					= ac10632
 1icon_layer_x				= 19
 1icon_layer_y				= -14
-
 
 inv_weight					= 3.615 ; 3.5 + 0.115
 
@@ -298,7 +289,6 @@ item_visual					= anomaly_weapons\wpn_uzi\wpn_uzi_ac10632_hud.ogf
 
 aim_hud_offset_pos			= -0.0876, 0.008, -0.065
 aim_hud_offset_pos_16x9		= -0.0876, 0.008, -0.065
-
 
 
 ;------------------------------------------------------------------------------------------------
@@ -474,88 +464,84 @@ snd_draw						= weapons\uzi\uzi_mini_draw
 script_binding					= hidebone_uzi_upgrade.bind
 
 [wpn_uzi_mini_hud]:hud_base
-item_visual						= anomaly_weapons\wpn_uzi\wpn_uzi_mini_hud.ogf
-attach_place_idx				= 0
-zoom_hide_crosshair				= true
+item_visual					= anomaly_weapons\wpn_uzi\wpn_uzi_mini_hud.ogf
+attach_place_idx			= 0
+zoom_hide_crosshair			= true
 
-item_position					= 0, 0, 0
-item_orientation				= 0, 0, 0
+item_position				= 0, 0, 0
+item_orientation			= 0, 0, 0
 
-hands_position					= 0, 0, 0
-hands_position_16x9				= 0, 0, 0
-hands_orientation				= 0, 0, 0
-hands_orientation_16x9			= 0, 0, 0
+hands_position				= 0, 0, 0
+hands_position_16x9			= 0, 0, 0
+hands_orientation			= 0, 0, 0
+hands_orientation_16x9		= 0, 0, 0
 
-aim_hud_offset_pos				= -0.0876, 0.0305, -0.065
-aim_hud_offset_pos_16x9			= -0.0876, 0.0305, -0.065
-aim_hud_offset_rot				= 0.018, 0.00075, -0.0225
-aim_hud_offset_rot_16x9			= 0.018, 0.00075, -0.0225
+aim_hud_offset_pos			= -0.0876, 0.0305, -0.065
+aim_hud_offset_pos_16x9		= -0.0876, 0.0305, -0.065
+aim_hud_offset_rot			= 0.018, 0.00075, -0.0225
+aim_hud_offset_rot_16x9		= 0.018, 0.00075, -0.0225
 
-gl_hud_offset_pos				= 0, 0, 0
-gl_hud_offset_pos_16x9			= 0, 0, 0
-gl_hud_offset_rot				= 0, 0, 0
-gl_hud_offset_rot_16x9			= 0, 0, 0
+gl_hud_offset_pos			= 0, 0, 0
+gl_hud_offset_pos_16x9		= 0, 0, 0
+gl_hud_offset_rot			= 0, 0, 0
+gl_hud_offset_rot_16x9		= 0, 0, 0
 
-lowered_hud_offset_pos			= 0.04, 0, -0.01
-lowered_hud_offset_pos_16x9		= 0.04, 0, -0.01
-lowered_hud_offset_rot			= 0.1, -0.5, 0.15
-lowered_hud_offset_rot_16x9		= 0.1, -0.5, 0.15
+lowered_hud_offset_pos		= 0.04, 0, -0.01
+lowered_hud_offset_pos_16x9	= 0.04, 0, -0.01
+lowered_hud_offset_rot		= 0.1, -0.5, 0.15
+lowered_hud_offset_rot_16x9	= 0.1, -0.5, 0.15
 
-lean_hud_offset_pos				= 0, 0, 0
-lean_hud_offset_rot				= 0, 0, 0
-
+lean_hud_offset_pos			= 0, 0, 0
+lean_hud_offset_rot			= 0, 0, 0
 
 ; anm
+anm_bore					= h_uzi_mini_inspect, uzi_mini_idle
+anm_bore_empty				= h_uzi_mini_inspect, uzi_mini_idle_empty
 
-anm_bore						= h_uzi_mini_inspect, uzi_mini_idle
-anm_bore_empty					= h_uzi_mini_inspect, uzi_mini_idle_empty
+anm_show					= h_uzi_mini_draw, uzi_mini_draw
+anm_show_empty				= h_uzi_mini_draw, uzi_mini_draw_empty
+anm_hide					= h_uzi_mini_holster, uzi_mini_holster
 
-anm_show						= h_uzi_mini_draw, uzi_mini_draw
-anm_show_empty					= h_uzi_mini_draw, uzi_mini_draw_empty
-anm_hide						= h_uzi_mini_holster, uzi_mini_holster
+anm_idle					= h_uzi_mini_idle, uzi_mini_idle
+anm_idle_aim				= h_uzi_mini_idle_aim, uzi_mini_idle
+anm_idle_moving				= h_uzi_mini_walk, uzi_mini_idle
+anm_idle_moving_crouch		= h_uzi_mini_walk, uzi_mini_idle, 0.7
+anm_idle_sprint				= h_uzi_mini_sprint, uzi_mini_idle, 1.225
+anm_idle_lowered			= h_uzi_mini_idle_lowered, uzi_mini_idle
 
-anm_idle						= h_uzi_mini_idle, uzi_mini_idle
-anm_idle_aim					= h_uzi_mini_idle_aim, uzi_mini_idle
-anm_idle_moving					= h_uzi_mini_walk, uzi_mini_idle
-anm_idle_moving_crouch			= h_uzi_mini_walk, uzi_mini_idle, 0.7
-anm_idle_sprint					= h_uzi_mini_sprint, uzi_mini_idle, 1.225
-anm_idle_lowered				= h_uzi_mini_idle_lowered, uzi_mini_idle
+anm_reload					= h_uzi_mini_reload, uzi_mini_reload
+anm_reload_empty			= h_uzi_mini_reload_empty, uzi_mini_reload_empty
 
-anm_reload						= h_uzi_mini_reload, uzi_mini_reload
-anm_reload_empty				= h_uzi_mini_reload_empty, uzi_mini_reload_empty
+anm_shots					= h_uzi_mini_shoot, uzi_mini_shoot
+anm_shots_variant1			= h_uzi_mini_shoot, uzi_mini_shoot1
+anm_shots_variant2			= h_uzi_mini_shoot, uzi_mini_shoot2
+anm_shots_variant3			= h_uzi_mini_shoot, uzi_mini_shoot3
+anm_shots_aim				= h_uzi_mini_shoot_aim, uzi_mini_shoot
+anm_shots_aim_variant1		= h_uzi_mini_shoot_aim, uzi_mini_shoot1
+anm_shots_aim_variant2		= h_uzi_mini_shoot_aim, uzi_mini_shoot2
+anm_shots_aim_variant3		= h_uzi_mini_shoot_aim, uzi_mini_shoot3
 
-anm_shots						= h_uzi_mini_shoot, uzi_mini_shoot
-anm_shots_variant1				= h_uzi_mini_shoot, uzi_mini_shoot1
-anm_shots_variant2				= h_uzi_mini_shoot, uzi_mini_shoot2
-anm_shots_variant3				= h_uzi_mini_shoot, uzi_mini_shoot3
-anm_shots_aim					= h_uzi_mini_shoot_aim, uzi_mini_shoot
-anm_shots_aim_variant1			= h_uzi_mini_shoot_aim, uzi_mini_shoot1
-anm_shots_aim_variant2			= h_uzi_mini_shoot_aim, uzi_mini_shoot2
-anm_shots_aim_variant3			= h_uzi_mini_shoot_aim, uzi_mini_shoot3
+anm_reload_misfire			= h_uzi_mini_unjam, uzi_mini_unjam
 
-anm_reload_misfire				= h_uzi_mini_unjam, uzi_mini_unjam
-
-anm_ammo_check					= h_uzi_mini_magcheck, uzi_mini_magcheck
-anm_ammo_check_empty			= h_uzi_mini_magcheck, uzi_mini_magcheck_empty
+anm_ammo_check				= h_uzi_mini_magcheck, uzi_mini_magcheck
+anm_ammo_check_empty		= h_uzi_mini_magcheck, uzi_mini_magcheck_empty
 
 ; trans
+anm_idle_aim_start			= h_uzi_mini_idle2aim, uzi_mini_idle, 1.15
+anm_idle_aim_end			= h_uzi_mini_aim2idle, uzi_mini_idle, 1.15
 
-anm_idle_aim_start		= h_uzi_mini_idle2aim, uzi_mini_idle, 1.15
-anm_idle_aim_end		= h_uzi_mini_aim2idle, uzi_mini_idle, 1.15
+ts_pattern_idle2sprint		= ^anm_idle.*, ^anm_idle_sprint.*, anm_idle2sprint, 3
+ts_pattern_s2i2sprint		= anm_sprint2idle, ^anm_idle_sprint.*, anm_idle2sprint, 3
+anm_idle2sprint				= h_uzi_mini_idle2sprint, uzi_mini_idle, 1.225
 
-ts_pattern_idle2sprint	= ^anm_idle.*, ^anm_idle_sprint.*, anm_idle2sprint, 3
-ts_pattern_s2i2sprint	= anm_sprint2idle, ^anm_idle_sprint.*, anm_idle2sprint, 3
-anm_idle2sprint			= h_uzi_mini_idle2sprint, uzi_mini_idle, 1.225
+ts_pattern_sprint2idle		= ^anm_idle_sprint.*, ^anm_idle.*, anm_sprint2idle, 3
+anm_sprint2idle				= h_uzi_mini_sprint2idle, uzi_mini_idle, 1.225
 
-ts_pattern_sprint2idle	= ^anm_idle_sprint.*, ^anm_idle.*, anm_sprint2idle, 3
-anm_sprint2idle			= h_uzi_mini_sprint2idle, uzi_mini_idle, 1.225
-
-ts_pattern_sprint2aim	= ^anm_idle_sprint.*, ^anm_idle_aim.*, anm_sprint2aim, 2
-anm_sprint2aim			= h_uzi_mini_sprint2aim, uzi_mini_idle, 1.1
+ts_pattern_sprint2aim		= ^anm_idle_sprint.*, ^anm_idle_aim.*, anm_sprint2aim, 2
+anm_sprint2aim				= h_uzi_mini_sprint2aim, uzi_mini_idle, 1.1
 
 
 ; random shit
-
 shell_bone					= wpn_body
 shell_point					= 0.015, 0.032, -0.03
 
@@ -582,7 +568,6 @@ hud							= wpn_uzi_mini_ac10632_hud
 1icon_layer_x				= 31
 1icon_layer_y				= -14
 
-
 inv_weight					= 3.615 ; 3.5 + 0.115
 
 [wpn_uzi_mini_ac10632_hud]:wpn_uzi_mini_hud
@@ -607,7 +592,7 @@ animation_slot					= 1
 ef_main_weapon_type				= 2
 ef_weapon_type					= 5
 hand_dependence					= 1
-single_handed					= 1
+single_handed					= 0
 
 default_to_ruck					= false
 sprint_allowed					= true
@@ -675,6 +660,7 @@ startup_ammo					= 90
 scopes							=
 scope_status					= 0
 scope_zoom_factor				= 0
+use_alt_aim_hud					= true
 
 silencer_name					= wpn_sil_9mm
 silencer_status					= 2
@@ -718,8 +704,8 @@ misfire_start_prob				= 0.007
 misfire_end_condition			= 0.16
 misfire_end_prob				= 0.11
 
-condition_queue_shot_dec		= 0.0011
-condition_shot_dec				= 0.0011
+condition_queue_shot_dec		= 0.001
+condition_shot_dec				= 0.001
 
 cam_return						= 0
 cam_relax_speed					= 12
@@ -780,6 +766,11 @@ aim_hud_offset_pos_16x9			= -0.0876, 0.0405, -0.065
 aim_hud_offset_rot				= 0.019, 0.00075, -0.0225
 aim_hud_offset_rot_16x9			= 0.019, 0.00075, -0.0225
 
+aim_hud_offset_alt_pos			= -0.025, -0.05, 0
+aim_hud_offset_alt_pos_16x9		= -0.025, -0.05, 0
+aim_hud_offset_alt_rot			= -0.02, -0.01, 0.9
+aim_hud_offset_alt_rot_16x9		= -0.02, -0.01, 0.9
+
 gl_hud_offset_pos				= 0, 0, 0
 gl_hud_offset_pos_16x9			= 0, 0, 0
 gl_hud_offset_rot				= 0, 0, 0
@@ -793,9 +784,7 @@ lowered_hud_offset_rot_16x9		= 0.1, -0.5, 0.15
 lean_hud_offset_pos				= 0, 0, 0
 lean_hud_offset_rot				= 0, 0, 0
 
-
 ; anm
-
 anm_bore						= h_uzi_micro_inspect, uzi_micro_idle
 
 anm_show						= h_uzi_micro_draw, uzi_micro_draw
@@ -827,37 +816,34 @@ anm_ammo_check					= h_uzi_micro_magcheck, uzi_micro_magcheck
 anm_ammo_check_empty			= h_uzi_micro_magcheck, uzi_micro_magcheck_empty
 
 ; trans
+anm_idle_aim_start				= h_uzi_micro_idle2aim, uzi_micro_idle, 1.15
+anm_idle_aim_end				= h_uzi_micro_aim2idle, uzi_micro_idle, 1.15
 
-anm_idle_aim_start		= h_uzi_micro_idle2aim, uzi_micro_idle, 1.15
-anm_idle_aim_end		= h_uzi_micro_aim2idle, uzi_micro_idle, 1.15
+ts_pattern_idle2sprint			= ^anm_idle.*, ^anm_idle_sprint.*, anm_idle2sprint, 3
+ts_pattern_s2i2sprint			= anm_sprint2idle, ^anm_idle_sprint.*, anm_idle2sprint, 3
+anm_idle2sprint					= h_uzi_micro_idle2sprint, uzi_micro_idle, 1.225
 
-ts_pattern_idle2sprint	= ^anm_idle.*, ^anm_idle_sprint.*, anm_idle2sprint, 3
-ts_pattern_s2i2sprint	= anm_sprint2idle, ^anm_idle_sprint.*, anm_idle2sprint, 3
-anm_idle2sprint			= h_uzi_micro_idle2sprint, uzi_micro_idle, 1.225
+ts_pattern_sprint2idle			= ^anm_idle_sprint.*, ^anm_idle.*, anm_sprint2idle, 3
+anm_sprint2idle					= h_uzi_micro_sprint2idle, uzi_micro_idle, 1.225
 
-ts_pattern_sprint2idle	= ^anm_idle_sprint.*, ^anm_idle.*, anm_sprint2idle, 3
-anm_sprint2idle			= h_uzi_micro_sprint2idle, uzi_micro_idle, 1.225
-
-ts_pattern_sprint2aim	= ^anm_idle_sprint.*, ^anm_idle_aim.*, anm_sprint2aim, 2
-anm_sprint2aim			= h_uzi_micro_sprint2aim, uzi_micro_idle, 1.1
-
+ts_pattern_sprint2aim			= ^anm_idle_sprint.*, ^anm_idle_aim.*, anm_sprint2aim, 2
+anm_sprint2aim					= h_uzi_micro_sprint2aim, uzi_micro_idle, 1.1
 
 ; random shit
+shell_bone						= wpn_body
+shell_point						= 0.015, 0.032, -0.03
 
-shell_bone					= wpn_body
-shell_point					= 0.015, 0.032, -0.03
+fire_bone						= muzzle
+fire_bone2						= muzzle
+fire_bone_silencer				= wpn_silencer
+fire_point						= 0, 0, 0
+fire_point2						= 0, 0, 0
+fire_point_silencer				= 0, 0, 0
 
-fire_bone					= muzzle
-fire_bone2					= muzzle
-fire_bone_silencer			= wpn_silencer
-fire_point					= 0, 0, 0
-fire_point2					= 0, 0, 0
-fire_point_silencer			= 0, 0, 0
+strafe_aim_enabled				= true
 
-strafe_aim_enabled			= true
+shooting_backward_offset		= 0.01,0.005
+shooting_ret_speed				= 5
+shooting_ret_aim_speed			= 7.5
 
-shooting_backward_offset	= 0.01,0.005
-shooting_ret_speed			= 5
-shooting_ret_aim_speed		= 7.5
-
-freelook_z_offset_mul		= 0.4
+freelook_z_offset_mul			= 0.4

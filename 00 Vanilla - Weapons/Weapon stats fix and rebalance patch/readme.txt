@@ -127,27 +127,34 @@ It covers other mods that add new ammo, currently 10mm Auto Ecosystem and Arsena
 -Other Mods
 It covers individual mods.
 Currently the list is as follows, listed by authors:
-Athis: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre
-Bert: Mauser C96, Sten
+Alex: AK107, Vulcan-M
+ATHI: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre, MCX SPEAR
+Bert: Desert Tech MDR, Mauser C96, MSBS Grot, Sten
 Beli fosfor: SIG Sauer P365
-Billwa: FG42, IZH18 and MP18, MAC-10, M240, M3A1 Grease Gun, Milkor MGL, Type 56 Pack, Stick Grenade
-Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca, The AEK Kit
-Chillcat: MC-572, OSV96, and XM500
+Billwa: DP27, FG42, IZH18 and MP18, M240, M3A1, M3A1 Grease Gun, M67, MAC-10, Milkor MGL, Type 56 Pack, Stick Grenade
+Blackgrowl: Ashey'n Shaky, K-50M, MAT-49, Sassy Ithaca
+Chillcat: MC-572 Astarta, OSV96, and XM500
+Dionisiy9x39: Scorpion EVO 3
 Firebreath: Tommy gun drop
+FrostyChun: Ready Or Not pack
 hellcolonel: Anomalous Grenades
-Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, Ghost Armory - 50 Beowulf Weapon Pack, Luger P08, MP9, QBZ 95
+Jmerc: Arbiter Series Weapon Pack, Better Beretta Pack, Ghost Armory - 50 Beowulf Weapon Pack, Luger P08, M1 Garand, M1 M1A1 carbines, MP5K, MP9, QBZ 95
 Kmack: Mosin Trio, SIG MCX LVAW, Walther PDP, and Walther PPQ Q5 Match
-Lewdnatic: FAMAS Replacer
+Lewdnatic: FAMAS Replacer, Groza Duty, Sig 552 Tactical
+Liljma: Sig P320
 Maid: Agram 2000
-NickolasNikova: Type 89
+NickolasNikova: Armsel Protecta, Type 89
+Onerock: MCX Spear
 Pillii: Glock RONI, Honey Badger and .300 BLK Framework, UDP-9
 Popottara: Sturmgewehr 57
 Retrogue: RWAP
-Sibercat: AR Pack Complete
-Soulcrystal: Arisaka quality control, Benelli M4
-Teivaz: Gunslinger P90 Tactical
-TheParazit's PL14
-Vodoxleb's Flash Grenades Updated
+Sedzhimol: GM6 Lynx, OC-02 Kiparis + PP-91-01 Kedr-B, HK433
+Sibercat/Demonized/Lassie: AR Pack Complete
+Soulcrystal: Arisaka quality control, Benelli M4, FB Radom Vis
+Teivaz: Colt 357, Gunslinger P90 Tactical
+TheParazit: PL14
+Covenant Weapon Pack
+Vodoxleb: Flash Grenades Updated
 
 Some further notes:
 Izh-18 & MP18: adapted changes made by Meylin in the Anomaly Discord. Izh-18 more accurate than double barrel shotguns. Both guns slightly more damaging, further reaching, and harder to break.
@@ -172,17 +179,23 @@ JukeCappatalist: AKM Pack.
 
 
 -No BaS addon
+Also available in BaS Lite. If you have it there, you won't neede it here.
 For those who don't like mods abusing BaS as a requisite. It will make guns from mods that use BaS silencers and scopes use vanilla silencers instead, and remove their list of BaS scopes.
 For example, WP shotguns will use PSB1 while NATO ones use NATO silencer. And big caliber sniper rifles will use the KZRZP.
 This is only for BaS silencers and mods with their own silencer are not covered.
 
 Currently covered:
-ATHI: AK101 SP
+Alex: AK107
+ATHI: AK101 SP, MCX Spear
+Bert: MSBS Grot
 Chillcat: MC-572 Astarta
 FrostyChun: Ready Or Not pack (Beretta 1301)
-JMerc: Arbiter Weapon Pack, Ghost Armory - 50 Beowulf Weapon Pack, MP9
+JMerc: Arbiter Weapon Pack, Ghost Armory - 50 Beowulf Weapon Pack, MK18 Mjolnir, MP5K, MP9, SilencerCo Maxim 9
+LEWD: .50 BMG DEagle
 Nullpath_01: KSG12
+Poppatara: SG510
 SoulCrystal: Benelli M4
+Covenant Weapon Pack (MP155)
 
 ----------------------------------------------------------
 -Known issues:
