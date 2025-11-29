@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_vr80">
+		<text>VR-80</text>
+	</string>
+	<string id="st_wpn_vr80_descr">
+		<text>The VR80 shotgun is a dynamic and feature-packed firearm that seamlessly blends modern design with rugged performance. Engineered with precision, this 12-gauge shotgun delivers an unparalleled shooting experience. Its durable construction and ergonomic design ensure comfortable handling, while its ambidextrous controls and adjustable gas system offer enhanced versatility. The VR80 boasts a detachable magazine and a Picatinny rail for accessory attachments, allowing users to customize their setup to suit their needs. With its exceptional reliability, accuracy, and a reputation for delivering consistent performance, the Rock Island VR80 shotgun is a top choice for enthusiasts and professionals alike, seeking a reliable and powerful shotgun option.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All collimator sights for Picatinny/Weaver system</text>
+	</string>
+</string_table>

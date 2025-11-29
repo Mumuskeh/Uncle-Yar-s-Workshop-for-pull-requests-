@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_beretta_1301">
+		<text>Beretta 1301 Auto Shotgun </text>
+	</string>
+	<string id="st_wpn_beretta_1301_descr">
+		<text>The Beretta 1301 is a gas-operated semi-automatic shotgun produced by Beretta, and imported by Beretta USA in the United States. The firearm has two separate designs. One is intended for tactical self-defense and law enforcement applications whereas the other is designed for target shooting sports.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Sights: 0kp2, e0t2, eot, ac10632, c-more, ekp8_18, rmr, deltapoint, aim low, d0cter\n 
+		%c[d_purple] • %c[ui_gray_2] SALVO12 Silencer</text>
+	</string>
+
+	<string id="st_wpn_colt_python">
+		<text>Colt Python</text>
+	</string>
+	<string id="st_wpn_colt_python_descr">
+		<text>The Colt Python is a legendary double-action revolver introduced in 1955, renowned for its precision and power. Known as the "Rolls-Royce of revolvers," it features a full underlug barrel for stability and reduced muzzle flip, typically chambered in .357 Magnum. Its sleek design, ventilated rib, and hand-finished craftsmanship make it exceptionally accurate and aesthetically appealing. Favored by law enforcement and enthusiasts alike, the Colt Python is celebrated for its smooth trigger pull and outstanding accuracy.</text>
+	</string>
+
+	<string id="st_wpn_ddm4_pdw">
+		<text>DDM4 PDW</text>
+	</string>
+	<string id="st_wpn_ddm4_pdw_descr">
+		<text>DDM4 is a series of weapons configured to be suitable to all kind of combat situations suited to the user's choice. Based on the AR-15 platform, the DDM4 performs adequately well with good firing speed and moderate draw/reload speed, however they each have their own unique traits that make them stand out from each other.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255]Most basic sights and scopes\n
+		%c[d_cyan] • %c[0,255,255,255]%c[ui_gray_1]NATO Silencer</text>
+	</string>
+
+	<string id="st_wpn_kimber_custom">
+		<text>Kimber Custom (Custom)</text>
+	</string>
+	<string id="st_wpn_kimber_custom_descr">
+		<text>The Kimber Custom is an M1911 style semi-automatic pistol chambered in .45 ACP. It is designed, manufactured, and distributed by Kimber Manufacturing, Inc. in Yonkers, New York. It is a full-sized model 1911, with a five-inch barrel, usually chambered in .45 ACP. Although the Custom is considered Kimber's base model, it has a number of features that were formerly found only on customized model 1911s, such as a lowered ejection port, custom trigger, beveled magazine well, extended thumb safety, and beavertail grip safety.\n
+		This particular gun had a laser pointer module and a red dot sight attached.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .45 Silencer</text>
+	</string>
+
+	<string id="st_wpn_mcx_sbr">
+		<text>SIG MCX SBR</text>
+	</string>
+	<string id="st_wpn_mcx_sbr_descr">
+		<text>The SIG MCX series features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon; this was based on the design of the earlier SIG MPX. The SIG MCX VIRTUS is the second generation of the SIG MCX series and was introduced in 2017. This version uses 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+ 
+	<string id="st_wpn_sa58_new">
+		<text>SA58 OSW</text>
+	</string>
+	<string id="st_wpn_sa58_new_descr">
+		<text>SA58 is an assault-carbine variant of the paratrooper model of the FAL. It has a side-folding Enhanced PARA polymer stock, shorter 279 mm (11 inch) or 330 mm (13 inch) barrel and an optional full-auto setting.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Most red dot sights and some NATO scopes\n
+		%c[d_purple] • %c[ui_gray_2] NATO Silencer</text>
+	</string>	
+
+	<string id="st_wpn_slr_107ur">
+		<text>SLR-107UR (Custom)</text>
+	</string>
+	<string id="st_wpn_slr_107ur_descr">
+		<text>The SLR-107UR is a distant cousin of the AKS-74u, by Bulgarian manufacturer Arsenal.\n
+		This one seems to have been modified with extra Picattini rails, a front handgrip, and a shortened barrel.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Most red dot sights and some scopes\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 Silencer</text>
+	</string>
+
+	<string id="st_wpn_sr16">
+		<text>KAC SR-16</text>
+	</string>
+	<string id="st_wpn_sr16_descr">
+		<text>The KAC SR-16 is a AR variant carbine manufactured by Knight's Armament Company (KAC). It is a select-fire rifle chambered for the 5.56x45mm NATO cartridge. Being a select-fire rifle, it is unavailable to the civilian market.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255] Most basic sights and scopes\n
+		%c[d_cyan] • %c[0,255,255,255] NATO Silencer</text>
+	</string>
+
+	<string id="st_wpn_staccato_2011">
+		<text>Staccato 2011</text>
+	</string>
+	<string id="st_wpn_staccato_2011_descr">
+		<text>The Staccato 2011 pistol is a high-capacity, double-stack firearm favored by competitive shooters and tactical professionals. Known for its ergonomic grip and modular design, it allows extensive customization, from adjustable sights to various slide configurations. Precision-machined components and a finely tuned trigger ensure exceptional accuracy and reliability, making it ideal for both sport and defense.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255] .45 suppressor</text>
+	</string>
+
+	<string id="st_mag_staccato_2011_ext">
+		<text>Stacatto 2011 11-Round Magazine.</text>
+	</string>
+	<string id="st_mag_staccato_2011_ext_descr">
+		<text>Magazine for the Stacatto 2011 pistol, houses 11 rounds of .45 ACP ammunition.</text>
+	</string>
+
+</string_table>

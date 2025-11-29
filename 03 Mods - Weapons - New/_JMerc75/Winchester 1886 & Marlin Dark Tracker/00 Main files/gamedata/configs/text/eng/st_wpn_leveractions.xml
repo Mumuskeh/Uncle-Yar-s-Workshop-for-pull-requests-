@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_win1886">
+		<text>Winchester Model 1886</text>
+	</string>
+	<string id="st_wpn_win1886_descr">
+		<text>The Winchester 1886 rifle stands as an iconic symbol of American firearms innovation and reliability. Designed by John Browning, this lever-action masterpiece epitomizes the late 19th-century firearms era, boasting a robust and sturdy construction coupled with exceptional functionality. Built to handle powerful cartridges like the .45-70 Government and .50-110 Winchester, its enduring popularity lies in its impeccable balance, smooth lever action, and remarkable strength capable of handling heavy loads. With its elegant lines, walnut stock, and reliable design, the Winchester 1886 remains a timeless embodiment of craftsmanship and utility in the realm of classic firearms. Rechambered for 7.62x51mm ammunition by Zone technicians for easier access to ammo.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ACOG, Specter, Leupold, March Tac and Gauss Rifle scope.\n</text>
+	</string>
+	
+	<string id="st_wpn_marlin_tracker">
+		<text>Dark Tracker</text>
+	</string>
+	<string id="st_wpn_marlin_tracker_descr">
+		<text>The Marlin Dark Series rifle represents a modern twist on a classic firearm, combining Marlin's heritage with contemporary features. Crafted for tactical use and rugged reliability, this lever-action rifle is characterized by its matte black finish, black-painted hardwood stock, and threaded barrel, providing compatibility with suppressors or muzzle devices. The Dark Series rifles typically come chambered in popular calibers like .30-30 Winchester or .45-70 Government, offering versatility for hunting or tactical applications. Its big-loop lever and ghost ring sights enhance rapid target acquisition, while the overall sleek yet robust design embodies Marlin's commitment to blending tradition with innovation in a firearm that’s both visually striking and functionally exceptional. Rechambered for 7.62x51mm ammunition by Zone technicians for easier access to ammo.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All scopes for the Picatinny/weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Daniel Defense Suppressor</text>
+	</string>
+</string_table>

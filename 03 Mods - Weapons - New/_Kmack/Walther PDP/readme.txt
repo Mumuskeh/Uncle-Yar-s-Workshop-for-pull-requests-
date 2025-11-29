@@ -21,12 +21,16 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
+Model tweaks
+Removes the laser module from the tactical model. Three reasons why:
+1) Taste. Maybe you don't want laser pointers and related tacticoolznez in your STALKER.
+2) Performance. Sometimes the meshes used for the pointer itself can account for a third or even half the filesize of the weapon (!!!).
+3) Already cleaner models for later modifications.
+
 Boomsticks and Sharpsticks
-https://www.moddb.com/mods/stalker-anomaly/addons/boomsticks-and-sharpsticks
 Clones the PDP into the 9x21mm model. It will use BaS' 9x21 ammo, silencer, and mags.
 
 9x21 FMJ & HP Ammo
-https://www.moddb.com/mods/stalker-anomaly/addons/dltx-9x21-fmj-hp-ammo-for-bas-gamma-compat
 Allows the 9x21 clone to use the extra ammo.
 
 ----------------------------------------------------------
