@@ -52,6 +52,9 @@ HK 433 [Sedzhimol]
 Clones it into a HK437, SMG in .300 Blackout. It will have a shorter range than other options in these patches, but higher muzzle velocity.
 You won't notice the size difference, but uuuuhhhh someone else can do the modeling and animation job.
 
+HK 433 [Sedzhimol]
+Turns the black variant into a HK437, otherwise same deal as above.
+
 RWAP
 Several weapons now have variants in .300 Blackout. Two options:
 - SIG MCX: variants for the MCX Virtus, MCX Rattler, and MCX SPEAR LT.

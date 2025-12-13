@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_wpn_hk433">
+	<string id="st_wpn_kilogram">
 		<text>Heckler & Koch HK433</text>
 	</string>
-	<string id="st_wpn_hk433_s">
+	<string id="st_wpn_kilogram_s">
 		<text>HK433</text>
 	</string>
-	<string id="st_wpn_hk433_descr">
+	<string id="st_wpn_kilogram_descr">
 		<text>This weapon combines the features of the G36 and HK416 assault rifles, utilizing the short-stroke gas system from the G36 and the HK416-style lower receiver, as well as a quick-release barrel. The receiver consists of two parts - upper receiver and lower receiver. The barrel is locked by rotating the bolt.\n
 		This model seems to have an integrated suppressor.\n
 		%c[ui_gray_2]ATTACHMENTS:\n

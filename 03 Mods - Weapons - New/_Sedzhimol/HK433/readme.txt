@@ -7,6 +7,8 @@ NOTE: You need the original mod. Let this overwrite it.
 
 Internal IDs have been changed for easier debug and inventory ordering. This makes this mod incompatible with Mik's HK433, but why would you use two mods adding the same thing?
 
+Don't use this with MiK's HK433.
+
 ----------------------------------------------------------
 -Explanation:
 

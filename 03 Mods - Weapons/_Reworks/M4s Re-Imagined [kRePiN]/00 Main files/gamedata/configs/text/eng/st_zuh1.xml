@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_vortexuh1_sight">
+		<text>Vortex Razor AMG UH-1</text>
+	</string>
+	<string id="st_vortexuh1_sight_desc">
+		<text>Holographic sight for NATO assault rifles and submachine guns.\n
+		%c[ui_gray_3]COMPATIBILITY:\n
+		%c[d_orange] • %c[ui_gray_2] All NATO rifles and Picatinny mounts\n
+		%c[ui_gray_3]CHARACTERISTICS:\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]none (collimator)\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good</text>
+	</string>
+</string_table>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+    <string id="st_wpn_snipex">
+		<text>Snipex Caiman</text>
+	</string>
+	<string id="st_wpn_snipex_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		The Snipex Caiman is a Snipex Alligator with a matte black finish, instead of the signature alligator green.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight and a Nightforce 32x50 riflescope \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_g">
+		<text>Snipex Alligator</text>
+	</string>
+	<string id="st_wpn_snipex_g_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight and a Nightforce 32x50  riflescope\n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_operator">
+		<text>Snipex Caiman "Operator"</text>
+	</string>
+	<string id="st_wpn_snipex_operator_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		The Snipex Caiman is a Snipex Alligator with a matte black finish, instead of the signature alligator green.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round, and prepared for clandestine operations, at least depending on your definition of "clandestine", given the inherent loudness of anti-materiel rifles.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight and a HTO QuadroTech TAC-V 4-20x50-R riflescope \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_g_operator">
+		<text>Snipex Alligator "Operator"</text>
+	</string>
+	<string id="st_wpn_snipex_g_operator_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round, and prepared for clandestine operations, at least depending on your definition of "clandestine", given the inherent loudness of anti-materiel rifles.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight and a HTO QuadroTech TAC-V 4-20x50-R  riflescope \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_marksman">
+		<text>Snipex Caiman "Marksman"</text>
+	</string>
+	<string id="st_wpn_snipex_marksman_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		The Snipex Caiman is a Snipex Alligator with a matte black finish, instead of the signature alligator green.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round, and optimized for long range shooting, with an extra red dot sight for those tense close encounters.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Barska AC10632 reddot sight and a high-powered FLINT 3-9x32EG riflescope \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_g_marksman">
+		<text>Snipex Alligator "Marksman"</text>
+	</string>
+	<string id="st_wpn_snipex_g_marksman_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		This particular weapon has been rechambered for the (only somewhat) more common 12.7x55mm round, and optimized for long range shooting, with an extra red dot sight for those tense close encounters.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Barska AC10632 reddot sight and a high-powered FLINT 3-9x32EG riflescope \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_warmonger">
+		<text>Snipex Alligator "Warmonger"</text>
+	</string>
+	<string id="st_wpn_snipex_warmonger_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		The Snipex Caiman is a Snipex Alligator with a matte black finish, instead of the signature alligator green.\n
+		On top of the 12.7x55 rechamber, some lunatic decided it was a good idea to cut down the barrel, and still attach some high tech long range scope. Who or why are questions that you're not sure you want to now the answers for.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight, a mk2 Gausssight and a short barrel (of all things) \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+	<string id="st_wpn_snipex_g_warmonger">
+		<text>Snipex Alligator "Warmonger"</text>
+	</string>
+	<string id="st_wpn_snipex_g_warmonger_descr">
+		<text>The Snipex Alligator is a long-range large-caliber, bolt-action, magazine-fed, repeating anti-materiel rifle chambered in 14.5x114mm manufactured by XADO Holding Ltd, presented in 2020, and adopted by the Armed Forces of Ukraine in 2021. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet, and a near-record killing shot was recorded in 2022 at a confirmed distance of 2,710m.\n
+		Barrel locking is achieved through a rotating bolt, with the floating barrel in free recoil when the bullet flies out, which provides greater accuracy of the bullet hit. The rifle demonstrates an acceptable level of recoil during shooting, suppressed due to the muzzle brake, the effect of a recoil isolator, an elastic multilayer shoulder pad, and optimally balanced weight.\n
+		On top of the 12.7x55 rechamber, some lunatic decided it was a good idea to cut down the barrel, and still attach some high tech long range scope. Who or why are questions that you're not sure you want to now the answers for.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: 45° angled Iron Sight, a mk2 Gausssight and a short barrel (of all things) \n
+		%c[d_purple] • %c[ui_gray_2] LEWD rifle kits: Marksman kit, Operator kit, Warmonger kit</text>
+	</string>
+
+</string_table>

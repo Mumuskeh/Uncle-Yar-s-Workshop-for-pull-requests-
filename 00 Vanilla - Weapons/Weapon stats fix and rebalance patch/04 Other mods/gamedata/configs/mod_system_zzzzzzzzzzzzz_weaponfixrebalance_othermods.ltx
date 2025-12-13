@@ -4,6 +4,53 @@
 ;;;;;;; OTHER MODS
 
 
+;These first are mods that some authors coincide about
+
+;AA12 (MWP, ATHI, NickolasNikova)
+![wpn_aa12]
+$spawn			= "weapons\aa12"
+inv_weight		= 5.2
+fire_distance	= 100 ; 300
+bullet_speed	= 350
+
+;M134 Minigun (Artezbot, ATHI)
+![wpn_m134]
+inv_weight		= 19
+hit_impulse		= 45
+hit_power		= 1, 1, 1, 1
+fire_distance	= 3500
+
+;HK433
+![wpn_kilo141]
+inv_weight		= 3.25 ; 3.77
+; hit_impulse						= 25
+; hit_power						= 0.485, 0.485, 0.485, 0.485
+fire_distance	= 500 ; 1000
+bullet_speed	= 800 ; 832
+rpm				= 850 ; 700
+![wpn_hk433]
+inv_weight		= 3.25 ; 3.77
+hit_impulse		= 25 ; 35
+hit_power		= 0.485, 0.485, 0.485, 0.485 ; 0.75, 0.75, 0.75, 0.75
+fire_distance	= 500 ; 1000
+bullet_speed	= 800 ; 832
+rpm				= 850 ; 700
+![wpn_hk433_n]
+inv_weight		= 3.25 ; 3.77
+hit_impulse		= 25 ; 35
+hit_power		= 0.485, 0.485, 0.485, 0.485 ; 0.75, 0.75, 0.75, 0.75
+fire_distance	= 500 ; 1000
+bullet_speed	= 800 ; 832
+rpm				= 850 ; 700
+![wpn_hk433_a]
+inv_weight		= 3.25 ; 3.77
+hit_impulse		= 25 ; 35
+hit_power		= 0.485, 0.485, 0.485, 0.485 ; 0.75, 0.75, 0.75, 0.75
+fire_distance	= 500 ; 1000
+bullet_speed	= 800 ; 832
+rpm				= 850 ; 700
+
+
 ; ALEX 	============	============	============	============
 
 ![wpn_ak107]
@@ -351,6 +398,15 @@ rpm				= 750 ; 800
 
 ;;JMERC 	============	============	============	============
 
+; AR57A4 Carbine
+![wpn_ar57]
+$spawn			= "weapons\ar57"
+inv_weight		= 2.93 ; 2.78
+hit_impulse		= 30 ; 35
+hit_power		= 0.48, 0.48, 0.48, 0.48 ; 0.50, 0.50, 0.50, 0.50
+fire_distance	= 450 ;  950
+rpm				= 900 ; 800
+
 ;Arbiter pack
 ![wpn_arbiter_bushmaster]
 $spawn			= "weapons\arbiter_bushmaster"
@@ -468,6 +524,14 @@ fire_distance	= 100
 bullet_speed	= 380
 rpm				= 700
 
+;BRN-108
+![wpn_brn180]
+$spawn			= "weapons\brn180"
+hit_impulse		= 27 ; 35
+hit_power		= 0.50, 0.50, 0.50, 0.50 ; 0.53, 0.53, 0.53, 0.53
+fire_distance	= 550 ; 1000
+bullet_speed	= 915 ; 880
+
 ; Luger P08
 ![wpn_p08]
 $spawn			= "weapons\p08"
@@ -487,7 +551,6 @@ inv_weight		= 4.31
 ; fire_distance	= 457
 
 ;M1 M1A1 carbines
-
 ![wpn_m1carbine_j]
 $spawn			= "weapons\m1carbine_j"
 parent_section	= wpn_m1carbine_j
@@ -496,13 +559,6 @@ hit_power		= 0.6, 0.6, 0.6, 0.6 ; 0.75, 0.75 0.75, 0.75
 fire_distance	= 200 ; 850
 bullet_speed	= 440 ; 650
 rpm				= 850 ; 300
-
-hit_impulse		= 28
-hit_power		= 0.46, 0.46, 0.46, 0.46
-fire_distance	= 400
-bullet_speed	= 715
-rpm				= 850 ;750
-
 ![wpn_m1paratrooper_j]
 $spawn			= "weapons\m1paratrooper_j"
 parent_section	= wpn_m1paratrooper_j
@@ -530,6 +586,15 @@ hit_power		= 1.25, 1.25, 1.25, 1.25 ; 0.85, 0.85, 0.85, 0.85
 fire_distance	= 350 ; 800
 bullet_speed	= 525 ; 700
 rpm				= 400 ; 520
+
+;Archangel minigun
+![wpn_minigun9j]
+;a hit_impulse of 15 seems a bit low.
+hit_impulse		= 30 ; 15
+hit_power		= 0.50, 0.50, 0.50, 0.50 ; 0.39, 0.39, 0.39, 0.39
+fire_distance	= 340 ; 800
+; bullet_speed                             = 500
+; rpm                                      = 1300
 
 ;MP5K
 ![wpn_mp5k]
@@ -589,6 +654,15 @@ inv_weight		= 3.25
 fire_distance	= 500
 bullet_speed	= 930
 rpm				= 650
+
+!QSZ-92
+![wpn_qbz92]
+inv_weight		= 0.76 ; 1.13
+hit_impulse		= 24 ; 35
+hit_power		= 0.46, 0.46, 0.46, 0.46 ; 0.50, 0.50, 0.50, 0.50
+fire_distance	= 100 ; 475
+bullet_speed	= 350 ; 395
+; rpm				= 400
 
 ; VR-80
 ![wpn_vr80]
@@ -677,6 +751,17 @@ fire_distance	= 100 ; 400
 ; bullet_speed				= 360
 ; rpm							= 500
 
+;VSS Vintorez Expanded
+![wpn_k_vintorez]
+inv_weight		= 2.6
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
+![wpn_vintorez_surv]
+inv_weight		= 2.6
+fire_distance	= 400
+bullet_speed	= 285
+rpm				= 850
 
 ;;KHYBER  ============ ============ ============ ============
 
@@ -694,6 +779,11 @@ $spawn			= "weapons\ots12v2s"
 
 
 ;;LEWD 	============	============	============	============
+
+![wpn_50bmg_deagle]
+$spawn			= "weapons\50bmg_deagle"
+![wpn_50bmg_deagle_tac]
+$spawn			= "weapons\50bmg_deagle_tac"
 
 ;FAMAS Replacer
 ![wpn_famas_commando]
@@ -726,18 +816,40 @@ fire_distance	= 450
 bullet_speed	= 925
 rpm				= 1050
 
-![wpn_50bmg_deagle]
-$spawn			= "weapons\50bmg_deagle"
-![wpn_50bmg_deagle_tac]
-$spawn			= "weapons\50bmg_deagle_tac"
-
 ![wpn_groza_duty]
 fire_distance	= 650 ; 600
+
+![wpn_kriss]
+hit_impulse		= 40 ; 15
+hit_power		= 0.56, 0.56, 0.56, 0.56 ; 0.58, 0.58, 0.58, 0.58
+fire_distance	= 100 ; 450
+bullet_speed	= 273 ; 500
+![wpn_kriss_custom]
+hit_power		= 0.58, 0.58, 0.58, 0.58 ; 0.62, 0.62, 0.62, 0.62
 
 ![wpn_sig552_tactical]
 fire_distance	= 350
 bullet_speed	= 725
 rpm				= 700
+
+;Snipex
+![wpn_snipex]
+hit_impulse		= 80 ; 88
+hit_power		= 2.70, 2.70, 2.70, 2.70 ; 4.0, 4.0, 4.0, 4.0
+fire_distance	= 3100 ; 3500
+bullet_speed	= 810 ; 980
+![wpn_snipex_kit_lewd_warmonger]
+hit_impulse		= 78
+hit_power		= 2.50, 2.50, 2.50, 2.50
+fire_distance	= 1500
+bullet_speed	= 780
+rpm				= 100
+![wpn_snipex_g_kit_lewd_warmonger]
+hit_impulse		= 78
+hit_power		= 2.50, 2.50, 2.50, 2.50
+fire_distance	= 1500
+bullet_speed	= 780
+rpm				= 100
 
 ![wpn_thompsonmodern]
 $spawn			= "weapons\thompsonmodern"
@@ -786,6 +898,28 @@ $spawn			= "weapons\type89"
 inv_weight		= 3.5 ; 4.06
 fire_distance	= 500 ; 1000
 bullet_speed	= 920 ; 910
+
+
+;;NULLPATH_01  ============ ============ ============ ============
+
+;Kriss Vector
+![wpn_fennec45]
+fire_distance	= 100 ; 300
+rpm				= 1200 ; 1085
+;if with my patch
+![wpn_kriss45]
+fire_distance	= 100 ; 300
+rpm				= 1200 ; 1085
+
+;KSG12
+![wpn_ksg12]
+hit_impulse		= 40 ; 60
+hit_power		= 0.80, 0.80, 0.80, 0.80 ; 0.5, 0.5, 0.5, 0.5
+fire_distance	= 125 ; 300
+;for the 23x75 abomination going around
+![wpn_ksg23]
+hit_power		= 0.9, 0.9, 0.9, 0.9 ; 0.5, 0.5, 0.5, 0.5
+fire_distance	= 220 ; 300
 
 
 ;ONEROCK 	============	============	============	============
@@ -980,19 +1114,6 @@ inv_weight		= 1.75
 inv_weight		= 1.4
 bullet_speed	= 310
 rpm				= 1000
-
-;HK433
-![wpn_kilo141]
-; hit_impulse						= 25
-; hit_power						= 0.485, 0.485, 0.485, 0.485
-fire_distance	= 500 ; 1000
-bullet_speed	= 800 ; 832
-rpm				= 850 ; 700
-; In case you use my patches
-![wpn_hk433]
-fire_distance	= 500 ; 1000
-bullet_speed	= 800 ; 832
-rpm				= 850 ; 700
 
 
 ;;SIBERCAT DEMONIZED LASSIE 	============	============	============	============

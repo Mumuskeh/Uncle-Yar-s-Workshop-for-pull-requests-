@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ksg12">
+		<text>KSG-12</text>
+	</string>
+	<string id="st_wpn_ksg12_s">
+		<text>KSG12</text>
+	</string>
+	<string id="st_wpn_ksg12_descr">
+		<text>The KSG-12 is a bullpup 12-gauge pump-action shotgun designed by KelTec. It has two tube magazines which the user of the gun can switch between manually, and each tube holds up to seven 12-gauge shotshells, plus the chambered shell, for a total of 15 rounds when fully loaded. It is lightweight and very useful in close-range combat.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: Salvo\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_ksg23">
+		<text>KSG-23</text>
+	</string>
+	<string id="st_wpn_ksg23_s">
+		<text>KSG23</text>
+	</string>
+	<string id="st_wpn_ksg23_descr">
+		<text>The KSG-12 is a bullpup 12-gauge pump-action shotgun designed by KelTec. It has two tube magazines which the user of the gun can switch between manually, and each tube holds up to seven 12-gauge shotshells, plus the chambered shell, for a total of 15 rounds when fully loaded. It is lightweight and very useful in close-range combat.\n
+		Some dangerous lunatic decided it was a good idea to rechamber this weapon for 23x75 gauge shells.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: 23x75 gauge compatible\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
+	</string>
+
+<!-- 	<string id="st_wpn_ksg25">
+		<text>KSG-25</text>
+	</string>
+	<string id="st_wpn_ksg25_s">
+		<text>KSG25</text>
+	</string>
+	<string id="st_wpn_ksg25_descr">
+		<text>The KSG-25 is larger variant of the KSG-12. Using the same twin tube magazine system that can be switched between manually, it expandes their capacity to from seven to twelve 12-gauge shells per tube, plus the chambered shell, for a total of 25 rounds when fully loaded. The longer barrel also improves the reach and power. All of this at the cost of weight and handling.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: NATO</text>
+	</string> -->
+</string_table>

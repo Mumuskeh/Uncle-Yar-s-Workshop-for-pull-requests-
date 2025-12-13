@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ar57">
+		<text>AR57A4</text>
+	</string>
+	<string id="st_wpn_ar57_descr">
+		<text>The AR57 carbine is a unique firearm renowned for its innovative design and functionality. This compact rifle combines elements of the AR-15 platform with a proprietary upper receiver chambered in 5.7x28mm caliber, originally developed for the FN P90 submachine gun. Featuring a distinctive top-mounted magazine feed, it offers increased capacity compared to traditional AR-style rifles while maintaining a lightweight and maneuverable profile. Its compatibility with standard AR-15 lower receivers ensures familiarity for users accustomed to the platform, while its efficient cartridge provides low recoil and excellent performance, making the AR57 carbine a versatile option for various shooting applications.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most optics for the Picatinny/weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 5.7x28mm suppressorn</text>
+	</string>	
+</string_table>

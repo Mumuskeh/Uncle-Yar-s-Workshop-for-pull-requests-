@@ -1,0 +1,26 @@
+-Module:
+Kriss Vector SMG [LEWD]
+
+----------------------------------------------------------
+-Compatibility:
+NOTE: You need the original mod. Let this overwrite it.
+
+----------------------------------------------------------
+-Explanation:
+
+Text edited, to better differentiate between variants.
+Tweaked default actor effects and Grok's Enhanced Recoil configs to inherit the UMP45 data (another .45 ACP SMG) instead of the 9A91.
+Allows to sell to traders.
+Icon file trimmed.
+
+Integration into:
+Grok's Stash Overhaul
+Lootboxes
+PDA Interactive
+Weapon Parts Overhaul
+
+----------------------------------------------------------
+-Patches:
+
+----------------------------------------------------------
+-Known issues:

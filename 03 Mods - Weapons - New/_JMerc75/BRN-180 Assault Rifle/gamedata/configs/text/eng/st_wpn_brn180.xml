@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_brn180">
+		<text>BRN-180</text>
+	</string>
+	<string id="st_wpn_brn180_descr">
+		<text>The BRN-180 is a modern take on the classic AR-180 rifle design, featuring a short-stroke gas piston system for reliable operation. Manufactured by Brownells, this rifle offers shooters a lightweight and compact platform, perfect for tactical applications or sport shooting. It retains the familiar ergonomics of the AR-15 platform while offering enhanced reliability and ease of maintenance. The BRN-180 is known for its accuracy and smooth shooting experience, making it a popular choice among firearms enthusiasts looking for a versatile and reliable rifle.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for the Picatinny/weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Surefire SOCOM556-MONSTER</text>
+	</string>
+
+<!-- 	<string id="st_wpn_brn180_tac">
+		<text>BRN-180 "Lich"</text>
+	</string>
+	<string id="st_wpn_brn180_tac_descr">
+		<text>The "Lich" tactical rifle is a variant of the BRN-180, a modernized version of the classic AR-180 rifle design. This tactical variant features a 40-round magazine, offering extended firing capability without frequent reloading. Equipped with a laser module for improved aiming and target acquisition, the "Lich" excels in low-light conditions or close-quarters engagements. The inclusion of a foregrip provides added stability and control during rapid fire or sustained shooting. The "Lich" combines these tactical enhancements with the reliability and modularity of the BRN-180 platform, making it a versatile and effective choice for tactical operators and enthusiasts alike.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for the Picatinny/weaver system.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Surefire SOCOM556-MONSTER</text>
+	</string> -->
+
+</string_table>

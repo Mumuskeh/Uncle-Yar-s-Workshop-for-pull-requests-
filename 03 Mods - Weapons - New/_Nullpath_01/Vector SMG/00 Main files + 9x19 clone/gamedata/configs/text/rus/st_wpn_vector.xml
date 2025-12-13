@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_kriss45">
+		<text>Kriss Vector</text>
+	</string>
+	<string id="st_wpn_kriss45_descr">
+		<text>Агрессивный пистолет-пулемёт с полностью автоматическим режимом стрельбы, невероятно плавкой отдачей и стремительной скорострельностью, идеально подходящий для стратегической зачистки помещений и удержания передовой линии.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] прицелы ACOG, Barska ES AC10632, «EOTech»\n
+		%c[d_purple] • %c[ui_gray_2] глушитель .45ACP</text>
+	</string>
+</string_table>

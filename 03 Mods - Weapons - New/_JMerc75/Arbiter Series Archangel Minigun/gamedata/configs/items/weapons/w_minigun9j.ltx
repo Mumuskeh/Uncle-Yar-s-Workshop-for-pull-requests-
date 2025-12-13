@@ -1,0 +1,227 @@
+;------------------------------------------------------------------------------------------------
+[wpn_minigun9j]:identity_immunities,weapon_probability,default_weapon_params,wpn_beretta_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\beretta"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_minigun9j
+
+class							= WP_PM
+slot							= 1
+animation_slot					= 1
+ef_weapon_type					= 5
+hand_dependence					= 1
+single_handed					= 1
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\minigun9j_icon
+inv_grid_width					= 4
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_minigun9j
+inv_name_short					= st_wpn_minigun9j
+description						= st_wpn_minigun9j_descr
+
+kind							= w_smg
+inv_weight						= 5.2
+cost							= 78965
+repair_type						= pistol
+
+hud								= wpn_minigun9j_hud
+visual							= dynamics\weapons\wpn_minigun9j\wpn_minigun9j_world.ogf
+position						= -0.021, -0.085, 0.0
+orientation						= 0, 0, 0
+fire_point						= 0.0, 0.133, 0.161
+fire_point2						= 0.0, 0.133, 0.161
+ph_mass							= 1
+
+flame_particles					= weapons\generic_weapon03
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0.0, 0.133, 0.047
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\9x19
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 3.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_pm
+upgr_icon_path					= ui\minigun9j_icon
+upgr_icon_x						= 0
+upgr_icon_y						= 100
+upgr_icon_width					= 250
+upgr_icon_height				= 150
+
+fire_modes						= -1
+ammo_class						= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed					= 100
+ammo_mag_size					= 100
+startup_ammo					= 150
+
+scope_status					= 0
+scope_name						= wpn_addon_scope
+scope_x							= 47
+scope_y							= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_9mm
+silencer_status					= 0
+silencer_x						= 70
+silencer_y						= -17
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status			= 0
+launch_speed					= 0
+
+hit_impulse						= 15
+hit_power						= 0.39, 0.39, 0.39, 0.39
+hit_type						= fire_wound
+fire_distance					= 800
+bullet_speed					= 500
+rpm								= 1300
+rpm_empty_click					= 120
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 1.0
+zoom_dof						= -1000, 1.0, 1000
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 1.7
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 2.8
+fire_dispersion_base			= 0.78
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.89
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.14
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0006
+condition_shot_dec				= 0.0006
+
+cam_return						= 0
+cam_relax_speed					= 5
+cam_dispersion					= 0.45
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.035
+cam_max_angle					= 18.0
+cam_max_angle_horz				= 9.0
+cam_step_angle_horz				= 1.0
+zoom_cam_relax_speed			= 5
+zoom_cam_dispersion				= 0.4
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.035
+zoom_cam_max_angle				= 18.0
+zoom_cam_max_angle_horz			= 9.0
+zoom_cam_step_angle_horz		= 0.6
+
+PDM_disp_accel_factor			= 1.3
+PDM_disp_base					= 0.96
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.1
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 30
+max_radius						= 100
+hit_probability_gd_novice		= 0.80
+hit_probability_gd_stalker		= 0.80
+hit_probability_gd_veteran		= 0.80
+hit_probability_gd_master		= 0.80
+
+kill_msg_x						= 200
+kill_msg_y						= 153
+kill_msg_width					= 37
+kill_msg_height					= 24
+weapon_lower_speed				= 0.2
+
+laser_status	= true
+
+scripted_snd_shots				= weapons\minigun9j\minigun9j_rev
+scripted_snd_idle_aim			= weapons\minigun9j\minigun9j_rev
+scripted_snd_idle_aim_moving	= weapons\minigun9j\minigun9j_rev
+scripted_snd_aim_moving_crouch	= weapons\minigun9j\minigun9j_rev
+
+snd_reload			= weapons\minigun9j\minigun9j_reload
+snd_reload_misfire	= weapons\minigun9j\minigun9j_unjam
+snd_shoot			= wpn_mp412_snd_shoot
+snd_shoot_actor		= wpn_mp412_snd_shoot_actor
+snd_reload			= weapons\minigun9j\minigun9j_reload
+snd_reload_empty	= weapons\minigun9j\minigun9j_reload
+snd_reload_misfire	= weapons\minigun9j\minigun9j_unjam
+
+[wpn_minigun9j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_minigun9j\wpn_minigun9j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.025119, 0.004906, -0.023393
+aim_hud_offset_pos_16x9	= -0.025119, 0.004906, -0.023393
+aim_hud_offset_rot		= 0.000922, 0.002931, -0.002985
+aim_hud_offset_rot_16x9	= 0.000922, 0.002931, -0.002985
+
+hands_orientation		= 0.747953, 1.475133, -7.025784
+hands_orientation_16x9	= 0.747953, 1.475133, -7.025784
+hands_position			= -0.033761, 0.008603, 0.046859
+hands_position_16x9		= -0.033761, 0.008603, 0.046859
+
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= minigun9j_holster, idle
+anm_idle					= minigun9j_idle, idle
+anm_idle_aim				= minigun9j_idle_aim, idle_aim
+anm_idle_aim_moving			= minigun9j_idle_aim, idle_aim, 0.75
+anm_idle_aim_moving_crouch	= minigun9j_idle_aim, idle_aim, 0.7
+anm_idle_moving				= minigun9j_walk, idle, 1.9
+anm_idle_moving_crouch		= minigun9j_walk, idle, 1.5
+anm_idle_sprint				= minigun9j_run, idle, 1.9
+anm_reload					= minigun9j_reload, reload
+;anm_reload_empty			= beretta_reload_empty, reload_empty
+anm_shots					= minigun9j_shooting, shoot
+;anm_shots_aim				= minigun9j_shoot_aim, shoot
+anm_show					= minigun9j_draw, idle
+anm_bore					= minigun9j_inspect, idle
+anm_reload_misfire			= minigun9j_unjam, unjam
+
+shell_bone	= shells
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
+
+
+
+; scripted_snd_shots				= weapons\minigun9j\minigun9j_rev
+; scripted_snd_idle_aim			= weapons\minigun9j\minigun9j_rev
+; scripted_snd_idle_aim_moving	= weapons\minigun9j\minigun9j_rev
+; scripted_snd_aim_moving_crouch	= weapons\minigun9j\minigun9j_rev
