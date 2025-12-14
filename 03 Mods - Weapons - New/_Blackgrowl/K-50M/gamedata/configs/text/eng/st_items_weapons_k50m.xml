@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_k50m">
+		<text>K-50M</text>
+	</string>
+	<string id="st_wpn_k50m_descr">
+		<text>The K-50M is a Vietnamese-made submachine gun, produced between 1958 and 1964, based on the Type 50s supplied by China during the Vietnam War. The K-50M differs from the Type 50 in its cooling sleeve being truncated to 76mm, the front sight being based on the Type 56's, the addition of a pistol grip (from the AK) and a collapsible wire stock (from the MAT-49). All these changes make the gun weight lower, at 3.4kg, also making it have slightly worse recoil, but better handling and better accuracy due to the stock and ergonomics. This weapon uses a 35-round stick magazine of 7.62x25mm Tokarev. \n \n</text>
+	</string>
+
+	<string id="st_mag_k50m">
+		<text>PPSh-41 7.62x25 Magazine</text>
+	</string>
+	<string id="st_mag_k50m_descr">
+		<text>Long, curved magazine with 35 rounds of 7.62x25mm Tokarev, made for the PPSh-41 and its Variants, like the K-50M.</text>
+	</string>
+</string_table>

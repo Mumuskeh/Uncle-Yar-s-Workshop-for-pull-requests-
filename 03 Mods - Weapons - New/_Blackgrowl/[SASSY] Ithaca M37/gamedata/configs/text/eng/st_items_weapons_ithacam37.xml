@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ithacam37">
+		<text>Ithaca M37 "Riot"</text>
+	</string>
+	<string id="st_wpn_ithacam37_descr">
+		<text>The Ithaca M37 is one of most recognized pump-action shotguns of the United States, made in large numbers for civilians, police and military. Based on a 1915 patent by firearms designer, John Browning, for a shotgun initially named the Remington Model 17, it utilizes a novel combination ejection and loading port on the bottom of the gun, which leaves the sides closed to the elements. With a 4-round tubular and a simple design that lasted since 1937, this is a worthy cheap weapon to acquire.</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_trench">
+		<text>Ithaca M37 "Trenchgun"</text>
+	</string>
+	<string id="st_wpn_ithacam37_trench_descr">
+		<text>Trenchgun variant of the Ithaca M37, sporting a heatshield and a bayonet lug. The heatshield helps the gun stay cool, this gives better way to grip the gun, but most importantly, cools the barrel which reduces chances of inaccuracy. Also, the small added weight reduces the recoil just a bit. This variant is much more famous for the fact it is much easier to do "Slam-Fire" with it.</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_extmag">
+		<text>Ithaca M37 "Defense"</text>
+	</string>
+	<string id="st_wpn_ithacam37_extmag_descr">
+		<text>The Defense is a variant of the Ithaca M37, which adds an extended magazine, giving room for 3 more shells, making it a 7-round in total. It also uses polymer instead of wood, with a stainless steel finish, this should further improve its already-great reliability and reduce overall weight just a bit more.</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_stakeout">
+		<text>Ithaca M37 "Stakeout"</text>
+	</string>
+	<string id="st_wpn_ithacam37_stakeout_descr">
+		<text>The Stakeout is an 'official' shortened variant of the Ithaca M37, using a pistol grip stock and the barrel being shortened to 330mm. Made for civilians, most would use it for illegal conceal carry in the USA. In The Zone, it's perfect as an alternative to a "shotgun pistol" if neither of the Sawn-Off TOZ were good enough for them.</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_sawnoff">
+		<text>Ithaca M37 "Sawn Off"</text>
+	</string>
+	<string id="st_wpn_ithacam37_sawnoff_descr">
+		<text>An 'unofficial' shortened variant of the Ithaca M37, in other words, a field modification of it. By sawing off the stock, some weight is reduced and the length of the gun is shortened, making it better for conceal carry. Done mostly by Bandits and Renegades, who also carry such. One true benefit would be that it's at least just a bit better than the Stakeout, retaining the same barrel length, hence not having that severe accuracy loss.</text>
+	</string>
+
+</string_table>

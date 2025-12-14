@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_mag_k50m">
+		<text>Магазин к ППШ-41 калибра 7.62х25</text>
+	</string>
+	<string id="st_mag_k50m_descr">
+		<text>
+            Длинный, выгнутый магазин местимостью на 35 патронов 7.62х25 Токарев. Сделан для ППШ-41 и его вариантов, к примеру, К-50М.
+		</text>
+	</string>
+</string_table>
