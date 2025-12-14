@@ -4,7 +4,7 @@ Only available in the Gamma Discord.
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Disable the original configs folders.
+NOTE: You need the original mod. Disable the original configs and textures/ui folders.
 
 Internal IDs have been reworked for better organization. Do not apply this patch to an existing save with the mod already in use, use a new game.
 

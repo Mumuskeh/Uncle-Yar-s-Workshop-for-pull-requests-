@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<string_table>
-	<string id="st_wpn_aa12">
-		<text>AA-12</text>
-	</string>
-	<string id="st_wpn_aa12_descr">
-		<text>The AA-12 (Auto Assault-12) is a fully automatic combat shotgun designed by Maxwell Atchisson in 1972. It operates with a fully automatic firing mode and is fed by 20-round drum magazines.\n \n</text>
-	</string>
-</string_table>
