@@ -1,17 +1,19 @@
--Module:
+Module:
 Military SEVA armor for the player [cyborgcore]
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the model meshes and textures from the original mod; disable its configs and ui textures.
+NOTE: You still need the original mod; disable its configs and textures/ui folders.
 
 ----------------------------------------------------------
 -Explanation:
-Streamlined and fixes trader and text files. DLTX'd the items_actor_legs.ltx files to not be overwritten by other mods, and remade icons taking the 3D model as basis (the upgrade icon was too tiny).
+Streamlined and fixes trader and text files.
+DLTX'd the items_actor_legs.ltx files to not be overwritten by other mods, and remade icons taking the 3D model as basis (the upgrade icon was too tiny).
 
-Grok's Stash Overhaul integration.
-Outfit Attachment Overhaul. Outfit will be able to carry plates as per that mod.
-PDA Interactive integration.
+Integration into:
+Grok's Stash Overhaul
+Outfit Attachment Overhaul
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="bandit_light_exo_outfit_name">
+    <text>Light Exoskeleton "Thug"</text>
+</string>
+<string id="bandit_light_exo_outfit_description">
+    <text>%c[ui_gray_1]A crude modification made from stolen military components, this exoskeleton became a symbol of power among bandit leaders. Stripped of "unnecessary" protective modules, it kept what matters the ability to haul a ton of loot and inspire fear by its looks alone. Technicians welded it together from SKAT 9 scraps, industrial robot servos and BTR armor plates. Rumor has it, the first owner is still sitting somewhere in Rostov on a golden toilet though without legs or the exosuit itself. The lack of radiation protection is compensated by a simple rule: "If it's glowing run faster". Smuggler technicians learned to rewire its circuits with cheap parts, but the wear rate is catastrophic. Its main feature: a builtin alcohol compartment instead of one artifact slot, which local craftsmen call the "antistress system".</text>
+</string>
+
+<string id="killer_light_exo_outfit_name">
+    <text>Light Exoskeleton "Shadow"</text>
+</string>
+<string id="killer_light_exo_outfit_description">
+    <text>%c[ui_gray_1]An elite Western military contractor's design adapted for Zone operations. Compact servos and lightweight armor maintain mobility while enhanced insulation protects from "Electra" anomalies. Favored by snipers and saboteurs: its vibration dampening system lets you fire heavy rifles without losing aim.</text>
+</string>
+
+<string id="monolith_light_exo_outfit_name">
+    <text>Light Exoskeleton "Dogma"</text>
+</string>
+<string id="monolith_light_exo_outfit_description">
+    <text>%c[ui_gray_1]Armor "blessed by the Monolith's Will". A modified specimen with crystalline inclusions in composite panels that supposedly absorb radiation. Fanatics claim the exoskeleton "whispers" commands in battle through built in psi resonators. Technical inspections prove these are just overheating hallucinations: the cooling system was removed for "purer connection with Monolith". Extremely dangerous in zealots' hands: even broken, it lets them charge forward with grenades in both fists.</text>
+</string>
+
+<string id="freedom_light_exo_outfit_name">
+    <text>Light Exoskeleton "Free Spirit"</text>
+</string>
+<string id="freedom_light_exo_outfit_description">
+    <text>%c[ui_gray_1]"A freedom anthem in titanium and kevlar" as Freedom technicians at Yanov call it. Literally assembled "on their knees" from scrapped military gear, but with soul. The planned artifact module was replaced with a built-in beer fridge. Protection sacrificed for speed: the wearer can outrun a Bloodsucker, though what happens next remains untold. Inside the helmet, graffiti reads "Freedom or death!" which allegedly makes enemy snipers miss.</text>
+</string>
+
+<string id="clear_sky_light_exo_outfit_name">
+    <text>Light Exoskeleton "Storm"</text>
+</string>
+<string id="clear_sky_light_exo_outfit_description">
+    <text>%c[ui_gray_1]A lightweight modification of Clear Sky's exoskeleton, designed for scouts and scientists in high anomaly areas. Features enhanced radiation/EMP shielding and extra artifact slots. Rumors say it uses experimental materials from X8 lab, explaining its unnatural psi resistance. Due to high cost and maintenance, issued only to proven members on central Zone expeditions. Technicians joke that this suit is "the last chance for anyone dumb enough to crawl into the Burner's maw".</text>
+</string>
+
+<string id="neutral_light_exo_outfit_name">
+    <text>Light Exoskeleton "Stalker"</text>
+</string>
+<string id="neutral_light_exo_outfit_description">
+    <text>%c[ui_gray_1]A semi improvised military exoskeleton modification assembled by loner technicians from scrap. Despite simplified construction, it retains key advantages: reinforced servos for heavy loads and modular kevlar plating. Popular among experienced stalkers working far from factions: its repairability and anomaly adaptability are valued more than "fancy" brandname specs.</text>
+</string>
+
+</string_table>

@@ -24,6 +24,11 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
+ShAK-12 Tactical [Lewdnatic] patch
+Disables AShey's Shak-12 for whoever prefers LEWD's Tactical to avoid redundancies.
+Also disables the ASh specialized silencer and makes it use the vanilla silencer for consistency.
+Obviously, incompatible with the main option.
+
 ----------------------------------------------------------
 -Known issues:
 

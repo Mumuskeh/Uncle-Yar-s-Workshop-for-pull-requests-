@@ -7,13 +7,13 @@ ExoSEVAs [KronQ]
 ----------------------------------------------------------
 -Explanation:
 
-Includes integration for:
-Grok's Stash Overhaul. ExoSEVAs will be as rare to find in stashes as standard radiation suits. Looted exoSEVAs won't be found in stashes.
-Mags Redux. Normal Exosevas carry as much as normal exos; looted ones, as they're damaged, carry 1 mag less of each type (same as IBAZ outfits).
-Outfit Attachment Overhaul. Outfits will be able to carry plates as per that mod.
-PDA Interactive. Outfits (except ISG and Monolith) can be ordered.
+Integration into:
+Grok's Stash Overhaul. Looted exoSEVAs won't be found in stashes.
+Mags Redux. Looted Exosevas carry 1 mag less of each type than normal exos (same as IBAZ outfits).
+Outfit Attachment Overhaul
+PDA Interactive
 
-----------------------------------------------------------
+-------------------------------------------------------
 - Patches:
 
 Nav's Masks - DLTX patch fix

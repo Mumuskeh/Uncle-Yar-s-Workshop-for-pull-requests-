@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mp153_eft">
+		<text>MP-153 (Rail)</text>
+	</string>
+	<string id="st_wpn_mp153_eft_descr">
+		<text>The MP-153 smoothbore multi-shot shotgun, manufactured by IzhMekh ("Izhevsky Mechanical Plant"). A reliable and practical hunting and self-defense weapon.\n
+		This particular weapon has a Picatinny rail, and the barrel accepts a suppresor.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most optics for the Picatinny/weaver system\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Salvo Suppressor\n</text>
+	</string>
+</string_table>

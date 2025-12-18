@@ -16,15 +16,17 @@ Trader redistribution: you'll find more loner traders selling the NBC and PS5 ou
 Icons grouped up for a more compact texture file. A couple icons also were larger than normal, so I squished them. Maybe someone will make proper icons one day...
 
 Outfits have also been rebalanced, particularly the matter of not having proper or any head protection, as indicated by their icons and restrictions.
+-Some outfits didn't have the increased weight and/or value of the integrated helmets. Now they do.
 -Loner NBC Ranger: torso protection nerfed from Berill to Sunrise level, but buffed head protection from none to respirator level.
 -Loner PS5 variants: torso protection nerfed from radsuit to PS5 level, and head protection buffed from battle helmet to either respirator level except for the Wayfarer variant.
--Loner SKAT Strider: head protection nerfed from battle helmet to respirator level.
--Loner SKAT Knife: head protection buffed from none to battle helmet level. Removed camouflage effect (????).
--Loner Radsuit Legend: buffed to the same protection level as vanilla radsuit variants.
--Trenchcoat Scar: head protection buffed from none to respirator level.
--ISG LCS Operator: torso protection nerfed from SKAT to Berill level, but head protection buffed from none to battle helm level. Reduced camouflage effect by a quarter of the original.
+-Loner SKAT Strider: head protection nerfed from battle helmet to respirator level, and lowered value and weight.
+-Loner SKAT Knife: head protection buffed from none to battle helmet level. Reduced camouflage effect.
+-Loner Radsuit Legend: buffed to the same protection level as vanilla radsuit variants. Also improved hit_fraction_actor and power_loss a tiny bit over default exosuit (it was twice worse that of a normal exosuit).
+-Trenchcoat Scar: head protection buffed from none to Spartan helmet levels. Should justify the high price and the icon.
+-Merc PS5 Wolfhound: head protection buffed to exohelm level. Buffed torso ballistic protection a bit to STS levels. Upgrade icon coordinates fixed.
+
+-ISG LCS Operator: head ballistic protection buffed from none to M40 mask level. Reduced camouflage effect by a quarter of the original.
 -ISG Radsuit Ghost: added to the NPC spawn pool. Reduced camouflage effect by a quarter of the original.
--Merc PS5 Wolfhound: head protection buffed to exohelm level. Upgrade icon coordinates fixed.
 
 Includes integration for:
 1st Person View.
@@ -37,6 +39,12 @@ If you want extra functionality for this, my addons for Outfit Attachment Overha
 
 ----------------------------------------------------------
 -Patches:
+
+Separated Helmets
+I wasn't going to do this, because it would ruin the point of the outfits. But given all the changes I've made to them, I suppose it's fine.
+Do note:
+-the default vanilla (or replaced icons) will be used, except for a tweaked icon for the Scar coat.
+-removing the headgear makes the Stitch and Scope outfits redundant, so they won't be added.
 
 Full Upgrades
 https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack

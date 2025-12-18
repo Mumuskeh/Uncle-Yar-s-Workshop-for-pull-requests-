@@ -22,5 +22,8 @@ Powered Exoskeletons.
 ----------------------------------------------------------
 -Patches:
 
+Separated Helmets
+Patches the radsuits and SEVA. The exoSEVAs are disabled as they become redundant.
+
 ----------------------------------------------------------
 -Known issues:

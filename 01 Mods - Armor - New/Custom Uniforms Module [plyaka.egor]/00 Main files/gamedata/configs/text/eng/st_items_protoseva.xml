@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<string id="proto_scientific_outfit_name">
+	<text>SEVA Suit with Proto-Exoskeleton</text>
+</string>
+<string id="proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]Produced by one of Kyiv's defense research institutes, this suit offers an excellent alternative to other stalker-made suits crafted in makeshift conditions. Equipped with a closed-cycle breathing system, an integrated anomalous field suppression system, and a proto-exoskeleton that significantly increases carry weight, making it ideal for long expeditions. Thanks to the well-chosen materials, it is a solid choice. The only drawbacks are its price and ballistic protection: even with a decent bulletproof vest, it is highly discouraged to engage in firefights.</text>
+</string>
+
+<string id="bandit_proto_scientific_outfit_name">
+	<text>Looted SEVA Suit with Proto-Exoskeleton</text>
+</string>
+<string id="bandit_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]Bandits have never been particularly interested in science or anomaly research, yet they still use such protective suits for setting ambushes and attacking stalkers in anomalous fields and radiation hotspots. The suit features a closed-cycle breathing system, external insulation, and a proto-exoskeleton that allows for carrying more gear, which is useful for extended raids. However, due to the lack of additional physical protection, the suit is still ineffective in firefights.</text>
+</string>
+
+<string id="cs_proto_scientific_outfit_name">
+	<text>Clear Sky Scientific Suit CHN-4a with Proto-Exoskeleton</text>
+</string>
+<string id="cs_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]An unofficial version of the SEVA suit for Clear Sky research groups, smuggled into the Zone by some stalker named Stewbs. It still carries the scent of the mainland. It offers decent radiation protection but is otherwise slightly inferior to the original SEVA in terms of overall protection. The built-in proto-exoskeleton significantly increases carry weight, making it more practical for artifact collection and long expeditions.</text>
+</string>
+
+<string id="dolg_proto_scientific_outfit_name">
+	<text>PS5-9Md Universal Protection Suit with Proto-Exoskeleton</text>
+</string>
+<string id="dolg_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]An excellent protective suit of the Duty faction. It boasts outstanding anti-anomalous protection, coupled with decent ballistic resistance. The suit includes the PS5-M suit, a closed-cycle breathing system, an integrated anomalous field suppression system, and a proto-exoskeleton that increases carry weight, making it ideal for long missions. It has far more advanced insulation and impact protection than the standard SEVA, albeit with minor flaws.</text>
+</string>
+
+<string id="isg_proto_scientific_outfit_name">
+	<text>ISG Scientific Suit with Proto-Exoskeleton</text>
+</string>
+<string id="isg_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]A variant of the SEVA suit, produced by one of Kyiv's defense research institutes under a special order. The suit features a closed-cycle breathing system, external insulation, and a proto-exoskeleton that allows for carrying more gear, which is useful for extended raids. However, the included bulletproof vest is not as reliable, so it won't adequately protect the wearer in firefights.</text>
+</string>
+
+<string id="merc_proto_scientific_outfit_name">
+	<text>Mercenary Scientific Suit with Proto-Exoskeleton</text>
+</string>
+<string id="merc_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]A variant of the SEVA suit, produced under a mercenary contract. In an attempt to achieve better mobility, the physical protection stats have suffered significantly. Generally used by veterans specializing in artifact-hunting contracts in the northern regions of the Zone. The built-in proto-exoskeleton significantly increases carry weight, making it more practical for artifact collection and long expeditions. However, don't underestimate these artifact hunters, as they often operate with guards who are far better prepared for armed clashes.</text>
+</string>
+
+<string id="monolith_proto_scientific_outfit_name">
+	<text>Monolith Scientific Suit with Proto-Exoskeleton</text>
+</string>
+<string id="monolith_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]It includes a fragmentation vest of unknown origin and improved anti-radiation protection at the cost of reduced psi-protection. The anti-anomalous protection is roughly on par with the SEVA. The built-in proto-exoskeleton allows for carrying more gear, making it useful for long missions. According to stalker rumors, it is primarily used by Monolith members guarding the approaches to the Brain Scorcher, though there is no confirmation of this.</text>
+</string>
+
+<string id="renegade_proto_scientific_outfit_name">
+	<text>Renegade SEVA Suit with Proto-Exoskeleton</text>
+</string>
+<string id="renegade_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]An ergonomic suit originally intended for research expeditions in the Zone, it serves as a good alternative to light combat or makeshift gear. Surprisingly, it offers good thermal and chemical protection, as well as impact resistance. The built-in proto-exoskeleton significantly increases carry weight, making it more practical for extended raids. However, for a SEVA-class suit, its overall stats are rather lackluster.</text>
+</string>
+
+<string id="svoboda_proto_scientific_outfit_name">
+	<text>"Loki" Suit with Proto-Exoskeleton</text>
+</string>
+<string id="svoboda_proto_scientific_outfit_description">
+	<text>%c[ui_gray_1]A fairly high-quality suit, produced underground for the research needs of the Freedom faction. It is an unofficial modified version of the SEVA scientific suit made by a good friend, Lasse Scheyde. It includes a closed-cycle protection system, an integrated anomalous field suppression system, and a proto-exoskeleton that allows for carrying more gear, which is useful for long expeditions. It boasts high radiation protection. However, its bulletproofing is still insufficient for active combat.</text>
+</string>
+</string_table>

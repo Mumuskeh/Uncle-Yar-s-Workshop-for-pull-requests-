@@ -5,20 +5,29 @@ Separated Helmets Outfits Backpacks 1.5.2 [Laconeko]
 -Compatibility:
 Original mod not required.
 
+Complete Helmet Removal DLTX is now unneccesary.
+
+Rebalance mods may be touchy and need further patching. Use the original mod with them (for now).
+It should be more compatible with other mods, at least with Cr3pis' and Maid's icons, though.
+
 ----------------------------------------------------------
 -Explanation:
-Minor fix, actor_effects.ltx didn't list the ISG nosorog in the current 1.5.3 file.
 
-Also recreated the "NPCs drop backpacks" addon from the original pre-1.5.2 mod.
+DLTX conversion.
+Acknowledged the 1.5.3 addition of the ISG nosorog in the actor effects.
+Icon file reorganized and trimmed.
+
 
 ----------------------------------------------------------
 -Patches:
 
-Add Parts To Cut Weapons (WPO).
-
-DICK (Only needed to add helmets to vanilla entries)
-
 Nav's Masks
+It won't disable the ghillie outfit from using an overlay, as Nav's gives it its own.
+
+
+Deprecated patches. Use for the original non DLTX version of the mod:
+Add Parts To Cut Weapons (WPO).
+DICK (Only needed to add helmets to vanilla entries)
 
 ----------------------------------------------------------
 -Known issues:

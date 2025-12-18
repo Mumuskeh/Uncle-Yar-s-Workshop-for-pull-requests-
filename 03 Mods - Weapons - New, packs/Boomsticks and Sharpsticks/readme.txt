@@ -1,13 +1,13 @@
 -Module:
 Boomsticks and Sharpsticks [Mich]
-https://www.moddb.com/mods/stalker-anomaly/addons/boomsticks-and-sharpsticks
 
 ----------------------------------------------------------
 -Compatibility:
 
 ----------------------------------------------------------
 -Explanation:
-I've seen plenty of people ask "BaS guns don't have any parts. Any mods for it?" But thing is, uh, BaS already assigns parts to its guns! But for whatever reason people end up not seeing them.
+
+I've seen plenty of people say "BaS guns don't have any parts. Any mods for it?" But thing is, uh, BaS already assigns parts to its guns! But for whatever reason people end up not seeing them.
 
 One possible situation could be overwriting. BaS has its own copy of the vanilla parts.ltx file with its guns added to it. In case some other mod overwrites it, this DLTX file should help ensure this doesn't happen.
 
@@ -20,13 +20,15 @@ Weapon Parts Overhaul (same file as in WPO itself, but updated/touched up a lil 
 ----------------------------------------------------------
 -Patches:
 
-Bigger Ammo Boxes (DLTX Minimod) + BaS.
-https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
-Makes that mod cover the BaS ammo. File renamed to ensure being loaded last. Original mod not required.
+DLTX Minimod - Bigger Ammo Boxes, and Cheaper Ammo
+Makes those two modules cover the BaS ammo. File renamed to ensure being loaded last.
+Original modules not required.
 
-Cheaper Ammo (DLTX Minimod) + BaS.
-https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
-Makes that mod cover the BaS ammo. File renamed to ensure being loaded last. Original mod not required.
+BAS SR-2M Reanimated [Synd1cate] Fire position fix.
+by hoasd1
+1) Set fire_point of all Veresks to "-0.002, 0, 0.14" as it was clipping through the weapon.
+2) Fixed aim position of the "wpn_sr2_m1" and "wpn_sr2_m2" variants as it was away from the crosshair.
+
 
 ----------------------------------------------------------
 -Known issues:

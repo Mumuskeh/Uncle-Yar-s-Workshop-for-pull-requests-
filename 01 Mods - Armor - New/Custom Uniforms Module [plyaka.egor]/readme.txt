@@ -3,20 +3,25 @@ Custom Uniforms Module [plyaka.egor]
 
 ----------------------------------------------------------
 -Compatibility:
+NOTE: You still need the original mod. Disable the configs folder.
 
 ----------------------------------------------------------
 -Explanation:
 
-Added outfits to traders.
+Added to traders.
+DLTX conversion of the scripted files for parts.
 
-Grok's Stash Overhaul integration. All suits are rarer than their non-protoexo counterparts.
-Mags Redux integration. Outfits get the same carry load as their non-protoexo counterparts.
-Outfit Attachment Overhaul. Outfits will be able to carry plates as per that mod.
+Integration into:
+Grok's Stash Overhaul.
+Mags Redux.
+Outfit Attachment Overhaul.
 Outfits Affect Movespeed.
-PDA Interactive integration. Outfits (except ISG and Monolith) can be ordered.
+PDA Interactive. ISG and Monolith outfits can't be ordered.
 
 ----------------------------------------------------------
 -Patches:
+
+Separated Helmets
 
 Nav's Masks
 

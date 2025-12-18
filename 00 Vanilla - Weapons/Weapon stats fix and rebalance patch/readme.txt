@@ -90,7 +90,8 @@ PENDING: 7.xmm weapons, snipers, and LMGs in general, .
 ----------------------------------------------------------
 -Patches:
 
-All changes follows the same balancing ideas as the file for vanilla guns. The files have plenty of comments for further insights on changes.
+All changes follow the same balancing ideas as the file for vanilla guns. The files have plenty of comments for further insights on changes.
+
 
 -Boomsticks and Sharpsticks
 This includes guns from BaS itself and explicit addons such as BaS Extra Weapons, Saiga drum kit, and BaS Plus Saiga Tactical.
@@ -118,15 +119,16 @@ Will now use a vanilla silencer like the vanilla Saiga 12.
 
 
 -Hisalute's weapon mods
-It covers Simple Weapon Pack, Misc Weapon Pack, and MG42 + MG3
+It covers Simple Weapon Pack, Misc Weapon Pack, and MG42 + MG3.
 
 
 -Ammo packs
 It covers other mods that add new ammo, currently 10mm Auto Ecosystem and Arsenal Overhaul 3 Late Comers.
 
+
 -Other Mods
 It covers individual mods.
-Currently the list is as follows, listed by authors:
+Currently the (non comprehensive) list is as follows, listed by authors:
 Alex: AK107, Vulcan-M
 ATHI: AK101 SP, AK103 BP, Groza custom, KAC Freak PDW, PSG1, M4 Spectre, MCX SPEAR
 Bert: Desert Tech MDR, Mauser C96, MSBS Grot, Sten
@@ -184,7 +186,7 @@ For those who don't like mods abusing BaS as a requisite. It will make guns from
 For example, WP shotguns will use PSB1 while NATO ones use NATO silencer. And big caliber sniper rifles will use the KZRZP.
 This is only for BaS silencers and mods with their own silencer are not covered.
 
-Currently covered:
+Some mods covered:
 Alex: AK107
 ATHI: AK101 SP, MCX Spear
 Bert: MSBS Grot
