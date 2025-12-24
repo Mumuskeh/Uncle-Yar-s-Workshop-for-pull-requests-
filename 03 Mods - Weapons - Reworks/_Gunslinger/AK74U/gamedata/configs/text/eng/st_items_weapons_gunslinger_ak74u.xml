@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ak74u_snag_descr">
+		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range.\n
+		This special variant has a 45 round RPK magazine and an integrated suppressor.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 suppressor (integrated)\n \n</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+    <string id="st_wpn_famas_f1"> <!-- WTF is Famas F3? -->
+        <text>FAMAS F1</text>
+    </string>
+	
+</string_table>

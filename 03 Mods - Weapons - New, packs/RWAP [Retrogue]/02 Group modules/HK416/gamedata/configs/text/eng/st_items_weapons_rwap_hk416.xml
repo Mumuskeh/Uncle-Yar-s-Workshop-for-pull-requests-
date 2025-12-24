@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_hk416_tac">
+		<text>HK416 Tactical</text>
+	</string>
+	<string id="st_wpn_hk416_tac_descr">
+		<text>The HK416 is a rifle designed and manufactured by Heckler &amp; Koch to improve the M4. It is available as a complete firearm, or as an upper receiver that fits on any AR-15 type lower receiver. The US Army's Delta Force collaborated with the German arms makers to develop the new rifle. Testing the H&amp;K 416 in 2004 revealed that the piston operating system significantly reduces malfunctions while increasing the life of parts. The project was originally called the H&amp;K M4, but was changed in response to a trademark infringement suit filed by Colt Defence. Currently, it is only available to government and military organisations, hence why this assault rifle is usually carried by Mercenaries.\n
+		This particular weapon has been fitted with a laser pointer module and a forward grip.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+	<string id="st_wpn_hk416_tacsmr">
+		<text>HK416</text>
+	</string>
+	<string id="st_wpn_hk416_tacsmr_descr">
+		<text>The HK416 is a rifle designed and manufactured by Heckler &amp; Koch to improve the M4. It is available as a complete firearm, or as an upper receiver that fits on any AR-15 type lower receiver. The US Army's Delta Force collaborated with the German arms makers to develop the new rifle. Testing the H&amp;K 416 in 2004 revealed that the piston operating system significantly reduces malfunctions while increasing the life of parts. The project was originally called the H&amp;K M4, but was changed in response to a trademark infringement suit filed by Colt Defence. Currently, it is only available to government and military organisations, hence why this assault rifle is usually carried by Mercenaries.\n
+		This particular weapon has been fitted with a longer barrel, a laser pointer module and a forward grip.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
+	</string>
+
+</string_table>

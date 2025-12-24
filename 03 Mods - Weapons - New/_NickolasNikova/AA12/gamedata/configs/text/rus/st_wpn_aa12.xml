@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_aa12">
+		<text>AA-12</text>
+	</string>
+	<string id="st_wpn_aa12_descr">
+		<text>AA-12 (Auto Assault-12) — это полностью автоматический боевой дробовик, разработанный Максвеллом Атчиссоном в 1972 году. Он имеет режим полностью автоматической стрельбы и использует магазины барабанного типа на 20 патронов.\n \n</text>
+	</string>
+</string_table>

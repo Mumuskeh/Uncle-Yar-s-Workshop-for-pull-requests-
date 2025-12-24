@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_AKMSU">
+		<text>SAG-AKMSU</text>
+	</string>
+	<string id="st_wpn_AKMSU_descr">
+		<text>The AKMSU is the name attributed to a compact carbine derived from the Soviet AKM, chambered in 7.62?39mm. The carbine was commonly thought to be a Soviet prototype weapon, but evidence suggests that the carbine was not actually of Soviet origin, and was instead a custom-made weapon misattributed as a Soviet weapon.\n
+		This one has Customized with a SAG Chassis.</text>
+	</string>
+
+	<string id="st_wpn_am17">
+		<text>AM-17</text>
+	</string>
+	<string id="st_wpn_am17_descr">
+		<text>The AM-17 is an assault rifle that uses standard intermediate cartridge 5.45?39mm 7N10 cartridge. It was developed and manufactured by in the late 2010s by Kalashnikov Concern based on the Yevgeny Dragunov MA Compact Rifle. The weapon is intended for use as a close quarters weapon.
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Russia\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Kalashnikov Concern\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2018</text>
+	</string>
+
+	<string id="st_wpn_amb17">
+		<text>AMB-17</text>
+	</string>
+	<string id="st_wpn_amb17_s">
+		<text>AMB17</text>
+	</string>
+	<string id="st_wpn_amb17_descr">
+		<text>The AMB-17 is an integrally suppressed assault rifle that uses a heavy subsonic 9?39mm SP5 cartridge and armor-piercing SP6 cartridge. It was developed and manufactured in the late 2010s by Kalashnikov Concern, based on the Yevgeny Dragunov MA Compact Rifle.The weapon is intended for use as a close quarters weapon.</text>
+	</string>
+
+	<string id="st_wpn_bcm">
+		<text>BCM CQB MCMR-10</text>
+	</string>
+	<string id="st_wpn_bcm_s">
+		<text>BCM MCMR10</text>
+	</string>
+	<string id="st_wpn_bcm_descr">
+		<text>This customized version of the M4A1 is produced by Bravo Company, intended for CQB situations.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]BCM\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2017</text>
+	</string>
+
+	<string id="st_wpn_cr7">
+		<text>Crom CR-7</text>
+	</string>
+	<string id="st_wpn_cr7_s">
+		<text>CR7</text>
+	</string>
+	<string id="st_wpn_cr7_descr">
+		<text>The CR-7 chambered .338 Lapua Magnum features a unique 7-sided polygonal barrel design that provides superior accuracy and reduced weight. The lightweight carbon fiber composite stock is designed for maximum durability and comfort, and includes an integrated foregrip for improved maneuverability.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]CROM USA\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2019</text>
+	</string>
+
+	<string id="st_wpn_g95k_rwap">
+		<text>HK G95K</text>
+	</string>
+	<string id="st_wpn_g95k_rwap_s">
+		<text>G95K</text>
+	</string>
+	<string id="st_wpn_g95k_rwap_descr">
+		<text>The HK G95K is the short barrelled version for "specialized forces" of the G95A1, a variant of the G95, itself based off the HK416, that superceded the HK G36 as the standard issue rifle of the German Armed Forces in 2021 along with the Specter DR 1-4? as the standard aiming optical sight. It features a height-adjustable shoulder support on the stock, a steeper grip angle as well as a shorter hand guard.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2004</text>
+	</string>
+
+	<string id="st_wpn_gen12">
+		<text>TTI JW4 Dracarys Gen-12</text>
+	</string>
+	<string id="st_wpn_gen12_s">
+		<text>Dracarys Gen-12</text>
+	</string>
+	<string id="st_wpn_gen12_descr">
+		<text>If you ever find yourself completely outnumbered and in need of the ultimate closed quarters battle weapon The TTI JW4 Dracarys Gen-12 Shotgun is the best weapon of choice. No magazine fed shotgun in history has been as reliable, ruggedly built and versatile as the TTI Dracarys Gen-12. The last place you want to be is in the shadow of this fire breathing beast, who leaves nothing but scorched earth in its wake.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Genesis Arms\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2022</text>
+	</string>
+
+	<string id="st_wpn_ks1">
+		<text>KS-1 L403A1</text>
+	</string>
+	<string id="st_wpn_ks1_s">
+		<text>KS1</text>
+	</string>
+	<string id="st_wpn_ks1_descr">
+		<text>The KS-1 (Knight's Stoner 1), designated L403A1, is an assault rifle designed by Knight's Armament Company. It was adopted by the Royal Marines and the Ranger Regiment to replace the SA80 in Special Operations Forces, notably the Army Special Operations Brigade and Future Commando Force.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Knight's Armament Company\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2023</text>
+	</string>
+
+	<string id="st_wpn_l119a2">
+		<text>L119A2</text>
+	</string>
+	<string id="st_wpn_l119a2_descr">
+		<text>The L119A2 Special Forces Individual Weapon (SFIW) is a carbine produced by Colt Canada (formerly Diemaco) in widespread use by United Kingdom Special Forces (UKSF). It is equipped with a 10.5&#x2033; 416R Stainless steel match-grade barrel with a Surefire Warcomp.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]CANADA-UK\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]COLT CANADA\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2013</text>
+	</string>
+
+	<string id="wpn_m110k1">
+		<text>KAC M110K1</text>
+	</string>
+	<string id="wpn_m110k1_s">
+		<text>M110K1</text>
+	</string>
+	<string id="wpn_m110k1_descr">
+		<text>The M110K1 Semi Automatic Sniper System (M110 SASS) is an American semi-automatic sniper rifle that is chambered for the 7.62&#xD7;51mm NATO round. It is manufactured by Knight's Armament Company.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Knight's Armament Company\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+	<string id="st_wpn_mb47">
+		<text>MB-47</text>
+	</string>
+	<string id="st_wpn_mb47_descr">
+		<text>The MB-47 is patterned after the original milled Bulgarian receivers produced by Sharps Bros.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Sharps Bros\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2016</text>
+	</string>
+
+	<string id="st_wpn_mcx_rwap">
+		<text>SIG MCX Virtus</text>
+	</string>
+	<string id="st_wpn_mcx_rwap_s">
+		<text>MCX Virtus</text>
+	</string>
+	<string id="st_wpn_mcx_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX VIRTUS is the second generation of the SIG MCX series and was introduced in 2017. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+	<string id="st_wpn_rattler_rwap">
+		<text>SIG MCX Rattler</text>
+	</string>
+	<string id="st_wpn_rattler_rwap_s">
+		<text>MCX Rattler</text>
+	</string>
+	<string id="st_wpn_rattler_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX RATTLER is a short-barreled variant chambered in .300 AAC Blackout and 5.56, intended to serve as a personal defense weapon. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+	<string id="st_wpn_mcxspear_rwap">
+		<text>SIG-MCX SPEAR LT</text>
+	</string>
+	<string id="st_wpn_mcxspear_rwap_s">
+		<text>MCX-SPEAR LT</text>
+	</string>
+	<string id="st_wpn_mcxspear_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX-SPEAR LT is a carbine and the third generation of the SIG MCX line, introduced in 2022. It actually is less of a derivation of the Virtus line, and more of the the MCX-SPEAR rifle, itself a derivation of the whole MCX line. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2022</text>
+	</string>
+
+	<string id="st_wpn_mpx">
+		<text>SIG MPX</text>
+	</string>
+	<string id="st_wpn_mpx_s">
+		<text>MPX</text>
+	</string>
+	<string id="st_wpn_mpx_descr">
+		<text>The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+	<string id="st_wpn_n4">
+		<text>Noveske Gen4 Shorty</text>
+	</string>
+	<string id="st_wpn_n4_s">
+		<text>Noveske Shorty</text>
+	</string>
+	<string id="st_wpn_n4_descr">
+		<text>The Noveske Gen 4 5.56 Shorty is the pinnacle of AR15 performance, crafted meticulously by skilled machinists. This short-barreled rifle features a fully-equipped lower military receiver and an in-house made barrel, ensuring quality and precision in every component.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Noveske Rifleworks\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2019</text>
+	</string>
+
+	<string id="st_wpn_sg553rsbr">
+		<text>SIG SG-553R SBR</text>
+	</string>
+	<string id="st_wpn_sg553rsbr_s">
+		<text>SG553R SBR</text>
+	</string>
+	<string id="st_wpn_sg553rsbr_descr">
+		<text>The SG 553 is an improved version of the SG 552 released in 2008. The SG 553R SBR is a variant chambered for the 7.62x39mm cartridge fed from AK family box magazines and shorten barrel for CQB.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+	<string id="st_wpn_sg553rsbrtac">
+		<text>SIG SG-553R SBR Tactical</text>
+	</string>
+	<string id="st_wpn_sg553rsbrtac_s">
+		<text>SG553R SBR Tactical</text>
+	</string>
+	<string id="st_wpn_sg553rsbrtac_descr">
+		<text>The SG 553 is an improved version of the SG 552 released in 2008. The SG 553R SBR is a variant chambered for the 7.62x39mm cartridge fed from AK family box magazines and shorten barrel for CQB.\n
+		This particular weapon has an extended barrel extended and a laser pointer module.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+<!-- There is also a .300 AAC Blackout variant of the SG 553 known as the SG 553 BK which was first shown at IWA OutdoorClassics in 2016 -->
+
+	<string id="st_wpn_urgi">
+		<text>M4A1 URG-I</text>
+	</string>
+	<string id="st_wpn_urgi_s">
+		<text>URG-I</text>
+	</string>
+	<string id="st_wpn_urgi_descr">
+		<text>An “Urgie” is an M4A1 complete upper assembly available through Geissele Automatics and it’s also the latest evolution of the M4. The URG-I (Upper Receiver Group, Improved) resulted from a USASOC contract project (United States Army Special Operations Command; no more “SOCOM”) to develop an upgraded M4 for issue.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Geissele Automatics\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2018</text>
+	</string>
+
+</string_table>

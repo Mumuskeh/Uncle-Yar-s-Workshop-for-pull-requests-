@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_hk417_new">
+		<text>HK417</text>
+	</string>
+	
+	<string id="st_wpn_hk417_new_descr">
+		<text>The Heckler & Koch HK417 is a battle rifle designed and manufactured by Heckler & Koch in Germany. It is the larger caliber version of the HK416, and chambered for the full-power 7.62x51mm NATO rifle cartridge. It is a gas-operated, selective fire rifle with a rotating bolt. The HK417 is intended for use in roles where the greater penetrative power, stopping power, and range of the 7.62x51mm cartridge are required. It has been adopted for service by a number of armed forces, special forces, and police organizations.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n \n</text>
+	</string>
+</string_table>

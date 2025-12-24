@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<w>
+  <file name="wpn\wpn_crosshair_bravo4">
+    <texture id="wpn_crosshair_bravo4" x="0" y="0" width="1024" height="1024" />
+  </file>
+  <file name="wpn\wpn_crosshair_hamr">
+    <texture id="wpn_crosshair_hamr" x="0" y="0" width="1024" height="1024" />
+  </file>
+  <file name="wpn\wpn_crosshair_razorhd">
+    <texture id="wpn_crosshair_razorhd" x="0" y="0" width="1024" height="1024" />
+  </file>
+</w>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_guns_groza">
+		<text>OTs-14-4A Groza</text>
+	</string>
+	<string id="st_wpn_guns_groza_s">
+		<text>Groza 4A</text>
+	</string>
+	<string id="st_wpn_groza_guns_descr">
+		<text>The OTs-14-4A "Groza-4" ('Storm') is a Russian selective fire bullpup assault rifle with a grenade launcher, chambered for the 9Ч39mm subsonic cartridge. The OTs-14 Groza line was developed in the 1990s at the Central Design and Research Bureau of Sporting and Hunting Arms. It saw limited use in the Second Chechen War and Russo-Georgian War, and later by Russian police.\n
+		Highly valued by the military and stalkers due to its ability to reliably hit both armored and sheltered enemies. It can be assembled in 4 different configurations, depending on the combat mission.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4х34\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 under-barrel grenade launcher\n \n</text>
+	</string>
+
+	<string id="st_wpn_groza_guns_nimble">
+		<text>OTs-14-4A Groza Duty</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble">
+		<text>Groza 2A Duty</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_descr">
+		<text>A copy of the experimental OTs-14-2A rifle, modified by Duty technicians for one of their former high rank members named Danya. This model is chambered for 5.45x39mm, more common than the 9x39mm caliber, and includes a set of extended magazines for 60 rounds, a laser pointer module, and a forward grip, though this last one preempts the use of a grenade launcher.\n
+		The former owner asked Petrenko that, if he had to find a new owner for it, it should only be the most worthy member of Duty.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] scope PO4х34, Night Sight PN-23, ELCAN SpecterDR, Acog, Barsca AC10632, Cobra 8-18, Aimpoint PRO, March Tactical 3-24x42 FFP, OKP-7, AimpointMicro, Aimpoint, C-More, Aimpoint CompM4s, Docter, Deltapoint Pro, Eotech, Eotech 553, Kemper, Meprolight, Rakurs, RMR\n</text>
+	</string>
+</string_table>

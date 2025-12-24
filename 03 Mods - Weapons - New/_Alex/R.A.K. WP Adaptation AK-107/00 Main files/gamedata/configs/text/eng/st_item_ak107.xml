@@ -1,51 +1,53 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
+
 	<string id="st_wpn_ak107">
 		<text>AK 107</text>
+	</string>
+	<string id="st_wpn_ak107_s">
+		<text>AK107</text>
 	</string>
 	<string id="st_wpn_ak107_descr">
 		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
 		%c[ui_gray_2]Attachments: \n
 		%c[ui_gray_2] Suppressor: Rotor-43\n
 		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
-		%c[ui_gray_2] Underbarrel: GP-25 "Kostyor"\n \n</text>
-	</string>
-
-	<string id="st_wpn_ak107_custom">
-		<text>AK 107 "Custom"</text>
-	</string>
-	<string id="st_wpn_ak107_custom_descr">
-		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
-		%c[ui_gray_2]Attachments: \n
-		%c[ui_gray_2] Suppressor: Rotor-43\n
-		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
-		%c[ui_gray_2] Underbarrel: None\n \n</text>
-	</string>
-
-	<string id="st_wpn_ak107_raptor">
-		<text>AK 107 "Raptor"</text>
-	</string>
-	<string id="st_wpn_ak107_raptor_descr">
-		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
-		%c[ui_gray_2]Attachments: \n
-		%c[ui_gray_2] Suppressor: Rotor-43\n
-		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
-		%c[ui_gray_2] Underbarrel: None\n \n</text>
+		%c[ui_gray_2] Underbarrel: GP-25 "Kostyor"\n</text>
 	</string>
 
 	<string id="st_wpn_ak107_chaser">
 		<text>AK 107 "Chaser"</text>
+	</string>
+	<string id="st_wpn_ak107_chaser_s">
+		<text>AK107 Chaser</text>
 	</string>
 	<string id="st_wpn_ak107_chaser_descr">
 		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
 		%c[ui_gray_2]Attachments: \n
 		%c[ui_gray_2] Suppressor: Rotor-43\n
 		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
-		%c[ui_gray_2] Underbarrel: None\n \n</text>
+		%c[ui_gray_2] Underbarrel: None\n</text>
+	</string>
+
+	<string id="st_wpn_ak107_custom">
+		<text>AK 107 "Custom"</text>
+	</string>
+	<string id="st_wpn_ak107_custom_s">
+		<text>AK107 Custom</text>
+	</string>
+	<string id="st_wpn_ak107_custom_descr">
+		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
+		%c[ui_gray_2]Attachments: \n
+		%c[ui_gray_2] Suppressor: Rotor-43\n
+		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
+		%c[ui_gray_2] Underbarrel: None\n</text>
 	</string>
 
 	<string id="st_wpn_ak107_ranger">
 		<text>AK 107 "Ranger"</text>
+	</string>
+	<string id="st_wpn_ak107_ranger_s">
+		<text>AK107 Ranger</text>
 	</string>
 	<string id="st_wpn_ak107_ranger_descr">
 		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n
@@ -53,6 +55,21 @@
 		%c[ui_gray_2]Attachments: \n
 		%c[ui_gray_2] Suppressor: Rotor-43\n
 		%c[ui_gray_2] Optics: Integrated optic with thermal vision\n
-		%c[ui_gray_2] Underbarrel: None\n \n</text>
+		%c[ui_gray_2] Underbarrel: None\n</text>
 	</string>
+
+	<string id="st_wpn_ak107_raptor">
+		<text>AK 107 "Raptor"</text>
+	</string>
+	<string id="st_wpn_ak107_raptor_s">
+		<text>AK107 Raptor</text>
+	</string>
+	<string id="st_wpn_ak107_raptor_descr">
+		<text>AK-107 assault rifle was developed at the Izhevsk Machine-Building Plant based on AK74M. Belongs to the "hundred series" of AK rifles. Features balanced recoil system previously used in AL-7 and AEK-971 models. Balanced mechanism improves burst accuracy from unstable positions by 15-20% compared to AK74M. This system was later abandoned. In 2011, IZHMASH demonstrated upgraded AK-107 as potential AK74M replacement. Balanced system removed, features new receiver cover with integrated Picatinny rail for optics. Rear sight replaced with adjustable diopter instead of traditional U-notch.\n \n
+		%c[ui_gray_2]Attachments: \n
+		%c[ui_gray_2] Suppressor: Rotor-43\n
+		%c[ui_gray_2] Optics: Picatinny/Weaver and Dovetail rails\n
+		%c[ui_gray_2] Underbarrel: None\n</text>
+	</string>
+
 </string_table>

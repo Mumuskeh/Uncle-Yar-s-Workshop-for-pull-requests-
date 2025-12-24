@@ -94,6 +94,15 @@ bullet_speed	= 750 ; 715
 ![wpn_groza_custom]
 $spawn			= "weapons\groza_custom"
 
+;Gungnir
+![wpn_gungnir]
+inv_weight		= 5.9 ; 4.00
+hit_impulse		= 48 ; 46
+hit_power		= 1.45, 1.45, 1.45, 1.45 ; 1.6, 1.6, 1.6, 1.6
+fire_distance	= 550 ; 1800
+bullet_speed	= 1000 ; 1330
+rpm				= 550 ; 400
+
 ;KAC Freak PDW
 ;WIP
 ![wpn_m4_pdw]
@@ -110,11 +119,8 @@ $spawn			= "weapons\m4_pdw_sup"
 ;PSG1
 ![wpn_psg1]
 $spawn			= "weapons\psg1"
-inv_weight		= 7.2
+inv_weight		= 6.3 ; 4.95
 bullet_speed	= 868
-; snd_draw		= weapons\psg1\g3_deploy
-; snd_holster		= weapons\psg1\g3_holster
-; snd_silncer_shot= weapons\psg1\g3_sil1
 
 ;M4 Spectre
 ![wpn_spectre]
@@ -388,12 +394,27 @@ bullet_speed	= 285
 
 ;;FROSTYCHUN 	============	============	============	============
 
+;I.W.P. Benelli M1014
+![wpn_benelli_m1014]
+inv_weight		= 3.82 ; 4.13
+ammo_elapsed	= 8 ; 10
+ammo_mag_size	= 8 ; 10
+fire_distance	= 100
+bullet_speed	= 408 ; 350
+
 ;Ready or not Pack
 ![wpn_sr16]
 $spawn			= "weapons\sr16"
 inv_weight		= 2.9 ; 3.0
 fire_distance	= 500 ; 800
 rpm				= 750 ; 800
+
+;EFT MTS 255
+![wpn_eft_mts_255]
+hit_impulse		= 37 ; 40
+fire_distance	= 100 ; 300
+rpm				= 85 ; 55
+![wpn_mts_255_eft]
 
 
 ;;JMERC 	============	============	============	============
@@ -595,6 +616,19 @@ hit_power		= 0.50, 0.50, 0.50, 0.50 ; 0.39, 0.39, 0.39, 0.39
 fire_distance	= 340 ; 800
 ; bullet_speed                             = 500
 ; rpm                                      = 1300
+
+;Mjolnir
+;Note to self: haven't balanced lapua guns yet
+;meanwhile let's bring it down to their level, just better a bit up
+![wpn_mjolnir]
+; hit_impulse	= 45 ; 46
+hit_power		= 1.4, 1.4, 1.4, 1.4 ; 1.35, 1.35, 1.35, 1.35 ; 1.6, 1.6, 1.6, 1.6
+fire_distance	= 1600 ; 1500 ; 1800
+bullet_speed	= 950 ; 845 ; 1330
+![wpn_mjolnir_ac]
+hit_impulse		= 50 ; 55
+hit_power		= 1.55, 1.55, 1.55, 1.55 ; 1.7, 1.7, 1.7, 1.7
+bullet_speed	= 1050 ; 1500
 
 ;MP5K
 ![wpn_mp5k]
@@ -1010,9 +1044,9 @@ fire_modes		= 1, -1
 fire_distance	= 600 ; 750
 bullet_speed	= 810 ; 880
 rpm				= 720 ; 850
-
 ![wpn_hk416smr_rwap]
 $spawn			= "weapons\hk416smr_rwap"
+cost			= 69230 ; 61230
 inv_weight		= 3.12 ; 3.00
 fire_modes		= 1, -1
 fire_distance	= 700 ; 1000
@@ -1082,15 +1116,16 @@ bullet_speed	= 850 ; 500
 ![wpn_sg553_rwap]
 $spawn			= "weapons\sg553_rwap"
 inv_weight		= 3.080 ; 3.10
-fire_distance	= 400 ; 900
+fire_distance	= 500 ; 900
 bullet_speed	= 911 ; 715
 rpm				= 700 ; 600
-
 ![wpn_sg553tac_rwap]
 $spawn			= "weapons\sg553tac_rwap"
 inv_weight		= 3.130 ; 3.10
-fire_distance	= 400 ; 900
-bullet_speed	= 911 ; 715
+hit_impulse		= 35 ; 34
+hit_power		= 0.59, 0.59, 0.59, 0.59 ; 0.58, 0.58, 0.58, 0.58
+fire_distance	= 600 ; 900
+bullet_speed	= 961 ; 715
 rpm				= 700 ; 600
 
 ![wpn_urgi_rwap]
@@ -1148,6 +1183,7 @@ rpm				= 30
 ;Benelli M4
 ![wpn_benelli_m4]
 fire_distance	= 100
+bullet_speed	= 408 ; 340
 
 ;FB Radom Vis
 ![wpn_vis35]

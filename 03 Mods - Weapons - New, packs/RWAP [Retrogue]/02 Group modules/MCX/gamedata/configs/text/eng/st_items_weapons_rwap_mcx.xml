@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mcx_virtus_rwap">
+		<text>SIG MCX Virtus</text>
+	</string>
+	<string id="st_wpn_mcx_virtus_rwap_s">
+		<text>MCX Virtus</text>
+	</string>
+	<string id="st_wpn_mcx_virtus_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX VIRTUS is the second generation of the SIG MCX series and was introduced in 2017. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+	<string id="st_wpn_mcx_rattler_rwap">
+		<text>SIG MCX Rattler</text>
+	</string>
+	<string id="st_wpn_mcx_rattler_rwap_s">
+		<text>MCX Rattler</text>
+	</string>
+	<string id="st_wpn_mcx_rattler_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX RATTLER is a short-barreled variant chambered in .300 AAC Blackout and 5.56, intended to serve as a personal defense weapon. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+	<string id="st_wpn_mcx_spear_lt_rwap">
+		<text>SIG-MCX SPEAR LT</text>
+	</string>
+	<string id="st_wpn_mcx_spear_lt_rwap_s">
+		<text>MCX-SPEAR LT</text>
+	</string>
+	<string id="st_wpn_mcx_spear_lt_rwap_descr">
+		<text>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, which features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon based on the design of the earlier SIG MPX. It features a system that enables conversion between 5.56?45mm NATO, .300 AAC Blackout, and 7.62?39mm ammunition, though it is designed to deliver optimal performance with .300 AAC Blackout and an optional suppressor.\n
+		The SIG MCX-SPEAR LT is a carbine and the third generation of the SIG MCX line, introduced in 2022. It actually is less of a derivation of the Virtus line, and more of the the MCX-SPEAR rifle, itself a derivation of the whole MCX line. This is the model chambered in 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2022</text>
+	</string>
+
+	<string id="st_wpn_mpx">
+		<text>SIG MPX</text>
+	</string>
+	<string id="st_wpn_mpx_s">
+		<text>MPX</text>
+	</string>
+	<string id="st_wpn_mpx_descr">
+		<text>The SIG Sauer MPX submachine gun boasts an unprecedented operation speed in the familiar form factor of the AR platform. Short-stroke gas piston allows SIG MPX to use the full range of 9 mm ammunition without any adjustments to the gas valve. The full-sized mount provides the means of installing a wide range of scopes and sighting devices.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+</string_table>

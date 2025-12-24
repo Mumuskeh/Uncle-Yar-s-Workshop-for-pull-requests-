@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_g95k_rwap">
+		<text>HK G95K</text>
+	</string>
+	<string id="st_wpn_g95k_rwap_s">
+		<text>G95K</text>
+	</string>
+	<string id="st_wpn_g95k_rwap_descr">
+		<text>The HK G95K is the short barrelled version for "specialized forces" of the G95A1, a variant of the G95, itself based off the HK416, that superceded the HK G36 as the standard issue rifle of the German Armed Forces in 2021 along with the Specter DR 1-4? as the standard aiming optical sight. It features a height-adjustable shoulder support on the stock, a steeper grip angle as well as a shorter hand guard.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2004</text>
+	</string>
+
+	<string id="st_wpn_gen12">
+		<text>TTI JW4 Dracarys Gen-12</text>
+	</string>
+	<string id="st_wpn_gen12_s">
+		<text>Dracarys Gen-12</text>
+	</string>
+	<string id="st_wpn_gen12_descr">
+		<text>If you ever find yourself completely outnumbered and in need of the ultimate closed quarters battle weapon The TTI JW4 Dracarys Gen-12 Shotgun is the best weapon of choice. No magazine fed shotgun in history has been as reliable, ruggedly built and versatile as the TTI Dracarys Gen-12. The last place you want to be is in the shadow of this fire breathing beast, who leaves nothing but scorched earth in its wake.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Genesis Arms\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2022</text>
+	</string>
+
+</string_table>

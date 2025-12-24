@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_akmsu_sag">
+		<text>SAG-AKMSU</text>
+	</string>
+	<string id="st_wpn_akmsu_sag_descr">
+		<text>The AKMSU is the name attributed to a compact carbine derived from the Soviet AKM, chambered in 7.62?39mm. The carbine was commonly thought to be a Soviet prototype weapon, but evidence suggests that the carbine was not actually of Soviet origin, and was instead a custom-made weapon misattributed as a Soviet weapon.\n
+		This one has Customized with a SAG Chassis.</text>
+	</string>
+
+	<string id="st_wpn_am17">
+		<text>AM-17</text>
+	</string>
+	<string id="st_wpn_am17_descr">
+		<text>The AM-17 is an assault rifle that uses standard intermediate cartridge 5.45?39mm 7N10 cartridge. It was developed and manufactured by in the late 2010s by Kalashnikov Concern based on the Yevgeny Dragunov MA Compact Rifle. The weapon is intended for use as a close quarters weapon.
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Russia\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Kalashnikov Concern\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2018</text>
+	</string>
+
+	<string id="st_wpn_amb17">
+		<text>AMB-17</text>
+	</string>
+	<string id="st_wpn_amb17_s">
+		<text>AMB17</text>
+	</string>
+	<string id="st_wpn_amb17_descr">
+		<text>The AMB-17 is an integrally suppressed assault rifle that uses a heavy subsonic 9?39mm SP5 cartridge and armor-piercing SP6 cartridge. It was developed and manufactured in the late 2010s by Kalashnikov Concern, based on the Yevgeny Dragunov MA Compact Rifle.The weapon is intended for use as a close quarters weapon.</text>
+	</string>
+
+	<string id="st_wpn_mb47">
+		<text>MB-47</text>
+	</string>
+	<string id="st_wpn_mb47_descr">
+		<text>The MB-47 is patterned after the original milled Bulgarian receivers produced by Sharps Bros.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Sharps Bros\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2016</text>
+	</string>
+
+</string_table>

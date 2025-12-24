@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_cr7">
+		<text>Crom CR-7</text>
+	</string>
+	<string id="st_wpn_cr7_s">
+		<text>CR7</text>
+	</string>
+	<string id="st_wpn_cr7_descr">
+		<text>The CR-7 chambered .338 Lapua Magnum features a unique 7-sided polygonal barrel design that provides superior accuracy and reduced weight. The lightweight carbon fiber composite stock is designed for maximum durability and comfort, and includes an integrated foregrip for improved maneuverability.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]CROM USA\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2019</text>
+	</string>
+
+	<string id="wpn_m110k1">
+		<text>KAC M110K1</text>
+	</string>
+	<string id="wpn_m110k1_s">
+		<text>M110K1</text>
+	</string>
+	<string id="wpn_m110k1_descr">
+		<text>The M110K1 Semi Automatic Sniper System (M110 SASS) is an American semi-automatic sniper rifle that is chambered for the 7.62&#xD7;51mm NATO round. It is manufactured by Knight's Armament Company.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Knight's Armament Company\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+</string_table>

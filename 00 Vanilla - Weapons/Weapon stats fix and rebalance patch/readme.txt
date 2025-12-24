@@ -181,14 +181,14 @@ JukeCappatalist: AKM Pack.
 
 
 -No BaS addon
-Also available in BaS Lite. If you have it there, you won't neede it here.
 For those who don't like mods abusing BaS as a requisite. It will make guns from mods that use BaS silencers and scopes use vanilla silencers instead, and remove their list of BaS scopes.
 For example, WP shotguns will use PSB1 while NATO ones use NATO silencer. And big caliber sniper rifles will use the KZRZP.
 This is only for BaS silencers and mods with their own silencer are not covered.
+Also available in BaS Lite, with changes. Let that version of the patch overwrite this one here.
 
 Some mods covered:
 Alex: AK107
-ATHI: AK101 SP, MCX Spear
+ATHI: AK101 SP, MCX Spear, MK 18 Gungnir
 Bert: MSBS Grot
 Chillcat: MC-572 Astarta
 FrostyChun: Ready Or Not pack (Beretta 1301)

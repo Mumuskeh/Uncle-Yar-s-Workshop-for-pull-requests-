@@ -29,6 +29,10 @@ Weapon Parts Overhaul
 No anime variant
 The third variant with anime decals is removed, for whoever cringes at the idea of lolis or whatever in their guns. All three variants are practically the same so it's not like anything is missed.
 
+Honey Badger and .300 BLK Framework [Pillii]
+Turns the black variant into a HK437, SMG in .300 Blackout. It will have a shorter range than other options in these patches, but higher muzzle velocity.
+You won't notice the size difference, but uuuuhhhh someone else can do the modeling and animation job.
+
 ----------------------------------------------------------
 -Known issues:
 

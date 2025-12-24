@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sg553rsbr">
+		<text>SIG SG-553R SBR</text>
+	</string>
+	<string id="st_wpn_sg553rsbr_s">
+		<text>SG553R SBR</text>
+	</string>
+	<string id="st_wpn_sg553rsbr_descr">
+		<text>The SG 553 is an improved version of the SG 552 released in 2008. The SG 553R SBR is a variant chambered for the 7.62x39mm cartridge fed from AK family box magazines and shorten barrel for CQB.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+	<string id="st_wpn_sg553rsbrtac">
+		<text>SIG SG-553R SBR Tactical</text>
+	</string>
+	<string id="st_wpn_sg553rsbrtac_s">
+		<text>SG553R SBR Tactical</text>
+	</string>
+	<string id="st_wpn_sg553rsbrtac_descr">
+		<text>The SG 553 is an improved version of the SG 552 released in 2008. The SG 553R SBR is a variant chambered for the 7.62x39mm cartridge fed from AK family box magazines and shorten barrel for CQB.\n
+		This particular weapon has an extended barrel extended and a laser pointer module.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2008</text>
+	</string>
+
+<!-- There is also a .300 AAC Blackout variant of the SG 553 known as the SG 553 BK which was first shown at IWA OutdoorClassics in 2016 -->
+
+</string_table>

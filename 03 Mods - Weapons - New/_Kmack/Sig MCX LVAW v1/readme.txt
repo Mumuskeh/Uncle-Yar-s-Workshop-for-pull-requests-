@@ -23,5 +23,8 @@ Weapon Parts Overahul
 ----------------------------------------------------------
 -Patches:
 
+Honey Badger and .300 BLK Framework [Pillii]
+Adds a cloned variant chambered in .300 Blackout.
+
 ----------------------------------------------------------
 -Known issues:

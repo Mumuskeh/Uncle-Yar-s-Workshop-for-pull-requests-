@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_bcm">
+		<text>BCM CQB MCMR-10</text>
+	</string>
+	<string id="st_wpn_bcm_s">
+		<text>BCM MCMR10</text>
+	</string>
+	<string id="st_wpn_bcm_descr">
+		<text>This customized version of the M4A1 is produced by Bravo Company, intended for CQB situations.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]BCM\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2017</text>
+	</string>
+
+	<string id="st_wpn_ks1">
+		<text>KS-1 L403A1</text>
+	</string>
+	<string id="st_wpn_ks1_s">
+		<text>KS1</text>
+	</string>
+	<string id="st_wpn_ks1_descr">
+		<text>The KS-1 (Knight's Stoner 1), designated L403A1, is an assault rifle designed by Knight's Armament Company. It was adopted by the Royal Marines and the Ranger Regiment to replace the SA80 in Special Operations Forces, notably the Army Special Operations Brigade and Future Commando Force.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Knight's Armament Company\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2023</text>
+	</string>
+
+	<string id="st_wpn_l119a2">
+		<text>L119A2</text>
+	</string>
+	<string id="st_wpn_l119a2_descr">
+		<text>The L119A2 Special Forces Individual Weapon (SFIW) is a carbine produced by Colt Canada (formerly Diemaco) in widespread use by United Kingdom Special Forces (UKSF). It is equipped with a 10.5&#x2033; 416R Stainless steel match-grade barrel with a Surefire Warcomp.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]CANADA-UK\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]COLT CANADA\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2013</text>
+	</string>
+
+	<string id="st_wpn_n4">
+		<text>Noveske Gen4 Shorty</text>
+	</string>
+	<string id="st_wpn_n4_s">
+		<text>Noveske Shorty</text>
+	</string>
+	<string id="st_wpn_n4_descr">
+		<text>The Noveske Gen 4 5.56 Shorty is the pinnacle of AR15 performance, crafted meticulously by skilled machinists. This short-barreled rifle features a fully-equipped lower military receiver and an in-house made barrel, ensuring quality and precision in every component.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Noveske Rifleworks\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2019</text>
+	</string>
+
+	<string id="st_wpn_urgi">
+		<text>M4A1 URG-I</text>
+	</string>
+	<string id="st_wpn_urgi_s">
+		<text>URG-I</text>
+	</string>
+	<string id="st_wpn_urgi_descr">
+		<text>An “Urgie” is an M4A1 complete upper assembly available through Geissele Automatics and it’s also the latest evolution of the M4. The URG-I (Upper Receiver Group, Improved) resulted from a USASOC contract project (United States Army Special Operations Command; no more “SOCOM”) to develop an upgraded M4 for issue.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]USA\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Geissele Automatics\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2018</text>
+	</string>
+
+</string_table>

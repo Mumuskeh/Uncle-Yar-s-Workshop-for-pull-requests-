@@ -53,5 +53,9 @@ https://www.moddb.com/mods/stalker-anomaly/addons/armor-modkits-extra-kits-addon
 The original upgrade kits are removed to control item bloat, and universal use mod kits will be used for the upgrades.
 Do not mix the Fixes and Lite options!
 
+.300 BLK Framework [Pillii]
+Adds a variant of the Banshee MK10 in .300 Blackout, the Banshee 300 MK4. It can't be upgraded with the Operative or Enforcer kits though (for now).
+It will be treated as a cheap option for .300 BLK, and carried by veterans at most.
+
 ----------------------------------------------------------
 -Known issues:

@@ -2,7 +2,7 @@
 GroupControlSection				= spawn_group
 $npc							= on
 $prefetch						= 8
-$spawn							= "weapons\sig550"
+$spawn							= "weapons\sig_spear"
 scheduled						= off
 cform							= skeleton
 parent_section					= wpn_sig_spear
@@ -300,8 +300,8 @@ freelook_z_offset_mul	= 0.6
 lewd_lens_hide_enabled	= true
 lewd_lens_hide_bone		= lens
 lewd_lens_hide_delays	= 0.1,0
-lewd_lens_hide_aim_mode	= true, false, false	
-;================================================================SIGHTS===========================================================	
+lewd_lens_hide_aim_mode	= true, false, false
+;================================================================SIGHTS===========================================================
 [wpn_sig_spear_ac10632]:wpn_sig_spear
 hud				= wpn_sig_spear_ac10632_hud
 
@@ -1076,7 +1076,7 @@ aim_hud_offset_pos		= -0.053511, -0.011937, -0.094014
 aim_hud_offset_pos_16x9	= -0.053511, -0.011937, -0.094014
 aim_hud_offset_rot		= -0.001451, 0.003159, -0.05
 aim_hud_offset_rot_16x9	= -0.001451, 0.003159, -0.05
-
+;-------------------------------------------------------------------------------
 [wpn_sig_spear_uh1_magd_off]:wpn_sig_spear
 hud				= wpn_sig_spear_uh1_magd_off_hud
 
@@ -1096,4 +1096,670 @@ item_visual	= dynamics\weapons\wpn_sig_spear\wpn_sig_spear_uh1_magd_off_hud.ogf
 aim_hud_offset_pos		= -0.053511, -0.011937, -0.094014
 aim_hud_offset_pos_16x9	= -0.053511, -0.011937, -0.094014
 aim_hud_offset_rot		= -0.001451, 0.003159, -0.05
-aim_hud_offset_rot_16x9	= -0.001451, 0.003159, -0.05	
+aim_hud_offset_rot_16x9	= -0.001451, 0.003159, -0.05
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan]:wpn_sig_spear
+$spawn					= "weapons\sig_spear_tan"
+parent_section			= wpn_sig_spear_tan
+
+inv_grid_y				= 0
+
+hud						= wpn_sig_spear_tan_hud
+visual					= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_world.ogf
+
+grenade_launcher_status	= 0
+
+; rpm					= 600
+
+;------------------------------------------------------------------------HUD----------------------------------------------------------------------------
+[wpn_sig_spear_tan_hud]:wpn_sig_spear_hud
+item_visual			= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_hud.ogf
+
+shell_bone	= gliza
+;================================================================SIGHTS===========================================================
+[wpn_sig_spear_tan_ac10632]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_ac10632_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= ac10632_x
+1icon_layer_x	= 98
+1icon_layer_y	= -8
+
+inv_weight		= 4.115
+
+[wpn_sig_spear_tan_ac10632_hud]:wpn_sig_spear_ac10632_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_c-more]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_c-more_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= c-more_x
+1icon_layer_x	= 97
+1icon_layer_y	= -5
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_c-more_hud]:wpn_sig_spear_c-more_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_c-more_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_compm4s]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_compm4s_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= compm4s_x
+1icon_layer_x	= 98
+1icon_layer_y	= -15
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_compm4s_hud]:wpn_sig_spear_compm4s_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_compm4s_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_e0t2]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_e0t2_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= e0t2_x
+1icon_layer_x	= 100
+1icon_layer_y	= -11
+
+inv_weight		= 4.23
+
+[wpn_sig_spear_tan_e0t2_hud]:wpn_sig_spear_e0t2_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_e0t2_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_ekp8_18]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_ekp8_18_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= ekp8_18_x
+1icon_layer_x	= 93
+1icon_layer_y	= 0
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_ekp8_18_hud]:wpn_sig_spear_ekp8_18_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_ekp8_18_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_eot]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_eot_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= eot_x
+1icon_layer_x	= 99
+1icon_layer_y	= -6
+
+inv_weight		= 4.23
+
+[wpn_sig_spear_tan_eot_hud]:wpn_sig_spear_eot_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_eot_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_hco]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_hco_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= hco_x
+1icon_layer_x	= 101
+1icon_layer_y	= -16
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_hco_hud]:wpn_sig_spear_hco_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_hco_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_he510]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_he510_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= he510_x
+1icon_layer_x	= 96
+1icon_layer_y	= -10
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_he510_hud]:wpn_sig_spear_he510_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_he510_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_kemper]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_kemper_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= kemper_x
+1icon_layer_x	= 92
+1icon_layer_y	= -11
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_kemper_hud]:wpn_sig_spear_kemper_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_kemper_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_p1x42]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_p1x42_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= p1x42_x
+1icon_layer_x	= 99
+1icon_layer_y	= -13
+
+inv_weight		= 4.115
+
+[wpn_sig_spear_tan_p1x42_hud]:wpn_sig_spear_p1x42_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_p1x42_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_point_aimpro]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_point_aimpro_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= point_aimpro_x
+1icon_layer_x	= 101
+1icon_layer_y	= -13
+
+inv_weight		= 4.2
+
+[wpn_sig_spear_tan_point_aimpro_hud]:wpn_sig_spear_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_aimpoint_pro_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_rmr]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_rmr_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= rmr_x
+1icon_layer_x	= 96
+1icon_layer_y	= -3
+
+inv_weight		= 4.115
+
+[wpn_sig_spear_tan_rmr_hud]:wpn_sig_spear_rmr_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_romeo4]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_romeo4_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= romeo4_x
+1icon_layer_x	= 95
+1icon_layer_y	= -18
+
+inv_weight		= 4.115
+
+[wpn_sig_spear_tan_romeo4_hud]:wpn_sig_spear_romeo4_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_romeo4_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_t12]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_t12_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= t12_x
+1icon_layer_x	= 104
+1icon_layer_y	= -10
+
+inv_weight		= 4.115
+
+[wpn_sig_spear_tan_t12_hud]:wpn_sig_spear_t12_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_t12_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_uh2]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_uh2_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= uh2_x
+1icon_layer_x	= 99
+1icon_layer_y	= -12
+
+inv_weight		= 4.23
+
+[wpn_sig_spear_tan_uh2_hud]:wpn_sig_spear_uh2_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_uh1_hud.ogf
+
+;================================================================SCOPES===========================================================
+[wpn_sig_spear_tan_acog]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_acog_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= acog_x
+1icon_layer_x	= 79
+1icon_layer_y	= -7
+
+scope_status		= 1
+scope_zoom_factor	= 42.86
+
+inv_weight		= 4.45
+
+[wpn_sig_spear_tan_acog_hud]:wpn_sig_spear_acog_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_triji]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_triji_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= acog_x
+1icon_layer_x	= 79
+1icon_layer_y	= -7
+
+scope_status		= 1
+scope_zoom_factor	= 42.86
+
+inv_weight		= 4.50
+
+[wpn_sig_spear_tan_triji_hud]:wpn_sig_spear_triji_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_triji_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_c79]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_c79_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= c79_x
+1icon_layer_x	= 81
+1icon_layer_y	= -9
+
+scope_status		= 1
+scope_zoom_factor	= 34.3
+
+inv_weight		= 4.45
+
+[wpn_sig_spear_tan_c79_hud]:wpn_sig_spear_c79_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_c79_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_cortex]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_cortex_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= cortex_x
+1icon_layer_x	= 64
+1icon_layer_y	= -8
+
+scope_status		= 1
+scope_zoom_factor	= 10
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.52
+
+[wpn_sig_spear_tan_cortex_hud]:wpn_sig_spear_cortex_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_cortex_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_echo1]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_echo1_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= echo1_x
+1icon_layer_x	= 91
+1icon_layer_y	= -11
+
+scope_status		= 1
+scope_zoom_factor	= 60
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+inv_weight		= 4.45
+
+[wpn_sig_spear_tan_echo1_hud]:wpn_sig_spear_echo1_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_echo1_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_e0t2_magd]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_e0t2_magd_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= e0t2_magd_x
+1icon_layer_x	= 63
+1icon_layer_y	= -9
+
+scope_status		= 1
+scope_zoom_factor	= 40
+
+inv_weight		= 4.50
+
+[wpn_sig_spear_tan_e0t2_magd_hud]:wpn_sig_spear_e0t2_magd_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_e0t2_magd_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_e0t2_magd_off]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_e0t2_magd_off_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= e0t2_magd_x
+1icon_layer_x	= 63
+1icon_layer_y	= -9
+
+inv_weight		= 4.50
+
+[wpn_sig_spear_tan_e0t2_magd_off_hud]:wpn_sig_spear_e0t2_magd_off_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_e0t2_magd_off_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_gauss_sight]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_gauss_sight_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= gauss_sight_x
+1icon_layer_x	= 53
+1icon_layer_y	= -5
+
+scope_status		= 1
+scope_zoom_factor	= 12
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.60
+
+[wpn_sig_spear_tan_gauss_sight_hud]:wpn_sig_spear_gauss_sight_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_gauss_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_gee36]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_gee36_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= gee36_x
+1icon_layer_x	= 78
+1icon_layer_y	= -9
+
+scope_status		= 1
+scope_zoom_factor	= 40
+
+inv_weight		= 4.55
+
+[wpn_sig_spear_tan_gee36_hud]:wpn_sig_spear_gee36_hud]:wpn_sig_spear_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_gee36_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_leupold]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_leupold_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= leupold_x
+1icon_layer_x	= 66
+1icon_layer_y	= -10
+
+scope_status		= 1
+scope_zoom_factor	= 15
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.50
+
+[wpn_sig_spear_tan_leupold_hud]:wpn_sig_spear_leupold_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_leupold_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_merk8_rmr]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_merk8_rmr_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= merk8_rmr_x
+1icon_layer_x	= 120
+1icon_layer_y	= -10
+
+scope_status		= 1
+scope_zoom_factor	= 15
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.52
+
+[wpn_sig_spear_tan_merk8_rmr_hud]:wpn_sig_spear_merk8_rmr_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_merk8_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_pn23]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_pn23_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= pn23f
+1icon_layer_x	= 66
+1icon_layer_y	= -7
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.55
+
+[wpn_sig_spear_tan_pn23_hud]:wpn_sig_spear_pn23_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_pn23_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_ps320]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_ps320_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= ps320_x
+1icon_layer_x	= 62
+1icon_layer_y	= -13
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+inv_weight		= 4.55
+
+[wpn_sig_spear_tan_ps320_hud]:wpn_sig_spear_ps320_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_ps320_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_razorhd]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_razorhd_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= razorhd_x
+1icon_layer_x	= 60
+1icon_layer_y	= -14
+
+scope_status		= 1
+scope_zoom_factor	= 20
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.55
+
+[wpn_sig_spear_tan_razorhd_hud]:wpn_sig_spear_razorhd_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_razorhd_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_specter]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_specter_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= specter_x
+1icon_layer_x	= 63
+1icon_layer_y	= -13
+
+scope_status		= 1
+scope_zoom_factor	= 30
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+inv_weight		= 4.45
+
+[wpn_sig_spear_tan_specter_hud]:wpn_sig_spear_specter_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_specter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_spec_alt]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_spec_alt_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= spec_alt_x
+1icon_layer_x	= 120
+1icon_layer_y	= -10
+
+scope_status		= 1
+scope_zoom_factor	= 30
+scope_dynamic_zoom	= on
+zoom_step_count		= 1
+
+inv_weight		= 4.50
+
+[wpn_sig_spear_tan_spec_alt_hud]:wpn_sig_spear_spec_alt_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_spec_alt_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_tac30]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_tac30_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= tac30_x
+1icon_layer_x	= 64
+1icon_layer_y	= -9
+
+scope_status		= 1
+scope_zoom_factor	= 30
+scope_dynamic_zoom	= on
+
+inv_weight		= 4.40
+
+[wpn_sig_spear_tan_tac30_hud]:wpn_sig_spear_tac30_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_tac30_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_sig_spear_tan_uh1_magd]:wpn_sig_spear_tan
+hud				= wpn_sig_spear_tan_uh1_magd_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= uh1_magd_x
+1icon_layer_x	= 63
+1icon_layer_y	= -11
+
+scope_status		= 1
+scope_zoom_factor	= 20
+
+inv_weight		= 4.52
+
+[wpn_sig_spear_tan_uh1_magd_hud]:wpn_sig_spear_uh1_magd_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_uh1_magd_hud.ogf
+
+[wpn_sig_spear_tan_uh1_magd_off]:wpn_sig_spear
+hud				= wpn_sig_spear_tan_uh1_magd_off_hud
+
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+1icon_layer		= uh1_magd_x
+1icon_layer_x	= 63
+1icon_layer_y	= -11
+
+inv_weight		= 4.52
+
+[wpn_sig_spear_tan_uh1_magd_off_hud]:wpn_sig_spear_tan_hud
+item_visual	= dynamics\weapons\wpn_sig_spear_tan\wpn_sig_spear_tan_uh1_magd_off_hud.ogf
