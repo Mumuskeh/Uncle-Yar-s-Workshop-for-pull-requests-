@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_saiga_bp">
+		<text>Сайга-12С Буллпап</text>
+	</string>
+	<string id="st_wpn_saiga_bp_descr">
+		<text>Это ружье с конфигурацией буллпап, созданное на основе Сайги-12С. Это ружье было создано как личный проект какого-то оружейника, как оно попало в Зону - никто не знает. Было сделано несколько модификаций, включая перенос рукоятки заряжания на левую сторону ствольной коробки. В результате этих модификаций оружие получило несколько более высокую точность и меньшую отдачу по сравнению с обычной "Сайгой", хотя циклическая отдача при этом уменьшилась. Небольшие габариты также повышают его пригодность для стрельбы в ближних помещениях, хотя конфигурация "буллпап" может показаться некоторым неудобной. \n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple] • %c[ui_gray_2] ПБС-1\n \n</text>
+	</string>
+
+	<string id="st_wpn_saiga_bp_23x75">
+		<text>Сайга-23 Буллпап</text>
+	</string>
+	<string id="st_wpn_saiga_bp_23x75_descr">
+		<text>Сайга-23 разработана механиками Pоны для сталкеров, охотящихся на самых крутых мутантов. Вдохновленный российским прототипом КС-23К, это ружье было создано на базе Сайги-12 и построено по схеме булл-пап для большей мобильности. Затем оружие было переоборудовано для стрельбы картечью и пулей 23х75 мм и оснащено стволом КС-23 диаметром 510 мм. В результате получается чрезвычайно смертоносное оружие ближнего боя. \n \n
+		%c[ui_gray_2]Аддоны: \n
+		%c[d_purple] - %c[ui_gray_2] Прицелы: большинство коллиматоров системы Пикатинни/Вивер. \n
+		%c[d_purple] - %c[ui_gray_2] Глушитель: Хряк 23 \n
+		</text>
+	</string>
+
+	<string id="st_mag_saiga23">
+		<text>Modified 23x75 Saiga-23 Magazine</text>
+	</string>
+	<string id="st_mag_saiga23_descr">
+		<text>Modified Saiga-12S magazine with capacity for 8 shotshells. This magazine has been retooled for 23x75mm shotgun shells.</text>
+	</string>
+
+	<string id="st_mag_saiga23_ext">
+		<text>Extended 23x75 Saiga-23 Magazine</text>
+	</string>
+	<string id="st_mag_saiga23_ext_descr">
+		<text>Extended Saiga-12S magazine with capacity for 12 shotshells. This magazine has been retooled for 23x75mm shotgun shells. More shells means more mutants you can kill each each magazine.</text>
+	</string>
+
+</string_table>

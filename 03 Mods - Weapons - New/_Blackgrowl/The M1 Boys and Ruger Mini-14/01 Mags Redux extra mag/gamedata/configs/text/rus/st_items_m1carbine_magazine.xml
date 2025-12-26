@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_m1carbine_556_default">
+		<text>Магазин для карабина М1</text>
+	</string>
+	<string id="st_mag_m1carbine_556_default_descr">
+		<text>Модифицированная версия магазина карабина M1, вместо фирменного калибра .30 Carbine, используется калибр 5.56x45 мм НАТО. Разумеется, магазин совместим также с карабином M1A1.</text>
+	</string>
+
+	<string id="st_mag_m1carbine_556_service">
+		<text>M1A1 Carbine Magazine</text>
+	</string>
+	<string id="st_mag_m1carbine_556_service_descr">
+		<text>A modified version of the M1 Carbine's 30 round magazine, instead of using its own proprietary .30 Carbine, it uses 5.56x45mm NATO. Also compatible for the M1 Carbine, of course.</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_m1carbine_556_default">
+		<text>Basic M1 Carbine Magazine</text>
+	</string>
+	<string id="st_mag_m1carbine_556_default_descr">
+		<text>A modified version of the original M1 Carbine's 15 round magazine, instead of using its own proprietary .30 Carbine, it uses 5.56x45mm NATO. Also compatible for the M1A1 Carbine, of course.</text>
+	</string>
+
+	<string id="st_mag_m1carbine_556_service">
+		<text>Standard M1 Carbine Magazine</text>
+	</string>
+	<string id="st_mag_m1carbine_556_service_descr">
+		<text>A modified version of the M1 Carbine's 30 round magazine, instead of using its own proprietary .30 Carbine, it uses 5.56x45mm NATO. Also compatible for the M1A1 Carbine, of course.\n
+		The M1 carbine entered service with a straight 15-round magazine, but the introduction of the M2 carbine in October 1944 brought into service the curved 30-round box magazine. After WWII, the 30-round magazine quickly became the standard magazine for both the M1 and M2 carbines, although the 15-round magazine remained in service until the end of the Vietnam War.</text>
+	</string>
+
+</string_table>

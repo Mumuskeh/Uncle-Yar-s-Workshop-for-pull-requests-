@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_em2">
+		<text>EM-2</text>
+	</string>
+	<string id="st_wpn_em2_descr">
+		<text>The Experimental Model 2, EM-2, is a 1951 United Kingdom weapon chambered with the ".280 British" caliber. The EM-2 was made post-World War II in an attempt to make a new rifle meant to be used with an intermediate cartridge. Despite tests heavily favouring the ".280 British" and the EM-2 itself, Winston Churchill made the ever-so wise decision to further ruin his country's economy and pride by completely disintegrating the EM-2. Thankfully, the Black Market was capable of finding models of the EM-2, some may be almost perfect copies, and release them in our favourite sandbox just for some testing fun: the Zone.\n \n</text>
+	</string>
+	
+	<string id="st_up_em2_rpm1">
+		<text>Internal Mechanism Springload</text>
+	</string>
+	<string id="st_up_em2_rpm1_descr">
+		<text>A modern change of the recoil spring allows faster firing.</text>
+	</string>
+
+	<string id="st_up_em2_rpm2">
+		<text>Bolt Re-Oil</text>
+	</string>
+	<string id="st_up_em2_rpm2_descr">
+		<text>Re-oiling the bolt with a much better, much more durable and modern substance allows for faster firing.</text>
+	</string>
+
+	<string id="st_up_em2_rpm3">
+		<text>Customized Gas Piston</text>
+	</string>
+	<string id="st_up_em2_rpm3_descr">
+		<text>A somewhat complex procedure of remodelling the gas piston, which makes it much more efficient for cycling, increasing fire-rate.</text>
+	</string>
+
+	<string id="st_up_em2_recoil1">
+		<text>Stock Retooling</text>
+	</string>
+	<string id="st_up_em2_recoil1_descr">
+		<text>Minor adjustments to the stock, slightly increasing weight but in turn also reducing recoil.</text>
+	</string>
+
+	<string id="st_up_em2_scope_tritium">
+		<text>Scope Tritium</text>
+	</string>
+	<string id="st_up_em2_scope_tritium_descr">
+		<text>Adds a Tritium Insert to the scope reticle, making the scope considerably more practical in low-light situations.</text>
+	</string>
+
+	<string id="st_up_em2_scope_mag">
+		<text>Scope Magnification 1.2x</text>
+	</string>
+	<string id="st_up_em2_scope_mag_descr">
+		<text>A very cheap and small magnification to the scope to make it a bit more useful.</text>
+	</string>
+
+	<string id="st_up_em2_scope_adjust">
+		<text>Scope Replacement</text>
+	</string>
+	<string id="st_up_em2_scope_adjust_descr">
+		<text>Completely replaces the scope, which gives it a much more practical 6.0x magnification as well as the ability to adjust it.</text>
+	</string>
+
+	<string id="st_mag_em2_762">
+		<text>EM-2 Magazine</text>
+	</string>
+	<string id="st_mag_em2_762_descr">
+		<text>A modified version of the EM-2's Magazine, instead of using its own proprietary .380 British, it uses 7.62x51mm NATO.</text>
+	</string>
+</string_table>

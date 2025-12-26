@@ -1,0 +1,266 @@
+;------------------------------------------------------------------------------------------------
+[wpn_em2]:identity_immunities,weapon_probability,default_weapon_params,wpn_l85_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\em2"
+scheduled						= off
+cform							= skeleton
+
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 7
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+use_alt_aim_hud					= true
+
+icons_texture					= ui\ui_icons_em2
+inv_grid_height					= 2
+inv_grid_width					= 5
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_em2
+inv_name_short					= st_wpn_em2
+description						= st_wpn_em2_descr
+
+kind							= w_rifle
+inv_weight						= 3.49
+cost							= 45680
+repair_type						= rifle_5
+weapon_class					= assault_rifle
+
+hud								= wpn_em2_hud
+visual							= dynamics\weapons\wpn_em2\wpn_em2.ogf
+position						= -0.026, -0.135, 0.0
+orientation						= 0, 0, 0
+fire_point						= 0.0, 0.192, 0.495
+fire_point2						= 0.0, 0.106, 0.468
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_orientation				= -17.5, -3, 100
+strap_position					= -0.295, -0.13, 0.24
+ph_mass							= 5
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0.015, 0.195, -0.182
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\762x39
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_em2, up_gr_seconab_em2, up_gr_thirdab_em2, up_gr_fourtab_em2
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_l85
+upgr_icon_path					= ui\ui_icons_em2
+upgr_icon_x						= 250
+upgr_icon_y						= 0
+upgr_icon_width					= 250
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+ammo_elapsed					= 20
+ammo_mag_size					= 20
+startup_ammo					= 90
+
+scope_status					= 1
+scope_texture					= wpn_crosshair_em2
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_nato
+silencer_status					= 0
+silencer_x						= 212
+silencer_y						= 14
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher_m203
+grenade_launcher_status			= 0
+grenade_launcher_x				= 140
+grenade_launcher_y				= 29
+launch_speed					= 0
+
+hit_impulse						= 35
+hit_power						= 0.76, 0.76, 0.76, 0.76
+hit_type						= fire_wound
+fire_distance					= 1000
+bullet_speed					= 840
+rpm								= 450
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.3
+fire_dispersion_base			= 0.19
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.0005
+misfire_start_condition			= 0.7 ; 0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.11
+misfire_end_prob				= 0.10
+
+condition_queue_shot_dec		= 0.0009
+condition_shot_dec				= 0.0009
+
+cam_return						= 0
+cam_relax_speed					= 5
+cam_dispersion					= 1.5
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0775
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.5
+zoom_cam_relax_speed			= 5
+zoom_cam_dispersion				= 1.2
+zoom_cam_dispersion_frac		= 0.7
+zoom_cam_dispersion_inc			= 0.0675
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.3
+
+PDM_disp_accel_factor			= 2.5
+PDM_disp_base					= 1.22
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.5
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.85
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x			= 84
+kill_msg_y			= 28
+kill_msg_width		= 73
+kill_msg_height		= 30
+
+snd_draw			= weapons\em2\em2_draw
+snd_holster			= weapons\em2\em2_holster
+snd_reload			= weapons\em2\em2_reload
+snd_reload_empty	= weapons\em2\em2_reload_empty
+snd_bore			= weapons\em2\em2_inspect
+snd_reload_misfire	= weapons\em2\em2_unjam
+snd_switch_mode		= weapons\em2\em2_fireselect
+
+scripted_snd_bore_jammed	= weapons\em2\em2_inspect2
+scripted_snd_bore_empty		= weapons\em2\em2_inspect2
+
+[wpn_em2_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_em2\wpn_em2_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0.0, 0.0, 0.0
+item_orientation	= 0.0, 0.0, 0.0
+
+hands_position			= 0, 0, 0.1954
+hands_position_16x9		= 0, 0, 0.1954
+hands_orientation		= 0.0, 0.0, 0.0
+hands_orientation_16x9	= 0.0, 0.0, 0.0
+
+safemode_anm	= 
+safemode_anm2	= 
+
+aim_hud_offset_pos		= -0.0649, 0.0009, -0.326
+aim_hud_offset_pos_16x9	= -0.0649, 0.0009, -0.326
+aim_hud_offset_rot		= 0, 0, 0
+aim_hud_offset_rot_16x9	= 0, 0, 0
+
+aim_hud_offset_alt_pos		= -0.05599, -0.0083, -0.2515
+aim_hud_offset_alt_pos_16x9	= -0.05599, -0.0083, -0.2515
+aim_hud_offset_alt_rot		= -0.0405, 0.0044, 0
+aim_hud_offset_alt_rot_16x9	= -0.0405, 0.0044, 0
+
+lowered_hud_offset_pos		= 0.141, 0.001, -0.05
+lowered_hud_offset_pos_16x9	= 0.141, 0.001, -0.05
+lowered_hud_offset_rot		= -0.166, -0.7, 0.5
+lowered_hud_offset_rot_16x9	= -0.166, -0.7, 0.5
+
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_bore		= compiled_em2_inspect
+anm_show		= compiled_em2_draw
+anm_hide		= compiled_em2_holster
+anm_switch_mode	= compiled_em2_fire_select
+
+anm_idle		= compiled_em2_idle
+anm_idle_aim	= compiled_em2_idle_aim
+anm_idle_moving	= compiled_em2_walk
+anm_idle_sprint	= compiled_em2_sprint
+
+anm_reload			= compiled_em2_reload
+anm_reload_empty	= compiled_em2_reload_empty
+anm_reload_misfire	= compiled_em2_unjam
+
+anm_shots			= compiled_em2_shoot
+anm_shot_l			= compiled_em2_shoot, compiled_em2_state_emptyshot
+anm_shots_jammed	= compiled_em2_shoot, compiled_em2_state_jamshot
+
+anm_shots_aim			= compiled_em2_shoot_aim
+anm_shot_l_aim			= compiled_em2_shoot_aim, compiled_em2_state_emptyshot
+anm_shots_aim_jammed	= compiled_em2_shoot_aim, compiled_em2_state_jamshot
+
+anm_bore_empty			= compiled_em2_inspect_empty, compiled_em2_state_empty
+anm_show_empty			= compiled_em2_draw, compiled_em2_state_empty
+anm_hide_empty			= compiled_em2_holster, compiled_em2_state_empty
+anm_switch_mode_empty	= compiled_em2_fire_select, compiled_em2_state_empty
+
+anm_idle_empty			= compiled_em2_idle, compiled_em2_state_empty
+anm_idle_aim_empty		= compiled_em2_idle_aim, compiled_em2_state_empty
+anm_idle_moving_empty	= compiled_em2_walk, compiled_em2_state_empty
+anm_idle_sprint_empty	= compiled_em2_sprint, compiled_em2_state_empty
+
+anm_bore_jammed			= compiled_em2_inspect_empty, compiled_em2_state_jam
+anm_show_jammed			= compiled_em2_draw, compiled_em2_state_jam
+anm_hide_jammed			= compiled_em2_holster, compiled_em2_state_jam
+anm_switch_mode_jammed	= compiled_em2_fire_select, compiled_em2_state_jam
+
+anm_idle_jammed			= compiled_em2_idle, compiled_em2_state_jam
+anm_idle_aim_jammed		= compiled_em2_idle_aim, compiled_em2_state_jam
+anm_idle_moving_jammed	= compiled_em2_walk, compiled_em2_state_jam
+anm_idle_sprint_jammed	= compiled_em2_sprint, compiled_em2_state_jam
+
+anm_reload_misfire_jammed	= compiled_em2_unjam
+anm_reload_misfire_empty	= compiled_em2_unjam
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0.035
+fire_point2	= 0, 0, 0
