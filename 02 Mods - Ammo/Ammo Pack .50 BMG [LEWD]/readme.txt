@@ -4,11 +4,8 @@ Ammo Pack .50 BMG [LEWD]
 ----------------------------------------------------------
 -Compatibility:
 
-
 ----------------------------------------------------------
 -Explanation:
-
-Allows you to sell the new ammo.
 
 Integration into the vanilla stash system.
 

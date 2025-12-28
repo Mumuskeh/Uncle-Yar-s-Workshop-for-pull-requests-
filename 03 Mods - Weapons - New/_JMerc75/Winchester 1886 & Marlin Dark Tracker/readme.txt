@@ -8,7 +8,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Allows trading to traders.
 Icon file trimmed.
 
 Integration into:

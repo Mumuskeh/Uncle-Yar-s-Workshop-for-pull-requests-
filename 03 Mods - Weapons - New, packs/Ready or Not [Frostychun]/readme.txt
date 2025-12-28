@@ -33,7 +33,7 @@ A few internal IDs have been renamed. Because wpn_2011 is not a name, it's a def
 Kimber 1911 is now properly named Kimber Custom (1911 is only the pistol it is based on, not a real Kimber designation), and has its mag reduced from 11 rounds to 8 like the vanilla Kimber Desert Warrior (which *is* an special version for the US Marines)
 SLR 47, seeming like a fictional name, is now identified as a custom SLR-107ur.
 
-Trader files have been reworked. The original mod just offered everything at the lowest goodwill level in all factions, which is absurd. Also allows to sell guns to traders.
+Trader files have been reworked. The original mod just offered everything at the lowest goodwill level in all factions, which is absurd.
 
 The icon file has been trimed as well. Text edited a bit.
 

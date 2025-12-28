@@ -9,7 +9,6 @@ NOTE: You still need the original mod. Disable the configs folder.
 -Explanation:
 Consolidated weapon and Mag Redux configs files.
 Both versions of the gun were treated as whole separate guns, but now the stockless one inherites from the basic one.
-Allowed to sell the guns.
 
 In inventory, you can drag a MP5K and a multitool or a swiss knife to each other to get the stockless version.
 WARNING: this will remove any installed upgrades and consume the multitool regardless of remaining uses.

@@ -12,7 +12,6 @@ NOTE: You still need the original mod. Disable the folders:
 -Explanation:
 
 Actor effects and Grok's Enhanced Recoil configs tweaked to follow the G3, not the AK47.
-Allows selling to traders.
 
 Integrated into:
 Grok's Stash Overhaul

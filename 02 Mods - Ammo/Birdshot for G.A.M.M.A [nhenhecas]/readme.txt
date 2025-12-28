@@ -13,8 +13,8 @@ DLTX'd what can be DLTX'd, icon fix, and fixed the tier stat for the slug ammo.
 
 Also fixed how the ammo is added to weapons, and expanded the shotguns eligible for the new ammo. Some more  mods are added, like S/MWP or the BaS addons, and threaded shotguns will only be able to load the crafted slug.
 
-And I know this was our man's first mod, but please, pleasepleaseplease.
-64MBs or baby Monolith forbid, *128 MGs* files for icons that can fill a 16 KBs ARE NOT A REASONABLE PROPOSITION.
+And I know this was our man's first mod and I don't hold it to him, but please, pleasepleaseplease.
+64MBs or baby Monolith forbid, *128 MBs* files for icons that can fill a 16 KBs ARE NOT A REASONABLE PROPOSITION.
 
 Integrated into:
 Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach

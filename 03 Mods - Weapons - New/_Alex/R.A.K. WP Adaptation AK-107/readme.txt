@@ -30,7 +30,6 @@ Ranger variant given the wpn_crosshair_zf9 vanilla crosshair texture. I you thin
 
 NPC distribution. The mod didn't distribute the gun anywhere except to Nimble and Meeker. Now you'll see it among the army and Duty traders, veterans, and masters. Nimble and Meeker will still sell the upgrades.
 Corrected trade assignments. Most traders have five supply levels depending on goodwill. But unless you patch them, some don't: Nimble and Meeker only have two levels. So assigning them the gun and upgrades by level 3 only means they won't have any of the items.
-Allows to sell the gun to traders. I'll only add vanilla combinations, because FUCK adding that many. This goes for the PDA Interactive integration and ruther file options too.
 
 Added default actor effects configs.
 Reenable shell ejection effects.

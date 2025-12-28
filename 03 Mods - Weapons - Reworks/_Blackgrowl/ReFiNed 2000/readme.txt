@@ -10,8 +10,6 @@ Let this overwrite the original mod.
 
 This patch only deals with the new grenade launcher. Nothing more.
 
-Allows to sell to traders.
-
 Integration into:
 Lootboxes
 PDA Interactive

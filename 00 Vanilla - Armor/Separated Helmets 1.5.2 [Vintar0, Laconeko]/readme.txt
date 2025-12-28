@@ -17,7 +17,6 @@ DLTX conversion.
 Acknowledged the 1.5.3 addition of the ISG nosorog in the actor effects.
 Icon file reorganized and trimmed.
 
-
 ----------------------------------------------------------
 -Patches:
 

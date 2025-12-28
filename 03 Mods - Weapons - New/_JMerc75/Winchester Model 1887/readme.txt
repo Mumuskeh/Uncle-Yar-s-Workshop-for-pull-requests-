@@ -8,7 +8,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
 Reenabled shell ejection effects.
 Icon file trimmed.
 

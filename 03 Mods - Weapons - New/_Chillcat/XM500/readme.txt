@@ -11,7 +11,7 @@ If you use the .50 BMG and Barret M82 restoration module in this pack, the XM500
 -Explanation:
 
 NPC loadouts.
-Trader distribution. Allows to sell to traders.
+Trader distribution.
 
 Icon file reduced. Could actually use a redo of the icon itself but eh.
 

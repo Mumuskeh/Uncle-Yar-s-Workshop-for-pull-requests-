@@ -11,7 +11,6 @@ Not compatible with other AR reworks like M4s Reimagined, AR Pack, or AR-15 rean
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
 Icon files consolidated.
 
 Integrated into:

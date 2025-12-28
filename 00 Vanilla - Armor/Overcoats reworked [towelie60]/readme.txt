@@ -7,7 +7,10 @@ NOTE: You need the model meshes and textures from the original mod; disable its 
 
 ----------------------------------------------------------
 -Explanation:
-DLTX conversion and minor fixes. I let THAP and LASS overwrite the hand models files; not sure how this being DLTX'd would interact with them, but probably nothing breaks.
+DLTX conversion.
+Minor fixes.
+
+I let THAP and LASS overwrite the hand models files in my load order; not sure how this being DLTX'd would interact with them, but probably nothing breaks.
 
 ----------------------------------------------------------
 -Patches:

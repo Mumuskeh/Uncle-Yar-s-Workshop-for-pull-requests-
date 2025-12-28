@@ -10,7 +10,6 @@ Let this overwrite the original mod.
 
 Identified as the US Navy's "M1 Garand Mod 1", as the gun in this mod is chambered in 7.62 like such model, and the original Garand was chambered in .30-06 Springfield.
 
-Allows selling to traders.
 Icon file trimmed.
 
 Integration into:

@@ -11,7 +11,6 @@ Disable the original configs folder, EXCEPT for the configs/magazines and config
 
 Consolidated files and icons.
 Reenabled shell ejection effects to the Vz61 reanimation.
-Allows to sell to traders.
 Trader distribution. High goodwill will usually be required.
 
 Moved the HUD FOV 0.4 file to a different folder as optional.

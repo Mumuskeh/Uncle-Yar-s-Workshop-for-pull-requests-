@@ -8,7 +8,6 @@ Tactical Endgame Weapons Pack - BAS Overhaul [Phant0m]
 -Explanation:
 
 Consolidated loadout files.
-Allows you to sell the new items.
 
 M4 Skyraga Tac 30-Round world model fix. It's fixes a mag texture. By Amaku in Gamma Discord.
 

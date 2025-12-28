@@ -15,7 +15,7 @@ mag_speedloaders_revolvers_556x45.ltx
 
 Icons trimmed and consolidated into a single file. They were split on two files (one practically empty) without real reason, and half of each set of icons were unused. Maybe a future update will see them back...
 
-Trader files have also been streamlined. You can sell ammo, and if you disable the original trade folder, speedloaders are left for Mags Redux to distribute. While it may loose the touch of dedicated distribution the author intended... Mags Redux already distributes automatically all mags everywhere anyway. So... *shrug*
+Trader files have also been streamlined. If you disable the original trade folder, speedloaders are left for Mags Redux to distribute. While it may loose the touch of dedicated distribution the author intended... Mags Redux already distributes automatically all mags everywhere anyway. So... *shrug*
 
 Integration into the vanilla corpse, dynamic item spawn, reward, and stash systems.
 

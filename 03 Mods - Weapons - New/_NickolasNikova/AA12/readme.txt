@@ -12,7 +12,6 @@ You may use Hisalute's Weapons Packs - Fixes and Tweaks to opt out of its older 
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
 Added default actor effects configs.
 Icon file trimmed.
 

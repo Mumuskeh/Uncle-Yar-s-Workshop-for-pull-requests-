@@ -10,8 +10,6 @@ You can still use its included patches.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
-
 Integrated into:
 Grok's Enhanced Recoil
 Grok's Stash Overhaul

@@ -11,7 +11,6 @@ Due to changes made to internal IDs, the patch is safe in savegames with the mod
 ----------------------------------------------------------
 -Explanation:
 
-Allows selling to traders.
 Icon file trimmed.
 
 Mag Redux support. Reworked and added the post M2 30 rounds magazine.

@@ -10,7 +10,6 @@ If you use SoulCrystal's Colt 357 Retexture, let it overwrite this.
 -Explanation:
 
 Will now be sold by mercenaries and Meeker.
-Allows selling the gun to traders.
 
 Icon file trimmed. Description text edited to not be as long; the story is kept complete but hopefully it won't occupy half a screen.
 

@@ -8,9 +8,6 @@ NOTE: You need the original mod. Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
-
-
 NPC distribution. In addition to Monolith, Merc and ISG masters, it will also be carried by Army masters, and Army and Monolith snipers.
 
 Added default actor effects configs.

@@ -9,7 +9,6 @@ S.N.I.P.S. - 9x39 Subsonic Network Integration Program for Stalkers [Khyber]
 
 Fixed a missing sign in loadouts file.
 Added default actor effects settings.
-Allows you to sell the weapons.
 Minor text editing.
 
 Integration into:

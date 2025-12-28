@@ -12,7 +12,7 @@ Do not use with Sedzhimol's HK433.
 
 Standardized the stats for all variants. They're all the same gun in different colors. And internally, the variants inherit directly from the main one.
 Fixed filenames for actor effects and Grok's Enhanced Recoil configs, and made sure the variants benefit of it. Parts as well.
-Trader distribution. Allows selling to traders.
+Trader distribution.
 Reworked descriptions to mention the particular painting and remove the grenade launcher indication, as the weapons aren't actually prepared for it.
 Icon file trimmed.
 

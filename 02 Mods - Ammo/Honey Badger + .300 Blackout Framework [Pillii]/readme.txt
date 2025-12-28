@@ -10,7 +10,8 @@ Recommended use of NPC loadouts files rank fix in this same patch pack.
 
 ----------------------------------------------------------
 -Explanation:
-Fixes faulty NPC loadouts and being able to sell to traders. Recommended use of NPC loadouts files rank fix in this same patch pack for full coverage.
+Fixes NPC loadouts for vanilla Anomaly.
+Recommended use of NPC loadouts files rank fix in this same patch pack for full coverage.
 
 Integration into the vanilla corpse, reward, and stash systems.
 

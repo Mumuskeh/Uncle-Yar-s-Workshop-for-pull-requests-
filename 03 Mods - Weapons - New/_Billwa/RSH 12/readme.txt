@@ -6,7 +6,6 @@ RSH 12 [billwa]
 
 ----------------------------------------------------------
 -Explanation:
-Can sell now to traders.
 
 Integration into:
 PDA Interactive

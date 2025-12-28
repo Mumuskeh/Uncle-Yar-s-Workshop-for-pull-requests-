@@ -7,7 +7,6 @@ Note: You still need the original mod. Let this overwrite it.
 
 ----------------------------------------------------------
 -Explanation:
-Allows selling guns to traders.
 Added default actor effects configs.
 
 Integration into:

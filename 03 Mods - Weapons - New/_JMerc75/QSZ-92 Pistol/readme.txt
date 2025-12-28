@@ -7,7 +7,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
 Icon file trimmed.
 
 Integrated into:

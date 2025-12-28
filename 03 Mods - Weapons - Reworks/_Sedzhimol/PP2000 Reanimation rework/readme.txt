@@ -8,7 +8,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
 NPC loadout distribution. If a master rank from a given faction could carry the base PP2000, they have half the chances to instead carry the Operator version.
 Added default actor effects configs.
 

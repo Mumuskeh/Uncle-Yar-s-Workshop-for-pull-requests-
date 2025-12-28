@@ -10,8 +10,6 @@ Note: Disable the items/settings/npc_loadouts folder.
 
 Renamed npc loadout filename to ensure nothing crosses with ATHIS's MCX Spear (which is a different model chambered for a different ammo).
 Fully randomized in NPC loadouts the possible attachments (the gun is only carried by legend ranks anyways).
-Allows selling the rifle to traders.
-
 Added default actor effects settings.
 
 Integration into:

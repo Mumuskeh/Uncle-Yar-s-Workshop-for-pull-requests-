@@ -13,7 +13,6 @@ Let this overwrite it.
 
 It didn't include vanilla Protecta shotguns in its system. Now it does.
 
-
 TODO: any more vanilla guns?
 
 What do with the unused "Part repair kit"?

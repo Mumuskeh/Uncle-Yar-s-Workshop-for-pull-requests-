@@ -10,8 +10,6 @@ You can still use its included patches, except the Mags Redux one.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
-
 Mags Redux patch integrated.
 
 Integrated into:
@@ -23,6 +21,9 @@ Given the intended rarity, Grok's Stash Overhaul support seemed too much. Lootbo
 
 ----------------------------------------------------------
 -Patches:
+
+Armor Modkits addon
+This patch allows you to use a modkit to upgrade the normal Auto Mag to the carbine.
 
 ----------------------------------------------------------
 -Known issues:

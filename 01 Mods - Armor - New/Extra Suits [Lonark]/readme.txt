@@ -9,7 +9,8 @@ Ignore the original mod's Exoseva + Extra Suit patch and the rest of patches.
 
 ----------------------------------------------------------
 -Explanation:
-DLTX conversion, with minor fixes. Added default actor effect settings.
+DLTX conversion, with minor fixes.
+Added default actor effect settings.
 
 Includes integration for:
 Grok's Stash Overhaul. The new outfits will as rare to find in stashes as the vanilla equivalents.

@@ -13,7 +13,6 @@ These rifles are supposed to be semi automatic. The 7.62 rifle will now act as s
 Fixed the 7.62 rifle having an incorrect animation assigned for the aiming position. If you ever noticed the weapon dissapeared when aiming, this is it.
 
 Consolidated files.
-Allows to sell the rifles to traders.
 The Army won't sell the rifles (doesn't make much sense from what I see).
 Traders won't sell rifles with Specter scopes already attached. This is for those who play without BaS scopes to avoid crashes when talking to vendors. You may still need BaS for the textures.
 

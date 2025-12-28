@@ -14,7 +14,6 @@ Disable the original configs folder.
 Reworked the npc loadouts a bit. Only veterans and masters will carry it, veterans only in default configuration, and only the veterans of mercs, ISG and Monolith.
 Edited text to clarify this is the 5.45mm model.
 Moved both icons to the same file.
-Allows you to sell to traders.
 
 Integrated into:
 Mags Redux

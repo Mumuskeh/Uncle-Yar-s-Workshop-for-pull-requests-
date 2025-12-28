@@ -11,7 +11,6 @@ NOTE: You still need the original mod. Disable the original gamedata/configs fol
 
 Identified as the US Navy's "M1 Garand Mod 1", as the gun in this mod is chambered in 7.62 like such model, and the original Garand was chambered in .30-06 Springfield.
 
-Allows selling to traders.
 Icon file trimmed.
 
 Mag Redux support split off as a separate patch, as 1) the files don't seem to be working at least in vanilla, and 2) Mags Redux is not actually designed for clips. It also facilitates making the clip compatible for JMerc's standard M1 Garand mod (.

@@ -10,12 +10,14 @@ NOTE: You still need the original mod. Disable the folders configs/gameplay conf
 -Explanation:
 DLTXd & DXMLd conversion.
 
-Integration into Grok's Stash Overhaul patch.
+Integration into:
+Grok's Stash Overhaul
 
 ----------------------------------------------------------
 -Patches:
 
-2D ACOG scoping. For those who want to ensure the 2D aiming texture is used.
+2D ACOG scoping
+For those who want to ensure the 2D aiming texture is used.
 
 ----------------------------------------------------------
 -Known issues:

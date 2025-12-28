@@ -18,13 +18,14 @@ This is a rework of the mod intended to make it compatible with other AR reanima
 (Someone, somewhere, is chanting "Filler for the Throne of Filler! Bloat for the God of Bloat!")
 If neither is your case, then you can ignore this whole module.
 
+
 The M4A1 variants: Aeroknox AX-15, KAC URX, and SAI QD, become their own weapons, instead of replacing vanilla M4A1 variants. With these internal IDs:
 
 wpn_m4a1_ax15
 wpn_m4a1_urx
 wpn_m4a1_sai
 
-They're given the full patchment treatment as needed just like other modules: actor effects, mod integration, selling to traders... the works.
+They're given the full patchment treatment as needed just like other modules: actor effects, mod integration... the works.
 
 Given the vanilla camo M4A1 is carried and sold by Monolith and Sin, the custom by freedom masters, and ISG and merc vets and masters, and the Freedom by, well, ahem...
 The AX-15 will be sold by mercs and Clear Sky, and carried by CS vets and masters, merc master, and, sometimes, by ISG vets and masters. 

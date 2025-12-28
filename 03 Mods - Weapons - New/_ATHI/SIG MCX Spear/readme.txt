@@ -9,7 +9,7 @@ NOTE: You still need the original mod. Disable the configs folder.
 ----------------------------------------------------------
 -Explanation:
 
-Renamed npc loadout filename to ensure nothing crosses with Onerock's MCX Spear (which is a different model chambered for a different ammo).
+Renamed NPC loadout filename to ensure nothing crosses with Onerock's MCX Spear (which is a different model chambered for a different ammo).
 Fixed inheritance assignment for sounds configs.
 Consolidated trade files. Some traders will also sell both versions of the rifles, others only the black or tan version.
 

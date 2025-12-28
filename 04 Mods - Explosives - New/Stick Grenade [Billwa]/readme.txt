@@ -7,7 +7,6 @@ Stick Grenade [Billwa]
 ----------------------------------------------------------
 -Explanation:
 
-Allows selling to traders.
 Icon file trimmed.
 
 Description text edited a bit.

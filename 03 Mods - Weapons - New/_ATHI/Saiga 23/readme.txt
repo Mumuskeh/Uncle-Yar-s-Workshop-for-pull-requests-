@@ -9,7 +9,6 @@ NOTE: You still need the original mod. Disable the gamedata/configs folder.
 -Explanation:
 
 Trader distribution.
-Allows selling to traders.
 
 Integrated into:
 Grok's Stash Overhaul

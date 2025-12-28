@@ -7,7 +7,7 @@ NOTE: You need the original mod. Disable the configs folders.
 
 ----------------------------------------------------------
 -Explanation:
-Trims main file to remove excess/duplicated code, and allows you to sell the new gun.
+Trims main file to remove excess/duplicated code.
 
 The "Only Nagant" option will also remove the changes made to the SWP's Redhawk and apply them directly to the new Metro Nagant for compatibility sake, particularly if you're already happy with the configs SWP already have for the Redhawk.
 

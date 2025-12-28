@@ -8,7 +8,7 @@ Only released in Gamma Discord server.
 ----------------------------------------------------------
 -Explanation:
 Fixed configs trying to use a short name that doesn't exist.
-Added the gun to a few traders and allows you to sell it.
+Added the gun to a few traders.
 NPC loadouts were a bit strangely distributed. Gave it mainly to factions included for new game loadouts, and randomized loadout configurations for master ranks.
 Icon file trimmed.
 

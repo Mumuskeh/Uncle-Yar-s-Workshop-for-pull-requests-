@@ -17,7 +17,6 @@ Dissapointing that you can't attach a grenade launcher, though.
 
 English description heavily edited, due to excessive length. Might still come back for the Spanish text, but I'm hesitant to pass the Ukrainian and Russian ones through a translator.
 Reenabled the shell particles (the ejected shells effect).
-Allows to sell the gun to traders.
 Distributed to NPCs and traders. Military and Monolith will sell it at the highest goodwill rank, and veterans and masters of those factions may carry it.
 Added default actor effects configs.
 

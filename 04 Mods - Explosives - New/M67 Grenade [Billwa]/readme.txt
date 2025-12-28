@@ -7,7 +7,6 @@ M67 Grenade [Billwa]
 ----------------------------------------------------------
 -Explanation:
 
-Allows selling to traders.
 Icon file trimmed.
 
 Lootboxes integration.

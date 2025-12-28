@@ -11,7 +11,6 @@ You may still use its included patches.
 -Explanation:
 
 DLTX'd parts, NPC loadouts and trader distribution files, instead of previous scripted method.
-Allows to sell to traders.
 
 Added default actor effects configs.
 

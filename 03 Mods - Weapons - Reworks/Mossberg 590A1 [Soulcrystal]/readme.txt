@@ -9,7 +9,6 @@ Recommended use of NPC loadouts files rank fix in this same patch pack.
 
 ----------------------------------------------------------
 -Explanation:
-Allows selling guns to traders.
 Fixes faulty NPC loadouts. Recommended use of NPC loadouts files rank fix in this same patch pack for full coverage.
 Icon file compressed a bit; this is a minor change and merely nitpicking, if you want to keep the original visual quality, don't take the textures folder.
 

@@ -8,7 +8,6 @@ Note: You still need the original mod. Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell the guns to traders.
 Icon files compressed a bit; this is a minor change and merely nitpicking, if you want to keep the original visual quality, don't take the textures folder.
 
 Mags Redux. The seemingly intended behavior of the Mini using the 20 rounds mag as a default was disabled. It's now enabled.

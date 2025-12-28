@@ -10,7 +10,7 @@ This patch assumes you've done a full installation of the three weapons in the m
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders. Army will now sell the Kedr, but Nimble won't sell it anymore.
+Army will now sell the Kedr, instead of Nimble.
 
 Added default actor effects configs.
 

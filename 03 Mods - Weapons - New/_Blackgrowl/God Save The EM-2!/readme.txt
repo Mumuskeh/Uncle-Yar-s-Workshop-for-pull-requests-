@@ -10,8 +10,6 @@ You can still use its included patches, except the Mags Redux one.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
-
 Mags Redux patch integrated.
 
 Integrated into:

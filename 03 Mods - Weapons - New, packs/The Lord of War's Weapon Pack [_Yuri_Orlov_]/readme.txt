@@ -18,7 +18,6 @@ For example, the MP-153 (Custom) is nothing more than the BaS' MP-153 Carabiner 
 "Holy shit Connelly, you basically removed the whole of the mod-" Yes yes, I know. But seriously, at this point in time in the modding scene, the obrez shotguns are the only things here worth the bother. You could make a case for the shortened SKS and Mosin with the Blindsides patch if you weren't using Simple Weapon Pack, but Blindsides is abandoned and irrelevant with MRAA now, and Mosin Trio has its own shortened Mosins. So, really, this is is it.
 
 DLTX conversion and files updated. You can ignore the patches in the original mod.
-Allows to sell the weapons.
 Added default actor effects.
 Model textures won't overwrite vanilla ones anymore.
 

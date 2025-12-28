@@ -8,8 +8,6 @@ NOTE: You need the original mod. Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell to traders.
-
 Icon files trimmed.
 
 Integration into:

@@ -8,7 +8,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Allows selling to traders.
 Fixed incorrect values in the actor effects configs and Grok's Enhanced Recoil.
 Fixes audio files lacking comments (which tell nearby NPCs how to react to whatever caused the sound). Not really a problem, but it feels off if you shoot a gun and enemies don't react.
 

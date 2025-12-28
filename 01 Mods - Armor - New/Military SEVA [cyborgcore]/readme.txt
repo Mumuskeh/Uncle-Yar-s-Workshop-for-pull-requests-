@@ -8,7 +8,8 @@ NOTE: You still need the original mod; disable its configs and textures/ui folde
 ----------------------------------------------------------
 -Explanation:
 Streamlined and fixes trader and text files.
-DLTX'd the items_actor_legs.ltx files to not be overwritten by other mods, and remade icons taking the 3D model as basis (the upgrade icon was too tiny).
+Icons remade taking the 3D model as basis (the upgrade icon was too tiny).
+DLTX'd the 1st Person View files to not be overwritten by other mods.
 
 Integration into:
 Grok's Stash Overhaul

@@ -9,7 +9,7 @@ NOTE: You still need the original mod. Disable the gamedata/configs folder.
 -Explanation:
 
 NPC loadouts.
-Trader distribution. Allows to sell to traders.
+Trader distribution.
 
 Icon file reduced. Could actually use a redo of the icon itself but eh.
 

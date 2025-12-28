@@ -15,8 +15,6 @@ Let the later load afterwards
 Both:
 Files consolidated.
 Icon file trimmed.
-Allows to sell the guns.
-
 
 Integration into:
 Grok's Stash Overhaul

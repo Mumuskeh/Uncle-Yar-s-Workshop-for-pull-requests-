@@ -9,7 +9,10 @@ NOTE: You need to disable the gamedata\configs\loadouts folder in both of them.
 
 ----------------------------------------------------------
 -Explanation:
-This mod and LarryLangosta's fix use a non conventional method of adding the gun to NPC loadouts. I made a simple DLTX file for it, plus added the gun to traders. Given the PL-14 was a demonstrative design of the later-adopted PL-15, only Army will carry and sell it, with the exception of Nimble and expert loners.
+
+Converted to DLTX the scripted files for NPC loadouts.
+Trader distribution.
+Given the PL-14 was a demonstrative design of the later-adopted PL-15, only Army will carry and sell it, with the exception of Nimble and expert loners.
 
 Integration into Grok's Stash Overhaul.
 

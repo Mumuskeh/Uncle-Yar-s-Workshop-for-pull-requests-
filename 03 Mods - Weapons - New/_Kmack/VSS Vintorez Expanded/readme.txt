@@ -14,7 +14,7 @@ Internal IDs changed for better inventory ordering. This requires a new game if 
 Added name and description of its own, mentioning the guillie net applied on long range scopes.
 Reenabled shell ejection effects for 9x39 casings, not 9x18.
 Properly DLTX'd NPC loadouts for army and Monolith, and the new game loadouts.
-Allows to sell to traders (and removed the blackmarket presets file, it's useless for vanilla).
+Removed the blackmarket presets file, it's useless for vanilla.
 Will be sold by every trader that can sell the default Vintorez, but by one goodwill rank higher.
 Added default actor effects configs.
 Icon file made DX8-9 compliant.

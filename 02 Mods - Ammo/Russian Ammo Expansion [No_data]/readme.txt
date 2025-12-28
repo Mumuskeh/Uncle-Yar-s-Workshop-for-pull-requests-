@@ -6,7 +6,6 @@ Russian Ammo Expansion [No_data]
 
 ----------------------------------------------------------
 -Explanation:
-Allows you to sell the new ammo.
 
 Integration into the vanilla stash system.
 

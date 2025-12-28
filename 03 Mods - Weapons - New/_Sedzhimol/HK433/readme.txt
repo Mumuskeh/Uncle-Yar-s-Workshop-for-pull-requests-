@@ -12,7 +12,6 @@ Don't use this with MiK's HK433.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell the gun to traders.
 Added default actor effects configs.
 
 Integration into:

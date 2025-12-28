@@ -14,7 +14,7 @@ Corrected the zoom_rotate_time stat. It will be used by the gun always, not only
 Increased ammo count by one, from 14 to 15, just as the real gun (7 shells on each magazine tube, one readied).
 Enabled alt aim, for whoever wants it. Copied from tweaks by Gaben.
 NPC redistribution. Same factions (loner, Freedom, ISG, Mercs, Monolith), but higher ranks.
-Allows selling to traders. Sold by the same factions (except loners), at medium-high goodwill.
+Trader distribution. Sold by the same factions that carry it (except loners), at medium-high goodwill.
 Icon file trimmed.
 
 Integration into:

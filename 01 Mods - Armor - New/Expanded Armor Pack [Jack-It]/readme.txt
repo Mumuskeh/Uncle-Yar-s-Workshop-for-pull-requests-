@@ -11,7 +11,6 @@ Original mod not required.
 Did some more spring cleaning in the files defining the outfits and their helmet HUDs. Nothing big, but some inconsistencies should be gone away, or replaced with others... (•̪ o •̪) Also some tweaks:
 
 Fixed parts and loot files to include missing helmets and avoid redundancies.
-All outfits are now sellable.
 Trader redistribution: you'll find more loner traders selling the NBC and PS5 outfits, but the SKAT and Exosuit will be rarer. Clear Sky will also offer the Scar trenchcoat through high goodwill.
 Icons grouped up for a more compact texture file. A couple icons also were larger than normal, so I squished them. Maybe someone will make proper icons one day...
 

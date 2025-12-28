@@ -11,9 +11,8 @@ Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell the new items to traders.
-
-Integration into PDA Interactive.
+Integration into:
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:

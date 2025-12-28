@@ -17,7 +17,6 @@ Raised value by 2k, and firerate to 1200 rpm as per the real gun.
 Added default actor effects configs.
 NPC loadout redistribution. Only masters from Freedom, ISG, Mercs, Monolith and loners will use it, with rare occurrences at lower ranks.
 Trader redistribution. Freedom, ISG, Mercs and Monolith will sell it at medium-high goodwill ranks.
-Allows selling to traders.
 Icon file trimmed.
 
 Integration into:

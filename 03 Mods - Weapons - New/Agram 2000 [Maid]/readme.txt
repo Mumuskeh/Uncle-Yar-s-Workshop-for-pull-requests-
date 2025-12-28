@@ -7,13 +7,8 @@ Agram 2000 [Maid]
 ----------------------------------------------------------
 -Explanation:
 The original mod only added the weapon to traders. Now you will find it in the hands of loner, bandit and renegade rookies.
-
 Adds the silencer to traders.
-
-Allows to sell the items.
-
 Added to new game loadouts for loner, bandit and freedom players.
-
 Icon file also compacted a bit. Nothing big.
 
 Integration into:

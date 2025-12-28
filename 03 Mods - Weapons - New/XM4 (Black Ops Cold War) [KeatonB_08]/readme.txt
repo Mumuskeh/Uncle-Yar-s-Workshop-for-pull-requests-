@@ -31,14 +31,6 @@ I also removed stray ironsights from the scoped HUD models, as they were useless
 
 
 
-
-
-
-
-
-
-
-Allows to sell back to traders.
 NPC loadouts redistributed. Now the Army and Duty will also carry it, in addition to bandits, renegades, Freedom, and Mercs. Veterans will carry a default configuration, and masters a randomized. Only masters will carry it among loners.
 Icon file trimmed. Seems like some repainted variants in gray and desert camo were intended (the textures are even there for that), but as it is now, those icons merely bloated the file.
 

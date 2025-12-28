@@ -10,7 +10,6 @@ If you require BaS but don't want two redundant guns, you can use BaS Lite and o
 ----------------------------------------------------------
 -Explanation:
 
-Allows to sell the gun to traders.
 Added default actor effects configs.
 
 Icon file trimmed.

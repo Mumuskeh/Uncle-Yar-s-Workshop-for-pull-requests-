@@ -1,6 +1,5 @@
 -Module:
 10mm Auto Ecosystem [MrB]
-https://www.moddb.com/mods/stalker-anomaly/addons/mrbs-10mm-auto-ecosystem/
 
 ----------------------------------------------------------
 -Compatibility:

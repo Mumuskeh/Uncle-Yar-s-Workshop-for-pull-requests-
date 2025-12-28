@@ -24,7 +24,7 @@ Some options options are offered, with further changes.
 Use these if you want all guns in RWAP (you still need the whole of its assets). A new save is needed if you were already using RWAP in your current save.
 All files are consolidated, leaving only one for a given purpose (one loadout file, one parts file, etc).
 Distribution to NPCs done more sparingly, instead of everyone getting everything with AP ammo. Some factions will carry more guns than others. Veterans carry some guns in default configurations and others in completely random ones, while masters carry all guns in completely random configurations. Masters will carry any tactical variants when available, while veterans carry the basic variants (exceptions aside).
-Distribution to traders, in similar fashion to NPCs above, and allow you to sell the weapons.
+Distribution to traders, in similar fashion to NPCs above.
 Default actor effects settings.
 
 The AKMSU and MCX weapons had their internal IDs renamed, so they may be ordered in the inventory better and together, even with MCX guns from other mods.
