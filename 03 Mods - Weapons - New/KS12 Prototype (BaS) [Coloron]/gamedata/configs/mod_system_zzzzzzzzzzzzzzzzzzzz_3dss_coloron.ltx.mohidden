@@ -1,0 +1,70 @@
+![wpn_saiga12s_isg]
+
+lewd_lens_hide_enabled			= true
+lewd_lens_hide_bone				= muzzle_gl
+lewd_lens_hide_delay			= 0,1,0
+lewd_lens_hide_aim_mode			= true, false, false
+
+![wpn_saiga12s_isg_gauss_sight]:wpn_saiga12s_isg
+hud                 = wpn_saiga12s_isg_gauss_sight_hud
+
+	scope texture =
+	
+	s3ds_reticle_size 	= 5
+	s3ds_image_type 	= 2
+	s3ds_reticle_type 	= 7
+	s3ds_exit_pupil		= 10
+	s3ds_min_zoom_1x	= 1
+	ms_count 			= 3
+	magnification 		= 10
+    min_magnification	= 1
+
+![wpn_saiga12s_isg_gauss_sight_hud]:wpn_saiga12s_isg_hud
+item_visual                              = dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_gauss_hud.ogf
+aim_hud_offset_pos               = -0.059396, 0, -0.010523
+aim_hud_offset_pos_16x9          = -0.059396, 0, -0.010523
+
+![wpn_saiga12s_isg_t12]:saiga12s_isg
+hud = wpn_saiga12s_isg_t12_hud
+
+	s3ds_reticle_size 	= 2.4
+
+![wpn_saiga12s_isg_t12_hud]:saiga12s_isg_hud
+attach_place_idx = 0
+item_visual = dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_t12_hud.ogf
+
+; --------------------------------------------------Nimble Upgrade---------------------------------------------------------
+![wpn_saiga12s_isg_nimble]
+
+lewd_lens_hide_enabled			= true
+lewd_lens_hide_bone				= muzzle_gl
+lewd_lens_hide_delay			= 0,1,0
+lewd_lens_hide_aim_mode			= true, false, false
+
+![wpn_saiga12s_isg_nimble_gauss_sight]:wpn_saiga12s_isg_nimble
+hud                 = wpn_saiga12s_isg_gauss_sight_hud
+
+	scope texture =
+	
+	s3ds_reticle_size 	= 5
+	s3ds_image_type 	= 2
+	s3ds_reticle_type 	= 7
+	s3ds_exit_pupil		= 10
+	s3ds_min_zoom_1x	= 1
+	ms_count 			= 3
+	magnification 		= 10
+    min_magnification	= 1
+
+![wpn_saiga12s_isg_nimble_gauss_sight_hud]:wpn_saiga12s_isg_nimble_hud
+item_visual                              = dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_gauss_hud.ogf
+aim_hud_offset_pos               = -0.059396, 0, -0.010523
+aim_hud_offset_pos_16x9          = -0.059396, 0, -0.010523
+
+![wpn_saiga12s_isg_nimble_t12]:saiga12s_isg_nimble
+hud = wpn_saiga12s_isg_t12_hud
+
+	s3ds_reticle_size 	= 2.4
+
+![wpn_saiga12s_isg_nimble_t12_hud]:saiga12s_isg_nimble_hud
+attach_place_idx = 0
+item_visual = dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_t12_hud.ogf

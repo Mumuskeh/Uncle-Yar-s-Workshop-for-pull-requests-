@@ -28,6 +28,10 @@ PDA Interactive
 ----------------------------------------------------------
 -Patches:
 
+9x19 patch - Extra
+In addition to the default 5 rounds speedloaders, this adds a 6 round one.
+For now, this is only useful for the module for Frostychun's EFT Rhino Brothers. 
+
 Arszi's Mutant Bleeding + Arszi's Mutant Bleeding Optimization Pach + Arti's Ballistics
 The ammo may work differently with Arti's Ballistics.
 

@@ -1,5 +1,5 @@
 -Module:
-Mateba Unica 6 [ATHIS]
+Mateba Unica 6 [ATHI]
 
 Use either Diphenhydramine-HCl's mod or this edit, not both.
 

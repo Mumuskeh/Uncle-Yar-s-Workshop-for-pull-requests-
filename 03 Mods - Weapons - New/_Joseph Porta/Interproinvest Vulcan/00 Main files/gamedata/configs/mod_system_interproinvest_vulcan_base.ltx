@@ -1,0 +1,316 @@
+;------------------------------------------------------------------------------------------------
+[wpn_interproinvest_vulcan]:identity_immunities,weapon_probability,default_weapon_params,wpn_aug_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\l85"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_interproinvest_vulcan
+
+lewd_lens_hide_enabled			= true
+lewd_lens_hide_bone				= lens
+lewd_lens_hide_delays			= 0.1,0
+lewd_lens_hide_aim_mode			= true, false, false
+
+class							= WP_LR300
+slot							= 2
+animation_slot					= 8
+ef_main_weapon_type				= 2
+ef_weapon_type					= 6
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+hud_fov							= 0.75
+
+icons_texture					= ui\ui_icon_interproinvest_vulkan
+inv_grid_width					= 5
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+inv_name						= st_wpn_interproinvest_vulcan
+inv_name_short					= st_wpn_interproinvest_vulcan
+description						= st_wpn_interproinvest_vulcan_descr
+
+kind							= w_rifle
+inv_weight						= 3.8
+cost							= 50680
+repair_type						= rifle_5
+weapon_class					= assault_rifle
+
+hud								= wpn_interproinvest_vulcan_hud
+visual							= dynamics\weapons\wpn_interproinvest_vulcan\wpn_interproinvest_vulcan_world.ogf
+
+position						= -0.026, -0.15, -0.015
+orientation						= 0, 1.75, -0.2
+
+fire_point						= 0.0, 0.186, 0.415
+fire_point2						= 0.0, 0.106, 0.468
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.36, 0.25
+strap_orientation				= -10, -5, 10
+ph_mass							= 5
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= -0.02, 0.17, -0.18
+shell_dir						= 0,0,0.4
+shell_particles					= weapons\762x39
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgr_icon_path					= ui\ui_icon_interproinvest_vulkan
+
+upgrades						= up_gr_firstab_aug, up_gr_seconab_aug, up_gr_thirdab_aug, up_gr_fourtab_aug, up_gr_fourtcd_aug, up_gr_fourtef_aug, up_gr_fifthab_aug, up_gr_fifthcd_aug
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_l85
+upgr_icon_x						= 0
+upgr_icon_y						= 250
+upgr_icon_width					= 150
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed					= 30
+ammo_mag_size					= 30
+startup_ammo					= 90
+
+scopes							= 
+scope_status					= 0
+scope_zoom_factor				= 0
+use_alt_aim_hud					= false
+
+silencer_name					= wpn_ipi_supressor
+silencer_status					= 2
+silencer_x						= 200
+silencer_y						= 2
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher
+grenade_launcher_status			= 0
+grenade_launcher_x				= 116
+grenade_launcher_y				= 20
+launch_speed					= 0
+
+hit_impulse						= 30
+hit_power						= 0.605, 0.605, 0.605, 0.605
+hit_type						= fire_wound
+fire_distance					= 700
+bullet_speed					= 930
+rpm								= 700
+rpm_empty_click					= 700
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 4.2
+fire_dispersion_base			= 0.32
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.004
+misfire_start_condition			= 0.7 ; 0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0007
+condition_shot_dec				= 0.0007
+
+cam_return						= 0
+cam_relax_speed					= 4
+cam_dispersion					= 0.556
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0675
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 0.95
+zoom_cam_relax_speed			= 10
+zoom_cam_dispersion				= 0.466
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.0525
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 0.9
+
+PDM_disp_accel_factor			= 2.5
+PDM_disp_base					= 1.18
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.5
+
+cam_relax_speed_ai				= 120.75
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.85
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 0
+kill_msg_y						= 28
+kill_msg_width					= 84
+kill_msg_height					= 28
+
+snd_empty			= weapons\vulcan_misc\vulcan_empty
+snd_draw			= weapons\vulcan_misc\vulcan_draw
+snd_holster			= weapons\vulcan_misc\vulcan_holster
+snd_reload			= weapons\vulcan_misc\vulcan_reload
+snd_reload_empty	= weapons\vulcan_misc\vulcan_reload_empty
+snd_bore			= weapons\vulcan_misc\aug_new_inspect_2
+snd_reload_misfire	= weapons\vulcan_misc\vulcan_unjam
+
+;SHOOT SOUNDS
+snd_shoot		= wpn_interproinvest_vulcan_snd_shoot_npc
+snd_shoot_actor	= wpn_interproinvest_vulcan_snd_shoot_actor
+
+snd_silncer_shot		= wpn_interproinvest_vulcan_snd_sil_npc
+snd_silncer_shot_actor	= wpn_interproinvest_vulcan_snd_sil_actor
+
+;======================================================================================================================================================;
+; 																																				 ;
+; 																		LAYERS																		 ;
+; 																																				 ;
+;======================================================================================================================================================;
+[wpn_interproinvest_vulcan_snd_shoot_actor]
+snd_1_layer		= weapons\vulkan_fire\vulkan_shot_01
+snd_1_layer1	= weapons\vulkan_fire\vulkan_shot_02
+snd_1_layer2	= weapons\vulkan_fire\vulkan_shot_03
+snd_1_layer3	= weapons\vulkan_fire\vulkan_shot_04
+snd_1_layer4	= weapons\vulkan_fire\vulkan_shot_05
+snd_1_layer5	= weapons\vulkan_fire\vulkan_shot_06
+snd_2_layer		= weapons\vulkan_fire\vulkan_bang_01
+snd_2_layer1	= weapons\vulkan_fire\vulkan_bang_02
+snd_2_layer2	= weapons\vulkan_fire\vulkan_bang_03
+snd_3_layer		= weapons\vulkan_fire\vulkan_sonic_02
+snd_3_layer1	= weapons\vulkan_fire\vulkan_sonic_03
+snd_4_layer		= weapons\vulkan_fire\vulkan_reflection_01
+snd_4_layer1	= weapons\vulkan_fire\vulkan_reflection_02
+snd_4_layer2	= weapons\vulkan_fire\vulkan_reflection_03
+snd_4_layer3	= weapons\vulkan_fire\vulkan_reflection_04
+snd_4_layer4	= weapons\vulkan_fire\vulkan_reflection_05
+snd_4_layer5	= weapons\vulkan_fire\vulkan_reflection_06
+snd_5_layer		= weapons\vulkan_fire\vulkan_bass
+
+[wpn_interproinvest_vulcan_snd_shoot_npc]
+snd_1_layer		= weapons\vulcan_npc\vulkan_shot_01
+snd_1_layer1	= weapons\vulcan_npc\vulkan_shot_02
+snd_1_layer2	= weapons\vulcan_npc\vulkan_shot_03
+snd_1_layer3	= weapons\vulcan_npc\vulkan_shot_04
+snd_1_layer4	= weapons\vulcan_npc\vulkan_shot_05
+snd_1_layer5	= weapons\vulcan_npc\vulkan_shot_06
+snd_4_layer		= weapons\vulcan_npc\vulkan_reflection_01
+snd_4_layer1	= weapons\vulcan_npc\vulkan_reflection_02
+snd_4_layer2	= weapons\vulcan_npc\vulkan_reflection_03
+snd_4_layer3	= weapons\vulcan_npc\vulkan_reflection_04
+snd_4_layer4	= weapons\vulcan_npc\vulkan_reflection_05
+snd_4_layer5	= weapons\vulcan_npc\vulkan_reflection_06
+
+[wpn_interproinvest_vulcan_snd_sil_actor]
+snd_1_layer		= weapons\vulkan_sil\vulkan_shot_01
+snd_1_layer1	= weapons\vulkan_sil\vulkan_shot_02
+snd_1_layer2	= weapons\vulkan_sil\vulkan_shot_03
+snd_1_layer3	= weapons\vulkan_sil\vulkan_shot_04
+snd_1_layer4	= weapons\vulkan_sil\vulkan_shot_05
+snd_2_layer		= weapons\vulkan_sil\vulkan_reflector_01
+snd_2_layer1	= weapons\vulkan_sil\vulkan_reflector_02
+snd_2_layer2	= weapons\vulkan_sil\vulkan_reflector_03
+snd_2_layer2	= weapons\vulkan_sil\vulkan_reflector_04
+snd_3_layer		= weapons\vulkan_sil\vulkan_echo_02
+snd_3_layer1	= weapons\vulkan_sil\vulkan_echo_03
+snd_4_layer		= weapons\vulkan_sil\vulkan_bass_sd
+
+[wpn_interproinvest_vulcan_snd_sil_npc]
+snd_1_layer		= weapons\vulcan_npc_sil\vulkan_shot_01
+snd_1_layer1	= weapons\vulcan_npc_sil\vulkan_shot_02
+snd_1_layer2	= weapons\vulcan_npc_sil\vulkan_shot_03
+snd_1_layer3	= weapons\vulcan_npc_sil\vulkan_shot_04
+snd_1_layer4	= weapons\vulcan_npc_sil\vulkan_shot_05
+snd_4_layer		= weapons\vulcan_npc_sil\vulkan_reflection_01
+snd_4_layer1	= weapons\vulcan_npc_sil\vulkan_reflection_02
+snd_4_layer2	= weapons\vulcan_npc_sil\vulkan_reflection_03
+snd_4_layer3	= weapons\vulcan_npc_sil\vulkan_reflection_04
+
+;====================================================================== HUD	===========================================================================;
+[wpn_interproinvest_vulcan_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_interproinvest_vulcan\wpn_interproinvest_vulcan_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= 0.035, -0.025, 0.15
+hands_position_16x9		= 0.035, -0.025, 0.15
+hands_orientation		= 0.0, 0.0, 0.0
+hands_orientation_16x9	= 0.0, 0.0, 0.0
+
+aim_hud_offset_pos		= -0.0904, 0.003, -0.1
+aim_hud_offset_pos_16x9	= -0.0904, 0.003, -0.1
+aim_hud_offset_rot		= 0.016, -0.000853, 0.01
+aim_hud_offset_rot_16x9	= 0.016, -0.000853, 0.01
+
+aim_hud_offset_alt_pos		= -0.090987, 0.006466, -0.2
+aim_hud_offset_alt_pos_16x9	= -0.090987, 0.006466, -0.2
+aim_hud_offset_alt_rot		= 0.00774, 0, -0.010025
+aim_hud_offset_alt_rot_16x9	= 0.00774, 0, -0.010025
+
+lowered_hud_offset_pos		= 0.05,-0.04,-0.02
+lowered_hud_offset_pos_16x9	= 0.05,-0.04,-0.02
+lowered_hud_offset_rot		= -0.1,-0.6,0.4
+lowered_hud_offset_rot_16x9	= -0.1,-0.6,0.4
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= ipi_vulkan_holster_2, holster_2
+anm_idle					= ipi_vulkan_idle, idle
+anm_idle_aim				= ipi_vulkan_aim, aim
+anm_idle_aim_moving			= ipi_vulkan_walk, walk, 0.75
+anm_idle_aim_moving_crouch	= ipi_vulkan_walk, walk, 0.7
+anm_idle_moving				= ipi_vulkan_walk, walk
+anm_idle_sprint				= ipi_vulkan_sprint_2, sprint, 1.2
+anm_reload					= ipi_vulkan_reload, reload
+anm_reload_empty			= ipi_vulkan_reload_empty, reload_empty
+anm_show					= ipi_vulkan_draw, draw
+anm_bore					= ipi_vulkan_inspect_2, inspect_2
+
+anm_reload_misfire			= ipi_vulkan_unjam_2, unjam
+anm_shots					= ipi_vulkan_shoot_less_2, shoot
+
+shell_bone	= bolt
+shell_dir	= 0, 1, 0
+shell_point	= 0,0,0
+
+fire_bone	= wpn_body
+fire_point	= 0, 0, 0.5
+freelook_z_offset_mul	= 0.1

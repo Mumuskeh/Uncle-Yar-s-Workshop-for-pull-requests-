@@ -1,5 +1,5 @@
 -Module:
-Spectre M4 SMG [ATHIS]
+Spectre M4 SMG [ATHI]
 Only released in Gamma Discord server.
 
 ----------------------------------------------------------

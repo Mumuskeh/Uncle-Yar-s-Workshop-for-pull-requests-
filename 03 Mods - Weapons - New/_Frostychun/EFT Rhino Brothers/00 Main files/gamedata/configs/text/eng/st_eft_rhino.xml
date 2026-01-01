@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rhino_20ds_9mm_eft">
+		<text>Chiappa Rhino 20DS 9x19</text>
+	</string>
+	<string id="st_wpn_rhino_20ds_9mm_eft_s">
+		<text>Rhino 20DS 9mm</text>
+	</string>
+	<string id="st_wpn_rhino_20ds_9mm_eft_descr">
+		<text>The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction, with an unusual barrel arrangement for revolvers opposite the lower drum chamber.\n
+		This model is the pocket sized 20DS with a 2 inch barrel, chambered in 9x19mm.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_rhino_50ds_357_eft">
+		<text>Chiappa Rhino 50DS .357</text>
+	</string>
+	<string id="st_wpn_rhino_50ds_357_eft_s">
+		<text>Rhino 50DS .357</text>
+	</string>
+	<string id="st_wpn_rhino_50ds_357_eft_descr">
+		<text>The Rhino revolvers, manufactured by the Italian company Armi Chiappa, are distinguished by a revolutionary patented design and construction, with an unusual barrel arrangement for revolvers opposite the lower drum chamber.\n
+		This model is the 50DS with a 5 inch barrel, chambered in .357.\n</text>
+	</string>
+</string_table>

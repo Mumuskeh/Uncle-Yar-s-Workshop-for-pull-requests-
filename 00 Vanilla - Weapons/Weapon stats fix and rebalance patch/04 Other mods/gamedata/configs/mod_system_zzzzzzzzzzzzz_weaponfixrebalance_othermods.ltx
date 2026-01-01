@@ -50,6 +50,29 @@ fire_distance	= 500 ; 1000
 bullet_speed	= 800 ; 832
 rpm				= 850 ; 700
 
+; RSH-12
+![wpn_eft_rsh12]
+inv_weight		= 2.2
+hit_impulse		= 45 ; 50
+hit_power		= 0.60, 0.60, 0.60, 0.60 ; 0.92, 0.92, 0.92, 0.92
+fire_distance	= 200 ; 125
+bullet_speed	= 430 ; 400
+rpm				= 100 ; 150
+![wpn_rsh12_eft]
+inv_weight		= 2.2
+hit_impulse		= 45 ; 50
+hit_power		= 0.60, 0.60, 0.60, 0.60 ; 0.92, 0.92, 0.92, 0.92
+fire_distance	= 200 ; 125
+bullet_speed	= 430 ; 400
+rpm				= 100 ; 150
+![wpn_rsh12]
+inv_weight		= 2.2
+hit_impulse		= 45 ; 50
+hit_power		= 0.60, 0.60, 0.60, 0.60 ; 0.66, 0.66, 0.66, 0.66
+fire_distance	= 200 ; 500
+; bullet_speed		= 430
+rpm				= 100 ; 70
+
 
 ; ALEX 	============	============	============	============
 
@@ -152,7 +175,6 @@ hit_power		= 0.46, 0.46, 0.46, 0.46 ; 0.35, 0.35, 0.35, 0.35
 fire_distance	= 100 ; 230
 bullet_speed	= 362; 340
 ; rpm							= 390
-
 ;from my patch
 ![wpn_p365-380]
 fire_distance	= 90
@@ -178,7 +200,6 @@ inv_weight		= 3.72 ; 3.77
 fire_distance	= 600
 bullet_speed	= 960 ; 880
 rpm				= 625 ; 650
-
 ![wpn_dtmdr_black] ; 7.62x51
 $spawn			= "weapons\dtmdr_black"
 inv_weight		= 3.83 ; 3.77
@@ -347,6 +368,7 @@ fire_distance	= 400 ; 700
 ; bullet_speed						= 990
 ; rpm									= 750
 
+
 ;;CHILLCAT 	============	============	============	============
 
 ; Let's standardize their damage to VSSK levels
@@ -416,12 +438,20 @@ ammo_mag_size	= 8 ; 10
 fire_distance	= 100
 bullet_speed	= 408 ; 350
 
-;Ready or not Pack
-![wpn_sr16]
-$spawn			= "weapons\sr16"
-inv_weight		= 2.9 ; 3.0
-fire_distance	= 500 ; 800
-rpm				= 750 ; 800
+;KP31
+![wpn_kp31]
+inv_weight		= 4.6 ; 4.7
+ammo_class		= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed	= 71 ; 50
+ammo_mag_size	= 71 ; 50
+hit_impulse		= 24 ; 20
+hit_power		= 0.47, 0.47, 0.47, 0.47 ; 0.46, 0.46, 0.46, 0.46
+fire_distance	= 200 ; 300
+bullet_speed	= 396 ; 330
+rpm				= 800 ; 650
+!ap_modifier
+![mag_kp31_9x18]
+max_mag_size	= 71 ; 50
 
 ;EFT MTS 255
 ![wpn_eft_mts_255]
@@ -429,6 +459,35 @@ hit_impulse		= 37 ; 40
 fire_distance	= 100 ; 300
 rpm				= 85 ; 55
 ![wpn_mts_255_eft]
+hit_impulse		= 37 ; 40
+fire_distance	= 100 ; 300
+rpm				= 85 ; 55
+
+;Chiappa Rhino Brothers
+![wpn_eft_rhino]
+inv_weight		= 0.7 ; 0.8
+hit_impulse		= 27 ; 35
+hit_power		= 0.47, 0.47, 0.47, 0.47 ; 0.53, 0.53, 0.53, 0.53
+fire_distance	= 75 ; 125
+![wpn_rhino_20ds_9mm_eft]
+inv_weight		= 0.7 ; 0.8
+hit_impulse		= 27 ; 35
+hit_power		= 0.47, 0.47, 0.47, 0.47 ; 0.53, 0.53, 0.53, 0.53
+fire_distance	= 75 ; 125
+
+![wpn_eft_rhino_357]
+inv_weight		= 0.895 ; 0.92
+fire_distance	= 200 ; 500
+![wpn_rhino_50ds_357_eft]
+inv_weight		= 0.895 ; 0.92
+fire_distance	= 200 ; 500
+
+;Ready or not Pack
+![wpn_sr16]
+$spawn			= "weapons\sr16"
+inv_weight		= 2.9 ; 3.0
+fire_distance	= 500 ; 800
+rpm				= 750 ; 800
 
 
 ;;JMERC 	============	============	============	============
@@ -1064,6 +1123,12 @@ inv_weight		= 2.85 ; 3.00
 fire_distance	= 500 ; 690
 bullet_speed	= 680 ; 600
 rpm				= 725 ; 880
+![wpn_akmsu_sag]
+$spawn			= "weapons\akmsu_sag"
+inv_weight		= 2.85 ; 3.00
+fire_distance	= 500 ; 690
+bullet_speed	= 680 ; 600
+rpm				= 725 ; 880
 
 ![wpn_ks1_rwap]
 $spawn			= "weapons\ks1_rwap"
@@ -1090,9 +1155,23 @@ hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.5, 0.5, 0.5, 0.5
 fire_distance	= 500 ; 1000
 bullet_speed	= 915
 rpm				= 850 ; 770
+![wpn_mcx_virtus_rwap]
+$spawn			= "weapons\mcx_virtus_rwap"
+inv_weight		= 2.61 ; 3.00
+hit_impulse		= 25 ; 30
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.5, 0.5, 0.5, 0.5
+fire_distance	= 500 ; 1000
+bullet_speed	= 915
+rpm				= 850 ; 770
 
 ![wpn_mcxspear_rwap]
 $spawn			= "weapons\mcxspear_rwap"
+inv_weight		= 3.4 ; 3.00
+fire_distance	= 500 ; 1000
+bullet_speed	= 915 ; 880
+rpm				= 850 ; 770
+![wpn_mcx_spear_lt_rwap]
+$spawn			= "weapons\mcx_spear_lt_rwap"
 inv_weight		= 3.4 ; 3.00
 fire_distance	= 500 ; 1000
 bullet_speed	= 915 ; 880
@@ -1111,6 +1190,14 @@ bullet_speed	= 915 ; 880
 
 ![wpn_rattler_rwap]
 $spawn			= "weapons\rattler_rwap"
+inv_weight		= 2.5 ; 3.00
+hit_impulse		= 25 ; 33
+hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.62, 0.62, 0.62, 0.62
+fire_distance	= 375 ; 600
+bullet_speed	= 850 ; 500
+; rpm				= 900	?
+![wpn_mcx_rattler_rwap]
+$spawn			= "weapons\mcx_rattler_rwap"
 inv_weight		= 2.5 ; 3.00
 hit_impulse		= 25 ; 33
 hit_power		= 0.49, 0.49, 0.49, 0.49 ; 0.62, 0.62, 0.62, 0.62

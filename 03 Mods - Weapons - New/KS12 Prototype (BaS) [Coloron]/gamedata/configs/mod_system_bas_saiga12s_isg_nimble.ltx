@@ -1,0 +1,475 @@
+;------------------------------------------------------------------------------------------------
+![wpn_saiga12s_isg]:wpn_saiga_sounds
+class			= WP_AK74
+
+repair_type		= rifle_7
+
+upgrades		= up_gr_firstab_saiga12s, up_gr_seconab_saiga12s, up_gr_thirdab_saiga12s, up_gr_fourtab_saiga12s, up_gr_fifthab_saiga12s
+upgrade_scheme	= upgrade_scheme_saiga_isg
+
+ammo_elapsed	= 12
+ammo_mag_size	= 12
+
+>scopes			= gauss_sight, t12 ;gauss_kit
+
+; silencer_y		= 7
+
+grenade_launcher_x	= 122
+grenade_launcher_y	= 15
+
+; !hud_fov		= 0.78
+
+snd_shoot				= weapons\saiga_eft\saiga_shoot
+snd_silncer_shot		= wpn_saiga_snd_silenced
+snd_silncer_shot_actor	= wpn_saiga_snd_silenced_actor
+!snd_shoot1
+!snd_shoot2
+!snd_shoot3
+
+;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
+![wpn_saiga12s_isg_hud]
+anm_shots_aim			= ak74_eft_ins_vgrip_shoot_aim, shoot
+anm_reload_misfire_w_gl	= ak12_mono_ins_vgrip_misfire, misfire
+
+anm_switch				= ak74_eft_ins_gl_off
+anm_switch_g			= ak74_eft_ins_gl_on
+
+anm_hide_w_gl			= ak74_eft_ins_hide_w_gl
+anm_show_w_gl			= ak74_eft_ins_draw_w_gl
+anm_idle_w_gl			= ak74_eft_ins_idle_w_gl
+anm_shots_w_gl			= ak74_eft_ins_shoot_w_gl, shoot_w_gl
+anm_shots_aim_w_gl		= ak74_eft_ins_shoot_aim_w_gl, shoot_w_gl
+anm_shots_w_gl_aim		= ak74_eft_ins_shoot_aim_w_gl, shoot_w_gl
+
+anm_reload_w_gl			= ak74_eft_ins_reload_w_gl, reload_w_gl, 1.5
+anm_reload_empty_w_gl	= ak74_eft_ins_reload_empty_w_gl, reload_empty_w_gl_test2, 1.42
+
+anm_idle_w_gl_aim		= ak74_eft_ins_idle_aim_w_gl
+anm_idle_sprint_w_gl	= ak74_eft_ins_idle_sprint_w_gl
+anm_idle_moving_w_gl	= ak74_eft_ins_idle_moving_w_gl
+anm_bore_w_gl			= ak74_eft_ins_idle_bore_w_gl
+
+anm_show_g				= ak74_eft_ins_draw_gl
+anm_hide_g				= ak74_eft_ins_hide_gl
+anm_idle_g				= ak74_eft_ins_idle_gl
+anm_reload_g			= ak74_eft_ins_reload_gl, reload_gl
+anm_idle_g_aim			= ak74_eft_ins_idle_aim_gl
+anm_shots_g				= ak74_eft_ins_shoot_gl, shoot_gl
+anm_idle_sprint_g		= ak74_eft_ins_idle_sprint_gl
+anm_idle_moving_g		= ak74_eft_ins_idle_moving_gl
+anm_bore_g				= ak74_eft_ins_idle_bore_gl
+
+;--------------------------------------------------------------------Addons-----------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_ac10632]
+; 1icon_layer_y	= -7
+
+![wpn_saiga12s_isg_ac10632_hud]
+aim_hud_offset_rot_16x9	= 0.002964,0.00756,0.002187
+;-----------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_eot]
+; 1icon_layer_y	= -4
+
+![wpn_saiga12s_isg_eot_hud]
+aim_hud_offset_rot_16x9	= 0.00195,0.007554,0.002187
+;-----------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_c-more]
+; 1icon_layer_y	= -4
+
+![wpn_saiga12s_isg_c-more_hud]
+aim_hud_offset_rot_16x9	= 0.00337,0.007344,0.002187
+;---------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_aim_low]
+; 1icon_layer_y	= 0
+
+;-------------------------------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_point_aimpro]
+; 1icon_layer_y	= -10
+
+![wpn_saiga12s_isg_point_aimpro_hud]
+aim_hud_offset_rot_16x9	= 0.002556,0.00713,0.002187
+;-------------------------------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_ekp8_18]
+; 1icon_layer_y	= 1
+
+![wpn_saiga12s_isg_ekp8_18_hud]
+aim_hud_offset_rot_16x9	= 0.001115,0.007556,0.002187
+;-------------------------------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_d0cter]
+; 1icon_layer_y	= -3
+
+![wpn_saiga12s_isg_d0cter_hud]
+aim_hud_offset_rot_16x9	= 0.006085,0.007343,0.002187
+
+aim_hud_offset_alt_pos		= -0.075159, -0.053933, -0.018575
+aim_hud_offset_alt_pos_16x9	= -0.075159, -0.053933, -0.018575
+aim_hud_offset_alt_rot		= 0.003838, 0.012257, 0.791324
+aim_hud_offset_alt_rot_16x9	= 0.003838, 0.012257, 0.791324
+;-------------------------------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_mepro]
+; 1icon_layer_y	= -1
+
+![wpn_saiga12s_isg_mepro_hud]
+aim_hud_offset_rot_16x9	= 0.001663,0.007344,0.002187
+;-------------------------------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_0kp2]
+; 1icon_layer_y	= 1
+
+;---------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_e0t2]
+; 1icon_layer_y	= -3
+
+;---------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_rmr]
+; 1icon_layer_y	= 1
+
+![wpn_saiga12s_isg_rmr_hud]
+aim_hud_offset_rot_16x9	= 0.004732,0.007344,0.002187
+;---------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_deltapoint]
+; 1icon_layer_y	= 1
+
+![wpn_saiga12s_isg_deltapoint_hud]
+aim_hud_offset_rot_16x9	= 0.003948,0.007416,0.002187
+;---------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_compm4s]
+; 1icon_layer_y	= -5
+
+![wpn_saiga12s_isg_compm4s_hud]
+aim_hud_offset_rot_16x9	= 0.002516,0.007343,0.002187
+;--------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_rakurs]
+; 1icon_layer_y	= -5
+
+![wpn_saiga12s_isg_rakurs_hud]
+aim_hud_offset_rot_16x9	= 0.00438,0.007203,0.002187
+;-----------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_kemper]
+; 1icon_layer_y	= -6
+
+![wpn_saiga12s_isg_kemper_hud]
+aim_hud_offset_rot_16x9	= 0.002085,0.007204,0.002187
+;--------------------------------------------------------------------------------------------------------
+; ![wpn_saiga12s_isg_aimpoint]
+; 1icon_layer_y	= -7
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_gauss_sight]:wpn_saiga12s_isg
+$spawn			= "weapons\wpn_saiga12s_isg_gauss_sight"
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_gauss_sight_hud
+
+inv_weight		= 3.00
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 60
+1icon_layer_y	= -10
+
+scope_status		= 1
+scope_texture		= 
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;installed_upgrades	= up_fourtc_svd_nimble
+
+[wpn_saiga12s_isg_gauss_sight_hud]:wpn_saiga12s_isg_hud
+item_visual	= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_gauss_hud.ogf
+
+aim_hud_offset_pos_16x9	= -0.062975,0.024875,-0.032275
+aim_hud_offset_rot_16x9	= 0.005438,0.007057,0.002187
+
+aim_hud_offset_alt_pos		= -0.075159, -0.053933, -0.018575
+aim_hud_offset_alt_pos_16x9	= -0.075159, -0.053933, -0.018575
+aim_hud_offset_alt_rot		= 0.003838, 0.012257, 0.791324
+aim_hud_offset_alt_rot_16x9	= 0.003838, 0.012257, 0.791324
+;-----------------------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_t12]]:wpn_saiga12s_isg
+$spawn			= "weapons\wpn_saiga12s_isg_t12"
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_t12_hud
+
+inv_weight		= 3.00
+
+1icon_layer		= t12
+1icon_layer_x	= 89
+1icon_layer_y	= -3
+
+scope_texture	= 
+
+[wpn_saiga12s_isg_t12_hud]:wpn_saiga12s_isg_hud
+item_visual	= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_t12_hud.ogf
+aim_hud_offset_pos		= -0.05924, 0.013296, -0.089571
+aim_hud_offset_pos_16x9	= -0.05924, 0.013296, -0.089571
+aim_hud_offset_rot		= 0.014398, 0.0022, 0
+aim_hud_offset_rot_16x9	= 0.014398, 0.0022, 0
+hands_orientation		= 0.352729, 0.507156, 0
+hands_orientation_16x9	= 0.352729, 0.507156, 0
+hands_position		= -0.004142, 0.010264, -0.190155
+hands_position_16x9	= -0.004142, 0.010264, -0.190155
+;--------------------------------------------------------------------------------------------------------
+;--------------------------------------------------------------------------------------------------------
+;--------------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble]:wpn_saiga12s_isg
+$spawn			= "weapons\saiga12s_isg_nimble"
+parent_section	= wpn_saiga12s_isg_nimble
+
+inv_name		= st_wpn_saiga12s_isg_nimble
+inv_name_short	= st_wpn_saiga12s_isg_nimble
+description		= st_wpn_saiga12s_isg_nimble_descr
+
+cost			= 110680
+
+upgrades		= up_gr_firstab_saiga12s_nimble, up_gr_seconab_saiga12s_nimble, up_gr_thirdab_saiga12s, up_gr_fourtab_saiga12s_nimble, up_gr_fifthab_saiga12s_nimble
+installed_upgrades	= up_fiftha_saiga12s_nimble
+
+;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_hud]:wpn_saiga12s_isg_hud
+;--------------------------------------------------------------------Addons-----------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_ac10632]:wpn_saiga12s_isg_nimble
+inv_weight		= 3.315
+
+hud				= wpn_saiga12s_isg_ac10632_hud
+
+1icon_layer		= ac10632
+1icon_layer_x	= 83
+1icon_layer_y	= -7
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+[wpn_saiga12s_isg_nimble_ac10632_hud]:wpn_saiga12s_isg_ac10632_hud
+;-----------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_eot]:wpn_saiga12s_isg_nimble
+inv_weight		= 3.500
+
+hud				= wpn_saiga12s_isg_eot_hud
+
+1icon_layer		= eot
+1icon_layer_x	= 89
+1icon_layer_y	= -4
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+[wpn_saiga12s_isg_nimble_eot_hud]:wpn_saiga12s_isg_eot_hud
+;-----------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_c-more]:wpn_saiga12s_isg_nimble
+inv_weight		= 3.500
+
+hud				= wpn_saiga12s_isg_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 89
+1icon_layer_y	= -4
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+[wpn_saiga12s_isg_nimble_c-more_hud]:wpn_saiga12s_isg_c-more_hud
+;---------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_aim_low]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_aim_low_hud
+
+inv_weight		= 3.305
+
+1icon_layer		= aim_low
+1icon_layer_x	= 89
+1icon_layer_y	= 0
+
+[wpn_saiga12s_isg_nimble_aim_low_hud]:wpn_saiga12s_isg_aim_low_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_point_aimpro]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_point_aimpro_hud
+
+inv_weight		= 3.530
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 100
+1icon_layer_y	= -10
+
+[wpn_saiga12s_isg_nimble_point_aimpro_hud]:wpn_saiga12s_isg_point_aimpro_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_ekp8_18]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_ekp8_18_hud
+
+inv_weight		= 3.473
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 79
+1icon_layer_y	= 1
+
+[wpn_saiga12s_isg_nimble_ekp8_18_hud]:wpn_saiga12s_isg_ekp8_18_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_d0cter]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_d0cter_hud
+
+inv_weight		= 3.230
+
+1icon_layer		= d0cter
+1icon_layer_x	= 89
+1icon_layer_y	= -3
+
+[wpn_saiga12s_isg_nimble_d0cter_hud]:wpn_saiga12s_isg_d0cter_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_mepro]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_mepro_hud
+
+inv_weight		= 3.572
+
+1icon_layer		= mepro
+1icon_layer_x	= 89
+1icon_layer_y	= -1
+
+[wpn_saiga12s_isg_nimble_mepro_hud]:wpn_saiga12s_isg_mepro_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_0kp2]:wpn_saiga12s_isg_nimble
+1icon_layer		= 0kp2
+1icon_layer_x	= 79
+1icon_layer_y	= 1
+
+hud				= wpn_saiga12s_isg_0kp2_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+inv_weight		= 3.400
+
+[wpn_saiga12s_isg_nimble_0kp2_hud]:wpn_saiga12s_isg_0kp2_hud
+;---------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_e0t2]:wpn_saiga12s_isg_nimble
+1icon_layer		= e0t2
+1icon_layer_x	= 85
+1icon_layer_y	= -3
+
+hud				= wpn_saiga12s_isg_e0t2_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+inv_weight		= 3.427
+
+[wpn_saiga12s_isg_nimble_e0t2_hud]:wpn_saiga12s_isg_e0t2_hud
+;---------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_rmr]:wpn_saiga12s_isg_nimble
+1icon_layer		= rmr
+1icon_layer_x	= 85
+1icon_layer_y	= 1
+
+hud				= wpn_saiga12s_isg_rmr_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+inv_weight		= 3.234
+
+[wpn_saiga12s_isg_nimble_rmr_hud]:wpn_saiga12s_isg_rmr_hud
+;---------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_deltapoint]:wpn_saiga12s_isg_nimble
+1icon_layer		= deltapoint
+1icon_layer_x	= 89
+1icon_layer_y	= 1
+
+hud				= wpn_saiga12s_isg_deltapoint_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+inv_weight		= 3.241
+
+[wpn_saiga12s_isg_nimble_deltapoint_hud]:wpn_saiga12s_isg_deltapoint_hud
+;---------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_compm4s]:wpn_saiga12s_isg_nimble
+hud				= wpn_saiga12s_isg_compm4s_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -5
+
+inv_weight		= 3.580
+
+[wpn_saiga12s_isg_nimble_compm4s_hud]:wpn_saiga12s_isg_compm4s_hud
+;--------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_rakurs]:wpn_saiga12s_isg_nimble
+hud				= wpn_saiga12s_isg_rakurs_hud
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+1icon_layer		= rakurs
+1icon_layer_x	= 100
+1icon_layer_y	= -5
+
+inv_weight		= 3.700
+
+[wpn_saiga12s_isg_nimble_rakurs_hud]:wpn_saiga12s_isg_rakurs_hud
+;-----------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_kemper]:wpn_saiga12s_isg_nimble
+inv_weight		= 3.466
+
+hud				= wpn_saiga12s_isg_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 100
+1icon_layer_y	= -6
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_saiga12s_isg_nimble_kemper_hud]:wpn_saiga12s_isg_kemper_hud
+;--------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_aimpoint]:wpn_saiga12s_isg_nimble
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_aimpoint_hud
+
+inv_weight		= 3.330
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 85
+1icon_layer_y	= -7
+
+[wpn_saiga12s_isg_nimble_aimpoint_hud]:wpn_saiga12s_isg_aimpoint_hud
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_gauss_sight]:wpn_saiga12s_isg_nimble
+$spawn			= "weapons\wpn_saiga12s_isg_gauss_sight"
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_gauss_sight_hud
+
+inv_weight		= 3.00
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 60
+1icon_layer_y	= -10
+
+scope_status		= 1
+scope_texture		= 
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;installed_upgrades	= up_fourtc_svd_nimble
+
+[wpn_saiga12s_isg_nimble_gauss_sight_hud]:wpn_saiga12s_isg_gauss_sight_hud
+;-------------------------------------------------------------T-12---------------------------------------------------------------
+[wpn_saiga12s_isg_nimble_t12]]:wpn_saiga12s_isg_nimble
+$spawn			= "weapons\wpn_saiga12s_isg_t12"
+
+visual			= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_world.ogf
+
+hud				= wpn_saiga12s_isg_t12_hud
+
+inv_weight		= 3.00
+
+1icon_layer		= t12
+1icon_layer_x	= 89
+1icon_layer_y	= -3
+
+scope_texture	= 
+
+[wpn_saiga12s_isg_nimble_t12_hud]:wpn_saiga12s_isg_t12_hud

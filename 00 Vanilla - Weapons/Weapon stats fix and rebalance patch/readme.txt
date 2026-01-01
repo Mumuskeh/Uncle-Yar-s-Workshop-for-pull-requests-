@@ -216,6 +216,7 @@ Benelli M4:
 	range nerfed from 1000 (!) to 100 meters.
 Saiga-23:
 	It shares the same internal ID as MWP's bullpup Saiga. To avoid crossing the streams, it gets its own separate patch.
+	Note: If you'll use the module for ATHI's Saiga-23, do not use this with the "12 gauge clone" patch.
 
 Stick Grenade:
 	the M24 and Splinter are now cheaper and lighter; the bundle has x7 the value and weigh of the M24, making it substantially heavier and expensive.

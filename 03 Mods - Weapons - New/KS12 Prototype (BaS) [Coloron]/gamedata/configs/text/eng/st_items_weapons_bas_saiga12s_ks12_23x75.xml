@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_saiga12s_isg">
+		<text>KS-12 Komrad ISG (BaS)</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg_descr">
+		<text>A short barreled variant of the KS-12, itself a variant of the Saiga-12 semiautomatic shotgun, produced by Kalashnikov USA to work around the US ban on Russian guns. The weapon has a Picatinny rail for use with various types of sights, and includes a higher capacity magazine.\n
+		This model has a new type of trigger mechanism, which allows you to fire a two rounds burst, and both a dovetail mount and Picatinny rail for use with various types of sights, and some modifications would allow to attach a grenade launcher. It has been provided to members of ISG research teams to protect themselves from mutants.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor\n
+		%c[d_purple] • %c[0,255,255,255]Grenade Launcher: %c[ui_gray_2]GP25 (after upgrades)\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Custom weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_saiga12s_isg_nimble">
+		<text>KS-12 Komrad ISG (Custom)</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg_nimble_descr">
+		<text>A short barreled variant of the KS-12, itself a variant of the Saiga-12 semiautomatic shotgun, produced by Kalashnikov USA to work around the US ban on Russian guns. The weapon has a Picatinny rail for use with various types of sights, and includes a higher capacity magazine.\n
+		This model has a new type of trigger mechanism, which allows you to fire a two rounds burst, and both a dovetail mount and Picatinny rail for use with various types of sights, and some modifications would allow to attach a grenade launcher. It has been provided to members of ISG research teams to protect themselves from mutants.\n
+		Some dangerous lunatic got their hands on this gun and made it ready to attach a grenade launcher, and even load 23x75 rounds if one were to make some additional modifications.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[0,255,255,255]Scopes: %c[ui_gray_2]All Red Dot scopes for Picatinny/Weaver \n
+		%c[d_purple] • %c[0,255,255,255]Silencer: %c[ui_gray_2]Salvo 12\n
+		%c[d_purple] • %c[0,255,255,255]Grenade Launcher: %c[ui_gray_2]GP25</text>
+	</string>
+
+	<string id="st_up_add_b8_name">
+		<text>Change of calibre to 23x75</text>
+	</string>
+	<string id="st_up_add_b8_descr">
+		<text>A complex, integrated alteration of the weapon's mechanical and automated parts, which allows its calibre to be changed at the cost of huge fire rate loss and increased recoil.</text>
+	</string>
+
+	<string id="st_mag_saiga12s_isg">
+		<text>Modified 23x75 Saiga-12S Magazine</text>
+	</string>
+	<string id="st_mag_saiga12s_isg_descr">
+		<text>
+		Modified Saiga-12S magazine with capacity for 8 shotshells. This magazine has been retooled for 23x75mm shotgun shells.
+		</text>
+	</string>
+
+	<string id="st_mag_saiga12s_isg_ext">
+		<text>Extended 23x75 Saiga-12S Magazine</text>
+	</string>
+	<string id="st_mag_saiga12s_isg_ext_descr">
+		<text>
+		Extended Saiga-12S magazine with capacity for 12 shotshells. This magazine has been retooled for 23x75mm shotgun shells. More shells means more mutants you can kill each each magazine.
+		</text>
+	</string>
+
+</string_table>

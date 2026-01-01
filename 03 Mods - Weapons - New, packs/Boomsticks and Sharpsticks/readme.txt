@@ -20,10 +20,6 @@ Weapon Parts Overhaul (same file as in WPO itself, but updated/touched up a lil 
 ----------------------------------------------------------
 -Patches:
 
-DLTX Minimod - Bigger Ammo Boxes, and Cheaper Ammo
-Makes those two modules cover the BaS ammo. File renamed to ensure being loaded last.
-Original modules not required.
-
 BAS SR-2M Reanimated [Synd1cate] Fire position fix
 by hoasd1
 1) Set fire_point of all Veresks to "-0.002, 0, 0.14" as it was clipping through the weapon.

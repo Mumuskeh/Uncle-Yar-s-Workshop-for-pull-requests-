@@ -1,5 +1,5 @@
 -Module:
-SIG MCX Spear [ATHIS]
+SIG MCX Spear [ATHI]
 Only released in Gamma Discord server.
 
 ----------------------------------------------------------

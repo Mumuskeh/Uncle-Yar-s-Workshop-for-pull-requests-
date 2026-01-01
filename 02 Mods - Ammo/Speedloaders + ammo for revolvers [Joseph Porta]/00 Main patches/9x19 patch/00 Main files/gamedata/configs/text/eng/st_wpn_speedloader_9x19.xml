@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_sl_9x19_5x">
+		<text>5 rounds 9x19mm Speed loader</text>
+	</string>
+	<string id="st_mag_sl_9x19_5x_descr">
+		<text>Speed loader with 5 rounds for 9x19mm revolvers.\n \n</text>
+	</string>
+
+</string_table>

@@ -1,5 +1,5 @@
 -Module:
-M134 Minigun Edit [ATHIS]
+M134 Minigun Edit [ATHI]
 
 Do not use with Artezbot's version of the gun.
 
