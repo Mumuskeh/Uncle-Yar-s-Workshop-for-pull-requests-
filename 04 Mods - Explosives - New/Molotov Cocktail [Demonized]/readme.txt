@@ -6,7 +6,7 @@ Molotov Cocktail [TheMrDemonized]
 
 ----------------------------------------------------------
 -Explanation:
-Fix the icon file to work in DX8-9.
+Icon trimmed.
 
 ----------------------------------------------------------
 -Patches:

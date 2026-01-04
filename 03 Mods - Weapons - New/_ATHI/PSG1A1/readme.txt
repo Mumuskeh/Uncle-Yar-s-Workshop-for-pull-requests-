@@ -22,5 +22,8 @@ Weapon Parts OVerhaul
 ----------------------------------------------------------
 -Patches:
 
+Sound performance patch
+Use this to reduce sound layers if shooting the gun affects performance.
+
 ----------------------------------------------------------
 -Known issues:

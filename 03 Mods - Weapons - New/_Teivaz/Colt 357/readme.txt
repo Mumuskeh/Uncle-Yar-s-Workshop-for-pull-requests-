@@ -34,6 +34,8 @@ Small Caliber Framework
 Allows the gun to shoot .38 Special ammo.
 (TO DO: Clone into Colt Diamondback in .22 LR? )
 
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
 
 ----------------------------------------------------------
 -Known issues:

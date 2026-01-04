@@ -3,7 +3,7 @@ Thompson SMG modernized [LEWD]
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Let this overwrite it.
+NOTE: You need the original mod. Disable the original configs folder.
 
 ----------------------------------------------------------
 -Explanation:
@@ -20,7 +20,7 @@ Weapon Parts Overhaul
 -Patches:
 
 No scopes comp patch
-Most of the scopes included aren't sold, and some are included in other mods like PUSSY.
+Most of the scopes included aren't sold, and some (not all) are already included in other mods like PUSSY.
 This will disable these scopes to avoid redundancies and potential crashes.
 
 ----------------------------------------------------------

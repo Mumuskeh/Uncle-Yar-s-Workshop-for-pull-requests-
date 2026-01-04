@@ -1,0 +1,1881 @@
+[wpn_lewd_fad]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\fad"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_lewd_fad
+
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 7
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_fad_lqi
+inv_grid_width					= 5
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+inv_name						= st_wpn_lewd_fad
+inv_name_short					= st_wpn_lewd_fad
+description						= st_wpn_lewd_fad_descr
+
+kind							= w_rifle
+inv_weight						= 3.800
+cost							= 78330
+repair_type						= rifle_5
+weapon_class					= assault_rifle
+
+hud								= wpn_lewd_fad_hud
+visual							= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+position						= -0.026, 0.035, -0.020
+orientation						= 0, 0, 0
+fire_point						= 0.05, -0.06, 0.575
+fire_point2						= 0.0, 0.106, 0.468
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.2
+strap_orientation				= -10, -5, 10
+ph_mass							= 5
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= ghost_particles\weapons\flame_eft_ak
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= -0.020000, 0.167000, 0.082000
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\556x45
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_g36
+upgr_icon_x						= 600
+upgr_icon_y						= 0
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed					= 30
+ammo_mag_size					= 30
+startup_ammo					= 90
+
+scopes							= acog, eot, specter, c-more, ac10632, aim_low, point_aimpro, compm4s, e0t2, deltapoint, d0cter, rmr
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_nato
+silencer_status					= 2
+silencer_x						= 204
+silencer_y						= 6
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_class					= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher_l85 ;m203
+grenade_launcher_status			= 2
+grenade_launcher_x				= 110
+grenade_launcher_y				= -10
+launch_speed					= 0
+
+hit_impulse						= 28
+hit_power						= 0.52, 0.52, 0.52, 0.52
+hit_type						= fire_wound
+fire_distance					= 1000
+bullet_speed					= 970
+rpm								= 550
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.3
+fire_dispersion_base			= 0.215
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.0005
+misfire_start_condition			= 0.7 ; 0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.11
+misfire_end_prob				= 0.10
+
+condition_queue_shot_dec		= 0.0008
+condition_shot_dec				= 0.0008
+
+cam_return						= 0
+cam_relax_speed					= 7
+cam_dispersion					= 1.338
+cam_dispersion_frac				= 1.1
+cam_dispersion_inc				= 0.0475
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.65
+zoom_cam_relax_speed			= 7
+zoom_cam_dispersion				= 0.35
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.008
+zoom_cam_max_angle				= 5.0
+zoom_cam_max_angle_horz			= 1.0
+zoom_cam_step_angle_horz		= 1.1
+
+PDM_disp_accel_factor			= 2.5
+PDM_disp_base					= 0.85
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.5
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.85
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 84
+kill_msg_y						= 28
+kill_msg_width					= 73
+kill_msg_height					= 30
+
+; laser_status			= true
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= false
+
+hud_fov				= 0.78
+;-----------------------------------------------------------------------------------------SND----------------------------------------------------------------------------------------------------------------
+snd_bore	= weapons\lewd_fad\fad_boring
+snd_draw	= weapons\lewd_fad\fad_draw
+snd_holster	= weapons\lewd_fad\fad_holster
+
+snd_reload			= weapons\lewd_fad\fad_reload
+snd_reload_empty	= weapons\lewd_fad\fad_reload_empty
+
+snd_reload_misfire	= weapons\lewd_fad\fad_misfire
+
+snd_reload_grenade	= weapons\lewd_fad\fad_reload_gl
+
+snd_empty	= weapons\lewd_fad\fad_empty, 0.7
+
+;snd_shoot	= weapons\lewd_fad\fad_shot_1
+;snd_shoot1	= weapons\lewd_fad\fad_shot_2
+;snd_shoot2	= weapons\lewd_fad\fad_shot_3
+;snd_shoot3	= weapons\lewd_fad\fad_shot_4
+;snd_shoot4	= weapons\lewd_fad\fad_shot_5
+
+snd_silncer_shot	= weapons\lewd_fad\fad_shot_sil_1
+snd_silncer_shot1	= weapons\lewd_fad\fad_shot_sil_2
+snd_silncer_shot2	= weapons\lewd_fad\fad_shot_sil_3
+
+snd_shoot_grenade	= weapons\lewd_fad\m203_grenshoot
+
+snd_switch		= weapons\lewd_fad\fad_switch
+snd_switch_mode	= weapons\lewd_fad\fad_firemode
+
+snd_shoot		= wpn_lewd_fad_snd_shoot
+snd_shoot_actor	= wpn_lewd_fad_snd_shoot_actor
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;					;
+;	SHOOTING LAYERS	;
+;					;
+;======================================================================================================================================================;
+
+[wpn_lewd_fad_snd_shoot]
+snd_1_layer		= weapons\lewd_fad\mono\lewd_fad_mono_close1
+snd_1_layer1	= weapons\lewd_fad\mono\lewd_fad_mono_close2
+snd_1_layer2	= weapons\lewd_fad\mono\lewd_fad_mono_close3
+snd_1_layer3	= weapons\lewd_fad\mono\lewd_fad_mono_close4
+snd_2_layer		= weapons\lewd_fad\mono\lewd_fad_close_distance
+snd_3_layer		= weapons\_gunfire\mono\lr300\Medium_Distance
+snd_4_layer		= weapons\_shared\mono\Reflectors\556\Reflector_1, 0.5
+snd_4_layer1	= weapons\_shared\mono\Reflectors\556\Reflector_2, 0.5
+snd_4_layer2	= weapons\_shared\mono\Reflectors\556\Reflector_3, 0.5
+snd_4_layer3	= weapons\_shared\mono\Reflectors\556\Reflector_4, 0.5
+snd_5_layer		= weapons\_cracks\mono\Crack_far\Crack_1
+snd_5_layer1	= weapons\_cracks\mono\Crack_far\Crack_6
+snd_5_layer2	= weapons\_cracks\mono\Crack_far\Crack_9
+snd_6_layer		= weapons\_shared\mono\556\Far_1
+snd_6_layer1	= weapons\_shared\mono\556\Far_3
+snd_7_layer		= weapons\_shared\mono\556\tail_1, 0.5
+snd_7_layer1	= weapons\_shared\mono\556\tail_2, 0.5
+snd_8_layer		= weapons\_shared\mono\556\mid_556
+
+[wpn_lewd_fad_snd_shoot_actor]
+snd_1_layer		= weapons\lewd_fad\stereo\lewd_fad_stereo_close1
+snd_1_layer1	= weapons\lewd_fad\stereo\lewd_fad_stereo_close2
+snd_1_layer2	= weapons\lewd_fad\stereo\lewd_fad_stereo_close3
+snd_1_layer3	= weapons\lewd_fad\stereo\lewd_fad_stereo_close4
+snd_2_layer		= weapons\_shared\stereo\reflectors\556\Reflector_1, 0.5
+snd_2_layer1	= weapons\_shared\stereo\reflectors\556\Reflector_2, 0.5
+snd_2_layer2	= weapons\_shared\stereo\reflectors\556\Reflector_3, 0.5
+snd_2_layer3	= weapons\_shared\stereo\reflectors\556\Reflector_4, 0.5
+
+;----------------------------------------------------------------HUD------------------------------------------------------------------------------------
+[wpn_lewd_fad_hud]:hud_base
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_hud.ogf
+
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_orientation		= 0.396, 0.43, 0
+hands_orientation_16x9	= 0.396, 0.43, 0
+
+hands_position		= 0.00198, 0.031989, -0.005915
+hands_position_16x9	= 0.00198, 0.031989, -0.005915
+
+aim_hud_offset_pos		= -0.0576, -0.00597, -0.052708
+aim_hud_offset_pos_16x9	= -0.0576, -0.00597, -0.052708
+aim_hud_offset_rot		= 0.009106, 0.00705, -0.051854
+aim_hud_offset_rot_16x9	= 0.009106, 0.00705, -0.051854
+
+aim_hud_offset_alt_pos		= -0.07384, -0.04789, -0.0139
+aim_hud_offset_alt_pos_16x9	= -0.07384, -0.04789, -0.0139
+aim_hud_offset_alt_rot		= 0.003, 0.01175, 0.720506
+aim_hud_offset_alt_rot_16x9	= 0.003, 0.01175, 0.720506
+
+gl_hud_offset_pos		= -0.0272, -0.00399, -0.02922
+gl_hud_offset_pos_16x9	= -0.0272, -0.00399, -0.02922
+gl_hud_offset_rot		= -0.0465, 0.01, 0.065
+gl_hud_offset_rot_16x9	= -0.0465, 0.01, 0.065
+
+lowered_hud_offset_pos		= 0.1, 0, 0
+lowered_hud_offset_pos_16x9	= 0.1, 0, 0
+lowered_hud_offset_rot		= 0.1, -0.8, 0.1
+lowered_hud_offset_rot_16x9	= 0.1, -0.8, 0.1
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= wpn_hand_out_fad, idle
+anm_idle					= wpn_hand_idle_fad, idle
+anm_idle_aim				= wpn_hand_idle_fad_aim_new, idle
+anm_idle_aim_moving			= wpn_hand_idle_fad_aim_new, idle
+anm_idle_moving_crouch		= wpn_hand_walk_fad_new, idle
+anm_idle_aim_moving_crouch	= wpn_hand_walk_fad_new, idle, 0.5 ; wpn_hand_walk_fad_new_aim
+anm_idle_moving				= wpn_hand_walk_fad_new, idle
+anm_idle_sprint				= wpn_hand_run_alone_hand_fad, idle
+anm_reload					= wpn_hand_reload_fad, wpn_reload_fad
+anm_reload_empty			= wpn_hand_reload_empty_fad, wpn_reload_empty_fad
+anm_shots					= wpn_hand_shoot_fad_new, wpn_shoot_fad
+anm_show					= wpn_hand_in_fad_new, idle
+anm_reload_misfire			= wpn_hand_misfire_fad_new, wpn_misfire_fad
+anm_bore					= wpn_hand_boring_fad_new, idle
+
+;EMPTY
+anm_hide_empty						= wpn_hand_out_fad, wpn_idle_empty_fad
+anm_idle_empty						= wpn_hand_idle_fad, wpn_idle_empty_fad
+anm_idle_aim_empty					= wpn_hand_idle_fad_aim_new, wpn_idle_empty_fad
+anm_idle_aim_moving_empty			= wpn_hand_walk_fad_new, wpn_idle_empty_fad
+anm_idle_moving_crouch_empty		= wpn_hand_walk_fad_new, wpn_idle_empty_fad
+anm_idle_aim_moving_crouch_empty	= wpn_hand_walk_fad_new, wpn_idle_empty_fad
+anm_idle_moving_empty				= wpn_hand_walk_fad_new, wpn_idle_empty_fad
+anm_idle_sprint_empty				= wpn_hand_run_alone_hand_fad, wpn_idle_empty_fad
+anm_shots_empty						= wpn_hand_shoot_fad_new, wpn_shoot_empty_fad
+anm_show_empty						= wpn_hand_in_fad_new, wpn_idle_empty_fad
+anm_bore_empty						= wpn_hand_boring_fad_new, wpn_idle_empty_fad
+
+;Gl_off
+;---------------------------------------
+anm_hide_w_gl					= wpn_hand_out_w_gl_fad, wpn_idle_w_gl_fad
+anm_idle_moving_crouch_w_gl_aim	= wpn_hand_walk_w_gl_fad, wpn_idle_w_gl_fad
+anm_idle_moving_w_gl			= wpn_hand_walk_w_gl_fad, wpn_idle_w_gl_fad
+anm_idle_moving_w_gl_aim		= wpn_hand_walk_w_gl_fad, wpn_idle_w_gl_fad
+anm_idle_sprint_w_gl			= wpn_hand_run_alone_hand_fad, wpn_idle_w_gl_fad
+anm_idle_w_gl					= wpn_hand_idle_w_gl_fad, wpn_idle_w_gl_fad
+anm_idle_w_gl_aim				= wpn_hand_idle_w_gl_fad_aim, wpn_idle_w_gl_fad
+anm_reload_w_gl					= wpn_hand_reload_w_gl_fad, wpn_reload_w_gl_fad
+anm_reload_empty_w_gl			= wpn_hand_reload_empty_w_gl_fad, wpn_reload_empty_w_gl_fad
+anm_shots_w_gl					= wpn_hand_shoot_w_gl_fad, wpn_shoot_w_gl_fad
+anm_show_w_gl					= wpn_hand_in_w_gl_fad, wpn_idle_w_gl_fad
+anm_switch_g					= wpn_hand_on_gl_fad, wpn_on_gl_fad
+anm_reload_misfire_w_gl			= wpn_hand_misfire_w_gl_fad, wpn_misfire_w_gl_fad
+anm_bore_w_gl					= wpn_hand_boring_w_gl_fad, wpn_idle_w_gl_fad
+
+;EMPTY
+anm_hide_empty_w_gl						= wpn_hand_out_w_gl_fad, wpn_idle_w_gl_empty_fad
+anm_idle_moving_crouch_empty_w_gl_aim	= wpn_hand_walk_w_gl_fad_aim, wpn_idle_w_gl_empty_fad
+anm_idle_moving_crouch_empty_w_gl		= wpn_hand_walk_w_gl_fad, wpn_idle_w_gl_empty_fad
+anm_idle_moving_empty_w_gl				= wpn_hand_walk_w_gl_fad, wpn_idle_w_gl_empty_fad
+anm_idle_moving_empty_w_gl_aim			= wpn_hand_walk_w_gl_fad_aim, wpn_idle_w_gl_empty_fad
+anm_idle_sprint_empty_w_gl				= wpn_hand_run_alone_hand_fad, wpn_idle_w_gl_empty_fad
+anm_idle_empty_w_gl_aim					= wpn_hand_idle_w_gl_fad, wpn_idle_w_gl_empty_fad
+anm_shots_empty_w_gl					= wpn_hand_shoot_w_gl_fad, wpn_shoot_w_gl_empty_fad
+anm_show_empty_w_gl						= wpn_hand_in_w_gl_fad, wpn_idle_w_gl_empty_fad
+anm_bore_empty_w_gl						= wpn_hand_boring_fad_new, wpn_idle_w_gl_empty_fad
+anm_idle_empty_w_gl						= wpn_hand_idle_w_gl_fad, wpn_idle_w_gl_empty_fad
+
+;GL_On
+;----------------------------------------
+anm_hide_g				= wpn_hand_out_gl_fad, wpn_idle_gl_fad
+anm_idle_g				= wpn_hand_idle_gl_fad, wpn_idle_gl_fad
+anm_idle_g_aim			= wpn_hand_idle_gl_fad_aim, wpn_idle_gl_fad
+anm_idle_moving_g		= wpn_hand_walk_gl_fad, wpn_idle_gl_fad
+anm_idle_moving_g_aim	= wpn_hand_walk_gl_fad, wpn_idle_gl_fad ; wpn_hand_walk_gl_fad_aim, wpn_idle_gl_fad
+anm_idle_sprint_g		= wpn_hand_run_alone_hand_fad, wpn_idle_gl_fad
+anm_reload_g			= wpn_hand_reload_gl_fad, wpn_reload_gl_fad
+anm_shots_g				= wpn_hand_shoot_gl_fad, wpn_idle_gl_fad
+anm_show_g				= wpn_hand_in_gl_fad, wpn_in_gl_fad
+anm_switch				= wpn_hand_off_gl_fad, wpn_off_gl_fad
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= 0.01, -0.05, -0.1
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+;---------------------------------------------------------------------Addons-----------------------------------------------------------------------------
+[wpn_lewd_fad_ac10632]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+
+1icon_layer		= ac10632
+1icon_layer_x	= 128
+1icon_layer_y	= -12
+
+inv_weight		= 3.915
+
+hud				= wpn_lewd_fad_ac10632_hud
+
+[wpn_lewd_fad_ac10632_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.05792, -0.011632, -0.094077
+aim_hud_offset_pos_16x9	= -0.05792, -0.011632, -0.094077
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_acog]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 120
+1icon_layer_y	= -12
+
+inv_weight		= 4.150
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+[wpn_lewd_fad_acog_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.05792, -0.011632, -0.094077
+aim_hud_offset_pos_16x9	= -0.05792, -0.011632, -0.094077
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_eot]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+
+1icon_layer		= eot
+1icon_layer_x	= 128
+1icon_layer_y	= -10
+
+inv_weight		= 4.100
+
+hud				= wpn_lewd_fad_eot_hud
+
+[wpn_lewd_fad_eot_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.0576, -0.016745, -0.087886
+aim_hud_offset_pos_16x9	= -0.0576, -0.016745, -0.087886
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_c-more]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 128
+1icon_layer_y	= -10
+
+inv_weight		= 4.100
+
+[wpn_lewd_fad_c-more_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.05744, -0.006733, -0.094077
+aim_hud_offset_pos_16x9	= -0.05744, -0.006733, -0.094077
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_specter]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 110
+1icon_layer_y	= -12
+
+inv_weight		= 4.470
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+[wpn_lewd_fad_specter_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.05792, -0.011632, -0.094077
+aim_hud_offset_pos_16x9	= -0.05792, -0.011632, -0.094077
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;--------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_aim_low]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_aim_low_hud
+
+inv_weight		= 3.930
+
+1icon_layer		= aim_low
+1icon_layer_x	= 128
+1icon_layer_y	= -8
+
+[wpn_lewd_fad_aim_low_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_aim_low_hud.ogf
+
+aim_hud_offset_pos		= -0.0576, 0.003495, -0.106869
+aim_hud_offset_pos_16x9	= -0.0576, 0.003495, -0.106869
+aim_hud_offset_rot		= -0.007306, 0.00577, -0.051
+aim_hud_offset_rot_16x9	= -0.007306, 0.00577, -0.051
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_point_aimpro]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_point_aimpro_hud
+
+inv_weight		= 4.130
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 128
+1icon_layer_y	= -16
+
+[wpn_lewd_fad_point_aimpro_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.05728, -0.015679, -0.079571
+aim_hud_offset_pos_16x9	= -0.05728, -0.015679, -0.079571
+aim_hud_offset_rot		= 0.004627, 0.00657, -0.051
+aim_hud_offset_rot_16x9	= 0.004627, 0.00657, -0.051
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_d0cter]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_d0cter_hud
+
+inv_weight		= 3.830
+
+1icon_layer		= d0cter
+1icon_layer_x	= 128
+1icon_layer_y	= -10
+
+[wpn_lewd_fad_d0cter_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_docter_hud.ogf
+
+aim_hud_offset_pos		= -0.0576, 0.003065, -0.115828
+aim_hud_offset_pos_16x9	= -0.0576, 0.003065, -0.115828
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_deltapoint]:wpn_lewd_fad
+hud				= wpn_lewd_fad_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 128
+1icon_layer_y	= -6
+
+inv_weight		= 3.840
+
+[wpn_lewd_fad_deltapoint_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.05744, -0.003538, -0.104946
+aim_hud_offset_pos_16x9	= -0.05744, -0.003538, -0.104946
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;---------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_rmr]:wpn_lewd_fad
+hud				= wpn_lewd_fad_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+
+1icon_layer		= rmr
+1icon_layer_x	= 128
+1icon_layer_y	= -6
+
+inv_weight		= 3.830
+
+[wpn_lewd_fad_rmr_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.05696, 0.001149, -0.110499
+aim_hud_offset_pos_16x9	= -0.05696, 0.001149, -0.110499
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;---------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_e0t2]:wpn_lewd_fad
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_e0t2_hud
+
+inv_weight		= 4.030
+
+1icon_layer		= e0t2
+1icon_layer_x	= 128
+1icon_layer_y	= -10
+
+[wpn_lewd_fad_e0t2_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.05792, -0.011632, -0.094077
+aim_hud_offset_pos_16x9	= -0.05792, -0.011632, -0.094077
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-------------------------------------------------------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_lewd_fad_compm4s]:wpn_lewd_fad
+hud				= wpn_lewd_fad_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 128
+1icon_layer_y	= -16
+
+inv_weight		= 4.180
+
+[wpn_lewd_fad_compm4s_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wpn_lewd_fad_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.05728, -0.013336, -0.08875
+aim_hud_offset_pos_16x9	= -0.05728, -0.013336, -0.08875
+aim_hud_offset_rot		= -0.008796, 0.00481, -0.051
+aim_hud_offset_rot_16x9	= -0.008796, 0.00481, -0.051
+;-----------------------------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_arctic]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_arctic_hud
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_arctic_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_arctic_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+hud				= wpn_lewd_fad_arctic_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_arctic_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+hud				= wpn_lewd_fad_arctic_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_arctic_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_d0cter_hud
+[wpn_lewd_fad_arctic_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_ac10632_hud
+[wpn_lewd_fad_arctic_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_acog_hud
+[wpn_lewd_fad_arctic_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_eot_hud
+[wpn_lewd_fad_arctic_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_c-more_hud
+[wpn_lewd_fad_arctic_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_specter_hud
+[wpn_lewd_fad_arctic_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_aim_low_hud
+[wpn_lewd_fad_arctic_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_point_aimpro_hud
+[wpn_lewd_fad_arctic_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_arctic_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_arctic_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_arctic_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_arctic
+inv_grid_x		= 0
+inv_grid_y		= 2
+hud				= wpn_lewd_fad_arctic_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_arctic_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\arctic\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_taz83]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_taz83_hud
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_taz83_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_taz83_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+hud				= wpn_lewd_fad_taz83_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_taz83_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+hud				= wpn_lewd_fad_taz83_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_taz83_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_d0cter_hud
+[wpn_lewd_fad_taz83_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_ac10632_hud
+[wpn_lewd_fad_taz83_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_acog_hud
+[wpn_lewd_fad_taz83_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_eot_hud
+[wpn_lewd_fad_taz83_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_c-more_hud
+[wpn_lewd_fad_taz83_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_specter_hud
+[wpn_lewd_fad_taz83_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_aim_low_hud
+[wpn_lewd_fad_taz83_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_point_aimpro_hud
+[wpn_lewd_fad_taz83_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_taz83_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_taz83_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_taz83_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_taz83
+inv_grid_x		= 0
+inv_grid_y		= 4
+hud				= wpn_lewd_fad_taz83_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_taz83_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\taz83\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_desertdig_hud
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_desertdig_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_desertdig_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+hud				= wpn_lewd_fad_desertdig_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_desertdig_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+hud				= wpn_lewd_fad_desertdig_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_desertdig_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_d0cter_hud
+[wpn_lewd_fad_desertdig_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_ac10632_hud
+[wpn_lewd_fad_desertdig_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_acog_hud
+[wpn_lewd_fad_desertdig_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_eot_hud
+[wpn_lewd_fad_desertdig_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_c-more_hud
+[wpn_lewd_fad_desertdig_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_specter_hud
+[wpn_lewd_fad_desertdig_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_aim_low_hud
+[wpn_lewd_fad_desertdig_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_point_aimpro_hud
+[wpn_lewd_fad_desertdig_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_desertdig_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_desertdig_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_desertdig_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_desertdig
+inv_grid_x		= 0
+inv_grid_y		= 6
+hud				= wpn_lewd_fad_desertdig_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_desertdig_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\desertdig\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_fde]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_fde_hud
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_fde_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_fde_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+hud				= wpn_lewd_fad_fde_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_fde_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+hud				= wpn_lewd_fad_fde_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_fde_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_d0cter_hud
+[wpn_lewd_fad_fde_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_ac10632_hud
+[wpn_lewd_fad_fde_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_acog_hud
+[wpn_lewd_fad_fde_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_eot_hud
+[wpn_lewd_fad_fde_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_fde_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_c-more_hud
+[wpn_lewd_fad_fde_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_specter_hud
+[wpn_lewd_fad_fde_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_aim_low_hud
+[wpn_lewd_fad_fde_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_point_aimpro_hud
+[wpn_lewd_fad_fde_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_fde_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_fde_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_fde_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_fde
+inv_grid_x		= 0
+inv_grid_y		= 8
+hud				= wpn_lewd_fad_fde_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_fde_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\fde\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_monolith]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_monolith_hud
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_monolith_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_monolith_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+hud				= wpn_lewd_fad_monolith_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_monolith_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+hud				= wpn_lewd_fad_monolith_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_monolith_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_d0cter_hud
+[wpn_lewd_fad_monolith_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_ac10632_hud
+[wpn_lewd_fad_monolith_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_acog_hud
+[wpn_lewd_fad_monolith_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_eot_hud
+[wpn_lewd_fad_monolith_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_c-more_hud
+[wpn_lewd_fad_monolith_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_specter_hud
+[wpn_lewd_fad_monolith_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_aim_low_hud
+[wpn_lewd_fad_monolith_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_point_aimpro_hud
+[wpn_lewd_fad_monolith_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_monolith_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_monolith_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_monolith_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_monolith
+inv_grid_x		= 0
+inv_grid_y		= 10
+hud				= wpn_lewd_fad_monolith_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_monolith_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\monolith\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_olive]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_olive_hud
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_olive_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_olive_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+hud				= wpn_lewd_fad_olive_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_olive_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+hud				= wpn_lewd_fad_olive_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_olive_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_d0cter_hud
+[wpn_lewd_fad_olive_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_ac10632_hud
+[wpn_lewd_fad_olive_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_acog_hud
+[wpn_lewd_fad_olive_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_eot_hud
+[wpn_lewd_fad_olive_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_olive_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_c-more_hud
+[wpn_lewd_fad_olive_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_specter_hud
+[wpn_lewd_fad_olive_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_aim_low_hud
+[wpn_lewd_fad_olive_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_point_aimpro_hud
+[wpn_lewd_fad_olive_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_olive_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_olive_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_olive_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_olive
+inv_grid_x		= 0
+inv_grid_y		= 12
+hud				= wpn_lewd_fad_olive_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_olive_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\olive\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_urbandig_hud
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_urbandig_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_urbandig_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+hud				= wpn_lewd_fad_urbandig_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_urbandig_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+hud				= wpn_lewd_fad_urbandig_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_urbandig_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_d0cter_hud
+[wpn_lewd_fad_urbandig_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_ac10632_hud
+[wpn_lewd_fad_urbandig_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_acog_hud
+[wpn_lewd_fad_urbandig_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_eot_hud
+[wpn_lewd_fad_urbandig_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_c-more_hud
+[wpn_lewd_fad_urbandig_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_specter_hud
+[wpn_lewd_fad_urbandig_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_aim_low_hud
+[wpn_lewd_fad_urbandig_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_point_aimpro_hud
+[wpn_lewd_fad_urbandig_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_urbandig_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_urbandig_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_urbandig_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_urbandig
+inv_grid_x		= 0
+inv_grid_y		= 14
+hud				= wpn_lewd_fad_urbandig_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_urbandig_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\urbandig\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_wdl]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+inv_name		= st_wpn_lewd_fad_camo
+inv_name_short	= st_wpn_lewd_fad_camo
+description		= st_wpn_lewd_fad_camo_descr
+hud				= wpn_lewd_fad_wdl_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_wdl_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_wdl_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+hud				= wpn_lewd_fad_wdl_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_wdl_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+hud				= wpn_lewd_fad_wdl_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_wdl_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_d0cter_hud
+[wpn_lewd_fad_wdl_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_ac10632_hud
+[wpn_lewd_fad_wdl_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_acog_hud
+[wpn_lewd_fad_wdl_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_eot_hud
+[wpn_lewd_fad_wdl_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_c-more_hud
+[wpn_lewd_fad_wdl_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_specter_hud
+[wpn_lewd_fad_wdl_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_aim_low_hud
+[wpn_lewd_fad_wdl_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_point_aimpro_hud
+[wpn_lewd_fad_wdl_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+hud				= wpn_lewd_fad_wdl_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_wdl_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_wdl_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_wdl
+inv_grid_x		= 0
+inv_grid_y		= 16
+hud				= wpn_lewd_fad_wdl_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_world.ogf
+[wpn_lewd_fad_wdl_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\wdl\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_secret]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+inv_name		= st_wpn_lewd_fad_secret
+inv_name_short	= st_wpn_lewd_fad_secret
+description		= st_wpn_lewd_fad_secret_descr
+hud				= wpn_lewd_fad_secret_hud
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+[wpn_lewd_fad_secret_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_secret_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+hud				= wpn_lewd_fad_secret_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+[wpn_lewd_fad_secret_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+hud				= wpn_lewd_fad_secret_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+[wpn_lewd_fad_secret_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_d0cter_hud
+[wpn_lewd_fad_secret_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_ac10632_hud
+[wpn_lewd_fad_secret_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_acog_hud
+[wpn_lewd_fad_secret_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_eot_hud
+[wpn_lewd_fad_secret_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_secret_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_c-more_hud
+[wpn_lewd_fad_secret_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_specter_hud
+[wpn_lewd_fad_secret_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_aim_low_hud
+[wpn_lewd_fad_secret_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_point_aimpro_hud
+[wpn_lewd_fad_secret_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+hud				= wpn_lewd_fad_secret_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_secret_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_secret_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_secret
+inv_grid_x		= 0
+inv_grid_y		= 18
+hud				= wpn_lewd_fad_secret_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_world.ogf
+rpm				= 850
+[wpn_lewd_fad_secret_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\secret\wpn_lewd_fad_compm4s_hud.ogf
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_fad_croco]:wpn_lewd_fad
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+inv_name		= st_wpn_lewd_fad_croco
+inv_name_short	= st_wpn_lewd_fad_croco
+description		= st_wpn_lewd_fad_croco_descr
+hud				= wpn_lewd_fad_croco_hud
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+[wpn_lewd_fad_croco_hud]:wpn_lewd_fad_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_hud.ogf
+;-------------------------------------------------------------------------------
+
+[wpn_lewd_fad_croco_deltapoint]:wpn_lewd_fad_deltapoint
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+hud				= wpn_lewd_fad_croco_deltapoint_hud
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+[wpn_lewd_fad_croco_deltapoint_hud]:wpn_lewd_fad_deltapoint_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_deltapoint_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_rmr]:wpn_lewd_fad_rmr
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+hud				= wpn_lewd_fad_croco_rmr_hud
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+[wpn_lewd_fad_croco_rmr_hud]:wpn_lewd_fad_rmr_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_rmr_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_d0cter]:wpn_lewd_fad_d0cter
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_d0cter_hud
+[wpn_lewd_fad_croco_d0cter_hud]:wpn_lewd_fad_d0cter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_docter_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_ac10632]:wpn_lewd_fad_ac10632
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_ac10632_hud
+[wpn_lewd_fad_croco_ac10632_hud]:wpn_lewd_fad_ac10632_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_ac10632_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_acog]:wpn_lewd_fad_acog
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_acog_hud
+[wpn_lewd_fad_croco_acog_hud]:wpn_lewd_fad_acog_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_acog_hud.ogf
+;-------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_eot]:wpn_lewd_fad_eot
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_eot_hud
+[wpn_lewd_fad_croco_eot_hud]:wpn_lewd_fad_eot_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_eot_hud.ogf
+;-----------------------------------------------------------------------------
+[wpn_lewd_fad_croco_c-more]:wpn_lewd_fad_c-more
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_c-more_hud
+[wpn_lewd_fad_croco_c-more_hud]:wpn_lewd_fad_c-more_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_c-more_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_specter]:wpn_lewd_fad_specter
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_specter_hud
+[wpn_lewd_fad_croco_specter_hud]:wpn_lewd_fad_specter_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_specter_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_aim_low]:wpn_lewd_fad_aim_low
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_aim_low_hud
+[wpn_lewd_fad_croco_aim_low_hud]:wpn_lewd_fad_aim_low_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_aim_low_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_point_aimpro]:wpn_lewd_fad_point_aimpro
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_point_aimpro_hud
+[wpn_lewd_fad_croco_point_aimpro_hud]:wpn_lewd_fad_point_aimpro_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_aimpoint_pro_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_e0t2]:wpn_lewd_fad_e0t2
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+hud				= wpn_lewd_fad_croco_e0t2_hud
+inv_weight		= 4.030
+[wpn_lewd_fad_croco_e0t2_hud]:wpn_lewd_fad_e0t2_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_e0t2_hud.ogf
+;--------------------------------------------------------------------------------
+[wpn_lewd_fad_croco_compm4s]:wpn_lewd_fad_compm4s
+parent_section	= wpn_lewd_fad_croco
+inv_grid_x		= 0
+inv_grid_y		= 20
+hud				= wpn_lewd_fad_croco_compm4s_hud
+visual			= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_world.ogf
+hit_impulse		= 32
+hit_power		= 0.59, 0.59, 0.59, 0.59
+[wpn_lewd_fad_croco_compm4s_hud]:wpn_lewd_fad_compm4s_hud
+item_visual	= dynamics\weapons\wpn_lewd_fad\special\wpn_lewd_fad_compm4s_hud.ogf

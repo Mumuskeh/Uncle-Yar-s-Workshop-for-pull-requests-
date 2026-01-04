@@ -12,7 +12,6 @@ This module assumes you've installed the Survivalist's VSS Vintorez (not that I 
 
 Internal IDs changed for better inventory ordering. This requires a new game if you already were using the mod and patches might not work (but given the mod was done for Gamma and I'm adapting it for vanilla, who cares?).
 Added name and description of its own, mentioning the guillie net applied on long range scopes.
-Reenabled shell ejection effects for 9x39 casings, not 9x18.
 Properly DLTX'd NPC loadouts for army and Monolith, and the new game loadouts.
 Removed the blackmarket presets file, it's useless for vanilla.
 Will be sold by every trader that can sell the default Vintorez, but by one goodwill rank higher.

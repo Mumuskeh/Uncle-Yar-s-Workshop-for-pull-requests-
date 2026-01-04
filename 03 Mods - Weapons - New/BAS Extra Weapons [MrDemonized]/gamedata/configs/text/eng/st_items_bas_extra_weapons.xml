@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_saiga20s">
+		<text>Saiga-20S (BaS)</text>
+	</string>
+	<string id="st_wpn_saiga20s_descr">
+		<text>The Saiga-20 is a Kalashnikov pattern, 20 gauge combat shotgun, manufactured by Izhmash. The Saiga-20 is recognizable by its Kalashnikov design with the large lever safety on the right side of the receiver, the optic mounting rail on the left and the large top mounted dust cover held in place by the rear of the recoil spring assembly. Earning respect in the Zone for its lethality, it is intended for engaging targets at short range (50 metres or less) or in confined spaces.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Dovetail mount.\n \n</text>
+	</string>
+
+	<string id="st_wpn_toz134_20">
+		<text>TOZ-134-20</text>
+	</string>
+	<string id="st_wpn_toz134_20_descr">
+		<text>TOZ-134-20 is a 20 caliber shotgun based on the legendary TOZ-34. Intended for professional and amateur hunting, the TOZ-134-20 is an over/under shotgun. Though lacking in capacity, only 2 rounds, it compares well with high-grade shotguns due to its high accuracy of hits. The TOZ-134-20 was designed by N. I. Korovyakov and V. P. Ochnev in 1965. Affordable in price, with high damage output and its ability to unload both rounds instantly make it a popular weapon among rookies on the outskirts of the Zone. Especially useful against mutants thanks to its accuracy and stopping power.\n \n</text>
+	</string>
+
+	<string id="st_wpn_toz134_20_obrez">
+		<text>TOZ-134-20 Sawn-off</text>
+	</string>
+	<string id="st_wpn_toz134_20_obrez_descr">
+		<text>Intended for professional and amateur hunting the TOZ-134-20 is an over/under shotgun. Modifications made to this gun by removing much of the barrel and the stock makes this shotgun more compact and easier to carry. Popular among rookies and bandits as they can hide it easily in their trench coats.\n \n</text>
+	</string>
+
+	<string id="st_wpn_bizon_2_07">
+		<text>PP-19 Bizon-2-07</text>
+	</string>
+	<string id="st_wpn_bizon_2_07_descr">
+		<text>A variant of the PP-19 with 35-round magazine chambered for 7.62x25mm. It is used by patrol groups, Russian traffic police, Russian security police, and by units of the MVD.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n</text>
+	</string>
+
+	<string id="st_mag_bizon-2-07_fmj">
+		<text>Standard 7.62x25 P PP-19 Bizon-2-07 Magazine</text>
+	</string>
+	<string id="st_mag_bizon-2-07_descr">
+		<text>Standard-issue 35-round 7.62x25 P magazine for the PP-19 Bizon-2-07. Uncommon weapon in the Zone, as the Ukrainian Military doesn't field this weapon.</text>
+	</string>
+
+
+	<string id="st_mag_saiga12s_compact_12x70">
+		<text>Compact 12x70 Saiga-12 Magazine</text>
+	</string>
+	<string id="st_mag_saiga12s_compact_12x70_descr">
+		<text>A small magazine for the Saiga-12 with only five shell capacity. Don't be fooled - the magazine can fit in your pocket and is extremely easy to load.</text>
+	</string>
+
+
+	<string id="st_mag_saiga20s_compact_20x70">
+		<text>Compact 12x70 Saiga-12 Magazine</text>
+	</string>
+	<string id="st_mag_saiga20s_compact_20x70_descr">
+		<text>A small magazine for the Saiga-12 with only five shell capacity. Don't be fooled - the magazine can fit in your pocket and is extremely easy to load.</text>
+	</string>
+
+	<string id="st_mag_saiga20s_20x70">
+		<text>Standard 20x70 Saiga-20s Magazine</text>
+	</string>
+	<string id="st_mag_saiga20s_20x70_descr">
+		<text>Standard Saiga-20S Magazine with a capacity of 5 shells.</text>
+	</string>
+
+	<string id="st_mag_saiga20s_extended_20x70">
+		<text>Extended 12x70 Saiga-12S Magazine</text>
+	</string>
+	<string id="st_mag_saiga20s_extended_20x70_descr">
+		<text>
+		Extended Saiga-12S magazine with capacity for 12 shotshells. More shells means more mutants you can kill each each magazine.
+		</text>
+	</string>
+
+</string_table>

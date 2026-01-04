@@ -27,5 +27,8 @@ Weapon Parts Overhaul
 Revolver Parts
 Reworks the patch already included in that mod to acknowledge the changed ID.
 
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
+
 ----------------------------------------------------------
 -Known issues:

@@ -53,5 +53,8 @@ NPC loadouts rework?
 ----------------------------------------------------------
 -Patches:
 
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
+
 ----------------------------------------------------------
 -Known issues:

@@ -10,7 +10,6 @@ Disable the original configs folder, EXCEPT for the configs/magazines and config
 -Explanation:
 
 Consolidated files and icons.
-Reenabled shell ejection effects to the Vz61 reanimation.
 Trader distribution. High goodwill will usually be required.
 
 Moved the HUD FOV 0.4 file to a different folder as optional.
@@ -34,6 +33,9 @@ A WIP option for ATHI's expanded edit in Github includes the same patching as GT
 
 ----------------------------------------------------------
 -Patches:
+
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
 
 ----------------------------------------------------------
 -Known issues:

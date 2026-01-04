@@ -11,7 +11,6 @@ NOTE: You still need the original mod. Disable the configs folder.
 Consolidated files.
 DLTX conversion of scripted NPC loadouts and weapon parts configs (but not traders, yet).
 Added default actor effects configs.
-Reenabled shell ejection effects.
 
 Mag Redux support now more compatible.
 

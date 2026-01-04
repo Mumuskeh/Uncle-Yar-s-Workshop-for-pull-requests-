@@ -14,6 +14,7 @@ NPC loadouts.
 Trader distribution.
 
 Icon file reduced. Could actually use a redo of the icon itself but eh.
+The "Retexture icons" folder contains the same for each of the extra options in the original mod.
 
 Default actor effects.
 
@@ -28,10 +29,8 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-.50 BMG and Barret M82 restoration patch
-Rechambers the XM500 to .50 BMG.
-Requires the .50 BMG and Barret M82 restoration in this pack. Unknown how it'll work with other restorations.
-A optional file will also allow the use of LEWD .50 BMG Ammo Pack.
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
 
 ----------------------------------------------------------
 -Known issues:

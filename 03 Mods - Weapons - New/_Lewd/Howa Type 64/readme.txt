@@ -29,6 +29,8 @@ For looting systems, it'l will be rare to find this rifle, given it's not someth
 DX8-9
 Gathers the icons in a single DX8-9 compliant file.
 
+Sound performance patch
+Reduces the number of layers used, in case they cause lag for you when shooting.
 
 ----------------------------------------------------------
 -Known issues:

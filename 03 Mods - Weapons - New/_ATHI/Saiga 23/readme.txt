@@ -24,5 +24,8 @@ Exactly what it says. It clones the gun into a Saiga 12 gauge bullpup, and makes
 Do note that any already spawned Saiga-23 in a save game will turn into this clone, so you may want to wait for a new game to install this patch. Otherwise, if you don't have one in your inventory, consider it an added form of progression.
 Note: If you're using the "Weapon stats fix and rebalance patch" module, do not use the "04 Other mods - ATHI Saiga 23" folder.
 
+Sound performance patch
+Use this to reduce sound layers if shooting the gun affects performance.
+
 ----------------------------------------------------------
 -Known issues:

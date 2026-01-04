@@ -23,8 +23,8 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencer [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
-The MC-572 will use a vanilla KZRZP silencer, instead of the BaS Remington 700 Lapua.
+Sound performance patch
+This will reduce the number of sound layers if shooting the gun affects your game's performance.
 
 ----------------------------------------------------------
 -Known issues:

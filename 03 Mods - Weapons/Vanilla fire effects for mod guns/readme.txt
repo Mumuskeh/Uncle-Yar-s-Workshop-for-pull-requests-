@@ -11,10 +11,7 @@ Some mods, starting with BaS, use different flame and smoke particle effects whe
 
 Instead, this patch will make known cases use vanilla effects.
 
-Currently covered:
--BaS
--ATHI: Vepr 7.62
-
+Most of the mods covered somewhere in this package are also covered here.
 
 ----------------------------------------------------------
 -Patches:

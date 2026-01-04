@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_fara83">
+		<text>FARA 83</text>
+	</string>
+	<string id="st_wpn_fara83_descr">
+		<text>The FARA 83 (Fusil Automatico Republica Argentina) or FAA 81, (Fusil Automatico Argentino) was a rifle locally designed and developed for the Argentine Army in the 1980s. It is one of the first indigenously designed assault rifles in the continent.\n
+		The rifle has a trigger group that enables semi-automatic and fully automatic fire and originally used a proprietary 30-round Beretta AR70 magazine, but some crafty mechanic in the Zone converted the magwell and feeder to accept standard STANAG magazines.\n
+		</text>
+	</string>
+
+</string_table>

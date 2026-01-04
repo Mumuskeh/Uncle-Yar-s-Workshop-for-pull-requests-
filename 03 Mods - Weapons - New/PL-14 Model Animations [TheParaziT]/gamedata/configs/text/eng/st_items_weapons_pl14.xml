@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_pl14">
+		<text>PL-14</text>
+	</string>
+	<string id="st_wpn_pl14_descr">
+		<text>PL-14 (Lebedev's Pistol-14) - Russian semi-automatic pistol with 9x19 mm Parabellum cartridge.\n \n</text>
+	</string>
+
+</string_table>

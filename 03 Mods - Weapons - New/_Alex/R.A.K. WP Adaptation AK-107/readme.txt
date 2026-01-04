@@ -32,7 +32,6 @@ NPC distribution. The mod didn't distribute the gun anywhere except to Nimble an
 Corrected trade assignments. Most traders have five supply levels depending on goodwill. But unless you patch them, some don't: Nimble and Meeker only have two levels. So assigning them the gun and upgrades by level 3 only means they won't have any of the items.
 
 Added default actor effects configs.
-Reenable shell ejection effects.
 
 Integration into:
 Grok's Enhanced Recoil

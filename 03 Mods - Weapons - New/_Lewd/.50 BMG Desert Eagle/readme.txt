@@ -21,5 +21,8 @@ Icon fix
 Nothing to fix, just simply merges both icon files into one.
 Use this instead of the original mod's non hq option.
 
+Sound performance patch
+Reduces the number of layers used, in case they cause lag for you when shooting.
+
 ----------------------------------------------------------
 -Known issues:

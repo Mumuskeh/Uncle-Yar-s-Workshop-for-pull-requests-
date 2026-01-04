@@ -1,0 +1,510 @@
+[wpn_spectre]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection		= spawn_group
+$npc					= on
+$prefetch				= 8
+$spawn					= "weapons\mp5"
+scheduled				= off
+cform					= skeleton
+icons_texture			= ui\ui_icon_spectre
+
+parent_section			= wpn_spectre
+
+class					= WP_LR300
+slot					= 1
+animation_slot			= 8
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+hand_dependence			= 1
+single_handed			= 1
+
+default_to_ruck			= false
+sprint_allowed			= true
+
+inv_grid_width			= 2
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
+inv_name				= st_wpn_spectre
+inv_name_short			= st_wpn_spectre
+description				= st_wpn_spectre_descr
+
+kind					= w_smg
+inv_weight				= 2.9
+cost					= 27810
+repair_type				= pistol
+weapon_class			= assault_rifle
+
+hud						= wpn_spectre_hud
+visual					= dynamics\weapons\wpn_spectre\wpn_spectre.ogf
+fire_point				= 0.04558, 0.091223, 0.309143
+fire_point2				= 0, 0.188, 0.392
+orientation				= -3.872427, -10, 0
+position				= -0.034108, -0.140568, -0.040103
+shell_point				= 0, 0.133, 0.047
+strap_orientation		= 6.429506, -4.625672, 100
+strap_position			= -0.366651, -0.104502, 0.100086
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+
+ph_mass					= 3
+
+flame_particles			= ghost_particles\weapons\generic_smoke_eft_sil
+smoke_particles			= ghost_particles\weapons\flame_eft_sks
+silencer_smoke_particles= ghost_particles\weapons\generic_smoke_eft_sil
+
+
+shell_dir				= 0.0, 0.0, 0.4
+shell_particles			= weapons\9x19
+
+light_disabled			= false
+light_color				= 0.6,0.5,0.3
+light_range				= 5
+light_time				= 0.2
+light_var_color			= 0.05
+light_var_range			= 0.5
+
+upgrades				= up_gr_firstab_p90, up_gr_seconab_p90, up_gr_thirdab_p90, up_gr_fourtab_p90, up_gr_fifthab_p90, up_gr_fifthcd_p90
+installed_upgrades		=
+upgrade_scheme			= upgrade_scheme_mp5
+upgr_icon_x				= 900
+upgr_icon_y				= 700
+upgr_icon_width			= 250
+upgr_icon_height		= 100
+
+fire_modes				= 1, 3, -1
+ammo_class				= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed			= 50
+ammo_mag_size			= 50
+startup_ammo			= 90
+
+scopes					= ac10632, d0cter, deltapoint, kemper, c-more, 0kp2
+scope_status			= 0
+scope_zoom_factor		= 0
+
+silencer_name			= wpn_sil_9mm
+silencer_status			= 2
+silencer_x				= 97
+silencer_y				= 3
+silencer_light_color	= 0.6,0.5,0.3
+silencer_light_range	= 0.01
+silencer_light_time		= 0.2
+silencer_light_var_color= 0.05
+silencer_light_var_range= 0.5
+silencer_smoke_particles= weapons\generic_shoot_00
+
+grenade_class			= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name	= wpn_addon_grenade_launcher
+grenade_launcher_status	= 0
+grenade_launcher_x		= 126
+grenade_launcher_y		= 24
+launch_speed			= 0
+
+hit_impulse				= 24
+hit_power				= 0.47, 0.47, 0.47, 0.47
+hit_type				= fire_wound 
+fire_distance			= 400
+bullet_speed			= 430
+rpm						= 850
+rpm_empty_click			= 120
+ap_modifier				= 1.1
+
+use_aim_bullet			= false 
+time_to_aim				= 0.0
+zoom_dof				= 0.5, 1.0, 180
+zoom_enabled			= true
+zoom_rotate_time		= 0.25
+reload_dof				= 0.0, 0.5, 5, 2
+control_inertion_factor	= 1.0f
+crosshair_inertion		= 3.9
+fire_dispersion_base	= 0.44
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability		= 0.005
+misfire_start_condition	= 0.7
+misfire_start_prob		= 0.0048
+misfire_end_condition	= 0.125
+misfire_end_prob		= 0.075
+
+condition_shot_dec		= 0.0014
+condition_queue_shot_dec= 0.0014
+
+cam_return				= 0
+cam_relax_speed			= 13
+cam_dispersion			= 0.6
+cam_dispersion_frac		= 1.0
+cam_dispersion_inc		= 0.037
+cam_max_angle			= 25.0
+cam_max_angle_horz		= 25.0
+cam_step_angle_horz		= 1.4
+zoom_cam_relax_speed	= 13
+zoom_cam_dispersion		= 0.4
+zoom_cam_dispersion_frac= 1.0
+zoom_cam_dispersion_inc	= 0.02
+zoom_cam_max_angle		= 27.5
+zoom_cam_max_angle_horz	= 27.5
+zoom_cam_step_angle_horz= 1.375
+
+PDM_disp_base			= 0.65
+PDM_disp_vel_factor		= 1.855
+PDM_disp_accel_factor	= 1.855
+PDM_disp_crouch			= 1.0
+PDM_disp_crouch_no_acc	= 1.0
+
+cam_relax_speed_ai		= 360
+zoom_cam_relax_speed_ai	= 360
+holder_fov_modifier		= 1.0
+holder_range_modifier	= 1.0
+min_radius				= 0
+max_radius				= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_x		= 72
+kill_msg_y		= 82
+kill_msg_width	= 56
+kill_msg_height	= 23
+
+;-----------------------------------------------------------------SOUNDS-------------------------------------------------------------------------------
+snd_draw	= weapons\spectre\mp5_deploy
+snd_holster	= weapons\spectre\mp5_holster
+snd_shoot	= weapons\spectre\mp5_1
+snd_shoot1	= weapons\spectre\mp5_2
+snd_shoot2	= weapons\spectre\mp5_3
+snd_shoot3	= weapons\spectre\mp5_4
+
+snd_empty			= weapons\spectre\mp5_empty
+snd_reload_empty	= weapons\spectre\spectre_reload_empty
+snd_reload			= weapons\spectre\spectre_reload
+snd_shoot_grenade	= weapons\gen_grenshoot
+snd_reload_grenade	= weapons\gen_grenload, 1.0, 0.8
+snd_switch			= weapons\groza_switch, 1.0, 0.5
+
+;snd_silncer_shot	= weapons\mp5\mp5_sil1
+;snd_silncer_shot1	= weapons\mp5\mp5_sil2
+;snd_silncer_shot2	= weapons\mp5\mp5_sil3
+;snd_silncer_shot3	= weapons\mp5\mp5_sil4
+
+snd_bore	= weapons\kiparis_s\kiparis_bore
+
+snd_silncer_shot	= weapons\aps\aps_shot_sil
+
+;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
+
+[wpn_spectre_hud]
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+position	= -0.021, -0.085, 0.0
+orientation	= 0, 0, 0
+
+item_position		= 0.000746,-0.000321,0.003479
+item_orientation	= 1.239378,-0.134046,-2.052052
+
+hands_orientation		= 2.670598, 2.568929, 2.849998
+hands_orientation_16x9	= 2.670598, 2.568929, 2.849998
+hands_position			= 0.060627, -0.034008, 0.148505
+hands_position_16x9		= 0.060627, -0.034008, 0.148505
+
+aim_hud_offset_pos		= -0.069321, 0.05729, 0.075
+aim_hud_offset_pos_16x9	= -0.069321, 0.05729, 0.075
+aim_hud_offset_rot		= 0.056643, 0.06911, 0
+aim_hud_offset_rot_16x9	= 0.056643, 0.06911, 0
+
+gl_hud_offset_pos		= 0,0,0
+gl_hud_offset_pos_16x9	= 0,0,0
+gl_hud_offset_rot		= 0,0,0
+gl_hud_offset_rot_16x9	= 0,0,0
+
+lean_hud_offset_pos		= 0,0,0
+lean_hud_offset_rot		= 0,0,0
+
+anm_bore					= wpn_hand_spectre_boring
+anm_hide					= wpn_hand_spectre_out
+anm_idle					= wpn_hand_spectre_idle, idle
+anm_idle_aim				= wpn_hand_spectre_idle_aim
+anm_idle_aim_moving			= wpn_hand_spectre_walk ;wpn_hand_spectre_idle_aim
+anm_idle_aim_moving_crouch	= wpn_hand_spectre_walk ;wpn_hand_spectre_idle_aim
+anm_idle_moving				= wpn_hand_spectre_walk
+anm_idle_sprint				= wpn_hand_spectre_run,	idle, .9
+anm_reload					= wpn_hand_spectre_reload, wpn_spectre_reload, 1.2
+anm_reload_empty			= wpn_hand_spectre_reload_empty, wpn_spectre_reload_empty, 1.2
+anm_shots					= wpn_hand_spectre_shoot, wpn_spectre_shoot
+anm_show					= wpn_hand_spectre_in
+anm_reload_misfire			= wpn_hand_spectre_misfire, wpn_spectre_misfire
+anm_shots_aim				= wpn_hand_spectre_shoot_aim, wpn_spectre_shoot
+anm_idle_aim_start			= wpn_hand_spectre_in_aim, idle, 1.9
+anm_idle_aim_end			= wpn_hand_spectre_out_aim, idle, 1.9
+
+shell_point	= 0.021,0.057,0.456
+shell_dir	= 0.0, 0.0, 0.4
+shell_bone	= wpn_body
+
+;fire_point	= 0.0, 0.133, 0.22
+fire_point	= 0,0.048,0.222
+fire_bone	= wpn_body
+fire_point2	= -0.030000,0.074500,-0.037000
+fire_bone2	= wpn_body
+
+hands_position_16x9			= 0.060627, -0.034008, 0.148505
+lowered_hud_offset_pos		= 0.164133, 0.015361, 0.1
+lowered_hud_offset_pos_16x9	= 0.164133, 0.015361, 0.1
+lowered_hud_offset_rot		= 0.195587, -0.786816, 0.039618
+lowered_hud_offset_rot_16x9	= 0.195587, -0.786816, 0.039618
+
+;-------------------------------------------------------------------------------------Addons--------------------------------------------------------------------------------------------------
+[wpn_spectre_ac10632]:wpn_spectre
+hud				= wpn_spectre_ac10632_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= ac10632
+1icon_layer_x	= 15
+1icon_layer_y	= -13
+
+[wpn_spectre_ac10632_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.067497, 0.030574, 0.075
+aim_hud_offset_pos_16x9	= -0.067497, 0.030574, 0.075
+aim_hud_offset_rot		= 0.056927, 0.059186, 0
+aim_hud_offset_rot_16x9	= 0.056927, 0.059186, 0
+;-----------------------------------------------------------------------------
+[wpn_spectre_d0cter]:wpn_spectre
+hud				= wpn_spectre_d0cter_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= d0cter
+1icon_layer_x	= 22
+1icon_layer_y	= -12
+
+[wpn_spectre_d0cter_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_docter_hud.ogf
+
+aim_hud_offset_pos		= -0.069574, 0.035974, 0.044
+aim_hud_offset_pos_16x9	= -0.069574, 0.035974, 0.044
+aim_hud_offset_rot		= 0.013561, 0.068834, 0
+aim_hud_offset_rot_16x9	= 0.013561, 0.068834, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_spectre_0kp2]:wpn_spectre
+hud				= wpn_spectre_0kp2_hud
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 15
+1icon_layer_y	= -7
+
+inv_weight		= 3.2
+
+[wpn_spectre_0kp2_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_okep77_hud.ogf
+
+aim_hud_offset_pos		= -0.068074, 0.028575, 0.044
+aim_hud_offset_pos_16x9	= -0.068074, 0.028575, 0.044
+aim_hud_offset_rot		= 0.014546, 0.064246, 0
+aim_hud_offset_rot_16x9	= 0.014546, 0.064246, 0
+;---------------------------------------------------------------------------------------------------
+[wpn_spectre_deltapoint]:wpn_spectre
+hud				= wpn_spectre_deltapoint_hud
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 18
+1icon_layer_y	= -7
+
+inv_weight		= 3.2
+
+[wpn_spectre_deltapoint_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.069378, 0.02935, 0.044
+aim_hud_offset_pos_16x9	= -0.069378, 0.02935, 0.044
+aim_hud_offset_rot		= 0.01192, 0.067661, 0
+aim_hud_offset_rot_16x9	= 0.01192, 0.067661, 0
+;----------------------------------------------------------------------------------------------------
+[wpn_spectre_kemper]:wpn_spectre
+hud				= wpn_spectre_kemper_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= kemper
+1icon_layer_x	= 19
+1icon_layer_y	= -15
+
+scope_status	= 0
+scope_dynamic_zoom	= off
+
+[wpn_spectre_kemper_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.070123, 0.011857, 0.035763
+aim_hud_offset_pos_16x9	= -0.070123, 0.011857, 0.035763
+aim_hud_offset_rot		= -0.002538, 0.069814, 0
+aim_hud_offset_rot_16x9	= -0.002538, 0.069814, 0
+;------------------------------------------------------------------------------------------------
+
+[wpn_spectre_c-more]:wpn_spectre
+hud				= wpn_spectre_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 16
+1icon_layer_y	= -9
+
+nv_scope_status	= 1
+
+inv_weight		= 3.2
+scope_status	= 0
+
+[wpn_spectre_c-more_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre\wpn_spectre_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.06875, 0.025054, 0.0719
+aim_hud_offset_pos_16x9	= -0.06875, 0.025054, 0.0719
+aim_hud_offset_rot		= 0.009159, 0.061811, 0
+aim_hud_offset_rot_16x9	= 0.009159, 0.061811, 0
+
+;------------------------------------------------------------------------------------------------;	
+[wpn_spectre_tac]:wpn_spectre
+parent_section	= wpn_spectre_tac
+
+inv_grid_width	= 3
+inv_grid_x		= 2
+inv_name		= st_wpn_spectre_tac
+inv_name_short	= st_wpn_spectre_tac
+description		= st_wpn_spectre_tac_descr
+
+inv_weight		= 3.3
+cost			= 37810
+
+hud				= wpn_spectre_tac_hud
+visual			= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac.ogf
+
+silencer_x		= 141
+
+laser_status	= true
+
+use_alt_aim_hud	= true
+;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
+[wpn_spectre_tac_hud]:wpn_spectre_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_hud.ogf
+
+hands_orientation		= -0.626679, 0.850862, 2.447791
+hands_orientation_16x9	= -0.626679, 0.850862, 2.447791
+hands_position			= 0.063937, -0.021915, 0.148505
+hands_position_16x9		= 0.063937, -0.021915, 0.148505
+
+aim_hud_offset_pos		= -0.061196, 0.052723, -0.046381
+aim_hud_offset_pos_16x9	= -0.061196, 0.052723, -0.046381
+aim_hud_offset_rot		= 0.026362, 0.011711, 0
+aim_hud_offset_rot_16x9	= 0.026362, 0.011711, 0
+
+;-------------------------------------------------------------------------------------Addons--------------------------------------------------------------------------------------------------
+[wpn_spectre_tac_ac10632]:wpn_spectre_tac
+hud				= wpn_spectre_tac_ac10632_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= ac10632
+1icon_layer_x	= 50
+1icon_layer_y	= -13
+
+[wpn_spectre_tac_ac10632_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.060362, 0.025808, -0.046381
+aim_hud_offset_pos_16x9	= -0.060362, 0.025808, -0.046381
+aim_hud_offset_rot		= 0.023248, 0.009799, 0
+aim_hud_offset_rot_16x9	= 0.023248, 0.009799, 0
+;-----------------------------------------------------------------------------
+[wpn_spectre_tac_d0cter]:wpn_spectre_tac
+hud				= wpn_spectre_tac_d0cter_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= d0cter
+1icon_layer_x	= 57
+1icon_layer_y	= -12
+
+[wpn_spectre_tac_d0cter_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_docter_hud.ogf
+
+aim_hud_offset_pos		= -0.061352, 0.041796, -0.046381
+aim_hud_offset_pos_16x9	= -0.061352, 0.041796, -0.046381
+aim_hud_offset_rot		= 0.023942, 0.010497, 0
+aim_hud_offset_rot_16x9	= 0.023942, 0.010497, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_spectre_tac_0kp2]:wpn_spectre_tac
+hud				= wpn_spectre_tac_0kp2_hud
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 50
+1icon_layer_y	= -7
+
+inv_weight		= 3.2
+
+[wpn_spectre_tac_0kp2_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_okep77_hud.ogf
+
+aim_hud_offset_pos		= -0.060124, 0.035604, -0.046381
+aim_hud_offset_pos_16x9	= -0.060124, 0.035604, -0.046381
+aim_hud_offset_rot		= 0.025339, 0.008943, 0
+aim_hud_offset_rot_16x9	= 0.025339, 0.008943, 0
+;---------------------------------------------------------------------------------------------------
+[wpn_spectre_tac_deltapoint]:wpn_spectre_tac
+hud				= wpn_spectre_tac_deltapoint_hud
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 53
+1icon_layer_y	= -7
+
+inv_weight		= 3.2
+
+[wpn_spectre_tac_deltapoint_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.061542, 0.03361, -0.046381
+aim_hud_offset_pos_16x9	= -0.061542, 0.03361, -0.046381
+aim_hud_offset_rot		= 0.023219, 0.011601, 0
+aim_hud_offset_rot_16x9	= 0.023219, 0.011601, 0
+;----------------------------------------------------------------------------------------------------
+[wpn_spectre_tac_kemper]:wpn_spectre_tac
+hud				= wpn_spectre_tac_kemper_hud
+
+inv_weight		= 3.2
+
+1icon_layer		= kemper
+1icon_layer_x	= 54
+1icon_layer_y	= -15
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_spectre_tac_kemper_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.06105, 0.021253, -0.046381
+aim_hud_offset_pos_16x9	= -0.06105, 0.021253, -0.046381
+aim_hud_offset_rot		= 0.022205, 0.009841, 0
+aim_hud_offset_rot_16x9	= 0.022205, 0.009841, 0
+;------------------------------------------------------------------------------------------------
+[wpn_spectre_tac_c-more]:wpn_spectre_tac
+hud				= wpn_spectre_tac_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 51
+1icon_layer_y	= -9
+
+nv_scope_status	= 1
+
+inv_weight		= 3.2
+scope_status	= 0
+
+[wpn_spectre_tac_c-more_hud]:wpn_spectre_tac_hud
+item_visual	= dynamics\weapons\wpn_spectre_tac\wpn_spectre_tac_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.061231, 0.032083, -0.046381
+aim_hud_offset_pos_16x9	= -0.061231, 0.032083, -0.046381
+aim_hud_offset_rot		= 0.023078, 0.010186, 0
+aim_hud_offset_rot_16x9	= 0.023078, 0.010186, 0

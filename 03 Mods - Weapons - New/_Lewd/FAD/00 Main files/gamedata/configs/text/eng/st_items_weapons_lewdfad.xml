@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_lewd_fad">
+		<text>F.A.D. Fusil Automatico Doble</text>
+	</string>
+	<string id="st_wpn_lewd_fad_descr">
+		<text>The Fusil Automatico Doble (English: Double Automatic Rifle) is a Peruvian bullpup assault rifle, and a rare sight outside Peru. The country originally intende to purchasing 580,000 AN-94 assault rifles to replace the HK33 already in service, but ended up settling on the FAD as a compromise of cost and to boost the local industry.\n
+		It was designed by Salomon Braga Lozo and produced by manufacturer SIMA Electronica, both in 2008. It is Peru's first rifle, still in service to this day. It has only seen action in Peru's internal conflict, mostly in the VRAEM region of the Peruvian jungle. Otherwise, the rifle only sees use in military bases or national parades.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Sights: %c[ui_gray_2] For Picattiny rails\n
+		%c[d_purple] Silencer: %c[ui_gray_2] NATO silencer\n
+		%c[d_purple] Grenade launcher: %c[ui_gray_2] M320 Grenade Launcher\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] Using the spraygun paint you can recolor this weapon into a different color (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_fad_camo">
+		<text>F.A.D. Fusil Automatico Doble (Camo)</text>
+	</string>
+	<string id="st_wpn_lewd_fad_camo_descr">
+		<text>
+		<text>The Fusil Automatico Doble (English: Double Automatic Rifle) is a Peruvian bullpup assault rifle, and a rare sight outside Peru. The country originally intende to purchasing 580,000 AN-94 assault rifles to replace the HK33 already in service, but ended up settling on the FAD as a compromise of cost and to boost the local industry.\n
+		It was designed by Salomon Braga Lozo and produced by manufacturer SIMA Electronica, both in 2008. It is Peru's first rifle, still in service to this day. It has only seen action in Peru's internal conflict, mostly in the VRAEM region of the Peruvian jungle. Otherwise, the rifle only sees use in military bases or national parades.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Sights: %c[ui_gray_2] For Picattiny rails\n
+		%c[d_purple] Silencer: %c[ui_gray_2] NATO silencer\n
+		%c[d_purple] Grenade launcher: %c[ui_gray_2] M320 Grenade Launcher\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2]  This weapon has been painted using the spraygun paint. You can turn it back into its original color by using kerosene (this will consume the Kerosene item).\n
+		Using the spraygun paint you can recolor this weapon into a different color. (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_fad_croco">
+		<text>F.A.D. Fusil Automatico Doble (Special camo)</text>
+	</string>
+	<string id="st_wpn_lewd_fad_croco_descr">
+		<text>You are a remarkable hunter and have earned the right to don those Chimera remains on your weapon for all other STALKERs to see!\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Sights: %c[ui_gray_2] For Picattiny rails\n
+		%c[d_purple] Silencer: %c[ui_gray_2] NATO silencer\n
+		%c[d_purple] Grenade launcher: %c[ui_gray_2] M320 Grenade Launcher\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Special Paint: %c[ui_gray_2] This weapon has been upgraded to its special camo variant. This change is permanent, as are the increased weapon ratings, so there's that.
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_fad_secret">
+		<text>F.A.D. Fusil Automatico Doble (Secret camo)</text>
+	</string>
+	<string id="st_wpn_lewd_fad_secret_descr">
+		<text>Well "congrats", you did it, you found the secret camo. Too bad it's permanent. Yep, there's no way back, all STALKERs now know what you secretly crave.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Sights: %c[ui_gray_2] For Picattiny rails\n
+		%c[d_purple] Silencer: %c[ui_gray_2] NATO silencer\n
+		%c[d_purple] Grenade launcher: %c[ui_gray_2] M320 Grenade Launcher\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Secret Paint: %c[ui_gray_2]  This weapon has been upgraded to its secret camo variant. This change is permanent.
+		</text>
+	</string>
+
+</string_table>

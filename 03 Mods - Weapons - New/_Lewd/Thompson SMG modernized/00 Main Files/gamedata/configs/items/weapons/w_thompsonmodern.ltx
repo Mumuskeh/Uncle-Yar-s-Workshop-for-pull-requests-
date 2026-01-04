@@ -1,0 +1,720 @@
+;------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern]:identity_immunities,weapon_probability,default_weapon_params,
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\wpn_thompsonmodern"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_thompsonmodern
+
+class							= WP_LR300
+slot							= 2
+animation_slot					= 8
+ef_main_weapon_type				= 2
+ef_weapon_type					= 6
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_wpn_thompsonmodern
+inv_grid_height					= 2
+inv_grid_width					= 5
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_thompsonmodern
+inv_name_short					= st_wpn_thompsonmodern
+description						= st_wpn_thompsonmodern_descr
+
+kind							= w_smg ;w_pistol
+inv_weight						= 3.48
+cost							= 45000
+repair_type						= pistol
+weapon_class					= assault_rifle
+
+hud								= wpn_thompsonmodern_hud
+visual							= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+position						= 0, 0, 0
+orientation						= 0, 0, 0
+fire_point						= 0.0, 0.188, 0.392
+fire_point2						= 0.0, 0.188, 0.392
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.2
+strap_orientation				= -10, -5, 10
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0.0, 0.188, 0.082
+shell_dir						= 0.0, 1.0, 0.0
+shell_particles					= weapons\45acp
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_ump45, up_gr_seconab_ump45, up_gr_thirdab_ump45, up_gr_fourtab_ump45, up_gr_fifthab_ump45, up_gr_fifthcd_ump45
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_mp5
+upgr_icon_x						= 900
+upgr_icon_y						= 800
+upgr_icon_width					= 250
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_elapsed					= 30
+ammo_mag_size					= 30
+startup_ammo					= 90
+
+scopes							= 0kp2, ac10632, acog, aimpoint, point_aimpro, c-more, compm4s, e0t2, ekp8_18, eot, kemper, lco,	mepro, razor_amg, specter, d0cter, rmr, deltapoint, rakurs, kit_lewd_specialist, kit_lewd_operator, kit_lewd_warmonger
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_45
+silencer_status					= 2
+silencer_x						= 165
+silencer_y						= 18
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher
+grenade_launcher_status			= 0
+grenade_launcher_x				= 126
+grenade_launcher_y				= 24
+launch_speed					= 0
+
+hit_impulse						= 41
+hit_power						= 0.59, 0.59, 0.59, 0.59
+hit_type						= fire_wound
+fire_distance					= 250
+bullet_speed					= 285
+rpm								= 850
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ;	3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 3.8
+fire_dispersion_base			= 0.4
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ;	0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.17
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0009
+condition_shot_dec				= 0.0009
+
+cam_return						= 0
+cam_relax_speed					= 11
+cam_dispersion					= 0.93
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.065
+cam_max_angle					= 36.0
+cam_max_angle_horz				= 36.0
+cam_step_angle_horz				= 1.19
+zoom_cam_relax_speed			= 12
+zoom_cam_dispersion				= 0.68
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.054
+zoom_cam_max_angle				= 36.0
+zoom_cam_max_angle_horz			= 36.0
+zoom_cam_step_angle_horz		= 1.09
+
+PDM_disp_accel_factor			= 1.155
+PDM_disp_base					= 0.66
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 1.15
+
+cam_relax_speed_ai				= 120.75
+zoom_cam_relax_speed_ai			= 120.75
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 550
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 0
+kill_msg_y						= 123
+kill_msg_width					= 69
+kill_msg_height					= 30
+
+snd_draw				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_drawalt
+snd_reload				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_reloadtac
+snd_reload_empty		= weapons\wpn_thompsonmodern\wpn_thompsonmodern_reloadempty
+snd_shoot				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_shoot
+snd_shoot				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_shoot1
+snd_shoot				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_shoot2
+snd_shoot				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_shoot3
+snd_shoot				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_shoot4
+snd_silncer_shot		= weapons\wpn_thompsonmodern\wpn_thompsonmodern_sil
+snd_holster				= weapons\wpn_thompsonmodern\wpn_thompsonmodern_holster
+snd_switch_mode			= weapons\wpn_thompsonmodern\wpn_thompsonmodern_firemode
+snd_empty				= weapons\wpn_thompsonmodern\empty,	0.7
+snd_reload_misfire		= weapons\wpn_thompsonmodern\wpn_thompsonmodern_jam
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+laser_status	= true
+
+[wpn_thompsonmodern_hud]:hud_base
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+item_position	= 0.000000, 0.000000, 0.000000
+item_orientation	= 0.000000, 0.000000, 0.000000
+
+aim_hud_offset_alt_pos		= -0.113236, -0.038728, 0.017244
+aim_hud_offset_alt_pos_16x9	= -0.113236, -0.038728, 0.017244
+aim_hud_offset_alt_rot		= 0.009168, 0.00832, 0.727676
+aim_hud_offset_alt_rot_16x9	= 0.009168, 0.00832, 0.727676
+
+aim_hud_offset_pos		= -0.113236, -0.038728, 0.017244
+aim_hud_offset_pos_16x9	= -0.113236, -0.038728, 0.017244
+aim_hud_offset_rot		= 0.009168, 0.00832, 0.727676
+aim_hud_offset_rot_16x9	= 0.009168, 0.00832, 0.727676
+
+hands_orientation		= -0.267, -0.5636, 0
+hands_orientation_16x9	= -0.267, -0.5636, 0
+hands_position			= 0.0088, -0.008052, 0.157239
+hands_position_16x9		= 0.0088, -0.008052, 0.157239
+
+lowered_hud_offset_pos		= 0.1, 0, 0
+lowered_hud_offset_pos_16x9	= 0.1, 0, 0
+lowered_hud_offset_rot		= 0.1, -0.8, 0.1
+lowered_hud_offset_rot_16x9	= 0.1, -0.8, 0.1
+
+anm_show				= mka_sh_draw
+anm_show_empty			= mka_sh_draw, idle_empty
+anm_hide				= mka_sh_holster
+anm_hide_empty			= mka_sh_holster, idle_empty
+
+anm_idle				= mka_sh_idle
+anm_idle_empty			= mka_sh_idle, idle_empty
+anm_idle_sprint			= mka_sh_idle_sprint, idle, 0.9
+anm_idle_sprint_empty	= mka_sh_idle_sprint, idle_empty, 0.9
+anm_idle_moving			= mka_sh_idle_moving, idle, 1.1
+anm_idle_moving_empty	= mka_sh_idle_moving, idle_empty, 1.1
+anm_shots				= mka_sh_fire
+anm_shot_l				= mka_sh_fire, fire_empty
+anm_reload				= mka_sh_tac_reload, mka_tac_reload_zz, 1.1
+anm_reload_empty		= mka_sh_tac_reload, mka_tac_reload_zz, 1.1
+anm_idle_aim			= mka_sh_idle_aim
+anm_idle_aim_empty		= mka_sh_idle_aim, idle_empty
+anm_bore				= mka_sh_idle_bore
+anm_bore_empty			= mka_sh_idle_bore, idle_empty
+
+anm_reload_misfire		= mka_sh_idle_jam, jam
+anm_switch_mode			= mka_sh_fireselect
+anm_switch_mode_empty	= mka_sh_fireselect, idle_empty
+
+shell_point	= -0.01,0.04,0.11
+shell_dir	= 0,1,0
+shell_bone	= wpn_body
+
+fire_point	= 0.016000,0.085200,0.490497
+fire_bone	= wpn_body
+fire_point2	= 0,0,0
+fire_bone2	= wpn_body
+
+freelook_z_offset_mul	= 0.3
+
+;------------------------------------------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------
+;--------------------------------------New Scopes from L.E.W.D.--------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------
+
+[wpn_thompsonmodern_kit_lewd_specialist]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_kit_lewd_specialist_hud
+
+icons_texture	= ui\ui_wpn_thompsonmodern
+inv_grid_height	= 2
+inv_grid_width	= 5
+inv_grid_x		= 15
+inv_grid_y		= 0
+
+inv_name		= st_wpn_thompsonmodern_specialist
+inv_name_short	= st_wpn_thompsonmodern_specialist
+description		= st_wpn_thompsonmodern_specialist_descr
+
+inv_weight		= 3.50
+
+silencer_status	= 1
+
+rpm				= 800
+
+[wpn_thompsonmodern_kit_lewd_specialist_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_specialist_hud.ogf
+
+aim_hud_offset_pos		= -0.076116, 0.019961, 0.102562
+aim_hud_offset_pos_16x9	= -0.076116, 0.019961, 0.102562
+aim_hud_offset_rot		= 0.004925, 0.006928, -0.070569
+aim_hud_offset_rot_16x9	= 0.004925, 0.006928, -0.070569	
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_kit_lewd_operator]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_kit_lewd_operator_hud
+
+icons_texture	= ui\ui_wpn_thompsonmodern
+inv_grid_height	= 2
+inv_grid_width	= 5
+inv_grid_x		= 10
+inv_grid_y		= 0
+
+inv_name		= st_wpn_thompsonmodern_operator
+inv_name_short	= st_wpn_thompsonmodern_operator
+description		= st_wpn_thompsonmodern_operator_descr
+
+inv_weight		= 3.50
+
+[wpn_thompsonmodern_kit_lewd_operator_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_operator_hud.ogf
+
+aim_hud_offset_pos		= -0.076916, 0.011211, 0.155682
+aim_hud_offset_pos_16x9	= -0.076916, 0.011211, 0.155682
+aim_hud_offset_rot		= 0.004072, 0.006768, -0.070569
+aim_hud_offset_rot_16x9	= 0.004072, 0.006768, -0.070569
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_kit_lewd_warmonger]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_kit_lewd_warmonger_hud
+
+icons_texture	= ui\ui_wpn_thompsonmodern
+inv_grid_height	= 2
+inv_grid_width	= 5
+inv_grid_x		= 5
+inv_grid_y		= 0
+
+inv_name		= st_wpn_thompsonmodern_warmonger
+inv_name_short	= st_wpn_thompsonmodern_warmonger
+description		= st_wpn_thompsonmodern_warmonger_descr
+
+inv_weight		= 3.50
+
+silencer_status	= 0
+
+rpm				= 1000
+
+[wpn_thompsonmodern_kit_lewd_warmonger_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_warmonger_hud.ogf
+
+aim_hud_offset_pos		= -0.074676, 0.01996, 0.102562
+aim_hud_offset_pos_16x9	= -0.074676, 0.01996, 0.102562
+aim_hud_offset_rot		= 0.005564, 0.006928, -0.070569
+aim_hud_offset_rot_16x9	= 0.005564, 0.006928, -0.070569
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_lco]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_lco_hud
+
+1icon_layer		= lco
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+
+inv_weight		= 3.5
+
+use_alt_aim_hud	= true
+
+[wpn_thompsonmodern_lco_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_lco_hud.ogf
+
+aim_hud_offset_pos		= -0.072756, 0.023579, 0.116221
+aim_hud_offset_pos_16x9	= -0.072756, 0.023579, 0.116221
+aim_hud_offset_rot		= 0.005564, 0.006288, -0.070569
+aim_hud_offset_rot_16x9	= 0.005564, 0.006288, -0.070569
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_razor_amg]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_razor_amg_hud
+
+1icon_layer		= razor_amg
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+
+inv_weight		= 3.227
+
+use_alt_aim_hud	= false
+
+[wpn_thompsonmodern_razor_amg_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_razor_amg_hud.ogf	
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569	
+
+;----------------------------------------------------------------------------------------------------------------------------
+;--------------------------------------BaS Scopes--------------------------------------------------------------
+;----------------------------------------------------------------------------------------------------------------------------
+
+[wpn_thompsonmodern_acog]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 76
+1icon_layer_y	= -6
+
+inv_weight		= 3.5
+
+scope_status	= 1
+scope_dynamic_zoom	= off
+scope_zoom_factor	= 25
+
+scope_texture	= wpn_crosshair_acog
+
+zoom_rotate_time	= 0.25
+use_alt_aim_hud	= true
+
+[wpn_thompsonmodern_acog_hud]:wpn_thompsonmodern_hud
+item_visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_acog_hud.ogf
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_ac10632]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_ac10632_hud
+
+1icon_layer		= ac10632
+1icon_layer_x	= 76
+1icon_layer_y	= -6 ;	= 2 ?
+
+inv_weight		= 3.5
+
+use_alt_aim_hud	= true
+
+[wpn_thompsonmodern_ac10632_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.074836, 0.019111, 0.102562
+aim_hud_offset_pos_16x9	= -0.074836, 0.019111, 0.102562
+aim_hud_offset_rot		= 0.005564, 0.006768, -0.070569
+aim_hud_offset_rot_16x9	= 0.005564, 0.006768, -0.070569
+;------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_kemper]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 76
+1icon_layer_y	= -6 ;	= 2 ?
+
+inv_weight		= 3.5
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+use_alt_aim_hud	= true
+
+[wpn_thompsonmodern_kemper_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.074036, 0.012912, 0.148645
+aim_hud_offset_pos_16x9	= -0.074036, 0.012912, 0.148645
+aim_hud_offset_rot		= 0.004499, 0.006768, -0.070569
+aim_hud_offset_rot_16x9	= 0.004499, 0.006768, -0.070569
+;------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_specter]:wpn_thompsonmodern
+$spawn			= "weapons\thompsonmodern_specter"
+
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 65
+1icon_layer_y	= -8
+
+inv_weight		= 3.620
+scope_status	= 1
+scope_texture	= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true
+
+[wpn_thompsonmodern_specter_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_eot]:wpn_thompsonmodern
+visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_eot_hud
+
+1icon_layer		= eot
+1icon_layer_x	= 90
+1icon_layer_y	= -4
+
+inv_weight		= 3.250
+
+[wpn_thompsonmodern_eot_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.074996, 0.014829, 0.138831
+aim_hud_offset_pos_16x9	= -0.074996, 0.014829, 0.138831
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;-----------------------------------------------------------------------------
+[wpn_thompsonmodern_c-more]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 90
+1icon_layer_y	= -4
+
+inv_weight		= 3.250
+
+[wpn_thompsonmodern_c-more_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;--------------------------------------------------------------------------------------
+[wpn_thompsonmodern_0kp2]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_0kp2_hud
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 90
+1icon_layer_y	= 0
+
+inv_weight		= 3.150
+
+[wpn_thompsonmodern_0kp2_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_0kp2_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_mepro]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_mepro_hud
+
+1icon_layer		= mepro
+1icon_layer_x	= 90
+1icon_layer_y	= 0
+
+inv_weight		= 3.322
+
+[wpn_thompsonmodern_mepro_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_mepro_hud.ogf
+
+aim_hud_offset_pos		= -0.076596, 0.010568, 0.159737
+aim_hud_offset_pos_16x9	= -0.076596, 0.010568, 0.159737
+aim_hud_offset_rot		= 0.00471, 0.007088, -0.070569
+aim_hud_offset_rot_16x9	= 0.00471, 0.007088, -0.070569
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_aimpoint]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_aimpoint_hud
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 90
+1icon_layer_y	= -6
+
+inv_weight		= 3.080
+
+[wpn_thompsonmodern_aimpoint_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.075476, 0.020812, 0.128385
+aim_hud_offset_pos_16x9	= -0.075476, 0.020812, 0.128385
+aim_hud_offset_rot		= 0.005777, 0.007248, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007248, -0.070569
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_point_aimpro]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_point_aimpro_hud
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+inv_weight		= 3.280
+
+[wpn_thompsonmodern_point_aimpro_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_ekp8_18]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_ekp8_18_hud
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 90
+1icon_layer_y	= 2
+
+inv_weight		= 3.222
+
+[wpn_thompsonmodern_ekp8_18_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.074356, 0.016544, 0.102562
+aim_hud_offset_pos_16x9	= -0.074356, 0.016544, 0.102562
+aim_hud_offset_rot		= 0.005559, 0.007248, -0.066517
+aim_hud_offset_rot_16x9	= 0.005559, 0.007248, -0.066517
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_e0t2]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_e0t2_hud
+
+1icon_layer		= e0t2
+1icon_layer_x	= 90
+1icon_layer_y	= -6
+
+inv_weight		= 3.177
+
+[wpn_thompsonmodern_e0t2_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.074996, 0.021661, 0.102562
+aim_hud_offset_pos_16x9	= -0.074996, 0.021661, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_compm4s]:wpn_thompsonmodern
+hud				= wpn_thompsonmodern_compm4s_hud
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -10
+
+inv_weight		= 3.330
+
+[wpn_thompsonmodern_compm4s_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;--------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_rmr]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_rmr_hud
+
+1icon_layer		= rmr
+1icon_layer_x	= 79
+1icon_layer_y	= 1
+
+inv_weight		= 2.984
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_thompsonmodern_rmr_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;--------------------------------------------------------------------------------------------------------------------------------
+[wpn_thompsonmodern_d0cter]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_d0cter_hud
+
+1icon_layer		= d0cter
+1icon_layer_x	= 89
+1icon_layer_y	= -3
+
+inv_weight		= 2.980
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_thompsonmodern_d0cter_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_docter_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;----------------------------------------------------------------------------------------
+[wpn_thompsonmodern_deltapoint]:wpn_thompsonmodern
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+hud				= wpn_thompsonmodern_deltapoint_hud
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 79
+1icon_layer_y	= 1
+
+inv_weight		= 2.990
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_thompsonmodern_deltapoint_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.077236, 0.038508, 0.063526
+aim_hud_offset_pos_16x9	= -0.077236, 0.038508, 0.063526
+aim_hud_offset_rot		= 0.006416, 0.006928, -0.070569
+aim_hud_offset_rot_16x9	= 0.006416, 0.006928, -0.070569
+;----------------------------------------------------------------------------------------
+[wpn_thompsonmodern_rakurs]:wpn_thompsonmodern
+hud				= wpn_thompsonmodern_rakurs_hud
+visual			= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_world.ogf
+
+1icon_layer		= rakurs
+1icon_layer_x	= 100
+1icon_layer_y	= -5
+
+inv_weight		= 3.450
+
+[wpn_thompsonmodern_rakurs_hud]:wpn_thompsonmodern_hud
+item_visual	= dynamics\weapons\wpn_thompsonmodern\wpn_thompsonmodern_rakurs_hud.ogf
+
+aim_hud_offset_pos		= -0.074516, 0.028486, 0.102562
+aim_hud_offset_pos_16x9	= -0.074516, 0.028486, 0.102562
+aim_hud_offset_rot		= 0.005777, 0.007408, -0.070569
+aim_hud_offset_rot_16x9	= 0.005777, 0.007408, -0.070569
+;-----------------------------------------------------------------------------------------------------

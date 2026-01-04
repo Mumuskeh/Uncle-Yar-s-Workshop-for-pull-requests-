@@ -9,7 +9,6 @@ NOTE: You need the original mod. Disable the original configs folder.
 -Explanation:
 
 Files consolidated. Removed redundant configs that were already inherited.
-Reenable shell ejection efects.
 Laser configuration will only be used by the Operator versions, not all variants.
 Edited description text to make it shorter, and removed silencer lines (not like you can use any).
 Icon file trimmed.
@@ -22,6 +21,9 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
+JSRS patch - Sound performance
+Overwrite the original JSRS patch with this for a reduction of layers, in case shooting it causes lag for you.
 
 ----------------------------------------------------------
 -Known issues:

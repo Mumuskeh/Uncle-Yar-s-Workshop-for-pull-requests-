@@ -1,0 +1,276 @@
+;------------------------------------------------------------------------------------------------
+[wpn_pl14]:identity_immunities,weapon_probability,default_weapon_params, wpn_glock_sounds
+GroupControlSection		= spawn_group
+$npc					= on
+$prefetch				= 8
+$spawn					= "weapons\pm"
+scheduled				= off
+cform					= skeleton
+class					= WP_PM
+animation_slot			= 1
+hand_dependence			= 1
+single_handed			= 1
+default_to_ruck			= false
+sprint_allowed			= true 
+kind					= w_pistol
+
+cost					= 10960
+
+visual					= dynamics\weapons\wpn_pl14\pl14_world.ogf
+hud						= wpn_wpn_pl14_hud
+
+discharge_on_misfire	= false
+has_empty_misfire		= false
+
+;--- Position and Orientation of Weapon ---
+position	= -0.037787, 0.012271, 0.021825
+orientation	= 0, 0, 0
+fire_point	= 0, 0.133, 0.161
+fire_point2	= 0, 0.133, 0.161
+
+;--- Weapon parameters in inventory ---
+icons_texture	= ui\ui_pl14
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 0
+inv_name		= st_wpn_pl14
+inv_name_short	= st_wpn_pl14
+description		= st_wpn_pl14_descr
+inv_weight		= 0.99
+slot			= 1
+
+;--- Particle parameters from the shot ---
+flame_particles	= weapons\generic_weapon03
+smoke_particles	= weapons\generic_shoot_00
+light_disabled	= false
+light_color		= 0.6, 0.5, 0.3
+light_range		= 3.0
+light_time		= 0.2
+light_var_color	= 0.05
+light_var_range	= 0.5
+
+;--- Parameters of the upgrades/repairs ---
+upgrades			= up_gr_firstab_pl, up_gr_seconab_pl, up_gr_thirdab_pl, up_gr_fourtab_pl
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_beretta
+repair_type			= pistol
+
+;Icons of the upgrades
+upgr_icon_path		= ui\ui_pl14
+upgr_icon_x			= 0
+upgr_icon_y			= 50
+upgr_icon_width		= 127
+upgr_icon_height	= 100
+
+;----------- Parameters of the weapon itself ---------------------------
+fire_modes			= 1
+ph_mass				= 1
+weapon_lower_speed	= 0.2
+
+;--- Shot parameters ---
+hit_impulse				= 24
+hit_power				= 0.46, 0.46, 0.46, 0.46
+hit_type				= fire_wound
+fire_distance			= 400
+bullet_speed			= 360
+rpm						= 270
+rpm_empty_click			= 120
+fire_dispersion_base	= 0.34
+PDM_disp_accel_factor	= 1.355
+PDM_disp_base			= 0.75
+PDM_disp_crouch			= 1.0
+PDM_disp_crouch_no_acc	= 1.0
+PDM_disp_vel_factor		= 1.35
+
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+;--- Ammo parameters ---
+ammo_class		= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed	= 15
+ammo_mag_size	= 15
+
+;--- Particle shell parameters ---
+shell_point		= 0, 0, 0
+shell_dir		= 0, 0, 0.4
+shell_particles	= weapons\9x19
+
+;--- Scope parameters ---
+scope_status		= 0
+scope_zoom_factor	= 0
+
+;--- Parameters of the silencer ---
+silencer_status	= 0
+
+;--- Parameters of the underbarrel grenade launcher ---
+grenade_launcher_status	= 0
+
+;--- Aiming parameters ---
+use_aim_bullet			= false
+time_to_aim				= 0.0
+zoom_dof				= 0.5, 1.0, 180
+zoom_enabled			= true
+zoom_rotate_time		= 0.25
+reload_dof				= 0.0, 0.5, 5, 1.7
+control_inertion_factor	= 1.0f
+crosshair_inertion		= 3.1
+
+;--- Misfire parameters ---
+misfire_probability		= 0.005
+misfire_start_condition	= 0.7 ;	0.85
+misfire_start_prob		= 0.007
+misfire_end_condition	= 0.09
+misfire_end_prob		= 0.11
+
+;--- Wear parameters ---
+condition_queue_shot_dec		= 0.0016
+condition_shot_dec				= 0.0016
+fire_dispersion_condition_factor= 0.001
+
+;--- Сamera parameters ---
+cam_return			= 1
+cam_relax_speed		= 8
+cam_dispersion		= 2.0
+cam_dispersion_frac	= 1.0
+cam_dispersion_inc	= 0.0
+cam_max_angle		= 50.0
+cam_max_angle_horz	= 50.0
+cam_step_angle_horz	= 0.69
+
+;Parameters of the camera when aiming
+zoom_cam_dispersion		= 1.5
+
+;----------- Parameters for AI ---------------------------
+ef_weapon_type			= 5
+cam_relax_speed_ai		= 360
+holder_fov_modifier		= 1.0
+holder_range_modifier	= 1.0
+min_radius				= 0
+max_radius				= 500
+
+;----------- Sounds ---------------------------
+snd_1_layer			= weapons\pl14\glock_shoot
+snd_1_layer1		= weapons\pl14\glock_shoot2
+snd_1_layer2		= weapons\pl14\glock_shoot3
+snd_draw			= weapons\pl14\glock_show
+snd_holster			= weapons\pl14\glock_holster
+snd_shoot			= wpn_glock_snd_shoot
+snd_empty			= weapons\pl14\glock_click
+snd_reload			= weapons\pl14\glock_reload
+snd_reload_empty	= weapons\pl14\glock_reload_full
+snd_bore			= weapons\pl14\glock_bore
+snd_wpn_pl14_reload_misfire	= weapons\pl14\glock_misfire_revive
+
+;----------- Weapon HUD parameters ---------------------------
+
+[wpn_wpn_pl14_hud]:hud_base
+item_visual			= anomaly_weapons\wpn_pl14\pl14_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+;--- Parameters of the weapon position ---
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+;--- Hand parameters ---
+hands_position			= 0, 0, 0
+hands_position_16x9		= 0, 0, 0
+hands_orientation		= 0, 0, 0
+hands_orientation_16x9	= 0, 0, 0
+
+;--- Parameters of the weapon HUD position when aiming ---
+aim_hud_offset_pos		= 0, 0, 0
+aim_hud_offset_pos_16x9	= 0, 0, 0
+
+aim_hud_offset_rot		= 0, 0, 0
+aim_hud_offset_rot_16x9	= 0, 0, 0
+
+;--- Parameters of HUD weapon position for underbarrel grenade launcher ---
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
+
+;--- Parameters of HUD arms position for the mode when the weapon is lowered ---
+lowered_hud_offset_pos	= -0.023257,0.009417,-0.075518
+lowered_hud_offset_rot	= 0.096268,-0.278416,0.291217
+
+lowered_hud_offset_pos_16x9	= -0.023257,0.009417,-0.075518
+lowered_hud_offset_rot_16x9	= 0.096268,-0.278416,0.291217
+
+;----------- HUD animations parameters ---------------------------
+
+;--- Idle ---
+anm_idle		= hand_pl14_idle, pl14_idle
+anm_idle_empty	= hand_pl14_idle, pl14_idle_empty
+
+anm_idle_aim		= hand_pl14_idle_aim, pl14_idle
+anm_idle_aim_empty	= hand_pl14_idle_aim, pl14_idle_empty
+
+;--- Motions ---
+anm_show		= hand_pl14_show, pl14_idle
+anm_show_empty	= hand_pl14_show, pl14_idle_empty
+
+anm_idle_moving			= hand_pl14_walk, pl14_idle, 0.7
+anm_idle_moving_empty	= hand_pl14_walk, pl14_idle_empty, 0.7
+
+anm_idle_sprint			= hand_pl14_sprint, pl14_idle, 1.4
+anm_idle_sprint_empty	= hand_pl14_sprint, pl14_idle_empty, 1.4
+
+anm_idle_moving_crouch			= hand_pl14_walk, pl14_idle, 0.5
+anm_idle_moving_crouch_empty	= hand_pl14_walk, pl14_idle_empty, 0.5
+
+anm_hide		= hand_pl14_holstel, pl14_idle
+anm_hide_empty	= hand_pl14_holstel, pl14_idle_empty
+
+anm_bore		= hand_pl14_bore, pl14_idle
+anm_bore_empty	= hand_pl14_bore, pl14_idle_empty
+
+;Transition/Intermediate Animations
+anm_walk2sprint			= hand_pl14_sprint_in, pl14_idle, 1.2
+anm_walk2sprint_empty	= hand_pl14_sprint_in, pl14_idle_empty, 1.2
+
+anm_sprint2walk			= hand_pl14_sprint_out, pl14_idle
+anm_sprint2walk_empty	= hand_pl14_sprint_out, pl14_idle_empty
+
+;Transition Definitions
+ts_pattern_walk2sprint		= .+, anm_idle_sprint, anm_walk2sprint, 1
+ts_pattern_sprint2walk		= anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+ts_strict_sprint2walk_move	= anm_walk2sprint, anm_idle_moving, anm_sprint2walk
+
+;--- Aim Motions ---
+anm_idle_aim_moving			= hand_pl14_aim_walk, pl14_idle
+anm_idle_aim_moving_empty	= hand_pl14_aim_walk, pl14_idle_empty
+
+anm_idle_aim_moving_crouch			= hand_pl14_walk, pl14_idle
+anm_idle_aim_moving_crouch_empty	= hand_pl14_walk, pl14_idle
+
+anm_idle_aim_start			= hand_pl14_aim_in, pl14_idle
+anm_idle_aim_start_empty	= hand_pl14_aim_in, pl14_idle_empty
+
+anm_idle_aim_end		= hand_pl14_aim_out, pl14_idle
+anm_idle_aim_end_empty	= hand_pl14_aim_out, pl14_idle_empty
+
+;--- Weapon animations ---
+anm_reload			= hand_pl14_reload, pl14_reload, 1.05
+anm_reload_empty	= hand_pl14_full_reload, pl14_full_reload, 1.05
+
+anm_reload_misfire	= hand_pl14_misfire_revive, pl14_misfire_revive, 1.1
+
+anm_shots	= hand_pl14_shoot, pl14_shoot
+anm_shot_l	= hand_pl14_shoot, pl14_shoot_last
+
+anm_shots_aim	= hand_pl14_aim_shoot, pl14_shoot
+anm_shots_aim_l	= hand_pl14_aim_shoot, pl14_shoot_last
+
+;----------- Parameters of the shells sprite for HUD ---------------------------
+shell_bone	= gilza
+shell_point	= 0, 0, 0
+
+;----------- Particle sprite parameters for HUD ---------------------------
+fire_bone	= muzze
+fire_point	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0

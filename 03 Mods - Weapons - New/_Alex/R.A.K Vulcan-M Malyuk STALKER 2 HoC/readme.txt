@@ -40,5 +40,8 @@ It will also reenable vanilla red dot sights.
 ----------------------------------------------------------
 -Patches:
 
+Sound performance patch
+Use this to reduce sound layers if shooting the gun affects performance.
+
 ----------------------------------------------------------
 -Known issues:

@@ -53,5 +53,8 @@ Arsenal Overhaul Latecomers (.50 Beowulf module) + Armor Modkits addon
 This patch allows to rechamber the (now standalone) rifles for .50 Beowulf ammo.
 DO NOT use the M4 Reimagined patches in the installers for Latecomers or Armor Modkits, as those patches assumes the original replacing behaviour.
 
+Modular Attachment System
+This patch is incompatible with the patch in MASCARA.
+
 ----------------------------------------------------------
 -Known issues:

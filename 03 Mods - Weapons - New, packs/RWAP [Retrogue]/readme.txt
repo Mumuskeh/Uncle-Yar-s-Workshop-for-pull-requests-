@@ -71,5 +71,9 @@ Several weapons now have variants in .300 Blackout. Two options:
 - SIG 553: variants for the SG-553R SBR, and SG-553R SBR Tactical.
 The two 553 will use the SG mag in the Extra Mags patch above.
 
+MAS RWAP
+Use this with the consolidated files or the group modules (MCX and Modified AKs).
+You can copy this directly into the MAS RWAP folder, nothing will be overwritten.
+
 ----------------------------------------------------------
 -Known issues:

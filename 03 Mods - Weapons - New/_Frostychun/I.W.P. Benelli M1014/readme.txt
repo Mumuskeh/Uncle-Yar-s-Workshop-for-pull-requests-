@@ -9,7 +9,6 @@ NOTE: You need the original mod. Disable the original configs folder.
 -Explanation:
 
 Description text now will note what makes a M1014 model different from the base M4.
-Reenabled shell ejection effects.
 Icon file trimmed.
 
 Integration into:

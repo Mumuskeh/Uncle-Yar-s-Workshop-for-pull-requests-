@@ -8,7 +8,6 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Reenabled shell ejection effects.
 Icon file trimmed.
 
 Integration into:

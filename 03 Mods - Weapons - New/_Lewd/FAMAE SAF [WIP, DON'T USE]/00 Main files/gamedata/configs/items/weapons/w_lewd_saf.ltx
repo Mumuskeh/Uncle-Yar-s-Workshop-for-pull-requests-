@@ -1,0 +1,534 @@
+;------------------------------------------------------------------------------------------------
+[wpn_lewd_saf]:identity_immunities,weapon_probability,default_weapon_params,wpn_mp5_sounds
+GroupControlSection                      = spawn_group
+$npc                                     = on
+$prefetch                                = 8
+$spawn                                   = "weapons\lewd_saf"
+scheduled                                = off
+cform                                    = skeleton
+parent_section                           = wpn_lewd_saf
+
+class                                    = WP_AK74
+slot                                     = 2
+animation_slot                           = 8
+ef_main_weapon_type                      = 2
+ef_weapon_type                           = 8
+hand_dependence                          = 1
+single_handed                            = 0
+
+default_to_ruck                          = false
+sprint_allowed                           = true
+
+icons_texture                            = ui\ui_icon_saf_lqi
+inv_grid_width                           = 4
+inv_grid_height                          = 2
+inv_grid_x                               = 0
+inv_grid_y                               = 0
+
+upgr_icon_path                           = ui\ui_icon_saf_upgr
+upgr_icon_x                              = 0
+upgr_icon_y                              = 100
+upgr_icon_width                          = 300
+upgr_icon_height                         = 100
+
+inv_name                                 = st_wpn_lewd_saf
+inv_name_short                           = st_wpn_lewd_saf
+description                              = st_wpn_lewd_saf_descr
+
+kind                                     = w_smg ;w_pistol
+inv_weight                               = 2.7
+cost                                     = 20000
+repair_type                              = pistol
+weapon_class                             = assault_rifle
+
+hud                                      = wpn_lewd_saf_hud
+visual                                   = dynamics\weapons\wpn_lewd_saf\wpn_famae_saf_world.ogf
+position                                 = -0.026, -0.175, 0
+orientation                              = 0, 0, 0
+fire_point                               = 0, 0.218, 0.656
+fire_point2                              = 0, 0.161, 0.583
+strap_bone0                              = bip01_spine2
+strap_bone1                              = bip01_spine1
+strap_position                           = -0.26, -0.11, 0.25
+strap_orientation                        = -15, -9, 110
+ph_mass                                  = 3
+
+flame_particles                          = weapons\generic_weapon05
+smoke_particles                          = weapons\generic_shoot_00
+grenade_flame_particles                  = weapons\generic_weapon01
+
+shell_point				                 = 0, 0.216, 0.174
+shell_dir					             = 0, 0, 0.4
+shell_particles				             = weapons\9x19
+
+light_disabled                           = false
+light_color                              = 0.6, 0.5, 0.3
+light_range                              = 5
+light_time                               = 0.2
+light_var_color                          = 0.05
+light_var_range                          = 0.5
+
+upgrades                                 = up_gr_firstab_lewd_saf, up_gr_seconab_lewd_saf, up_gr_thirdab_lewd_saf, up_gr_fourtab_lewd_saf, up_gr_fifthab_lewd_saf, up_gr_fifthcd_lewd_saf
+installed_upgrades                       =
+upgrade_scheme                           = upgrade_scheme_mp5
+upgr_icon_x                              = 900
+upgr_icon_y                              = 1800
+upgr_icon_width                          = 250
+upgr_icon_height                         = 100
+
+fire_modes                               = 1, 3, -1
+ammo_class                               = ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed                             = 30
+ammo_mag_size                            = 30
+startup_ammo                             = 90
+
+scopes                                   = none
+scope_status                             = 0
+scope_zoom_factor                        = 0
+
+silencer_name                            = wpn_sil_9mm
+silencer_status                          = 0
+silencer_x                               = 181
+silencer_y                               = 15
+silencer_light_color                     = 0.6, 0.5, 0.3
+silencer_light_range                     = 0.01
+silencer_light_time                      = 0.2
+silencer_light_var_color                 = 0.05
+silencer_light_var_range                 = 0.5
+silencer_smoke_particles                 = weapons\generic_shoot_00
+
+grenade_class                            = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status                  = 0
+launch_speed                             = 0
+
+hit_impulse                              = 25
+hit_power                                = 0.48, 0.48, 0.48, 0.48
+hit_type                                 = fire_wound
+fire_distance                            = 400
+bullet_speed                             = 390
+rpm                                      = 1120
+rpm_empty_click                          = 200
+ap_modifier                              = 1.1
+
+use_aim_bullet                           = false
+time_to_aim                              = 0.0 ;  3.0
+zoom_dof                                 = 0.5, 1.0, 180
+zoom_enabled                             = true
+zoom_rotate_time                         = 0.25
+reload_dof                               = 0.0, 0.5, 5, 2
+control_inertion_factor = 1.0f
+crosshair_inertion                       = 5.6
+fire_dispersion_base                     = 0.54
+fire_dispersion_condition_factor         = 0.001
+
+misfire_probability                      = 0.005
+misfire_start_condition                  = 0.7 ;  0.8
+misfire_start_prob                       = 0.007
+misfire_end_condition                    = 0.13
+misfire_end_prob                         = 0.11
+
+condition_queue_shot_dec                 = 0.0009
+condition_shot_dec                       = 0.0009
+
+cam_return                               = 0
+cam_relax_speed                          = 9
+cam_dispersion                           = 0.61
+cam_dispersion_frac                      = 0.8
+cam_dispersion_inc                       = 0.042
+cam_max_angle                            = 42.0
+cam_max_angle_horz                       = 42.0
+cam_step_angle_horz                      = 1.5
+zoom_cam_relax_speed                     = 10
+zoom_cam_dispersion                      = 0.4
+zoom_cam_dispersion_frac                 = 1.0
+zoom_cam_dispersion_inc                  = 0.0375
+zoom_cam_max_angle                       = 42.0
+zoom_cam_max_angle_horz                  = 42.0
+zoom_cam_step_angle_horz                 = 1.48
+
+PDM_disp_accel_factor                    = 1.155
+PDM_disp_base                            = 0.72
+PDM_disp_crouch                          = 1.0
+PDM_disp_crouch_no_acc                   = 1.0
+PDM_disp_vel_factor                      = 1.15
+
+cam_relax_speed_ai                       = 120.75
+zoom_cam_relax_speed_ai                  = 120.75
+holder_fov_modifier                      = 1.0
+holder_range_modifier                    = 1.0
+min_radius                               = 0
+max_radius                               = 500
+hit_probability_gd_novice                = 1.00
+hit_probability_gd_stalker               = 1.00
+hit_probability_gd_veteran               = 1.00
+hit_probability_gd_master                = 1.00
+
+kill_msg_x                               = 72
+kill_msg_y                               = 82
+kill_msg_width                           = 56
+kill_msg_height                          = 23
+
+;-------------------------------------------------------------------- SND BASE -------------------------------------------------------------------------
+
+snd_bore				                 = weapons\lewd_saf\handling\saf_famae_inspect
+snd_draw        		                 = weapons\lewd_saf\handling\saf_famae_deploy
+snd_empty				                 = weapons\lewd_saf\handling\saf_famae_trigger_empty
+snd_holster        		                 = $no_sound
+snd_reload					             = weapons\lewd_saf\handling\saf_famae_reload_partial1
+snd_reload1					             = weapons\lewd_saf\handling\saf_famae_reload_partial2
+snd_reload_empty						 = weapons\lewd_saf\handling\saf_famae_reload_empty
+snd_reload_empty1		                 = weapons\lewd_saf\handling\saf_famae_reload_empty2
+snd_reload_misfire                       = weapons\lewd_saf\handling\saf_famae_unjam1
+snd_reload_misfire1                      = weapons\lewd_saf\handling\saf_famae_unjam2
+snd_reload_misfire2                      = weapons\lewd_saf\handling\saf_famae_unjam3
+snd_reload_misfire3                      = weapons\lewd_saf\handling\saf_famae_unjam4
+snd_switch_mode				             = weapons\lewd_saf\handling\saf_famae_firemode_switch
+
+scripted_snd_ammo_check                  		  = weapons\lewd_saf\handling\saf_famae_magcheck1
+scripted_snd_ammo_check_empty            		  = weapons\lewd_saf\handling\saf_famae_magcheck1
+scripted_snd_ammo_check_jammed           		  = weapons\lewd_saf\handling\saf_famae_magcheck1
+scripted_snd_ammo_check_empty_jammed     		  = weapons\lewd_saf\handling\saf_famae_magcheck1
+scripted_snd_ammo_check_no_mag           		  = $no_sound
+scripted_snd_ammo_check_variant1                  = weapons\lewd_saf\handling\saf_famae_magcheck2
+scripted_snd_ammo_check_empty_variant1            = weapons\lewd_saf\handling\saf_famae_magcheck2
+scripted_snd_ammo_check_jammed_variant1           = weapons\lewd_saf\handling\saf_famae_magcheck2
+scripted_snd_ammo_check_empty_jammed_variant1     = weapons\lewd_saf\handling\saf_famae_magcheck2
+scripted_snd_ammo_check_no_mag_variant1           = $no_sound
+scripted_snd_hide						 		  = weapons\lewd_saf\handling\saf_famae_holster
+
+snd_shoot				                 = wpn_famae_saf_snd_shoot
+snd_shoot_actor			                 = wpn_famae_saf_snd_shoot_actor
+snd_silncer_shot        				 = wpn_famae_saf_silenced
+snd_silncer_shot_actor  				 = wpn_famae_saf_silenced_actor
+
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+;======================================================================================================================================================;
+;					;
+;	SHOOTING LAYERS	;
+;					;
+;======================================================================================================================================================;
+
+[wpn_famae_saf_snd_shoot]
+snd_1_layer			                     = weapons\lewd_saf\mono\saf_famae_very_close1
+snd_1_layer1			                 = weapons\lewd_saf\mono\saf_famae_very_close2
+snd_1_layer2			                 = weapons\lewd_saf\mono\saf_famae_very_close3
+snd_1_layer3			                 = weapons\lewd_saf\mono\saf_famae_very_close4
+snd_2_layer			                     = weapons\lewd_saf\mono\saf_famae_close1
+snd_2_layer1			                 = weapons\lewd_saf\mono\saf_famae_close2
+snd_3_layer			                     = weapons\lewd_saf\mono\saf_famae_medium1
+snd_3_layer1		                     = weapons\lewd_saf\mono\saf_famae_medium2
+snd_4_layer			                     = weapons\lewd_saf\mono\saf_famae_distant1
+snd_4_layer1		                     = weapons\lewd_saf\mono\saf_famae_distant2
+
+[wpn_famae_saf_snd_shoot_actor]
+snd_1_layer			                     = weapons\lewd_saf\stereo\famae_saf_stereo_close1
+snd_1_layer1			                 = weapons\lewd_saf\stereo\famae_saf_stereo_close2
+snd_1_layer2			                 = weapons\lewd_saf\stereo\famae_saf_stereo_close3
+snd_1_layer3			                 = weapons\lewd_saf\stereo\famae_saf_stereo_close4
+snd_2_layer 			                 = weapons\_shared\stereo\reflectors\9\Reflector_1, 0.5
+snd_2_layer1			                 = weapons\_shared\stereo\reflectors\9\Reflector_2, 0.5
+snd_2_layer2 			                 = weapons\_shared\stereo\reflectors\9\Reflector_3, 0.5
+snd_2_layer3			                 = weapons\_shared\stereo\reflectors\9\Reflector_4, 0.5
+snd_3_layer			                     = weapons\_shared\stereo\echo_1, 0.25
+snd_3_layer1			                 = weapons\_shared\stereo\echo_2, 0.25
+snd_3_layer2			                 = weapons\_shared\stereo\echo_3, 0.25
+snd_3_layer3			                 = weapons\_shared\stereo\echo_4, 0.25
+
+[wpn_famae_saf_silenced]
+snd_1_layer			                     = weapons\lewd_saf\mono\saf_famae_sil_very_close1
+snd_1_layer1			                 = weapons\lewd_saf\mono\saf_famae_sil_very_close2
+snd_1_layer2			                 = weapons\lewd_saf\mono\saf_famae_sil_very_close3
+snd_1_layer3			                 = weapons\lewd_saf\mono\saf_famae_sil_very_close4
+snd_2_layer			                     = weapons\_sd\mono\9_2\tail_sd_1, 0.5
+snd_2_layer1		                     = weapons\_sd\mono\9_2\tail_sd_2, 0.5
+snd_2_layer2			                 = weapons\_sd\mono\9_2\tail_sd_3, 0.5
+snd_2_layer3			                 = weapons\_sd\mono\9_2\tail_sd_4, 0.5
+snd_3_layer			                     = weapons\_bass\bass_mid_sd
+snd_4_layer			                     = weapons\lewd_saf\mono\saf_famae_sil_distant
+
+[wpn_famae_saf_silenced_actor]
+snd_1_layer			                     = weapons\lewd_saf\stereo\famae_saf_sil_stereo_close1
+snd_1_layer1			                 = weapons\lewd_saf\stereo\famae_saf_sil_stereo_close2
+snd_1_layer2			                 = weapons\lewd_saf\stereo\famae_saf_sil_stereo_close3
+snd_1_layer3			                 = weapons\lewd_saf\stereo\famae_saf_sil_stereo_close4
+snd_2_layer			                     = weapons\_sd\stereo\9_2\tail_sd_1, 0.5
+snd_2_layer1		                     = weapons\_sd\stereo\9_2\tail_sd_2, 0.5
+snd_2_layer2			                 = weapons\_sd\stereo\9_2\tail_sd_3, 0.5
+snd_2_layer3			                 = weapons\_sd\stereo\9_2\tail_sd_4, 0.5
+snd_3_layer			                     = weapons\_shared\stereo\echo_9, 0.25
+snd_3_layer1			                 = weapons\_shared\stereo\echo_2, 0.25
+snd_3_layer2			                 = weapons\_shared\stereo\echo_3, 0.25
+snd_3_layer3			                 = weapons\_shared\stereo\echo_4, 0.25
+
+;-------------------------------------------------------------------- HUD -------------------------------------------------------------------------
+
+[wpn_lewd_saf_hud]:hud_base
+item_visual                              = anomaly_weapons\wpn_lewd_saf\wpn_famae_saf_hud.ogf
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true   
+
+item_position                            = 0, 0.00, 0
+item_orientation                         = 0, 0.00, 0
+
+hands_position                   = 0.075079, -0.139105, 0.170374
+hands_position_16x9              = 0.075079, -0.139105, 0.170374
+hands_orientation                = 0.0, 0.0, 0
+hands_orientation_16x9           = 0.0, 0.0, 0
+
+aim_hud_offset_pos               = -0.06948, 0.025894, -0.061689
+aim_hud_offset_pos_16x9          = -0.06948, 0.025894, -0.061689
+aim_hud_offset_rot               = -0.021779, -0.018195, -0.010083
+aim_hud_offset_rot_16x9          = -0.021779, -0.018195, -0.010083
+
+lowered_hud_offset_pos					 = 0.06, -0.04, -0.02
+lowered_hud_offset_pos_16x9				 = 0.06, -0.04, -0.02
+lowered_hud_offset_rot					 = -0.1, -0.6, 0.4
+lowered_hud_offset_rot_16x9				 = -0.1, -0.6, 0.4
+
+gl_hud_offset_pos                        = 0, 0, 0
+gl_hud_offset_pos_16x9                   = 0, 0, 0
+gl_hud_offset_rot                        = 0, 0, 0
+gl_hud_offset_rot_16x9                   = 0, 0, 0
+
+lowered_hud_offset_pos					 = 0.075, -0.02, -0.02
+lowered_hud_offset_pos_16x9				 = 0.075, -0.02, -0.02
+lowered_hud_offset_rot					 = -0.075, -0.63, 0.4
+lowered_hud_offset_rot_16x9				 = -0.075, -0.63, 0.4
+
+lean_hud_offset_pos                      = 0, 0, 0
+lean_hud_offset_rot                      = 0, 0, 0
+
+anm_bore                                 = lewd_saf_hand_inspect, idle
+anm_show                                 = lewd_saf_hand_draw, idle
+anm_hide                                 = lewd_saf_hand_holster, idle
+
+anm_bore_empty                                 = lewd_saf_hand_inspect, lewd_saf_hud_idle_empty
+anm_show_empty                                 = lewd_saf_hand_draw, lewd_saf_hud_idle_empty
+anm_hide_empty                                 = lewd_saf_hand_holster, lewd_saf_hud_idle_empty
+
+anm_idle                                 = lewd_saf_hand_idle, idle
+anm_idle_variant1                                 = lewd_saf_hand_idle1, idle
+anm_idle_variant2                                 = lewd_saf_hand_idle2, idle
+anm_idle_variant3                                 = lewd_saf_hand_idle3, idle
+anm_idle_variant4                                 = lewd_saf_hand_idle4, idle
+anm_idle_variant5                                 = lewd_saf_hand_idle5, idle
+anm_idle_variant6                                 = lewd_saf_hand_idle6, idle
+anm_idle_empty                                 = lewd_saf_hand_idle, lewd_saf_hud_idle_empty
+
+anm_idle_aim_moving                      = lewd_saf_hand_walk, idle 
+anm_idle_aim_moving                      = lewd_saf_hand_walk, idle, 0.75 
+anm_idle_aim_moving_crouch               = lewd_saf_hand_walk, idle, 0.8 
+anm_idle_moving                          = lewd_saf_hand_walk, idle;, 0.95
+anm_idle_moving_crouch                   = lewd_saf_hand_walk, idle
+anm_idle_sprint                          = lewd_saf_hand_sprint, idle, 1.1 
+
+anm_reload                               = lewd_saf_hand_reload, lewd_saf_hud_reload
+anm_reload_empty                         = lewd_saf_hand_reload_empty, lewd_saf_hud_reload_empty
+anm_reload_misfire          			 = lewd_saf_hand_unjam, lewd_saf_hud_unjam
+anm_switch_mode                 		 = lewd_saf_hand_switch_mode, lewd_saf_hud_switch_mode
+
+anm_shots                                = lewd_saf_hand_shoot, lewd_saf_hud_shoot
+anm_shots_variant1                                = lewd_saf_hand_shoot, lewd_saf_hud_shoot1
+anm_shots_variant2                                = lewd_saf_hand_shoot, lewd_saf_hud_shoot2
+anm_shots_variant3                                = lewd_saf_hand_shoot, lewd_saf_hud_shoot3
+anm_idle_aim                             = lewd_saf_hand_aim, idle
+anm_idle_aim_empty                                 = lewd_saf_hand_idle, lewd_saf_hud_idle_empty
+
+anm_walk2sprint                     = lewd_saf_hand_sprint_start, idle
+anm_sprint2walk                     = lewd_saf_hand_sprint_end, idle
+
+anm_bore_jammed                                 = lewd_saf_hand_inspect_jammed, lewd_saf_hud_idle_jammed
+anm_bore_empty_jammed                                 = lewd_saf_hand_inspect_jammed, lewd_saf_hud_idle_jammed
+anm_show_jammed                                 = lewd_saf_hand_draw, lewd_saf_hud_idle_jammed
+anm_hide_jammed                                 = lewd_saf_hand_holster, lewd_saf_hud_idle_jammed
+
+anm_idle_jammed                                 = lewd_saf_hand_idle, lewd_saf_hud_idle_jammed
+anm_idle_aim_moving_jammed                      = lewd_saf_hand_walk, lewd_saf_hud_idle_jammed 
+anm_idle_aim_moving_jammed                      = lewd_saf_hand_walk, lewd_saf_hud_idle_jammed, 0.75 
+anm_idle_aim_moving_crouch_jammed               = lewd_saf_hand_walk, lewd_saf_hud_idle_jammed, 0.8 
+anm_idle_moving_jammed                          = lewd_saf_hand_walk, lewd_saf_hud_idle_jammed;, 0.95
+anm_idle_moving_crouch_jammed                   = lewd_saf_hand_walk, lewd_saf_hud_idle_jammed
+anm_idle_sprint_jammed                          = lewd_saf_hand_sprint, lewd_saf_hud_idle_jammed, 1.1 
+
+anm_reload_misfire_jammed          			 = lewd_saf_hand_unjam, lewd_saf_hud_unjam
+anm_switch_mode_jammed                 		 = lewd_saf_hand_switch_mode, lewd_saf_hud_switch_mode_jammed
+
+anm_idle_aim_jammed                             = lewd_saf_hand_aim, lewd_saf_hud_idle_jammed
+
+anm_walk2sprint_jammed                     = lewd_saf_hand_sprint_start, lewd_saf_hud_idle_jammed
+anm_sprint2walk_jammed                     = lewd_saf_hand_sprint_end, lewd_saf_hud_idle_jammed
+
+
+anm_ammo_check                           = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck
+anm_ammo_check_empty                     = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty
+anm_ammo_check_no_mag                    = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty
+anm_ammo_check_jammed                    = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_jammed
+anm_ammo_check_empty_jammed              = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty_jammed
+
+anm_ammo_check_variant1                  = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck
+anm_ammo_check_empty_variant1            = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty
+anm_ammo_check_no_mag_variant1           = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty
+anm_ammo_check_jammed_variant1           = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_jammed
+anm_ammo_check_empty_jammed_variant1     = lewd_saf_hand_magcheck, lewd_saf_hud_magcheck_empty_jammed
+
+;anm_ammo_check_aim                       = lewd_saf_hand_magcheck_ads, lewd_saf_hud_magcheck_ads
+;anm_ammo_check_empty_aim                 = lewd_saf_hand_magcheck_ads, lewd_saf_hud_magcheck_empty_ads
+
+; Transition Definitions
+ts_pattern_walk2sprint      = .+, anm_idle_sprint, anm_walk2sprint, 1
+
+ts_pattern_sprint2walk      = anm_idle_sprint, ^anm_idle.*, anm_sprint2walk, 1
+ts_pattern_sprint2walk_aim  = anm_walk2sprint, ^anm_idle_aim.*, anm_sprint2walk, 1
+ts_strict_sprint2walk_idle  = anm_walk2sprint, anm_idle, anm_sprint2walk
+ts_strict_sprint2walk_move  = anm_walk2sprint, anm_idle_moving, anm_sprint2walk
+
+;ts_pattern_idle2aim         = ^anm_idle.*, ^anm_idle_aim$, anm_idle2aim, 1
+ts_strict_sprint2aim        = anm_idle_sprint, anm_idle_aim, anm_sprint2walk
+
+ts_strict_sprint2inspect        = anm_idle_sprint, anm_bore, anm_sprint2walk
+ts_strict_walk2sprint_inspect        = anm_walk2sprint, anm_bore, anm_sprint2walk
+
+ts_pattern_reload_interrupt     = anm_add_cartridge, ^anm_idle.*, anm_close 
+ts_pattern_reload_empty_interrupt     = anm_add_cartridge_empty, ^anm_idle.*, anm_close   
+
+shell_bone                               = shell
+shell_dir                                = 0, 1, 0
+shell_point                              = 0, 0, 0
+
+fire_bone                                = muzzle
+fire_point                               = 0, 0,0
+
+;------------------------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_arctic]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_arctic
+icons_texture               = ui\ui_icon_saf_arctic_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_arctic_hud
+visual				= dynamics\weapons\wpn_lewd_saf\arctic\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_arctic_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\arctic\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_taz83]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_taz83
+icons_texture               = ui\ui_icon_saf_taz83_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_taz83_hud
+visual				= dynamics\weapons\wpn_lewd_saf\taz83\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_taz83_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\taz83\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_desertdig]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_desertdig
+icons_texture               = ui\ui_icon_saf_desertdig_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_desertdig_hud
+visual				= dynamics\weapons\wpn_lewd_saf\desertdig\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_desertdig_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\desertdig\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_fde]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_fde
+icons_texture               = ui\ui_icon_saf_fde_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_fde_hud
+visual				= dynamics\weapons\wpn_lewd_saf\fde\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_fde_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\fde\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_monolith]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_monolith
+icons_texture               = ui\ui_icon_saf_monolith_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_monolith_hud
+visual				= dynamics\weapons\wpn_lewd_saf\monolith\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_monolith_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\monolith\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_olive]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_olive
+icons_texture               = ui\ui_icon_saf_olive_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_olive_hud
+visual				= dynamics\weapons\wpn_lewd_saf\olive\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_olive_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\olive\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_urbandig]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_urbandig
+icons_texture               = ui\ui_icon_saf_urbandig_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_urbandig_hud
+visual				= dynamics\weapons\wpn_lewd_saf\urbandig\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_urbandig_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\urbandig\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_wdl]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_wdl
+icons_texture               = ui\ui_icon_saf_wdl_lqi
+inv_name                    = st_wpn_lewd_saf_camo
+inv_name_short              = st_wpn_lewd_saf_camo
+description                 = st_wpn_lewd_saf_camo_descr
+hud                         = wpn_lewd_saf_wdl_hud
+visual				= dynamics\weapons\wpn_lewd_saf\wdl\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_wdl_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\wdl\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_secret]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_secret
+icons_texture               = ui\ui_icon_saf_secret_lqi
+inv_name                    = st_wpn_lewd_saf_secret
+inv_name_short              = st_wpn_lewd_saf_secret
+description                 = st_wpn_lewd_saf_secret_descr
+hud                         = wpn_lewd_saf_secret_hud
+visual				= dynamics\weapons\wpn_lewd_saf\secret\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_secret_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\secret\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------camo-variants-----------------------------------------------------------------------------
+[wpn_lewd_saf_special]:wpn_lewd_saf
+parent_section              = wpn_lewd_saf_special
+icons_texture               = ui\ui_icon_saf_special_lqi
+inv_name                    = st_wpn_lewd_saf_special
+inv_name_short              = st_wpn_lewd_saf_special
+description                 = st_wpn_lewd_saf_special_descr
+hud                         = wpn_lewd_saf_special_hud
+visual				= dynamics\weapons\wpn_lewd_saf\special\wpn_famae_saf_world.ogf
+[wpn_lewd_saf_special_hud]:wpn_lewd_saf_hud
+item_visual				= anomaly_weapons\wpn_lewd_saf\special\wpn_famae_saf_hud.ogf
+;-------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_pl14">
+		<text>ПЛ-14</text>
+	</string>
+	<string id="st_wpn_pl14_descr">
+		<text>ПЛ-14 (Пистолет Лебедева-14) - Российский самозарядный пистолет под патрон 9x19 мм Парабеллум.\n \n</text>
+	</string>
+
+</string_table>
