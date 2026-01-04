@@ -26,5 +26,8 @@ Weapon Parts Overhaul. Treated as a semi auto shotgun. Feels like should be trea
 ----------------------------------------------------------
 -Patches:
 
+DX8-9 textures
+Textures have been resaved in BC3 compression, so that DX8-9 players can see them in game.
+
 ----------------------------------------------------------
 -Known issues:
