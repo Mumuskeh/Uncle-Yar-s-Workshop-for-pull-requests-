@@ -24,8 +24,5 @@ Weapon Parts Overhaul
 Boomsticks and Sharpsticks
 Clones the PDP into the 9x21mm model. It will use BaS' 9x21 ammo, silencer, and mags.
 
-9x21 FMJ & HP Ammo
-Allows the 9x21 clone to use the extra ammo.
-
 ----------------------------------------------------------
 -Known issues:

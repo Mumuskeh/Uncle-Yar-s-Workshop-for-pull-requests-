@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_c96">
+		<text>Mauser C96</text>
+	</string>
+	<string id="st_wpn_c96_s">
+		<text>C96</text>
+	</string>
+	<string id="st_wpn_c96_descr">
+		<text>Представленный в 1896 году полуавтоматический пистолет Mauser Construktion 96 был рассчитан на патроны калибра 7,63х25 мм и имел встроенный коробчатый магазин. Деревянный плечевой приклад служил кобурой. Многим он известен как "Маузер с рукояткой от метлы". Во время войны Германия заключила контракт с компанией Mauser на поставку пистолетов под патроны калибра 9 мм в дополнение к стандартному 9-миллиметровому пистолету Luger. Во многих воинских частях на рукоятках нанесена большая красная буква "9", чтобы солдаты могли использовать правильную амуницию.</text>
+	</string>
+
+	<string id="st_up_pistol_name">
+		<text>Extended Magazine</text>
+	</string>
+	<string id="st_up_pistol_descr">
+		<text>Replaces the internal magazine with a 20-round detachable box magazine.</text>
+	</string>
+
+</string_table>

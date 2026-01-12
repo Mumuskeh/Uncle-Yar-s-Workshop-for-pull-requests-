@@ -17,7 +17,8 @@ Trader distribution. In addition to Sidorovich, Army traders will sell it as wel
 
 Icon file trimmed.
 
-Vanilla scopes, actor effects, parts, Grok's Enhaced Recoil, and Mags Redux files integrated. Yeah, the first three are offered by the installer as optional and "Gamma files", which is kinda dumb, because, you know, *VANILLA HAS ALL THAT AS A DEFAULT*. And who's gonna say no to being able to use the vanilla scopes? :V
+Vanilla scopes, actor effects, parts, Grok's Enhaced Recoil, and Mags Redux files integrated.
+Yeah, the first three are offered by the installer as optional and "Gamma files", which is kinda dumb, because, you know, *VANILLA USES ALL THAT AS A DEFAULT*. And who's gonna say no to being able to use the vanilla scopes? :V
 
 Integration into:
 Grok's Stash Overhaul
@@ -30,15 +31,15 @@ Weapon Parts Overhaul
 
 Now these you can let them overwrite the DX11 files.
 
+BaS files
+The the original configs file, but cleaned up a bit.
+Do not use with the DX11 files.
+
 Vanilla silencer patch
 To reduce item bloat, this will remove the included silencer. The gun will use the vanilla ATG silencer.
 
 Sound performance patch
 If you feel the audio causes a performance drop, try this patch that reduces the audo layers, and see if it helps.
-
-BaS files
-The the original configs file, but cleaned up a bit.
-Do not use with the DX11 files.
 
 ----------------------------------------------------------
 -Known issues:

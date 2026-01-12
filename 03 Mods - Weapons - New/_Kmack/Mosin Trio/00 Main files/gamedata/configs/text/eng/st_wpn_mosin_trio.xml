@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mosin_carbine">
+		<text>Mosin M38 Carbine</text>
+	</string>
+	<string id="st_wpn_mosin_carbine_descr">
+		<text>The Mosin-Nagant M38 Carbine is a shorter, more manageable version of the classic rifle, offering solid stopping power with improved mobility.\n
+		In the Zone, it's favored by seasoned stalkers who need reliable, hard-hitting firepower without the bulk of its full length brother.\n
+		Ideal for navigating tighter spaces such as in the underground labs, this may give a slight edge when it matters.</text>
+	</string>
+
+	<string id="st_wpn_mosin_k">
+		<text>Mosin Nagant</text>
+	</string>
+	<string id="st_wpn_mosin_k_descr">
+		<text>The Mosin-Nagant is a rugged, bolt-action rifle known for its long-range accuracy and powerful 7.62?54mmR round.\n
+		It has always been a trusted relic favored by sharpshooters, hunters, and old-school stalkers who value simplicity, durability, and raw stopping power over modern flash.\n
+		%c[ui_gray_2]ATTACHMENTS: PU Scope, KZRZP suppressor</text>
+	</string>
+
+	<string id="st_wpn_obrez">
+		<text>Mosin Nagant "Obrez"</text>
+	</string>
+	<string id="st_wpn_obrez_descr">
+		<text>The Mosin-Nagant Obrez is a sawn-off version of the Mosin-Nagant bolt-action rifle, with its barrel and stock cut down to create a much shorter, more concealable weapon.\n
+		This modification was historically used by Stalkers who needed a powerful firearm in a compact form; albeit at the cost of accuracy, control, and safety.\n
+		%c[ui_gray_2]ATTACHMENTS: PU Scope, KZRZP suppressor</text>
+	</string>
+
+	<string id="st_wpn_shiv">
+		<text>"Shiv"</text>
+	</string>
+	<string id="st_wpn_shiv_descr">
+		<text>An even more makeshift version of the Mosin Obrez, "Shiv" was given the name by an unknown Stalker who was an avid hunter and survivalist.\n
+		Word has it that this man roamed around Darkscape, scraping by on what he had in his surroundings such as mutant hides, meats and furs.\n
+		It appears he left his prized rifle behind in the derailed train car in Darkscape where he resided. Nobody knows if Shiv was left with intent, for him to return to his favorite hunting spot. Or merely dropped in a fatal fight.\n
+		%c[ui_gray_2]ATTACHMENTS: PU Scope, KZRZP suppressor</text>
+	</string>
+
+</string_table>

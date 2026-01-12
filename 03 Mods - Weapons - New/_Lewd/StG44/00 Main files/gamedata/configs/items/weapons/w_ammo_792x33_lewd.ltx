@@ -1,0 +1,84 @@
+[ammo_7.92x33_lewd_fmj]:ammo_base ;fmj
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn			= "weapons\ammo\ammo_792_kurz"
+class			= AMMO_S
+cform           = skeleton
+visual          = dynamics\weapons\wpn_ammo\ammo_338_lapua.ogf
+$prefetch 		= 64
+box_size		= 30
+inv_weight		= .20
+
+tracer_color_ID	= 2
+wm_size         = 0.066
+k_air_resistance = 0.05
+
+tier              = 2
+
+inv_name		= st_ammo_7.92x33_lewd_fmj
+inv_name_short	= st_ammo_7.92x33_lewd_fmj
+description		= st_ammo_7.92x33_lewd_fmj_descr
+icons_texture   = ui\lewd\792x33_fmj
+inv_grid_width  = 2
+inv_grid_height = 1
+inv_grid_x      = 0
+inv_grid_y      = 0
+k_hit			= 1.15
+k_ap			= 0.165
+k_imp       	= 0.7
+cost			= 1530
+[ammo_7.92x33_lewd_fmj_bad]:ammo_7.92x33_lewd_fmj
+[ammo_7.92x33_lewd_fmj_verybad]:ammo_7.92x33_lewd_fmj
+
+[ammo_7.92x33_lewd_p43me]:ammo_7.92x33_lewd_fmj ; Iron Core
+inv_name		= st_ammo_7.92x33_lewd_p43me
+inv_name_short	= st_ammo_7.92x33_lewd_p43me_s
+description		= st_ammo_7.92x33_lewd_p43me_descr
+icons_texture   = ui\lewd\792x33_me
+inv_grid_width  = 2
+inv_grid_height = 1
+inv_grid_x      = 0
+inv_grid_y      = 0
+k_hit			= 1.15
+k_ap			= 0.185
+k_imp       	= 0.7
+cost			= 1530
+[ammo_7.92x33_lewd_p43me_bad]:ammo_7.92x33_lewd_p43me
+[ammo_7.92x33_lewd_p43me_verybad]:ammo_7.92x33_lewd_p43me
+
+[ammo_7.92x33_lewd_sp]:ammo_7.92x33_lewd_fmj ; hp
+inv_name		= st_ammo_7.92x33_lewd_sp
+inv_name_short	= st_ammo_7.92x33_lewd_sp_s
+description		= st_ammo_7.92x33_lewd_sp_descr
+icons_texture   = ui\lewd\792x33_sp
+inv_grid_width  = 2
+inv_grid_height = 1
+inv_grid_x      = 0
+inv_grid_y      = 0
+k_hit		= 1.5
+k_ap		= 0.015
+cost		= 1230
+impair      = 0.9
+dg_ammo     = ammo_7.92x33_lewd_fmj
+dg_chance   = 0.4
+special     = hp
+[ammo_7.92x33_lewd_sp_bad]:ammo_7.92x33_lewd_sp
+[ammo_7.92x33_lewd_sp_verybad]:ammo_7.92x33_lewd_sp
+
+[ammo_7.92x33_lewd_mh]:ammo_7.92x33_lewd_fmj ; ap
+inv_name		= st_ammo_7.92x33_lewd_p43mh
+inv_name_short	= st_ammo_7.92x33_lewd_p43mh_s
+description		= st_ammo_7.92x33_lewd_p43mh_descr
+icons_texture   = ui\lewd\792x33_mh
+inv_grid_width  = 2
+inv_grid_height = 1
+inv_grid_x      = 0
+inv_grid_y      = 0
+k_hit		= 1.1
+k_ap		= 0.255
+cost		= 1730
+impair      = 0.9
+dg_ammo     = ammo_7.92x33_lewd_fmj
+dg_chance   = 0.4
+[ammo_7.92x33_lewd_mh_bad]:ammo_7.92x33_lewd_mh
+[ammo_7.92x33_lewd_mh_verybad]:ammo_7.92x33_lewd_mh

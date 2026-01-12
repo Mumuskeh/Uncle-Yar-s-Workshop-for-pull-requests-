@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_c96">
+		<text>Mauser C96</text>
+	</string>
+	<string id="st_wpn_c96_s">
+		<text>C96</text>
+	</string>
+	<string id="st_wpn_c96_descr">
+		<text>Introduced in 1896, the Mauser Construktion 96 semiautomatic pistol was chambered for 7.63x25mm aummunition and featured an integral box magazine. The wooden shoulder stock doubled as a holster. Many people know it as the "broomhandle" Mauser. During the war Germany contracted with Mauser for pistols chambered for 9mm ammo to augment the standard 9mm Luger sidearms. Many military units branded a big red "9" in the grips so soldiers would use the right ammunition.</text>
+	</string>
+
+	<string id="st_up_pistol_name">
+		<text>Extended Magazine</text>
+	</string>
+	<string id="st_up_pistol_descr">
+		<text>Replaces the internal magazine with a 20-round detachable box magazine.</text>
+	</string>
+
+</string_table>

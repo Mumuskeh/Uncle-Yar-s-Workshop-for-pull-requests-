@@ -1,0 +1,45 @@
+[up_sect_fourta_sks]
+cost				= 3569
+value				= +500
+scopes				= ps01, 1p29, kobra
+inv_weight			= +0.16
+
+[up_sect_fourtc_sks]
+cost				= 4420
+value				= +669
+silencer_status		= 2
+silencer_name		= wpn_sil_atg
+silencer_x			= 221
+silencer_y			= -10
+snd_silncer_shot	= weapons\ak74m_beard\ak74_shot_sil
+inv_weight			= +0.06
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_fourta_sks]:up_info_type_a
+scheme_index	= 0, 3
+effects			= up_gr_fourtcd_sks
+section			= up_sect_fourta_sks
+
+property		= prop_scope_attach
+
+name			= st_up_sks_mount_name
+description		= st_up_sks_mount_descr
+icon			= ui_crepis_upgrade_sks_mount
+
+[up_fourtc_sks]:up_info_type_a
+scheme_index	= 0, 3
+effects			=
+section			= up_sect_fourtc_sks
+
+property		= prop_silencer
+
+name			= st_up_sks_sil_name
+description		= st_up_sks_sil_descr
+icon			= ui_inGame2_upgrade_Marta_14
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_gr_fourtab_sks]
+elements	= up_fourta_sks
+
+[up_gr_fourtcd_sks]
+elements	= up_fourtc_sks

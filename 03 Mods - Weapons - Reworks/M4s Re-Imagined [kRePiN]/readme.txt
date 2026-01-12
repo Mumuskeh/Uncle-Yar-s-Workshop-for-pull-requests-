@@ -7,7 +7,7 @@ NOTE: You still need the original mod. Disable its configs folder.
 
 Due to the way this was made, it will probably only work for the current, original release of the mod (at the time of writing) and probably not when/if updates.
 
-The patch in MAScara is compatible.
+The patch in MAScara is not compatible.
 
 Do NOT use the patches in the installers for Arsenal Overhaul Latecomers or Armor Modkits addon..
 
@@ -41,7 +41,10 @@ Scope icon file resaved into a proper .dds instead of .png.
 
 
 
-Note: if you want to use a different reanimation for the M4A1 and M4A1 RAS, you can easily disable Krepin's by disabling the files mod_system_m4_krepin.ltx and mod_system_m4a1_krepin.ltx. Then place the other reanimation later in your load order. The model files for the AX-15, KAC URX, and SAI QD have been renamed to ensure compatibility.
+Note: if you want to use a different reanimation for the M4A1 and M4A1 RAS, you can easily disable Krepin's by disabling the files:
+mod_system_m4_krepin.ltx
+mod_system_m4a1_krepin.ltx
+Then place the other reanimation later in your load order. The model files for the AX-15, KAC URX, and SAI QD have been renamed to ensure compatibility.
 
 Do note, this reduces the number of guns that can use the new Vortex sight to only those three (I tried to patch it for MAS but without success).
 
@@ -55,6 +58,9 @@ DO NOT use the M4 Reimagined patches in the installers for Latecomers or Armor M
 
 Modular Attachment System
 This patch is incompatible with the patch in MASCARA.
+Similar to the main files, if you only want the new variants, remove the files:
+mod_system_z_k_m4a1_mas.ltx
+mod_system_z_k_m4ras_mas.ltx
 
 ----------------------------------------------------------
 -Known issues:

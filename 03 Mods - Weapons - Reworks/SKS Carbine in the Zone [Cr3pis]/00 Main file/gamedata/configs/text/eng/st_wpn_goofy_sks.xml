@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sks_new">
+		<text>SKS Carbine</text>
+	</string>
+	<string id="st_wpn_sks_new_s">
+		<text>SKS</text>
+	</string>
+	<string id="st_wpn_sks_new_descr">
+		<text>
+		A Soviet 7.62x39mm semi-automatic carbine produced in the early 1950s. Cosmetically worn, but mechanically intact.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Soviet Union\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Tula Arsenal\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]1951\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] None</text>
+	</string>
+
+	<string id="st_wpn_sks_new_modern">
+		<text>Molot OP-SKS Carbine</text>
+	</string>
+	<string id="st_wpn_sks_new_modern_s">
+		<text>OP-SKS</text>
+	</string>
+	<string id="st_wpn_sks_new_modern_descr">
+		<text>
+		A modern civilian variant of the SKS carbine, manufactured by Molot Arms for the Russian sporting and hunting market. The OP-SKS features a reinforced wood stock, improved finish, and can be fitted with a side-rail mount and a muzzle thread adapter to accept optics and modern suppressors.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Russia\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]Molot Arms\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2000s–present\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] PSO-1, Kobra, 1P29 (after installing a Side-Rail Mount)\n
+		%c[d_purple] • %c[ui_gray_2] 7.62x39 compatible suppressor (after installing a Muzzle Thread Adapter)</text>
+	</string>
+
+	<string id="st_addon_sil_hexagon">
+		<text>SKS Hexagon 7.62x39 sound suppressor</text>
+	</string>
+	<string id="st_addon_sil_hexagon_s">
+		<text>Hexagon SKS suppressor</text>
+	</string>
+	<string id="st_addon_sil_hexagon_descr">
+		<text>A 7.62?39mm suppressor designed for SKS carbines.</text>
+	</string>
+
+	<string id="st_up_sks_mount_name">
+		<text>Side-Rail Mount</text>
+	</string>
+	<string id="st_up_sks_mount_descr">
+		<text>A dovetail bracket for the SKS receiver, enabling installation of optics and reflex sights.</text>
+	</string>
+
+	<string id="st_up_sks_sil_name">
+		<text>Muzzle Thread Adapter</text>
+	</string>
+	<string id="st_up_sks_sil_descr">
+		<text>A threaded collar for the SKS muzzle, allowing attachment of modern 7.62?39 suppressors and muzzle devices.</text>
+	</string>
+
+	<string id="st_mag_opsks_7.62x39">
+		<text>7.62x39 OP-SKS Magazine</text>
+	</string>
+	<string id="st_mag_opsks_7.62x39_descr">
+		<text>OP-SKS Magazine with a capacity of 20 rounds.</text>
+	</string>
+
+	<string id="st_prop_mount">
+		<text>Allows scopes installation</text>
+	</string>
+
+</string_table>

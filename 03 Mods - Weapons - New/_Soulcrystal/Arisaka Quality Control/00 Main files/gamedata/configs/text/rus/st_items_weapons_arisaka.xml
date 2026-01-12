@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
 <string_table>
 
 	<string id="st_wpn_arisaka">
@@ -15,5 +14,19 @@
 		Конкретно эта модель была переделана для стрельбы патронами калибра 7,92x57 мм для Национальной революционной армии.\n \n
 		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n%c[d_purple]• %c[ui_gray_2] прицел ПУ\n \n</text>
 	</string>
-	
+
+	<string id="st_wpn_arisaka_3006">
+		<text>Arisaka Type 99 - .30-06 Springfield</text>
+	</string>
+	<string id="st_wpn_arisaka_3006_s">
+		<text>Type 99 (.30-06)</text>
+	</string>
+	<string id="st_wpn_arisaka_3006_descr">
+		<text>The Arisaka Type 99 is a bolt-action rifle that was the standard infantry rifle of the Imperial Japanese Army from 1939 till the end of World War II.\n
+		Featuring a cock-on-closing action and an unusual safety mechanism, the Type 99 has one of the strongest actions ever made for a bolt action.\n
+		During the Korean War, a number of Type 99 rifles were re-chambered to fire the standard .30-06 Springfield cartridge. Accuracy suffered, due to the difference in cartridges, rifling rate and characteristics, but they were nonetheless functional.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple]• %c[ui_gray_2] PU scope</text>
+	</string>
+
 </string_table>

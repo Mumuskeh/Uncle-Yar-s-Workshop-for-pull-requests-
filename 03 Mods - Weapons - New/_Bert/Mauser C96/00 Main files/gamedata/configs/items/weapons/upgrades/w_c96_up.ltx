@@ -1,0 +1,129 @@
+[up_sect_thirda_c96]
+cost						= 1020
+value						= -0.33
+inv_weight					= -0.33
+crosshair_inertion			= -0.3
+PDM_disp_base				= -0.05
+PDM_disp_vel_factor			= -0.15
+PDM_disp_accel_factor		= -0.15
+
+[up_sect_fiftha_c96]
+cost						= 1290
+value						= +15
+
+condition_shot_dec			= -0.0002
+condition_queue_shot_dec	= -0.0002
+
+[up_sect_fifthc_c96]
+cost						= 2660
+value						= "9x19"
+ammo_class					= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+
+rpm							= +22
+
+fire_distance				= +50
+bullet_speed				= +40
+
+hit_power					= 0.46, 0.46, 0.46, 0.46
+
+shell_particles				= weapons\9x19
+
+cam_dispersion				= +0.12
+zoom_cam_dispersion			= +0.08
+cam_dispersion_inc			= +0.02
+inv_weight					= +0.06
+
+[up_thirda_c96]
+scheme_index				= 0, 2
+known						= 1
+effects						= up_gr_thirdcd_c96
+section						= up_sect_thirda_c96
+property					= prop_weight
+precondition_functor		= inventory_upgrades.precondition_functor_a
+precondition_parameter		= a	&	b
+effect_functor				= inventory_upgrades.effect_functor_a
+effect_parameter			= something_here
+prereq_functor				= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor		= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params				=
+name						= st_up_stvp_b1_name
+description					= st_up_stvp_b1_descr
+icon						= ui_inGame2_upgrade_Fora_12_8
+
+[up_fiftha_c96]
+scheme_index				= 0, 4
+known						= 1
+effects						= up_gr_fifthcd_c96
+section						= up_sect_fiftha_c96
+property					= prop_reliability
+precondition_functor		= inventory_upgrades.precondition_functor_a
+precondition_parameter		= a	&	b
+effect_functor				= inventory_upgrades.effect_functor_a
+effect_parameter			= something_here
+
+prereq_functor				= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor		= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params				=
+name						= st_up_barp_b1_name
+description					= st_up_barp_b1_descr
+icon						= ui_inGame2_upgrade_Volker_P9M_6
+
+[up_fifthc_c96]
+scheme_index				= 1, 7
+known						= 1
+effects						=
+section						= up_sect_fifthc_c96
+property					= prop_calibre
+
+precondition_functor		= inventory_upgrades.precondition_functor_a
+precondition_parameter		= a	&	b
+effect_functor				= inventory_upgrades.effect_functor_a
+effect_parameter			= something_here
+
+prereq_functor				= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor		= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params				=
+name						= st_up_add_b4_name
+description					= st_up_add_b4_descr
+icon						= ui_inGame2_upgrade_Fora_12_14
+
+;----------------------------------------------------------------------------------------------------------------------
+
+[up_sect_thirdc_c96]
+cost					= 3000
+value					= +10
+ammo_mag_size			= +10
+inv_weight				= +0.3
+
+[up_thirdc_c96]
+scheme_index			= 0, 5
+known					= 1
+effects					= 
+section					= up_sect_thirdc_c96
+property				= prop_ammo_size	
+
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			= 
+name					= st_up_pistol_name
+description				= st_up_pistol_descr
+icon					= ui_inGame2_upgrade_HPSS_1m_15
+
+;----------------------------------------------------------------------------------------------------------------------
+
+[up_gr_thirdab_c96]
+elements	= up_thirda_c96
+
+[up_gr_thirdcd_c96]
+elements	= up_thirdc_c96
+
+[up_gr_fifthab_c96]
+elements	= up_fiftha_c96
+
+[up_gr_fifthcd_c96]
+elements	= up_fifthc_c96

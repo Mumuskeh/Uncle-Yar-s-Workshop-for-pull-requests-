@@ -8,6 +8,7 @@ NOTE: You need the original mod. Disable the original configs folder.
 ----------------------------------------------------------
 -Explanation:
 
+Text edited for corrections. Also removed the "(LEWD)" tags.
 Icon files trimmed.
 
 Integration into:

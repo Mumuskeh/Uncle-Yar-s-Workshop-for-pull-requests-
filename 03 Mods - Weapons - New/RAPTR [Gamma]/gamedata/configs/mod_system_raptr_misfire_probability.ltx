@@ -1,0 +1,26 @@
+; Baseline jam probabilities per weapon class:
+; 0.0009    manual action/revolvers
+; 0.0044    pistols (9mm)
+; 0.003     automatic rifles/MG/SMG (5,45x39/9mm)
+; 0.0       launchers/Gauss
+
+; Differences between weapons of same class are mainly based on damage per shot
+; oleh5230, 17.06.2025
+
+![default_weapon_params]
+misfire_probability		= 0.005     ; unused
+misfire_start_condition	= 0.83      ; can be changed to batch edit jam probability for all guns
+misfire_start_prob		= 0.003     ; base jam probability
+misfire_end_condition	= 0.1       ; unused in GAMMA
+misfire_end_prob		= 0.1       ; unused in GAMMA
+condition_queue_shot_dec= 0.0008    ; misfire_start_prob * 0.27 (except for manual action/revolvers)
+condition_shot_dec		= 0.0008    ; same as condition_queue_shot_dec
+
+![wpn_raptr]
+!misfire_probablity
+!misfire_start_condition
+misfire_start_prob		= 0.012
+!misfire_end_condition
+!misfire_end_prob
+condition_queue_shot_dec= 0.0032
+condition_shot_dec		= 0.0032

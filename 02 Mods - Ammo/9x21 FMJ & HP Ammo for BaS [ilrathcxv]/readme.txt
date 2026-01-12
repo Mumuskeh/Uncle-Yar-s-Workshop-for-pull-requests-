@@ -6,7 +6,13 @@
 
 ----------------------------------------------------------
 -Explanation:
+
+Beyond BaS' weapons, the ammo will be applied as well to those guns that can use 9x21, such as various clone patches in this package (currently, for Kmack's PDP and PPQ5, and Dionisiy9x39's Scorpion EVO 3), and any others that I may become aware of.
+Icons gathered into a single file.
+
 Integration into the vanilla reward and stash systems.
+
+The Mags Redux support is now more robust against changes in the main Mags Redux's BaS patch.
 
 Integration into:
 Arszi's Mutant Bleeding + Optimization Patch.

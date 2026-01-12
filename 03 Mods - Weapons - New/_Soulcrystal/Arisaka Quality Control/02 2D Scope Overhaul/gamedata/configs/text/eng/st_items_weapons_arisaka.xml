@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_arisaka">
+		<text>Arisaka Type 99</text>
+	</string>
+	<string id="st_wpn_arisaka_s">
+		<text>Type 99</text>
+	</string>
+	<string id="st_wpn_arisaka_descr">
+		<text>The Arisaka Type 99 is a bolt-action rifle that was the standard infantry rifle of the Imperial Japanese Army from 1939 till the end of World War II.\n
+		Featuring a cock-on-closing action and an unusual safety mechanism, the Type 99 has one of the strongest actions ever made for a bolt action.\n
+		During the Korean War, approximately 126,500 short and 6,650 long Type 99 rifles were re-chambered to fire the standard .30-06 Springfield cartridge.\n
+		This specific model was converted to fire 7.92?57mm ammo for the National Revolutionary Army.\n\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple]• %c[ui_gray_2] Type 97 Arisaka scope</text>
+	</string>
+
+	<string id="st_wpn_arisaka_3006">
+		<text>Arisaka Type 99 - .30-06 Springfield</text>
+	</string>
+	<string id="st_wpn_arisaka_3006_s">
+		<text>Type 99 (.30-06)</text>
+	</string>
+	<string id="st_wpn_arisaka_3006_descr">
+		<text>The Arisaka Type 99 is a bolt-action rifle that was the standard infantry rifle of the Imperial Japanese Army from 1939 till the end of World War II.\n
+		Featuring a cock-on-closing action and an unusual safety mechanism, the Type 99 has one of the strongest actions ever made for a bolt action.\n
+		During the Korean War, a number of Type 99 rifles were re-chambered to fire the standard .30-06 Springfield cartridge. Accuracy suffered, due to the difference in cartridges, rifling rate and characteristics, but they were nonetheless functional.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple]• %c[ui_gray_2] Type 97 Arisaka scope</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_addon_scope_arisaka97">
+		<text>Type 97 Arisaka Scope</text>
+	</string>
+	<string id="st_addon_scope_arisaka97_s">
+		<text>Type 97 Arisaka</text>
+	</string>
+	<string id="st_addon_scope_arisaka97_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Arisaka Rifles\n \n%c[ui_gray_1]This optic was born out of an attempt by the japanese army to modify Type 38 Arisaka rifles into capable sniper rifles, the Type 97. Due to the shortage of raw material required to produce accurate rifles, the lack of elevation and windage adjustment, all scopes were zeroed based on the rifle it was attached to, making it impossible to swap scope between rifles. Luckily, reproductions that traveled to the zone like this one do not suffer the same drawbacks as its predecessor.\n \n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]2.5x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticule pattern: %c[ui_gray_1]Type 97 Reticle</text>
+	</string>
+	
+	<string id="st_addon_scope_pu">
+		<text>PU scope</text>
+	</string>
+	<string id="st_addon_scope_pu_s">
+		<text>PU</text>
+	</string>
+	<string id="st_addon_scope_pu_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Mosin Nagant and SKS Rifles\n \n%c[ui_gray_1]Standard-issue telescopic sight of the Red Army in World War II and years after it, designed to fit multiple soviet rifles such as the Mosin Nagant and SKS rifles. It features a fixed 3.5x zoom making it a good choice for long-distance combat. Like all Soviet designs, it is durable and effective, remaining in production and use to this day.\n \n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]3.5x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]average\n
+		%c[d_purple] • %c[ui_gray_2] Reticule pattern: %c[ui_gray_1]PU</text>
+	</string>
+
+</string_table>

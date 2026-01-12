@@ -1,0 +1,312 @@
+[wpn_mosin_carbine_sounds]
+snd_draw				= weapons\mosin_carbine\handling\mosin_carbine_deploy
+snd_holster				= weapons\mosin_carbine\handling\mosin_carbine_holster
+snd_shoot				= wpn_mosin_carbine_snd_shoot
+snd_shoot_actor			= wpn_mosin_carbine_snd_shoot_actor
+snd_silncer_shot		= wpn_mosin_carbine_snd_silenced
+snd_silncer_shot_actor	= wpn_mosin_carbine_snd_silenced_actor
+
+scripted_snd_shots		= weapons\mosin_carbine\handling\mosin_carbine_bolt_shooting
+
+; scripted_snd_shot_l	= weapons\mosin_carbine\stereo\mosin_carbine_shoot_stereo_no_bolt1,true
+; scripted_snd_shot_l_variant1	= weapons\mosin_carbine\stereo\mosin_carbine_shoot_stereo_no_bolt2,true
+; scripted_snd_shot_l_variant2	= weapons\mosin_carbine\stereo\mosin_carbine_shoot_stereo_no_bolt3,true
+; scripted_snd_shot_l_variant3	= weapons\mosin_carbine\stereo\mosin_carbine_shoot_stereo_no_bolt4,true
+
+snd_empty			= weapons\mosin_carbine\handling\mosin_carbine_trigger_empty
+snd_bore			= weapons\mosin_carbine\handling\mosin_carbine_inspect
+
+snd_open			= $no_sound
+snd_open_weapon		= $no_sound
+snd_reload_empty	= $no_sound
+
+snd_reload_misfire	= weapons\mosin_carbine\handling\mosin_carbine_unjam1
+
+scripted_snd_open	= weapons\mosin_carbine\handling\mosin_carbine_start_reload1
+snd_close_weapon	= weapons\mosin_carbine\handling\mosin_carbine_bolt_end1
+snd_add_cartridge	= weapons\mosin_carbine\handling\mosin_carbine_add_cartridge1
+snd_add_cartridge1	= weapons\mosin_carbine\handling\mosin_carbine_add_cartridge2
+snd_add_cartridge2	= weapons\mosin_carbine\handling\mosin_carbine_add_cartridge3
+
+[wpn_mosin_carbine_snd_shoot]
+snd_1_layer		= weapons\_gunfire\mono\mosin\close_1
+snd_1_layer1	= weapons\_gunfire\mono\mosin\close_2
+snd_1_layer2	= weapons\_gunfire\mono\mosin\close_3
+snd_1_layer3	= weapons\_gunfire\mono\mosin\close_4
+snd_2_layer		= weapons\_gunfire\mono\mosin\Close_Distance
+snd_3_layer		= weapons\_gunfire\mono\mosin\Medium_Distance
+snd_4_layer		= weapons\_shared\mono\reflectors\sniper\Reflector_1, 0.5
+snd_4_layer1	= weapons\_shared\mono\reflectors\sniper\Reflector_2, 0.5
+snd_4_layer2	= weapons\_shared\mono\reflectors\sniper\Reflector_3, 0.5
+snd_4_layer3	= weapons\_shared\mono\reflectors\sniper\Reflector_4, 0.5
+snd_5_layer		= weapons\mosin_carbine\handling\mosin_carbine_bolt_shooting
+
+[wpn_mosin_carbine_snd_shoot_actor]
+snd_1_layer		= weapons\_gunfire\stereo\mosin\close_1
+snd_1_layer1	= weapons\_gunfire\stereo\mosin\close_2
+snd_1_layer2	= weapons\_gunfire\stereo\mosin\close_3
+; snd_1_layer3	= weapons\_gunfire\stereo\mosin\close_4
+snd_2_layer		= weapons\_shared\stereo\reflectors\sniper\Reflector_1
+snd_2_layer1	= weapons\_shared\stereo\reflectors\sniper\Reflector_2
+snd_2_layer2	= weapons\_shared\stereo\reflectors\sniper\Reflector_3
+snd_2_layer3	= weapons\_shared\stereo\reflectors\sniper\Reflector_4
+
+[wpn_mosin_carbine_snd_silenced]
+snd_1_layer		= weapons\_sd\mono\r700\sd_close_1
+snd_1_layer1	= weapons\_sd\mono\r700\sd_close_2
+snd_1_layer2	= weapons\_sd\mono\r700\sd_close_3
+snd_1_layer3	= weapons\_sd\mono\r700\sd_close_4
+snd_2_layer		= weapons\_sd\mono\r700\sd_close_distance
+snd_3_layer		= weapons\_sd\mono\r700\sd_medium_distance
+snd_4_layer		= weapons\_shared\mono\tail_sd\sniper\tail_sd_1, 0.5
+snd_4_layer1	= weapons\_shared\mono\tail_sd\sniper\tail_sd_2, 0.5
+snd_4_layer2	= weapons\_shared\mono\tail_sd\sniper\tail_sd_3, 0.5
+snd_4_layer3	= weapons\_shared\mono\tail_sd\sniper\tail_sd_4, 0.5
+snd_5_layer		= weapons\mosin_carbine\handling\mosin_carbine_bolt_shooting
+
+[wpn_mosin_carbine_snd_silenced_actor]
+snd_1_layer		= weapons\_sd\stereo\mosin\sd_close_1
+snd_1_layer1	= weapons\_sd\stereo\mosin\sd_close_2
+snd_1_layer2	= weapons\_sd\stereo\mosin\sd_close_3
+snd_1_layer3	= weapons\_sd\stereo\mosin\sd_close_4
+snd_2_layer		= weapons\_shared\stereo\tail_sd\sniper\tail_sd_1, 0.5
+snd_2_layer1	= weapons\_shared\stereo\tail_sd\sniper\tail_sd_2, 0.5
+snd_2_layer2	= weapons\_shared\stereo\tail_sd\sniper\tail_sd_3, 0.5
+snd_2_layer3	= weapons\_shared\stereo\tail_sd\sniper\tail_sd_4, 0.5
+
+;------------------------------------------------------------------------------------------------
+[wpn_mosin_carbine]:identity_immunities,weapon_probability,default_weapon_params,wpn_mosin_carbine_sounds
+GroupControlSection			= spawn_group
+$npc						= on
+$prefetch					= 8
+$spawn						= "weapons\mosin_carbine"
+scheduled					= off
+cform						= skeleton
+parent_section				= wpn_mosin_carbine
+
+class						= WP_ASHTG
+slot						= 2
+animation_slot				= 3
+ef_main_weapon_type			= 3
+ef_weapon_type				= 8
+hand_dependence				= 1
+single_handed				= 0
+
+default_to_ruck				= false
+sprint_allowed				= true
+
+icons_texture				= ui\mosin_trio_icon
+inv_grid_height				= 1
+inv_grid_width				= 5
+inv_grid_x					= 0
+inv_grid_y					= 3
+
+upgr_icon_path				= mosin_trio_icon
+upgr_icon_x					= 0
+upgr_icon_y					= 400
+upgr_icon_width				= 250
+upgr_icon_height			= 50
+
+inv_name					= st_wpn_mosin_carbine
+inv_name_short				= st_wpn_mosin_carbine
+description					= st_wpn_mosin_carbine_descr
+
+kind						= w_sniper
+inv_weight					= 3.4
+cost						= 29770
+repair_type					= shotgun
+weapon_class				= sniper_rifle
+
+hud							= wpn_mosin_carbine_hud
+visual						= dynamics\weapons\wpn_mosin_carbine\wpn_mosin_carbine_world.ogf
+orientation					= 2, 29, 0
+position					= -0.15, -0.17, -0.26
+fire_point					= 0.125, 0.08, 1.225
+fire_point2					= 0.125, 0.08, 1.225
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+strap_orientation			= -10, -10, 100
+strap_position				= -0.25, 0.05, -0.16
+ph_mass						= 3
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point					= 0.125, 0.08, 0.425
+shell_particles				= 
+
+light_disabled				= false
+light_color					= 0.6, 0.5, 0.3
+light_range					= 5.0
+light_time					= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.1
+
+upgrades					= up_gr_firstab_mosin_carbine, up_gr_seconab_mosin_carbine
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_mosin
+
+tri_state_reload			= on
+stripper_clip				= false
+fire_modes					= 1
+ammo_class					= ammo_7.62x54_7h1, ammo_7.62x54_7h1_bad, ammo_7.62x54_7h1_verybad, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad, ammo_7.62x54_7h14, ammo_7.62x54_7h14_bad, ammo_7.62x54_7h14_verybad
+ammo_elapsed				= 5
+ammo_mag_size				= 5
+startup_ammo				= 10
+
+scopes_sect					= 
+scopes						= 
+scope_status				= 0
+scope_zoom_factor			= 0
+use_alt_aim_hud				= true
+
+silencer_name				= wpn_sil_kzrzp
+silencer_status				= 2
+silencer_x					= 220
+silencer_y					= -18
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_smoke_particles	= weapons\generic_shoot_00
+
+grenade_class				= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status		= 0
+launch_speed				= 0
+
+use_alt_aim_hud				= false
+
+hit_impulse					= 38
+hit_power					= 1.18, 1.18, 1.18, 1.18
+hit_type					= fire_wound
+fire_distance				= 1100
+bullet_speed				= 760
+rpm							= 25
+rpm_empty_click				= 200
+
+use_aim_bullet				= false
+time_to_aim					= 0.0 ;	1.0
+zoom_enabled				= true
+zoom_rotate_time			= 0.3
+reload_dof					= 0.0, 0.5, 5, 2.2
+control_inertion_factor		= 1.0f
+crosshair_inertion			= 7.1
+fire_dispersion_base		= 0.13
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability			= 0.005
+misfire_start_condition		= 0.7 ;	0.84
+misfire_start_prob			= 0.007
+misfire_end_condition		= 0.12
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0024
+condition_shot_dec			= 0.0024
+
+cam_return					= 0
+cam_relax_speed				= 4.5
+cam_dispersion				= 2.35
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 2.35
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 1.05
+zoom_cam_relax_speed		= 3.5
+zoom_cam_dispersion			= 0.75
+zoom_cam_dispersion_frac	= 1.0
+zoom_cam_dispersion_inc		= 2.3
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 0.95
+
+PDM_disp_accel_factor		= 2.75
+PDM_disp_base				= 2.25
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 2.75
+
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 120.75
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 2.15
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_x					= 175
+kill_msg_y					= 0
+kill_msg_width				= 82
+kill_msg_height				= 28
+
+[wpn_mosin_carbine_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_mosin_carbine\wpn_mosin_carbine_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+base_hud_offset_pos			= -0.004207, 7e-06, 0.040463
+base_hud_offset_pos_16x9	= -0.004207, 7e-06, 0.040463
+base_hud_offset_rot			= 0.002276, -0.014091, 0.032427
+base_hud_offset_rot_16x9	= 0.002276, -0.014091, 0.032427
+
+hands_position			= 0, 0, 0
+hands_position_16x9		= 0, 0, 0
+hands_orientation		= 0, 0, 0
+hands_orientation_16x9	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.054931, 0.019455, -0.068276
+aim_hud_offset_pos_16x9	= -0.054931, 0.019455, -0.068276
+aim_hud_offset_rot		= -0.009869, 0.000212, 0
+aim_hud_offset_rot_16x9	= -0.009869, 0.000212, 0
+
+aim_hud_offset_alt_pos		= -0.073909, -0.062106, -0.014648
+aim_hud_offset_alt_pos_16x9	= -0.073909, -0.062106, -0.014648
+aim_hud_offset_alt_rot		= -0.010943, 0.012829, 0.664175
+aim_hud_offset_alt_rot_16x9	= -0.010943, 0.012829, 0.664175
+
+lowered_hud_offset_pos		= -0.019576, -0.014545, 0.017404
+lowered_hud_offset_pos_16x9	= -0.019576, -0.014545, 0.017404
+lowered_hud_offset_rot		= 0.029791, -0.216304, 0.4
+lowered_hud_offset_rot_16x9	= 0.029791, -0.216304, 0.4
+
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_show				= mosin_carbine_draw, idle
+anm_hide				= mosin_carbine_holster, idle
+anm_idle				= mosin_carbine_idle, idle
+anm_idle_aim			= mosin_carbine_aim, idle
+anm_idle_moving			= mosin_carbine_walk, idle
+anm_idle_moving_crouch	= mosin_carbine_walk, idle, 0.7
+anm_idle_sprint			= mosin_carbine_sprint, idle
+;anm_reload_empty		= mosin_carbine_reload_empty, reload_empty_ns
+anm_reload_misfire		= mosin_carbine_unjam, reload_misfire
+anm_shots				= mosin_carbine_shots, shots
+;anm_shot_l				= mosin_carbine_shots, shots
+anm_shot_l				= mosin_carbine_shots_last, shots_l
+anm_bore				= mosin_carbine_inspect, idle
+
+;anm_reload			= mosin_carbine_reload_loop, reload_loop
+anm_add_cartridge	= mosin_carbine_reload_loop, reload_loop, 1.2
+anm_close			= mosin_carbine_reload_end, reload_end, 1.2
+anm_open			= mosin_carbine_reload_start, reload_start, 1.2
+anm_skip_close		= mosin_carbine_dummy, idle
+
+ts_pattern_close_empty	= anm_add_cartridge.*, ^anm_idle.*, anm_close, 1
+
+shell_bone	= wpn_body
+shell_point	= 0, 0, -10
+
+fire_bone	= wpn_body
+fire_point	= 0.0018, 0.049, 0.696
+
+freelook_z_offset_mul	= 0.2

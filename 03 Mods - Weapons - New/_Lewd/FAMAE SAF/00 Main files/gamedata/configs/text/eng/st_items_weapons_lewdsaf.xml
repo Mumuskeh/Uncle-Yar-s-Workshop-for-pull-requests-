@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_lewd_saf">
+		<text>FAMAE SAF</text>
+	</string>
+	<string id="st_wpn_lewd_saf_descr">
+		<text>The FAMAE SAF (Subametralladora Famae) produced and manufactured in Chile by FAMAE (Fabricas y Maestranzas del Ejercito) since 1993, is a blowback-operated select-fire submachine gun, firing from a closed bolt, based on the Swiss SIG SG 540 assault rifle, produced under license in Chile in the 1980s. The design is a shortened version of the SIG 540 rifle, but the rotating bolt has been replaced with a simple blowback bolt. The SAF also has a bolt hold-open catch that engages after the final shot. Otherwise, the receiver, stock, fore-end, trigger/hammer assembly and floating firing pin design are from the SIG 540, also retaining the folding trigger guard for winter glove use.\n
+		The upper and lower receiver as well as the trigger guard are steel, and the pistol-grip and handguards are all made from polymer. The ambidextrous safety/fire selector switch, as well as the interchangeability with SIG 552/553 handguards are a feature found on the latest versions.\n
+		This particular model is chambered in 9mm.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] Using the spraygun paint you can recolor this weapon into a different color. (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saf_camo_descr">
+		<text>The FAMAE SAF (Subametralladora Famae) produced and manufactured in Chile by FAMAE (Fabricas y Maestranzas del Ejercito) since 1993, is a blowback-operated select-fire submachine gun, firing from a closed bolt, based on the Swiss SIG SG 540 assault rifle, produced under license in Chile in the 1980s. The design is a shortened version of the SIG 540 rifle, but the rotating bolt has been replaced with a simple blowback bolt. The SAF also has a bolt hold-open catch that engages after the final shot. Otherwise, the receiver, stock, fore-end, trigger/hammer assembly and floating firing pin design are from the SIG 540, also retaining the folding trigger guard for winter glove use.\n
+		The upper and lower receiver as well as the trigger guard are steel, and the pistol-grip and handguards are all made from polymer. The ambidextrous safety/fire selector switch, as well as the interchangeability with SIG 552/553 handguards are a feature found on the latest versions.\n
+		This particular model is chambered in 9mm.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] This weapon has been painted using the spraygun paint. You can turn it back into its original color by using kerosene (this will consume the Kerosene item).\n
+		Using the spraygun paint you can recolor this weapon into a different color (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saf_secret_descr">
+		<text>Well congrats, you did it, you found the secret camo. Too bad it's permanent, ha ha. Yep, there's no way back, on the flipside, you now have a cool Kryptek Obscura Nox camo.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] no attachments\n
+		%c[d_purple] Sights: %c[ui_gray_2] no sights.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Secret Paint: %c[ui_gray_2] This weapon has been upgraded to its secret camo variant. This change is permanent.
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saf_special_descr">
+		<text>Shiny!!!! Too bad it's permanent, ha ha. Yep, there's no way back, on the flipside, everybody will envy you.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] no attachments\n
+		%c[d_purple] Sights: %c[ui_gray_2] no sights.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Special Paint: %c[ui_gray_2] This weapon has been upgraded to its special camo variant. This change is permanent, as are the increased weapon ratings, so there's that.
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saftac">
+		<text>FAMAE SAF Tactical</text>
+	</string>
+	<string id="st_wpn_lewd_saftac_descr">
+		<text>The FAMAE SAF (Subametralladora Famae) produced and manufactured in Chile by FAMAE (Fabricas y Maestranzas del Ejercito) since 1993, is a blowback-operated select-fire submachine gun, firing from a closed bolt, based on the Swiss SIG SG 540 assault rifle, produced under license in Chile in the 1980s. The design is a shortened version of the SIG 540 rifle, but the rotating bolt has been replaced with a simple blowback bolt. The SAF also has a bolt hold-open catch that engages after the final shot. Otherwise, the receiver, stock, fore-end, trigger/hammer assembly and floating firing pin design are from the SIG 540, also retaining the folding trigger guard for winter glove use.\n
+		The upper and lower receiver as well as the trigger guard are steel, and the pistol-grip and handguards are all made from polymer. The ambidextrous safety/fire selector switch, as well as the interchangeability with SIG 552/553 handguards are a feature found on the latest versions.\n
+		This particular model is chambered in 9mm.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] 9mm silencer\n
+		%c[d_purple] Sights: %c[ui_gray_2] common western reddot sights (high profile) and battle sights (prismatic and low magnification scopes) and a permanently installed laser sight.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] Using the spraygun paint you can recolor this weapon into a different color. (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saftac_camo_descr">
+		<text>The FAMAE SAF (Subametralladora Famae) produced and manufactured in Chile by FAMAE (Fabricas y Maestranzas del Ejercito) since 1993, is a blowback-operated select-fire submachine gun, firing from a closed bolt, based on the Swiss SIG SG 540 assault rifle, produced under license in Chile in the 1980s. The design is a shortened version of the SIG 540 rifle, but the rotating bolt has been replaced with a simple blowback bolt. The SAF also has a bolt hold-open catch that engages after the final shot. Otherwise, the receiver, stock, fore-end, trigger/hammer assembly and floating firing pin design are from the SIG 540, also retaining the folding trigger guard for winter glove use.\n
+		The upper and lower receiver as well as the trigger guard are steel, and the pistol-grip and handguards are all made from polymer. The ambidextrous safety/fire selector switch, as well as the interchangeability with SIG 552/553 handguards are a feature found on the latest versions.\n
+		This particular model is chambered in 9mm.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] 9mm silencer\n
+		%c[d_purple] Sights: %c[ui_gray_2] common western reddot sights (high profile) and battle sights (prismatic and low magnification scopes) and a permanently installed laser sight.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] This weapon has been painted using the spraygun paint. You can turn it back into its original color by using kerosene (this will consume the Kerosene item).\n
+		Using the spraygun paint you can recolor this weapon into a different color (this will consume the spraygun paint item)\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saftac_secret_descr">
+		<text>Well congrats, you did it, you found the secret camo. Too bad it's permanent, ha ha. Yep, there's no way back, on the flipside, you now have a cool Kryptek Obscura Nox camo.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] 9mm silencer\n
+		%c[d_purple] Sights: %c[ui_gray_2] common western reddot sights (high profile) and battle sights (prismatic and low magnification scopes) and a permanently installed laser sight.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] This weapon has been upgraded to its secret camo variant. This change is permanent.\n
+		</text>
+	</string>
+
+	<string id="st_wpn_lewd_saftac_special_descr">
+		<text>Shiny!!!! Too bad it's permanent, ha ha. Yep, there's no way back, on the flipside, everybody will envy you.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] Attachments: %c[ui_gray_2] 9mm silencer\n
+		%c[d_purple] Sights: %c[ui_gray_2] common western reddot sights (high profile) and battle sights (prismatic and low magnification scopes) and a permanently installed laser sight.\n
+		%c[ui_gray_2]REPAINT:\n
+		%c[d_purple] Camo Paint: %c[ui_gray_2] This weapon has been upgraded to its secret camo variant. This change is permanent.\n
+		</text>
+	</string>
+
+</string_table>
