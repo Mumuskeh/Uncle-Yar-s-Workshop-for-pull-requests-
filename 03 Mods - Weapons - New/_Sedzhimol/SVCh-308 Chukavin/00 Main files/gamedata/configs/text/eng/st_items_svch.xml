@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_svch">
+		<text>SVCh-308 (Chukavin sniper rifle)</text>
+	</string>
+<string id="st_wpn_svch_s">
+		<text>SVCh-308</text>
+	</string>
+	<string id="st_wpn_svch_descr">
+		<text>
+		The SVCh (Snayperskaya Vintovka Chukavina, 'Chukavin Sniper Rifle'), is a semi-automatic designated marksman rifle/sniper rifle chambered for fully powered cartridges developed by the Kalashnikov Concern. It is designed on the basis of the SVK-2016 rifle as a replacement for the SVD, intended to defeat enemy manpower, fire and unarmored vehicles at a range of up to 1000 meters. It takes into account modern requirements for the ergonomics of weapons of this class, allowing for the individual characteristics of shooters, as well as the ability to use a wide range of combat equipment.\n
+		The SVCh-308 is a variant chambered for the 7.62?51mm NATO cartridge.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[d_green] Silencer: %c[d_orange] KZRZP
+		</text>
+	</string>
+
+</string_table>

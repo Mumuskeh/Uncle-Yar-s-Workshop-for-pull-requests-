@@ -285,9 +285,23 @@ bullet_speed	= 853 ; 855
 ![wpn_m3a1]
 fire_distance	= 200
 bullet_speed	= 274
-![wpn_greasegun]
+![wpn_m3a1tac]
+inv_weight		= 4.24
+cost			= 27693
 fire_distance	= 200
 bullet_speed	= 274
+![wpn_greasegun]
+inv_weight		= 4.24
+cost			= 27693
+fire_distance	= 200
+bullet_speed	= 274
+
+;Milkor
+![wpn_m32_mgl]
+$spawn			= "weapons\m32_mgl"
+fire_distance	= 400 ; 500
+bullet_speed	= 75 ; 76
+rpm				= 20 ; 115
 
 ;MAC-10
 ![wpn_mac10]
@@ -301,12 +315,10 @@ fire_distance	= 50
 bullet_speed	= 280
 rpm				= 1146
 
-;Milkor
-![wpn_m32_mgl]
-$spawn			= "weapons\m32_mgl"
-fire_distance	= 400 ; 500
-bullet_speed	= 75 ; 76
-rpm				= 20 ; 115
+;MP40
+![wpn_mp40]
+inv_weight		= 4.2 ; 2.7
+fire_distance	= 200 ; 350
 
 ;Type 56 pack
 ![wpn_type56]
@@ -466,7 +478,6 @@ hit_power		= 0.47, 0.47, 0.47, 0.47 ; 0.46, 0.46, 0.46, 0.46
 fire_distance	= 200 ; 300
 bullet_speed	= 396 ; 330
 rpm				= 800 ; 650
-!ap_modifier
 ![mag_kp31_9x18]
 max_mag_size	= 71 ; 50
 
@@ -765,7 +776,6 @@ fire_distance	= 200
 bullet_speed	= 710
 rpm				= 900
 rpm_empty_click	= 200
-ap_modifier		= 1
 
 ![wpn_mp9_j]
 $spawn			= "weapons\mp9_j"
@@ -781,7 +791,6 @@ fire_distance	= 200
 bullet_speed	= 710
 ;a jump of 200 rpm seems too big
 rpm				= 1000
-ap_modifier		= 1
 
 ;QBZ 95
 ![wpn_qbz95]
@@ -960,6 +969,16 @@ hit_impulse		= 25 ; 28
 hit_power		= 0.50, 0.50, 0.50, 0.50 ; 0.52, 0.52, 0.52, 0.52
 fire_distance	= 500 ; 1000
 bullet_speed	= 860 ; 970
+
+;FAMAE SAF
+![wpn_lewd_saf]
+hit_impulse		= 24 ; 25
+hit_power		= 0.47, 0.47, 0.47, 0.47 ; 0.48, 0.48, 0.48, 0.48
+fire_distance	= 190 ; 400
+; bullet_speed					= 390
+rpm				= 1190 ; 1120
+
+![wpn_lewd_saftac]
 
 ;FARA 83
 ![wpn_fara83]
@@ -1295,6 +1314,10 @@ inv_weight		= 1.75
 inv_weight		= 1.4
 bullet_speed	= 310
 rpm				= 1000
+
+;SVCh-308 Chukavin
+![wpn_svch]
+inv_weight		= 4.4 ; 4.8
 
 
 ;;SIBERCAT DEMONIZED LASSIE 	============	============	============	============

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_scar12">
+		<text>FN SCAR-12</text>
+	</string>
+	<string id="st_wpn_scar12_s">
+		<text>SCAR-12</text>
+	</string>
+	<string id="st_wpn_scar12_descr">
+		<text>Developed by FN America in the early 2010s, the FN SCAR-12 takes the ergonomics and reliability of the SCAR platform and goes all in on close range firepower by turning it into a 12 guage shotgun.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255] origin: %c[ui_gray_2]USA\n
+		%c[d_cyan] • %c[0,255,255,255] manufacturer: %c[ui_gray_2]FN America\n</text>
+	</string>
+</string_table>

@@ -23,5 +23,8 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
+3D ACOG
+The models use a seethrough ACOG model. This will disable the aiming texture and to let you aim with the model itself.
+
 ----------------------------------------------------------
 -Known issues:
