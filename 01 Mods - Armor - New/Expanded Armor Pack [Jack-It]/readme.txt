@@ -1,6 +1,5 @@
 -Module:
-DLTX Minimod - Expanded Armor Pack [Jack-It, Demonized]
-https://www.moddb.com/mods/stalker-anomaly/addons/dltx-required-dltx-minimod-pack
+Expanded Armor Pack [Jack-It, Demonized]
 
 ----------------------------------------------------------
 -Compatibility:
@@ -27,7 +26,7 @@ Outfits have also been rebalanced, particularly the matter of not having proper 
 -ISG LCS Operator: head ballistic protection buffed from none to M40 mask level. Reduced camouflage effect by a quarter of the original.
 -ISG Radsuit Ghost: added to the NPC spawn pool. Reduced camouflage effect by a quarter of the original.
 
-Includes integration for:
+Integration into:
 1st Person View.
 Grok's Stash Overhaul. Some outfits will be rarer than their standard vanilla counterparts.
 Mags Redux. Not as simple as other patches. Some outfits get worse or better carrying capacities than the standard suit, depending on description, for example if it mentions being modified for lightness, capacities, or being designed instead of improvised.

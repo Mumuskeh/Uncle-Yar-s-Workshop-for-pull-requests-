@@ -1,0 +1,20 @@
+<specific_character id="sim_default_ecolog_01_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_ecolog_01.xml"
+    <icon>ui_inGame2_ecolog_red</icon>
+    <visual>actors\stalker_ecolog\stalker_tourist</visual>
+    <snd_config>characters_voice\human\ecolog_3\</snd_config>
+</specific_character>
+
+<specific_character id="sim_default_ecolog_01_chokoladka_1" team_default = "1">
+#include "gameplay\profiles\character_desc_ecolog_01.xml"
+    <icon>ui_inGame2_ecolog_red</icon>
+    <visual>actors\stalker_ecolog\stalker_tourist_gas</visual>
+    <snd_config>characters_voice\human\ecolog_3\</snd_config>
+</specific_character>
+
+<specific_character id="sim_default_ecolog_01_chokoladka_2" team_default = "1">
+#include "gameplay\profiles\character_desc_ecolog_01.xml"
+    <icon>ui_inGame2_ecolog_red</icon>
+    <visual>actors\stalker_ecolog\stalker_tourist_mask</visual>
+    <snd_config>characters_voice\human\ecolog_3\</snd_config>
+</specific_character>

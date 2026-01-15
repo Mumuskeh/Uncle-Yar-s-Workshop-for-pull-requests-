@@ -1,0 +1,6 @@
+<specific_character id="sim_default_monolith_1_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_monolith_1.xml"
+    <icon>ui_inGame2_monolit_2</icon>
+    <snd_config>characters_voice\human\monolith_3\</snd_config><!-- 1 -->
+    <visual>actors\stalker_monolith\stalker_mono_gas_old</visual>
+</specific_character>

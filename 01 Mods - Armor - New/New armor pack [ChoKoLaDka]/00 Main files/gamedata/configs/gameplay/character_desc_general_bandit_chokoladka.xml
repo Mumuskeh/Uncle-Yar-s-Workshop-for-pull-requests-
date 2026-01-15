@@ -1,0 +1,6 @@
+<specific_character id="sim_default_bandit_2_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_bandit_2.xml"
+    <icon>ui_inGame2_bandit_1</icon>
+    <snd_config>characters_voice\human\bandit_3\</snd_config>
+    <visual>actors\stalker_bandit\stalker_bandit_reider</visual>
+</specific_character>

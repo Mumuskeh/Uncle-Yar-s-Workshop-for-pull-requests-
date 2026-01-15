@@ -1,0 +1,36 @@
+<specific_character id="sim_default_freedom_0_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_0.xml"
+    <icon>ui_inGame2_freedom_ranger</icon>
+    <snd_config>characters_voice\human\freedom_1\</snd_config>
+    <visual>actors\stalker_freedom\stalker_freedom_light</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_freedom_3_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_3.xml"
+    <icon>ui_inGame2_neutral_3</icon>
+    <snd_config>characters_voice\human\freedom_3\</snd_config>
+    <visual>actors\stalker_neutral\stalker_neutral3b</visual>
+</specific_character>
+
+<specific_character id="sim_default_freedom_3_chokoladka_1" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_3.xml"
+    <icon>ui_inGame2_neutral_3</icon>
+    <snd_config>characters_voice\human\freedom_3\</snd_config>
+    <visual>actors\stalker_freedom\stalker_freedom_grom</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_freedom_4_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_4.xml"
+    <icon>ui_inGame2_neutral_4</icon>
+    <snd_config>characters_voice\human\freedom_3\</snd_config>
+    <visual>actors\stalker_freedom\stalker_freedom_exolight</visual>
+</specific_character>
+
+<specific_character id="sim_default_freedom_4_chokoladka_1" team_default = "1">
+#include "gameplay\profiles\character_desc_freedom_4.xml"
+    <icon>ui_inGame2_neutral_4</icon>
+    <snd_config>characters_voice\human\freedom_3\</snd_config>
+    <visual>actors\stalker_freedom\stalker_freddom_exo_veter</visual>
+</specific_character>

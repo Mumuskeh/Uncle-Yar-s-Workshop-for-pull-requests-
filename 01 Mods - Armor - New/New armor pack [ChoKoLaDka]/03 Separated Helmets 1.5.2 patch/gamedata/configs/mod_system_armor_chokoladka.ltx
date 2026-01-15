@@ -1,0 +1,785 @@
+;; Berill
+[army_2_outfit]:army_outfit
+$spawn			= "outfit\army_2_outfit"
+actor_visual	= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
+npc_visual		= actors\stalker_soldier\stalker_soldier_1_helm_tactic_nogas
+
+inv_name		= army_2_outfit_name
+inv_name_short	= army_2_outfit_name
+description		= army_2_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 4
+inv_grid_y		= 0
+
+additional_inventory_weight	= 13
+additional_inventory_weight2= 13
+hit_fraction_actor			= 0.80
+
+strike_protection		= 0.011
+explosion_protection	= 0.20
+wound_protection		= 0.40
+
+[army_3_outfit]:army_outfit
+$spawn			= "outfit\army_3_outfit"
+actor_visual	= actors\stalker_soldier\soldier_balaklava.ogf
+npc_visual		= actors\stalker_soldier\soldier_balaklava.ogf
+
+inv_name		= army_3_outfit_name
+inv_name_short	= army_3_outfit_name
+description		= army_3_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 8
+
+cost						= 38571
+additional_inventory_weight	= 13
+additional_inventory_weight2= 13
+
+burn_protection			= 0.05
+shock_protection		= 0.30
+radiation_protection	= 0.0010
+strike_protection		= 0.13
+explosion_protection	= 0.34
+wound_protection		= 0.44
+
+[army_general_outfit]:army_outfit
+$spawn			= "outfit\army_general_outfit"
+actor_visual	= actors\stalker_soldier\stalker_soldier5a_beret.ogf
+npc_visual		= actors\stalker_soldier\stalker_soldier5a_beret.ogf
+
+inv_name		= army_general_outfit_name
+inv_name_short	= army_general_outfit_name
+description		= army_general_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 4
+inv_grid_y		= 3
+
+cost	= 48378
+additional_inventory_weight	= 17
+additional_inventory_weight2= 17
+
+burn_protection			= 0.08
+shock_protection		= 0.30
+radiation_protection	= 0.0010
+chemical_burn_protection= 0.06
+strike_protection		= 0.23
+explosion_protection	= 0.4
+wound_protection		= 0.65
+fire_wound_protection	= 0.40
+
+[specops_bandit_raider_outfit]:specops_outfit
+$spawn			= "outfit\specops_bandit_raider_outfit"
+actor_visual	= actors\stalker_bandit\stalker_bandit_reider.ogf
+npc_visual		= actors\stalker_bandit\stalker_bandit_reider.ogf
+player_hud_section	= actor_hud_bandit_military
+
+inv_name		= specops_bandit_raider_outfit_name
+inv_name_short	= specops_bandit_raider_outfit_name
+description		= specops_bandit_raider_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 4
+inv_grid_y		= 6
+
+community	= bandit
+cost		= 43600
+
+strike_protection		= 0.18
+explosion_protection	= 0.45
+wound_protection		= 0.70
+
+[specops_gray_outfit]:specops_outfit,outfit_restrictions_1
+$spawn			= "outfit\specops_gray_outfit"
+actor_visual	= actors\stalker_soldier\stalker_soldier_black.ogf
+npc_visual		= actors\stalker_soldier\stalker_soldier_black.ogf
+player_hud_section	= actor_hud_merc_military
+
+inv_name		= specops_gray_outfit_name
+inv_name_short	= specops_gray_outfit_name
+description		= specops_gray_outfit_description
+
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 6
+inv_grid_y		= 0
+
+upgr_icon_x		= 716
+upgr_icon_y		= 824
+upgr_icon_width	= 198
+upgr_icon_height= 129
+upgrades		= up_gr_firstab_berill_2, up_gr_seconab_berill_2, up_gr_thirdab_berill_2
+
+; kind					= o_sci
+cost					= 30522 ; 52962-22440
+inv_weight				= 9.82 ; 14-4.18
+additional_inventory_weight	= 19
+additional_inventory_weight2= 19
+;repair_part_bonus		= 0.40
+control_inertion_factor	= 1.38
+power_loss				= 0.05
+
+shock_protection		= 0.09 ; 0.31-0.22
+radiation_protection	= 0.0045 ; 0.03-0.0255
+chemical_burn_protection= 0.001 ; 0.03-0.054
+telepatic_protection	= 0.001 ; 0.01-0.048
+strike_protection		= 0.53
+explosion_protection	= 0.45 ; 0.7-0.25
+wound_protection		= 0.75 ; 0.80-0.05
+fire_wound_protection	= 0.47
+
+
+;;Exolight
+[dolg_exolight_debtor_outfit]:dolg_exolight_outfit
+$spawn				= "outfit\dolg_exolight_debtor_outfit"
+class				= E_STLK
+ef_equipment_type	= 5
+visual				= dynamics\outfit\dolg_exolight_outfit
+actor_visual		= actors\stalker_dolg\stalker_dolg_exolight_white.ogf
+npc_visual			= actors\stalker_dolg\stalker_dolg_exolight_white.ogf
+
+inv_name			= dolg_exolight_debtor_outfit_name
+inv_name_short		= dolg_exolight_debtor_outfit_name
+description			= dolg_exolight_debtor_outfit_description
+icons_texture		= ui\ui_icon_chokoladka
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 14
+inv_grid_y			= 0
+
+cost				= 1009107 ; 1039627-30520
+additional_inventory_weight	= 30
+additional_inventory_weight2= 30
+artefact_count		= 2
+;repair_part_bonus	= 0.48
+hit_fraction_actor	= 0.20
+
+burn_protection		= 0.15 ; 0.22-0.07
+shock_protection	= 0.915 ; 1.0-0.085
+radiation_protection= 0.001 ; 0.0215-0.0235
+strike_protection	= 0.78
+explosion_protection= 0.66 ; 0.96-0.3
+wound_protection	= 0.57 ; 0.66-0.09
+
+[svoboda_exolight_pacifist_outfit]:svoboda_exolight_outfit
+$spawn			= "outfit\svoboda_exolight_pacifist_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freedom_exolight.ogf
+npc_visual		= actors\stalker_freedom\stalker_freedom_exolight.ogf
+
+inv_name		= svoboda_exolight_pacifist_outfit_name
+inv_name_short	= svoboda_exolight_pacifist_outfit_name
+description		= svoboda_exolight_pacifist_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 14
+inv_grid_y		= 3
+
+upgr_icon_x		= 1893
+upgr_icon_y		= 373
+upgr_icon_width	= 284
+upgrades		= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
+
+cost				= 76462 ; 106982-30520
+inv_weight			= 13.63 ; 19-5.37
+additional_inventory_weight	= 30
+additional_inventory_weight2= 30
+artefact_count		= 3
+repair_part_bonus	= 0.48
+
+burn_protection			= 0.33 ; 0.4-0.07
+shock_protection		= 1.815 ; 1.9-0.085
+radiation_protection	= 0.021 ; 0.0445-0.0235
+chemical_burn_protection= 0.008 ; 0.050-0.042
+explosion_protection	= 0.2 ; 0.50-0.3
+wound_protection		= 0.31 ; 0.4-0.09
+fire_wound_protection	= 0.51
+
+[svoboda_exolight_veter_outfit]:svoboda_exolight_outfit
+$spawn			= "outfit\svoboda_exolight_veter_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freddom_exo_veter.ogf
+npc_visual		= actors\stalker_freedom\stalker_freddom_exo_veter.ogf
+
+inv_name		= svoboda_exolight_veter_outfit_name
+inv_name_short	= svoboda_exolight_veter_outfit_name
+description		= svoboda_exolight_veter_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 14
+inv_grid_y		= 6
+
+cost		= 143659-30520
+inv_weight	= 12-5.37
+additional_inventory_weight	= 55
+additional_inventory_weight2= 55
+
+radiation_protection	= 0.0115 ; 0.0350-0.0235
+chemical_burn_protection= 0.108 ; 0.15-0.042
+telepatic_protection	= 0.02 ; 0.08-0.06
+strike_protection		= 0.67
+explosion_protection	= 0.5 ; 0.80-0.3
+
+
+;;Exo
+; [cs_extraexoseva_skydome_outfit]:cs_exo_outfit,outfit_restrictions_2
+; $spawn			= "outfit\cs_extraexoseva_skydome_outfit"
+; actor_visual	= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
+; npc_visual		= actors\stalker_nebo\stalker_nebo_exoseva_nauch.ogf
+
+; inv_name		= cs_extraexoseva_skydome_outfit_name
+; inv_name_short	= cs_extraexoseva_skydome_outfit_name
+; description		= cs_extraexoseva_skydome_outfit_description
+; icons_texture	= ui\ui_icon_chokoladka
+; inv_grid_width	= 2
+; inv_grid_height	= 3
+; inv_grid_x		= 16
+; inv_grid_y		= 0
+
+; cost							= 200000
+; inv_weight						= 50
+; additional_inventory_weight		= 150
+; additional_inventory_weight2	= 150
+; artefact_count					= 3
+; immunities_sect					= sect_cs_extraexoseva_skydome_outfit_immunities
+
+; burn_protection				= 0.12
+; shock_protection			= 1.9
+; radiation_protection		= 0.05
+; chemical_burn_protection	= 0.050
+; telepatic_protection		= 0.040
+; strike_protection			= 0.480
+; explosion_protection		= 0.90
+; wound_protection			= 0.74
+; fire_wound_protection		= 0.50
+
+; [sect_cs_extraexoseva_skydome_outfit_immunities]
+; burn_immunity			= 0.04
+; chemical_burn_immunity	= 0.016
+; explosion_immunity		= 0.07
+; fire_wound_immunity		= 0.007
+; radiation_immunity		= 0.0
+; shock_immunity			= 0.018
+; strike_immunity			= 0
+; telepatic_immunity		= 0.0
+; wound_immunity			= 0.005
+
+
+;;LCS
+[merc_demon_outfit]:merc_scout_outfit
+$spawn			= "outfit\merc_demon_outfit"
+actor_visual	= actors\stalker_merc\stalker_naim_demon_gas.ogf
+npc_visual		= actors\stalker_merc\stalker_naim_demon_gas.ogf
+
+inv_name		= merc_demon_outfit_name
+inv_name_short	= merc_demon_outfit_name
+description		= merc_demon_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 6
+inv_grid_y		= 3
+
+kind				= o_medium
+cost				= 47692
+additional_inventory_weight	= 15
+additional_inventory_weight2= 15
+repair_type			= outfit_medium
+;repair_part_bonus	= 0.44
+hit_fraction_actor	= 0.37
+
+burn_protection			= 0.07
+strike_protection		= 0.2
+explosion_protection	= 0.25
+wound_protection		= 0.18
+fire_wound_protection	= 0.36
+
+[guard_outfit]:merc_scout_outfit
+$spawn			= "outfit\guard_outfit"
+actor_visual	= actors\stalker_neutral\stalker_bar_security.ogf
+npc_visual		= actors\stalker_neutral\stalker_bar_security.ogf
+
+inv_name		= guard_outfit_name
+inv_name_short	= guard_outfit_name
+description		= guard_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 2
+inv_grid_x		= 6
+inv_grid_y		= 6
+
+cost		= 8500
+inv_weight	= 3
+
+burn_protection			= 0.02
+radiation_protection	= 0.0005
+chemical_burn_protection= 0.02
+strike_protection		= 0.15
+explosion_protection	= 0.4
+wound_protection		= 0.5
+fire_wound_protection	= 0.2
+
+[security_outfit]:merc_outfit
+$spawn				= "outfit\security_outfit"
+actor_visual		= actors\stalker_neutral\stalker_light_naim_gas.ogf
+npc_visual			= actors\stalker_neutral\stalker_light_naim_gas.ogf
+player_hud_section	= actor_hud_merc_suit ; actor_hud_loner_sunrise
+
+inv_name		= security_outfit_name
+inv_name_short	= security_outfit_name
+description		= security_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 0
+
+community	= stalker
+cost		= 25617
+
+burn_protection				= 0.02
+shock_protection			= 0.28
+chemical_burn_protection	= 0.012
+strike_protection			= 0.013
+explosion_protection		= 0.30
+wound_protection			= 0.16
+fire_wound_protection		= 0.31
+
+[army_mirotvorec_outfit]:merc_coyote_outfit
+visual			= dynamics\outfit\army_mirotvorec_outfit
+actor_visual	= actors\stalker_soldier\stalker_mirotvorec.ogf
+npc_visual		= actors\stalker_soldier\stalker_mirotvorec.ogf
+
+inv_name		= army_mirotvorec_outfit_name
+inv_name_short	= army_mirotvorec_outfit_name
+description		= army_mirotvorec_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 3
+
+community		= army
+cost			= 62795
+inv_weight		= 19
+artefact_count	= 0
+
+burn_protection			= 0.045
+shock_protection		= 0.66
+chemical_burn_protection= 0.039
+strike_protection		= 0.35
+explosion_protection	= 0.56
+wound_protection		= 0.37
+fire_wound_protection	= 0.43
+
+[army_vdv_outfit]:dolg_voin_outfit
+$spawn			= "outfit\army_vdv_outfit"
+actor_visual	= actors\stalker_soldier\stalker_vdv.ogf
+npc_visual		= actors\stalker_soldier\stalker_vdv.ogf
+player_hud_section	= actor_hud_loner_sunrise
+
+inv_name		= army_vdv_outfit_name
+inv_name_short	= army_vdv_outfit_name
+description		= army_vdv_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 6
+
+community		= army
+cost			= 37856
+inv_weight		= 5
+artefact_count	= 0
+
+burn_protection			= 0.15
+shock_protection		= 0.3
+radiation_protection	= 0.005
+chemical_burn_protection= 0.02
+strike_protection		= 0.5
+explosion_protection	= 0.43
+wound_protection		= 0.39
+fire_wound_protection	= 0.26
+
+
+;;Novice
+[novice_afganka_outfit]:novice_outfit
+$spawn			= "outfit\novice_afganka_outfit"
+actor_visual	= actors\stalker_soldier\stalker_afganka.ogf
+npc_visual		= actors\stalker_soldier\stalker_afganka.ogf
+
+inv_name		= novice_afganka_name
+inv_name_short	= novice_afganka_name
+description		= novice_afganka_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_x		= 0
+inv_grid_y		= 0
+
+community			= army
+cost				= 10930
+additional_inventory_weight		= 8
+additional_inventory_weight2	= 8
+immunities_sect		= sect_army_outfit_immunities
+;repair_part_bonus	= 0.35
+hit_fraction_actor	= 0.25
+
+burn_protection			= 0.21
+shock_protection		= 0.4
+radiation_protection	= 0.002
+chemical_burn_protection= 0.05
+telepatic_protection	= 0.12
+strike_protection		= 0.01
+explosion_protection	= 0.15
+wound_protection		= 0.25
+fire_wound_protection	= 0.25
+
+[novice_gray_outfit]:novice_outfit
+$spawn			= "outfit\novice_gray_outfit"
+actor_visual	= actors\stalker_neutral\stalker_gray_jacket_mask.ogf
+npc_visual		= actors\stalker_neutral\stalker_gray_jacket_mask.ogf
+
+inv_name		= novice_gray_name
+inv_name_short	= novice_gray_name
+description		= novice_gray_description
+
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+;repair_part_bonus	= 0.35
+hit_fraction_actor	= 0.25
+
+radiation_protection	= 0.002
+telepatic_protection	= 0.0
+strike_protection		= 0.002
+fire_wound_protection	= 0.15
+
+[novice_scien_outfit]:novice_outfit
+$spawn			= "outfit\novice_scien_outfit"
+actor_visual	= actors\stalker_ecolog\stalker_tourist.ogf
+npc_visual		= actors\stalker_ecolog\stalker_tourist.ogf
+
+inv_name		= novice_scien_name
+inv_name_short	= novice_scien_name
+description		= novice_scien_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_x		= 0
+inv_grid_y		= 4
+
+upgr_icon_x		= 4746
+
+community			= ecolog
+cost				= 10930
+;repair_part_bonus	= 0.35
+hit_fraction_actor	= 0.25
+
+burn_protection				= 0.15
+radiation_protection		= 0.002
+chemical_burn_protection	= 0.04
+telepatic_protection		= 0.0
+strike_protection			= 0.002
+fire_wound_protection		= 0.15
+
+[novice_uzor_outfit]:novice_outfit
+$spawn			= "outfit\novice_uzor_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral1c.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral1c.ogf
+
+inv_name		= novice_uzor_name
+inv_name_short	= novice_uzor_name
+description		= novice_uzor_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+;repair_part_bonus	= 0.35
+hit_fraction_actor	= 0.25
+
+shock_protection		= 0.33
+radiation_protection	= 0.0
+telepatic_protection	= 0.0
+strike_protection		= 0.005
+explosion_protection	= 0.11
+fire_wound_protection	= 0.3
+
+
+;PS5
+[dolg_beta_outfit]:dolg_outfit
+$spawn			= "outfit\dolg_beta_outfit"
+actor_visual	= actors\stalker_dolg\stalker_dolg_gas_old.ogf
+npc_visual		= actors\stalker_dolg\stalker_dolg_gas_old.ogf
+
+inv_name		= dolg_beta_outfit_name
+inv_name_short	= dolg_beta_outfit_name
+description		= dolg_beta_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 12
+inv_grid_y		= 0
+
+cost				= 62978
+inv_weight			= 21
+additional_inventory_weight	= 12
+additional_inventory_weight2= 12
+artefact_count		= 1
+;repair_part_bonus	= 0.19
+hit_fraction_actor	= 0.55
+
+burn_protection			= 0.1
+shock_protection		= 0.59
+strike_protection		= 0.6
+explosion_protection	= 0.60
+wound_protection		= 0.56
+fire_wound_protection	= 0.45
+
+
+;;Seva
+[cs_scientific_outfit_good_2]:cs_scientific_outfit_good
+$spawn			= "outfit\cs_scientific_outfit_good_2"
+actor_visual	= actors\stalker_nebo\stalker_nebo_seva_vis.ogf
+npc_visual		= actors\stalker_nebo\stalker_nebo_seva_vis.ogf
+
+inv_name		= cs_scientific_outfit_good_2_name
+inv_name_short	= cs_scientific_outfit_good_2_name
+description		= cs_scientific_outfit_good_2_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 12
+inv_grid_y		= 3
+upgr_icon_x		= 959
+upgr_icon_y		= 196
+upgr_icon_width	= 298
+upgrades		= up_gr_firstab_seva_1, up_gr_seconab_seva_1, up_gr_thirdab_seva_1, up_gr_fourtab_seva_1
+
+cost					= 57689 ; 75400-17720
+inv_weight				= 8.8 ; 12.4-3.6
+additional_inventory_weight	= 15
+additional_inventory_weight2= 15
+immunities_sect			= sect_cs_scientific_outfit_good_2_immunities
+repair_type				= outfit_medium
+;repair_part_bonus		= 0.40
+control_inertion_factor	= 1.6
+
+burn_protection			= 0.083 ; 0.12-0.037
+shock_protection		= 1.86 ; 1.9-0.04
+radiation_protection	= 0.0115 ; 0.045-0.0335
+chemical_burn_protection= 0.001 ; 0.11-0.109
+telepatic_protection	= 0.063 ; 0.123-0.06
+strike_protection		= 0.12
+explosion_protection	= 0.13 ; 0.15-0.02
+wound_protection		= 0.254 ; 0.30-0.046
+fire_wound_protection	= 0.22
+
+[sect_cs_scientific_outfit_good_2_immunities]:sect_cs_scientific_outfit_good_immunities
+chemical_burn_immunity	= 0.007
+fire_wound_immunity		= 0.024
+shock_immunity			= 0.004
+strike_immunity			= 0.001
+telepatic_immunity		= 0.002
+wound_immunity			= 0.024
+
+
+;skat
+[military_spektr_outfit]:military_outfit,outfit_restrictions_1
+$spawn			= "outfit\spektr_outfit"
+actor_visual	= actors\stalker_soldier\stalker_soldier_spektr.ogf
+npc_visual		= actors\stalker_soldier\stalker_soldier_spektr.ogf
+
+inv_name		= military_spektr_outfit_name
+inv_name_short	= military_spektr_outfit_name
+description		= military_spektr_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 12
+inv_grid_y		= 6
+
+community	= stalker
+kind		= o_medium
+cost		= 55006 ; 72726-17720
+inv_weight	= 11.4 ; 15-3.6
+; repair_part_bonus	= 0.27
+
+burn_protection			= 0.563 ; 0.60-0.037
+radiation_protection	= 0.001 ; 0.009-0.0335
+chemical_burn_protection= 0.001 ; 0.09-0.109
+
+
+;sts
+[monolith_2_outfit]:monolith_outfit
+$spawn			= "outfit\monolith_2_outfit"
+actor_visual	= actors\stalker_monolith\stalker_mono_gas_old.ogf
+npc_visual		= actors\stalker_monolith\stalker_mono_gas_old.ogf
+
+inv_name		= monolith_2_outfit_name
+inv_name_short	= monolith_2_outfit_name
+description		= monolith_2_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 10
+inv_grid_y		= 0
+
+cost				= 65267
+inv_weight			= 9.2
+additional_inventory_weight	= 15
+additional_inventory_weight2= 15
+immunities_sect		= sect_monolith_2_outfit_immunities
+hit_fraction_actor	= 0.97
+power_loss			= 0.09
+
+burn_protection			= 0.18
+shock_protection		= 0.23
+radiation_protection	= 0.027
+chemical_burn_protection= 0.054
+strike_protection		= 0.37
+explosion_protection	= 0.45
+wound_protection		= 0.34
+fire_wound_protection	= 0.39
+
+[sect_monolith_2_outfit_immunities]:sect_monolith_outfit_immunities
+explosion_immunity	= 0.11
+telepatic_immunity	= 0.03
+
+[svoboda_light_2_outfit]:svoboda_light_outfit
+$spawn			= "outfit\svoboda_light_2_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freedom_light.ogf
+npc_visual		= actors\stalker_freedom\stalker_freedom_light.ogf
+
+inv_name		= svoboda_light_2_outfit_name
+inv_name_short	= svoboda_light_2_outfit_name
+description		= svoboda_light_2_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 10
+inv_grid_y		= 3
+
+kind		= o_light
+repair_type	= outfit_light
+
+burn_protection			= 0.06
+shock_protection		= 0.15
+radiation_protection	= 0.0015
+chemical_burn_protection= 0.08
+strike_protection		= 0.09
+explosion_protection	= 0.07
+wound_protection		= 0.12
+fire_wound_protection	= 0.13
+
+[svoboda_light_grom_outfit]:svoboda_light_outfit
+$spawn			= "outfit\svoboda_light_grom_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freedom_grom.ogf
+npc_visual		= actors\stalker_freedom\stalker_freedom_grom.ogf
+
+inv_name		= svoboda_light_grom_outfit_name
+inv_name_short	= svoboda_light_grom_outfit_name
+description		= svoboda_light_grom_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 10
+inv_grid_y		= 6
+
+cost					= 107251
+inv_weight				= 20
+artefact_count			= 3
+immunities_sect			= sect_dolg_voin_outfit_immunities
+;repair_part_bonus		= 0.45
+hit_fraction_actor		= 0.2
+control_inertion_factor	= 1.76
+power_loss				= 0.1
+
+burn_protection			= 0.19
+shock_protection		= 0.5
+radiation_protection	= 0.0077
+chemical_burn_protection= 0.09
+strike_protection		= 0.6
+explosion_protection	= 0.72
+wound_protection		= 0.52
+fire_wound_protection	= 0.45
+
+
+;sunrise
+[stalker_germo_outfit]:stalker_outfit,outfit_restrictions_1
+$spawn			= "outfit\stalker_germo_outfit"
+actor_visual	= actors\stalker_neutral\stalker_germo.ogf
+npc_visual		= actors\stalker_neutral\stalker_germo.ogf
+character_portrait	= ui_inGame2_neutral_nauchniy
+
+inv_name		= stalker_germo_outfit_name
+inv_name_short	= stalker_germo_outfit_name
+description		= stalker_germo_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 2
+inv_grid_y		= 0
+
+kind			= o_sci
+immunities_sect	= sect_scientific_outfit_immunities
+repair_type		= outfit_medium
+
+shock_protection		= 1.66 ; 1.7-0.04
+radiation_protection	= 0.001 ; 0.032-0.0335
+chemical_burn_protection= 0.011 ; 0.12-0.109
+
+[stalker_sanitar_outfit]:stalker_salamander_outfit,outfit_restrictions_1
+$spawn			= "outfit\stalker_outfit"
+actor_visual	= actors\stalker_neutral\stalker_sanitar.ogf
+npc_visual		= actors\stalker_neutral\stalker_sanitar.ogf
+
+inv_name		= stalker_sanitar_outfit_name
+inv_name_short	= stalker_sanitar_outfit_name
+description		= stalker_sanitar_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 2
+inv_grid_y		= 3
+
+cost			= 49678
+additional_inventory_weight	= 8
+additional_inventory_weight2= 8
+
+burn_protection			= 0.08
+shock_protection		= 0.8
+radiation_protection	= 0.03
+chemical_burn_protection= 0.04
+telepatic_protection	= 0.02
+
+[stalker_veteran1_outfit]:stalker_outfit
+$spawn			= "outfit\stalker_veteran1_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_veteran1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_veteran1.ogf
+character_portrait	= ui_inGame2_pantsir
+
+inv_name		= stalker_veteran1_outfit_name
+inv_name_short	= stalker_veteran1_outfit_name
+description		= stalker_veteran1_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 2
+inv_grid_y		= 6
+
+cost					= 39276
+repair_part_bonus		= 0.18
+control_inertion_factor	= 1.10
+
+burn_protection			= 0.25
+shock_protection		= 0.30
+radiation_protection	= 0.0060
+strike_protection		= 0.45
+explosion_protection	= 0.30
+wound_protection		= 0.25
+fire_wound_protection	= 0.30

@@ -1,0 +1,37 @@
+<specific_character id="sim_default_military_0_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_army_0.xml"
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <snd_config>characters_voice\human\military_1\</snd_config>
+    <visual>actors\stalker_soldier\stalker_afganka</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_military_2_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_army_2.xml"
+    <icon>ui_inGame2_neutral_tactic</icon>
+    <snd_config>characters_voice\human\military_1\</snd_config><!--2-->
+    <visual>actors\stalker_soldier\stalker_mirotvorec</visual>
+</specific_character>
+
+<specific_character id="sim_default_military_2_chokoladka_1" team_default = "1">
+#include "gameplay\profiles\character_desc_army_2.xml"
+    <icon>ui_inGame2_neutral_tactic</icon>
+    <snd_config>characters_voice\human\military_1\</snd_config><!--2-->
+    <visual>actors\stalker_soldier\stalker_vdv</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_military_3_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_army_3.xml"
+    <icon>ui_inGame2_stalker_soldier_exo</icon>
+    <snd_config>characters_voice\human\military_1\</snd_config><!--2-->
+    <visual>actors\stalker_soldier\stalker_soldier_black</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_military_4_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_army_4.xml"
+    <icon>ui_inGame2_neutral_tactic</icon>
+    <snd_config>characters_voice\human\military_3\</snd_config>
+    <visual>actors\stalker_soldier\stalker_soldier_spektr</visual>
+</specific_character>

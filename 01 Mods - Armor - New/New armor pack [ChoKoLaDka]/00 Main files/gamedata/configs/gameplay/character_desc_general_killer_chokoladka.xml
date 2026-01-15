@@ -1,0 +1,14 @@
+<specific_character id="sim_default_killer_0_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_killer_0.xml"
+    <icon>ui_inGame2_merc_2</icon>
+    <snd_config>characters_voice\human\killer_3\</snd_config>
+    <visual>actors\stalker_merc\stalker_naim_demon_mask</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_killer_1_chokoladka_0" team_default = "1">
+#include "gameplay\profiles\character_desc_killer_1.xml"
+    <icon>ui_inGame2_merc_2</icon>
+    <snd_config>characters_voice\human\killer_3\</snd_config>
+    <visual>actors\stalker_merc\stalker_naim_demon_gas</visual>
+</specific_character>
