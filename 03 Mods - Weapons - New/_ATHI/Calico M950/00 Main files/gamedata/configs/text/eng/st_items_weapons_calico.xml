@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_calico">
+		<text>Calico M950</text>
+	</string>
+	<string id="st_wpn_calico_descr">
+		<text>The Calico M950 is a pistol manufactured by Calico Light Weapons Systems in the United States. Its main feature, along with all the other guns of the Calico system, is to feed from a proprietary helical magazine mounted on top, available in a 50 capacity.\n</text>
+	</string>
+
+	<string id="st_mag_calico_default">
+		<text>M950 Helical Magazine</text>
+	</string>
+	<string id="st_mag_calico_default_descr">
+		<text>50 round helical magazine for the Calico M950 and M960. Chambered in 9x19mm.</text>
+	</string>
+
+	<string id="st_mag_calico_extended">
+		<text>M950 Extended Helical Magazine</text>
+	</string>
+	<string id="st_mag_calico_extended_descr">
+		<text>100 round helical magazine for the Calico M950 and M960. Chambered in 9x19mm. Quiet voluminous.</text>
+	</string>
+
+</string_table>

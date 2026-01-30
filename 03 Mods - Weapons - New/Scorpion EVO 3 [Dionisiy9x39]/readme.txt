@@ -25,11 +25,8 @@ The models for the 5C Kit upgrade will now have the laser module attached at the
 The models for the BaS Trijicon and Spectre combo packs with side red dot sights have the laser module removed (I mean, BaS itself didn't add laser modules with those, why should this gun?).
 
 Boomsticks and Sharpsticks ammo patch
-Clones the gun into the 9x21mm model. It will use BaS' 9x21 ammo, silencer, and mags. It will be only be carried and traded by Duty and the Army.
+Clones the gun into the 9x21mm variant. It will use BaS' 9x21 ammo, silencer, and mags. It will be only be carried and traded by Duty and the Army.
 Integrated support for Armor Modkits addon allows you to use modkits to change the chambering of a given gun.
-
-9x21 FMJ & HP Ammo
-Allows the 9x21 clone to use the extra ammo.
 
 Armor Modkits addon
 This is intended for BaS Lite users. This weapon can use the Special AK 5C Kit from BaS, but BaS Lite offers options to remove the upgrade kits. This patch allows you to use a modkit for the upgrade.

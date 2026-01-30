@@ -29,5 +29,3 @@ Obviously, incompatible with the main option.
 
 ----------------------------------------------------------
 -Known issues:
-
-shak12.ltx

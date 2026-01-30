@@ -1,0 +1,416 @@
+[wpn_calico]:identity_immunities,weapon_probability,default_weapon_params,wpn_p90_sounds
+GroupControlSection		= spawn_group
+$npc					= on
+$prefetch				= 8
+$spawn					= "weapons\calico"
+scheduled				= off
+cform					= skeleton
+parent_section			= wpn_calico
+
+class					= WP_PM ; WP_LR300
+slot					= 1
+animation_slot			= 8
+ef_main_weapon_type		= 2
+ef_weapon_type			= 6
+hand_dependence			= 1
+single_handed			= 1
+
+default_to_ruck			= false
+sprint_allowed			= true
+
+icons_texture			= ui\ui_calico_icon
+inv_grid_width			= 3
+inv_grid_height			= 2
+inv_grid_x				= 0
+inv_grid_y				= 0
+inv_name				= st_wpn_calico
+inv_name_short			= st_wpn_calico
+description				= st_wpn_calico_descr
+
+kind					= w_pistol
+inv_weight				= 2.78
+cost					= 39880
+repair_type				= pistol
+weapon_class			= pistol ; assault_rifle
+
+hud						= wpn_calico_hud 
+visual					= anomaly_weapons\wpn_calico\wpn_calico.ogf
+
+fire_point				= 0.004261, 0.210222, 0.483987
+position				= -0.041508, -0.171384, -0.07772
+orientation				= 0, 0, 0
+shell_point				= 0, 0.188, 0.082
+strap_orientation		= -1.309095, -4.464107, 90
+strap_position			= -0.417596, -0.124056, 0.008961
+
+fire_point2				= 0, 0.199, 0.575
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+ph_mass					= 3
+
+scopes					= d0cter, deltapoint, 0kp2, rmr, ac10632, t12, monstrum, pk6, aim_acro, he510
+scope_status			= 0
+scope_zoom_factor		= 0
+
+flame_particles			= weapons\generic_weapon03
+smoke_particles			= weapons\generic_shoot_00
+grenade_flame_particles	= weapons\generic_weapon01
+
+shell_point				= 0.0, 0.188, 0.082
+shell_dir				= 0.0, 1.0, 0.0
+shell_particles			= weapons\9x19
+
+light_disabled			= false
+light_color				= 0.6, 0.5, 0.3
+light_range				= 5
+light_time				= 0.2
+light_var_color			= 0.05
+light_var_range			= 0.5
+
+upgrades				= up_gr_firstab_p90, up_gr_seconab_p90, up_gr_thirdab_p90, up_gr_fourtab_p90, up_gr_fifthab_p90, up_gr_fifthcd_p90
+installed_upgrades		=
+upgrade_scheme			= upgrade_scheme_mp5
+upgr_icon_x				= 900
+upgr_icon_y				= 700
+upgr_icon_width			= 250
+upgr_icon_height		= 100
+
+fire_modes				= 1, -1
+ammo_class				= ammo_9x19_fmj, ammo_9x19_fmj_bad, ammo_9x19_fmj_verybad, ammo_9x19_pbp, ammo_9x19_pbp_bad, ammo_9x19_pbp_verybad, ammo_9x19_ap, ammo_9x19_ap_bad, ammo_9x19_ap_verybad
+ammo_elapsed			= 50
+ammo_mag_size			= 50
+startup_ammo			= 90
+
+silencer_name			= wpn_sil_9mm
+silencer_status			= 2
+silencer_x				= 139
+silencer_y				= 23
+silencer_light_color	= 0.6, 0.5, 0.3
+silencer_light_range	= 0.01
+silencer_light_time		= 0.2
+silencer_light_var_color= 0.05
+silencer_light_var_range= 0.5
+silencer_smoke_particles= weapons\generic_shoot_00
+
+grenade_class			= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name	= wpn_addon_grenade_launcher
+grenade_launcher_status	= 0
+grenade_launcher_x		= 126
+grenade_launcher_y		= 24
+launch_speed			= 0
+
+hit_impulse				= 28
+hit_power				= 0.46, 0.46, 0.46, 0.46
+hit_type				= fire_wound
+fire_distance			= 800
+bullet_speed			= 720
+rpm						= 900
+rpm_empty_click			= 200
+
+use_aim_bullet			= false
+time_to_aim				= 0.0 ;	3.0
+zoom_dof				= 0.5, 1.0, 180
+zoom_enabled			= true
+zoom_rotate_time		= 0.25
+reload_dof				= 0.0, 0.5, 5, 2
+control_inertion_factor	= 1.0f
+crosshair_inertion		= 4.5
+fire_dispersion_base	= 0.35
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability		= 0.005
+misfire_start_condition	= 0.7 ;	0.82
+misfire_start_prob		= 0.007
+misfire_end_condition	= 0.12
+misfire_end_prob		= 0.11
+
+condition_queue_shot_dec= 0.0009
+condition_shot_dec		= 0.0009
+
+cam_return				= 0
+cam_relax_speed			= 12
+cam_dispersion			= 0.41
+cam_dispersion_frac		= 1.0
+cam_dispersion_inc		= 0.0575
+cam_max_angle			= 36.0
+cam_max_angle_horz		= 36.0
+cam_step_angle_horz		= 1.12
+zoom_cam_relax_speed	= 12
+zoom_cam_dispersion		= 0.35
+zoom_cam_dispersion_frac= 1.0
+zoom_cam_dispersion_inc	= 0.0475
+zoom_cam_max_angle		= 36.0
+zoom_cam_max_angle_horz	= 36.0
+zoom_cam_step_angle_horz= 1.12
+
+PDM_disp_accel_factor	= 2.155
+PDM_disp_base			= 0.65
+PDM_disp_crouch			= 1.0
+PDM_disp_crouch_no_acc	= 1.0
+PDM_disp_vel_factor		= 2.15
+
+cam_relax_speed_ai		= 120.75
+zoom_cam_relax_speed_ai	= 120.75
+holder_fov_modifier		= 1.0
+holder_range_modifier	= 1.0
+min_radius				= 0
+max_radius				= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
+
+kill_msg_x		= 72
+kill_msg_y		= 82
+kill_msg_width	= 56
+kill_msg_height	= 23
+
+snd_reload			= weapons\p90\p90_reload
+snd_reload_empty	= weapons\p90\p90_reload_full
+
+lewd_lens_hide_enabled	= true
+lewd_lens_hide_bone		= flash
+lewd_lens_hide_delays	= 0.1,0
+lewd_lens_hide_aim_mode	= true, false, false
+
+[wpn_calico_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_orientation	= -0.251305, -1.19353, -1.356223
+item_position		= -0.007729, 0.000855, -0.011807
+
+hands_orientation		= 3.718213, 4.425896, -3.90389
+hands_orientation_16x9	= 3.718213, 4.425896, -3.90389
+hands_position			= 0.070866, -0.037864, -0.125893
+hands_position_16x9		= 0.070866, -0.037864, -0.125893
+
+aim_hud_offset_pos		= -0.044782, 0.048265, 0.079913
+aim_hud_offset_pos_16x9	= -0.044782, 0.048265, 0.079913
+aim_hud_offset_rot		= 0.074817, 0.062001, -0.088608
+aim_hud_offset_rot_16x9	= 0.074817, 0.062001, -0.088608
+
+lowered_hud_offset_pos		= 0.024672, -0.202636, 0.015076
+lowered_hud_offset_pos_16x9	= 0.024672, -0.202636, 0.015076
+lowered_hud_offset_rot		= -0.923677, -0.056533, -0.104094
+lowered_hud_offset_rot_16x9	= -0.923677, -0.056533, -0.104094
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= calico_hide, idle
+anm_idle					= calico_idle, idle
+anm_idle_aim				= calico_aim, idle
+anm_idle_aim_moving			= calico_walk, walk, 0.75
+anm_idle_aim_moving_crouch	= calico_walk, walk, 0.7
+anm_idle_moving				= calico_walk, walk
+anm_idle_sprint				= calico_sprint, idle
+anm_reload					= calico_reload, p90_reload
+anm_reload_empty			= calico_reload_empty, p90_reload_full
+anm_shots					= calico_shoot, p90_shoot
+anm_show					= calico_draw, draw
+anm_reload_misfire			= calico_misfire, p90_revival
+anm_switch_mode				= calico_fire_mode, idle
+anm_shots_aim				= calico_aim_shoot, p90_aim_shoot
+anm_shots_aim_l				= calico_aim_shoot, p90_aim_shoot
+anm_idle_aim_start			= calico_aim_start, idle
+anm_idle_aim_end			= calico_aim_end, idle
+
+;--- Переходы спринта---
+anm_sprint_start	= calico_sprint_start
+anm_sprint_end		= calico_sprint_end
+
+;--- Паттерны спринта---
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+shell_bone	= wpn_body
+shell_dir	= 200, 200, 200
+shell_point	= 200, 200, 200
+
+fire_bone	= wpn_body
+fire_bone2	= wpn_body
+fire_point	= 0, -0.01, 0.32
+fire_point2	= 0, -0.01, 0.32
+
+freelook_z_offset_mul	= 0.5
+;-----------------------------------------------------------------------------------------------------------
+[wpn_calico_d0cter]:wpn_calico
+hud				= wpn_calico_d0cter_hud
+
+inv_grid_x		= 3
+1icon_layer		= d0cter_x
+1icon_layer_x	= 40
+1icon_layer_y	= -17
+
+inv_weight		= 4.215
+
+[wpn_calico_d0cter_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_docter_hud.ogf
+aim_hud_offset_pos		= -0.045259, 0.024205, 0.08
+aim_hud_offset_pos_16x9	= -0.045259, 0.024205, 0.08
+aim_hud_offset_rot		= 0.059189, 0.059275, -0.088608
+aim_hud_offset_rot_16x9	= 0.059189, 0.059275, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_rmr]:wpn_calico
+hud				= wpn_calico_rmr_hud
+
+inv_grid_x		= 3
+1icon_layer		= rmr_x
+1icon_layer_x	= 41
+1icon_layer_y	= -13
+
+inv_weight		= 4.215
+
+[wpn_calico_rmr_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_rmr_hud.ogf
+aim_hud_offset_pos		= -0.045169, 0.022218, 0.08
+aim_hud_offset_pos_16x9	= -0.045169, 0.022218, 0.08
+aim_hud_offset_rot		= 0.057709, 0.059019, -0.088608
+aim_hud_offset_rot_16x9	= 0.057709, 0.059019, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_deltapoint]:wpn_calico
+hud				= wpn_calico_deltapoint_hud
+
+inv_grid_x		= 3
+1icon_layer		= deltapoint_x
+1icon_layer_x	= 41
+1icon_layer_y	= -13
+
+inv_weight		= 4.215
+
+[wpn_calico_deltapoint_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_deltapoint_hud.ogf
+aim_hud_offset_pos		= -0.045216, 0.017472, 0.08
+aim_hud_offset_pos_16x9	= -0.045216, 0.017472, 0.08
+aim_hud_offset_rot		= 0.056768, 0.059229, -0.088608
+aim_hud_offset_rot_16x9	= 0.056768, 0.059229, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_0kp2]:wpn_calico
+hud				= wpn_calico_0kp2_hud
+
+inv_grid_x		= 3
+1icon_layer		= 0kp2_x
+1icon_layer_x	= 40
+1icon_layer_y	= -11
+
+inv_weight		= 4.215
+
+[wpn_calico_0kp2_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_0kp2_hud.ogf
+aim_hud_offset_pos		= -0.044213, 0.018845, 0.08
+aim_hud_offset_pos_16x9	= -0.044213, 0.018845, 0.08
+aim_hud_offset_rot		= 0.057222, 0.059447, -0.088608
+aim_hud_offset_rot_16x9	= 0.057222, 0.059447, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_ac10632]:wpn_calico
+hud				= wpn_calico_ac10632_hud
+
+inv_grid_x		= 3
+1icon_layer		= ac10632_x
+1icon_layer_x	= 41
+1icon_layer_y	= -18
+
+inv_weight		= 4.215
+
+[wpn_calico_ac10632_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_ac10632_hud.ogf
+aim_hud_offset_pos		= -0.045245, 0.009277, 0.08
+aim_hud_offset_pos_16x9	= -0.045245, 0.009277, 0.08
+aim_hud_offset_rot		= 0.056504, 0.059117, -0.088608
+aim_hud_offset_rot_16x9	= 0.056504, 0.059117, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_t12]:wpn_calico
+hud				= wpn_calico_t12_hud
+
+inv_grid_x		= 3
+1icon_layer		= t12_x
+1icon_layer_x	= 45
+1icon_layer_y	= -20
+
+inv_weight		= 4.215
+
+[wpn_calico_t12_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_t12_hud.ogf
+aim_hud_offset_pos		= -0.045258, 0.009151, 0.08
+aim_hud_offset_pos_16x9	= -0.045258, 0.009151, 0.08
+aim_hud_offset_rot		= 0.011377, 0.05494, -0.088608
+aim_hud_offset_rot_16x9	= 0.011377, 0.05494, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_pk6]:wpn_calico
+hud				= wpn_calico_pk6_hud
+
+inv_grid_x		= 3
+1icon_layer		= pk6_x
+1icon_layer_x	= 45
+1icon_layer_y	= -17
+
+inv_weight		= 4.215
+
+[wpn_calico_pk6_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_pk6_hud.ogf
+aim_hud_offset_pos		= -0.045247, 0.019165, 0.08
+aim_hud_offset_pos_16x9	= -0.045247, 0.019165, 0.08
+aim_hud_offset_rot		= 0.057635, 0.059342, -0.088608
+aim_hud_offset_rot_16x9	= 0.057635, 0.059342, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_he510]:wpn_calico
+hud				= wpn_calico_he510_hud
+
+inv_grid_x		= 3
+1icon_layer		= he510_x
+1icon_layer_x	= 40
+1icon_layer_y	= -20
+
+inv_weight		= 4.215
+
+[wpn_calico_he510_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_he510_hud.ogf
+aim_hud_offset_pos		= -0.045167, 0.006829, 0.08
+aim_hud_offset_pos_16x9	= -0.045167, 0.006829, 0.08
+aim_hud_offset_rot		= 0.056324, 0.059118, -0.088608
+aim_hud_offset_rot_16x9	= 0.056324, 0.059118, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_aim_acro]:wpn_calico
+hud				= wpn_calico_aim_acro_hud
+
+inv_grid_x		= 3
+1icon_layer		= aim_acro_x
+1icon_layer_x	= 42
+1icon_layer_y	= -26
+
+inv_weight		= 4.215
+
+[wpn_calico_aim_acro_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_aim_acro_hud.ogf
+aim_hud_offset_pos		= -0.04524, 0.01607, 0.08
+aim_hud_offset_pos_16x9	= -0.04524, 0.01607, 0.08
+aim_hud_offset_rot		= 0.056818, 0.059076, -0.088608
+aim_hud_offset_rot_16x9	= 0.056818, 0.059076, -0.088608
+;-----------------------------------------------------------------------------------------------------------		
+[wpn_calico_monstrum]:wpn_calico
+hud				= wpn_calico_monstrum_hud
+
+inv_grid_x		= 3
+1icon_layer		= monstrum_x
+1icon_layer_x	= 36
+1icon_layer_y	= -22
+
+inv_weight		= 4.215
+
+scope_status		= 1
+scope_zoom_factor	= 60
+zoom_rotate_time	= 0.25
+
+[wpn_calico_monstrum_hud]:wpn_calico_hud
+item_visual	= anomaly_weapons\wpn_calico\wpn_calico_monstrum_hud.ogf
+aim_hud_offset_pos		= -0.045235, 0.011986, -0.051699
+aim_hud_offset_pos_16x9	= -0.045235, 0.011986, -0.051699
+aim_hud_offset_rot		= 0.056901, 0.058356, -0.088608
+aim_hud_offset_rot_16x9	= 0.056901, 0.058356, -0.088608

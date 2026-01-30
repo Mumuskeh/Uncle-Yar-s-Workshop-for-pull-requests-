@@ -3,6 +3,8 @@ MSBS Grot [bert]
 
 ----------------------------------------------------------
 -Compatibility:
+Not compatible beyond version 5 25.10.25 of the mod.
+
 NOTE: The original mod is still needed. Disable the configs folder.
 
 You may still use its patches except for the Mags Redux one.
