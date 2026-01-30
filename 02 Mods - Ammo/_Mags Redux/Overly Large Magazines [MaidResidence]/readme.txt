@@ -5,10 +5,6 @@ Overly Large Magazines [MaidResidence]
 -Compatibility:
 Original mod not required.
 
-Includes textures, so as to not be dependant from other mods (ie: BaS).
-
-: the mods won't clash, but the drummed Saigas will use the USAS12 drum, not the Saiga drum in this mod.
-
 ----------------------------------------------------------
 -Explanation:
 
@@ -37,6 +33,8 @@ The Saiga and Vepr drums can be retooled between each other. They also were usin
 The PM drum now has a world model taken from Misc. Weapon Pack.
 
 If you use Misc. Weapon Pack, with or witout "Hisalute's Weapon Packs - Fixes and Tweaks", its Vepr drum will be removed in favor of this one.
+
+Includes needed textures, so as to not be dependant from other mods (ie: BaS).
 
 ----------------------------------------------------------
 -Patches:
