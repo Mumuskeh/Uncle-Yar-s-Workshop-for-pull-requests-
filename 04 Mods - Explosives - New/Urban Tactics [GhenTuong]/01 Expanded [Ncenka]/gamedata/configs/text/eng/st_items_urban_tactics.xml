@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_defuse">
+		<text>Defuse (require Swiss knife or Multitool)</text>
+	</string>
+	
+	<string id="ammo_flare_grenade_vgop">
+		<text>VG-40OP</text>
+	</string>
+	<string id="ammo_flare_grenade_vgop_descr">
+		<text>VG-40OP is an illumination grenade with parachute. A slowly descending flare will review a wide area on the battlefield.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Brightness: %c[ui_gray_1]normal\n
+		%c[d_purple] • %c[ui_gray_2] Illumination duration: %c[ui_gray_1]60 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Fuse delay: %c[ui_gray_1]~3 seconds</text>
+	</string>
+	
+	<string id="ammo_flare_grenade_m662">
+		<text>M662 red star parachute</text>
+	</string>
+	<string id="ammo_flare_grenade_m662_descr">
+		<text>The M662 parachute flare is designed to create a 213.36 centimeters-per-second descent, while the flare itself has a 40-seconds burn time.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Brightness: %c[ui_gray_1]high\n
+		%c[d_purple] • %c[ui_gray_2] Illumination duration: %c[ui_gray_1]40 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Fuse delay: %c[ui_gray_1]~3 seconds</text>
+	</string>
+	
+	<string id="st_grenade_m18">
+		<text>M18 smoke grenade</text>
+	</string>
+	<string id="st_grenade_m18_descr">
+		<text>A US Army smoke grenade used as a ground-to-ground or ground-to-air signaling device, a target or landing zone marking device, or a screening device for unit maneuvering.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Smoke diameter: %c[ui_gray_1]8 m\n
+		%c[d_purple] • %c[ui_gray_2] Smoke duration: %c[ui_gray_1]20 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 second</text>
+	</string>
+	
+	<string id="st_grenade_rdg2">
+		<text>RDG-2 smoke grenade</text>
+	</string>
+	<string id="st_grenade_rdg2_descr">
+		<text>The RDG-2 is a cheap, simple, Soviet-era smoke grenade found in many Eastern European countries. The casing is made from cylindrical cardboard with two coloured caps on the end where the smoke is deployed from. The RDG-2 is used as a means to signal friendly forces or as a screening device.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Smoke diameter: %c[ui_gray_1]8 m\n
+		%c[d_purple] • %c[ui_gray_2] Smoke duration: %c[ui_gray_1]40 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~3.5 seconds</text>
+	</string>
+	
+	<string id="st_tool_tripwire_f1">
+		<text>Tripwire installation kit (F1 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_f1_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]F1 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire">
+		<text>Tripwire installation kit (empty)</text>
+	</string>
+	<string id="st_tool_tripwire_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]empty\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_rgd5">
+		<text>Tripwire installation kit (RGD-5 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_rgd5_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]RGD-5 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_gd-5">
+		<text>Tripwire installation kit (Termite grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_gd-5_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]Termite grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_m18">
+		<text>Tripwire installation kit (M18 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_M18_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]M18 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_rdg2">
+		<text>Tripwire installation kit (Termite grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_rdg2_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a hand grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]RDG-2 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_explosive_charge">
+		<text>Tripwire installation kit (Explosive charge)</text>
+	</string>
+	<string id="st_tool_tripwire_explosive_charge_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a explosive charge. Any human or mutant passing through the wire will trigger the attached explosive charge. The explosive charge has been modified to explode almost instantly, therefore it's no longer suitable for throwing.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]Explosive charge\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_og7b">
+		<text>Tripwire installation kit (OG-7V)</text>
+	</string>
+	<string id="st_tool_tripwire_og7b_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a OG-7V. Any human or mutant passing through the wire will trigger the attached explosive charge. The OG-7V has been modified to explode almost instantly, therefore it's no longer suitable for RPG-7.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]OG-7B\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_vog-25">
+		<text>Tripwire installation kit (VOG-25 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_vog-25_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for grenade launchers.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]VOG-25 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_m209">
+		<text>Tripwire installation kit (M209 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_m209_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for grenade launchers.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]M209 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_m662">
+		<text>Tripwire installation kit (M662 grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_m662_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for grenade launchers.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]M662 grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_tool_tripwire_vgop">
+		<text>Tripwire installation kit (VG-40OP grenade)</text>
+	</string>
+	<string id="st_tool_tripwire_vgop_desc">
+		<text>An improvised explosive trap kit made of tent pegs, wooden stakes, wire, and a grenade. Any human or mutant passing through the wire will trigger the attached grenade. The grenade has been modified to explode almost instantly, therefore it's no longer suitable for grenade launchers.\n \n
+		%c[d_purple] • %c[ui_gray_2] Explosive: %c[ui_gray_1]VG-40OP grenade\n
+		%c[d_purple] • %c[ui_gray_2] Wire length: %c[ui_gray_1]2 m.\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~1 seconds\n
+		%c[d_purple] • %c[ui_gray_2] Can be defused and recovered. Require Swiss knife or Multitool.</text>
+	</string>
+	
+	<string id="st_grenade_explosive_charge">
+		<text>Explosive charge</text>
+	</string>
+	<string id="st_grenade_explosive_charge_descr">
+		<text>A demolition charge are used to destroy battlefield obstacles and equipment.\n \n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]massive\n
+		%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]10 m\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~5 seconds\n
+		%c[d_purple] • %c[ui_gray_2] No shrapnels.\n
+		%c[d_purple] • %c[ui_gray_2] Cumbersome object. Reduce throwing distance.</text>
+	</string>
+</string_table>

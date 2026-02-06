@@ -1,0 +1,45 @@
+;;Seva
+[cs_scientific_outfit_good_2]:cs_scientific_outfit_good
+$spawn			= "outfit\cs_scientific_outfit_good_2"
+actor_visual	= actors\stalker_nebo\stalker_nebo_seva_vis.ogf
+npc_visual		= actors\stalker_nebo\stalker_nebo_seva_vis.ogf
+
+inv_name		= cs_scientific_outfit_good_2_name
+inv_name_short	= cs_scientific_outfit_good_2_name
+description		= cs_scientific_outfit_good_2_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 12
+inv_grid_y		= 3
+upgr_icon_x		= 959
+upgr_icon_y		= 196
+upgr_icon_width	= 298
+upgrades		= up_gr_firstab_seva_1, up_gr_seconab_seva_1, up_gr_thirdab_seva_1, up_gr_fourtab_seva_1
+
+cost					= 57689 ; 75400-17720
+inv_weight				= 8.8 ; 12.4-3.6
+additional_inventory_weight	= 15
+additional_inventory_weight2= 15
+immunities_sect			= sect_cs_scientific_outfit_good_2_immunities
+repair_type				= outfit_medium
+;repair_part_bonus		= 0.40
+control_inertion_factor	= 1.6
+
+burn_protection			= 0.083 ; 0.12-0.037
+shock_protection		= 1.86 ; 1.9-0.04
+radiation_protection	= 0.0115 ; 0.045-0.0335
+chemical_burn_protection= 0.001 ; 0.11-0.109
+telepatic_protection	= 0.063 ; 0.123-0.06
+strike_protection		= 0.12
+explosion_protection	= 0.13 ; 0.15-0.02
+wound_protection		= 0.254 ; 0.30-0.046
+fire_wound_protection	= 0.22
+
+[sect_cs_scientific_outfit_good_2_immunities]:sect_cs_scientific_outfit_good_immunities
+chemical_burn_immunity	= 0.007
+fire_wound_immunity		= 0.024
+shock_immunity			= 0.004
+strike_immunity			= 0.001
+telepatic_immunity		= 0.002
+wound_immunity			= 0.024

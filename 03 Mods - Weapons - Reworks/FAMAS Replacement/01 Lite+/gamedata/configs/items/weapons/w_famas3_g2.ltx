@@ -1,0 +1,301 @@
+;------------------------------------------------------------------------------------------------
+[wpn_famas_g2]:wpn_famas_f1
+$spawn			= "weapons\famas_g2"
+parent_section	= wpn_famas_g2
+
+inv_grid_height	= 2
+inv_grid_width	= 5
+inv_grid_x		= 0
+inv_grid_y		= 4
+inv_name		= st_wpn_famas_g2
+inv_name_short	= st_wpn_famas_g2
+description		= st_wpn_famas_g2_descr
+
+cost			= 48000
+
+hud				= wpn_famas_g2_hud
+visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_world.ogf
+
+ammo_elapsed	= 30
+ammo_mag_size	= 30
+
+rpm				= 1050
+
+[wpn_famas_g2_hud]:wpn_famas_f1_hud
+item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_hud.ogf
+
+hands_position			= -0.009438, 0.023337, -0.13363
+hands_position_16x9		= -0.009438, 0.023337, -0.13363
+hands_orientation		= 0.271, 0.221199, 0.15
+hands_orientation_16x9	= 0.271, 0.221199, 0.15
+
+aim_hud_offset_pos		= 0.011541, -0.012371, 0.023943
+aim_hud_offset_pos_16x9	= 0.011541, -0.012371, 0.023943
+aim_hud_offset_rot		= 0.003644, 0.0056, 0.006198
+aim_hud_offset_rot_16x9	= 0.003644, 0.0056, 0.006198
+
+aim_hud_offset_alt_pos		= 0.011541, -0.012371, 0.023943
+aim_hud_offset_alt_pos_16x9	= 0.011541, -0.012371, 0.023943
+aim_hud_offset_alt_rot		= 0.003644, 0.0056, 0.006198
+aim_hud_offset_alt_rot_16x9	= 0.003644, 0.0056, 0.006198
+
+;--- Переходы ---
+anm_sprint_start		= famst_sprint_start, idle
+anm_sprint_start_jammed	= famst_sprint_start, idle_jammed
+
+anm_sprint_end			= famst_sprint_end, idle
+anm_sprint_end_jammed	= famst_sprint_end, idle_jammed
+
+;--- Паттерны ---
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+;------------------------------------------------------------------------------------------------
+[wpn_famas_g2_ac10632]:wpn_famas_g2
+hud				= wpn_famas_g2_ac10632_hud
+visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_world.ogf
+
+1icon_layer		= ac10632
+1icon_layer_x	= 110
+1icon_layer_y	= -20
+
+inv_weight		= 3.95
+
+use_alt_aim_hud	= true
+
+[wpn_famas_g2_ac10632_hud]:wpn_famas_g2_hud
+item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_mrs_hud.ogf
+
+aim_hud_offset_pos		= 0.012057, -0.066588, -0.061976
+aim_hud_offset_pos_16x9	= 0.012057, -0.066588, -0.061976
+aim_hud_offset_rot		= -0.001742, 0.00465, -0.0024
+aim_hud_offset_rot_16x9	= -0.001742, 0.00465, -0.0024
+
+;------------------------------------------------------------------------------------------------
+[wpn_famas_g2_acog]:wpn_famas_g2
+hud				= wpn_famas_g2_acog_hud
+visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_world.ogf
+
+1icon_layer		= acog
+1icon_layer_x	= 110
+1icon_layer_y	= -20
+
+inv_weight		= 4.09
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+[wpn_famas_g2_acog_hud]:wpn_famas_g2_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_acog_hud.ogf
+
+aim_hud_offset_pos		= 0.013803, -0.069298, -0.03655
+aim_hud_offset_pos_16x9	= 0.013803, -0.069298, -0.03655
+aim_hud_offset_rot		= 0.027007, 0.00131, -0.007
+aim_hud_offset_rot_16x9	= 0.027007, 0.00131, -0.007
+
+;------------------------------------------------------------------------------------------------
+[wpn_famas_g2_eot]:wpn_famas_g2
+$spawn			= "weapons\famas_eot"
+
+hud				= wpn_famas_g2_eot_hud
+visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_world.ogf
+
+1icon_layer		= eot
+1icon_layer_x	= 110
+1icon_layer_y	= -20
+
+inv_weight		= 4.10
+
+[wpn_famas_g2_eot_hud]:wpn_famas_g2_hud
+item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_eot_hud.ogf
+
+aim_hud_offset_pos		= 0.011577, -0.073619, -0.050455
+aim_hud_offset_pos_16x9	= 0.011577, -0.073619, -0.050455
+aim_hud_offset_rot		= -0.002381, 0.00561, -0.0024
+aim_hud_offset_rot_16x9	= -0.002381, 0.00561, -0.0024
+
+;------------------------------------------------------------------------------------------------
+[wpn_famas_g2_c-more]:wpn_famas_g2
+$spawn			= "weapons\famas_c-more"
+
+hud				= wpn_famas_g2_c-more_hud
+visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_world.ogf
+
+1icon_layer		= c-more
+1icon_layer_x	= 110
+1icon_layer_y	= -20
+
+inv_weight		= 4.10
+
+[wpn_famas_g2_c-more_hud]:wpn_famas_g2_hud
+item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_c-more_hud.ogf
+
+aim_hud_offset_pos		= 0.012217, -0.068292, -0.057704
+aim_hud_offset_pos_16x9	= 0.012217, -0.068292, -0.057704
+aim_hud_offset_rot		= -0.001742, 0.00465, -0.0024
+aim_hud_offset_rot_16x9	= -0.001742, 0.00465, -0.0024
+
+
+; ---TACTICAL---
+; [wpn_famas_g2_tactical]:wpn_famas_g2
+; parent_section	= wpn_famas_g2_tactical
+
+; hud				= wpn_famas_g2_tactical_hud
+; visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_tactical_world.ogf
+
+; icons_texture	= ui\lewd_famas_icon
+; inv_grid_height	= 2
+; inv_grid_width	= 5
+; inv_grid_x		= 5
+; inv_grid_y		= 4
+
+; inv_name		= st_wpn_famas_g2_tactical
+; inv_name_short	= st_wpn_famas_g2_tactical
+; description		= st_wpn_famas_g2_tactical_descr
+
+; [wpn_famas_g2_tactical_hud]:wpn_famas_g2_hud
+; item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_tactical_hud.ogf
+
+; item_position	= -0.001546, 0.000142, 0
+
+; aim_hud_offset_pos		= 0.013141, -0.013223, 0.023943
+; aim_hud_offset_pos_16x9	= 0.013141, -0.013223, 0.023943
+; aim_hud_offset_rot		= 0.003644, 0.0056, 0.006198
+; aim_hud_offset_rot_16x9	= 0.003644, 0.0056, 0.006198
+
+; aim_hud_offset_alt_pos		= 0.013141, -0.013223, 0.023943
+; aim_hud_offset_alt_pos_16x9	= 0.013141, -0.013223, 0.023943
+; aim_hud_offset_alt_rot		= 0.003644, 0.0056, 0.006198
+; aim_hud_offset_alt_rot_16x9	= 0.003644, 0.0056, 0.006198
+
+; anm_hide					= fam_hide, idle
+; anm_idle					= fam_idle, idle
+; anm_idle_aim				= fam_aim, idle
+; anm_idle_aim_moving			= fam_walk, idle, 0.75
+; anm_idle_aim_moving_crouch	= fam_walk, idle, 0.75
+; anm_idle_moving				= fam_walk, idle
+; anm_idle_moving_crouch		= fam_walk, idle, 0.75
+; anm_idle_sprint				= fam_sprint, idle, 1.1
+; anm_reload					= fam_reload, l85_reload
+; anm_reload_empty			= fam_reload_empty, l85_reload_empty
+; anm_reload_misfire			= fam_misfire_scope, l85_revival
+; anm_shots					= fam_shoot, l85_shoot
+; anm_shots_aim				= fam_aim_shoot, l85_shoot
+; anm_show					= fam_draw, idle
+; anm_switch_mode				= fam_fire_select, idle
+; anm_idle_aim_start			= fam_aim_start, idle
+; anm_idle_aim_end			= fam_aim_end, idle
+; anm_bore					= fam_dry, idle, 0.62
+
+; anm_hide_jammed						= fam_hide, idle_jammed
+; anm_idle_jammed						= fam_idle, idle_jammed
+; anm_idle_aim_jammed					= fam_aim, idle_jammed
+; anm_idle_aim_moving_jammed			= fam_walk, idle_jammed, 0.75
+; anm_idle_aim_moving_crouch_jammed	= fam_walk, idle_jammed, 0.7
+; anm_idle_moving_jammed				= fam_walk, idle_jammed
+; anm_idle_moving_crouch_jammed		= fam_walk, idle_jammed, 0.7
+; anm_idle_sprint_jammed				= fam_sprint, idle_jammed
+; anm_show_jammed						= fam_draw, idle_jammed
+; anm_idle_aim_start_jammed			= fam_aim_start, idle_jammed
+; anm_idle_aim_end_jammed				= fam_aim_end, idle_jammed
+; anm_bore_jammed						= fam_dry, idle_jammed, 0.62
+
+; ;--- Переходы ---
+; anm_sprint_start		= fam_sprint_start, idle
+; anm_sprint_start_jammed	= fam_sprint_start, idle_jammed
+
+; anm_sprint_end			= fam_sprint_end, idle
+; anm_sprint_end_jammed	= fam_sprint_end, idle_jammed
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_famas_g2_tactical_ac10632]:wpn_famas_g2_tactical
+; hud				= wpn_famas_g2_tactical_ac10632_hud
+; visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_tactical_world.ogf
+
+; 1icon_layer		= ac10632
+; 1icon_layer_x	= 135
+; 1icon_layer_y	= 2
+
+; inv_weight		= 3.95
+
+; use_alt_aim_hud	= true
+
+; [wpn_famas_g2_tactical_ac10632_hud]:wpn_famas_g2_tactical_hud
+; item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_tactical_mrs_hud.ogf
+
+; aim_hud_offset_pos		= -0.048263, -0.006212, -0.003945
+; aim_hud_offset_pos_16x9	= -0.048263, -0.006212, -0.003945
+; aim_hud_offset_rot		= 0.005512, 0.00961, 0.839619
+; aim_hud_offset_rot_16x9	= 0.005512, 0.00961, 0.839619
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_famas_g2_tactical_acog]:wpn_famas_g2_tactical
+; hud				= wpn_famas_g2_tactical_acog_hud
+; visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_tactical_world.ogf
+
+; 1icon_layer		= acog
+; 1icon_layer_x	= 135
+; 1icon_layer_y	= 2
+
+; inv_weight		= 4.09
+
+; scope_status		= 1
+; scope_texture		= wpn_crosshair_acog
+; scope_zoom_factor	= 25
+; zoom_rotate_time	= 0.25
+; scope_dynamic_zoom	= off
+
+; [wpn_famas_g2_tactical_acog_hud]:wpn_famas_g2_tactical_hud,hud_low_interia
+; item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_tactical_acog_hud.ogf
+
+; aim_hud_offset_pos		= -0.046023, -0.006638, 0.113598
+; aim_hud_offset_pos_16x9	= -0.046023, -0.006638, 0.113598
+; aim_hud_offset_rot		= 0.004021, 0.00753, 0.839619
+; aim_hud_offset_rot_16x9	= 0.004021, 0.00753, 0.839619
+; fire_point	= 0, 0, -0.419358
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_famas_g2_tactical_eot]:wpn_famas_g2_tactical
+; hud				= wpn_famas_g2_tactical_eot_hud
+; visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_tactical_world.ogf
+
+; 1icon_layer		= eot
+; 1icon_layer_x	= 135
+; 1icon_layer_y	= 2
+
+; inv_weight		= 4.10
+
+; use_alt_aim_hud	= true
+
+; [wpn_famas_g2_tactical_eot_hud]:wpn_famas_g2_tactical_hud
+; item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_tactical_eot_hud.ogf
+
+; aim_hud_offset_pos		= -0.045703, -0.029032, -0.003945
+; aim_hud_offset_pos_16x9	= -0.045703, -0.029032, -0.003945
+; aim_hud_offset_rot		= 0.006578, 0.00977, 1.033958
+; aim_hud_offset_rot_16x9	= 0.006578, 0.00977, 1.033958
+
+; ;------------------------------------------------------------------------------------------------
+; [wpn_famas_g2_tactical_c-more]:wpn_famas_g2_tactical
+; hud				= wpn_famas_g2_tactical_c-more_hud
+; visual			= dynamics\weapons\wpn_famas\wpn_famas_g2_tactical_world.ogf
+
+; 1icon_layer		= c-more
+; 1icon_layer_x	= 135
+; 1icon_layer_y	= 2
+
+; inv_weight		= 4.10
+
+; use_alt_aim_hud	= true
+
+; [wpn_famas_g2_tactical_c-more_hud]:wpn_famas_g2_tactical_hud
+; item_visual	= anomaly_weapons\wpn_famas\wpn_famas_g2_tactical_c-more_hud.ogf
+
+; aim_hud_offset_pos		= -0.048743, -0.016023, -0.003945
+; aim_hud_offset_pos_16x9	= -0.048743, -0.016023, -0.003945
+; aim_hud_offset_rot		= 0.005084, 0.00993, 0.839619
+; aim_hud_offset_rot_16x9	= 0.005084, 0.00993, 0.839619

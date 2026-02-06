@@ -19,8 +19,5 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-GT Urban Tactics
-Allows loading the flare grenades.
-
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_avt_7.62x54_default">
+		<text>Standard 7.62x54 AVT-40 Magazine</text>
+	</string>
+	<string id="st_mag_avt_7.62x54_default_descr">
+		<text>Standard 20-round magazine used with the AVT-40 rifle.</text>
+	</string>
+
+	<string id="st_mag_avt_7.62x39_alt">
+		<text>Modified 7.62x39 AVT-40 Magazine</text>
+	</string>
+	<string id="st_mag_avt_7.62x39_alt_descr">
+		<text>AVT-40 magazine modified to load the intermediate 7.62x39 round.</text>
+	</string>
+
+</string_table>

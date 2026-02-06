@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Duty Suits-->
+	
+	<string id="duty_ps5h_outfit_name">
+		<text>PS5-H Body Armour</text>
+	</string>
+	<string id="duty_ps5h_outfit_description">
+		<text>%c[ui_gray_1]A heavy armoured suit, made by duty craftsmen as a matter of survival. partially based off of clear sky suits, this heavy version of the PS5 armour features a large ballistic vest, rubberized lining, and an armoured bodysuit. while weighty, the suit's combat and enviromental protection more than makes up for it. used by experienced dutyers operating in the northern parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_lc_outfit_name">
+		<text>PZ1-L Suit</text>
+	</string>
+	<string id="duty_lc_outfit_description">
+		<text>%c[ui_gray_1]A Western light combat suit, acquired and modified by Duty craftsmen for better functionality in the zone. While rare, duty does sometimes (if begrudingly) deal with the Zone's mercenaries, especially in their current modern downturn of power. features better combat protection, while unfortunately being significantly heavier than the standard LC suit.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_sts1_outfit_name">
+		<text>PZ1-M Special Tactical Suit</text>
+	</string>
+	<string id="duty_sts1_outfit_description">
+		<text>%c[ui_gray_1]A duty-made Special Tactical Suit, created for reconnaissance within the zone. Boasts decent combat protection, but the suit's main draws is it's radiological/chemical resistance and it's light weight, allowing users to move through anomaly fields quickly and safely.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_sts2_outfit_name">
+		<text>PZ2-M2a Special Tactical Suit</text>
+	</string>
+	
+	<string id="duty_sts2_outfit_description">
+		<text>%c[ui_gray_1]A duty-made Special Tactical Suit, created for reconnaissance and light skirmishes within the zone. Boasts good combat and anomalous protection, while also remaining light, this suit is great for any duty scout expecting some conflict. created as a successor to the PZ1-M STS, this suit is unfortunately somewhat rare.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_cs1_outfit_name">
+		<text>PR1-L Suit</text>
+	</string>
+	<string id="duty_cs1_outfit_description">
+		<text>%c[ui_gray_1]A CS-1a gifted by Clear Sky and further modified by Duty craftsmen. while heavier than the standard CS-1, it boasts greater splinter, shrapnel, and strike protection- without losing it's anomalous protection. a good budget alternative to the PS5-M suit.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_sunrise_outfit_name">
+		<text>PR1-M Suit</text>
+	</string>
+	<string id="duty_sunrise_outfit_description">
+		<text>%c[ui_gray_1]A Sunrise Stalker suit, tweaked by duty craftsmen to better serve the faction's interests. The suit has additional armour plates sewn into it and features beryllium sputters with rubber lining. while significantly heavier than the usual Sunrise suit, it provides a good alternative choice to the PS5-M for rookies and veterans alike.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_berillnew_outfit_name">
+		<text>PS6 Battle Armour</text>
+	</string>
+	<string id="duty_berillnew_outfit_description">
+		<text>%c[ui_gray_1]the next generation of the Berill series, this armour has been designed and specially made by one of Kiev's defence research institutes with the zone's conditions in mind; while also being further modified by duty craftsmen. Featuring plexiglass and rubberized lining, an anomalous protection bodysuit, heavy duty non-conductive armour plates and a sophisticated frontal weight distribution system, this armour offers great protection for even protracted battles within the zone. unfortunately due to it's cost and relative new-ness, the armour is a rare sight on even high-ranking personnel. Despite this, the armour somehow has made it's way to other factions despite very tight protocols to prevent so. this version sacrifices its anomalous protection for even greater combat protection.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_mtc_outfit_name">
+		<text>PS5-MTC Suit</text>
+	</string>
+	<string id="duty_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been acquired quite suspiciously by Duty. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after, and is fairly expensive. this particular version features heavier armour plates.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_skatseva_outfit_name">
+		<text>PSZ-14Ra Closed-Cycle Armoured Bodysuit</text>
+	</string>
+	<string id="duty_skatseva_outfit_description">
+		<text>%c[ui_gray_1]One of the most advanced and protective suits in the Zone, this suit features some of the best ballistic protection Duty has to offer combined with fantastic anomalous defence. built and designed by one of Kiev's defence research institutes but never officially made for the military, this suit combines the PSZ-14Ra heavy military body armour, a specially treated rubberized outer shell, heat-regulation system, psy grills, anti-conductivity defence system, and a built-in anomalous protection undersuit. While heavy and quite uncomfortable, the sheer amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. almost exclusively used by the highest ranking dutyers or those on extremely dangerous missions.\n \n
+		</text>
+	</string>
+	
+	<string id="duty_berillheavy_outfit_name">
+		<text>PS5-X Heavy Armour</text>
+	</string>
+	
+	<string id="duty_berillheavy_outfit_description">
+		<text>%c[ui_gray_1]A special heavy version of the PS5 series of armour, designed for heavy combat and stealth operations. features a reinforced armoured vest, a rubberized undersuit with beryllium sputters, and a frontal mounted weight distribution system. because of this, the armour boasts fantastic combat protection, particularly against splinter and ballistic threats, while being able to withstand and move through anomaly fields unhindered. the one downside, other than it's price tag, is it's sheer weight.\n \n
+		</text>
+	</string>
+	
+</string_table>

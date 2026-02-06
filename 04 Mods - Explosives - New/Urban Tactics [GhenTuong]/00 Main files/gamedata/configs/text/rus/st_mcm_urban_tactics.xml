@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="ui_mcm_menu_urban_tactics">
+		<text>GT - Urban Tactics</text>
+	</string>
+	
+	<string id="ui_mcm_urban_tactics_opt_show_trajectory_grd">
+		<text>Предсказать траекторию гранаты</text>
+	</string>
+	<string id="ui_mcm_urban_tactics_opt_show_trajectory_grd_desc">
+	<text>\n Отображение траектории при метании гранат.\n</text>
+	</string>
+	<string id="ui_mcm_urban_tactics_opt_show_trajectory_lch">
+		<text>Предсказать запуск из гранатомета</text>
+	</string>
+	<string id="ui_mcm_urban_tactics_opt_show_trajectory_lch_desc">
+	<text>\nПоказывать траекторию при использовании гранатометов.\n</text>
+	</string>
+	<string id="ui_mcm_urban_tactics_opt_plan_mine_key">
+		<text>Кнопки взаимодействия с ловушками-растяжками</text>
+	</string>
+	<string id="ui_mcm_urban_tactics_opt_plan_mine_key_desc">
+	<text>\n
+	Отключить: [Огонь] - активировать. [Прицелиться] - отключить.\n
+	Включить: [Переключить гранатомет] - активировать. [Перезарядка] - отключить.\n \n
+	[Использовать] - забрать расставленные растяжки. (Находиться в пределах 2 метров от края растяжки, где находится граната. Прицельтесь в гранату и нажмите кнопку действия.)\n
+	</text>
+	</string>
+</string_table>

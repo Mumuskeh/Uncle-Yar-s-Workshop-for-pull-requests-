@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 
-	<string id="novice_gray_name">
+	<string id="novice_gray_outfit_name">
 		<text>Grey jacket</text>
 	</string>
-	<string id="novice_gray_description">
+	<string id="novice_gray_outfit_description">
 		<text>%c[ui_gray_1]A warm grey anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among naive or inexperienced stalkers, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
 	</string>
 
-	<string id="novice_uzor_name">
+	<string id="novice_uzor_outfit_name">
 		<text>Plaid Jacket</text>
 	</string>
-	<string id="novice_uzor_description">
+	<string id="novice_uzor_outfit_description">
 		<text>%c[ui_gray_1]A warm plaid anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among naive or inexperienced stalkers, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
 	</string>
 
-	<string id="novice_afganka_name">
+	<string id="novice_army_afganka_outfit_name">
 		<text>"Afghan"</text>
 	</string>
-	<string id="novice_afganka_description">
+	<string id="novice_army_afganka_outfit_description">
 		<text>%c[ui_gray_1]A warm leather anorak worn over a cosy turtleneck sweater, tucked into sturdy jeans and hiking boots. The outfit of choice among military privates, veterans consider it barely a step above walking around the Zone in your underwear.\n \n</text>
 	</string>
 
-	<string id="novice_scien_name">
+	<string id="novice_ecolog_scien_outfit_name">
 		<text>Lab Assistant's clothing</text>
 	</string>
-	<string id="novice_scien_description">
+	<string id="novice_ecolog_scien_outfit_description">
 		<text>%c[ui_gray_1]Uniform worn by laboratory assistants of scientists during exits to the Zone. Not much different from a regular jacket, except that it protects better from fire, burns and chemical burns. Very comfortable.\n \n</text>
 	</string>
 
@@ -70,7 +70,7 @@
 	</string>
 
 	<string id="merc_demon_outfit_name">
-		<text>The "Demon" jumpsuit</text>
+		<text>"Demon" guard jumpsuit</text>
 	</string>
 	<string id="merc_demon_outfit_description">
 		<text>%c[ui_gray_1]An alternative version of the coverall used by mercenaries. The "Demon" has been optimized to provide high mobility, good thermal protection, as well as the possibility of fixing additional modules. The price of such changes was the reduced protective characteristics of the suit as a whole. Nevertheless, it can perfectly manifest itself in operations where mobility and stealth are important, and therefore it is used mainly by scouts and killers who operate in the least irradiated areas of the Zone.\n \n
@@ -78,10 +78,10 @@
 	</string>
 
 	<string id="guard_outfit_name">
-		<text>Jumpsuit "Guard"</text>
+		<text>Guard jumpsuit</text>
 	</string>
 	<string id="guard_outfit_description">
-		<text>%c[ui_gray_1]A lightweight jumpsuit used by the guards, which is based on samples of special forces equipment of Western armies. Due to the special processing of the fabric, the stability of the armor is enhanced with the physical displacement of the plates, but when compared with the standard equipment of the special forces, it loses heavily to the latter in terms of protective parameters. In addition, the jumpsuit was not designed taking into account the abnormal activity in the Zone.\n \n
+		<text>%c[ui_gray_1]A lightweight jumpsuit used by unaligned guards, which is based on samples of special forces equipment of Western armies. Due to the special processing of the fabric, the stability of the armor is enhanced with the physical displacement of the plates, but when compared with the standard equipment of the special forces, it loses heavily to the latter in terms of protective parameters. In addition, the jumpsuit was not designed taking into account the abnormal activity in the Zone.\n \n
 		</text>
 	</string>
 
@@ -118,7 +118,7 @@
 	</string>
 
 	<string id="specops_gray_outfit_name">
-		<text>Berill-5M "Grayness" armoured suit </text>
+		<text>Berill-5M "Grayness" armoured suit</text>
 	</string>
 	<string id="specops_gray_outfit_description">
 		<text>%c[ui_gray_1]This item comprises military PS5 series body armour with beryllium sputter modified for use in the Zone. Designed for intense rapid-insertion assault operations, this outfit is standard issue for most Spetsnaz operators in the Zone, but requires a high quality respirator to counteract its weaknesses against radiation and anomalies. Occasionally, this suit will be sold to ordinary stalkers in exchange for various "favours".\n
@@ -147,7 +147,7 @@
 	</string>
 
 	<string id="dolg_exolight_debtor_outfit_name">
-		<text>PSZ-10d Debtor battlesuit </text>
+		<text>PSZ-10d Debtor battlesuit</text>
 	</string>
 	<string id="dolg_exolight_debtor_outfit_description">
 		<text>The "underwear" of an exoskeleton, sometimes mistakenly known as the "Radsuit". This outfit provides almost all the protection one can expect from a full exoskeleton, but due to being stripped of its servos and batteries, it provides none of the strength enhancement. On the positive side, this means the suit is now easier to maintain and, unlike a full exoskeleton, does not prevent the wearer from sprinting. This suit is typically found in the hands of elite Duty warriors, especially those assigned to guard VIPs or launch exceedingly dangerous raids.\n \n
@@ -198,7 +198,7 @@
 		<text>Thunder of Freedom</text>
 	</string>
 	<string id="svoboda_light_grom_outfit_description">
-		<text>%c[ui_gray_1]is another creation of the armorer Razamas. A mixture of several jumpsuits that are almost impossible to install. Chain mail was added to protect against fangs. However, the speed of movement was noticeably reduced. Approximately, this is how they move in the exoskeleton of Freedom. Therefore, carriers usually work with the support of people with lighter overalls. Holds an automatic bullet well. There are three containers for comfortable movement of artifacts.\n \n
+		<text>%c[ui_gray_1]A creation of the armorer Razamas. A mixture of several jumpsuits that are almost impossible to install. Chain mail was added to protect against fangs. However, the speed of movement was noticeably reduced. Approximately, this is how they move in the exoskeleton of Freedom. Therefore, carriers usually work with the support of people with lighter overalls. Holds an automatic bullet well. There are three containers for comfortable movement of artifacts.\n \n
 		</text>
 	</string>
 

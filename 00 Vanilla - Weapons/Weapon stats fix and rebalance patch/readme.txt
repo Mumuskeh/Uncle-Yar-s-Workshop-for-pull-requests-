@@ -16,11 +16,11 @@ Also, you know, modders should do their minimal research beforehand. You know wh
 -Explanation:
 Holistic, realistic-ish minded, rebalance of the vanilla weapons. Originally a simple merge of other mods, it grew to be their own beast.
 
-It fixes the simplest aspect of weaponry by observing real life firearms. Broadly this means reduced range, in exchange of things like lower weight, higher fire rate and/or muzzle velocity. Or the other way around.
+It fixes the simplest aspect of weaponry by observing real life firearms. Broadly and usually, this means reduced range, in exchange of things like lower weight, higher fire rate and/or muzzle velocity. Or the other way around. The caliber used also affects the changes.
 
-Usually fights in game happen at relatively short ranges. So while on the surface this may feel as an overall nerf judging by the reach of your shots, and it may make approaching the CNNP harder thou, I think it ends up more as a buff.
+Usually fights in game happen at relatively short ranges. So while on the surface this may feel as an overall nerf judging by the reach of your shots, and it may make approaching the CNNP harder, I think it ends up more as a buff.
 
-Bottom line, if you want to snipe, you better go get a proper sniper rifle.
+Bottom line, pistols are strictly for CQC defense, SMGs for close quarters, rifles for medium range, LMGs have good-ish reach, and if you want to snipe, you better go get a proper sniper rifle.
 
 There are patches intended for different packs; individual mods are grouped up in the same file. All of them are modified up to the same standards in the main module.
 
@@ -76,7 +76,7 @@ To compensate,  Ash-12 gets a heavy damage buff, and is allowed to use a silence
 	All Saigas, included from other mods in their patches below, nerfed across the board, with all available ones offering a progression of sorts. The BaS ISG and Tactical's models look like a Komrad, a shorter barreled Saiga variant, so I keep that in mind.
 	On a first tier, Saiga 12 and 20 work as caliber alternatives.
 	A second tier is started by the BaS Saiga Eco, and improved by the BaS Saiga Merc.
-	On a third tier, you start with the Saiga Tactical is better than them but heavier and suffers from worse range. The BaS Saiga ISG improves upon the Tactical and recovers some range, but it's the heaviest.
+	On a third tier, the Saiga Tactical is better than previous ones but heavier and suffers from worse range. The BaS Saiga ISG improves upon the Tactical and recovers some range, but it's the heaviest.
 	MWP's bullpup Saiga stays in a 2.5 tier, with very good performance compared to the BaS ISG. A bit of extra range makes it the better to slug snipe with, though that's not saying a lot.
 	Applying the drum kits is also nerfed; smaller improvements, but over more aspects and weight won't be increased (the extra ammo already does that), to allow a given Saiga to catch up with the next ones, but at a far more moderate pace.
 	With these tweaks, a drummed vanilla Saiga will be like a untweaked BaS Merc, and a drummed Saiga ISG would reach close to the untweaked Saiga ISG.
@@ -91,7 +91,7 @@ To compensate,  Ash-12 gets a heavy damage buff, and is allowed to use a silence
 	PKM: fire rate raised to 700.
 
 
-PENDING: 7.xmm weapons, snipers, and LMGs in general, .
+PENDING: 7.xmm weapons, snipers, and LMGs in general.
 
 
 ----------------------------------------------------------

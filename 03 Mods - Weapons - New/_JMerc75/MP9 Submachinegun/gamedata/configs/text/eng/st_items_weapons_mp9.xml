@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mp9_n">
+		<text>Brugger-Thomet MP9-N</text>
+	</string>
+	<string id="st_wpn_mp9_n_s">
+		<text>MP9-N</text>
+	</string>
+	<string id="st_wpn_mp9_n_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
+	</string>
+
+	<string id="st_wpn_mp9_j">
+		<text>Brugger-Thomet MP9-N Tactical</text>
+	</string>
+	<string id="st_wpn_mp9_j_s">
+		<text>MP9-N Tactical</text>
+	</string>
+	<string id="st_wpn_mp9_j_descr">
+		<text>The MP9 is a compact and versatile selective-fire submachine gun renowned for its reliability and ergonomic design by Brugger and Thomet, as a development of the Steyr TMP. It has gained popularity as a reliable firearm in military and law enforcement circles. It is made of polymer and also corrosion-resistant, with a stock that folds to the right side of the weapon, and an integrated Picatinny rail. Its design and ease of operability allows the user to holster the weapon like a machine pistol or personal defense weapon for rapid deployment in self-defence.\n
+		The MP9-N is a further refined variant, firing at an increased fire rate. It is effective as PDW or for concealed carry for security and bodyguards.\n
+		A laser pointer module has been attached to this particular gun.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] All collimators for the Picatinny/weaver system.\n
+		%c[d_purple] • %c[ui_gray_2] Rifle Dynamics ISG Sound Suppressor</text>
+	</string>
+
+	<string id="st_mag_mp9_default">
+		<text>MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_default_descr">
+		<text>Standard magazine for the MP9 Submachinegun, it holds 30 rounds of 9x19mm ammunition.</text>
+	</string>	
+	
+	<string id="st_mag_mp9_extended">
+		<text>MP9 Extended Magazine</text>
+	</string>
+	<string id="st_mag_mp9_extended_descr">
+		<text>Extended magazine for the MP9 Tactical Submachinegun, it holds 40 rounds of 9x19mm ammunition.</text>
+	</string>
+	
+</string_table>

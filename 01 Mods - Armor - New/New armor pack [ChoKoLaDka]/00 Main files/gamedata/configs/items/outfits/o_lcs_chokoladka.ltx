@@ -1,0 +1,135 @@
+;;LCS
+[merc_demon_outfit]:merc_scout_outfit
+$spawn			= "outfit\merc_demon_outfit"
+actor_visual	= actors\stalker_merc\stalker_naim_demon_gas.ogf
+npc_visual		= actors\stalker_merc\stalker_naim_demon_gas.ogf
+
+inv_name		= merc_demon_outfit_name
+inv_name_short	= merc_demon_outfit_name
+description		= merc_demon_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 6
+inv_grid_y		= 3
+
+kind				= o_medium
+cost				= 47692
+additional_inventory_weight	= 15
+additional_inventory_weight2= 15
+repair_type			= outfit_medium
+;repair_part_bonus	= 0.44
+hit_fraction_actor	= 0.37
+
+burn_protection			= 0.07
+strike_protection		= 0.2
+explosion_protection	= 0.25
+wound_protection		= 0.18
+fire_wound_protection	= 0.36
+
+[guard_outfit]:merc_scout_outfit
+$spawn			= "outfit\guard_outfit"
+actor_visual	= actors\stalker_neutral\stalker_bar_security.ogf
+npc_visual		= actors\stalker_neutral\stalker_bar_security.ogf
+
+inv_name		= guard_outfit_name
+inv_name_short	= guard_outfit_name
+description		= guard_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 2
+inv_grid_x		= 6
+inv_grid_y		= 6
+
+cost		= 8500
+inv_weight	= 3
+
+burn_protection			= 0.02
+radiation_protection	= 0.0005
+chemical_burn_protection= 0.02
+strike_protection		= 0.15
+explosion_protection	= 0.4
+wound_protection		= 0.5
+fire_wound_protection	= 0.2
+
+[security_outfit]:merc_outfit
+$spawn				= "outfit\security_outfit"
+actor_visual		= actors\stalker_neutral\stalker_light_naim_gas.ogf
+npc_visual			= actors\stalker_neutral\stalker_light_naim_gas.ogf
+player_hud_section	= actor_hud_merc_suit ; actor_hud_loner_sunrise
+
+inv_name		= security_outfit_name
+inv_name_short	= security_outfit_name
+description		= security_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 0
+
+community	= stalker
+cost		= 25617
+
+burn_protection				= 0.02
+shock_protection			= 0.28
+chemical_burn_protection	= 0.012
+strike_protection			= 0.013
+explosion_protection		= 0.30
+wound_protection			= 0.16
+fire_wound_protection		= 0.31
+
+[army_mirotvorec_outfit]:merc_coyote_outfit
+visual			= dynamics\outfit\merc_outfit
+actor_visual	= actors\stalker_soldier\stalker_mirotvorec.ogf
+npc_visual		= actors\stalker_soldier\stalker_mirotvorec.ogf
+
+inv_name		= army_mirotvorec_outfit_name
+inv_name_short	= army_mirotvorec_outfit_name
+description		= army_mirotvorec_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 3
+
+community		= army
+cost			= 62795
+inv_weight		= 19
+artefact_count	= 0
+
+burn_protection			= 0.045
+shock_protection		= 0.66
+chemical_burn_protection= 0.039
+strike_protection		= 0.35
+explosion_protection	= 0.56
+wound_protection		= 0.37
+fire_wound_protection	= 0.43
+
+[army_vdv_outfit]:dolg_voin_outfit
+$spawn			= "outfit\army_vdv_outfit"
+actor_visual	= actors\stalker_soldier\stalker_vdv.ogf
+npc_visual		= actors\stalker_soldier\stalker_vdv.ogf
+player_hud_section	= actor_hud_loner_sunrise
+
+inv_name		= army_vdv_outfit_name
+inv_name_short	= army_vdv_outfit_name
+description		= army_vdv_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 8
+inv_grid_y		= 6
+
+community		= army
+cost			= 37856
+inv_weight		= 5
+artefact_count	= 0
+
+burn_protection			= 0.15
+shock_protection		= 0.3
+radiation_protection	= 0.005
+chemical_burn_protection= 0.02
+strike_protection		= 0.5
+explosion_protection	= 0.43
+wound_protection		= 0.39
+fire_wound_protection	= 0.26

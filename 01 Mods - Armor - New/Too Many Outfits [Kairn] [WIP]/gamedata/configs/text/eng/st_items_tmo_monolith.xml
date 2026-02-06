@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Monolith Suits-->
+	
+	<string id="monolith_stalker_outfit_name">
+		<text>Monolith Sunrise Stalker Suit</text>
+	</string>
+	<string id="monolith_stalker_outfit_description">
+		<text>%c[ui_gray_1]a Sunrise suit, acquired and modified by Monolith craftsmen. boasting similar anomalous and combat protection of a regular sunrise suit, this suit's biggest upside is it's greatly improved radiological protection. Typically worn by brainwashed stalkers who were caught attempting to cross the Barrier.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_faction_outfit_name">
+		<text>XR20 Tactical Bodysuit</text>
+	</string>
+	<string id="monolith_faction_outfit_description">
+		<text>%c[ui_gray_1]Bearing a resemblance to faction armours, this suit boasts similar protection to the X-18, with the only exceptions being more anomalous protection and the addition of more armour plates. the true origin of the XR20 remains a mystery; with many theories circulating among stalkers. some claim that the suit comes from outside the zone, some think it comes from monolith craftsmen themselves, while others think it, like the X-18, originates from one of the many Labs within the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_lc_outfit_name">
+		<text>Monolith LC Suit</text>
+	</string>
+	<string id="monolith_lc_outfit_description">
+		<text>%c[ui_gray_1]While often worn on the very mercenaries they were originally found on, this suit occasionally makes it's way into Monolith's hands through other unknown means. Like the Monolith Sunrise suit, it boasts similar protection to the original LC suit, with the only exception being greatly boosted radiological protection.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_cs1b_outfit_name">
+		<text>Monolith CS-1b Armoured Suit</text>
+	</string>
+	<string id="monolith_cs1b_outfit_description">
+		<text>%c[ui_gray_1]A heavy but quite comfortable outfit taken straight from clear sky members caught trying to cross the barrier. the suit has been modified with additional armour plates; which while making it heavy greatly adds to it's combat capabilities.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_cs2_outfit_name">
+		<text>Monolith CS-2a Body Armour</text>
+	</string>
+	<string id="monolith_cs2_outfit_description">
+		<text>%c[ui_gray_1]A Clear Sky suit, likely worn by the very former researchers caught trying to cross the Barrier. although not originally intended for firefights, monolithians have since modified this suit to be better protected in combat, especially against explosives and shrapnel.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_cs2_outfit_name">
+		<text>Monolith CS-2a Body Armour</text>
+	</string>
+	<string id="monolith_cs2_outfit_description">
+		<text>%c[ui_gray_1]A Clear Sky suit, likely worn by the very former researchers caught trying to cross the Barrier. although not originally intended for firefights, monolithians have since modified this suit to be better protected in combat, especially against explosives and shrapnel.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_cs3a_outfit_name">
+		<text>Monolith CS-3a Body Armour</text>
+	</string>
+	<string id="monolith_cs3a_outfit_description">
+		<text>%c[ui_gray_1]A heavier but still comfortable outfit worn by former members of Clear Sky that has been modified to provide more than adequate general protection, especially in combat. However, the armour is also highly conductive and susceptible to corrosion.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_advancednbc_outfit_name">
+		<text>Monolith CABRN Bodysuit</text>
+	</string>
+	<string id="monolith_advancednbc_outfit_description">
+		<text>%c[ui_gray_1]A specially made western-style bodysuit, designed by monolithian craftsmen. in terms of anomalous protection, this suit is somewhere inbetween a proper SEVA and an NBC suit, and boasts especially strong resistance against radiological and chemical threats. it is also additionally equipped with a ballistic vest, allowing for it to withstand pistol rounds and fragmentation splinters. lightweight and comfortable, while boasting good anomalous and decent combat protection makes this suit a perfect match for monolithian scouts.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_specops_outfit_name">
+		<text>Monolith Berill-4 Armoured Suit</text>
+	</string>
+	<string id="monolith_specops_outfit_description">
+		<text>%c[ui_gray_1]What appears to be an ancient version of the Berill series body armour, this suit is rumoured to have been on the original soldiers who guarded the army warehouses in 2012. The armour has been extensively modified, featuring a rubberized outer shell, plexiglass lining, and additional armour plates. while better protected from combat and radiological/chemical threats, this suit will quickly go up in flames and conduct electricity in a heartbeat.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_corundum_outfit_name">
+		<text>Monolith Corundum Body Armour</text>
+	</string>
+	<string id="monolith_corundum_outfit_description">
+		<text>%c[ui_gray_1]imported from western suppliers and further modified by monolithian craftsmen, this suit represents the best combat protection short of exosuits you can get in the zone. features a lightweight ballistic helmet, additional armour panels, a heavily armoured vest, and an anomalous protection bodysuit. while heavy, this armour boasts excellent splinter, shrapnel, and ballistic protection while also having decent protection from anomalous threats; thanks in large part to it's bodysuit. typically only found on seemingly high-ranking monolithians assaulting the army warehouses.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_obj77_exo_outfit_name">
+		<text>Monolith XR77 Exoskeleton</text>
+	</string>
+	<string id="monolith_obj77_exo_outfit_description">
+		<text>%c[ui_gray_1]an unusual exoskeleton, almost exclusively used by monolithians. theorized to be an experimental exoskeleton made by the monolith themselves, this armour features an exoskeleton with utterly alien servos, an unusually light but well protecting armoured vest, an intergrated object 77 gas mask, and what seems to be an enviromental jumpsuit based on the X-18 suit. compared to a standard exoskeleton, this suit boasts better enviromental protection, more efficient servos, and is lighter overall; with it's main drawback being worse combat protection.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_elite_exo_outfit_name">
+		<text>Monolith Commando Exoskeleton</text>
+	</string>
+	<string id="monolith_elite_exo_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified exoskeleton, designed and built by monolithian craftsmen from the ground up. pratically a work of art, this exoskeleton is meant for nighttime operations in the deadliest parts of the zone. Who ever made this evidently put an enormous amount of work and time into it, as it features alien servos, a weight distribution system, built-in temperature regulator, anti-conductivity regulator, anti-psy grills, improved filtering system, anomalously treated outer shell, and an inbuilt tactical rig. it's insane quality is only matched by it's mindboggling price and rarity.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_lightsts_outfit_name">
+		<text>X-6 Suit</text>
+	</string>
+	<string id="monolith_lightsts_outfit_description">
+		<text>%c[ui_gray_1]a strange patchwork of a suit, seemingly a mix of both new and old parts; combined together by monolithian craftsmen. features an old enviromental jumpsuit and an ancient ballistic vest thats been heavily modified and repaired. boasts good anomalous protection, especially against psy threats, and decent combat protection; but it's main draw is it's light weight and comfortability. where this suit's parts originate from is unknown, and is believed to, like the X-18, come from one of the myriad labs within the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="monolith_exolightseva_outfit_name">
+		<text>Monolith Exosuit SEVA</text>
+	</string>
+	<string id="monolith_exolightseva_outfit_description">
+		<text>%c[ui_gray_1]An experimental combination of both an Exosuit and a SEVA closed-cycle system, this armour seeks to combine the best of both suit types. boasts great anomalous and combat protection, with it's main downside, the suits weight, being the only thing really taking away from the it's appeal. used by monolithians primarily protecting the Labs within the Zone.\n \n
+		</text>
+	</string>
+	
+
+
+	
+</string_table>

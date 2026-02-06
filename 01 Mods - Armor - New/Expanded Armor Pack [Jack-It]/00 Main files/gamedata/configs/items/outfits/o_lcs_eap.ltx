@@ -1,0 +1,43 @@
+[isg_lcs_operator_outfit]:isg_lcs_urban_outfit,outfit_restrictions_1
+$spawn							= outfit\isg_lcs_operator_outfit
+actor_visual					= actors\stalker_isg\isg_lcs_operator_outfit.ogf
+npc_visual						= actors\stalker_isg\isg_lcs_operator_outfit.ogf
+
+inv_name						= st_isg_lcs_operator_outfit_name
+inv_name_short					= st_isg_lcs_operator_outfit_name
+description						= st_isg_lcs_operator_outfit_description
+icons_texture					= ui\ui_icon_eap
+inv_grid_width					= 2
+inv_grid_height					= 3
+inv_grid_x						= 4
+inv_grid_y						= 6
+upgr_icon_x						= 0
+upgrades						= up_gr_firstab_lonerpack_1, up_gr_seconab_lonerpack_1, up_gr_thirdab_lonerpack_1, up_gr_fourtab_lonerpack_1
+
+cost							= 70700
+inv_weight						= 18
+additional_inventory_weight		= 25
+additional_inventory_weight2	= 25
+artefact_count					= 3
+immunities_sect					= sect_isg_lcs_operator_outfit_immunities
+hit_fraction_actor				= 0.4
+bones_koeff_protection			= actor_armor_lcs_operator
+control_inertion_factor			= 1.54
+npc_blindness_koeff				= 20
+
+burn_protection				= 0.0767 ; 0.0327+0.044
+shock_protection			= 0.683 ; 0.6+0.083
+radiation_protection		= 0.0437 ; 0.0022+0.0415
+chemical_burn_protection	= 0.061 ; 0.012+0.049
+telepatic_protection		= 0.07 ; 0+0.07
+strike_protection			= 0.3
+explosion_protection		= 0.55 ; 0.4+0.15
+wound_protection			= 0.332 ; 0.3+0.032
+fire_wound_protection		= 0.3
+
+[sect_isg_lcs_operator_outfit_immunities]:sect_merc_outfit_immunities
+burn_immunity			= 0.25 ; 0.125+0.125
+chemical_burn_immunity	= 0.064 ; 0.04+0.024
+explosion_immunity		= 0.22 ; 0.12+0.1
+fire_wound_immunity		= 0.145 ; 0.03+0.115
+strike_immunity			= 0.072 ; 0.0+0.072

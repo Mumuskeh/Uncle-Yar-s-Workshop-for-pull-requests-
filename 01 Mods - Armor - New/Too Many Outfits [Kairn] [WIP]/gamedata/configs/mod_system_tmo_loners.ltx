@@ -1,0 +1,686 @@
+; berill
+
+[loner_specops_outfit]:specops_outfit
+$spawn			= "outfit\loner_specops_outfit"
+actor_visual	= actors\stalker_neutral\stalker_soldierb3.ogf
+npc_visual		= actors\stalker_neutral\stalker_soldierb3.ogf
+inv_name		= loner_specops_outfit_name
+inv_name_short	= loner_specops_outfit_name
+description		= loner_specops_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 6
+inv_grid_y		= 0
+community		= stalker
+cost			= 41600
+inv_weight		= 14
+strike_protection = 0.16
+explosion_protection = 0.4
+wound_protection = 0.65
+fire_wound_protection = 0.26
+
+[loner_berillnew_outfit]:military_berillnew_outfit
+$spawn			= "outfit\loner_berillnew_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_berill_w_skat_implants.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_berill_w_skat_implants.ogf
+player_hud_section = actor_hud_merc_skat9
+inv_name		= loner_berillnew_outfit_name
+inv_name_short	= loner_berillnew_outfit_name
+description		= loner_berillnew_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 6
+inv_grid_y		= 3
+community		= stalker
+cost			= 79600
+additional_inventory_weight		= 18
+additional_inventory_weight2	= 18
+bones_koeff_protection = actor_armor_cs3
+burn_protection = 0.5
+shock_protection = 0.44
+radiation_protection = 0.0255
+chemical_burn_protection = 0.06
+telepatic_protection = 0.075
+strike_protection = 0.3
+explosion_protection = 0.6
+wound_protection = 0.75
+fire_wound_protection = 0.41
+
+; CSKY
+[loner_bulat_outfit]:cs_light_novice_outfit
+$spawn			= "outfit\loner_bulat_outfit"
+class			= EQU_STLK
+actor_visual	= actors\stalker_neutral\stalker_neutral_rookie_custom_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_rookie_custom_1.ogf
+player_hud_section	= actor_hud_loner_sunrise
+character_portrait	= ui_inGame2_neutral_2_mask
+full_icon_name	= npc_icon_stalker_outfit
+full_scale_icon	= 14, 11
+inv_name		= loner_bulat_outfit_name
+inv_name_short	= loner_bulat_outfit_name
+description		= loner_bulat_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x		= 2
+inv_grid_y		= 0
+community		= stalker
+cost			= 29340
+inv_weight		= 7
+additional_inventory_weight	= 11
+additional_inventory_weight2	= 11
+burn_protection			= 0.125
+shock_protection		= 0.66
+radiation_protection	= 0.0035
+
+[loner_cslight_novice_outfit]:cs_light_novice_outfit,outfit_restrictions_5
+$spawn			= "outfit\loner_cslight_novice_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_explorer_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_explorer_1.ogf
+inv_name		= loner_cslight_novice_outfit_name
+inv_name_short	= loner_cslight_novice_outfit_name
+description		= loner_cslight_novice_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x		= 8
+inv_grid_y		= 3
+
+community		= stalker
+cost			= 39340
+
+;exoskeleton
+
+[loner_elite_exo_outfit]:exo_outfit
+$spawn = "outfit\loner_elite_exo_outfit"
+visual = dynamics\outfit\merc_exo_outfit
+actor_visual = actors\stalker_neutral\stalker_neutral_altexo_biggest_backpack.ogf
+npc_visual = actors\stalker_neutral\stalker_neutral_altexo_biggest_backpack.ogf
+player_hud_section = actor_hud_exo
+character_portrait = ui_inGame2_merc_4
+inv_name = loner_elite_exo_outfit_name
+inv_name_short = loner_elite_exo_outfit_name
+description = loner_elite_exo_outfit_description
+icons_texture = ui\ui_loner_icons
+inv_grid_x = 0
+inv_grid_y = 3
+upgr_icon_x = 2189
+upgr_icon_y = 0
+upgr_icon_width = 307
+upgr_icon_height = 160
+cost = 182610
+inv_weight = 50
+additional_inventory_weight = 136
+additional_inventory_weight2 = 136
+artefact_count = 4
+control_inertion_factor = 1.25
+power_loss = 0.06
+burn_protection = 0.7
+shock_protection = 2.1
+radiation_protection = 0.043
+chemical_burn_protection = 0.08
+strike_protection = 0.51
+explosion_protection = 0.89
+wound_protection = 0.69
+fire_wound_protection = 0.69
+
+
+[loner_fatso_exo_outfit]:exo_outfit
+$spawn			= "outfit\loner_fatso_exo_outfit"
+visual			= dynamics\outfit\merc_exo_outfit
+actor_visual	= actors\stalker_neutral\stalker_neutral4b_special_custom_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral4b_special_custom_1.ogf
+character_portrait = ui_inGame2_merc_4
+inv_name		= loner_fatso_exo_outfit_name
+inv_name_short	= loner_fatso_exo_outfit_name
+description		= loner_fatso_exo_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 0
+inv_grid_y		= 0
+upgr_icon_x		= 2189
+upgr_icon_y		= 0
+upgr_icon_width = 307
+upgr_icon_height = 160
+cost			= 162610
+inv_weight		= 66
+additional_inventory_weight		= 160
+additional_inventory_weight2	= 160
+artefact_count	= 4
+immunities_sect	= sect_nosorog_outfit_immunities
+bones_koeff_protection = actor_armor_duty_exo
+control_inertion_factor = 1.25
+power_loss		= 0.06
+burn_protection = 0.5
+shock_protection = 1.1
+radiation_protection = 0.040
+chemical_burn_protection = 0.10
+telepatic_protection = 0.04
+strike_protection = 0.51
+explosion_protection = 0.90
+wound_protection = 0.69
+fire_wound_protection = 0.69
+
+
+[loner_obj77_exo_outfit]:monolith_obj77_exo_outfit
+$spawn			= "outfit\loner_obj77_exo_outfit"
+actor_visual = actors\stalker_neutral\stalker_neutral_alternate_exo.ogf
+npc_visual = actors\stalker_neutral\stalker_neutral_alternate_exo.ogf
+inv_name = loner_obj77_exo_outfit_name
+inv_name_short = loner_obj77_exo_outfit_name
+description = loner_obj77_exo_outfit_description
+icons_texture = ui\ui_loner_icons
+inv_grid_x = 0
+inv_grid_y = 18
+community = stalker
+artefact_count = 2
+burn_protection = 0.7
+shock_protection = 2.6
+radiation_protection = 0.041
+chemical_burn_protection = 0.12
+telepatic_protection = 0.09
+strike_protection = 0.31
+explosion_protection = 0.62
+wound_protection = 0.43
+fire_wound_protection = 0.48
+
+
+
+; LCS
+
+[loner_lcbasic_outfit]:merc_outfit
+$spawn			= "outfit\loner_lcbasic_outfit"
+actor_visual	= actors\stalker_neutral\stalker_lc_1_custom_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_lc_1_custom_1.ogf
+inv_name		= loner_lcbasic_outfit_name
+inv_name_short	= loner_lcbasic_outfit_name
+description		= loner_lcbasic_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x		= 10
+inv_grid_y		= 0
+community		= stalker
+cost			= 39280
+inv_weight		= 10
+radiation_protection = 0.005
+
+[loner_lc_outfit]:merc_outfit
+$spawn			= "outfit\loner_lc_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_lc_2.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_lc_2.ogf
+player_hud_section = actor_hud_duty_ps5m
+inv_name		= loner_lc_outfit_name
+inv_name_short	= loner_lc_outfit_name
+description		= loner_lc_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 10
+inv_grid_y		= 3
+community		= stalker
+cost			= 41280
+inv_weight		= 7
+additional_inventory_weight		= 12
+additional_inventory_weight2	= 12
+burn_protection = 0.08
+shock_protection = 0.4
+radiation_protection = 0.01
+chemical_burn_protection = 0.033
+telepatic_protection = 0.0
+
+[loner_lcadvanced_outfit]:merc_outfit
+$spawn			= "outfit\loner_lcadvanced_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_lc_3.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_lc_3.ogf
+player_hud_section = actor_hud_loner_sunrise
+inv_name		= loner_lcadvanced_outfit_name
+inv_name_short	= loner_lcadvanced_outfit_name
+description		= loner_lcadvanced_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 10
+inv_grid_y		= 6
+upgrades		= up_gr_firstab_sunrise_2, up_gr_seconab_sunrise_2, up_gr_thirdab_sunrise_2
+upgrade_scheme	= up_scheme_sunrise_1
+community		= stalker
+cost			= 48280
+inv_weight		= 12
+additional_inventory_weight		= 18
+additional_inventory_weight2	= 18
+artefact_count	= 1
+burn_protection = 0.15
+shock_protection = 1.00
+radiation_protection = 0.012
+chemical_burn_protection = 0.043
+telepatic_protection = 0.02
+strike_protection = 0.4
+
+
+
+; nosorog
+
+[loner_nosorog_outfit]:outfit_base,outfit_restrictions_3
+$spawn			= "outfit\"
+class			= E_STLK
+ef_equipment_type = 5
+visual			= dynamics\outfit\exolight_outfit
+actor_visual	= actors\stalker_neutral\stalker_neutral_nosorog_mk2.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_nosorog_mk2.ogf
+player_hud_section = actor_hud_military_exo
+character_portrait = ui_inGame2_nosorog
+full_icon_name	= npc_icon_exo_outfit
+full_scale_icon = 2, 11
+inv_name		= loner_nosorog_outfit_name
+inv_name_short	= loner_nosorog_outfit_name
+description		= loner_nosorog_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 0
+inv_grid_y		= 9
+upgr_icon_x		= 2810
+upgr_icon_y		= 0
+upgr_icon_width = 307
+upgr_icon_height = 162
+upgrades		= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1, up_gr_fifthab_nosorog_1
+installed_upgrades	= 
+upgrade_scheme	= up_scheme_exo_1
+community		= stalker
+kind			= o_heavy
+cost			= 186000
+inv_weight		= 50
+additional_inventory_weight		= 102
+additional_inventory_weight2	= 102
+artefact_count	= 2
+immunities_sect	= sect_nosorog_outfit_immunities
+repair_type		= outfit_exo
+hit_fraction_actor = 0.2
+bones_koeff_protection = actor_armor_class5
+control_inertion_factor = 1.88
+power_loss		= 0.1
+burn_protection = 0.2
+shock_protection = 0.05
+radiation_protection = 0.051
+chemical_burn_protection = 0.105
+telepatic_protection = 0.091
+strike_protection = 0.8
+explosion_protection = 0.85
+wound_protection = 0.85
+fire_wound_protection = 0.7
+
+
+; protoexo
+
+[loner_proto_lc_outfit]:loner_lc_outfit,outfit_restrictions_4
+$spawn			= "outfit\loner_proto_lc_outfit"
+visual			= dynamics\outfit\stalker_outfit
+actor_visual	= actors\stalker_neutral\stalker_neutral_apex_sunrise_lc_proto.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_apex_sunrise_lc_proto.ogf
+player_hud_section = actor_hud_loner_proto
+character_portrait = ui_inGame2_neutral_2_mask
+full_icon_name	= npc_icon_stalker_outfit
+full_scale_icon = 14, 11
+inv_name		= loner_proto_lc_outfit_name
+inv_name_short	= loner_proto_lc_outfit_name
+description		= loner_proto_lc_outfit_description
+inv_grid_x 		= 0
+inv_grid_y		= 6
+upgr_icon_x		= 3434
+upgr_icon_y		= 0
+upgr_icon_width = 307
+upgr_icon_height = 163
+upgrades		= up_gr_firstab_sunrise_3, up_gr_seconab_sunrise_3, up_gr_thirdab_sunrise_3, up_gr_fourtab_sunrise_proto_1
+upgrade_scheme	= up_scheme_sunrise_extra_1
+kind			= o_heavy
+cost			= 59280
+inv_weight		= 20
+additional_inventory_weight		= 100
+additional_inventory_weight2	= 100
+artefact_count	= 1
+immunities_sect	= sect_loner_proto_lc_outfit_immunities
+repair_type		= outfit_exo
+burn_protection = 0.03
+shock_protection = 0.58
+radiation_protection = 0.005
+chemical_burn_protection = 0.022
+
+[sect_loner_proto_lc_outfit_immunities]:sect_merc_outfit_immunities
+burn_immunity = 0.1
+chemical_burn_immunity = 0.045
+explosion_immunity = 0.15
+fire_wound_immunity = 0.033
+shock_immunity = 0.027
+wound_immunity = 0.033
+
+
+[stalker_proto_nbcexo_outfit]:nbc_outfit
+$spawn					= "outfit\stalker_proto_nbcexo_outfit"
+actor_visual			= actors\stalker_neutral\stalker_exo_proto_gp5.ogf
+npc_visual				= actors\stalker_neutral\stalker_exo_proto_gp5.ogf
+player_hud_section		= actor_hud_loner_proto
+character_portrait		= ui_inGame2_neutral_2_mask
+inv_name				= stalker_proto_nbcexo_outfit_name
+inv_name_short			= stalker_proto_nbcexo_outfit_name
+description 			= stalker_proto_nbcexo_outfit_description
+icons_texture 			= ui\ui_loner_icons
+inv_grid_x				= 0
+inv_grid_y				= 12
+upgr_icon_x				= 3434
+upgr_icon_y				= 0
+upgr_icon_width			= 307
+upgr_icon_height		= 163
+upgrades				= up_gr_firstab_sunrise_3, up_gr_seconab_sunrise_3, up_gr_thirdab_sunrise_3, up_gr_fourtab_sunrise_proto_1
+kind					= o_heavy
+inv_weight				= 30
+additional_inventory_weight		= 100
+additional_inventory_weight2	= 100
+immunities_sect			= sect_stalker_proto_nbcexo_outfit_immunities
+repair_type				= outfit_exo
+hit_fraction_actor		= 0.5
+strike_protection		= 0.25
+explosion_protection	= 0.25
+wound_protection		= 0.3
+
+[sect_stalker_proto_nbcexo_outfit_immunities]:sect_nbc_outfit_immunities
+explosion_immunity = 0.15
+fire_wound_immunity = 0.033
+
+
+[loner_hybrid_exo_outfit]:hybrid_outfit
+$spawn			= "outfit\loner_hybrid_exo_outfit"
+class			= E_STLK
+ef_equipment_type = 5
+visual			= dynamics\outfit\merc_exo_outfit
+actor_visual	= actors\stalker_neutral\stalker_neutral_seva_exo.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_seva_exo.ogf
+player_hud_section = actor_hud_exo
+character_portrait = ui_inGame2_merc_4
+full_icon_name	= npc_icon_exo_outfit
+full_scale_icon = 2, 11
+inv_name		= loner_hybrid_exo_outfit_name
+inv_name_short	= loner_hybrid_exo_outfit_name
+description		= loner_hybrid_exo_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 0
+inv_grid_y		= 15
+upgr_icon_x		= 2189
+upgr_icon_y		= 0
+upgr_icon_width = 307
+upgr_icon_height = 160
+upgrades		= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1, up_gr_fifthab_exo_1
+upgrade_scheme	= up_scheme_exo_1
+community		= stalker
+kind			= o_heavy
+cost			= 182610
+inv_weight		= 50
+additional_inventory_weight		= 136
+additional_inventory_weight2	= 136
+artefact_count	= 4
+repair_type		= outfit_exo
+
+
+; ps5
+
+[loner_ps5_outfit]:dolg_outfit
+$spawn			= "outfit\loner_ps5_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_dusk_ps5m.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_dusk_ps5m.ogf
+player_hud_section = actor_hud_bandit_ps5
+inv_name		= loner_ps5_outfit_name
+inv_name_short	= loner_ps5_outfit_name
+description		= loner_ps5_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 12
+community		= stalker
+inv_weight		= 12
+additional_inventory_weight		= 14
+additional_inventory_weight2	= 14
+burn_protection = 0.24
+shock_protection = 1.0
+radiation_protection = 0.0059
+chemical_burn_protection = 0.029
+wound_protection = 0.42
+
+
+; seva
+
+
+[loner_camoseva_outfit]:scientific_outfit
+$spawn			= "outfit\loner_camoseva_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_nauch_alt.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_nauch_alt.ogf
+inv_name		= loner_camoseva_outfit_name
+inv_name_short	= loner_camoseva_outfit_name
+description		= loner_camoseva_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 15
+cost			= 86400
+inv_weight		= 16
+additional_inventory_weight		= 32
+additional_inventory_weight2	= 32
+artefact_count	= 3
+bones_koeff_protection = actor_armor_seva_minus
+burn_protection = 0.63
+shock_protection = 2.0
+radiation_protection = 0.042
+chemical_burn_protection = 0.17
+telepatic_protection = 0.21
+explosion_protection = 0.22
+wound_protection = 0.46
+
+[loner_advancednbc_outfit]:scientific_outfit
+$spawn			= "outfit\loner_advancednbc_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_advanced_nbc_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_advanced_nbc_1.ogf
+player_hud_section = actor_hud_loner_nbc
+inv_name		= loner_advancednbc_outfit_name
+inv_name_short	= loner_advancednbc_outfit_name
+description		= loner_advancednbc_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 8
+cost			= 56400
+inv_weight		= 10
+additional_inventory_weight		= 32
+additional_inventory_weight2	= 32
+bones_koeff_protection = actor_armor_bandit
+burn_protection = 0.07
+shock_protection = 1.1
+radiation_protection = 0.022
+chemical_burn_protection = 0.17
+telepatic_protection = 0.06
+strike_protection = 0.3
+explosion_protection = 0.42
+wound_protection = 0.46
+fire_wound_protection = 0.38
+
+
+; skat
+
+[loner_skat_outfit]:military_outfit
+$spawn			= "outfit\loner_skat_outfit"
+actor_visual	= actors\stalker_neutral\stalker_skat_military_2.ogf
+npc_visual		= actors\stalker_neutral\stalker_skat_military_2.ogf
+player_hud_section = actor_hud_bandit_skat9
+inv_name		= loner_skat_outfit_name
+inv_name_short	= loner_skat_outfit_name
+description		= loner_skat_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 6
+inv_grid_y		= 9
+community		= stalker
+cost			= 69000
+inv_weight		= 16
+strike_protection = 0.45
+explosion_protection = 0.60
+wound_protection = 0.33
+fire_wound_protection = 0.28
+
+[loner_skatseva_outfit]:duty_skatseva_outfit
+$spawn				= "outfit\loner_skatseva_outfit"
+actor_visual		= actors\stalker_neutral\stalker_neutral_seva_skat_armour_1.ogf
+npc_visual			= actors\stalker_neutral\stalker_neutral_seva_skat_armour_1.ogf
+player_hud_section	= actor_hud_loner_seva
+inv_name			= loner_skatseva_outfit_name
+inv_name_short		= loner_skatseva_outfit_name
+description			= loner_skatseva_outfit_description
+icons_texture		= ui\ui_loner_icons
+inv_grid_x			= 6
+inv_grid_y			= 6
+community			= stalker
+cost				= 80960
+artefact_count		= 1
+bones_koeff_protection	= actor_armor_skat
+shock_protection		= 2.3
+radiation_protection	= 0.027
+chemical_burn_protection= 0.147
+strike_protection		= 0.55
+explosion_protection	= 0.60
+fire_wound_protection	= 0.34
+
+
+
+; sts
+
+
+[loner_sts_outfit]:merc_sun_outfit
+$spawn			= "outfit\loner_sts_outfit"
+visual			= dynamics\outfit\monolith_outfit
+actor_visual	= actors\stalker_neutral\stalker_neutral_sts_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_sts_1.ogf
+player_hud_section = actor_hud_loner_sunrise
+character_portrait = ui_inGame2_monolit_2
+inv_name		= loner_sts_outfit_name
+inv_name_short	= loner_sts_outfit_name
+description		= loner_sts_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 12
+inv_grid_y		= 0
+upgr_icon_x		= 3438
+upgr_icon_y		= 608
+upgr_icon_width = 308
+upgr_icon_height = 136
+upgrades		= up_gr_firstab_sts_1, up_gr_seconab_sts_1, up_gr_thirdab_sts_1
+community		= stalker
+kind			= o_light
+cost			= 39120
+inv_weight		= 6
+artefact_count	= 1
+repair_type		= outfit_light
+burn_protection = 0.1
+shock_protection = 0.5
+radiation_protection = 0.007
+strike_protection = 0.12
+explosion_protection = 0.11
+wound_protection = 0.14
+fire_wound_protection = 0.13
+
+
+
+; sunrise
+
+[stalker_green_outfit]:stalker_outfit
+$spawn			= "outfit\stalker_green_outfit"
+actor_visual	= actors\stalker_neutral\stalker_dev3_sunrise_3.ogf
+npc_visual		= actors\stalker_neutral\stalker_dev3_sunrise_3.ogf
+inv_name		= stalker_green_outfit_name
+inv_name_short	= stalker_green_outfit_name
+description		= stalker_green_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 6
+cost			= 39280
+inv_weight		= 8
+additional_inventory_weight		= 12
+additional_inventory_weight2	= 12
+immunities_sect	= sect_stalker_green_outfit_immunities
+chemical_burn_protection = 0.12
+
+[loner_sunriseseva_outfit]:scientific_outfit
+$spawn			= "outfit\loner_sunriseseva_outfit"
+actor_visual	= actors\stalker_neutral\stalker_voyager_seva_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_voyager_seva_1.ogf
+inv_name		= loner_sunriseseva_outfit_name
+inv_name_short	= loner_sunriseseva_outfit_name
+description		= loner_sunriseseva_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 9
+cost			= 66400
+inv_weight		= 14
+additional_inventory_weight		= 38
+additional_inventory_weight2	= 38
+bones_koeff_protection = actor_armor_suit
+burn_protection = 0.24
+shock_protection = 0.2
+radiation_protection = 0.028
+chemical_burn_protection = 0.08
+telepatic_protection = 0.08
+strike_protection = 0.1
+explosion_protection = 0.12
+fire_wound_protection = 0.18
+
+[loner_battle_outfit]:stalker_outfit
+$spawn			= "outfit\loner_battle_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_up_armoured_nos_head.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_up_armoured_nos_head.ogf
+inv_name		= loner_battle_outfit_name
+inv_name_short	= loner_battle_outfit_name
+description		= loner_battle_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 0
+cost			= 63280
+inv_weight		= 14.2
+additional_inventory_weight		= 24
+additional_inventory_weight2	= 24
+artefact_count	= 1
+repair_type		= outfit_heavy
+bones_koeff_protection = actor_armor_cs3
+burn_protection = 0.28
+shock_protection = 0.8
+radiation_protection = 0.0121
+chemical_burn_protection = 0.06
+telepatic_protection = 0.043
+strike_protection = 0.55
+explosion_protection = 0.65
+wound_protection = 0.53
+fire_wound_protection = 0.57
+
+[stalker_black_outfit]:stalker_outfit
+$spawn			= "outfit\stalker_black_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_anomalous_mashup_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_anomalous_mashup_1.ogf
+player_hud_section = actor_hud_bandit_seva
+inv_name		= stalker_black_outfit_name
+inv_name_short	= stalker_black_outfit_name
+description		= stalker_black_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 8
+inv_grid_y		= 6
+cost			= 47280
+inv_weight		= 10
+additional_inventory_weight		= 28
+additional_inventory_weight2	= 28
+artefact_count	= 2
+bones_koeff_protection = actor_armor_cs2
+radiation_protection = 0.0111
+chemical_burn_protection = 0.09
+strike_protection = 0.35
+explosion_protection = 0.35
+wound_protection = 0.4
+fire_wound_protection = 0.37
+
+[stalker_ashsuit_outfit]:stalker_outfit
+$spawn			= "outfit\stalker_ashsuit_outfit"
+actor_visual	= actors\stalker_neutral\stalker_neutral_sunrise_mk2_1.ogf
+npc_visual		= actors\stalker_neutral\stalker_neutral_sunrise_mk2_1.ogf
+player_hud_section = actor_hud_monolith_suit
+inv_name		= stalker_ashsuit_outfit_name
+inv_name_short	= stalker_ashsuit_outfit_name
+description		= stalker_ashsuit_outfit_description
+icons_texture	= ui\ui_loner_icons
+inv_grid_x 		= 4
+inv_grid_y		= 3
+cost			= 49280
+inv_weight		= 9
+additional_inventory_weight		= 9
+additional_inventory_weight2	= 9
+bones_koeff_protection = actor_armor_cs1
+burn_protection = 0.24
+shock_protection = 1.5
+radiation_protection = 0.016
+chemical_burn_protection = 0.08
+telepatic_protection = 0.03
+strike_protection = 0.15
+explosion_protection = 0.15
+wound_protection = 0.15
+fire_wound_protection = 0.15

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Ecologist Suits-->
+	
+	<string id="ecologist_patchwork_seva_outfit_name">
+		<text>LACCc Suit</text>
+	</string>
+	<string id="ecologist_patchwork_seva_outfit_description">
+		<text>%c[ui_gray_1]an imported western bodysuit, modified by eco-mercenaries for use within anomalous fields. features an intergrated closed-cycle apparatus, specially treated rubberized fabrics, and non-conductive armour plates. while heavy and utterly inadequate compared to a SEVA suit, it still provides good protection from anomalies and radiological threats.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_stalker_outfit_name">
+		<text>"Ghost" Ecologist Stalker Suit</text>
+	</string>
+	<string id="ecologist_stalker_outfit_description">
+		<text>%c[ui_gray_1]a modified eco-stalker suit, made by those who work closely with ecologists. compared to the sunrise, this suit features specially treated cloth shell that greatly improves anomalous protection, especially against thermal phenomena. as a downside, the shell causes the suit to be weaker against ballistics, as some of the armour plates had to be removed to fit it.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_guard_advanced_outfit_name">
+		<text>SOAPP Bodysuit</text>
+	</string>
+	<string id="ecologist_guard_advanced_outfit_description">
+		<text>%c[ui_gray_1]standing for "Special Operations Anomalous Phenomena Protection", this suit is a significantly upgraded version of the ISRIT jumpsuit, as it features suit features beryllium sputters, specially treated cloth, and a rubberized ballistic vest. because of this, the suit boasts good anomalous protection while maintaining a lowish weight and decent combat protection, especially against mutants.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_specops_outfit_name">
+		<text>Berill-5AM Bodysuit</text>
+	</string>
+	<string id="ecologist_specops_outfit_description">
+		<text>%c[ui_gray_1]a variant of the Berill series of armour, specially commissioned for ecologist guards. unlike the standard Berill-5M, this suit features rubberized cloth, plexiglass lining, and a specially treated bodysuit, making this suit significantly more resistant to anomalous phenomena. overall an upgrade over a regular Berill-5M, this armour is highly sought after by ecologist guards.\n \n
+		</text>
+	</string>
+
+	<string id="ecologist_lc_outfit_name">
+		<text>Ecologist LC Suit</text>
+	</string>
+	<string id="ecologist_lc_outfit_description">
+		<text>%c[ui_gray_1]an imported western suit, modified by eco-mercenaries who work with ecologists. while heavier than a standard lc suit, it is significantly more comfortable while also being more resistant to anomalous phenomena due to its plexiglass lining.\n \n
+		</text>
+	</string>
+
+	<string id="ecologist_lcadvanced_outfit_name">
+		<text>Ecologist LCaZ Suit</text>
+	</string>
+	<string id="ecologist_lcadvanced_outfit_description">
+		<text>%c[ui_gray_1]an imported western bodysuit, modified by eco-mercenaries who work with ecologists. the suit is significantly lighter, while also maintaining it's combat protection and greatly increasing it's anomalous resistance compared to a standard lc suit. a good alternative to the ISRIT jumpsuit.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_mtc_outfit_name">
+		<text>Ecologist TAC Suit</text>
+	</string>
+	<string id="ecologist_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been commissioned by eco-mercenaries to help protect ecologists. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after by ecologist guards, and is fairly expensive. this version features even greater anomalous protection compared to the base model.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_lightsts_outfit_name">
+		<text>Ecologist L-ST Suit</text>
+	</string>
+	<string id="ecologist_lightsts_outfit_description">
+		<text>%c[ui_gray_1]a light special tactical suit, made and designed for ecologist guards. while light and boasting great radiological protection, this suit is quite poor otherwise, especially around chemical and thermal phenomena. while decent, most ecologist guards would rather spring for something better.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_sts_outfit_name">
+		<text>Ecologist STS-AM1 Suit</text>
+	</string>
+	<string id="ecologist_sts_outfit_description">
+		<text>%c[ui_gray_1]a special tactical suit, specially built and designed by eco-stalkers from the ground up with help from one of Kiev's research institutes. boasting great anomalous and decent combat protection while remaining comfortably light, this armour is great for any ecologist guards who are trying to transition to artefact hunting. features multiple built-in pouches, specially treated plexiglass lined rubberized fabric, and a non-conductive armoured vest.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_seva_outfit_name">
+		<text>Ecologist SEVA Suit</text>
+	</string>
+	
+	<string id="ecologist_seva_outfit_description">
+		<text>%c[ui_gray_1]This suit was produced by one of Kiev's defence research institutes and represents an excellent alternative to hand-made eco-stalker suits. It combines a closed cycle breathing system and an integrated system of anomalous field suppression with a more than adequate ballistic vest. Due to the perfect materials, this suit is a good choice. Still, it is expensive, and those who prefer pitched battle over careful anomaly investigation are advised to look elsewhere. compared to a standard SEVA, this suit features even better anomalous protection at the cost of already subpar combat protection.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_advancednbc_outfit_name">
+		<text>Ecologist CABRN Bodysuit</text>
+	</string>
+	<string id="ecologist_advancednbc_outfit_description">
+		<text>%c[ui_gray_1]A specially made western-style bodysuit, designed and commissioned by one of Kiev's research institutes. in terms of anomalous protection, this suit is somewhere inbetween a proper SEVA and an NBC suit, and boasts especially strong resistance against radiological and chemical threats. it is also additionally equipped with a ballistic vest, allowing for it to withstand pistol rounds and fragmentation splinters. lightweight and comfortable, while boasting good anomalous and decent combat protection makes this suit highly desirable for any Ecologist without an SSP.\n \n
+		</text>
+	</string>
+	
+	<string id="ecologist_nosorog_outfit_name">
+		<text>Ecologist Nosorog</text>
+	</string>
+	
+	<string id="ecologist_nosorog_outfit_description">
+		<text>%c[ui_gray_1]A next generation exoskeleton, consisting of a doubly reinforced exosuit and an armoured Czech-M10 gas mask. This suit is rumoured to have been the brainchild of a now deceased stalker named "Fang", whose designs were later claimed by all sorts of powerful factions across the Zone. If regular exoskeletons allow stalkers to feel like a light vehicle, the Nosorog almost makes them believe they're a main battle tank, able to withstand incredible punishment while carrying tremendous ordnance. Typically only available to a faction's most valuable members, and even then only during exceptionally dangerous missions.\n \n
+		</text>
+	</string>
+	
+	
+	
+</string_table>

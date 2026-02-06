@@ -49,10 +49,10 @@
 	<string id="st_up_m1a1_b6_descr">
 		<text>Installation of Polymer Handguard to replace the wooden parts for a slight weight reduction.</text>
 	</string>
-		<string id="st_up_m1a1_b7_name">
+	<string id="st_up_m1a1_b7_name">
 		<text>Installation of Anti-Corrosive Parts</text>
 	</string>
-	<string id="st_up_1921_b7_descr">
+	<string id="st_up_m1a1_b7_descr">
 		<text>Installation of weapon components that take a harder time to degrade.</text>
 	</string>
 
@@ -89,18 +89,18 @@
 	</string>
 
 
-	<string id="st_mag_m1a1_11.43x23_fmj">
+	<string id="st_mag_m1a1_11.43x23_default">
 		<text>Standard Thompson Stick Magazine</text>
 	</string>
-	<string id="st_mag_m1a1_11.43x23_fmj_descr">
+	<string id="st_mag_m1a1_11.43x23_default_descr">
 		<text>30-round magazine for the M1A1, chambered in .45 ACP.\n
 		%c[d_purple] • %c[ui_gray_2] Will fit the 1921 variant as well.</text>
 	</string>
 
-	<string id="st_mag_1921_11.43x23_fmj">
+	<string id="st_mag_1921_11.43x23_default">
 		<text>Standard Thompson Drum Magazine</text>
 	</string>
-	<string id="st_mag_1921_11.43x23_fmj_descr">
+	<string id="st_mag_1921_11.43x23_default_descr">
 		<text>50-round drum magazine used for the models 1921 and 1928 of the Thompson, chambered in .45 ACP.\n
 		%c[d_purple] • %c[ui_gray_2] Will not fit M1A1 variant, as its magwell is different.</text>
 	</string>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Freedom Suits-->
+	
+	<string id="freedom_lc_outfit_name">
+		<text>Rearguard Of Freedom</text>
+	</string>
+	<string id="freedom_lc_outfit_description">
+		<text>%c[ui_gray_1]A Western light combat suit bought and modified by freedom craftsmen. Features a specially treated outer-fabric that improves anomalous protection, especially against chemical threats. A decently rare outfit to find on freedomers, most would rather spring for something better.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_lcadvanced_outfit_name">
+		<text>Midguard Of Freedom</text>
+	</string>
+	<string id="freedom_lcadvanced_outfit_description">
+		<text>%c[ui_gray_1]An upgraded LC suit, bought and modified by freedom craftsmen. like the Rearguard, this suit features a specially treated outer-fabric, but unlike it the Midguard also boasts a special anomalous compound that greatly decreases weight at the expense of thermal conductivity.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_corundum_outfit_name">
+		<text>Bulwark Of Freedom</text>
+	</string>
+	
+	<string id="freedom_corundum_outfit_description">
+		<text>%c[ui_gray_1]imported from western suppliers and further modified by freedom craftsmen, this suit represents the best combat protection short of exosuits you can get in the zone. features a lightweight ballistic helmet, additional armour panels, a heavily armoured vest, and an anomalous protection bodysuit. while heavy, this armour boasts excellent splinter, shrapnel, and ballistic protection while also having decent protection from anomalous threats; thanks in large part to it's bodysuit. decently rare, this armour is only typically found on freedomers defending the Barrier.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_patchwork_seva_outfit_name">
+		<text>Freedom Patchwork Apparatus Suit</text>
+	</string>
+	<string id="freedom_patchwork_seva_outfit_description">
+		<text>%c[ui_gray_1]a closed-cycle patchwork suit, designed and built by freedom craftsmen. features a lightweight ballistic vest, a specially treated undersuit, and a closed-cycle apparatus system. boasts good anomalous protection, decent combat protection, and a light weight; this suit, though poor for it's class, is an excellent choice for any aspiring artefact hunter within freedom.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_skatseva_outfit_name">
+		<text>Shield Of Freedom</text>
+	</string>
+	<string id="freedom_skatseva_outfit_description">
+		<text>%c[ui_gray_1]based off of the Skat-9 SEVA,  this suit features some of the best ballistic protection freedom has to offer combined with fantastic anomalous defence. this suit combines the PSZ-14Ra heavy military body armour, a specially anomalously treated rubberized outer shell, psy grills, and a built-in anomalous protection undersuit. While heavy and quite uncomfortable, the sheer amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. almost exclusively used by the most experienced Freedomers within the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_sunrise_outfit_name">
+		<text>Vanguard Of Freedom</text>
+	</string>
+	<string id="freedom_sunrise_outfit_description">
+		<text>%c[ui_gray_1]based off of the suits used by free stalkers, this suit boasts decent anomalous protection, especially against chemical phenomena, while also being capable of stopping pistol bullets and shrapnel. provides a decent alternative to the Wind Of Freedom.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_elite_exo_outfit_name">
+		<text>Freedom Commando Exoskeleton</text>
+	</string>
+	<string id="freedom_elite_exo_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified exoskeleton, designed and built by expert freedom craftsmen from the ground up. pratically a work of art, this exoskeleton is meant for nighttime operations in the deadliest parts of the zone. Who ever made this evidently put an enormous amount of work and time into it, as it features next-generation servos, a weight distribution system, built-in temperature regulator, anti-conductivity regulator, anti-psy grills, improved filtering system, and an inbuilt tactical rig. it's insane quality is only matched by it's mindboggling price and rarity.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_obj77_exo_outfit_name">
+		<text>Freedom Object 77 Exoskeleton</text>
+	</string>
+	
+	<string id="freedom_obj77_exo_outfit_description">
+		<text>%c[ui_gray_1]an unusual exoskeleton, that while almost exclusively used by monolithians, has made it's way into Freedom's hands; likely looted from battles within the Barrier and beyond. theorized to be an experimental exoskeleton made by the monolith themselves, this armour features an exoskeleton with utterly alien servos, an unusually light but well protecting armoured vest, an intergrated object 77 gas mask, and what seems to be an enviromental jumpsuit based on the X-18 suit. compared to a standard exoskeleton, this suit boasts better enviromental protection, more efficient servos, and is lighter overall; with it's main drawback being worse combat protection.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_flecktarn_outfit_name">
+		<text>Monsoon of Freedom</text>
+	</string>
+	<string id="freedom_flecktarn_outfit_description">
+		<text>%c[ui_gray_1]a combination of elements from both the wind of freedom and the sentinel of freedom, this suit combines the best of both worlds. features good anomalous and combat protection on top of being fairly light and comfortable for a medium suit.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_exolightseva_outfit_name">
+		<text>Freedom Exosuit SEVA</text>
+	</string>
+	
+	<string id="freedom_exolightseva_outfit_description">
+		<text>%c[ui_gray_1]an experimental combination of both an Exosuit and a SEVA closed-cycle system, this armour seeks to combine the best of both suit types. boasts great anomalous and combat protection, with it's main downside, the suits weight, being the only thing really taking away from the suit's appeal. used by freedomers operating in the barrier and beyond.\n \n
+		</text>
+	</string>
+	
+	<string id="freedom_mtc_outfit_name">
+		<text>Freedom MTC Suit</text>
+	</string>
+	
+	<string id="freedom_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been made by the mercenaries and bought by freedom to armour their operatives. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after, and is fairly expensive.\n \n
+		</text>
+	</string>
+	
+	
+</string_table>

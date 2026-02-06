@@ -168,6 +168,12 @@ $spawn			= "weapons\psg1"
 inv_weight		= 6.3 ; 4.95
 bullet_speed	= 868
 
+;RPD Custom
+![wpn_rpd_custom]
+$spawn			= "weapons\rpd_custom"
+cost			= 54580 ; 24580
+rpm				= 810 ; 750
+
 ;SCAR 12
 ![wpn_scar12]
 $spawn			= "weapons\scar12"
@@ -299,15 +305,19 @@ inv_weight		= 12.5 ; 7.68
 bullet_speed	= 853 ; 855
 
 ;M3A1 Grease Gun
+; The M3A1 is a 45 acp gun, not a 9mm
 ![wpn_m3a1]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
 fire_distance	= 200
 bullet_speed	= 274
 ![wpn_m3a1tac]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
 inv_weight		= 4.24
 cost			= 27693
 fire_distance	= 200
 bullet_speed	= 274
 ![wpn_greasegun]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
 inv_weight		= 4.24
 cost			= 27693
 fire_distance	= 200
@@ -562,6 +572,27 @@ fire_distance	= 100
 $spawn			= "weapons\arbiter_revolver"
 fire_distance	= 150
 
+; BAR rifle
+![wpn_bar_j]
+inv_weight		= 7.25 ; 7.6
+hit_impulse		= 33 ; 65
+hit_power		= 0.74, 0.74, 0.74, 0.74 ; 0.91, 0.91, 0.91, 0.91
+; fire_distance					= 1000
+; bullet_speed					= 820
+rpm				= 550 ; 410
+
+;HCAR
+![wpn_hcar]
+inv_weight		= 5.3 ; 4.3
+
+;Barret SSRS
+![wpn_ssrs_j]
+hit_power		= 0.8, 0.8, 0.8, 0.8 ; 0.75, 0.75, 0.75, 0.75
+fire_distance	= 600 ; 700
+; bullet_speed					= 150
+; ai_rpm							= 20
+; rpm								= 270
+
 ;;Beretta pack
 ; need to research them more
 ;repeating for my tweaks
@@ -751,10 +782,10 @@ hit_power		= 1.55, 1.55, 1.55, 1.55 ; 1.7, 1.7, 1.7, 1.7
 bullet_speed	= 1050 ; 1500
 
 ;MP5K
+;this gun doesn't attach silencers
 ![wpn_mp5k]
 $spawn			= "weapons\mp5k"
 inv_weight		= 1.99 ; 3.1
-silencer_name	= ; wpn_sil_osp9
 silencer_status	= 0 ; 2
 fire_distance	= 200 ; 500
 bullet_speed	= 375 ; 450
@@ -762,13 +793,12 @@ rpm				= 900 ; 1000
 ![wpn_mp5k_short]
 $spawn			= "weapons\mp5k_short"
 inv_weight		= 1.5
-silencer_name	= ; wpn_sil_osp9
 silencer_status	= 0 ; 2
 fire_distance	= 200 ; 500
 bullet_speed	= 375 ; 450
 rpm				= 900 ; 1000
 
-;MP9
+;MP9-N
 ; Holy shit what's this about making a 9mm smg hit like a rifle? For a pistol slot? "slightly reduced damage" my ass
 ![wpn_mp9_n]
 $spawn			= "weapons\mp9_n"
@@ -939,35 +969,37 @@ $spawn			= "weapons\50bmg_deagle"
 $spawn			= "weapons\50bmg_deagle_tac"
 
 ;FAMAS Replacer
-![wpn_famas_commando]
-$spawn			= "weapons\famas_commando"
-fire_distance	= 400
-bullet_speed	= 900
-rpm				= 1000
-
 ![wpn_famas_f1]
 $spawn			= "weapons\famas_f1"
-fire_distance	= 450
-bullet_speed	= 925
-rpm				= 1000
+inv_weight		= 3.61 ; 3.8
+fire_distance	= 550 ; 1000
+bullet_speed	= 960 ; 920
+rpm				= 950
+
+![wpn_famas_commando]
+$spawn			= "weapons\famas_commando"
+inv_weight		= 3.5 ; 3.8
+fire_distance	= 350 ; 1000
+bullet_speed	= 720 ; 920
+rpm				= 950
 
 ![wpn_famas_felin]
 $spawn			= "weapons\famas_felin"
-fire_distance	= 450
-bullet_speed	= 925
-rpm				= 1000
+fire_distance	= 550 ; 1000
+fire_distance	= 550 ; 1000
+bullet_speed	= 960 ; 920
+rpm				= 950
 
 ![wpn_famas_felin_s]
 $spawn			= "weapons\famas_felin_s"
-fire_distance	= 450
-bullet_speed	= 925
-rpm				= 1000
+fire_distance	= 550 ; 1000
+bullet_speed	= 960 ; 920
+rpm				= 950
 
 ![wpn_famas_g2]
 $spawn			= "weapons\famas_g2"
-fire_distance	= 450
+fire_distance	= 550 ; 1000
 bullet_speed	= 925
-rpm				= 1050
 
 ;FAD
 ![wpn_lewd_fad]
@@ -1309,6 +1341,13 @@ rpm				= 850 ; 770
 
 
 ;;SEDZHIMOL 	============	============	============	============
+
+;Galil ACE
+![wpn_ace32]
+inv_weight						= 3.5 ; 3.4
+; fire_distance					= 900
+bullet_speed					= 680 ; 715
+rpm								= 780 ; 600
 
 ;GM6 Lynx
 ![wpn_gm6]

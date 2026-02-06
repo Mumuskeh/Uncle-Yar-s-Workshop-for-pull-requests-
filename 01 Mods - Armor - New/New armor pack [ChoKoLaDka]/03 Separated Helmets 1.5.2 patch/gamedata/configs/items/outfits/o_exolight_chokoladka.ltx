@@ -1,0 +1,90 @@
+;;Exolight
+[dolg_exolight_debtor_outfit]:dolg_exolight_outfit
+$spawn				= "outfit\dolg_exolight_debtor_outfit"
+class				= E_STLK
+ef_equipment_type	= 5
+visual				= dynamics\outfit\dolg_exolight_outfit
+actor_visual		= actors\stalker_dolg\stalker_dolg_exolight_white.ogf
+npc_visual			= actors\stalker_dolg\stalker_dolg_exolight_white.ogf
+
+inv_name			= dolg_exolight_debtor_outfit_name
+inv_name_short		= dolg_exolight_debtor_outfit_name
+description			= dolg_exolight_debtor_outfit_description
+icons_texture		= ui\ui_icon_chokoladka
+inv_grid_width		= 2
+inv_grid_height		= 3
+inv_grid_x			= 14
+inv_grid_y			= 0
+
+cost				= 1009107 ; 1039627-30520
+additional_inventory_weight	= 30
+additional_inventory_weight2= 30
+artefact_count		= 2
+;repair_part_bonus	= 0.48
+hit_fraction_actor	= 0.20
+
+burn_protection		= 0.15 ; 0.22-0.07
+shock_protection	= 0.915 ; 1.0-0.085
+radiation_protection= 0.001 ; 0.0215-0.0235
+strike_protection	= 0.78
+explosion_protection= 0.66 ; 0.96-0.3
+wound_protection	= 0.57 ; 0.66-0.09
+
+[svoboda_exolight_pacifist_outfit]:svoboda_exolight_outfit
+$spawn			= "outfit\svoboda_exolight_pacifist_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freedom_exolight.ogf
+npc_visual		= actors\stalker_freedom\stalker_freedom_exolight.ogf
+
+inv_name		= svoboda_exolight_pacifist_outfit_name
+inv_name_short	= svoboda_exolight_pacifist_outfit_name
+description		= svoboda_exolight_pacifist_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 14
+inv_grid_y		= 3
+
+upgr_icon_x		= 1893
+upgr_icon_y		= 373
+upgr_icon_width	= 284
+upgrades		= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
+
+cost				= 76462 ; 106982-30520
+inv_weight			= 13.63 ; 19-5.37
+additional_inventory_weight	= 30
+additional_inventory_weight2= 30
+artefact_count		= 3
+repair_part_bonus	= 0.48
+
+burn_protection			= 0.33 ; 0.4-0.07
+shock_protection		= 1.815 ; 1.9-0.085
+radiation_protection	= 0.021 ; 0.0445-0.0235
+chemical_burn_protection= 0.008 ; 0.050-0.042
+explosion_protection	= 0.2 ; 0.50-0.3
+wound_protection		= 0.31 ; 0.4-0.09
+fire_wound_protection	= 0.51
+
+[svoboda_exolight_veter_outfit]:svoboda_exolight_outfit
+$spawn			= "outfit\svoboda_exolight_veter_outfit"
+actor_visual	= actors\stalker_freedom\stalker_freddom_exo_veter.ogf
+npc_visual		= actors\stalker_freedom\stalker_freddom_exo_veter.ogf
+
+inv_name		= svoboda_exolight_veter_outfit_name
+inv_name_short	= svoboda_exolight_veter_outfit_name
+description		= svoboda_exolight_veter_outfit_description
+icons_texture	= ui\ui_icon_chokoladka
+inv_grid_width	= 2
+inv_grid_height	= 3
+inv_grid_x		= 14
+inv_grid_y		= 6
+
+cost		= 143659-30520
+inv_weight	= 12-5.37
+additional_inventory_weight	= 55
+additional_inventory_weight2= 55
+
+radiation_protection	= 0.0115 ; 0.0350-0.0235
+chemical_burn_protection= 0.108 ; 0.15-0.042
+telepatic_protection	= 0.02 ; 0.08-0.06
+strike_protection		= 0.67
+explosion_protection	= 0.5 ; 0.80-0.3

@@ -3,9 +3,8 @@ Russian Ammo Expansion [No_data]
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You still need the original mod. Let this overwrite it.
 
-Don't use the original patches in the mod.
+Don't use the patches in the original mod.
 
 ----------------------------------------------------------
 -Explanation:
@@ -28,14 +27,26 @@ PDA Interactive
 ----------------------------------------------------------
 -Patches:
 
+These patches will cover the guns in the respective mods.
+Support for Mags Redux is also provided, as RAE only provides supports for vanilla and BaS magazines.
+
+
 BaS Patch
 DLTX conversion of the original patch, with added Mags Redux support.
 
-Gun mods patches
-A number of mod guns will use the new ammo.
-Support for Mags Redux is also provided, as RAE only provides supports for vanilla and BaS magazines.
+Simple / Misc. Weapon Pack
+"Hisalute's Weapon Packs - Fixes and Tweaks" includes the very same patches. If you're using that, you don't need these here.
 
-A (non exhaustive) list of new guns patched:
+RWAP
+
+Other mods
+A (non exhaustive) list:
+
+Replacers patches:
+Blackgrowl: Better Bizon, Pretty Pistols Pack, PP-19 Vityaz Virilized, The AEK Kit
+Firebreath: AUGmented
+
+New guns:
 Alex: AK107, Vulcan-M
 ATHIS: AK103 BP, Calico M510, Groza custom, M4 Spectre, MK47, MP155, RPK16 drum.
 Bert: Mauser C96, Sten
@@ -53,10 +64,6 @@ Pumkin0: Mosin & SKS stripper clips
 Soulcrystal: Arisaka Quality Control, Benelli M4, FB Radom Vis 35
 TheParazit: PL14
 BaS Extra Weapons
-
-Replacers patches:
-Blackgrowl: Better Bizon, Pretty Pistols Pack, PP-19 Vityaz Virilized, The AEK Kit
-Firebreath: AUGmented
 
 ----------------------------------------------------------
 -Known issues:

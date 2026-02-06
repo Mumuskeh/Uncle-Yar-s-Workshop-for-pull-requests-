@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+<!-- Loner Suits-->
+	
+	<!-- csky -->
+	<string id="loner_cslight_novice_outfit_name">
+		<text>"Explorer" CS-1 Stalker Suit</text>
+	</string>
+	<string id="loner_cslight_novice_outfit_description">
+		<text>%c[ui_gray_1]A light suit frequently gifted to Loners by Clear Sky and further modified by craftsmen. equipped with a weight distribution system, the suit provides adequate protection from the anomalous phenomena in the southernmost parts of the zone, but does little to protect from physical threats or radiological phenomena.\n \n
+		</text>
+	</string>
+	
+	<!-- lcs -->
+	<string id="loner_lcbasic_outfit_name">
+		<text>"Cobra" LC Suit</text>
+	</string>
+	<string id="loner_lcbasic_outfit_description">
+		<text>%c[ui_gray_1]an imported western combat suit, modified by local craftsmen as a matter of survival. while it has been adjusted to better protect from radiological threats, its virtually identical to a regular LC suit, and as such is pretty inadequate for the zone's conditions.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_lc_outfit_name">
+		<text>"Viper" LC Suit</text>
+	</string>
+	<string id="loner_lc_outfit_description">
+		<text>%c[ui_gray_1]An imported Western combat suit, modified by local craftsmen as a matter of survival. This light combat suit has been adjusted to better protect from the conditions within the zone. boasts decent anomalous protection, but it's main draw is it's lightweight and comfortability.\n \n
+		</text>
+	</string>
+
+	<string id="loner_lcadvanced_outfit_name">
+		<text>"Anaconda" LC Suit</text>
+	</string>
+	<string id="loner_lcadvanced_outfit_description">
+		<text>%c[ui_gray_1]An imported Western combat suit, built by local craftsmen as a matter of survival. This light combat suit has been made from the ground up to better protect from the zone's harsh conditions; it features a rubberized outer layer of cloth, plexiglass lining, and a non-intrusive weight distribution system. A good alternative to a true stalker suit, it's only downsides is it's weight.\n \n
+		</text>
+	</string>
+
+	<string id="loner_skat_outfit_name">
+		<text>Skat-8M Armoured Suit</text>
+	</string>
+	<string id="loner_skat_outfit_description">
+		<text>%c[ui_gray_1]An excellent protective suit for the Zone. This heavy military-grade armour is designed for major battle operations in anomalous areas. Comprises a PSZ-10p heavy military armoured suit, built-in compensation suit, and an anomalous protection bodysuit. The armour provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer’s mobility. This particular example seems to be the older mark of armour, featuring less advanced splinter and shrapnel protection than the newer models, and likely made it's way into the zone through less than legal means.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_specops_outfit_name">
+		<text>Berill-5 Body Armour</text>
+	</string>
+	<string id="loner_specops_outfit_description">
+		<text>%c[ui_gray_1]This suit comprises a military PS5 series body armour with beryllium sputter modified for use in the Zone. Occasionally sold to Loners for various "favours", this particular model seems to be the older variant of the PS5 series found mathballed in military warehouses outside the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_nosorog_outfit_name">
+		<text>Nosorog</text>
+	</string>
+	<string id="loner_nosorog_outfit_description">
+		<text>%c[ui_gray_1]A next generation exoskeleton, consisting of a doubly reinforced exosuit and an armoured Czech-M10 gas mask. This suit is rumoured to have been the brainchild of a now deceased stalker named "Fang", whose designs were later claimed by all sorts of powerful factions across the Zone. If regular exoskeletons allow stalkers to feel like a light vehicle, the Nosorog almost makes them believe they're a main battle tank, able to withstand incredible punishment while carrying tremendous ordnance. Typically only available to the wealthiest of stalkers.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_camoseva_outfit_name">
+		<text>"Vineleaf" SEVA Suit</text>
+	</string>
+	<string id="loner_camoseva_outfit_description">
+		<text>%c[ui_gray_1]This suit was produced by one of Kiev's defence research institutes and was further modified by local craftsmen as a matter of survival. It features an intergrated closed cycle system, rubberized camo outer cloth shell, heavy plexiglass lining, and an adequate ballistic vest with stab plates. while featuring all-around better anomalous and cut protection than a standard SEVA suit, it's main downside is it's heavy weight and even less protection from bullets. A great choice for any established artefact and mutant hunter looking to specialize more into the role.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_bulat_outfit_name">
+		<text>"Bulat" Bodysuit</text>
+	</string>
+	<string id="loner_bulat_outfit_description">
+		<text>%c[ui_gray_1]made by craftsmen as a matter of survival, this suit is an inbetween of leather jackets and the Sunrise stalker suit in terms of protection; and is commonly found on rookie artefact hunters. While it features better anomalous and radiological protection than leather jackets, that's not saying really much. very comfortable, but only suitable for artefact hunting in the most southern parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_sunriseseva_outfit_name">
+		<text>"Clay" Patchwork Closed-Cycle Rigged Bodysuit</text>
+	</string>
+	<string id="loner_sunriseseva_outfit_description">
+		<text>%c[ui_gray_1]a specially made stalker full-body suit, designed and built by craftsmen as a matter of survival. While utterly inadequate for a suit of it's type, it still boasts great radiological and anomalous protection, with decent ballistic and strike protection. the armour also features a weight distribution system. unfortunately, the suit's main weakness is it's weight and conductivity. frequently used by artefact hunters on a budget.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_green_outfit_name">
+		<text>"Grass" Stalker Suit</text>
+	</string>
+	<string id="stalker_green_outfit_description">
+		<text>%c[ui_gray_1]Believed to have been designed and built by a minor Freedom-aligned faction, this suit combines elements from both Freedom and stalker suits. Boasting decent anomalous and combat protection, this suit's main appeal is it's sheer comfortability and chemical protection. while the faction is long dead, this suit is still in circulation among those investigating chemical anomalies and those wanting above all else a comfortable suit.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_proto_nbcexo_outfit_name">
+		<text>NBC Proto-Exoskeleton</text>
+	</string>
+	<string id="stalker_proto_nbcexo_outfit_description">
+		<text>%c[ui_gray_1]A stalker NBC suit, specially designed to be fitted with the servos and batteries of an exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances; but lacking the armour of a proper exosuit. Compared to a full exoskeleton, it provides less protection and has less efficient servos, but is also considerably cheaper to maintain.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_proto_lc_outfit_name">
+		<text>Viper LC Proto-Exoskeleton</text>
+	</string>
+	<string id="loner_proto_lc_outfit_description">
+		<text>%c[ui_gray_1]A 'Viper' LC suit, specially designed to be fitted with the servos and batteries of an exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances; but lacking the armour of a proper exosuit. Compared to a full exoskeleton, it provides less protection and has less efficient servos, but is also considerably cheaper to maintain.\n \n
+		</text>
+	</string>
+
+	<string id="loner_elite_exo_outfit_name">
+		<text>"Nightstalker" Exoskeleton</text>
+	</string>
+	<string id="loner_elite_exo_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified exoskeleton, designed and built by expert craftsmen from the ground up. pratically a work of art, this exoskeleton is meant for nighttime operations in the deadliest parts of the zone. Who ever made this evidently put an enormous amount of work and time into it, as it features next-generation servos, a weight distribution system, built-in temperature regulator, anti-conductivity specially treated rubber lining, anti-psy grills, improved filtering system, and an inbuilt tactical rig. it's insane quality is only matched by it's mindboggling price and rarity.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_ps5_outfit_name">
+		<text>"Noon" Stalker Faction Suit</text>
+	</string>
+	<string id="loner_ps5_outfit_description">
+		<text>%c[ui_gray_1]based off the PS5-M and Wind of Freedom, this suit was designed from the ground up by loner craftsmen. while a bit heavy, the suit provides good protection against anomalies while also being capable of stopping a pistol bullet. it's main draw, however, is in how comfortable and well-made it is. despite most loners claiming that free stalkers isn't a faction, suits such as this put that claim into contention.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_ashsuit_outfit_name">
+		<text>"Ash" Stalker Bodysuit</text>
+	</string>
+	<string id="stalker_ashsuit_outfit_description">
+		<text>%c[ui_gray_1]based off of eco-stalker designs, this suit features a rubberized outer shell, heavy plexiglass lining, and a ballistic vest over specially treated fabric. while it boasts great anomaly protection, it comes at the cost of combat capabilities, especially splinter and strike protection. Used by full-time artefact hunters or those expecting to work with Clear Sky or Ecologists.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_sts_outfit_name">
+		<text>"Dawn" Special Tactical Stalker Suit</text>
+	</string>
+	<string id="loner_sts_outfit_description">
+		<text>%c[ui_gray_1]A Zone-assembled suit, made by craftsmen as a matter of survival. Its design seems to be modelled on that of a Special Tactical Suit, featuring adequate anomalous, radiological, and ballistic protection on top of being a comfortable suit to wear. while somewhat uncommon, this suit provides a good alternative to the Sunrise suit for stalkers wanting more mobility but unwilling to spring for something more expensive.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_skatseva_outfit_name">
+		<text>"Phosphor" Skat-9 Armoured Patchwork Closed-Cycle Bodysuit</text>
+	</string>
+	<string id="loner_skatseva_outfit_description">
+		<text>%c[ui_gray_1]Based off the Skat SEVA, this suit features excellent ballistic protection combined with great anomalous defence. built and designed by expert craftsmen, this suit features a PSZ-12p heavy military armoured suit, modified SEVA closed-cycle apparatus, and an anomalously treated undersuit. While very heavy and quite uncomfortable, the sheer amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. Used by some of the wealthiest stalkers the zone has to offer.\n \n
+		</text>
+	</string>
+	
+	<string id="stalker_black_outfit_name">
+		<text>"Outcast" Stalker Suit</text>
+	</string>
+	<string id="stalker_black_outfit_description">
+		<text>%c[ui_gray_1]A Zone-assembled suit, made by craftsmen as a matter of survival. featuring a sophisticated weight distribution system, heavy plexiglass lining, and a more than adequate ballistic vest with stab plates, this suit offers great protection from the Zone's conditions. Great for long treks away from any civilization in the zone, especially alone, this suit is surprisingly cheap for what it has to offer.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_battle_outfit_name">
+		<text>"Reaper" Stalker Body Armour</text>
+	</string>
+	<string id="loner_battle_outfit_description">
+		<text>%c[ui_gray_1]A heavy zone-assembled armour, made by local craftsmen as a matter of survival. based off the Corundum body armour found on mercenaries and other northern operating factions, this armour features beryllium sputters, armour plates, additional plate coverage, frontal mounted weight distribution system, and a ballistic vest. thought to be the creation of a stalker called "Reaper", this suit's design has since proliferated greatly. often found on stalkers expecting heavy combat or operating in the northern parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_hybrid_exo_outfit_name">
+		<text>Hybrid Bodysuit Exoskeleton</text>
+	</string>
+	<string id="loner_hybrid_exo_outfit_description">
+		<text>%c[ui_gray_1]Designed and built by one of Kiev's defence research institutes, this Hybrid suit has been specially outfitted with a modern exoskeleton to carry heavy loads. Farely rare, this suit is mostly found on stalkers working with ecologists or operating with body guards, as the suit (because of it's modern exoskeleton and lack of good combat protection) is a high-priority target for any bandit or mercenary looking for a quick buck.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_berillnew_outfit_name">
+		<text>"Brick" Berill-6M</text>
+	</string>
+	<string id="loner_berillnew_outfit_description">
+		<text>%c[ui_gray_1]the next generation of the Berill series, this armour has been designed and specially made by one of Kiev's defence research institutes with the zone's conditions in mind; while also being further modified by expert craftsmen. Featuring plexiglass and rubberized lining, an anomalous protection bodysuit, heavy duty non-conductive armour plates and a sophisticated frontal weight distribution system, this armour offers great protection for even protracted battles within the zone. unfortunately due to it's cost and relative new-ness, the armour is a rare sight on even high-ranking personnel. Despite this, the armour somehow has made it's way to other factions despite very tight protocols to prevent so. this version sacrifices some of it's combat capabilities for even greater anomalous protection.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_fatso_exo_outfit_name">
+		<text>"Bloatfly" Heavy Patchwork Exoskeleton</text>
+	</string>
+	<string id="loner_fatso_exo_outfit_description">
+		<text>%c[ui_gray_1]what from a glance appears to be an absolute mess of patchwork armour, this sophisticated handmade exoskeleton is actually quite advanced, even among other exoskeletons. features a reinforced exosuit, a custom-made gas mask helmet combo, sturdy servos, and a frontal mounted weight distribution system. because of the protection and ease of maintenance due to the design of the exoskeleton, this armour is frequently seen on those guarding high-profile stalkers in dangerous scenarios.\n \n
+		</text>
+	</string>
+
+	<string id="loner_advancednbc_outfit_name">
+		<text>"Bark" CABRN Bodysuit</text>
+	</string>
+	<string id="loner_advancednbc_outfit_description">
+		<text>%c[ui_gray_1]A specially made western-style bodysuit, designed and commissioned by one of Kiev's research institutes and further modified by craftsmen. in terms of anomalous protection, this suit is somewhere inbetween a proper SEVA and an NBC suit, and boasts especially strong resistance against radiological and chemical threats. it is also additionally equipped with a ballistic vest, allowing for it to withstand pistol rounds and fragmentation splinters. lightweight and comfortable, while boasting good anomalous and decent combat protection makes this suit highly desirable for any stalker without a proper SEVA. the armoured vest is also equipped with additional stab plates, which while making the suit heavier, allows for it to better withstand strikes.\n \n
+		</text>
+	</string>
+	
+	<string id="loner_obj77_exo_outfit_name">
+		<text>"Ripper" Exoskeleton</text>
+	</string>
+	<string id="loner_obj77_exo_outfit_description">
+		<text>%c[ui_gray_1]an unusual exoskeleton, that while almost exclusively used by monolithians, first made it's way into the mercenaries hands; likely looted from battles within Limansk and beyond, and then sold to loners for an exorbitant price. theorized to be an experimental exoskeleton made by the monolith themselves, this armour features an exoskeleton with utterly alien servos, an unusually light but well protecting armoured vest, an intergrated object 77 gas mask, and what seems to be an enviromental jumpsuit based on the X-18 suit. compared to a standard exoskeleton, this suit boasts better enviromental protection, more efficient servos, and is lighter overall; with it's main drawback being worse combat protection.\n \n
+		</text>
+	</string>
+	
+</string_table>

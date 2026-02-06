@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Sin Suits-->
+	
+	<string id="sin_specops_outfit_name">
+		<text>Chernobog Body Armour</text>
+	</string>
+	
+	<string id="sin_specops_outfit_description">
+		<text>%c[ui_gray_1]a modified Berill-5M, used to armour the warriors of Sin. seemingly treated with an anomalous compound, this suit features greater anomalous and combat protection while maintaining roughly the same weight as a standard Berill-5M. given the undamaged appearance of the armour, it's unknown how exactly Sin acquired this suit.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_exolight_outfit_name">
+		<text>Svarog Exosuit</text>
+	</string>
+	
+	<string id="sin_exolight_outfit_description">
+		<text>%c[ui_gray_1]A "radsuit", specially designed and made to armour the battle-priests of Sin. covered in unknown compounds, this exosuit features fantastic combat and anomalous protection, even for a suit of it's class; while remaining lightweight.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_cs1b_outfit_name">
+		<text>Kupala Armoured Suit</text>
+	</string>
+	
+	<string id="sin_cs1b_outfit_description">
+		<text>%c[ui_gray_1]A modified CS-1b acquired quite bloodily and used by Sin members. the suit has been modified with additional armour plates and a special grav anomalous compound; which while making it heavy greatly adds to it's combat capabilities. how exactly Sin acquired this suit is unknown, as the faction is not known to operate within the southernmost parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_mtc_outfit_name">
+		<text>Triglav Body Armour</text>
+	</string>
+	<string id="sin_mtc_outfit_description">
+		<text>%c[ui_gray_1]a Medium Combat suit, used to armour Sin operatives. a good all-rounder suit, it features a specially anomalously treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit; while at the same time remaining comfortable and relatively light.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_nosorog_outfit_name">
+		<text>Perun Nosorog</text>
+	</string>
+	
+	<string id="sin_nosorog_outfit_description">
+		<text>%c[ui_gray_1]A next generation exoskeleton, consisting of a doubly reinforced exosuit and an armoured Czech-M10 gas mask. This suit is rumoured to have been the brainchild of a now deceased stalker named "Fang", whose designs were later claimed by all sorts of powerful factions across the Zone. If regular exoskeletons allow stalkers to feel like a light vehicle, the Nosorog almost makes them believe they're a main battle tank, able to withstand incredible punishment while carrying tremendous ordnance. Typically only available to a faction's most valuable members, and even then only during exceptionally dangerous missions.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_stalker_outfit_name">
+		<text>Dola Armoured Suit</text>
+	</string>
+	<string id="sin_stalker_outfit_description">
+		<text>%c[ui_gray_1]a modified sunrise suit, used by converted dark stalkers. features an anomalously treated vest, which seems to have greatly decreased the felt weight of the suit while also increasing it's ballistic protection. used mostly by Sin scouts for reconnaissance and light engagements.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_lightsts_outfit_name">
+		<text>Simargl Tactical Bodysuit</text>
+	</string>
+	<string id="sin_lightsts_outfit_description">
+		<text>%c[ui_gray_1]a special tactical suit that's seemingly a mix of both new and old parts; combined together by Sin craftsmen. features an old enviromental jumpsuit and an ancient ballistic vest thats been heavily modified and repaired. boasts good anomalous protection, especially against psy threats, and decent combat protection; but it's main draw is it's light weight and comfortability. where this suit's parts originate from is unknown, and is believed to, like the X-18, come from one of the myriad labs within the zone. the suit is also treated with an anomalous compound, allowing for it to better withstand shrapnel and strikes.\n \n
+		</text>
+	</string>
+
+	<string id="sin_berillnew_outfit_name">
+		<text>Rod Body Armour</text>
+	</string>
+	<string id="sin_berillnew_outfit_description">
+		<text>%c[ui_gray_1]what appears to be a heavily modified and anomalously treated Berill-6M, used to armour high-ranking Sin warriors. Featuring plexiglass and rubberized lining, an anomalous protection bodysuit, heavy duty non-conductive armour plates and a sophisticated frontal weight distribution system, this armour offers great protection for even protracted battles within the zone. unfortunately due to it's cost and relative new-ness, the armour is a rare sight on even high-ranking personnel. Despite this, the armour somehow has made it's way into Sin, and would likely be a high-priority target for the military if they were aware of it. this version features greatly decreased weight due to an anomalous compound that also increases psy protection.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_sts_outfit_name">
+		<text>Belobog Tactical Suit</text>
+	</string>
+	<string id="sin_sts_outfit_description">
+		<text>%c[ui_gray_1]seemingly based on the x-18 armour, this tactical suit is used to armour sinners operating within the middle parts of the zone. features a rubberized vest with pouches and an anomalously treated bodysuit with an unknown compound sputters. boasts good anomalous protection, particularly against radiological and psy phenomena, while also being able to stop strong pistol rounds. overall, this armour serves as the defacto tactical suit for the operatives of Sin.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_scout_outfit_name">
+		<text>Radegast Body Armour</text>
+	</string>
+	<string id="sin_scout_outfit_description">
+		<text>%c[ui_gray_1]A modified Berill-L acquired through unknown means for Sin. lightweight and comfortable, while boasting decent combat and anomalous protection (especially against radiological threats), this armour is well-suited to the scouts and light skirmishers of Sin.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_skat9_outfit_name">
+		<text>Hors Armoured Suit</text>
+	</string>
+	<string id="sin_skat9_outfit_description">
+		<text>%c[ui_gray_1]a bloody Skat-9, used to armour experienced Sin cultists. This heavy military-grade armour is designed for major battle operations in anomalous areas. Comprises a PSZ-12p heavy military armoured suit, built-in compensation suit, and an anomalously treated protection bodysuit. The armour provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer’s mobility. Although originally intended for the sole use of Military stalkers and experienced Spetsnaz operators, this armour occasionally finds its way into factions outside of the Military through unknown means.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_superexo_outfit_name">
+		<text>Vodyanoy Super-Heavy Exoskeleton</text>
+	</string>
+	<string id="sin_superexo_outfit_description">
+		<text>%c[ui_gray_1]an extremely unusual exoskeleton, with what appears to be an unknown and utterly alien diving basket head mounted on the top of the armour. because of the diving head, the suit is extremely heavy and puts immense strain on the exoskeleton. the upsides though are insanely high; the armour and exoskeleton appears to be reinforced and anomalously treated, and combined with the diving basket head makes this suit almost imperious to bullets and grenades, while also being utterly immune to any anomalous phenomena. used by the strongest and most experienced Sin members, those who wear this suit are almost considered walking avatars of the zone within the faction, and are able to turn the tide of a battle all by themselves.\n \n
+		</text>
+	</string>
+	
+	<string id="sin_skatseva_outfit_name">
+		<text>Stribog Closed-Cycle Armoured Bodysuit</text>
+	</string>
+	<string id="sin_skatseva_outfit_description">
+		<text>%c[ui_gray_1]a heavily modified Hors Body Armour, equipped with an anomalous undersuit, heavily modified PBF gas mask, and a closed-cycle apparatus system. used to armour high-ranking battle-priests of Sin, this armour offers fantastic anomalous and combat protection, with it's main downside being it's weight.\n \n
+		</text>
+	</string>
+	
+	
+
+	
+</string_table>

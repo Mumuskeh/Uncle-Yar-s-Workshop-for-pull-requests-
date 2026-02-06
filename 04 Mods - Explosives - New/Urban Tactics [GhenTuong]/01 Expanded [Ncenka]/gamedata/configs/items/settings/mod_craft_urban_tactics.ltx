@@ -1,0 +1,52 @@
+![2]
+a_tripwire = 1, recipe_ammo_0, prt_i_scrap,1,sewing_thread,1
+b_tripwire = 1, recipe_ammo_0, prt_i_scrap,1,prt_i_copper,1
+c_tripwire = 1, recipe_ammo_0, prt_i_wood,1,sewing_thread,1
+d_tripwire = 1, recipe_ammo_0, prt_i_wood,1,prt_i_copper,1
+
+![6]
+a_tool_tripwire_f1 = 1, recipe_ammo_0, grenade_f1,1,tripwire,1
+a_tool_tripwire_rgd5 = 1, recipe_ammo_0, grenade_rgd5,1,tripwire,1
+a_tool_tripwire_gd05 = 1, recipe_ammo_0, grenade_gd-05,1,tripwire,1
+a_tool_tripwire_vog25 = 1, recipe_ammo_0, ammo_vog-25,1,tripwire,1
+a_tool_tripwire_m209 = 1, recipe_ammo_0, ammo_m209,1,tripwire,1
+a_tool_tripwire_explosive_charge = 1, recipe_ammo_0, grenade_explosive_charge,1,tripwire,1
+a_tool_tripwire_og7b = 1, recipe_ammo_0, ammo_og-7b,1,tripwire,1
+a_tool_tripwire_m18 = 1, recipe_ammo_0, grenade_m18,1,tripwire,1
+a_tool_tripwire_rdg2 = 1, recipe_ammo_0, grenade_rdg2,1,tripwire,1
+a_tool_tripwire_m662 = 1, recipe_ammo_0, ammo_flare_grenade_m662,1,tripwire,1
+a_tool_tripwire_vgop = 1, recipe_ammo_0, ammo_flare_grenade_vgop,1,tripwire,1
+
+![item_combination]
+prt_i_wood:prt_i_copper = tripwire
+prt_i_copper:prt_i_wood = tripwire
+prt_i_scrap:prt_i_copper = tripwire
+prt_i_copper:prt_i_scrap = tripwire
+prt_i_wood:sewing_thread = tripwire
+sewing_thread:prt_i_wood = tripwire
+prt_i_scrap:sewing_thread = tripwire
+sewing_thread:prt_i_scrap = tripwire
+
+grenade_f1:tripwire = tool_tripwire_f1
+grenade_rgd5:tripwire = tool_tripwire_rgd5
+grenade_gd-05:tripwire = tool_tripwire_gd05
+ammo_vog-25:tripwire = tool_tripwire_vog25
+ammo_m209:tripwire = tool_tripwire_m209
+grenade_explosive_charge:tripwire = tool_tripwire_explosive_charge
+ammo_og-7b:tripwire = tool_tripwire_og7b
+grenade_m18:tripwire = tool_tripwire_m18
+grenade_rdg2:tripwire = tool_tripwire_rdg2
+ammo_flare_grenade_m662:tripwire = tool_tripwire_m662
+ammo_flare_grenade_vgop:tripwire = tool_tripwire_vgop
+
+tripwire:grenade_f1 = tool_tripwire_f1
+tripwire:grenade_rgd5 = tool_tripwire_rgd5
+tripwire:grenade_gd-05 = tool_tripwire_gd05
+tripwire:ammo_vog-25 = tool_tripwire_vog25
+tripwire:ammo_m209 = tool_tripwire_m209
+tripwire:grenade_explosive_charge = tool_tripwire_explosive_charge
+tripwire:ammo_og-7b = tool_tripwire_og7b
+tripwire:grenade_m18: = tool_tripwire_m18
+tripwire:grenade_rdg2 = tool_tripwire_rdg2
+tripwire:ammo_flare_grenade_m662 = tool_tripwire_m662
+tripwire:ammo_flare_grenade_vgop = tool_tripwire_vgop

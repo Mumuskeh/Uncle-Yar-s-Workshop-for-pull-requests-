@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Clear Sky Suits-->
+	
+	<string id="csky_cs1b_outfit_name">
+		<text>CS-1b Body Armour</text>
+	</string>
+	<string id="csky_cs1b_outfit_description">
+		<text>%c[ui_gray_1]A heavy but quite comfortable outfit worn by members of Clear Sky that boasts decent anomalous and radiological protection. However, the armour's main appeal is it's combat protection, especially against mutants.\n \n
+		</text>
+	</string>
+
+	<string id="csky_lc_outfit_name">
+		<text>CS-1C Suit</text>
+	</string>
+	<string id="csky_lc_outfit_description">
+		<text>%c[ui_gray_1]A Western light combat suit imported and modified by clear sky craftsmen. boasting beryllium sputters and a rubberized outer shell, this suit has more than adequate anomalous protection on top of decent combat protection; unfortunately these modifications make the suit incredibly uncomfortable to wear. worn by any clear sky members expecting firefighting on top of their usual researching duties.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_ps5_outfit_name">
+		<text>CS-3C Suit</text>
+	</string>
+	<string id="csky_ps5_outfit_description">
+		<text>%c[ui_gray_1]Based on designs like the Wind of freedom and PS5-M, this suit features a rubberized ballistic vest and a specially treated undersuit. because of this, the suit boasts good all-around anomalous protection, but it's main appeal is it's strangely good combat protection, especially against shrapnel. why this faction suit seems to be geared towards combat is a mystery.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_cs2aseva_outfit_name">
+		<text>CS-2a Patchwork Closed-Cycle Suit</text>
+	</string>
+	<string id="csky_cs2aseva_outfit_description">
+		<text>%c[ui_gray_1]based on the CS-2a series of armour, this closed-cycle suit provides a good budget alternative to the SEVA suit. Features a custom made helm, closed cycle system, an undersuit, and body armour capable of stopping weak pistol rounds.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_cs2bseva_outfit_name">
+		<text>CS-2b Patchwork Closed-Cycle Apparatus Suit</text>
+	</string>
+	<string id="csky_cs2bseva_outfit_description">
+		<text>%c[ui_gray_1]based on the CS-2b series of armour, this closed-cycle suit provides a good budget alternative to the SEVA suit. Features an upgraded custom made helm, advanced closed cycle system, a specially treated undersuit, a weight distribution system, and body armour capable of stopping pistol rounds.\n \n
+		</text>
+	</string>
+
+	<string id="csky_cs3dseva_outfit_name">
+		<text>CS-3d Closed-Cycle Armoured Suit</text>
+	</string>
+	<string id="csky_cs3dseva_outfit_description">
+		<text>%c[ui_gray_1]based on the CS-3a series of armour, this closed-cycle suit provides a good alternative to the SEVA suit. Features a SEVA helm, sophisticated closed cycle system, anomalously specially treated bodysuit, a sophisticated weight distribution system, and body armour capable of stopping strong pistol rounds.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_skatexo_outfit_name">
+		<text>CS-4b Exoskeleton</text>
+	</string>
+	<string id="csky_skatexo_outfit_description">
+		<text>%c[ui_gray_1]A CS-4b armoured suit that has been specially modified to fit with the servos and batteries of a modern exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances. Compared to a full exoskeleton, it is similarly, if not more, protective in addition to being significantly more versatile on account of being able to change its headgear.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_skatseva_outfit_name">
+		<text>CS-4b Closed-Cycle Armoured Bodysuit</text>
+	</string>
+	<string id="csky_skatseva_outfit_description">
+		<text>%c[ui_gray_1]One of the most advanced and protective suits in the Zone, this suit features some of the best anomalous defence in clear sky combined with fantastic combat protection. built and designed by one of Kiev's defence research institutes but never officially made for the military, this suit combines the PSZ-14Ra heavy military body armour, a specially treated rubberized outer shell, heat-regulation system, psy grills, anti-conductivity defence system, and a built-in anomalous protection undersuit. While heavy and quite uncomfortable, the sheer amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. used by the most experienced clear sky researchers that operate in the most northern parts of the zone.\n \n
+		</text>
+	</string>
+
+	<string id="csky_sevaprotoexo_outfit_name">
+		<text>CS-4a Proto-Exoskeleton</text>
+	</string>
+	<string id="csky_sevaprotoexo_outfit_description">
+		<text>%c[ui_gray_1]A CS-4a, specially designed to be fitted with the servos and batteries of an exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances, but lacking the armour of a proper exosuit. Compared to a full exoskeleton, it provides less protection and has less efficient servos, but is also considerably cheaper to maintain.\n \n
+		</text>
+	</string>
+	
+	<string id="csky_sevaexo_outfit_name">
+		<text>CS-4a Pathfinder Exoskeleton</text>
+	</string>
+	<string id="csky_sevaexo_outfit_description">
+		<text>%c[ui_gray_1]A CS-4a Pathfinder, specially designed to be fitted with the servos and batteries of a modern exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances, but lacking the armour of a proper exosuit.\n \n
+		</text>
+	</string>
+	
+</string_table>

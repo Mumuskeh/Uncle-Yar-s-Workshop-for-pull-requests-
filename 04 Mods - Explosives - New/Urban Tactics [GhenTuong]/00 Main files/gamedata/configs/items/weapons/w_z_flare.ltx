@@ -1,0 +1,119 @@
+;====================================================================================================
+; Ammo
+;====================================================================================================
+[ammo_flare_grenade_vgop]:ammo_vog-25
+visual					= dynamics\weapons\wpn_ammo\ammo_vgop.ogf
+inv_name				= ammo_flare_grenade_vgop
+inv_name_short			= ammo_flare_grenade_vgop
+description				= ammo_flare_grenade_vgop_descr
+inv_weight				= 0.26
+cost					= 1000
+box_size				= 1
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_height			= 1
+inv_grid_width			= 1
+inv_grid_x				= 1
+inv_grid_y				= 1
+
+k_disp					= 0
+k_hit					= 0
+k_impulse				= 0
+k_ap					= 0
+buck_shot				= 0
+tracer					= off
+wm_size					= 0.05
+fake_grenade_name		= wpn_fake_missile_flare_vgop
+ammo_grenade_vel		= 60
+
+[ammo_flare_grenade_m662]:ammo_m209
+visual					= dynamics\weapons\wpn_ammo\ammo_m662.ogf
+inv_name				= ammo_flare_grenade_m662
+inv_name_short			= ammo_flare_grenade_m662
+description				= ammo_flare_grenade_m662_descr
+inv_weight				= 0.2
+cost					= 1000
+box_size				= 1
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_height			= 1
+inv_grid_width			= 1
+inv_grid_x				= 0
+inv_grid_y				= 1
+
+k_disp					= 0
+k_hit					= 0
+k_impulse				= 0
+k_ap					= 0
+buck_shot				= 0
+tracer					= off
+wm_size					= 0.05
+fake_grenade_name		= wpn_fake_missile_flare_m662
+ammo_grenade_vel		= 60
+
+;====================================================================================================
+; Fake	Rocket
+;====================================================================================================
+[wpn_fake_missile_flare_base]:wpn_fake_missile
+blast					= 0
+blast_r					= 0
+blast_impulse			= 0
+blast_impulse_factor	= 0
+frags					= 0
+frags_r					= 0
+frag_hit				= 0
+frag_hit_impulse		= 0
+
+light_color				= 0,0,0
+light_range				= 0
+light_time				= 0
+explode_particles		= weapons\generic_weapon05
+wm_size					= 0.001
+
+up_throw_factor			= 0
+explode_duration		= 0
+snd_explode				= weapons\n_pm_shot
+force_explode_time		= 3000
+
+[wpn_fake_missile_flare_vgop]:wpn_fake_missile_flare_base
+visual					= dynamics\weapons\wpn_ammo\ammo_vgop.ogf
+on_explode				= bind_flare.on_explode
+on_explode_spawn		= flare_object_grenade_vgop
+
+[wpn_fake_missile_flare_m662]:wpn_fake_missile_flare_base
+visual					= dynamics\weapons\wpn_ammo\ammo_m662.ogf
+on_explode				= bind_flare.on_explode
+on_explode_spawn		= flare_object_grenade_m662
+
+;====================================================================================================
+; Script	object
+;====================================================================================================
+[flare_object_base]
+GroupControlSection		= spawn_group
+class					= O_DSTR_S
+remove_time				= 0
+script_binding			= bind_flare.init
+visual					= dynamics\light\light_signal.ogf
+
+range					= 100
+color					= 255,204,0,51
+
+snd_name				= anomaly\fire2
+;ptc_name				= ghost_particles\signal_flare_red
+ptc_name				= damage_fx\heli_burn
+
+[flare_object_grenade_vgop]:flare_object_base
+;visual					= dynamics\weapons\wpn_ammo\ammo_vgop.ogf
+range					= 150
+color					= 255,204,0,51
+brightness				= 0.8
+duration				= 60
+duration_end_effect		= 3
+
+[flare_object_grenade_m662]:flare_object_base
+;visual					= dynamics\weapons\wpn_ammo\ammo_m662.ogf
+range					= 200
+color					= 255,204,0,51
+brightness				= 1.0
+duration				= 40
+duration_end_effect		= 3

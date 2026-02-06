@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_helm_gm15">
+		<text>GM15 gas mask</text>
+	</string>
+	<string id="st_helm_gm15_descr">
+		<text>%c[ui_gray_1]This German gas mask from the First World War is in excellent condition. Germany was one of the first countries to develop and use combat gases, and hence the first protective masks, but this was more of a temporary solution. In 1915, they began testing the first model of what we now call the GM15. Contrary to what one would think, it wasn't made of actual rubber, but of rubberized fabric. The edge of the mask did not provide a snug fit to the face, so a peripheral seal was added. In addition to the peripheral seal, the metal parts were also seated. The mask is equipped with two round eyepieces with celluloid lenses. It is equipped with a large filter attached directly to the mask using a "bayonet" connection.\n
+		This artifact of the past was found in good condition by diggers in a landfill and sold to flea market merchants. Alas, such an ancient gas mask is not designed to protect against radiation and modern dangerous chemical fumes, much less anomalous hazards. Holding this gas mask in your hands, you involuntarily realize that it is a reminder of the senseless catastrophe of the 20th century and the transience of life, especially in an place where any situation or a wrong step can be the last.\n
+		There are rumors that someone has found a way to upgrade the GM15 to the level of modern gas masks, but these are just drunken campfire stories.\n \n</text>
+	</string>
+
+	<string id="st_helm_gp7">
+		<text>GP-7 gas mask</text>
+	</string>
+	<string id="st_helm_gp7_descr">
+		<text>%c[ui_gray_1]
+		The GP-7 gas mask is a civilian gas mask that was produced by the Soviet Union during the Cold War era. The mask was designed to provide protection to civilians against nuclear, biological, and chemical agents during the threat of the Cold War. It is distinguished from its military counterpart, the PMK, which was intended to be used exclusively for military purposes as opposed to the GP-7 which was designed solely for civil defense. The case is made of elastic rubber with two round sight glasses, and it is equipped with an independent obturator, ensuring a secure fit to the face with minimal pressure.\n
+		A good choice for artifact hunting, but there is a rumor among stalkers that it is unreliable in chemical anomalies. And in a fight, the mask provides no protection and can even easily fail.\n \n</text>
+	</string>
+
+	<string id="st_helm_m17">
+		<text>M17 gas mask</text>
+	</string>
+	<string id="st_helm_m17_descr">
+		<text>%c[ui_gray_1]The M17 gas mask is a series of protective masks that were a series of field protective masks standardized for the U.S. Armed Forces on March 12, 1959, and used until the mid-1990s, when they were officially discontinued with the introduction of the new M40 series protective mask. The design philosophy of respirators in the late 1950s emphasized new and innovative solutions to existing and the problems that arise. In this spirit, new design requirements were developed for a compact structure that did not have external filter housings or hose-connected filter elements. The solution with an internal filter bag was chosen to meet this form factor, and also eliminated the requirement to have different designs for left-handed and right-handed military personnel. The voice membrane was also a design requirement to aid in speech communication on the battlefield in a polluted environment. After about a decade of testing and development, production of a mask called the M17 Field Protective Mask began in May 1960, with the same standard of protection as the M9 series, but with a higher 24-hour filtration capacity and a shooter-friendly design. The M17 gas mask influenced the Soviet PBF "Hamster" gas mask, which was created using filters and a general mask concept.\n
+		Some mercenaries and stalkers from various groups use the M17 because of its good performance, comparable to the PBF gas mask.\n \n</text>
+	</string>
+
+	<string id="st_helm_pmg_nerehta">
+		<text>PMG "Nerehta" gas mask</text>
+	</string>
+	<string id="st_helm_pmg_nerehta_descr">
+		<text>%c[ui_gray_1]PMG "Nerehta" is a combined—arms gas mask that was adopted in 1963 for use in the Soviet Army and the Soviet Navy. The mount for the filter-absorbing box is located on the side, convenient for aiming small arms, and the eyeglass assembly is located in the same plane, which simplifies the use of binoculars and other optical devices. The name "Nerekhta" was probably given to the gas mask in honor of the Nerehta River, which flows near the city of Vladimir, where the first tests took place.\n \n</text>
+	</string>
+
+	<string id="st_helm_pmk4">
+		<text>PMK-4 gas mask</text>
+	</string>
+	<string id="st_helm_helm_pmk4_descr">
+		<text>%c[ui_gray_1]A Russian gas mask designed to protect the respiratory system from a wide range of toxic substances, biological weapons, aerosols and dust, including radioactive. In August 2016, Major General E. A. Cherkasov, the head of the RCBZ Armed Forces of the Russian Federation, announced that a new army gas mask PMK-4 was being developed. After the tests were completed, in June 2017, the PMK-4 was officially accepted for supply to the armed forces of the Russian Federation, but it is not known exactly when production of the PMK-4 began, but the first MB-4 masks from the gas mask kit date back to 2014-2015. The helmet mask of the PMK-4 gas mask is made of synthetic butyl rubber and silicone made in Russia. The filter from the PMK-4 kit, called FPS-4p, provides protection against military toxic substances, biological weapons, various gases, as well as aerosols and dust, including radioactive. When using additional protective pads, the gas mask can also protect against the light radiation of a nuclear explosion, as well as the visor of the gas mask can be protected from fogging, clouding and scratches. The gas mask is compatible with tactical goggles, various NVGs, and vision correction devices can be installed in the gas mask with the help of an additional part included in the kit. The gas mask is compatible with many helmets, has a convenient headrest and quick-release strap fastenings. In 2017, the first PMK-4 gas masks began to be issued to the army.\n
+		There is a rumor that in August 2017, a combat model was stolen from an Army exhibition. Considering this copy being sold by Nimble, you wonder if there's a connection there.\n \n</text>
+	</string>
+
+	<string id="st_helm_prvu">
+		<text>PRV-U gas mask</text>
+	</string>
+	<string id="st_helm_prvu_descr">
+		<text>%c[ui_gray_1]The PRV-U gas mask provided good protection for respiratory organs, eyes and face when working with rocket fuel components, as well as from toxic substances, radioactive dust and bacterial aerosols.\n
+		This gas mask works flawlessly in the harsh conditions of the Zone, for which it has become popular among adventurer stalkers who tread the most dangerous and unexplored corners of the Zone.\n \n</text>
+	</string>
+
+	<string id="st_helm_respirator_gp4">
+		<text>GP-4u gas mask</text>
+	</string>
+	<string id="st_helm_respirator_gp4_descr">
+		<text>%c[ui_gray_1]The GP-4u was released in 1955 and became one of the most widespread gas masks in the USSR at that time. The GP-4u civilian gas mask consists of a front part, a hose and a cylindrical filter that is screwed onto the end of the hose. When inhaled, the filter traps some toxic substances, including toxins and microorganisms. Two round glass lenses are attached to the front part using metal fasteners. On the underside of the gas mask there is an inhalation valve, from which the hose starts, followed by an exhalation valve. The front part filters the air and protects the user's lungs, eyes and face from external pollutants. The hose is permanently attached to the inhalation valve on one side and connects to the filter on the other. Its only function is to safely deliver filtered air to the inhalation valve.\n
+		This gas mask was popular among pioneer stalkers, but it was quickly replaced with the advent of affordable modern alternatives.\n \n</text>
+	</string>
+
+	<string id="st_helm_respirator_gp5_black">
+		<text>GP-5 gas mask (Black)</text>
+	</string>
+	<string id="st_helm_respirator_gp5_black_descr">
+		<text>%c[ui_gray_1]Originally manufactured from 1962 to 1989, the GP-5 gas mask was built with the intention to protect the Soviet people from radioactive fallout. It is a helmet-mask made of white and black rubber, with the lenses held in place by a crimping rim. The filters, however, have been restored or replaced with a great deal of care. Compared to gas mask kits of similar price and availability, such as the PBF, this reconditioned respiratory device boasts greater protection against radiation, but an even greater failure rate in toxic environments.\n
+		This particular mask is colored black and seems of more recent make than other GP-5 masks you've seen. It also seems sturdier and probably has a slight edge over in protecting the user from chemical hazards and explosions.\n
+		</text>
+	</string>
+
+	<string id="st_helm_respirator_gp5_old">
+		<text>Old GP-5 gas mask</text>
+	</string>
+	<string id="st_helm_respirator_gp5_old_descr">
+		<text>%c[ui_gray_1]The GP-5 helmet-mask provides air purified in a filter-absorbing box to the respiratory organs and protects the eyes and face from exposure to toxic, radioactive substances and bacterial (biological) agents, as well as dust, smoke and fog. The front part consists of a rubber body with fairings and a eyeglass assembly with round flat glasses, a valve box with inhalation and exhalation valves. It is equipped with films that prevent the glasses of the eyeglass assembly from fogging, and it can also be equipped with insulating cuffs that prevent the glasses of the eyeglass assembly from freezing at subzero temperatures.\n
+		This gas mask has been used for a long time and has lost some of its protection; however, it has a filter that absorbs poisoned air and radioactive dust well.\n \n</text>
+	</string>
+
+	<string id="st_helm_respirator_ip4m">
+		<text>IP-4M insulating gas mask</text>
+	</string>
+	<string id="st_helm_respirator_ip4m_descr">
+		<text>%c[ui_gray_1]IP-4M is an insulating gas mask that is used to protect the respiratory system, vision and skin of the face in conditions where there is insufficient oxygen in the air or harmful impurities are present. The main task is to carry out emergency, rescue and restoration work. The main function of the gas mask is to ensure normal breathing without depending on the oxygen content of the enviroment. The exhaled air mixture passes through the purification and filtration system, and then returns back to the breathing bag. This process helps to keep the air tight and prevent outside air from entering the mask.\n
+		As a whole, the entire headset includes a MIA-1 mask, a corrugated tube, a protective case, a regenerative cartridge with a trigger, a breathing bag, a helmet mask with a corrugated tube, a storage bag, a frame, non-fogging films, a membrane, an insulating cuff, a stopper, and an instruction manual.\n
+		Of great utility in exploring chemical anomalous areas.\n \n</text>
+	</string>
+
+	<string id="st_helm_respirator_shm66mu">
+		<text>SHM-66MU gas mask</text>
+	</string>
+	<string id="st_helm_respirator_shm66mu_descr">
+		<text>%c[ui_gray_1]The SHM-66MU is a thin membrane helmet mask designed in 1966. It was available in two colors: black and white. SHM-66MU purifies air in a filter-absorbing box to the respiratory organs and protects the eyes and face from exposure to toxic, radioactive substances and bacterial (biological) agents, as well as dust, smoke and fog. The front part consists of a rubber body with fairings and a eyeglass assembly with round flat glasses, a valve box with inhalation and exhalation valves. It is equipped with films that prevent fogging of the glasses of the eyeglass assembly, and it can also be equipped with insulating cuffs that prevent the glasses of the eyeglass assembly from freezing at subzero temperatures.\n \n</text>
+	</string>
+
+	<string id="st_helm_s10">
+		<text>S-10 gas mask</text>
+	</string>
+	<string id="st_helm_s10_descr">
+		<text>%c[ui_gray_1]The S10 respirator was the primary means of protection for the British Armed Forces between 1987 and 2012. The basic layout of the S10 consists of two round lenses, a forward—facing exhalation valve with a built-in main speech module, and two ports on each underside of the respirator, where conventional S10 models have a secondary speech transmitter (and a Clansman radio port) on one side, and a filter port on the other. The S10 eyepieces are made of rather fragile plastic and are available in two types. A more common indented lens, known as a "plano lens," allows it to be used with optics and provides minimal distortion of the field of view. The respirator, consisting of a rigid butyl rubber mask, is able to withstand the effects of skin-abscess poisoning and all chemical and nerve agents known at the time of its appearance for 4 hours.\n
+		In 2014, the S10 respirators produced in the UK were completely replaced by Scott GSR, and the old stocks were sent to the civilian market, from where they entered the Zone's black market. Used by wealthy stalkers and PMC groups.\n \n</text>
+	</string>
+
+	<string id="st_helm_s10_mf10">
+		<text>MF10 gas mask</text>
+	</string>
+	<string id="st_helm_s10_mf10_descr">
+		<text>%c[ui_gray_1]A rather rare S10 export model distributed by the American company KX Defense. Its key difference lies in the fact that the mask was originally intended to protect against modern biological, chemical weapons and chemical warfare agents, and unlike the standard S10, the original used different materials and a filter. Although it was developed for US law enforcement agencies, in general it is just a standard S10, but aimed at protecting against biological hazards.\n \n</text>
+	</string>
+
+	<string id="st_helm_sangurv_yanov">
+		<!-- <text>MB-T Sangur-V gas mask</text> -->
+		<text>MB-T Sangur-V "Yanov" gas mask</text>
+	</string>
+	<string id="st_helm_sangurv_yanov_descr">
+		<!-- There already exists a Sangur mask, so it's strange to consider it a Zone crafted GP-7 derivation: https://firearmcentral.fandom.com/wiki/MB-T_Sangur-V -->
+		<!-- Azot = Ashot? -->
+		<!-- <text>%c[ui_gray_1]This gas mask was created by the technicians Azot and Cardan, using a GP-7 gas mask as a base, but with elements of other gas masks as well. Despite the artisanal production, the mask turned out to be airtight and of high quality. The distinctive features are s filters of our own production with fragments of semi-artifact. There is also protection from psi radiation, which was achieved by combining decommissioned scientific equipment, a broken psi helmet and a fragment of an artifact with psi protection. The ballistic characteristics have not been ignored, and the gas mask is equipped with some protective elements.\n
+		Given the fact that it has not been tested yet for the harsh conditions of the Zone for which it was created, buying this gas mask may be the last mistake of your life or the best purchase you'll ever make.\n \n</text> -->
+		<text>%c[ui_gray_1]The MB-T Sangur-V is a rather obscure prototype Soviet gas mask developed from the PMK in 1982, with dual-cheek filters similar to that of the PBF gas mask.\n
+		After finding an intact sample, Ashot and Cardan collaborated in developing it further. Despite the artisanal production, the mask turned out to be airtight and of high quality. The distinctive features are s filters of Cardan's own production with artifact fragments. It also provides protection against psi radiation, achieved by combining decommissioned scientific equipment, a broken psi helmet, and a fragment of an artifact with psi protection. Some ballistic protection was also taken in consideration.\n
+		Given the fact that it has not been tested yet for the harsh conditions of the Zone for which it was created, buying this gas mask may be the last mistake of your life or the best purchase you'll ever make.\n \n</text>
+	</string>
+
+	<string id="st_helm_tactic_23m">
+		<text>Sphere-23M helmet</text>
+	</string>
+	<string id="st_helm_tactic_23m_descr">
+		<text>%c[ui_gray_1]An old experimental model of a combat helmet, characterized by its lightness due to the use of experimental materials synthesized using artifacts. The kit includes a respirator and safety glasses.\n \n</text>
+	</string>
+
+</string_table>

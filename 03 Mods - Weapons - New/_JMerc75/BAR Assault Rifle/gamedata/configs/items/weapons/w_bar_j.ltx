@@ -1,0 +1,264 @@
+;------------------------------------------------------------------------------------------------
+[wpn_bar_j]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection				= spawn_group
+discovery_dependency			=
+$npc							= on
+$prefetch						= 8
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_bar_j
+
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 8
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\bar_icon
+inv_grid_width					= 6
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+inv_name						= st_wpn_bar
+inv_name_short					= st_wpn_bar_s
+description						= st_wpn_bar_descr
+
+kind							= w_rifle
+inv_weight						= 7.6
+cost							= 39824
+repair_type						= rifle_7
+weapon_class					= assault_rifle
+
+hud								= wpn_bar_j_hud
+visual							= dynamics\weapons\wpn_bar_j\wpn_bar_j_world.ogf
+
+position						= -0.026,0,0
+orientation						= 0,0,0	0
+
+fire_point						= 0,0.218,0.656
+fire_point2						= 0,0.161,0.583
+
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.45
+strap_orientation				= -25, -189, 65
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon06
+;smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0,0.129,0.192
+shell_dir						= 0,0,0.4
+shell_particles					= weapons\762x39
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 4.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_g3sg1, up_gr_seconab_g3sg1, up_gr_thirdab_g3sg1
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_fn2000
+upgr_icon_path					= ui\bar_icon
+upgr_icon_x						= 0
+upgr_icon_y						= 100
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+ammo_current					= 20
+ammo_elapsed					= 20
+ammo_limit						= 60
+ammo_mag_size					= 20
+startup_ammo					= 20
+
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_status					= 0
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+silencer_name					= wpn_sil_hexagon
+silencer_x						= 207
+silencer_y						= -20
+
+grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status			= 0
+launch_speed					= 0
+
+hit_impulse						= 65
+hit_power						= 0.91, 0.91, 0.91, 0.91
+hit_type						= fire_wound
+fire_distance					= 1000
+bullet_speed					= 820
+rpm								= 410
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 5.6
+fire_dispersion_base			= 0.26
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.65
+misfire_start_prob				= 0.01
+misfire_end_condition			= 0.17
+misfire_end_prob				= 0.05
+
+condition_queue_shot_dec		= 0.0013
+condition_shot_dec				= 0.0013
+
+cam_return						= 0
+cam_relax_speed					= 10
+cam_dispersion					= 1.5
+cam_dispersion_frac				= 0.66
+cam_dispersion_inc				= 0.0775
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.22
+zoom_cam_relax_speed			= 10
+zoom_cam_dispersion				= 1.2
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 0.0675
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.13
+
+PDM_disp_accel_factor			= 2.75
+PDM_disp_base					= 1.2
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.75
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x		= 259
+kill_msg_y		= 293
+kill_msg_width	= 114
+kill_msg_height	= 22
+
+hud_fov			= 0.8
+;-----------------------------------------------------------------SOUNDS-------------------------------------------------------------------------------
+snd_bore			= $no_sound
+snd_draw			= weapons\sks\draw
+snd_holster			= weapons\sks\hide
+snd_empty			= weapons\ak74m_beard\trigger_hammer
+snd_reload			= weapons\barj\barj_reload
+snd_reload_empty	= weapons\barj\barj_reload_empty
+snd_reload_misfire	= weapons\barj\barj_unjam
+
+;snd_shoot				= wpn_g3_snd_shoot
+;snd_shoot_actor			= wpn_g3_snd_shoot_actor
+snd_shoot				= wpn_sks_snd_shoot
+snd_shoot_actor			= wpn_sks_snd_shoot_actor
+snd_silncer_shot		= wpn_762_nato_snd_silenced
+snd_silncer_shot_actor	= wpn_762_nato_snd_silenced_actor
+
+scripted_snd_ammo_check					= weapons\barj\barj_magcheck
+scripted_snd_ammo_check_empty			= weapons\barj\barj_magcheck
+scripted_snd_ammo_check_jammed			= weapons\barj\barj_magcheck
+scripted_snd_ammo_check_empty_jammed	= weapons\barj\barj_magcheck
+;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
+[wpn_bar_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_bar_j\wpn_bar_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+aim_hud_offset_pos		= -0.06304, 0.023888, -0.050987
+aim_hud_offset_pos_16x9	= -0.06304, 0.023888, -0.050987
+aim_hud_offset_rot		= 0.013803, 0.010931, 0
+aim_hud_offset_rot_16x9	= 0.013803, 0.010931, 0
+
+hands_orientation		= 0.604157, 0.820341, 0
+hands_orientation_16x9	= 0.604157, 0.820341, 0
+hands_position			= -0.003727, -0.0022, -0.02176
+hands_position_16x9		= -0.003727, -0.0022, -0.02176
+
+lowered_hud_offset_pos		= 0.105791, -0.007886, 0
+lowered_hud_offset_pos_16x9	= 0.105791, -0.007886, 0
+lowered_hud_offset_rot		= 0.085492, -0.803676, 0.1
+lowered_hud_offset_rot_16x9	= 0.085492, -0.803676, 0.1
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+anm_hide							= barj_holster, idle
+anm_hide_empty						= barj_holster, idle_empty
+anm_idle							= barj_idle, idle
+anm_idle_empty						= barj_idle, idle_empty
+anm_idle_aim						= barj_idle_aim, idle
+anm_idle_aim_empty					= barj_idle_aim, idle_empty
+anm_idle_aim_moving					= barj_idle_aim, idle, 1.5
+anm_idle_aim_moving_empty			= barj_idle_aim, idle_empty, 1.5
+anm_idle_aim_moving_crouch			= barj_idle_aim, idle, 1.2
+anm_idle_aim_moving_empty_crouch	= barj_idle_aim, idle_empty, 1.2
+anm_idle_moving						= barj_walk, idle, 1.9
+anm_idle_moving_empty				= barj_walk, idle_empty, 1.9
+anm_idle_moving_crouch				= barj_walk, idle, 1.4
+anm_idle_moving_crouch_empty		= barj_walk, idle_empty, 1.4
+anm_idle_sprint						= barj_running, idle, 1.9
+anm_idle_sprint_empty				= barj_running, idle_empty, 1.9
+anm_reload							= barj_reload, reload
+anm_reload_empty					= barj_reload_empty, reload_empty
+anm_shots							= barj_shooting, shooting
+anm_shot_l							= barj_shooting, shooting_last
+anm_show							= barj_draw, idle
+anm_show_empty						= barj_draw, idle_empty
+anm_bore							= barj_inspect, idle
+anm_bore_empty						= barj_inspect, idle_empty
+anm_reload_misfire					= barj_unjam, unjam
+
+anm_idle_jammed					= barj_idle, idle_jammed
+anm_show_jammed					= barj_draw, idle_jammed
+anm_hide_jammed					= barj_holster, idle_jammed
+anm_idle_aim_jammed				= barj_idle_aim, idle_jammed
+anm_idle_sprint_jammed			= barj_running, idle_jammed, 1.9
+anm_idle_moving_jammed			= barj_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed	= barj_walk, idle_jammed, 1.5
+anm_bore_jammed					= barj_inspect, idle_jammed
+
+anm_ammo_check				= barj_magchecking, magcheck
+anm_ammo_check_empty		= barj_magchecking, magcheck_empty
+anm_ammo_check_jammed		= barj_magchecking, magcheck
+anm_ammo_check_empty_jammed	= barj_magchecking, magcheck_empty
+
+shell_point	= 0, 0, 0
+shell_dir	= 0,1,0
+shell_bone	= bolt
+
+fire_point	= 0,0,0
+fire_bone	= muzzle
+fire_point2	= 0,0,0
+fire_bone2	= muzzle
+
+grenade_bone	= muzzle

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="windows-1251"?>
 
 <!--
-	Weapons
--->
-
-<!--
 	Russian translation and text by Aonestr
 -->
 
@@ -104,24 +100,32 @@
 	</string>
 
 
-	<string id="st_mag_m1a1_11.43x23_fmj">
+	<string id="st_mag_m1a1_11.43x23_default">
 		<text>Коробчатый магазин M1A1 калибра .45 ACP</text>
 	</string>
-	<string id="st_mag_m1a1_11.43x23_fmj_descr">
+	<string id="st_mag_m1a1_11.43x23_default_descr">
 		<text>
             30-зарядный магазин для пистолета-пулуемета M1A1 "Томпсон".\n\n
 			%c[d_purple] • %c[ui_gray_2] Так-же подойдет для варианта 1921 года.
 		</text>
 	</string>
 
-	<string id="st_mag_1921_11.43x23_fmj">
+	<string id="st_mag_1921_11.43x23_default">
 		<text>Барабанный магазин для M1921 калибра .45 ACP</text>
 	</string>
-	<string id="st_mag_1921_11.43x23_fmj_descr">
+	<string id="st_mag_1921_11.43x23_default_descr">
 		<text>
             50-зарядный барабанный магазин для пистолета-пулемета M1921 "Томпсон" варианта 1921 года. \n\n
 			%c[d_purple] • %c[ui_gray_2] Не подойдет к M1A1, так как у них отличаются приёмники магазина.
 		</text>
+	</string>
+
+	<string id="st_mag_1921_11.43x23_extended">
+		<text>Extended Thompson Drum Magazine</text>
+	</string>
+	<string id="st_mag_1921_11.43x23_extended_descr">
+		<text>100-round Drum magazine used for the models 1921 and 1928 of the Thompson, chambered in .45 ACP.\n
+		%c[d_purple] • %c[ui_gray_2] Will not fit M1A1 variant, as its magwell is different.</text>
 	</string>
 
 </string_table>

@@ -14,10 +14,14 @@ Outfit Attachment Overhaul
 PDA Interactive
 
 -------------------------------------------------------
-- Patches:
+-Patches:
 
 Nav's Masks - DLTX patch fix
 DLTX conversion of the original patch included in ExoSEVAs.
+
+ExoSEVA Re-balance [Snarfl]
+Original mod not required.
+DLTX conversion, with minor fixes.
 
 ----------------------------------------------------------
 -Known issues:

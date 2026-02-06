@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 
 	<string id="st_military_sky_multi_outfit_name">
@@ -9,7 +10,7 @@
 	</string>
 	
 	<string id="st_dolg_heavy_ranger_outfit_name">
-		<text>PSZ-9v Ranger Armor</text>
+		<text>PSZ-9v "Ranger" Armor</text>
 	</string>
 	<string id="st_dolg_heavy_ranger_outfit_desc">
 		<text>%c[ui_gray_1]A suit consisting of PSZ-9 body armor, coupled with a body rig capable of holding 3 armor modules. This suit is used by Duty scouts expected to operate independently for long periods of time in the Zone. The ranger armor would normally be considered a downgrade to the PSZ-9d, as it lacks the customizability and upgradability of its predecessor, however a resourceful stalker can make up for it's deficiencies by making use of the extra modules.

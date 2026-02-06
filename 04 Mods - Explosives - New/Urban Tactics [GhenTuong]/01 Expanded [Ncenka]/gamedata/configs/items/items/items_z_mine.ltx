@@ -1,0 +1,590 @@
+[tripwire]:tch_junk
+kind					= i_misc
+visual				    = dynamics\equipments\trade\rope.ogf
+inv_name			    = st_tool_tripwire
+inv_name_short			= st_tool_tripwire
+description			    = st_tool_tripwire_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight		        = 0.3
+inv_grid_width		    = 1
+inv_grid_height		    = 1
+inv_grid_x		        = 2
+inv_grid_y		        = 1
+attach_angle_offset	    = 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name	    = bip01_l_hand
+cost			        = 500
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 2
+
+[tripwire_immunities]
+burn_immunity			= 0
+strike_immunity			= 0
+shock_immunity			= 0
+wound_immunity			= 0
+radiation_immunity		= 0
+telepatic_immunity		= 0
+chemical_burn_immunity	= 0
+explosion_immunity		= 10
+fire_wound_immunity		= 10
+
+[tool_tripwire_f1]:grenade_f1,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_f1
+inv_name_short			= st_tool_tripwire_f1
+description				= st_tool_tripwire_f1_desc
+
+inv_weight				= 0.9
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 3
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1900
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+[mine_tripwire_f1]
+GroupControlSection		= spawn_group
+class					= O_DSTR_S
+remove_time				= 0
+script_binding			= bind_mine.init
+visual					= dynamics\weapons\mine\mine_tripwire_f1.ogf
+immunities_sect			= tripwire_immunities
+fixed_bones				= link
+ignore_collision		= map
+is_ai_obstacle			= false
+on_physic_contact		= bind_mine.on_physic_contact
+
+mine_explosive_section	= mine_tripwire_f1_explosive
+mine_defuse_use			= true
+
+[mine_tripwire_f1_explosive]:explosive_barrel,delayed_action_fuse,grenade_f1
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_f1
+inv_name_short			= st_tool_tripwire_f1
+description				= st_tool_tripwire_f1_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 3
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_rgd5]:grenade_rgd5,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_rgd5
+inv_name_short			= st_tool_tripwire_rgd5
+description				= st_tool_tripwire_rgd5_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.61
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 4
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1550
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+[mine_tripwire_rgd5]:mine_tripwire_f1
+script_binding			= bind_mine_rgd5.init
+on_physic_contact		= bind_mine_rgd5.on_physic_contact
+mine_explosive_section	= mine_tripwire_rgd5_explosive
+
+[mine_tripwire_rgd5_explosive]:explosive_barrel,delayed_action_fuse,grenade_rgd5
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_rgd5.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_rgd5
+inv_name_short			= st_tool_tripwire_rgd5
+description				= st_tool_tripwire_rgd5_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 4
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_gd05]:grenade_gd-05,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_gd-05
+inv_name_short			= st_tool_tripwire_gd-05
+description				= st_tool_tripwire_gd-05_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.5
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 5
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1789
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_gd05]:mine_tripwire_f1
+script_binding			= bind_mine_gd05.init
+on_physic_contact		= bind_mine_gd05.on_physic_contact
+mine_explosive_section	= mine_tripwire_gd05_explosive
+
+
+[mine_tripwire_gd05_explosive]:explosive_barrel,delayed_action_fuse,grenade_gd-05
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_gd05.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_gd-05
+inv_name_short			= st_tool_tripwire_gd-05
+description				= st_tool_tripwire_gd-05_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 5
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_explosive_charge]:grenade_explosive_charge,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_explosive_charge
+inv_name_short			= st_tool_tripwire_explosive_charge
+description				= st_tool_tripwire_explosive_charge_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.9
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 8
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 2500
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_explosive_charge]:mine_tripwire_f1
+script_binding			= bind_mine_explosive_charge.init
+on_physic_contact		= bind_mine_explosive_charge.on_physic_contact
+mine_explosive_section	= mine_tripwire_explosive_charge_explosive
+
+
+[mine_tripwire_explosive_charge_explosive]:explosive_barrel,delayed_action_fuse,grenade_explosive_charge
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_explosive_charge.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_explosive_charge
+inv_name_short			= st_tool_tripwire_explosive_charge
+description				= st_tool_tripwire_explosive_charge_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 8
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_vog25]:ammo_vog-25,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_vog-25
+inv_name_short			= st_tool_tripwire_vog-25
+description				= st_tool_tripwire_vog-25_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.56
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 3
+inv_grid_y				= 1
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 2180
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_vog25]:mine_tripwire_f1
+script_binding			= bind_mine_vog25.init
+on_physic_contact		= bind_mine_vog25.on_physic_contact
+mine_explosive_section	= mine_tripwire_vog25_explosive
+
+
+[mine_tripwire_vog25_explosive]:explosive_barrel,delayed_action_fuse,ammo_vog-25
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_vog25.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_vog-25
+inv_name_short			= st_tool_tripwire_vog-25
+description				= st_tool_tripwire_vog-25_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 3
+inv_grid_y				= 1
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_m209]:ammo_m209,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_m209
+inv_name_short			= st_tool_tripwire_m209
+description				= st_tool_tripwire_m209_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.5
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 4
+inv_grid_y				= 1
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 2264
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_m209]:mine_tripwire_f1
+script_binding			= bind_mine_m209.init
+on_physic_contact		= bind_mine_m209.on_physic_contact
+mine_explosive_section	= mine_tripwire_m209_explosive
+
+
+[mine_tripwire_m209_explosive]:explosive_barrel,delayed_action_fuse,ammo_m209
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_m209.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_m209
+inv_name_short			= st_tool_tripwire_m209
+description				= st_tool_tripwire_m209_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 4
+inv_grid_y				= 1
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_og7b]:ammo_og-7b,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_og7b
+inv_name_short			= st_tool_tripwire_og7b
+description				= st_tool_tripwire_og7b_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 2.26
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 9
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 2490
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_og7b]:mine_tripwire_f1
+script_binding			= bind_mine_og7b.init
+on_physic_contact		= bind_mine_og7b.on_physic_contact
+
+mine_explosive_section	= mine_tripwire_og7b_explosive
+
+
+[mine_tripwire_og7b_explosive]:explosive_barrel,delayed_action_fuse,ammo_og-7b
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_og7b.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_og7b
+inv_name_short			= st_tool_tripwire_og7b
+description				= st_tool_tripwire_og7b_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 2
+inv_grid_x				= 9
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_m18]:grenade_m18,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_m18
+inv_name_short			= st_tool_tripwire_m18
+description				= st_tool_tripwire_m18_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.84
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1000
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_m18]:mine_tripwire_f1
+script_binding			= bind_mine_m18.init
+on_physic_contact		= bind_mine_m18.on_physic_contact
+mine_explosive_section	= mine_tripwire_m18_explosive
+
+
+[mine_tripwire_m18_explosive]:explosive_barrel,delayed_action_fuse,grenade_m18
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_m18.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_m18
+inv_name_short			= st_tool_tripwire_m18
+description				= st_tool_tripwire_m18_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_rdg2]:grenade_rdg2,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_rdg2
+inv_name_short			= st_tool_tripwire_rdg2
+description				= st_tool_tripwire_rdg2_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.8
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 7
+inv_grid_y				= 0
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 800
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_rdg2]:mine_tripwire_f1
+script_binding			= bind_mine_rdg2.init
+on_physic_contact		= bind_mine_rdg2.on_physic_contact
+mine_explosive_section	= mine_tripwire_rdg2_explosive
+
+
+[mine_tripwire_rdg2_explosive]:explosive_barrel,delayed_action_fuse,grenade_rdg2
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_rdg2.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_rdg2
+inv_name_short			= st_tool_tripwire_rdg2
+description				= st_tool_tripwire_rdg2_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 7
+inv_grid_y				= 0
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_vgop]:wpn_fake_missile_flare_vgop,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_vgop
+inv_name_short			= st_tool_tripwire_vgop
+description				= st_tool_tripwire_vgop_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.56
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 5
+inv_grid_y				= 1
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1000
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_vgop]:mine_tripwire_f1
+script_binding			= bind_mine_vgop.init
+on_physic_contact		= bind_mine_vgop.on_physic_contact
+mine_explosive_section	= mine_tripwire_vgop_explosive
+
+
+[mine_tripwire_vgop_explosive]:explosive_barrel,delayed_action_fuse,wpn_fake_missile_flare_vgop
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_vgop.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_vgop
+inv_name_short			= st_tool_tripwire_vgop
+description				= st_tool_tripwire_vgop_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 5
+inv_grid_y				= 1
+inv_weight				= 0
+can_take				= false
+cost					= 0
+
+[tool_tripwire_m662]:wpn_fake_missile_flare_m662,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_m662
+inv_name_short			= st_tool_tripwire_m662
+description				= st_tool_tripwire_m662_desc
+
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_weight				= 0.5
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6
+inv_grid_y				= 1
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1000
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+
+[mine_tripwire_m662]:mine_tripwire_f1
+script_binding			= bind_mine_m662.init
+on_physic_contact		= bind_mine_m662.on_physic_contact
+mine_explosive_section	= mine_tripwire_m662_explosive
+
+
+[mine_tripwire_m662_explosive]:explosive_barrel,delayed_action_fuse,wpn_fake_missile_flare_m662
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine_m662.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_m662
+inv_name_short			= st_tool_tripwire_m662
+description				= st_tool_tripwire_m662_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 6
+inv_grid_y				= 1
+inv_weight				= 0
+can_take				= false
+cost					= 0

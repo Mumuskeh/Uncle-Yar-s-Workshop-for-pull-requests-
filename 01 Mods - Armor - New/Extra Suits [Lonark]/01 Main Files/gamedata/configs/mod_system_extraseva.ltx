@@ -623,20 +623,13 @@ elements	= up_fifthc_bextraexoseva_1
 [up_gr_fifthef_bextraexoseva_1]
 elements	= up_fifthe_bextraexoseva_1
 
-
-
-
 [cs_extraexoseva_outfit]:cs_exolight_outfit,outfit_restrictions_2
 $spawn							= "outfit\cs_extraexoseva_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\cs_exo_outfit.ogf
 actor_visual					= actors\stalker_nebo\stalker_cs_extraexoseva.ogf
 npc_visual						= actors\stalker_nebo\stalker_cs_extraexoseva.ogf
 player_hud_section				= actor_hud_loner_seva
 character_portrait				= ui_inGame2_csky_nauchniy
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= cs_extraexoseva_outfit_name
 inv_name_short					= cs_extraexoseva_outfit_name
@@ -650,58 +643,42 @@ upgr_icon_y						= 665
 upgr_icon_width					= 300
 upgr_icon_height				= 140
 upgrades						= up_gr_firstab_extraexoseva_1, up_gr_seconab_extraexoseva_1, up_gr_thirdab_extraexoseva_1, up_gr_fourtab_extraexoseva_1, up_gr_fifthab_extraexoseva_1
-installed_upgrades				=
 upgrade_scheme					= up_scheme_exo_1
 
-community						= csky
-kind							= o_heavy
 cost							= 400000
 inv_weight						= 35
 additional_inventory_weight		= 110
 additional_inventory_weight2	= 110
-artefact_count					= 2
 immunities_sect					= sect_extraexoseva_outfit_immunities
 repair_type						= outfit_exo
 ;repair_part_bonus				= 0.45
 hit_fraction_actor				= 0.2
 bones_koeff_protection			= actor_armor_exo
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.23
 shock_protection				= 2
 radiation_protection			= 0.046
 chemical_burn_protection		= 0.113
 telepatic_protection			= 0.15
-strike_protection				= 0.5
 explosion_protection			= 0.85
-wound_protection				= 0.64
-fire_wound_protection			= 0.48
 
 [sect_extraexoseva_outfit_immunities]
 burn_immunity					= 0.04
 chemical_burn_immunity			= 0.016
 explosion_immunity				= 0.07
 fire_wound_immunity				= 0.007
-radiation_immunity				= 0.0
 shock_immunity					= 0.018
-strike_immunity					= 0
-telepatic_immunity				= 0.0
 wound_immunity					= 0.005
 
 ;--------------------------------------------------------------------------
 
 [bandit_extraexoseva_outfit]:bandit_exolight_outfit,outfit_restrictions_2
 $spawn							= "outfit\bandit_extraexoseva_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\bandit_exo_outfit.ogf
 actor_visual					= actors\stalker_bandit\stalker_bandit_extraexoseva.ogf
 npc_visual						= actors\stalker_bandit\stalker_bandit_extraexoseva.ogf
 player_hud_section				= actor_hud_loner_seva
 character_portrait				= ui_inGame2_neutral_nauchniy
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= bandit_extraexoseva_outfit_name
 inv_name_short					= bandit_extraexoseva_outfit_name
@@ -715,11 +692,8 @@ upgr_icon_y						= 520
 upgr_icon_width					= 307
 upgr_icon_height				= 165
 upgrades						= up_gr_firstab_extraexoseva_1, up_gr_seconab_extraexoseva_1, up_gr_thirdab_extraexoseva_1, up_gr_fourtab_bextraexoseva_1, up_gr_fifthab_bextraexoseva_1
-installed_upgrades				=
 upgrade_scheme					= up_scheme_exo_1
 
-community						= bandit
-kind							= o_heavy
 cost							= 400000
 inv_weight						= 50
 additional_inventory_weight		= 110
@@ -730,32 +704,23 @@ repair_type						= outfit_exo
 ;repair_part_bonus				= 0.45
 hit_fraction_actor				= 0.2
 bones_koeff_protection			= actor_armor_bandit_exo
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.55
 shock_protection				= 0.7
 radiation_protection			= 0.032
 chemical_burn_protection		= 0.13
 telepatic_protection			= 0.1
-strike_protection				= 0.55
 explosion_protection			= 0.85
-wound_protection				= 0.64
-fire_wound_protection			= 0.58
 
 ;--------------------------------------------------------------------------
 
-[greh_extraexoseva_outfit]:dolg_exolight_outfit,outfit_restrictions_2
+[greh_extraexoseva_outfit]:exolight_outfit,outfit_restrictions_2
 $spawn							= "outfit\greh_extraexoseva_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\dolg_exo_outfit.ogf
 actor_visual					= actors\stalker_greh\stalker_greh_extraexoseva.ogf
 npc_visual						= actors\stalker_greh\stalker_greh_extraexoseva.ogf
 player_hud_section				= actor_hud_loner_seva
 character_portrait				= ui_inGame2_neutral_nauchniy
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= greh_extraexoseva_outfit_name
 inv_name_short					= greh_extraexoseva_outfit_name
@@ -769,11 +734,9 @@ upgr_icon_y						= 672
 upgr_icon_width					= 305
 upgr_icon_height				= 146
 upgrades						= up_gr_firstab_extraexoseva_1, up_gr_seconab_extraexoseva_1, up_gr_thirdab_extraexoseva_1, up_gr_fourtab_extraexoseva_1, up_gr_fifthab_bextraexoseva_1
-installed_upgrades				=
 upgrade_scheme					= up_scheme_exo_1
 
 community						= greh
-kind							= o_heavy
 cost							= 400000
 inv_weight						= 50
 additional_inventory_weight		= 110
@@ -784,8 +747,6 @@ repair_type						= outfit_exo
 ;repair_part_bonus				= 0.45
 hit_fraction_actor				= 0.2
 bones_koeff_protection			= actor_armor_exo
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.35
 shock_protection				= 0.9
@@ -801,15 +762,11 @@ fire_wound_protection			= 0.6
 
 [renegade_extraexoseva_outfit]:bandit_exolight_outfit,outfit_restrictions_2
 $spawn							= "outfit\renegade_extraexoseva_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\rn_exo_outfit.ogf
 actor_visual					= actors\stalker_renegade\stalker_renegade_extraexoseva.ogf
 npc_visual						= actors\stalker_renegade\stalker_renegade_extraexoseva.ogf
 player_hud_section				= actor_hud_loner_seva
 character_portrait				= ui_inGame2_neutral_nauchniy
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= renegade_extraexoseva_outfit_name
 inv_name_short					= renegade_extraexoseva_outfit_name
@@ -827,7 +784,6 @@ installed_upgrades				=
 upgrade_scheme					= up_scheme_exo_1
 
 community						= renegade
-kind							= o_heavy
 cost							= 400000
 inv_weight						= 50
 additional_inventory_weight		= 110
@@ -838,8 +794,6 @@ repair_type						= outfit_exo
 ;repair_part_bonus				= 0.45
 hit_fraction_actor				= 0.2
 bones_koeff_protection			= actor_armor_exo
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.3
 shock_protection				= 1.37
@@ -848,24 +802,16 @@ chemical_burn_protection		= 0.13
 telepatic_protection			= 0.1
 strike_protection				= 0.5
 explosion_protection			= 0.85
-wound_protection				= 0.64
 fire_wound_protection			= 0.48
 
 ;--------------------------------------------------------------------------
-
 ;--------------------------------------------------------------------------
 
-[bandit_extraexolight_outfit]:outfit_base,outfit_restrictions_1
+[bandit_extraexolight_outfit]:bandit_exolight_outfit
 $spawn							= "outfit\bandit_extraexolight_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\exolight_outfit
 actor_visual					= actors\stalker_bandit\stalker_bandit_extraexolight.ogf
 npc_visual						= actors\stalker_bandit\stalker_bandit_extralexolight.ogf
-player_hud_section				= actor_hud_bandit_exolight
-character_portrait				= ui_inGame2_bandit_exo
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= bandit_extraexolight_outfit_name
 inv_name_short					= bandit_extraexolight_outfit_name
@@ -878,59 +824,25 @@ upgr_icon_x						= 325
 upgr_icon_y						= 525
 upgr_icon_width					= 300
 upgr_icon_height				= 135
-upgrades						= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
-installed_upgrades				=
-upgrade_scheme					= up_scheme_exolight_1
 
-community						= bandit
-kind							= o_heavy
-cost							= 83180
-inv_weight						= 20
-additional_inventory_weight		= 20
-additional_inventory_weight2	= 20
-artefact_count					= 1
 immunities_sect					= sect_bandit_extraexolight_outfit_immunities
-repair_type						= outfit_heavy
-;repair_part_bonus				= 0.38
-hit_fraction_actor				= 0.25
-bones_koeff_protection			= actor_armor_radiation
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
-burn_protection					= 0.4
-shock_protection				= 0.6
-radiation_protection			= 0.0295
-chemical_burn_protection		= 0.022
-telepatic_protection			= 0.07
-strike_protection				= 0.55
-explosion_protection			= 0.75
-wound_protection				= 0.64
-fire_wound_protection			= 0.58
-
-[sect_bandit_extraexolight_outfit_immunities]
+[sect_bandit_extraexolight_outfit_immunities]:sect_bandit_exolight_outfit_immunities
 burn_immunity					= 0.04
 chemical_burn_immunity			= 0.016
 explosion_immunity				= 0.07
 fire_wound_immunity				= 0.07
-radiation_immunity				= 0.0
 shock_immunity					= 0.018
-strike_immunity					= 0
-telepatic_immunity				= 0.0
 wound_immunity					= 0.005
 
 ;--------------------------------------------------------------------------
 
-[greh_extraexolight_outfit]:outfit_base,outfit_restrictions_1
+[greh_extraexolight_outfit]:exolight_outfit
 $spawn							= "outfit\greh_extraexolight_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\exolight_outfit
 actor_visual					= actors\stalker_greh\stalker_greh_extraexolight.ogf
 npc_visual						= actors\stalker_greh\stalker_greh_extraexolight.ogf
 player_hud_section				= actor_hud_military_exo
-character_portrait				= ui_inGame2_neutral_4
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= greh_extraexolight_outfit_name
 inv_name_short					= greh_extraexolight_outfit_name
@@ -943,49 +855,29 @@ upgr_icon_x						= 325
 upgr_icon_y						= 670
 upgr_icon_width					= 300
 upgr_icon_height				= 125
-upgrades						= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
-installed_upgrades				=
-upgrade_scheme					= up_scheme_exolight_1
 
 community						= greh
-kind							= o_heavy
 cost							= 83180
 inv_weight						= 20
 additional_inventory_weight		= 20
 additional_inventory_weight2	= 20
-artefact_count					= 1
 immunities_sect					= sect_bandit_extraexolight_outfit_immunities
-repair_type						= outfit_heavy
-;repair_part_bonus				= 0.38
-hit_fraction_actor				= 0.25
-bones_koeff_protection			= actor_armor_radiation
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.075
 shock_protection				= 0.85
 radiation_protection			= 0.0295
 chemical_burn_protection		= 0.052
-telepatic_protection			= 0.06
 strike_protection				= 0.60
 explosion_protection			= 0.73
 wound_protection				= 0.66
-fire_wound_protection			= 0.58
-
 
 ;--------------------------------------------------------------------------
 
-[renegade_extraexolight_outfit]:outfit_base,outfit_restrictions_1
+[renegade_extraexolight_outfit]:bandit_exolight_outfit
 $spawn							= "outfit\renegade_extraexolight_outfit"
-class							= E_STLK
-ef_equipment_type				= 5
 visual							= dynamics\outfit\exolight_outfit
 actor_visual					= actors\stalker_renegade\stalker_renegade_extraexolight.ogf
 npc_visual						= actors\stalker_renegade\stalker_renegade_extraexolight.ogf
-player_hud_section				= actor_hud_bandit_exolight
-character_portrait				= ui_inGame2_bandit_exo
-full_icon_name					= npc_icon_exo_outfit
-full_scale_icon					= 2, 11
 
 inv_name						= renegade_extraexolight_outfit_name
 inv_name_short					= renegade_extraexolight_outfit_name
@@ -993,57 +885,29 @@ description						= renegade_extraexolight_outfit_description
 icons_texture					= ui\ui_extrasuit_icons	
 inv_grid_x						= 0
 inv_grid_y						= 6	
-upgr_icon_path					= ui\ui_extrasuit_icons		
+upgr_icon_path					= ui\ui_extrasuit_icons
 upgr_icon_x						= 330
 upgr_icon_y						= 810
 upgr_icon_width					= 300
 upgr_icon_height				= 125
-upgrades						= up_gr_firstab_exolight_1, up_gr_seconab_exolight_1, up_gr_thirdab_exolight_1, up_gr_fourtab_exolight_1
-installed_upgrades				=
-upgrade_scheme					= up_scheme_exolight_1
 
 community						= renegade
-kind							= o_heavy
-cost							= 83180
-inv_weight						= 20
-additional_inventory_weight		= 20
-additional_inventory_weight2	= 20
-artefact_count					= 1
 immunities_sect					= sect_bandit_extraexolight_outfit_immunities
-repair_type						= outfit_heavy
-;repair_part_bonus				= 0.38
-hit_fraction_actor				= 0.25
-bones_koeff_protection			= actor_armor_radiation
-control_inertion_factor			= 1.76
-power_loss						= 0.1
 
 burn_protection					= 0.07
 shock_protection				= 1.1
-radiation_protection			= 0.0295
 chemical_burn_protection		= 0.048
 telepatic_protection			= 0.06
 strike_protection				= 0.5
-explosion_protection			= 0.75
-wound_protection				= 0.64
 fire_wound_protection			= 0.48
 
-
+;--------------------------------------------------------------------------
 ;--------------------------------------------------------------------------
 
-
-;--------------------------------------------------------------------------
-
-[greh_extrascientific_light_outfit]:outfit_base,outfit_restrictions_1
+[greh_extrascientific_light_outfit]:monolith_scientific_light_outfit
 $spawn							= "outfit\greh_extrascientific_light_outfit"
-class							= EQU_STLK
-ef_equipment_type				= 2
-visual							= dynamics\outfit\scientific_outfit
 actor_visual					= actors\stalker_greh\stalker_greh_extraseva.ogf
 npc_visual						= actors\stalker_greh\stalker_greh_extraseva.ogf
-player_hud_section				= actor_hud_loner_seva
-character_portrait				= ui_inGame2_neutral_nauchniy
-full_icon_name					= npc_icon_scientific_outfit
-full_scale_icon					= 12, 11
 
 inv_name						= greh_extrascientific_light_outfit_name
 inv_name_short					= greh_extrascientific_light_outfit_name
@@ -1056,44 +920,13 @@ upgr_icon_x						= 620
 upgr_icon_y						= 515
 upgr_icon_width					= 300
 upgr_icon_height				= 140
-upgrades						= up_gr_firstab_seva_1, up_gr_seconab_seva_1, up_gr_thirdab_seva_1, up_gr_fourtab_seva_1
-installed_upgrades				=
-upgrade_scheme					= up_scheme_seva_1
 
 community						= greh
-kind							= o_sci
-cost							= 85000
-inv_weight						= 9.1
-additional_inventory_weight		= 22
-additional_inventory_weight2	= 22
-artefact_count					= 3
-immunities_sect					= sect_greh_extrascientific_light_outfit_immunities
-repair_type						= outfit_medium
-;repair_part_bonus				= 0.44
-hit_fraction_actor				= 0.5
-bones_koeff_protection			= actor_armor_class2
-control_inertion_factor			= 1.42
-power_loss						= 0.05
 
 burn_protection					= 0.32
 shock_protection				= 0.9
-radiation_protection			= 0.031
 chemical_burn_protection		= 0.15
-telepatic_protection			= 0.1
 strike_protection				= 0.32
-explosion_protection			= 0.2
 wound_protection				= 0.32
-fire_wound_protection			= 0.29
-
-[sect_greh_extrascientific_light_outfit_immunities]
-burn_immunity					= 0.025
-chemical_burn_immunity			= 0.0025
-explosion_immunity				= 0.1
-fire_wound_immunity				= 0.04
-radiation_immunity				= 0.0
-shock_immunity					= 0.03
-strike_immunity					= 0.01
-telepatic_immunity				= 0.0
-wound_immunity					= 0.05
 
 ;--------------------------------------------------------------------------

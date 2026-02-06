@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Military Suits-->
+	
+	<string id="military_scout_outfit_name">
+		<text>Berill-L Armoured Suit</text>
+	</string>
+	<string id="military_scout_outfit_description">
+		<text>%c[ui_gray_1]An 'in-between' of the military service outfit and the Berill-5M, this suit features additional pockets and more armour plates compared to the usual conscript service outfit. While leagues behind the Berill-5M, it provides adequate protection for the zone, while being decently comfortable to boot. Typically found on Military scouts and rearguard units.\n \n
+		</text>
+	</string>
+	
+	<string id="military_lc_outfit_name">
+		<text>Military LC Suit</text>
+	</string>
+	<string id="military_lc_outfit_description">
+		<text>%c[ui_gray_1]While rare, mercenaries are occasionally contracted by the ukrainian military to further bolster reserves within the zone. this suit, which is almost exclusively worn by military mercenaries, features beryllium sputters and additional armour plates; which while greatly improving strike and splinter protection, unfortunately makes the suit very uncomfortable to wear. utterly inadequate against any anomalies.\n \n
+		</text>
+	</string>
+	
+	<string id="military_berillnew_outfit_name">
+		<text>Military Berill-6M Body Armour</text>
+	</string>
+	
+	<string id="military_berillnew_outfit_description">
+		<text>%c[ui_gray_1]the next generation of the Berill series, this armour has been designed and specially made by one of Kiev's defence research institutes with the zone's conditions in mind. Featuring plexiglass and rubberized lining, an anomalous protection bodysuit, heavy duty non-conductive armour plates and a sophisticated frontal weight distribution system, this armour offers great protection for even protracted battles within the zone. unfortunately due to it's cost and relative new-ness, the armour is a rare sight on even high-ranking personnel. Despite this, the armour somehow has made it's way to other factions despite very tight protocols to prevent so.\n \n
+		</text>
+	</string>
+
+	<string id="military_sunrise_outfit_name">
+		<text>Military Stalker Suit</text>
+	</string>
+	
+	<string id="military_sunrise_outfit_description">
+		<text>%c[ui_gray_1]frequently based off the Sunrise suit, this suit has been modified by the stalkers who are contracted by the military as operatives within the zone. features better ballistic and splinter protection compared to a standard stalker suit, at the cost of weight and conductivity due to the heavier plates used within the suit.\n \n
+		</text>
+	</string>
+	
+	<string id="military_berillheavy_outfit_name">
+		<text>Military Berill-5X Heavy Body Armour</text>
+	</string>
+	
+	<string id="military_berillheavy_outfit_description">
+		<text>%c[ui_gray_1]A special heavy version of the Berill series of armour, designed for heavy combat and stealth operations. features a reinforced armoured vest, a rubberized undersuit with beryllium sputters, and a frontal mounted weight distribution system. because of this, the armour boasts fantastic combat protection, particularly against splinter and ballistic threats, while being able to withstand and move through anomaly fields unhindered. the one downside, other than it's price tag, is it's sheer weight.\n \n
+		</text>
+	</string>
+	
+	
+</string_table>

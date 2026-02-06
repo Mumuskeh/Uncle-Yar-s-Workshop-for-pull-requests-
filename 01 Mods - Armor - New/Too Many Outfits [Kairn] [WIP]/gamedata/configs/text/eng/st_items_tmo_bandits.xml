@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Bandit Suits-->
+	
+	<string id="bandit_jacketlcs_outfit_name">
+		<text>Bandit LC Suit</text>
+	</string>
+	<string id="bandit_jacketlcs_outfit_description">
+		<text>%c[ui_gray_1]A western armoured vest over a jacket. while it obviously provides significantly more ballistic and combat protection than a bandit jacket by itself, that really isnt say much; and on top of that it's unfortunately very uncomfortable to wear.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_lcz_outfit_name">
+		<text>'Dusk' LC Suit</text>
+	</string>
+	<string id="bandit_lcz_outfit_description">
+		<text>%c[ui_gray_1]A Western light combat suit found on mercenaries interested in the more illicit dealings and greater freedom offered by the Bandits. the suit has been modified to be more comfortable to wear while sporting overall improved environmental protection compared to the standard LC suit.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_nosorog_outfit_name">
+		<text>Bandit Nosorog</text>
+	</string>
+	<string id="bandit_nosorog_outfit_description">
+		<text>%c[ui_gray_1]A next generation exoskeleton, consisting of a doubly reinforced exosuit and an armoured Czech-M10 gas mask. This suit is rumoured to have been the brainchild of a now deceased stalker named "Fang", whose designs were later claimed by all sorts of powerful factions across the Zone. If regular exoskeletons allow stalkers to feel like a light vehicle, the Nosorog almost makes them believe they're a main battle tank, able to withstand incredible punishment while carrying tremendous ordnance. Typically only available to the most powerful of Bandit warlords.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_trenchcoat_outfit_name">
+		<text>Bandit Trenchcoat</text>
+	</string>
+	<string id="bandit_trenchcoat_outfit_description">
+		<text>%c[ui_gray_1]A long, thick overcoat worn over (or under) a non-descript armoured suit. while it provides much better combat protection than a basic overcoat, it's quite heavy and has abysmal anomalous protection.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_ecosts_outfit_name">
+		<text>"Daylight" Special Tactical Suit</text>
+	</string>
+	<string id="bandit_ecosts_outfit_description">
+		<text>%c[ui_gray_1]A Zone-assembled suit, made by local craftsmen as a matter of survival. Designed for shake-downs where speed and stealth is imperative, this suit boasts good environmental protection on top of being light; allowing cunning bandits to move through anomaly and radiation fields undetected. unfortunately, this comes at the cost of combat protection, as the suit was designed more for intimidation and shock tactics rather than actual protracted battles.\n \n
+		</text>
+	</string>
+	
+	<string id="bandit_skatseva_outfit_name">
+		<text>Bandit Skat-8 Armoured Closed-Cycle Bodysuit</text>
+	</string>
+	<string id="bandit_skatseva_outfit_description">
+		<text>%c[ui_gray_1]Based off the Skat SEVA, this suit features excellent ballistic protection combined with great anomalous defence. built and designed by expert craftsmen, this suit features a PSZ-10 heavy military armoured suit, a handcrafted closed-cycle apparatus, and a plexiglass lined undersuit. While very heavy and quite uncomfortable, the large amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. Used by some of the most powerful bandit warlords in the zone.\n \n
+		</text>
+	</string>
+	
+</string_table>

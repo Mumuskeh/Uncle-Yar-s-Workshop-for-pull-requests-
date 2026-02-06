@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Mercenary Suits-->
+	
+	<string id="merc_icelc_outfit_name">
+		<text>LCe Suit</text>
+	</string>
+	<string id="merc_icelc_outfit_description">
+		<text>%c[ui_gray_1]Jokingly referred to as the 'Ice' suit, this western light combat suit has been modified by mercenary craftsmen to operate in wetland environments such as the Great Swamp. While a bit heavy, the suit features large front pouches, lighter armour plates, and chemical protective lining. used mostly in the south, it does occasionally find it's way into the mercenaries' hands stationed at Zaton and beyond.\n \n
+		</text>
+	</string>
+
+	<string id="merc_heavylc_outfit_name">
+		<text>HC Body Armour</text>
+	</string>
+	<string id="merc_heavylc_outfit_description">
+		<text>%c[ui_gray_1]A Heavy Combat Suit, commissioned by mercenaries specially for combat in the zone. featuring a tactical rig, a heavy ballistic bodysuit, and an impact-compensation vest, this armour boasts great overall combat protection. unfortunately, this suit sacrifices anomalous protection, especially radiation protection, to maintain a relative light-weight and comfortability.\n \n
+		</text>
+	</string>
+
+	<string id="merc_tyrantexo_outfit_name">
+		<text>LC-T Exoskeleton</text>
+	</string>
+	<string id="merc_tyrantexo_outfit_description">
+		<text>%c[ui_gray_1]referred to by mercenaries as the 'Tyrant', this experimental light combat suit has been specially modified to accommodate a next-generation exoskeleton. while the suit itself is unusually well protected for it's weight, the technology on it is even more special. Besides the exoskeleton, the suit is also equiped with a psy protection device, anti-conductivity plating, and a thermal regulation device; making the suit well protected against both anomalous and combat threats, on top of being light and able to carry an enormous amount of items.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_elite_exo_outfit_name">
+		<text>Mercenary Commando Exoskeleton</text>
+	</string>
+	<string id="merc_elite_exo_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified exoskeleton, designed and built by expert mercenary craftsmen from the ground up. pratically a work of art, this exoskeleton is meant for nighttime operations in the deadliest parts of the zone. Who ever made this evidently put an enormous amount of work and time into it, as it features next-generation servos, a weight distribution system, built-in temperature regulator, anti-conductivity regulator, anti-psy grills, improved filtering system, and an inbuilt tactical rig. it's insane quality is only matched by it's mindboggling price and rarity.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_corundum_outfit_name">
+		<text>Mercenary Corundum Body Armour</text>
+	</string>
+	<string id="merc_corundum_outfit_description">
+		<text>%c[ui_gray_1]imported from western suppliers and further modified by mercenary craftsmen, this suit represents the best combat protection short of exosuits you can get in the zone. features a lightweight ballistic helmet, additional armour panels, a heavily armoured vest, and an anomalous protection bodysuit. while heavy, this armour boasts excellent splinter, shrapnel, and ballistic protection while also having decent protection from anomalous threats; thanks in large part to it's bodysuit. decently rare, this armour is only found on mercenaries on the most dangerous of missions.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_exolightseva_outfit_name">
+		<text>Mercenary Exosuit SEVA</text>
+	</string>
+	
+	<string id="merc_exolightseva_outfit_description">
+		<text>%c[ui_gray_1]An experimental combination of both an Exosuit and a SEVA closed-cycle system, this armour seeks to combine the best of both suit types. boasts great anomalous and combat protection, with it's main downside, the suits weight, being the only thing really taking away from the it's appeal. used by mercenaries primarily operating in Zaton and beyond.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_berillnew_outfit_name">
+		<text>Mercenary Berill-6M Body Armour</text>
+	</string>
+	<string id="merc_berillnew_outfit_description">
+		<text>%c[ui_gray_1]the next generation of the Berill series, this armour has been designed and specially made by one of Kiev's defence research institutes with the zone's conditions in mind. Featuring plexiglass and rubberized lining, an anomalous protection bodysuit, heavy duty non-conductive armour plates and a sophisticated frontal weight distribution system, this armour offers great protection for even protracted battles within the zone. unfortunately due to it's cost and relative new-ness, the armour is a rare sight on even high-ranking personnel. Despite this, the armour somehow has made it's way to other factions despite very tight protocols to prevent so.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_skatseva_outfit_name">
+		<text>Mercenary Skat-9M SEVA</text>
+	</string>
+	<string id="merc_skatseva_outfit_description">
+		<text>%c[ui_gray_1]One of the most advanced and protective suits in the Zone, this suit features some of the best ballistic protection the mercenaries have to offer combined with fantastic anomalous defence. commissioned, built and designed by one of Kiev's defence research institutes, this suit combines the PSZ-14Ra heavy military body armour, a specially treated rubberized outer shell, heat-regulation system, psy grills, anti-conductivity defence system, and a built-in anomalous protection undersuit. While heavy and quite uncomfortable, the sheer amount of protection and versatility this suit offers makes it more than worth it's enormous price tag. almost exclusively used by the wealthiest mercenaries within the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_mtc_outfit_name">
+		<text>Mercenary MTC Suit</text>
+	</string>
+	<string id="merc_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been made by the mercenaries with the environment of the zone in mind. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after, and is fairly expensive. occasionally sold to bidders outside the faction.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_obj77_exo_outfit_name">
+		<text>Mercenary Object 77 Exoskeleton</text>
+	</string>
+	
+	<string id="merc_obj77_exo_outfit_description">
+		<text>%c[ui_gray_1]an unusual exoskeleton, that while almost exclusively used by monolithians, has made it's way into the mercenaries hands; likely looted from battles within Limansk and beyond. theorized to be an experimental exoskeleton made by the monolith themselves, this armour features an exoskeleton with utterly alien servos, an unusually light but well protecting armoured vest, an intergrated object 77 gas mask, and what seems to be an enviromental jumpsuit based on the X-18 suit. compared to a standard exoskeleton, this suit boasts better enviromental protection, more efficient servos, and is lighter overall; with it's main drawback being worse combat protection.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_csky_outfit_name">
+		<text>TLR Armour</text>
+	</string>
+	<string id="merc_csky_outfit_description">
+		<text>%c[ui_gray_1]using clear sky researcher outfits as a basis, this Tactical Light Recon armour is excellent for any missions requiring lightweight and speed above all else. while having relatively poor ballistic protection, it more than makes up for it with it's light weight, good environmental protection, and weight distribution system. While excellent for scouting in the southern parts of the zone, it's heavily advised to avoid taking this suit anywhere near north or in active combat zones.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_lightsts_outfit_name">
+		<text>SLT Suit</text>
+	</string>
+	<string id="merc_lightsts_outfit_description">
+		<text>%c[ui_gray_1]A special light tactical suit, created by mercenary craftsmen to armour scouts and recon units. while having poor combat and enviromental protection (save for it's radiological resistance), this suit is extremely comfortable and features a small, albeit sophisticated weight distribution system.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_lightlc_outfit_name">
+		<text>TLC Suit</text>
+	</string>
+	<string id="merc_lightlc_outfit_description">
+		<text>%c[ui_gray_1]a tactical light combat suit, modified by mercenary craftsmen to better equip their more experienced fighters. compared to a standard lc suit, the TLC offers lower overall weight, while also boasting improved combat capabilities; at the cost of some anomalous protection.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_superlcfs_outfit_name">
+		<text>SLC-AP Suit</text>
+	</string>
+	<string id="merc_superlcfs_outfit_description">
+		<text>%c[ui_gray_1]considered the successor of the LC-F and LC-S, this "special light combat anomalous protection" suit boasts good environmental protection and combat capabilities for a suit of it's class; while maintaining a relatively low weight. used by experienced scouts, most mercs wearing this tend to operate in the more middle parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_hunting_outfit_name">
+		<text>TRPz Suit</text>
+	</string>
+	<string id="merc_hunting_outfit_description">
+		<text>%c[ui_gray_1]A western tactical riot protection suit, heavily modified for use within the zone. Heavy and uncomfortable, while having poor ballistic protection, this suit's only redeeming qualities is it's environmental and strike protection. used pretty much exclusively by mercenaries tasked with clearing out mutants for ecologists.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_faction_outfit_name">
+		<text>MC Suit</text>
+	</string>
+	<string id="merc_faction_outfit_description">
+		<text>%c[ui_gray_1]based on the designs of both duty and freedom, this medium combat suit is considered the gold standard for an armour of it's class. sporting good protection across the board, while also not being too heavy and relatively comfortable, this suit is highly sought after by any merc operating anywhere save for the most dangerous parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_better_faction_outfit_name">
+		<text>SMCaz Suit</text>
+	</string>
+	<string id="merc_better_faction_outfit_description">
+		<text>%c[ui_gray_1]taking the medium combat suit as a basis, this armour is overall a massive improvement to an already great suit of it's class. lightweight and comfortable, while sporting great anomalous and combat protection, this suit is even more highly sought after by mercenaries; especially by those wanting one of the best all-rounder armours offered in the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_heat_outfit_name">
+		<text>ATELC Suit</text>
+	</string>
+	
+	<string id="merc_heat_outfit_description">
+		<text>%c[ui_gray_1]Based on the Light Combat suit, this armour has been specially modified to better suit the Zone's environment. while sporting improved anomalous protection across the board, this suit specializes in heat protection above all else; allowing the user to comfortably move around and through burner anomalies to ambush targets.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_urban_outfit_name">
+		<text>ULC Suit</text>
+	</string>
+	
+	<string id="merc_urban_outfit_description">
+		<text>%c[ui_gray_1]A specially modified light combat suit, designed for urban and CQC engagements. compared to the standard LC suit, the ULC boasts far greater splinter protection and radiological resistance; the suit has been additionally modified with lighter materials, though unfortunately because of this it is fairly uncomfortable to wear. usually used by scout forces and light skirmishers in Limansk.\n \n
+		</text>
+	</string>
+	
+	<string id="merc_stalker_outfit_name">
+		<text>"Ocean" Tactical Stalker Suit</text>
+	</string>
+	<string id="merc_stalker_outfit_description">
+		<text>%c[ui_gray_1]A handmade stalker suit, modified by mercenary craftsmen. used primarily by contracted free stalkers, this suit boasts decent protection across the board, with minimal increase in weight.\n \n
+		</text>
+	</string>
+
+</string_table>

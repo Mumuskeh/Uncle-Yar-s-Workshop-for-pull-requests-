@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- Renegade Suits-->
+	
+	<string id="renegade_sunrise_outfit_name">
+		<text>Renegade Sunrise Suit</text>
+	</string>
+	
+	<string id="renegade_sunrise_outfit_description">
+		<text>%c[ui_gray_1]A repaired Sunrise stalker suit, acquired off the steaming corpse of some poor loner to armour renegades. the outfit has suffered irrepairable damage to the undersuit, losing most of it's anomalous protection and splinter protection; but features additional pouches and an upgraded ballistic vest as upsides. provides a decent alternative to the Renegade LC suit.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_lcwz_outfit_name">
+		<text>Renegade LCwz Suit</text>
+	</string>
+	<string id="renegade_lcwz_outfit_description">
+		<text>%c[ui_gray_1]A Light Combat suit modified for better use in the Zone and acquired by Renegades through shady means. it's likely this suit was given to renegades because it didn't pass quality control, as it features less protection compared to a standard LCz suit, especially anomaly wise. in contrast though, it features a sophisticated weight distribution system, allowing the wearer to carry far more items than usual; and in addition the suit is equipped with extra ballistic plates.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_patchwork_seva_outfit_name">
+		<text>Renegade Patchwork Anomalous Combat Suit</text>
+	</string>
+	<string id="renegade_patchwork_seva_outfit_description">
+		<text>%c[ui_gray_1]a modified closed-cycle Western light combat suit, believed to be crafted by the Renegades themselves. Features a closed-cycle breathing system, plexiglass lining, and rubberized cloth; which gives good protection against anomalous threats while maintaining its bullet and shrapnel protection, though it is still very poor for an armour of it's class.\n \n
+		</text>
+	</string>
+
+	<string id="renegade_army_outfit_name">
+		<text>Renegade Berill-4 Armoured Suit</text>
+	</string>
+	<string id="renegade_army_outfit_description">
+		<text>%c[ui_gray_1]a repaired and modified Berill-4 Body Armour, acquired through shady means to equip renegades. it seems whoever was giving these suits to the renegades are ripping them off, as it features far, far less protection than a standard berill-5M suit. the armour is at the very least decently comfortable to wear.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_nbc_outfit_name">
+		<text>Renegade NBC Suit</text>
+	</string>
+	
+	<string id="renegade_nbc_outfit_description">
+		<text>%c[ui_gray_1]A shoddy NBC suit, believed to be made by renegade members themselves. while comfortable and boasting good radiological protection, this armour is quite poor in every other aspect; it's clear that this suit's craftsmen was inexperienced and/or in a rush. used by renegades who want primarily a comfortable bodysuit that allows them to ambush stalkers in radiation fields.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_exolight_outfit_name">
+		<text>Renegade Exosuit</text>
+	</string>
+	<string id="renegade_exolight_outfit_description">
+		<text>%c[ui_gray_1]an old exosuit, used by the renegades all the way back in 2011 during their final push. it appears that since then it has been extensively modified and repaired repeatedly, making the suit somewhat of a patchwork job. while it boasts good ballistic and decent anomalous protection, its still very poor for a suit of it's class. any renegade wearing this fights like a man possessed, eager to get back at their most hated enemies; that is to say, basically everyone else.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_ps5_outfit_name">
+		<text>Renegade Faction Suit</text>
+	</string>
+	<string id="renegade_ps5_outfit_description">
+		<text>%c[ui_gray_1]a hand-made renegade suit, based on the faction armour used by duty and freedom. built by seemingly skilled renegade craftsmen, this armour features an anomalously treated bodysuit with a ballistic vest; because of this the suit boasts good all-around protection, and is unusually well made for being from the group that it is. this armour, more than anything, is indicative of Renegades becoming a proper faction, albeit in a slow and disorganized fashion.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_eco_outfit_name">
+		<text>Renegade Eco-Tactical Suit</text>
+	</string>
+	<string id="renegade_eco_outfit_description">
+		<text>%c[ui_gray_1]seemingly based on the designs used by eco-stalkers, this suit was designed and built by renegade craftsmen from the ground up. an unusually well put together armour from the faction, this suit features a rubberized ballistic vest and a further rubberized plexiglass lined bodysuit. as a result, the suit boasts decent combat protection and good anomalous protection, especially from electric and thermal phenomena. while it's unusual for renegades to prioritize any anomalous protection, this suit is believed to have been made with the express purpose of ambushing stalkers within anomaly fields.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_skat_outfit_name">
+		<text>Renegade Skat-8 Armoured Suit</text>
+	</string>
+	<string id="renegade_skat_outfit_description">
+		<text>%c[ui_gray_1]an excellent protective suit for the Zone. This heavy military-grade armour is designed for major battle operations in anomalous areas. Comprises a PSZ-10 heavy military armoured suit, built-in compensation suit, and an anomalous protection bodysuit. The armour provides excellent protection against bullet and fragmentation damage, without greatly reducing the wearer’s mobility. This particular example seems to be both the older mark of the armour and somewhat damaged; how it made it's way into the renegade's hands is a mystery.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_cs1b_outfit_name">
+		<text>Renegade CS-1b Body Armour</text>
+	</string>
+	<string id="renegade_cs1b_outfit_description">
+		<text>%c[ui_gray_1]A heavy but quite comfortable outfit looted from dead clear sky members by renegades. while heavily damaged, this suit still boasts great combat protection..\n \n
+		</text>
+	</string>
+	 
+	<string id="renegade_cs1_outfit_name">
+		<text>Renegade CS-1 Body Armour</text>
+	</string>
+	<string id="renegade_cs1_outfit_description">
+		<text>%c[ui_gray_1]A light suit torn off the body of a clear sky member and used to outfit local Renegades. while the armour has been modified to be very comfortable, it sacrifices it's anomalous protection, making the suit little more than a suped-up jacket.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_stolen_exo_outfit_name">
+		<text>Renegade Stolen Exoskeleton</text>
+	</string>
+	<string id="renegade_stolen_exo_outfit_description">
+		<text>%c[ui_gray_1]a military exoskeleton, seemingly heisted straight out of a storage warehouse to armour local renegade warlords. the armour has been modified to fit significantly more plates than before, making this armour formidable in combat, even among other exoskeletons. unfortunately, the extra plates puts a large strain on the exoskeleton, aswell as being extremely conductive.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_proto_exo_outfit_name">
+		<text>Renegade Sunrise Proto-Exoskeleton</text>
+	</string>
+	<string id="renegade_proto_exo_outfit_description">
+		<text>%c[ui_gray_1]A looted stalker bodysuit, specially designed to be fitted with the servos and batteries of an exoskeleton, allowing the wearer to carry significantly more equipment than they could under any other circumstances, but lacking the armour of a proper exosuit. Compared to a full exoskeleton, it provides less protection and has less efficient servos, but is also considerably cheaper to maintain.\n \n
+		</text>
+	</string>
+	
+				 	<string id="renegade_nosorog_outfit_name">
+		<text>Renegade Nosorog</text>
+	</string>
+	
+	<string id="renegade_nosorog_outfit_description">
+		<text>%c[ui_gray_1]A next generation exoskeleton, consisting of a doubly reinforced exosuit and an armoured Czech-M10 gas mask. This suit is rumoured to have been the brainchild of a now deceased stalker named "Fang", whose designs were later claimed by all sorts of powerful factions across the Zone. If regular exoskeletons allow stalkers to feel like a light vehicle, the Nosorog almost makes them believe they're a main battle tank, able to withstand incredible punishment while carrying tremendous ordnance. how any renegade would be able to afford this exoskeleton is an absolute mystery.\n \n
+		</text>
+	</string>
+	
+	<string id="renegade_mtc_outfit_name">
+		<text>Renegade MTC Suit</text>
+	</string>
+	<string id="renegade_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been acquired to armour local pockets of organized renegades. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after, and is fairly expensive. how it made it's way into the Renegades is only partially a mystery.\n \n
+		</text>
+	</string>
+	
+</string_table>

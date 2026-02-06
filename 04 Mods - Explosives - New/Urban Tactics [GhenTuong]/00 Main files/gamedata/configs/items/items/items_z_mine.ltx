@@ -1,0 +1,71 @@
+
+
+
+[tripwire_immunities]
+burn_immunity			= 0
+strike_immunity			= 0
+shock_immunity			= 0
+wound_immunity			= 0
+radiation_immunity		= 0
+telepatic_immunity		= 0
+chemical_burn_immunity	= 0
+explosion_immunity		= 10
+fire_wound_immunity		= 10
+
+[tool_tripwire_f1]:grenade_f1,booster
+kind					= i_tool
+visual					= dynamics\equipments\trade\rope.ogf
+inv_name				= st_tool_tripwire_f1
+inv_name_short			= st_tool_tripwire_f1
+description				= st_tool_tripwire_f1_desc
+
+inv_weight				= 0.8
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 2
+inv_grid_y				= 1
+attach_angle_offset		= 0.0,0.0,0.0
+attach_position_offset	= 0.0,0.0,0.0
+attach_bone_name		= bip01_l_hand
+cost					= 1900
+
+quest_item				= false
+can_trade				= true
+remove_after_use		= false
+tier					= 3
+
+[mine_tripwire_f1]
+GroupControlSection		= spawn_group
+class					= O_DSTR_S
+remove_time				= 0
+script_binding			= bind_mine.init
+visual					= dynamics\weapons\mine\mine_tripwire_f1.ogf
+immunities_sect			= tripwire_immunities
+fixed_bones				= link
+ignore_collision		= map
+is_ai_obstacle			= false
+on_physic_contact		= bind_mine.on_physic_contact
+
+mine_explosive_section	= mine_tripwire_f1_explosive
+mine_defuse_use			= true
+
+[mine_tripwire_f1_explosive]:explosive_barrel,delayed_action_fuse,grenade_f1
+GroupControlSection		= spawn_group
+class					= S_EXPLO
+cform					= skeleton
+script_binding			= bind_mine.init_explosive
+immunities_sect			= tripwire_immunities
+mine_owner_actor		= true
+
+inv_name				= st_tool_tripwire_f1
+inv_name_short			= st_tool_tripwire_f1
+description				= st_tool_tripwire_f1_desc
+icons_texture			= ui\actor_items\ui_icons_urban_tactics
+inv_grid_width			= 1
+inv_grid_height			= 1
+inv_grid_x				= 2
+inv_grid_y				= 1
+inv_weight				= 0
+can_take				= false
+cost					= 0

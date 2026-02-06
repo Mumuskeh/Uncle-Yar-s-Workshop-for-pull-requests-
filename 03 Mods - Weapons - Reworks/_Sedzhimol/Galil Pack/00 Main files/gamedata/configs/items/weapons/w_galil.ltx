@@ -1,0 +1,823 @@
+;------------------------------------------------------------------------------------------------
+[scope_galil]
+scope_name	= wpn_addon_scope_galil
+scope_x		= 72
+scope_y		= -2
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil]:identity_immunities,weapon_probability,default_weapon_params,wpn_galil_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\galil"
+scheduled						= off
+cform							= skeleton
+
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 8
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_sedhimol_galil
+inv_grid_height					= 2
+inv_grid_width					= 5
+inv_grid_x						= 20
+inv_grid_y						= 64
+inv_name						= st_wpn_galil
+inv_name_short					= st_wpn_galil
+description						= st_wpn_galil_descr
+
+kind							= w_rifle
+inv_weight						= 3.95
+cost							= 38580
+repair_type						= rifle_7
+weapon_class					= assault_rifle
+
+hud								= wpn_galil_hud
+visual							= dynamics\weapons\wpn_galil\wpn_galil.ogf
+position						= -0.026, -0.175, 0
+orientation						= 0, 0, 0
+fire_point						= 0, 0.218, 0.656
+fire_point2						= 0, 0.161, 0.583
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.26, -0.11, 0.25
+strap_orientation				= -15, -9, 110
+ph_mass							= 4
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= 0,0.216,0.174
+shell_dir						= 0,0,0.4
+shell_particles					= weapons\762x51
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_galil, up_gr_seconab_galil, up_gr_thirdab_galil, up_gr_fourtab_galil, up_gr_fifthab_galil, up_gr_fifthcd_galil
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_ak74
+upgr_icon_x						= 0
+upgr_icon_y						= 1800
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+ammo_elapsed					= 25
+ammo_mag_size					= 25
+startup_ammo					= 90
+
+scopes_sect						= scope_galil
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_pbs1
+silencer_status					= 2
+silencer_x						= 236
+silencer_y						= 14
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher
+grenade_launcher_status			= 0
+grenade_launcher_x				= 126
+grenade_launcher_y				= 24
+launch_speed					= 0
+
+hit_impulse						= 37
+hit_power						= 0.76, 0.76, 0.76, 0.76
+hit_type						= fire_wound
+fire_distance					= 1000
+bullet_speed					= 835
+rpm								= 630
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.3
+fire_dispersion_base			= 0.195
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.0005
+misfire_start_condition			= 0.7 ; 0.68
+misfire_start_prob				= 0.06
+misfire_end_condition			= 0.1
+misfire_end_prob				= 0.1
+
+condition_queue_shot_dec		= 0.0009
+condition_shot_dec				= 0.0009
+
+cam_return						= 0
+cam_relax_speed					= 9
+cam_dispersion					= 1.5
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0775
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.35
+zoom_cam_relax_speed			= 9
+zoom_cam_dispersion				= 1.2
+zoom_cam_dispersion_frac		= 0.7
+zoom_cam_dispersion_inc			= 0.0675
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.25
+
+PDM_disp_accel_factor			= 2.75
+PDM_disp_base					= 1.25
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.75
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 0
+kill_msg_y						= 28
+kill_msg_width					= 84
+kill_msg_height					= 28
+
+[wpn_galil_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_galil\wpn_galil_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= -0.064, -0.18, 0.1355
+hands_position_16x9		= -0.064, -0.18, 0.1355
+hands_orientation		= 0.55, 2.4, 0.15
+hands_orientation_16x9	= 0.55, 2.4, 0.15
+
+aim_hud_offset_pos		= -0.08737, 0.0884, -0.27
+aim_hud_offset_pos_16x9	= -0.08737, 0.0884, -0.27
+aim_hud_offset_rot		= 0.0463, 0.00883, -0.008
+aim_hud_offset_rot_16x9	= 0.0463, 0.00883, -0.008
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= lancew_galil_holster
+anm_idle					= lancew_galil_idle
+anm_idle_aim				= lancew_galil_idle_aim, idle_aim
+anm_idle_aim_moving			= lancew_galil_moving, idle, 0.75
+anm_idle_aim_moving_crouch	= lancew_galil_moving, idle, 0.7
+anm_idle_moving				= lancew_galil_moving
+anm_idle_sprint				= lancew_galil_sprint
+anm_reload					= lancew_galil_reload, reload
+anm_shots					= lancew_galil_shoot, shoot
+anm_show					= lancew_galil_draw
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= 0.017, 0.054, 0.17
+
+fire_bone	= wpn_body
+fire_bone2	= wpn_body
+fire_point	= -0.011, 0.051639, 0.953686
+fire_point2	= 0, -0.011, 0.553
+
+freelook_z_offset_mul	= 0.5
+
+;------------------------------------------------------------------------------------------------
+;---------------------------------TACTIKAL---------------------------------------------------------------
+[wpn_galil_custom]:wpn_galil
+parent_section		= wpn_galil_custom
+
+icons_texture		= ui\ui_icon_sedhimol_galil
+inv_grid_width		= 4
+inv_grid_height		= 2
+inv_grid_x			= 5
+inv_grid_y			= 0
+inv_weight			= 3.17
+inv_name			= st_wpn_galil_tac
+inv_name_short		= st_wpn_galil_tac
+description			= st_wpn_galil_tac_descr
+
+cost				= 41480
+
+ammo_elapsed		= 30
+ammo_mag_size		= 30
+startup_ammo		= 90
+
+hud					= wpn_galil_custom_hud
+visual				= guns_world_models\galil_tac\wpn_galil_tac_world.ogf
+
+upgrades			= up_gr_firstab_scar, up_gr_seconab_scar, up_gr_thirdab_scar, up_gr_fourtab_scar, up_gr_fifthab_scar
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_sig550
+
+scopes				= ac10632, acog, eot, c-more
+scope_status		= 0
+scope_zoom_factor	= 0
+
+silencer_x			= 177
+silencer_y			= 18
+
+rpm					= 684
+
+fire_dispersion_base= 0.19
+
+misfire_start_condition		= 0.7 ; 0.64
+misfire_start_prob			= 0.003
+misfire_end_condition		= 0.09
+misfire_end_prob			= 0.02
+
+condition_queue_shot_dec	= 0.0008
+condition_shot_dec			= 0.0008
+
+[wpn_galil_custom_hud]:wpn_galil_hud
+item_visual	= anomaly_weapons\wpn_galil_tac\wpn_galil_tac_hud.ogf
+
+aim_hud_offset_pos		= -0.049133, -0.001269, -0.074943
+aim_hud_offset_pos_16x9	= -0.049133, -0.001269, -0.074943
+aim_hud_offset_rot		= -0.013815, -0.007513, -0.035673
+aim_hud_offset_rot_16x9	= -0.013815, -0.007513, -0.035673
+
+anm_idle		= gal_tac_idle, idle
+anm_idle_moving	= gal_tac_walk, idle
+anm_idle_sprint	= gal_tac_sprint, idle
+anm_bore		= gal_tac_boring, idle
+
+anm_reload			= gal_tac_reload, gal_tac_g_reload
+anm_reload_misfire	= gal_tac_misfire, gal_tac_g_misfire
+anm_reload_empty	= gal_tac_reload_empty, gal_tac_g_reload_empty
+anm_shots			= gal_tac_shot, gal_tac_g_shot
+anm_show			= gal_tac_draw, idle
+anm_hide			= gal_tac_hide, idle
+anm_idle_aim		= gal_tac_idle_aim, idle
+
+;------------JAMMED------------
+anm_idle_jammed		= gal_tac_idle, gal_tac_g_idle_jammed
+anm_idle_moving_jamm= gal_tac_walk, gal_tac_g_idle_jammed
+anm_idle_sprint_jamm= gal_tac_sprint, gal_tac_g_idle_jammed
+anm_show_jammed		= gal_tac_draw, gal_tac_g_idle_jammed
+anm_hide_jammed		= gal_tac_hide, gal_tac_g_idle_jammed
+anm_idle_aim_jammed	= gal_tac_idle_aim, gal_tac_g_idle_jammed
+anm_bore_jammed		= gal_tac_boring, gal_tac_g_idle_jammed
+
+fire_point	= 0.000106, 0.030957, 0.466493
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil_custom_ac10632]:wpn_galil_custom
+1icon_layer		= ac10632
+1icon_layer_x	= 75
+1icon_layer_y	= -2
+
+inv_grid_width	= 4
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+inv_weight		= 3.29
+
+hud				= wpn_galil_custom_ac10632_hud
+visual			= guns_world_models\galil_tac\wpn_galil_calimator_world.ogf
+
+scope_status	= 1
+
+[wpn_galil_custom_ac10632_hud]:wpn_galil_custom_hud
+item_visual	= anomaly_weapons\wpn_galil_tac\wpn_galil_tac_ac10632_hud.ogf
+
+aim_hud_offset_pos_16x9	= -0.049275, -0.005467, -0.074943
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil_custom_acog]:wpn_galil_custom
+1icon_layer		= acog
+1icon_layer_x	= 75
+1icon_layer_y	= -2
+
+inv_grid_width	= 4
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+inv_weight		= 3.52
+
+hud				= wpn_galil_custom_acog_hud
+visual			= guns_world_models\galil_tac\wpn_galil_scope_world.ogf
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.3
+
+
+[wpn_galil_custom_acog_hud]:wpn_galil_custom_hud
+item_visual	= anomaly_weapons\wpn_galil_tac\wpn_galil_tac_acog_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil_custom_eot]:wpn_galil_custom
+1icon_layer		= eot
+1icon_layer_x	= 120
+1icon_layer_y	= 0
+
+inv_grid_width	= 4
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+inv_weight		= 3.47
+
+hud				= wpn_galil_custom_eot_hud
+visual			= guns_world_models\galil_tac\wpn_galil_calimator_world.ogf
+
+scope_status	= 1
+
+[wpn_galil_custom_eot_hud]:wpn_galil_custom_hud
+item_visual	= anomaly_weapons\wpn_galil_tac\wpn_galil_tac_eot_hud.ogf
+
+aim_hud_offset_pos_16x9	= -0.049133, -0.013496, -0.148327
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil_custom_c-more]:wpn_galil_custom
+1icon_layer		= c-more
+1icon_layer_x	= 75
+1icon_layer_y	= 0
+
+inv_grid_width	= 4
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 2
+
+inv_weight		= 3.47
+
+hud				= wpn_galil_custom_c-more_hud
+visual			= guns_world_models\galil_tac\wpn_galil_calimator_world.ogf
+
+scope_status	= 1
+
+[wpn_galil_custom_c-more_hud]:wpn_galil_custom_hud
+item_visual	= anomaly_weapons\wpn_galil_tac\wpn_galil_tac_c-more_hud.ogf
+
+aim_hud_offset_pos_16x9	= -0.049204, -0.00404, -0.074943
+
+;------------------------------------------------------------------------------------------------
+[wpn_galil_modern]:wpn_galil
+inv_grid_x		= 0
+inv_grid_y		= 2
+inv_name		= st_wpn_galil_modern
+inv_name_short	= st_wpn_galil_modern
+
+cost			= 43680
+
+hud				= wpn_galil_sk2_hud
+visual			= dynamics\weapons\wpn_galil\wpn_galil_sk2.ogf
+
+installed_upgrades	= up_thirda_galil, up_fiftha_galil
+
+rpm					= 645
+
+fire_dispersion_base	= 0.18
+
+misfire_start_condition	= 0.7 ; 0.66
+misfire_start_prob		= 0.003
+misfire_end_condition	= 0.1
+misfire_end_prob		= 0.02
+
+[wpn_galil_sk2_hud]:wpn_galil_hud
+item_visual	= anomaly_weapons\wpn_galil\wpn_galil_sk2_hud.ogf
+
+;------------------------------------------------------------------------------------------------
+;--
+;------------------------------------------------------------------------------------------------
+[wpn_ace21]:wpn_galil,wpn_ace21_sounds
+parent_section		= wpn_ace21
+
+inv_grid_height		= 2
+inv_grid_width		= 4
+inv_grid_x			= 6
+inv_grid_y			= 7
+inv_name			= st_wpn_ace21
+inv_name_short		= st_wpn_ace21
+description			= st_wpn_ace21n_descr
+
+kind				= w_rifle
+inv_weight			= 2.8
+cost				= 31580
+repair_type			= rifle_5
+
+hud					= wpn_ace21_hud
+visual				= guns_world_models\ace21\wpn_ace21.ogf
+position			= -0.026, -0.215, 0
+orientation			= 0, 0, 0
+fire_point			= 0, 0.262, 0.447
+fire_point2			= 0, 0.262, 0.547
+
+upgrades			= up_gr_firstab_ace21, up_gr_seconab_ace21, up_gr_thirdab_ace21, up_gr_fourtab_ace21, up_gr_fifthab_ace21
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_ak74u
+
+ammo_class			= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed		= 35
+ammo_mag_size		= 35
+
+scopes				= ac10632, acog, eot, c-more
+scope_status		= 0
+
+silencer_name		= wpn_sil_nato
+silencer_x			= 173
+silencer_y			= 15
+
+hit_power			= 0.48, 0.48, 0.48, 0.48
+bullet_speed		= 710
+rpm					= 700
+ap_modifier			= 0.95
+
+fire_dispersion_base= 0.3
+
+misfire_start_condition		= 0.7 ; 0.7
+misfire_start_prob			= 0.003
+misfire_end_condition		= 0.093
+misfire_end_prob			= 0.02
+
+condition_queue_shot_dec	= 0.00088
+condition_shot_dec			= 0.00088
+
+cam_return					= 0
+cam_relax_speed				= 9
+cam_dispersion				= 0.556
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.0675
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 0.9
+zoom_cam_relax_speed		= 9
+zoom_cam_dispersion			= 0.466
+zoom_cam_dispersion_frac	= 0.6
+zoom_cam_dispersion_inc		= 0.0525
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 0.9
+
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 360
+
+[wpn_ace21_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_ace21\wpn_ace21_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= -0.019283, -0.000306, -0.10569
+hands_position_16x9		= -0.019283, -0.000306, -0.10569
+hands_orientation		= -0.2928, 0.643748, -2.16454
+hands_orientation_16x9	= -0.2928, 0.643748, -2.16454
+
+aim_hud_offset_pos		= -0.043642, 0.013829, -0.069049
+aim_hud_offset_pos_16x9	= -0.043642, 0.013829, -0.069049
+aim_hud_offset_rot		= -0.002826, -0.000478, -0.029454
+aim_hud_offset_rot_16x9	= -0.002826, -0.000478, -0.029454
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+lowered_hud_offset_pos		= 0.024183, -0.004815, -0.026524
+lowered_hud_offset_pos_16x9	= 0.024183, -0.004815, -0.026524
+lowered_hud_offset_rot		= 0.062177, -0.417021, 0.434572
+lowered_hud_offset_rot_16x9	= 0.062177, -0.417021, 0.434572
+
+anm_hide			= ace_h_hide, idle
+anm_idle			= ace_h_idle, idle
+anm_idle_aim		= ace_h_aim_idle, idle
+anm_idle_moving		= ace_h_walk, idle
+anm_idle_sprint		= ace_h_sprint, idle
+anm_reload			= ace_h_r, ace_g_r
+anm_reload_empty	= ace_h_re, ace_g_re
+anm_reload_misfire	= ace_h_rmis, ace_g_rmis
+anm_shots			= ace_h_shot, ace_g_shot
+anm_show			= ace_h_draw, idle
+anm_bore			= ace_h_bore, idle
+
+anm_hide_jammed			= ace_h_hide, ace_g_idle_jam
+anm_idle_jammed			= ace_h_idle, ace_g_idle_jam
+anm_idle_aim_jammed		= ace_h_aim_idle, ace_g_idle_jam
+anm_idle_moving_jammed	= ace_h_walk, ace_g_idle_jam
+anm_idle_sprint_jammed	= ace_h_sprint, ace_g_idle_jam
+anm_show_jammed			= ace_h_draw, ace_g_idle_jam
+anm_bore_jammed			= ace_h_bore, ace_g_idle_jam
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, -0.046715, 0
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0
+fire_point2	= 0, -0.011, 0.553
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace21_ac10632]:wpn_ace21
+1icon_layer		= ac10632
+1icon_layer_x	= 81
+1icon_layer_y	= -8
+
+inv_weight		= 2.915
+
+hud				= wpn_ace21_ac10632_hud
+visual			= guns_world_models\ace21\wpn_ace21_ac10632.ogf
+
+[wpn_ace21_ac10632_hud]:wpn_ace21_hud
+item_visual	= anomaly_weapons\wpn_ace21\wpn_ace21_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.044248, -0.000489, -0.085606
+aim_hud_offset_pos_16x9	= -0.044248, -0.000489, -0.085606
+aim_hud_offset_rot		= 0.009761, 0.001044, -0.013735
+aim_hud_offset_rot_16x9	= 0.009761, 0.001044, -0.013735
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace21_acog]:wpn_ace21
+1icon_layer		= acog
+1icon_layer_x	= 70
+1icon_layer_y	= -9
+
+inv_weight		= 3.2
+
+hud				= wpn_ace21_acog_hud
+visual			= guns_world_models\ace21\wpn_ace21_acog.ogf
+
+scope_texture		= wpn_crosshair_acog
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.3
+
+[wpn_ace21_acog_hud]:wpn_ace21_ac10632_hud,hud_low_interia
+item_visual	= anomaly_weapons\wpn_ace21\wpn_ace21_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.042901, 0.000128, -0.080629
+aim_hud_offset_pos_16x9	= -0.042901, 0.000128, -0.080629
+aim_hud_offset_rot		= 0.033529, -0.005549, -0.010319
+aim_hud_offset_rot_16x9	= 0.033529, -0.005549, -0.010319
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace21_eot]:wpn_ace21
+1icon_layer		= eot
+1icon_layer_x	= 122
+1icon_layer_y	= -5
+
+inv_weight		= 3.11 ; 3.1
+
+hud				= wpn_ace21_eot_hud
+visual			= guns_world_models\ace21\wpn_ace21_ac10632.ogf
+
+[wpn_ace21_eot_hud]:wpn_ace21_hud
+item_visual	= anomaly_weapons\wpn_ace21\wpn_ace21_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.045414, -0.006125, -0.132875
+aim_hud_offset_pos_16x9	= -0.045414, -0.006125, -0.132875
+aim_hud_offset_rot		= 0.009786, 0.005847, -0.033703
+aim_hud_offset_rot_16x9	= 0.009786, 0.005847, -0.033703
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace21_c-more]:wpn_ace21
+1icon_layer		= c-more
+1icon_layer_x	= 75
+1icon_layer_y	= -2
+
+inv_weight		= 3.1
+
+hud				= wpn_ace21_c-more_hud
+visual			= guns_world_models\ace21\wpn_ace21_ac10632.ogf
+
+scope_status	= 1
+
+[wpn_ace21_c-more_hud]:wpn_ace21_hud
+item_visual	= anomaly_weapons\wpn_ace21\wpn_ace21_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.04467, 0.000603, -0.106166
+aim_hud_offset_pos_16x9	= -0.04467, 0.000603, -0.106166
+aim_hud_offset_rot		= 0.002365, 0.001552, -0.029454
+aim_hud_offset_rot_16x9	= 0.002365, 0.001552, -0.029454
+;------------------------------------------------------------------------------------------------
+
+
+;-----------------ACE-32------------------ 
+[wpn_ace32]:wpn_ace21
+parent_section		= wpn_ace32
+
+inv_grid_width		= 6
+inv_grid_height		= 2
+inv_grid_x			= 0
+inv_grid_y			= 7
+
+inv_name			= st_wpn_ace32
+inv_name_short		= st_wpn_ace32
+description			= st_wpn_ace32_descr
+
+inv_weight			= 3.4
+silencer_x			= 265
+silencer_y			= 5
+
+hud					= wpn_ace32_hud
+visual				= guns_world_models\ace32\wpn_ace32.ogf
+
+upgr_icon_path		= ui\ui_icon_sedhimol_galil
+upgr_icon_x			= 0
+upgr_icon_y			= 200
+upgr_icon_width		= 400
+upgr_icon_height	= 150
+
+ammo_class			= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed		= 30
+ammo_mag_size		= 30
+startup_ammo		= 90
+
+hit_impulse			= 34
+hit_power			= 0.58, 0.58, 0.58, 0.58
+hit_type			= fire_wound
+fire_distance		= 900
+bullet_speed		= 715
+rpm					= 600
+rpm_empty_click		= 200
+
+use_aim_bullet		= false
+time_to_aim			= 0.0 ; 3.0
+zoom_dof			= 0.5, 1.0, 180
+zoom_enabled		= true
+zoom_rotate_time	= 0.25
+reload_dof						= 0.0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 5.8
+fire_dispersion_base			= 0.45
+fire_dispersion_condition_factor= 0.001
+
+condition_queue_shot_dec		= 0.0008
+condition_shot_dec				= 0.0008
+
+cam_return						= 0
+cam_relax_speed					= 10
+cam_dispersion					= 0.762
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0725
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.38
+zoom_cam_relax_speed			= 10
+zoom_cam_dispersion				= 0.732
+zoom_cam_dispersion_frac		= 0.7
+zoom_cam_dispersion_inc			= 0.0625
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.28
+
+PDM_disp_accel_factor			= 2.5
+PDM_disp_base					= 1.15
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.5
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+[wpn_ace32_hud]:wpn_ace21_hud
+item_visual	= anomaly_weapons\wpn_ace32\wpn_ace32_hud.ogf
+
+fire_point	= 0, 0, 0.25
+shell_point	= 0, -0.046715, 0
+
+aim_hud_offset_pos		= -0.043585, 0.01397, -0.069049
+aim_hud_offset_pos_16x9	= -0.043585, 0.01397, -0.069049
+aim_hud_offset_rot		= -0.009223, -0.000799, -0.029454
+aim_hud_offset_rot_16x9	= -0.009223, -0.000799, -0.029454
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace32_ac10632]:wpn_ace32
+1icon_layer		= ac10632
+1icon_layer_x	= 105
+1icon_layer_y	= -14
+
+inv_weight		= 3.515
+
+hud				= wpn_ace32_ac10632_hud
+visual			= guns_world_models\ace32\wpn_ace32_ac10632.ogf
+
+scope_status	= 1
+
+[wpn_ace32_ac10632_hud]:wpn_ace32_hud
+item_visual	= anomaly_weapons\wpn_ace32\wpn_ace32_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.043907, -0.002024, -0.106166
+aim_hud_offset_pos_16x9	= -0.043907, -0.002024, -0.106166
+aim_hud_offset_rot		= 0.002578, 0.000701, -0.029454
+aim_hud_offset_rot_16x9	= 0.002578, 0.000701, -0.029454
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace32_acog]:wpn_ace32
+1icon_layer		= acog
+1icon_layer_x	= 90
+1icon_layer_y	= -15
+
+inv_weight		= 3.75
+
+hud				= wpn_ace32_acog_hud
+visual			= guns_world_models\ace32\wpn_ace32_acog.ogf
+
+scope_texture		= wpn_crosshair_acog
+scope_status		= 0
+scope_zoom_factor	= 20
+
+zoom_rotate_time	= 0.3
+
+[wpn_ace32_acog_hud]:wpn_ace32_hud
+item_visual	= anomaly_weapons\wpn_ace32\wpn_ace32_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.042901, 0.000128, -0.080629
+aim_hud_offset_pos_16x9	= -0.042901, 0.000128, -0.080629
+aim_hud_offset_rot		= 0.033529, -0.005549, -0.010319
+aim_hud_offset_rot_16x9	= 0.033529, -0.005549, -0.010319
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace32_eot]:wpn_ace32
+1icon_layer		= eot
+1icon_layer_x	= 150
+1icon_layer_y	= -15
+
+inv_weight		= 3.7
+
+hud				= wpn_ace32_eot_hud
+visual			= guns_world_models\ace32\wpn_ace32_ac10632.ogf
+
+[wpn_ace32_eot_hud]:wpn_ace32_hud
+item_visual	= anomaly_weapons\wpn_ace32\wpn_ace32_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.045414, -0.006125, -0.132875
+aim_hud_offset_pos_16x9	= -0.045414, -0.006125, -0.132875
+aim_hud_offset_rot		= 0.009786, 0.005847, -0.033703
+aim_hud_offset_rot_16x9	= 0.009786, 0.005847, -0.033703
+
+;------------------------------------------------------------------------------------------------
+[wpn_ace32_c-more]:wpn_ace32
+1icon_layer		= c-more
+1icon_layer_x	= 105
+1icon_layer_y	= -13
+
+inv_weight		= 3.7
+
+hud				= wpn_ace32_c-more_hud
+visual			= guns_world_models\ace32\wpn_ace32_ac10632.ogf
+
+scope_status	= 1
+
+[wpn_ace32_c-more_hud]:wpn_ace32_hud
+item_visual	= anomaly_weapons\wpn_ace32\wpn_ace32_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.044272, 0.001978, -0.132875
+aim_hud_offset_pos_16x9	= -0.044272, 0.001978, -0.132875
+aim_hud_offset_rot		= 0.007549, 1.1e-05, -0.029454
+aim_hud_offset_rot_16x9	= 0.007549, 1.1e-05, -0.029454
+;------------------------------------------------------------------------------------------------

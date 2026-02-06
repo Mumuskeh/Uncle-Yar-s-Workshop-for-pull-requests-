@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+
+
+<!-- UNISG Suits-->
+	
+	<string id="light_isg_seva_outfit_name">
+		<text>UNISG IBAz SEVA</text>
+	</string>
+	<string id="light_isg_seva_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified IBAz suit with a closed-cycle system, commissioned for UNISG units. boasts good all-around anomalous protection and decent combat protection; this suit is great for any ISG operative expecting light skirmishes in the northern parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_corundum_outfit_name">
+		<text>UNISG Corundum Body Armour</text>
+	</string>
+	<string id="isg_corundum_outfit_description">
+		<text>%c[ui_gray_1]imported directly from western suppliers to armour local UNISG units, this suit represents the best combat protection short of exosuits you can get in the zone. features a lightweight ballistic helmet, additional armour panels, a heavily armoured vest, and an anomalous protection bodysuit. while heavy, this armour boasts excellent splinter, shrapnel, and ballistic protection while also having decent protection from anomalous threats; thanks in large part to it's bodysuit.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_scientificexo_outfit_name">
+		<text>UNISG Scientific Exoskeleton</text>
+	</string>
+	<string id="isg_scientificexo_outfit_description">
+		<text>%c[ui_gray_1]a specially made exoskeleton, designed for light assault operations and research duties within anomalous areas. features a rubberized heavy combat vest with a frontal mounted weight distribution system, western style filtration, and an anomalous protection bodysuit. boasting great anomaly threat protection and good protection from combat, this suit is only entrusted to experienced operatives of UNISG.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_ace_outfit_name">
+		<text>UNISG SEVA-RWA Bodysuit</text>
+	</string>
+	<string id="isg_ace_outfit_description">
+		<text>%c[ui_gray_1]a heavily modified SEVA suit, specially commissioned by the United Nations to armour the operatives of UNISG. boasts great anomalous defence, especially against psy phenomena, and good combat protection due to it's reinforced ballistic vest. the suit also features a weight distribution system, making it ideal for ISG personnel operating far from any bases. overall, this suit is great even for one of it's class.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_exolightseva_outfit_name">
+		<text>UNISG Exosuit SEVA</text>
+	</string>
+	<string id="isg_exolightseva_outfit_description">
+		<text>%c[ui_gray_1]An experimental combination of both an Exosuit and a SEVA closed-cycle system, specially commissioned by the United Nations, this armour seeks to combine the best of both suit types. boasts great anomalous and combat protection, with it's main downside, the suits weight, being the only thing really taking away from the suit's appeal. used by UNISG personnel primarily operating in the northernmost parts of the zone.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_patchwork_seva_outfit_name">
+		<text>UNISG SEVA-L</text>
+	</string>
+	<string id="isg_patchwork_seva_outfit_description">
+		<text>%c[ui_gray_1]commissioned specifically for reconnaissance within anomalous zones, this SEVA suit, while boasting subpar combat and anomalous protection for an armour of it's class, remains extremely light and comfortable. used almost exclusively by UNISG scientific scouts.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_mtc_outfit_name">
+		<text>UNISG MTC Suit</text>
+	</string>
+	<string id="isg_mtc_outfit_description">
+		<text>%c[ui_gray_1]Based on western designs, this Medium Tactical Combat suit has been designed and built with the environment of the zone in mind. designed to be a good all-rounder suit, it features a specially treated ballistic vest with partial stab plates, a frontal mounted weight distribution system, and a plexiglass lined polymer bodysuit. comfortable and sleek, this suit is highly sought after by UNISG operatives.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_elite_exo_outfit_name">
+		<text>UNISG Commando Exoskeleton</text>
+	</string>
+	<string id="isg_elite_exo_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified exoskeleton, designed and commissioned by the United Nations to equip it's UNISG commanders. pratically a work of art, this exoskeleton is meant for nighttime operations in the deadliest parts of the zone. Who ever made this evidently put an enormous amount of work and time into it, as it features next-generation servos, a weight distribution system, built-in temperature regulator, anti-conductivity regulator, anti-psy grills, improved filtering system, and an inbuilt tactical rig. it's insane quality is only matched by it's mindboggling rarity.\n \n
+		</text>
+	</string>
+	
+	<string id="isg_commandonosorog_outfit_name">
+		<text>UNISG Commando Nosorog</text>
+	</string>
+	<string id="isg_commandonosorog_outfit_description">
+		<text>%c[ui_gray_1]A heavily modified Nosorog, specially designed and built by the combined power of western and eastern military research facilities. if a 'regular' commando exoskeleton is a work of art, then this armour is the Mona Lisa; as it features experimental next-generation servos, heavy armour plates, a weight distribution system, built-in temperature regulator, anti-conductivity regulator, anti-psy grills, improved filtering system, a special grav-powered device that slows down projectiles or redirects them, and an inbuilt tactical rig. beyond unique and rare, this suit is only used by the most trusted and experienced commanders of UNISG.\n \n
+		</text>
+	</string>
+
+	
+</string_table>

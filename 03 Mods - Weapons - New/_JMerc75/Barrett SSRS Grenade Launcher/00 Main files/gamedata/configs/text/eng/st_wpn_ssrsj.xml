@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ssrs_j">
+		<text>Barrett SSRS Grenade Launcher</text>
+	</string>
+	<string id="st_wpn_ssrs_j_s">
+		<text>SSRS</text>
+	</string>
+	<string id="st_wpn_ssrs_j_descr">
+		<text>The Barrett SSRS (Squad Support Recoilless System) is a cutting-edge, semi-automatic grenade launcher designed for modern infantry fire support. Utilizing a proprietary recoilless mechanism, the SSRS dramatically reduces felt recoil, allowing for rapid, accurate follow-up shots. Chambered for 40mm smart and conventional grenades, it features an advanced fire control system with a built-in rangefinder and programmable airburst capability. The lightweight yet rugged polymer and titanium construction ensure battlefield durability, while its modular rail system supports a variety of optics and accessories. Designed for versatility, the SSRS excels in both direct and indirect fire roles, making it a game-changer for squad-level engagements.\n\n</text>
+	</string>
+
+	<string id="st_mag_ssrsj_default">
+		<text>Barrett SSRS Magazine</text>
+	</string>
+	<string id="st_mag_ssrsj_default_descr">
+		<text>Magazine for the Barrett SSRS semi-automatic grenade launcher, holds 6 VOG-25 Grenades.\n</text>
+	</string>
+</string_table>
