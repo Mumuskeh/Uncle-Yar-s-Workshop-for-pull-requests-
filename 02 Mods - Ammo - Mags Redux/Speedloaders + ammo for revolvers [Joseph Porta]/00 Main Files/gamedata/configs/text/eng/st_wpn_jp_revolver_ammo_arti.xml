@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="ammo_new_500_fmj">
+		<text>.500 Magnum FMJ rounds</text>
+	</string>
+	<string id="ammo_new_500_hysh">
+		<text>.500 Magnum Hydrashock rounds</text>
+	</string>
+
+	<string id="ammo_new_44_fmj">
+		<text>.44 Magnum FMJ rounds</text>
+	</string>
+	<string id="ammo_new_44_hysh">
+		<text>.44 Magnum Hydrashock rounds</text>
+	</string>
+
+</string_table>

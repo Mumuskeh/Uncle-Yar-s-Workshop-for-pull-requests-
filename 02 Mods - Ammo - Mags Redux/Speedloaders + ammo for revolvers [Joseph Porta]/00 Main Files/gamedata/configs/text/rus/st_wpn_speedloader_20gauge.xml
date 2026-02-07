@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>	
+     <string id="st_mag_sl_20gauge_5x">
+		<text>5 патронов для скоростного заряжателя 20-го калибра</text>
+	</string>
+	<string id="st_mag_sl_20gauge_5x_descr">
+		<text>Скоростной заряжатель с 5 патронами для револьверов 20-го калибра.\n \n</text>
+	</string>
+</string_table>

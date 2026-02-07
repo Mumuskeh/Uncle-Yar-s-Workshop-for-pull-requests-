@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>	
+    <string id="st_mag_sl_357_6x">
+		<text>Быстрый загрузчик для 6 патронов .357 "Магнум"</text>
+	</string>
+	<string id="st_mag_sl_357_6x_descr">
+		<text>Быстрый загрузчик с 6 патронами для револьверов "Магнум" калибра .357\n \n</text>
+	</string>
+       <string id="st_mag_sl_357_7x">
+		<text>Быстрый загрузчик для 7 патронов .357 "Магнум"</text>
+	</string>
+	<string id="st_mag_sl_357_7x_descr">
+		<text>Быстрый загрузчик с 7 патронами для револьверов "Магнум" калибра .357\n \n
+</text>
+	</string>
+   <string id="st_mag_sl_357_8x">
+		<text>Быстрый загрузчик для 8 патронов .357 "Магнум"</text>
+	</string>
+	<string id="st_mag_sl_357_8x_descr">
+		<text>Быстрый загрузчик с 8 патронами для револьверов "Магнум" калибра .357\n \n</text>
+	</string>
+</string_table>

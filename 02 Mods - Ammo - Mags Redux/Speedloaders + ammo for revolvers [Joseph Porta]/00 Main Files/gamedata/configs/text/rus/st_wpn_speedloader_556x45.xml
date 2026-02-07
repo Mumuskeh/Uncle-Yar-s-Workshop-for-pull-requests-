@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>	
+    <string id="st_mag_sl_556x45_4x">
+		<text>Скоростной загрузчик на 4 патрона калибра 5,56х45 мм</text>
+	</string>
+	<string id="st_mag_sl_556x45_4x_descr">
+		<text>Скоростной загрузчик с 4 патронами для револьверов калибра 5,56х45 мм\n \n</text>
+	</string>
+</string_table>

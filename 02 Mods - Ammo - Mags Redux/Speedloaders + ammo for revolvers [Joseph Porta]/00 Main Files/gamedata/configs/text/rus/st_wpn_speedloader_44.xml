@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>	
+    <string id="st_mag_sl_44_6x">
+		<text>Скоростной заряжатель на 6 патронов "Магнум" 44-го калибра</text>
+	</string>
+	<string id="st_mag_sl_44_6x_descr">
+		<text>Скоростной заряжатель с 6 патронами для револьверов "Магнум" 44-го калибра.\n \n</text>
+	</string>
+<string id="st_mag_sl_44_8x">
+		<text>Скоростной заряжатель на 8 патронов "Магнум" 44-го калибра</text>
+	</string>
+	<string id="st_mag_sl_44_8x_descr">
+		<text>Скоростной заряжатель с 8 патронами для револьверов "Магнум" 44-го калибра.\n \n</text>
+	</string>
+</string_table>

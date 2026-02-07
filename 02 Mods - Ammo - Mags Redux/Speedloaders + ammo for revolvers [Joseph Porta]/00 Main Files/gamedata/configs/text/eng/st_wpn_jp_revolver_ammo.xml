@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>	
+
+	<string id="ammo-500Magnum_fmj">
+		<text>.500 Magnum FMJ rounds</text>
+	</string>
+	<string id="ammo-500Magnum_fmj_s">
+		<text>.500 Magnum FMJ</text>
+	</string>
+	<string id="ammo-500Magnum_fmj_old">
+		<text>.500 Magnum FMJ rounds (old)</text>
+	</string>
+	<string id="ammo-500Magnum_fmj_old_s">
+		<text>.500 Magnum FMJ (old)</text>
+	</string>
+	<string id="ammo-500Magnum_fmj_descr">
+		<text>The .500 S&W Magnum or 12.7×41mmSR is a .50 caliber semi-rimmed revolver cartridge developed by Cor-Bon in partnership with the Smith & Wesson "X-Gun" engineering team for use in the Smith & Wesson Model 500 X-frame revolver and introduced in February 2003 at the SHOT Show. From its inception, it was intended to be the most powerful handgun cartridge to date, with the capacity to harvest all North American game species.  While more powerful handgun cartridges, such as the .500 Bushwhacker, have emerged since, they are only available in custom firearms, and the .500 S&W remains the most powerful production handgun cartridge.\n \n</text>
+	</string>
+
+	<string id="ammo-44-fmj">
+		<text>.44 Magnum FMJ rounds</text>
+	</string>
+	<string id="ammo-44-fmj_s">
+		<text>.44 Magnum FMJ</text>
+	</string>
+	<string id="ammo-44-fmj_old">
+		<text>.44 Magnum FMJ rounds (old)</text>
+	</string>
+	<string id="ammo-44-fmj_old_s">
+		<text>.44 Magnum FMJ (old)</text>
+	</string>
+	<string id="ammo-44-fmj_descr">
+		<text>The .44 Remington Magnum, also known as .44 Magnum or 10.9x33mmR (as it is known in unofficial metric designation), is a rimmed, large-bore cartridge originally designed for revolvers and quickly adopted for carbines and rifles. Despite the ".44" designation, guns chambered for the .44 Magnum round and its parent cases (the .44 Special and the .44 Russian) all use 0.429 in (10.9 mm) diameter bullets. The .44 Magnum is based on the .44 Special case but lengthened and loaded to higher pressures for greater velocity and energy.\n \n</text>
+	</string>
+
+</string_table>
