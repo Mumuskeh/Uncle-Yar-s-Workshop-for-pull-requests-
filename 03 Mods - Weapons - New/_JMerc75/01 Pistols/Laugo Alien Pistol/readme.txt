@@ -1,0 +1,22 @@
+-Module:
+Laugo Alien Pistol [Jmerc]
+
+----------------------------------------------------------
+-Compatibility:
+
+NOTE: You still need the original mod. Disable the original configs folder
+
+----------------------------------------------------------
+-Explanation:
+
+Text edited to eliminate the full on gun nut ad wankery and note the gun hasn't even been released by the time of Anomaly.
+Icon file trimmed.
+
+Integrated into:
+Weapon Parts OVerhaul
+
+----------------------------------------------------------
+-Patches:
+
+----------------------------------------------------------
+-Known issues:

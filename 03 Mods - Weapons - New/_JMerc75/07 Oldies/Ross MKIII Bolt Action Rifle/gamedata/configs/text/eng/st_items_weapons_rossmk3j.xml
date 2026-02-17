@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rossmk3_j">
+		<text>Ross MKIII</text>
+	</string>
+	<string id="st_wpn_rossmk3_j_descr">
+		<text>The Ross Mk III, also known as the Ross Rifle Model 1910, was a straight-pull bolt-action rifle used primarily by Canadian forces during World War I. Chambered in .303 British, it featured a long barrel for excellent accuracy, making it favored by snipers. However, its complex bolt system and sensitivity to battlefield conditions, such as mud and dirt, led to reliability issues in trench warfare. Despite its shortcomings, the Ross Mk III remains a notable example of early 20th-century precision rifles and is highly regarded by collectors today.\n\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ZF-4 Scope. \n \n</text>
+	</string>
+
+	<string id="st_ammo_303j">
+		<text>.303 British Ammunition</text>
+	</string>
+	<string id="st_ammo_303j_descr">
+		<text>The .303 British is a rimmed rifle cartridge developed in the 1880s, known for its use in British and Commonwealth military rifles and machine guns, including the Lee-Enfield series.\n\n
+		%c[d_purple] - %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]II\n
+		%c[d_purple] - %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_ammo_303j_ap">
+		<text>.303 British AP Ammunition</text>
+	</string>
+	<string id="st_ammo_303j_ap_descr">
+		<text>The .303 British Armor-Piercing (AP) round features a hardened steel or tungsten core, designed to penetrate armored targets while maintaining the ballistic performance of the standard cartridge.\n\n
+		%c[d_purple] - %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]IV\n
+		%c[d_purple] - %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium</text>
+	</string>
+</string_table>

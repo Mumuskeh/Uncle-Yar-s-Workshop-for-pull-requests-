@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sa58_new">
+		<text>SA58 OSW</text>
+	</string>
+	<string id="st_wpn_sa58_new_descr">
+		<text>SA58 is an assault-carbine variant of the paratrooper model of the FAL. It has a side-folding Enhanced PARA polymer stock, shorter 279 mm (11 inch) or 330 mm (13 inch) barrel and an optional full-auto setting.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Most red dot sights and some NATO scopes\n
+		%c[d_purple] • %c[ui_gray_2] NATO Silencer</text>
+	</string>
+
+</string_table>

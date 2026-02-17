@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_remington870_breacher">
+		<text>Remington 870 "Breacher"</text>
+	</string>
+	<string id="st_wpn_remington870_breacher_descr">
+		<text>Remington 870 is an American gun, first introduced in 1950 by Remington Arms. Due to its characteristic recharge is one of the most famous pump-action rifles in the world. Produced in various versions, it is suitable for both the military and the police, for hunters and athletes, as well as for self-defense.\n
+		The Breacher variant has an integrated breacher choke in its muzzle, intended to effectively "breach" a door by anchoring the muzzle on a doorframe in such a way that any shotgun round will blast it optimally and all gases being expelled properly, all without collateral damage. Meaning if you're not regularly breaching doors, it's pretty useless. But a shotgun is still a shotgun, and the Magpull furniture in this one makes it lighter and comfortable to handle.</text>
+	</string>
+</string_table>

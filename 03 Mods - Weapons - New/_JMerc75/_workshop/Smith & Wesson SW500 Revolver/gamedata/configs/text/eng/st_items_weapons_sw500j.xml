@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+		<string id="st_wpn_sw500_j">
+		<text>SW500</text>
+	</string>
+	<string id="st_wpn_sw500_j_descr">
+		<text>The Smith & Wesson SW500 is a powerful, large-frame revolver chambered in .500 S&W Magnum, one of the most potent handgun cartridges ever made. Built on the massive X-Frame, this beast of a revolver is designed for hunting large game and delivering extreme stopping power. With its robust stainless steel construction, heavy-duty cylinder, and options for barrel lengths ranging from 3.5 to 10.5 inches, the SW500 is both a marvel of engineering and a testament to raw firepower. While its recoil is substantial, its performance makes it a favorite among hunters and firearm enthusiasts seeking unmatched ballistic energy in a handgun. \n \n</text>
+	</string>
+	
+		<string id="st_ammo_sw500j">
+		<text>.500 Magnum Ammunition</text>
+	</string>
+	<string id="st_ammo_sw500j_descr">
+		<text>The .500 S&W Magnum is a high-powered handgun cartridge designed for extreme stopping power, delivering massive energy, deep penetration, and heavy recoil, making it ideal for hunting large game and dangerous animals. \n \n</text>
+	</string>
+	
+		<string id="st_ammo_sw500j_hp">
+		<text>.500 Magnum Hollow-Point Ammunition.</text>
+	</string>
+	<string id="st_ammo_sw500j_hp_descr">
+		<text>The .500 S&W Magnum hollow point expands on impact, delivering maximum stopping power and devastating wound channels. \n \n</text>
+	</string>
+</string_table>

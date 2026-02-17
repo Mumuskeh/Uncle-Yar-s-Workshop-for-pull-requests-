@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_remington700_aac">
+		<text>AAC Remington 700</text>
+	</string>
+	<string id="st_wpn_remington700_aac_descr">
+		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. It is a development of the Remington 721 and 722 series of rifles, which were introduced in 1948. The M24 and M40 military sniper rifles, used by the US Army and Marine Corps, respectively, are both based on the Model 700 design. From 1978 to 1982, Remington offered the Sportsman 78 which is the same model 700 action but with cheaper features such as a plain stock without checkering. The Sportsman 78 was not included in the recall that affected the trigger group.\n
+		Features a AAC Integrally Supressed Barrel.
+		\n \n %c[ui_gray_2]ATTACHMENTS: \n%c[d_purple] - %c[ui_gray_2] Most sights for Picatinny/weaver. \n \n</text>
+	</string>
+</string_table>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ps90">
+		<text>FN PS90</text>
+	</string>
+	<string id="st_wpn_ps90_S">
+		<text>PS90</text>
+	</string>
+	<string id="st_wpn_ps90_descr">
+		<text>The PS90 is a civilian market version of the Fabrique Nationale Herstal P90 submachine gun that was developed in the late 1980s as a PDW (Personal Defense Weapon) for troops whose duties do not necessitate full-sized rifles or where said rifles would be cumbersome. The primary differences from the military/law enforcement models are the semi-auto trigger group, lenghtened 16 inch barrel to comply with US gun laws, and being sold with lower capacity 30 round magazines.\n
+		Despite the relative scarcity of 5.7mm weapons it should be possible to source 50-round magazines from somewhere within the zone, and a skilled gunsmith will be able to convert this weapon to full auto, given the right tools and parts for the job.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most sights compatible with Picatinny/weaver type rails.\n
+		\n\n</text>
+	</string>
+
+	<string id="st_up_ps90_mag_name">
+		<text>Source for standard magazines</text>
+	</string>
+	<string id="st_up_ps90_mag_descr">
+		<text>Find a source for quality original law enforcement/military grade magazines.</text>
+	</string>
+
+	<string id="st_up_ps90_auto_name">
+		<text>Full Auto Trigger Group</text>
+	</string>
+	<string id="st_up_ps90_auto_descr">
+		<text>Allows for Semi-Auto and Full-Auto fire modes.</text>
+	</string>
+
+
+	<string id="st_mag_p90_5.7x28_compact">
+		<text>Compact 5.7x28 P90 Magazine</text>
+	</string>
+	<string id="st_mag_p90_5.7x28_compact_descr">
+		<text>Compact 30-round helical magazine used in the PS90.</text>
+	</string>
+	
+
+</string_table>

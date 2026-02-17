@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_ammo-7.62x39_airburst">
+		<text>7.62x39mm Air Burst rounds</text>
+	</string>
+	<string id="st_ammo-7.62x39_airburst_s">
+		<text>7.62x39 Air Burst</text>
+	</string>
+	<string id="st_ammo-7.62x39_airburst_descr">
+		<text>7.62x39mm Air Burst rounds, containing a compacted air cartridge within each bullet. Within a set range of intended targets, these bolt shells rupture within inches before impact violently detonating in a flesh-rending, metal stripping combustion pocket which hits with incredible concussive force bifurcating intended targets, with a range of five meters. In essence, a miniaturized 40mm cluster grenade. However, the charges inflict great strain on a weapon, jamming it much faster than any other round.\n
+		For maximum effect, use of this ammunition involves detonating them before impact on the target, the explosion having free range to cause havoc. However, this would require a computerized targeting system mounted on the weapon, something not exactly abundant in the Zone. With some tweaking, you can simply set them to explode on contact, which can still ruin someone's day.\n
+		</text>
+	</string>
+
+</string_table>

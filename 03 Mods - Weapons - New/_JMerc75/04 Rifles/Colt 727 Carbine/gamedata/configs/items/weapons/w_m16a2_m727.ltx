@@ -1,0 +1,139 @@
+;------------------------------------------------------------------------------------------------
+[wpn_m16a2_m727]:wpn_m16a2
+$spawn						= "weapons\m16a2_m727"
+parent_section				= wpn_m16a2_m727
+
+icons_texture				= ui\ui_icon_colt727
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_name					= st_wpn_m16a2_m727
+inv_name_short				= st_wpn_m16a2_m727_s
+description					= st_wpn_m16a2_m727_descr
+
+inv_weight					= 2.600
+cost						= 27635
+
+hud							= wpn_m16a2_m727_hud
+visual						= dynamics\weapons\wpn_colt727\wpn_colt727_world.ogf
+position					= -0.062851, 0.10703, -0.077858
+fire_point					= 0.05, -0.06, 0.575
+strap_orientation			= 4.164298, -3.938857, 25.109422
+strap_position				= -0.138696, -0.144391, 0.067259
+
+smoke_particles				= ghost_particles\weapons\flame_eft_ak
+
+; upgrades					= up_gr_firstab_g36, up_gr_seconab_g36, up_gr_thirdab_g36, up_gr_fourtab_g36, up_gr_fourtcd_g36, up_gr_fourtef_g36
+; upgrade_scheme				= upgrade_scheme_g36
+
+upgr_icon_x					= 600
+upgr_icon_y					= 300
+upgr_icon_width				= 300
+upgr_icon_height			= 100
+
+fire_modes					= 1, -1
+
+silencer_name				= wpn_sil_m42k
+silencer_status				= 0
+silencer_x					= 226
+silencer_y					= 7
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_launcher_status		= 0
+grenade_launcher_x			= 132
+grenade_launcher_y			= 22
+launch_speed				= 0
+
+hit_impulse					= 27
+hit_power					= 0.47, 0.47, 0.47, 0.47
+fire_distance				= 850
+bullet_speed				= 800
+rpm							= 650
+
+crosshair_inertion			= 5.3
+fire_dispersion_base		= 0.24
+
+misfire_probability			= 0.004
+misfire_start_condition		= 0.7 ; 0.81
+misfire_end_condition		= 0.11
+
+condition_queue_shot_dec	= 0.0005
+condition_shot_dec			= 0.0005
+
+cam_dispersion				= 0.556
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.0675
+cam_step_angle_horz			= 0.9
+zoom_cam_dispersion			= 0.466
+zoom_cam_dispersion_inc		= 0.0525
+zoom_cam_step_angle_horz	= 0.85
+
+PDM_disp_accel_factor		= 2.3
+PDM_disp_base				= 0.8
+PDM_disp_vel_factor			= 2.3
+
+hud_fov						= 0.78
+;-------------------------------------------------------------------SOUNDS-----------------------------------------------------------------------------
+snd_bore				= weapons\aksu_prince\aksu_tact_boring
+snd_draw				= weapons\scar_yang_prince\scar_inspect
+snd_holster				= weapons\scar_yang_prince\scar_inspect
+
+snd_reload				= weapons\m4a1_young_prince\m4_reload
+snd_reload_empty		= weapons\m4a1_young_prince\m4_reload_empty
+
+snd_shoot				= wpn_m4_snd_shoot
+snd_shoot_actor			= wpn_m4_snd_shoot_actor
+snd_silncer_shot		= wpn_556_snd_silenced
+snd_silncer_shot_actor	= wpn_556_snd_silenced_actor
+
+snd_switch				= weapons\m4a1_ras\m4a1_switch
+snd_empty				= weapons\generic\ar_empty, 0.7
+snd_reload_misfire		= weapons\m4a1_ras\m4a1_misfire
+snd_reload_grenade		= weapons\m4a1_ras\m4a1_grenload
+
+snd_shoot_grenade		= weapons\m203\m203_grenshoot
+snd_switch_mode			= weapons\ru556\ru556_firemode
+;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
+[wpn_m16a2_m727_hud]:wpn_m16a2_hud
+item_visual	= anomaly_weapons\wpn_colt727\wpn_colt727_hud.ogf
+
+hands_position			= 0.01, -0.01, 0.01
+hands_position_16x9		= 0.007000,-0.007380,0.020400
+hands_orientation		= -0.014, 0, 0
+hands_orientation_16x9	= 1.400999,0.370000,0.000000
+
+aim_hud_offset_pos		= -0.049218, 0.009058, -0.023085
+aim_hud_offset_pos_16x9	= -0.049218, 0.009058, -0.023085
+aim_hud_offset_rot		= 0.004469, 0.024506, 0
+aim_hud_offset_rot_16x9	= 0.004469, 0.024506, 0
+
+gl_hud_offset_pos		= -0.092, -0.024, -0.07
+gl_hud_offset_pos_16x9	= -0.088000,-0.061101,-0.100701
+gl_hud_offset_rot		= 0.065, 0.015, 0.25
+gl_hud_offset_rot_16x9	= -0.017000,0.061000,0.250000
+
+lowered_hud_offset_pos_16x9	= 0.05, -0.01, 0
+lowered_hud_offset_rot_16x9	= 0.1, -0.8, 0.1
+
+anm_bore					= ras_m4a1_hand_inspect, idle
+anm_hide					= ras_m4a1_hand_out, idle
+anm_idle					= ras_m4a1_hand_idle, idle
+anm_idle_aim				= ras_m4a1_hand_idle_aim, idle
+anm_idle_aim_moving			= ras_m4a1_hand_idle_walk,idle
+anm_idle_moving_crouch		= ras_m4a1_hand_crouch, idle
+anm_idle_aim_moving_crouch	= ras_m4a1_hand_crouch, idle
+anm_idle_moving				= ras_m4a1_hand_walk, idle
+anm_idle_sprint				= ras_m4a1_hand_run, idle
+anm_reload					= ras_m4a1_hand_reload, ras_m4a1_reload
+anm_reload_empty			= ras_m4a1_hand_reload_empty, ras_m4a1_reload_empty
+anm_reload_misfire			= ras_m4a1_hand_misfire, ras_m4a1_misfire
+anm_shots					= ras_m4a1_hand_shot, ras_m4a1_shot
+anm_show					= ras_m4a1_hand_in, idle
+anm_switch					= ras_m4a1_hand_switch_off, ras_m4a1_switch_off
+
+shell_point	= 0, -0.03, 0
+
+fire_point	= 0.000107, -0.011502, -0.096711
+
+freelook_z_offset_mul	= 0.15

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_kragjorg_j">
+		<text>Krag-Jorgensen Rifle</text>
+	</string>
+	<string id="st_wpn_kragjorg_j_s">
+		<text>Krag-Jorgensen</text>
+	</string>
+	<string id="st_wpn_kragjorg_j_descr">
+		<text>The Swedish Krag–Jørgensen rifle, adopted in 1894, is a unique bolt-action rifle known for its innovative side-loading magazine and smooth action. Developed by Ole Herman Johannes Krag and Erik Jørgensen, the rifle was used primarily by Swedish forces through the early 20th century. It fired a 6.5x55mm cartridge, which was relatively advanced for the time, providing excellent accuracy and manageable recoil. The side-mounted magazine allowed soldiers to top off rounds without opening the bolt, a feature that gave it a distinctive edge in prolonged engagements. Though eventually phased out in favor of more modern rifles, the Swedish Krag remains celebrated for its craftsmanship and historic significance.\n \n</text>
+	</string>
+</string_table>

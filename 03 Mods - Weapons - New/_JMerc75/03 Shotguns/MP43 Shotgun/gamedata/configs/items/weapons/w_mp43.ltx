@@ -1,0 +1,241 @@
+;------------------------------------------------------------------------------------------------
+[wpn_mp43]:identity_immunities,weapon_probability,default_weapon_params,wpn_bm16_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\mp43"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_mp43
+
+class							= WP_ASHTG
+slot							= 2
+animation_slot					= 9
+ef_main_weapon_type				= 1
+ef_weapon_type					= 9
+hand_dependence					= 1
+single_handed					= 0
+
+icons_texture					= ui\ui_icon_mp43
+inv_grid_height					= 1
+inv_grid_width					= 5
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_mp43
+inv_name_short					= st_wpn_mp43
+description						= st_wpn_mp43_descr
+
+kind							= w_shotgun
+inv_weight						= 3.0
+cost							= 23965
+repair_type						= shotgun
+weapon_class					= shotgun
+
+hud								= wpn_mp43_hud
+visual							= dynamics\weapons\wpn_mp43\wpn_mp43_world.ogf
+orientation						= 0.259392, -4.014512, -0.02446
+position						= -0.026, -0.096, -0.030165
+fire_point						= 0, 0.136, 0.39
+fire_point2						= 0, 0.136, 0.39
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_orientation				= 0.402101, -13.829015, 110
+strap_position					= -0.251841, -0.147762, 0.15
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= amik\weapons\smoke_particles\smoke_particles_pump_01
+
+shell_point						= 0,0.180,0.647
+;shell_particles				= weapons\12ga
+
+light_color						= 0.6, 0.5, 0.3
+light_range						= 6.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_bm16, up_gr_seconab_bm16, up_gr_thirdab_bm16
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_bm16
+upgr_icon_path					= ui\ui_icon_mp43
+upgr_icon_x						= 250
+upgr_icon_y						= 0
+upgr_icon_width					= 250
+upgr_icon_height				= 100
+
+fire_modes						= 1, 2
+ammo_class						= ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad, ammo_12x70_buck_self
+ammo_elapsed					= 2
+ammo_mag_size					= 2
+startup_ammo					= 20
+
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_status					= 0
+
+grenade_launcher_status			= 0
+
+hit_impulse						= 35
+hit_power						= 0.79, 0.79, 0.79, 0.79
+hit_type						= fire_wound
+fire_distance					= 300
+bullet_speed					= 340
+rpm								= 350
+rpm_mode_2						= 1800
+rpm_empty_click					= 200
+base_dispersioned_bullets_count	= 2
+base_dispersioned_bullets_speed	= 900
+
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.5
+fire_dispersion_base			= 0.454
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.91
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.16
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0026
+condition_shot_dec				= 0.0026
+
+cam_return						= 0
+cam_relax_speed					= 20
+cam_dispersion					= 6.4
+cam_dispersion_frac				= 0.9
+cam_dispersion_inc				= 5.2
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 2.35
+zoom_cam_relax_speed			= 16
+zoom_cam_dispersion				= 5.84
+zoom_cam_dispersion_frac		= 0.63
+zoom_cam_dispersion_inc			= 4.3
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 2.28
+
+PDM_disp_accel_factor			= 1.85
+PDM_disp_base					= 1.7
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 1.8
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 120.75
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 171
+kill_msg_y						= 104
+kill_msg_width					= 75
+kill_msg_height					= 20
+
+snd_reload_1		= weapons\mp43\mp43_reload
+snd_reload			= weapons\mp43\mp43_reload
+snd_reload_empty	= weapons\mp43\mp43_reload_empty
+snd_reload_misfire	= weapons\mp43\mp43_unjam
+
+[wpn_mp43_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_mp43\wpn_mp43_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position			= 0, 0, 0
+item_orientation		= 0, 0, 0
+
+lowered_hud_offset_pos		= 0.120933, 0.011034, 0
+lowered_hud_offset_pos_16x9	= 0.120933, 0.011034, 0
+lowered_hud_offset_rot		= 0.101848, -0.834027, 0.1
+lowered_hud_offset_rot_16x9	= 0.101848, -0.834027, 0.1
+
+aim_hud_offset_pos		= -0.068006, 0.037204, -0.052298
+aim_hud_offset_pos_16x9	= -0.068006, 0.037204, -0.052298
+aim_hud_offset_rot		= 0.008302, -0.002271, 0.01
+aim_hud_offset_rot_16x9	= 0.008302, -0.002271, 0.01
+hands_orientation		= -0.174664, 0.646224, 0.6
+hands_orientation_16x9	= -0.174664, 0.646224, 0.6
+hands_position			= -0.019895, 0.042477, -0.057587
+hands_position_16x9		= -0.019895, 0.042477, -0.057587
+
+anm_bore					= mp43_inspecting, idle
+anm_hide					= mp43_store, idle
+anm_idle					= mp43_idle, idle
+anm_idle_aim				= mp43_idle_aim
+anm_idle_aim_moving			= mp43_idle_aim, idle, 1.5
+anm_idle_aim_moving_crouch	= mp43_idle_aim, idle, 1.2
+anm_idle_moving				= mp43_walk, idle, 1.85
+anm_idle_moving_crouch		= mp43_walk, idle, 1.85
+anm_idle_sprint				= mp43_run, idle, 1.9
+anm_reload					= mp43_reloading, reloading
+anm_reload_empty			= mp43_reloading_empty, reloading_empty
+anm_shots					= mp43_shooting, shooting
+anm_show					= mp43_pullout, idle
+anm_reload_misfire			= mp43_unjam, unjam
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= -50, -50, -50
+
+fire_bone	= muzzle
+fire_bone2	= muzzle
+fire_point	= 0, 0, 0.5
+fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul	= 0.3
+
+;------------------------------------------------------------------------------------------------
+[wpn_mp43_long]:wpn_mp43,wpn_bm16full_sounds
+parent_section		= wpn_mp43_long
+
+hand_dependence		= 1
+single_handed		= 0
+
+icons_texture		= ui\ui_icon_mp43
+inv_grid_height		= 1
+inv_grid_width		= 6
+inv_grid_x			= 0
+inv_grid_y			= 1
+inv_name			= wpn_mp43_long
+inv_name_short		= wpn_mp43_long
+description			= wpn_mp43_long_descr
+
+inv_weight			= 3.4
+cost				= 28413
+
+visual				= dynamics\weapons\wpn_mp43\wpn_mp43_long_world.ogf
+hud					= wpn_mp43_long_hud
+
+upgr_icon_path		= ui\ui_icon_mp43
+upgr_icon_x			= 0
+upgr_icon_y			= 150
+upgr_icon_width		= 300
+upgr_icon_height	= 100
+
+hit_impulse			= 45
+hit_power			= 0.87, 0.87, 0.87, 0.87
+fire_distance		= 450
+
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 7.3
+fire_dispersion_base			= 0.31
+fire_dispersion_condition_factor= 0.001
+
+snd_reload_1		= weapons\mp43\mp43_reload
+snd_reload			= weapons\mp43\mp43_reload
+snd_reload_empty	= weapons\mp43\mp43_reload_empty
+snd_reload_misfire	= weapons\mp43\mp43_unjam
+
+[wpn_mp43_long_hud]:wpn_mp43_hud
+item_visual	= anomaly_weapons\wpn_mp43\wpn_mp43_long_hud.ogf

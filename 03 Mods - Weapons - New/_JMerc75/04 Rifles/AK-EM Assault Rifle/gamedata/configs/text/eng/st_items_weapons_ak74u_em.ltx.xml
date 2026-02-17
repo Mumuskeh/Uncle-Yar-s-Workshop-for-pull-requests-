@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak74u_em">
+		<text>AK-EM</text>
+	</string>
+	<string id="st_wpn_ak74u_em_descr">
+		<text>The AK74u is a compact variant of the renowned AK-74 assault rifle, known for its reliability and widespread use. With a shortened barrel and overall length, the AK74u is designed for close-quarters combat and special operations where maneuverability is crucial. It fires the 5.45x39mm ammunition, delivering decent accuracy and effective range in a compact package. The rifle features a folding stock for enhanced portability and ease of storage, making it suitable for airborne and armored units. Its rugged construction and simple design ensure durability and ease of maintenance, contributing to its popularity among military, law enforcement, and civilian users alike. The AK74u continues the tradition of the AK series, offering a reliable and potent firearm for situations requiring a compact and versatile weapon.\n
+		This special conversion for a specially zesty operative was converted to 5.56, for an easier use within NATO leaning factions. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most scopes for Picatinny/weaver\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Rifle Dynamics ISG Sound Suppressor\n</text>
+	</string>
+</string_table>

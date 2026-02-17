@@ -1,0 +1,150 @@
+[ammo_7.62x39_airburst]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_7.62x39_airburst"
+class			= AMMO
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_762x39_fmj.ogf
+$prefetch 		= 64
+
+cost			= 3530
+box_size		= 15
+inv_weight		= .26
+
+icons_texture	= ui\ui_icon_762x39_airburst
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 0
+
+inv_name		= st_ammo-7.62x39_airburst
+inv_name_short	= st_ammo-7.62x39_airburst_s
+description		= st_ammo-7.62x39_airburst_descr
+
+k_disp			= 1.1
+k_impulse		= 0.66
+k_ap			= 0.45
+k_air_resistance= 0.25
+wm_size			= 0.062
+k_cam_dispersion= 1.2
+
+tier			= 5
+
+
+
+;Vanilla ============	============	============	============
+
+![wpn_aek_duty]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_ak]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_ak103]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_ak104]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_akm]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_groza_nimble]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_rpd]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_rpk]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_sks]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_type63]
+>ammo_class	= ammo_7.62x39_airburst
+
+![up_sect_fifthc_galil]
+>ammo_class	= ammo_7.62x39_airburst
+![up_sect_firste_k98]
+>ammo_class	= ammo_7.62x39_airburst
+![up_sect_firste_mosin]
+>ammo_class	= ammo_7.62x39_airburst
+![up_sect_firste_svt40]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+;TWCP ============	============	============	============
+
+![wpn_mk47]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+; ALEX 	============	============	============	============
+
+![wpn_ak107_ranger107]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+;ATHIS  ============ ============ ============ ============
+
+; RPD Custom
+![wpn_rpd_custom]
+>ammo_class	= ammo_7.62x39_airburst
+;Vepr 7.62
+![wpn_vepr762x54]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+;;BILLWA  ============ ============ ============ ============
+
+;Type 56 and 81 Rifles Pack
+![wpn_type56]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_type56_1]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_type56_2]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_type81]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+;; JMERC  ============ ============ ============ ============
+
+![wpn_ak_ely]
+>ammo_class	= ammo_7.62x39_airburst
+;this is to make it act like a normal AK-47 that doesn't innately shoots this ammo
+hit_impulse		= 34
+hit_power		= 0.58, 0.58, 0.58, 0.58
+fire_distance	= 900
+bullet_speed	= 715
+fire_dispersion_base		= 0.49
+misfire_end_condition		= 0.05
+condition_queue_shot_dec	= 0.0007
+condition_shot_dec			= 0.0007
+cam_dispersion				= 0.762
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.0725
+cam_step_angle_horz			= 1.38
+zoom_cam_dispersion			= 0.732
+zoom_cam_dispersion_inc		= 0.0625
+zoom_cam_step_angle_horz	= 1.28
+PDM_disp_base				= 1.15
+
+;AK74u Rattler
+![wpn_ak_drummag]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_ak74u_rattler]
+>ammo_class	= ammo_7.62x39_airburst
+
+;PM MD
+![wpn_pm_md63]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_pm_md65]
+>ammo_class	= ammo_7.62x39_airburst
+![wpn_pm_md90]
+>ammo_class	= ammo_7.62x39_airburst
+
+; RK62 Valmet
+![wpn_rk62]
+>ammo_class	= ammo_7.62x39_airburst
+
+
+;;SEDZHIMOL  ============ ============ ============ ============
+
+![wpn_ace32]
+>ammo_class	= ammo_7.62x39_airburst
+
+![wpn_ak_alfa]
+>ammo_class	= ammo_7.62x39_airburst

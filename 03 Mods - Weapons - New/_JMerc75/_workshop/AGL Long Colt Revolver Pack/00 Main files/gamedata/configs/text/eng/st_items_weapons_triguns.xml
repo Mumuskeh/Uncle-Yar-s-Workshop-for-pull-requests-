@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+			<string id="st_wpn_trigun">
+		<text>12.7 Long Colt "Enforcer"</text>
+	</string>
+	<string id="st_wpn_trigun_descr">
+		<text>Introducing the AGL Arms 12.7 Long Colt Tactical revolver, a formidable firearm designed to combine power and precision. With its sleek and robust construction, this revolver boasts an impressive 8-round capacity, ensuring maximum firepower in critical situations. Engineered to shoot the specialized 12.77x55 ammunition, this revolver delivers exceptional stopping power and accuracy, making it an ideal choice for tactical operations and self-defense scenarios. The AGL Arms 12.7 Long Colt Tactical strikes the perfect balance between raw strength and refined craftsmanship, offering shooters a reliable and formidable sidearm for any high-stakes encounter.</text>
+	</string>
+			<string id="st_wpn_trigun_alt">
+		<text>12.7 Long Colt "Tactical"</text>
+	</string>
+	<string id="st_wpn_trigun_alt_descr">
+		<text>Introducing the AGL Arms 12.7 Long Colt Tactical revolver, a formidable firearm designed to combine power and precision. With its sleek and robust construction, this revolver boasts an impressive 8-round capacity, ensuring maximum firepower in critical situations. Engineered to shoot the specialized 12.77x55 ammunition, this revolver delivers exceptional stopping power and accuracy, making it an ideal choice for tactical operations and self-defense scenarios. The AGL Arms 12.7 Long Colt Tactical strikes the perfect balance between raw strength and refined craftsmanship, offering shooters a reliable and formidable sidearm for any high-stakes encounter.</text>
+	</string>
+		<string id="st_wpn_longcolt">
+		<text>.45 Long Colt</text>
+	</string>
+	<string id="st_wpn_longcolt_descr">
+		<text>Presenting the AGL Arms .45 Long Colt revolver, an iconic weapon recognized for its legendary status. Crafted with meticulous detail, this revolver combines a timeless design with unrivaled functionality. Boasting the classic .45 Long Colt caliber, it packs a punch capable of taking down even the most formidable adversaries. With a sleek, polished frame and ornate engravings adorning its surface, the AGL Arms .45 Long Colt exudes an air of sophistication and power. Its six-round cylinder provides a reliable and swift reload, allowing for rapid-fire action when every second counts. This revolver, with its rich history and unmistakable presence, stands as a symbol of strength and resilience, ready to be wielded by those who seek justice and protect the innocent. Re-chambered to 12.7x55mm ammunition by Zone technicians.</text>
+	</string>
+			<string id="st_wpn_longcolt_gauss">
+		<text>Long Colt "Gauss"</text>
+	</string>
+	<string id="st_wpn_longcolt_gauss_descr">
+		<text>Introducing the AGL Arms Gauss revolver, a legendary firearm renowned for its iconic design and unwavering reliability. This revolver exudes a timeless charm with its gleaming metallic finish and intricate engravings, capturing the essence of elegance and power. With a 6-round capacity, it delivers the perfect balance between firepower and practicality. The AGL Arms Gauss is chambered for the specialized "Gauss" ammunition, known for its electromagnetic acceleration and devastating impact. Its ergonomic grip and smooth trigger pull ensure exceptional handling and accuracy, empowering its wielder to face any challenge with confidence. Embodying a rich heritage of craftsmanship and durability, this revolver stands as a symbol of strength and justice.</text>
+	</string>
+</string_table>

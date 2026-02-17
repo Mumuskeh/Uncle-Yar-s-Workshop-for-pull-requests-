@@ -1,0 +1,241 @@
+;------------------------------------------------------------------------------------------------
+[wpn_delisle_snd_shoot]
+snd_1_layer	= weapons\delisle\delisle_shoot
+snd_2_layer	= weapons\_distance_shooting_mid\pm_distant
+;------------------------------------------------------------------------------------------------
+[wpn_delisle]:identity_immunities,weapon_probability,default_weapon_params;wpn_sv98_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\delisle"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_delisle
+
+class							= WP_ASHTG
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 3
+ef_weapon_type					= 11
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_delisle
+inv_grid_width					= 6
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+inv_name						= st_wpn_delisle
+inv_name_short					= st_wpn_delisle
+description						= st_wpn_delisle_descr
+
+kind							= w_sniper
+inv_weight						= 3.75
+cost							= 28963
+repair_type						= rifle_5
+weapon_class					= sniper_rifle
+
+hud								= wpn_delisle_hud
+visual							= dynamics\weapons\wpn_delisle\wpn_delisle_world.ogf
+position						= -0.026055, -0.116107, -0.006047
+orientation						= 0, 0, 0
+fire_point						= 0, 0.129, 0.942
+fire_point2						= 0, 0.129, 0.942
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.45
+strap_orientation				= -25, -189, 65
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon06
+smoke_particles					= ghost_particles\weapons\flame_eft_sks
+
+shell_point						= 0,0.129,0.192
+shell_dir						= 0,0,0.4
+;shell_particles				= weapons\45acp
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 4.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_sks, up_gr_seconab_sks, up_gr_thirdab_sks
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_toz34
+upgr_icon_path					= ui\ui_icon_delisle
+upgr_icon_x						= 0
+upgr_icon_y						= 100
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1
+ammo_class						= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+ammo_elapsed					= 7
+ammo_mag_size					= 7
+startup_ammo					= 14
+
+scopes							= none
+scope_status					= 0
+scope_dynamic_zoom				= off
+scope_zoom_factor				= 0
+
+silencer_status					= 1
+silencer_x						= 272
+silencer_y						= 22
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_launcher_status			= 0
+
+hit_impulse						= 45
+hit_power						= 0.60, 0.60, 0.60, 0.60
+hit_type						= fire_wound
+fire_distance					= 700
+bullet_speed					= 450
+rpm								= 30
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 1.0
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 2.2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 9.2
+fire_dispersion_base			= 0.08
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.86
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.16
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0048
+condition_shot_dec				= 0.0048
+
+cam_return						= 0
+cam_relax_speed					= 8
+cam_dispersion					= 2.0
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 0.69
+zoom_cam_dispersion				= 1.5
+
+PDM_disp_accel_factor			= 1.355
+PDM_disp_base					= 0.75
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 1.35
+
+cam_relax_speed_ai				= 360
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 0
+kill_msg_y						= 0
+kill_msg_width					= 98
+kill_msg_height					= 23
+
+scope_zoom_factor_alt			= 0
+
+hud_fov							= 0.7
+;----------------------------------------------------------------------SND------------------------------------------------------------------------------
+snd_draw				= weapons\toz106\draw
+snd_holster				= weapons\toz106\hide
+snd_shoot				= wpn_r700sp_snd_silenced
+snd_shoot_actor			= wpn_r700sp_snd_silenced_actor
+snd_silncer_shot		= wpn_r700sp_snd_silenced
+snd_silncer_shot_actor	= wpn_r700sp_snd_silenced_actor
+snd_bore				= weapons\toz106\inspect
+snd_empty				= weapons\toz106\empty_click_rifle
+snd_reload				= weapons\toz106\reload
+snd_reload_empty		= weapons\toz106\reload_empty
+snd_close				= weapons\toz106\sil
+snd_reload_misfire		= weapons\toz106\reload_empty
+;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
+[wpn_delisle_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_delisle\wpn_delisle_hud.ogf
+
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+aim_hud_offset_pos		= -0.051264, 0.023392, -0.027897
+aim_hud_offset_pos_16x9	= -0.051264, 0.023392, -0.027897
+aim_hud_offset_rot		= 0.003161, 0.022356, -0.0465
+aim_hud_offset_rot_16x9	= 0.003161, 0.022356, -0.0465
+
+hands_orientation		= 1.880008, 3.633328, -2.649999
+hands_orientation_16x9	= 1.880008, 3.633328, -2.649999
+hands_position			= -0.033289, -0.027688, -0.1724
+hands_position_16x9		= -0.033289, -0.027688, -0.1724
+
+item_orientation	= -0.450012, -3.506626, 0
+item_position		= 0.002237, -0.001207, 0
+
+lowered_hud_offset_pos		= 0.094829, 0.004697, 0
+lowered_hud_offset_pos_16x9	= 0.094829, 0.004697, 0
+lowered_hud_offset_rot		= 0.114366, -0.854025, 0.1
+lowered_hud_offset_rot_16x9	= 0.114366, -0.854025, 0.1
+
+anm_show		= del_draw, delisle_draw
+anm_show_empty	= del_draw, delisle_draw_empty
+
+anm_hide		= del_hide, delisle_hide
+anm_hide_empty	= del_hide, delisle_hide_empty
+
+anm_idle		= del_idle, idle
+anm_idle_empty	= del_idle, idle_empty
+
+anm_shots	= del_shoot_1, delisle_shoot_1
+anm_shots1	= del_shoot_2, delisle_shoot_2
+anm_shot_l	= del_shoot_2, delisle_shoot_last_new
+
+anm_idle_aim		= del_idle_aim, idle_aim
+anm_idle_aim_empty	= del_idle_aim, idle_aim_empty
+
+anm_reload			= del_reload, delisle_reload
+anm_reload_empty	= del_reload_empty, delisle_reload_empty_old
+
+anm_idle_moving			= del_idle_moving, idle
+anm_idle_moving_empty	= del_idle_moving, idle_empty
+
+anm_idle_moving_crouch			= del_idle_moving, idle
+anm_idle_moving_empty_crouch	= del_idle_moving, idle_empty
+
+anm_idle_sprint			= del_idle_sprint, idle
+anm_idle_sprint_empty	= del_idle_sprint, idle_empty
+
+anm_bore		= del_inspect, delisle_inspect
+anm_bore_empty	= del_inspect, delisle_inspect_empty
+
+anm_reload_misfire	= del_reload_empty, delisle_reload_empty_old
+
+shell_dir	= 0, 1, 0
+shell_point	= 0,0,0 ;0.013,0.046,0.463
+shell_bone	= shell
+
+fire_point	= 0,0,0 ;0,0.045,0.142
+fire_bone	= muzzle
+fire_point2	= 0.0,0.0,0.0
+fire_bone2	= wpn_body
+
+freelook_z_offset_mul	= 0.4

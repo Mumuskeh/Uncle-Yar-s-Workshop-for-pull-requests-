@@ -1,0 +1,194 @@
+
+[up_sect_firsta_aylmao]
+cost						= 1580
+value						= +10
+rpm							= +27
+inv_weight					= +0.08
+
+[up_sect_firstc_aylmao]
+cost						= 1960
+value						= +15
+
+condition_shot_dec			= -0.0002
+condition_queue_shot_dec	= -0.0002
+misfire_start_prob			= -0.0013
+misfire_end_prob			= -0.013
+inv_weight					= +0.09
+
+[up_sect_firstd_aylmao]
+cost						= 1710
+value						= -10
+cam_dispersion				= -0.062
+cam_dispersion_inc			= 0.0 ;-0.071
+cam_step_angle_horz			= -0.042
+inv_weight					= +0.04
+
+[up_sect_firste_aylmao]
+cost						= 2690
+
+;value						= "2-round hyperburst"
+;rpm						= +750
+;rpm_2						= 1500
+
+fire_modes					= 2, 1
+;fire_dispersion_base		= +0.17
+;cam_dispersion				= +0.038
+;cam_step_angle_horz		= +0.025
+
+[up_sect_fiftha_aylmao]
+cost						= 1550
+
+silencer_status				= 2
+silencer_name				= wpn_sil_gemtech
+silencer_x					= 60
+silencer_y					= -12
+snd_silncer_shot			= weapons\glock\glock_shot_sil
+inv_weight					= +0.07
+
+[up_sect_fifthc_aylmao]
+cost						= 2950
+;value						= ".45	ACP"
+;ammo_class					= ammo_11.43x23_fmj, ammo_11.43x23_fmj_bad, ammo_11.43x23_fmj_verybad, ammo_11.43x23_hydro, ammo_11.43x23_hydro_bad, ammo_11.43x23_hydro_verybad
+value						= "9x21mm	SP10"
+ammo_class					= ammo_9x21_sp10
+ammo_elapsed				= -2
+ammo_mag_size				= -2
+hit_impulse					= 29
+hit_power					= 0.49, 0.49, 0.49, 0.49
+;hit_power					= 0.55, 0.55, 0.55, 0.55
+
+;shell_particles			= weapons\45acp
+
+snd_shoot					= wpn_usp_snd_shoot
+
+rpm							= +25
+;cam_dispersion				= +0.35
+;zoom_cam_dispersion		= +0.18
+;cam_dispersion_inc			= +0.06
+inv_weight					= +0.06
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_firsta_aylmao]
+scheme_index			= 0, 0
+known					= 1
+effects					= up_gr_firstcd_aylmao
+section					= up_sect_firsta_aylmao
+property				= prop_rpm
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= on_weapon_upgrade_something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zatp_a1_name
+description				= st_up_zatp_a1_descr
+icon					= ui_inGame2_upgrade_Marta_1
+
+[up_firstc_aylmao]
+scheme_index			= 1, 0
+known					= 1
+effects					= up_gr_firstef_aylmao
+section					= up_sect_firstc_aylmao
+property				= prop_reliability
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zatp_b5_name
+description				= st_up_zatp_b5_descr
+icon					= ui_inGame2_upgrade_Marta_2
+
+[up_firstd_aylmao]
+scheme_index			= 1, 1
+known					= 1
+effects					= up_gr_firstef_aylmao
+section					= up_sect_firstd_aylmao
+property				= prop_recoil
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zatp_b7_name
+description				= st_up_zatp_b7_descr
+icon					= ui_inGame2_upgrade_Marta_3
+
+[up_firste_aylmao]
+scheme_index			= 2, 0
+known					= 1
+effects					=
+section					= up_sect_firste_aylmao
+property				= prop_3xfire
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zatp_c7_name
+description				= st_up_zatp_c7_descr
+icon					= ui_inGame2_upgrade_Volker_P9M_4
+
+[up_fiftha_aylmao]
+scheme_index			= 0, 4
+known					= 1
+effects					= up_gr_fifthcd_aylmao
+section					= up_sect_fiftha_aylmao
+property				= prop_silencer
+
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_add_a1_name
+description				= st_up_add_a1_descr
+icon					= ui_inGame2_upgrade_Marta_14
+
+[up_fifthc_aylmao]
+scheme_index			= 1, 7
+known					= 1
+effects					=
+section					= up_sect_fifthc_aylmao
+property				= prop_calibre
+
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= 9x21mm_Conversion ;st_up_aylmao_45acp_name
+description				= st_up_add_b3_descr
+icon					= ui_inGame2_upgrade_Marta_15
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_gr_firstab_aylmao]
+elements	= up_firsta_aylmao
+
+[up_gr_firstcd_aylmao]
+elements	= up_firstc_aylmao, up_firstd_aylmao
+
+[up_gr_firstef_aylmao]
+elements	= up_firste_aylmao
+
+[up_gr_fifthab_aylmao]
+elements	= up_fiftha_aylmao
+
+[up_gr_fifthcd_aylmao]
+elements	= up_fifthc_aylmao

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m24_j">
+		<text>M24 USMC</text>
+	</string>
+	<string id="st_wpn_m24_j_descr">
+		<text>The M24 USMC Marksman Rifle is a highly regarded precision weapon utilized by the United States Marine Corps. Designed for long-range engagements, it boasts exceptional accuracy, reliability, and versatility. Featuring a bolt-action system, the M24 is chambered for the .308 Winchester cartridge, providing ample stopping power. With its robust construction and adjustable stock, the rifle offers enhanced stability and ergonomics for the shooter. Equipped with an effective optics system, including a high-power scope, the M24 allows skilled marksmen to engage targets at extended distances with pinpoint precision. Its effective range, combined with superior craftsmanship and the Marines' rigorous training, makes the M24 a formidable weapon in the hands of a skilled operator.\n \n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Daniel Defence Wave QD Suppressor\n</text>
+	</string>
+</string_table>

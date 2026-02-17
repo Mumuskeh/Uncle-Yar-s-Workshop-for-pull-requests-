@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak_458">
+		<text>AK-458 SOCOM</text>
+	</string>
+	<string id="st_wpn_ak_458_descr">
+		<text>The AK-458 is a formidable AK-style rifle chambered in .458 SOCOM. This rugged and reliable firearm combines the iconic design and legendary reliability of the AK platform with the raw power of the .458 SOCOM cartridge. With its robust construction, gas-operated system, 16-inch barrel, and detachable box magazine, the AK-458 delivers devastating stopping power and exceptional performance in any environment. Equipped with adjustable iron sights and a Picatinny rail for optics, this rifle offers precise targeting capabilities. Featuring an adjustable stock and ergonomic pistol grip, the AK-458SO ensures shooter comfort and control. Whether for tactical applications or hunting larger game, the AK-458 is a force to be reckoned with, delivering unmatched performance in a compact and versatile package.\n
+		Due to the scarcity of .458 SOCOM in the Zone, this weapon has been rechambered for 9x39 rounds.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most scopes for Picatinny/weaver with the exception of dual-mount optics. \n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Daniel Defence Wave QD Suppressor. \n</text>
+	</string>
+	<string id="st_wpn_ak_458_tac">
+		<text>AK-458 SOCOM Tactical</text>
+	</string>
+</string_table>

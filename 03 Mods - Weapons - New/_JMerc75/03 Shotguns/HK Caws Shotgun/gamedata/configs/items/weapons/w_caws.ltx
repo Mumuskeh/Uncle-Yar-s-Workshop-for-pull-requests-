@@ -1,0 +1,257 @@
+;------------------------------------------------------------------------------------------------
+[wpn_caws]:identity_immunities,weapon_probability,default_weapon_params,wpn_famas_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\caws"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_caws
+hud_fov							= 0.65
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 7
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_caws
+inv_grid_height					= 2
+inv_grid_width					= 5
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_caws
+inv_name_short					= st_wpn_caws
+description						= st_wpn_caws_descr
+
+kind							= w_shotgun
+inv_weight						= 3.81
+cost							= 63953
+repair_type						= shotgun
+weapon_class					= shotgun
+
+hud								= wpn_caws_hud
+visual							= dynamics\weapons\wpn_caws\wpn_caws_world.ogf
+position						= -0.024744, -0.134344, 0.004114
+orientation						= 0, 0, 0
+fire_point						= 0.0, 0.186, 0.435
+fire_point2						= 0.0, 0.106, 0.468
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_orientation				= -9.577597, -5.2554, 49.77958
+strap_position					= -0.315861, -0.297831, 0.15173
+ph_mass							= 5
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= weapons\generic_shoot_00
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= -0.020000,0.167000,0.082000
+shell_dir						= 0.0, 0.0, 0.4
+shell_particles					= weapons\12ga
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_saiga12, up_gr_seconab_saiga12, up_gr_thirdab_saiga12, up_gr_fourtab_saiga12, up_gr_fifthab_saiga12
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_ak74u
+
+upgr_icon_x						= 1450
+upgr_icon_y						= 350
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1, -1
+ammo_class						= ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad; ammo_12x70_buck_self
+ammo_elapsed					= 20
+ammo_mag_size					= 20
+startup_ammo					= 90
+
+scopes							= none
+scope_status					= 1
+scope_zoom_factor				= 20
+scope_texture					= wpn_crosshair_marchf_unic
+scope_dynamic_zoom				= off
+
+silencer_name					= wpn_sil_nato
+silencer_status					= 0
+silencer_x						= 215
+silencer_y						= 17
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_class					= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_status			= 0
+launch_speed					= 0
+
+hit_impulse						= 50
+hit_power						= 0.85, 0.85, 0.85, 0.85
+hit_type						= fire_wound
+fire_distance					= 520
+bullet_speed					= 375
+rpm								= 350
+rpm_empty_click					= 200
+
+use_aim_bullet					= true
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 1.7
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.5
+fire_dispersion_base			= 0.46
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.88
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0011
+condition_shot_dec				= 0.0011
+
+cam_return						= 0
+cam_relax_speed					= 10
+cam_dispersion					= 6.6
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 0.0
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.24
+zoom_cam_relax_speed			= 9
+zoom_cam_dispersion				= 5.3
+zoom_cam_dispersion_frac		= 0.8
+zoom_cam_dispersion_inc			= 0.0
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.12
+
+PDM_disp_accel_factor			= 2.4
+PDM_disp_base					= 0.96
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.4
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 360
+holder_fov_modifier				= 0.7
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 84
+kill_msg_y						= 28
+kill_msg_width					= 73
+kill_msg_height					= 30
+
+snd_draw				= weapons\caws\draw
+snd_holster				= weapons\caws\hide
+snd_reload				= weapons\caws\reload
+snd_reload_empty		= weapons\caws\reload_empty
+snd_reload_misfire		= weapons\caws\revival
+snd_switch_mode			= weapons\caws\firemode
+snd_shoot				= wpn_usas12_snd_shoot
+snd_shoot_actor			= wpn_usas12_snd_shoot_actor
+snd_silncer_shot		= wpn_saiga_snd_silenced
+snd_silncer_shot_actor	= wpn_saiga_snd_silenced_actor
+
+
+[wpn_caws_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_caws\wpn_caws_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= -0.001646, -0.002497, -0.003258
+item_orientation	= 2.129384, -2.426648, 0
+
+hands_position			= -0.01413, -0.006464, -0.090175
+hands_position_16x9		= -0.01413, -0.006464, -0.090175
+hands_orientation		= 0.37759, 4.617757, 0.15
+hands_orientation_16x9	= 0.37759, 4.617757, 0.15
+
+aim_hud_offset_pos		= 0.012345, 0.004474, -0.008789
+aim_hud_offset_pos_16x9	= 0.012345, 0.004474, -0.008789
+aim_hud_offset_rot		= 0.031477, 0.040454, -0.0024
+aim_hud_offset_rot_16x9	= 0.031477, 0.040454, -0.0024
+
+lowered_hud_offset_pos		= 0.129204, -0.005398, 0
+lowered_hud_offset_pos_16x9	= 0.129204, -0.005398, 0
+lowered_hud_offset_rot		= 0.149777, -0.826346, 0.1
+lowered_hud_offset_rot_16x9	= 0.149777, -0.826346, 0.1
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide					= caws_hide, idle
+anm_idle					= caws_idle, idle
+anm_idle_aim				= caws_aim, idle
+anm_idle_aim_moving			= caws_walk, idle, 0.75
+anm_idle_aim_moving_crouch	= caws_walk, idle, 0.75
+anm_idle_moving				= caws_walk, idle
+anm_idle_moving_crouch		= caws_walk, idle, 0.75
+anm_idle_sprint				= caws_sprint, idle, 1.1
+anm_reload					= caws_reload, caws_reload
+anm_reload_empty			= caws_reload_empty, caws_reload_empty
+anm_reload_misfire			= caws_misfire_scope, caws_revival
+anm_shots					= caws_shoot, caws_shoot
+anm_shots_aim				= caws_aim_shoot, caws_shoot
+anm_show					= caws_draw, idle
+anm_switch_mode				= caws_fire_select, idle
+anm_idle_aim_start			= caws_aim_start, idle
+anm_idle_aim_end			= caws_aim_end, idle
+anm_bore					= caws_dry, idle, 0.62
+
+anm_hide_jammed						= caws_hide, idle_jammed
+anm_idle_jammed						= caws_idle, idle_jammed
+anm_idle_aim_jammed					= caws_aim, idle_jammed
+anm_idle_aim_moving_jammed			= caws_walk, idle_jammed, 0.75
+anm_idle_aim_moving_crouch_jammed	= caws_walk, idle_jammed, 0.7
+anm_idle_moving_jammed				= caws_walk, idle_jammed
+anm_idle_moving_crouch_jammed		= caws_walk, idle_jammed, 0.7
+anm_idle_sprint_jammed				= caws_sprint, idle_jammed
+anm_show_jammed						= caws_draw, idle_jammed
+anm_idle_aim_start_jammed			= caws_aim_start, idle_jammed
+anm_idle_aim_end_jammed				= caws_aim_end, idle_jammed
+anm_bore_jammed						= caws_dry, idle_jammed
+
+;--- Переходы ---
+anm_sprint_start		= caws_sprint_start, idle
+anm_sprint_start_jammed	= caws_sprint_start, idle_jammed
+
+anm_sprint_end			= caws_sprint_end, idle
+anm_sprint_end_jammed	= caws_sprint_end, idle_jammed
+
+;--- Паттерны ---
+ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
+ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
+
+shell_bone	= wpn_body
+shell_dir	= 200, 200, 200
+shell_point	= 200, 200, 200
+
+fire_bone	= wpn_body
+fire_bone2	= wpn_body
+fire_point	= -0.005, 0.005, 0.600404
+fire_point2	= 0, 0, 0.3
+
+freelook_z_offset_mul	= 0.7

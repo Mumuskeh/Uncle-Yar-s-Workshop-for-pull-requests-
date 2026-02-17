@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m16_xm177_j">
+		<text>Colt CAR-15 Commando XM177</text>
+	</string>
+	<string id="st_wpn_m16_xm177_j_s">
+		<text>XM177</text>
+	</string>
+	<string id="st_wpn_m16_xm177_j_descr">
+		<text>The XM177 Carbine, also known as the Colt Commando or CAR-15, is a compact and versatile firearm designed for use by U.S. military forces during the Vietnam War. Featuring a shorter 10-inch or 11.5-inch barrel and a distinctive flash suppressor, the XM177 was engineered for enhanced maneuverability and reduced weight, making it ideal for jungle warfare and close-quarters engagements. Chambered in 5.56x45mm NATO, it maintains the firepower and reliability of the M16 rifle in a more portable package. Its collapsible stock further enhances its adaptability, allowing operators to adjust the length for comfort and tactical advantage. The XM177's innovative design and performance in harsh environments have left a lasting legacy in the evolution of modern carbines.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most for the Picatinny/weeaver system except for RMR. Kits\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 5.56 NATO Suppressor\n</text>
+	</string>
+</string_table>

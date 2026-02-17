@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_staccato_2011">
+		<text>Staccato 2011</text>
+	</string>
+	<string id="st_wpn_staccato_2011_descr">
+		<text>The Staccato 2011 pistol is a high-capacity, double-stack firearm favored by competitive shooters and tactical professionals. Known for its ergonomic grip and modular design, it allows extensive customization, from adjustable sights to various slide configurations. Precision-machined components and a finely tuned trigger ensure exceptional accuracy and reliability, making it ideal for both sport and defense.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255] .45 suppressor</text>
+	</string>
+
+	<string id="st_mag_staccato_2011_ext">
+		<text>Stacatto 2011 11-Round Magazine.</text>
+	</string>
+	<string id="st_mag_staccato_2011_ext_descr">
+		<text>Magazine for the Stacatto 2011 pistol, houses 11 rounds of .45 ACP ammunition.</text>
+	</string>
+
+</string_table>

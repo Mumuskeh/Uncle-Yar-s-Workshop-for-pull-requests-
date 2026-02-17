@@ -1,0 +1,232 @@
+;------------------------------------------------------------------------------------------------
+[wpn_higgins_snd_shoot]
+snd_1_layer	= weapons\_gunfire\mono\mp133\close_1
+snd_2_layer	= weapons\_gunfire\mono\mp133\Close_Distance
+snd_3_layer	= weapons\_gunfire\mono\mp133\Medium_Distance
+snd_4_layer	= weapons\_shared\mono\Reflectors\127\Reflector_1, 0.5
+snd_6_layer	= weapons\_shared\mono\shotgun\far_1
+snd_7_layer	= weapons\_shared\mono\shotgun\tail_1, 0.5
+snd_8_layer	= weapons\_shared\mono\shotgun\mid_shotgun
+snd_9_layer	= weapons\higgins\bolt
+
+[wpn_higgins_snd_shoot_actor]
+snd_1_layer	= weapons\_gunfire\stereo\mp133\Close_1
+snd_2_layer	= weapons\_shared\stereo\reflectors\shotgun\Reflector_1, 0.5
+snd_3_layer	= weapons\_shared\stereo\echo_1, 0.25
+snd_4_layer	= weapons\higgins\bolt
+snd_5_layer	= weapons\_bass\bass_mid
+;------------------------------------------------------------------------------------------------
+[wpn_higgins]:identity_immunities,weapon_probability,default_weapon_params,wpn_k98_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\higgins"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_higgins
+
+class							= WP_ASHTG
+slot							= 2
+animation_slot					= 3
+ef_main_weapon_type				= 3
+ef_weapon_type					= 8
+hand_dependence					= 1
+single_handed					= 0
+
+inv_grid_width					= 5
+inv_grid_height					= 1
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+icons_texture					= ui\ui_icon_higgins
+
+inv_name						= st_wpn_higgins
+inv_name_short					= st_wpn_higgins
+description						= st_wpn_higgins_descr
+
+kind							= w_shotgun
+inv_weight						= 3.2
+cost							= 23654
+repair_type						= shotgun
+weapon_class					= shotgun
+
+hud								= wpn_higgins_hud
+visual							= dynamics\weapons\wpn_higgins\wpn_higgins_world.ogf
+orientation						= 0.2208, 33.782408, 0
+position						= -0.016, -0.005, 0.010394
+fire_point						= 0.0, 0.149, 0.742
+fire_point2						= 0.0, 0.149, 0.742
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.45
+strap_orientation				= -25, -189, 65
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon05
+;smoke_particles					= ghost_particles\weapons\flame_eft_sks
+
+shell_point							= 0.0, 0.129, 0.192
+;shell_particles				= weapons\generic_shells_shotgun
+
+light_color						= 0.6, 0.5, 0.3
+light_range						= 4.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_toz34, up_gr_seconab_toz34, up_gr_thirdab_toz34
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_toz34
+upgr_icon_path					= ui\ui_icon_higgins
+upgr_icon_x						= 0
+upgr_icon_y						= 50
+upgr_icon_width					= 250
+upgr_icon_height				= 50
+
+tri_state_reload				= on
+fire_modes						= 1
+ammo_class						= ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad, ammo_12x70_buck_self
+ammo_elapsed					= 4
+ammo_mag_size					= 4
+startup_ammo					= 16
+
+scopes							= none
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_forester
+silencer_status					= 0
+silencer_x						= 270
+silencer_y						= -18
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+;silencer_smoke_particles		= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_launcher_status			= 0
+
+hit_impulse						= 40
+hit_power						= 0.83, 0.83, 0.83, 0.83
+hit_type						= fire_wound
+fire_distance					= 450
+bullet_speed					= 400
+rpm								= 28
+rpm_empty_click					= 200
+
+zoom_dof						= 0.5, 1.0, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 7.8
+fire_dispersion_base			= 0.13
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.7
+misfire_start_prob				= 0.05
+misfire_end_condition			= 0.15
+misfire_end_prob				= 0.1
+
+condition_queue_shot_dec		= 0.0015
+condition_shot_dec				= 0.0015
+
+cam_return						= 0
+cam_relax_speed					= 5.0
+cam_dispersion					= 5.84
+cam_dispersion_frac				= 0.9
+cam_dispersion_inc				= 4.48
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.0
+zoom_cam_relax_speed			= 5.0
+zoom_cam_dispersion				= 5.04
+zoom_cam_dispersion_frac		= 0.7
+zoom_cam_dispersion_inc			= 4.98
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.0
+
+PDM_disp_accel_factor			= 1.955
+PDM_disp_base					= 1.85
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 1.95
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 120.75
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 72
+kill_msg_y						= 82
+kill_msg_width					= 56
+kill_msg_height					= 23
+hud_fov							= 0.7
+
+;------------------------------------------------------------------------------------------------
+snd_draw			= weapons\mosin_cw\mosin_cw_draw
+snd_holster			= weapons\mosin_cw\mosin_cw_holster
+snd_shoot			= wpn_higgins_snd_shoot
+snd_shoot_actor		= wpn_higgins_snd_shoot_actor
+snd_empty			= weapons\mosin_cw\mosin_cw_empty
+snd_reload			= weapons\mosin_cw\mosin_cw_reload
+snd_shoot_duplet	= wpn_higgins_snd_shoot
+snd_open_weapon		= weapons\mosin_cw\mosin_cw_reload_start
+snd_close_weapon	= weapons\mosin_cw\mosin_cw_reload_end
+snd_add_cartridge1	= weapons\mosin_cw\mosin_cw_cartridge_1
+snd_add_cartridge2	= weapons\mosin_cw\mosin_cw_cartridge_2
+snd_add_cartridge3	= weapons\mosin_cw\mosin_cw_cartridge_3
+
+;------------------------------------------------------------------------------------------------
+[wpn_higgins_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_higgins\wpn_higgins_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.040307, 0.023462, 0
+aim_hud_offset_pos_16x9	= -0.040307, 0.023462, 0
+aim_hud_offset_rot		= -0.000206, 0.012219, 0
+aim_hud_offset_rot_16x9	= -0.000206, 0.012219, 0
+
+hands_orientation		= 0.719202, 0.200533, 0
+hands_orientation_16x9	= 0.719202, 0.200533, 0
+hands_position			= -0.004211, 0.013303, -0.01728
+hands_position_16x9		= -0.004211, 0.013303, -0.01728
+
+lowered_hud_offset_pos		= 0.057954, -0.005936, 0
+lowered_hud_offset_pos_16x9	= 0.057954, -0.005936, 0
+lowered_hud_offset_rot		= 0.037051, -0.540997, 0.315
+lowered_hud_offset_rot_16x9	= 0.037051, -0.540997, 0.315
+
+anm_hide		= mosin_cw_holster
+anm_idle		= mosin_cw_idle
+anm_idle_aim	= mosin_cw_idle_aim
+anm_idle_moving	= mosin_cw_walk
+anm_idle_sprint	= mosin_cw_sprint
+
+anm_close			= mosin_cw_reload_close
+anm_open			= mosin_cw_reload_open
+anm_add_cartridge	= mosin_cw_reload_addcartridge
+
+anm_shots	= mosin_cw_shoot
+anm_shot_l	= mosin_cw_shoot_last
+anm_show	= mosin_cw_draw
+anm_bore	= mosin_cw_inspect
+
+shell_bone	= wpn_body
+shell_dir	= 0.0, 1.0, 0.0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0

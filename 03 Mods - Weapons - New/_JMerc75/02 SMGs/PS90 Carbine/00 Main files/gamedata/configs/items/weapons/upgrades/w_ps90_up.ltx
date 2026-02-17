@@ -1,0 +1,529 @@
+
+
+[up_sect_firsta_ps90]
+cost						= 3280
+value						= -10
+cam_dispersion				= -0.044
+cam_dispersion_inc			= 0.0 ;-0.036
+cam_step_angle_horz			= -0.122
+zoom_cam_dispersion			= -0.037
+zoom_cam_dispersion_inc		= 0.0 ; -0.019
+zoom_cam_step_angle_horz	= -0.117
+inv_weight					= +0.15
+
+
+[up_sect_firstc_ps90]
+cost						= 3800
+value						= +10
+fire_dispersion_base		= -0.05
+
+inv_weight					= +0.05
+
+
+[up_sect_firstd_ps90]
+cost						= 3660
+value						= +5
+rpm							= +40
+inv_weight					= +0.1
+
+
+[up_sect_firste_ps90]
+cost						= 3990
+value						= +15
+crosshair_inertion			= -0.5
+PDM_disp_base				= -0.1
+PDM_disp_vel_factor			= -0.4
+PDM_disp_accel_factor		= -0.4
+inv_weight					= +0.05
+
+
+[up_sect_secona_ps90]
+cost						= 3540
+value						= +5
+rpm							= +40
+inv_weight					= +0.125
+
+
+[up_sect_seconc_ps90]
+cost						= 3750
+value						= +15
+
+condition_shot_dec			= -0.00014
+condition_queue_shot_dec	= -0.00014
+misfire_start_prob			= -0.001
+misfire_end_prob			= -0.016
+inv_weight					= +0.15
+
+
+[up_sect_secone_ps90]
+cost						= 4360
+value						= +20
+fire_dispersion_base		= -0.09
+
+inv_weight					= +0.1
+
+
+[up_sect_seconf_ps90]
+cost						= 5730
+value						= -10
+cam_dispersion				= -0.044
+cam_dispersion_inc			= 0.0 ;-0.036
+cam_step_angle_horz			= -0.122
+zoom_cam_dispersion			= -0.037
+zoom_cam_dispersion_inc		= 0.0 ; -0.019
+zoom_cam_step_angle_horz	= -0.117
+inv_weight					= +0.1
+
+
+[up_sect_thirda_ps90]
+cost						= 7730
+value						= -20
+cam_dispersion				= -0.052
+cam_dispersion_inc			= 0.0 ;-0.036
+cam_step_angle_horz			= -0.217
+zoom_cam_dispersion			= -0.127
+zoom_cam_dispersion_inc		= 0.0 ; -0.019
+zoom_cam_step_angle_horz	= -0.207
+inv_weight					= +0.3
+
+
+[up_sect_thirdc_ps90]
+cost						= 4570
+value						= +15
+crosshair_inertion			= -0.35
+PDM_disp_base				= -0.07
+PDM_disp_vel_factor			= -0.25
+PDM_disp_accel_factor		= -0.25
+inv_weight					= -0.15
+
+
+[up_sect_thirdd_ps90]
+cost						= 3940
+value						= +10
+
+condition_shot_dec			= -0.0001
+condition_queue_shot_dec	= -0.0001
+misfire_start_prob			= -0.001
+misfire_end_prob			= -0.016
+inv_weight					= +0.15
+
+[up_sect_thirde_ps90]
+cost						= 10030
+value						= +30
+bullet_speed				= +65
+fire_dispersion_base		= -0.04
+inv_weight					= +0.25
+
+[up_sect_fourta_ps90]
+cost						= 4180
+value						= +5
+rpm							= +30
+inv_weight					= +0.2
+
+[up_sect_fourtc_ps90]
+cost						= 3860
+value						= +10
+
+condition_shot_dec			= -0.0001
+condition_queue_shot_dec	= -0.0001
+misfire_start_prob			= -0.002
+misfire_end_prob			= -0.016
+inv_weight					= +0.1
+
+[up_sect_fourte_ps90]
+cost						= 4980
+value						= -15
+cam_dispersion				= -0.12
+cam_dispersion_inc			= 0.0 ;-0.09
+cam_step_angle_horz			= -0.095
+zoom_cam_dispersion			= -0.09
+zoom_cam_dispersion_inc		= 0.0 ; -0.055
+zoom_cam_step_angle_horz	= -0.09
+inv_weight					= +0.15
+
+[up_sect_fourtf_ps90]
+cost						= 5180
+value						= +25
+crosshair_inertion			= -1.0
+PDM_disp_base				= -0.15
+PDM_disp_vel_factor			= -0.5
+PDM_disp_accel_factor		= -0.5
+inv_weight					= +0.05
+
+[up_sect_fiftha_ps90]
+cost						= 3460
+value						= +20
+ammo_elapsed				= +20
+ammo_mag_size				= +20
+
+[up_sect_fifthc_ps90]
+cost						= 4380
+value						= +10
+inv_weight					= +0.1
+rpm							= +600
+fire_modes					= 1, -1
+
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_firsta_ps90]
+scheme_index			= 0, 0
+known					= 1
+effects					= up_gr_firstcd_ps90
+section					= up_sect_firsta_ps90
+property				= prop_recoil
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= on_weapon_upgrade_something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_ret_a3_name
+description				= st_up_ret_a3_descr
+icon					= ui_inGame2_upgrade_PS90_1_3
+
+
+[up_firstc_ps90]
+scheme_index			= 1, 0
+known					= 1
+effects					= up_gr_firstef_ps90
+section					= up_sect_firstc_ps90
+property				= prop_dispersion
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_ret_b3_name
+description				= st_up_ret_b3_descr
+icon					= ui_inGame2_upgrade_PS90_1_4
+
+[up_firstd_ps90]
+scheme_index			= 1, 1
+known					= 1
+effects					= up_gr_firstef_ps90
+section					= up_sect_firstd_ps90
+property				= prop_rpm
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_ret_b2_name
+description				= st_up_ret_b2_descr
+icon					= ui_inGame2_upgrade_PS90_1_5
+
+[up_firste_ps90]
+scheme_index			= 2, 0
+known					= 1
+effects					=
+section					= up_sect_firste_ps90
+property				= prop_inertion
+
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_stk_b2_name
+description				= st_up_stk_b2_descr
+icon					= ui_inGame2_upgrade_PS90_1_6
+
+[up_secona_ps90]
+scheme_index			= 0, 1
+known					= 1
+effects					= up_gr_seconcd_ps90
+section					= up_sect_secona_ps90
+property				= prop_rpm
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zat_a3_name
+description				= st_up_zat_a3_descr
+icon					= ui_inGame2_upgrade_PS90_1_7
+
+[up_seconc_ps90]
+scheme_index			= 1, 2
+known					= 1
+effects					= up_gr_seconef_ps90
+section					= up_sect_seconc_ps90
+property				= prop_reliability
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zat_b4_name
+description				= st_up_zat_b4_descr
+icon					= ui_inGame2_upgrade_PS90_1_8
+
+[up_secone_ps90]
+scheme_index			= 2, 1
+known					= 1
+effects					=
+section					= up_sect_secone_ps90
+property				= prop_dispersion
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zat_c5_name
+description				= st_up_zat_c5_descr
+icon					= ui_inGame2_upgrade_PS90_1_9
+
+[up_seconf_ps90]
+scheme_index			= 2, 2
+known					= 1
+effects					=
+section					= up_sect_seconf_ps90
+property				= prop_recoil
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zat_c1_name
+description				= st_up_zat_c1_descr
+icon					= ui_inGame2_upgrade_PS90_1_10
+
+
+[up_thirda_ps90]
+scheme_index			= 0, 2
+known					= 1
+effects					= up_gr_thirdcd_ps90
+section					= up_sect_thirda_ps90
+property				= prop_recoil
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_usm_a1_name
+description				= st_up_usm_a1_descr
+icon					= ui_inGame2_upgrade_PS90_1_11
+
+[up_thirdc_ps90]
+scheme_index			= 1, 3
+known					= 1
+effects					= up_gr_thirdef_ps90
+section					= up_sect_thirdc_ps90
+property				= prop_inertion
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_usm_b3_name
+description				= st_up_usm_b3_descr
+icon					= ui_inGame2_upgrade_PS90_1_12
+
+[up_thirdd_ps90]
+scheme_index			= 1, 4
+known					= 1
+effects					= up_gr_thirdef_ps90
+section					= up_sect_thirdd_ps90
+property				= prop_reliability
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_usm_b1_name
+description				= st_up_usm_b1_descr
+icon					= ui_inGame2_upgrade_PS90_1_13
+
+[up_thirde_ps90]
+scheme_index			= 2, 3
+known					= 1
+effects					=
+section					= up_sect_thirde_ps90
+property				= prop_bullet_speed
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_zat_b5_name
+description				= st_up_zat_b5_descr
+icon					= ui_inGame2_upgrade_PS90_1_14
+
+
+[up_fourta_ps90]
+scheme_index			= 0, 3
+known					= 1
+effects					= up_gr_fourtcd_ps90
+section					= up_sect_fourta_ps90
+property				= prop_reliability
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= true
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_stk_a2_name
+description				= st_up_stk_a2_descr
+icon					= ui_inGame2_upgrade_PS90_1_15
+
+
+[up_fourtc_ps90]
+scheme_index			= 1, 5
+known					= 1
+effects					= up_gr_fourtef_ps90
+section					= up_sect_fourtc_ps90
+property				= prop_reliability
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_auto_b1_name
+description				= st_up_auto_b1_descr
+icon					= ui_inGame2_upgrade_PS90_1_16
+
+[up_fourte_ps90]
+scheme_index			= 2, 4
+known					= 1
+effects					=
+section					= up_sect_fourte_ps90
+property				= prop_recoil
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_pri_b1_name
+description				= st_up_pri_b1_descr
+icon					= ui_inGame2_upgrade_PS90_1_17
+
+
+[up_fourtf_ps90]
+scheme_index			= 2, 5
+known					= 1
+effects					=
+section					= up_sect_fourtf_ps90
+property				= prop_inertion
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_auto_c6_name
+description				= st_up_auto_c6_descr
+icon					= ui_inGame2_upgrade_PS90_1_18
+
+[up_fiftha_ps90]
+scheme_index			= 0, 4
+known					= 1
+effects					= up_gr_fifthcd_ps90
+section					= up_sect_fiftha_ps90
+property				= prop_ammo_size
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_ps90_mag_name
+description				= st_up_ps90_mag_descr
+icon					= ui_inGame2_upgrade_PS90_1_2
+
+[up_fifthc_ps90]
+scheme_index			= 1, 6
+known					= 1
+effects					=
+section					= up_sect_fifthc_ps90
+property				= prop_autofire
+precondition_functor	= inventory_upgrades.precondition_functor_a
+precondition_parameter	= a	&	b
+effect_functor			= inventory_upgrades.effect_functor_a
+effect_parameter		= something_here
+prereq_functor			= inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor	= inventory_upgrades.prereq_tooltip_functor_a
+prereq_params			=
+name					= st_up_ps90_auto_name
+description				= st_up_ps90_auto_descr
+icon					= ui_inGame2_upgrade_PS90_1_1
+
+;----------------------------------------------------------------------------------------------------------------------
+[up_gr_firstab_ps90]
+elements	= up_firsta_ps90
+
+[up_gr_firstcd_ps90]
+elements	= up_firstc_ps90, up_firstd_ps90
+
+[up_gr_firstef_ps90]
+elements	= up_firste_ps90
+
+[up_gr_seconab_ps90]
+elements	= up_secona_ps90
+
+[up_gr_seconcd_ps90]
+elements	= up_seconc_ps90
+
+[up_gr_seconef_ps90]
+elements	= up_secone_ps90, up_seconf_ps90
+
+[up_gr_thirdab_ps90]
+elements	= up_thirda_ps90
+
+[up_gr_thirdcd_ps90]
+elements	= up_thirdc_ps90, up_thirdd_ps90
+
+[up_gr_thirdef_ps90]
+elements	= up_thirde_ps90
+
+[up_gr_fourtab_ps90]
+elements	= up_fourta_ps90
+
+[up_gr_fourtcd_ps90]
+elements	= up_fourtc_ps90
+
+[up_gr_fourtef_ps90]
+elements	= up_fourte_ps90, up_fourtf_ps90
+
+[up_gr_fifthab_ps90]
+elements	= up_fiftha_ps90
+
+[up_gr_fifthcd_ps90]
+elements	= up_fifthc_ps90

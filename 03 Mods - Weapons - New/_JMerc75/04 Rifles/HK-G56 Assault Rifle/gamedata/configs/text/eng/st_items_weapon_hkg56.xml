@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_hk_g56">
+		<text>HK-G56</text>
+	</string>
+	<string id="st_wpn_hk_g56_descr">
+		<text>The HK-G56 is a groundbreaking collaboration between Heckler & Koch (HK) and KRISS USA, combining HK's precision engineering with KRISS's innovative firearm technology. Chambered in 5.56x45mm NATO and utilizing the KRISS Vector recoil system, this assault rifle offers unmatched recoil mitigation and shooter control. Featuring ambidextrous controls, a modular design for customization, and high-visibility sights, the HK-G56 excels in accuracy, reliability, and ergonomic comfort. Its durable construction and compatibility with standard AR-15 magazines make it a versatile and reliable choice for military, law enforcement, and civilian shooters alike. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most optics for the picatinny/weaver system except for high magnifiers.\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC M4-2000 suppressor.\n</text>
+	</string>
+
+	<string id="st_wpn_hk_g56_long">
+		<text>HK-G56L</text>
+	</string>
+	<string id="st_wpn_hk_g56_long_descr">
+		<text>The HK-G56L is an extended variant of the renowned HK-G56, designed for enhanced long-range performance. This rifle features a longer barrel, optimized for improved accuracy and range, while also reducing the rate of fire to enhance controllability during sustained engagements. Chambered in 5.56x45mm NATO and utilizing the proven KRISS Vector recoil system, the HK-G56L delivers superior recoil mitigation and shooter comfort, allowing for precise and consistent shooting at extended distances. The rifle's ambidextrous controls, modular design for customization, and compatibility with standard AR-15 magazines ensure adaptability to various tactical environments. With its durable construction, high-visibility sights, and ergonomic stock, the HK-G56L is a versatile and reliable choice for shooters requiring exceptional long-range performance in a compact and maneuverable package.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most optics for the picatinny/weaver system except low mount optics\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC M4-2000 suppressor\n</text>
+	</string>
+</string_table>

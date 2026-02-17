@@ -1,0 +1,246 @@
+;------------------------------------------------------------------------------------------------
+[wpn_sharps_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_mosin_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\sharps_j"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_sharps_j
+
+class							= WP_SVD
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 3
+ef_weapon_type					= 11
+hand_dependence					= 1
+single_handed					= 0
+
+default_to_ruck					= false
+sprint_allowed					= true
+
+icons_texture					= ui\ui_icon_sharpsj
+inv_grid_width					= 6
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+inv_name						= st_wpn_sharps_j
+inv_name_short					= st_wpn_sharps_j
+description						= st_wpn_sharps_j_descr
+
+kind							= w_sniper
+inv_weight						= 3.8
+cost							= 52331
+repair_type						= rifle_7
+weapon_class					= sniper_rifle
+
+hud								= wpn_sharps_j_hud
+visual							= dynamics\weapons\wpn_sharps_j\wpn_sharps_j_world.ogf
+orientation						= 0.197117, 2.318797, 0
+position						= -0.023232, -0.13933, -0.007537
+fire_point						= 0.0, 0.129, 0.942
+fire_point2						= 0.0, 0.129, 0.942
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.15, -0.15, 0.45
+strap_orientation				= -25, -189, 65
+ph_mass							= 3
+
+flame_particles					= weapons\generic_weapon06
+smoke_particles					= weapons\generic_shoot_00
+
+shell_point						= 0.0, 0.129, 0.192
+shell_dir						= 0.0, 0.0, 0.4
+;shell_particles				= weapons\762x54
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 4.0
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_remi700, up_gr_seconab_remi700, up_gr_thirdab_remi700
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_svd
+upgr_icon_path					= ui\ui_icon_sharpsj
+upgr_icon_x						= 600
+upgr_icon_y						= 0
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1
+ammo_class						= ammo_5090sharps
+ammo_elapsed					= 1
+ammo_mag_size					= 1
+startup_ammo					= 15
+
+scopes							= wpn_addon_scope_zf4
+scope_status					= 0
+scope_zoom_factor				= 0
+
+silencer_status					= 0
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_launcher_status			= 0
+
+hit_impulse						= 95
+hit_power						= 1.50, 1.50, 1.50, 1.50
+hit_type						= fire_wound
+fire_distance					= 1400
+bullet_speed					= 930
+rpm								= 300
+rpm_empty_click					= 200
+
+use_aim_bullet					= false
+time_to_aim						= 0.0 ; 1.0
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0, 0.5, 5, 2.2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 9
+fire_dispersion_base			= 0.1
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.84
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0044
+condition_shot_dec				= 0.0044
+
+cam_return						= 0
+cam_relax_speed					= 4.5
+cam_dispersion					= 1.98
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 1.98
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 1.04
+zoom_cam_relax_speed			= 0.75
+zoom_cam_dispersion				= 0.75
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 1.54
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 0.94
+
+PDM_disp_accel_factor			= 2.75
+PDM_disp_base					= 1.45
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 2.75
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 120.75
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 2.15
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 0
+kill_msg_y						= 0
+kill_msg_width					= 98
+kill_msg_height					= 23
+
+snd_shoot			= weapons\sharpsj\sharpsj_shoot
+snd_shoot_actor		= weapons\sharpsj\sharpsj_shoot
+snd_reload			= weapons\sharpsj\sharpsj_reloading
+snd_reload_empty	= weapons\sharpsj\sharpsj_reloading
+
+[wpn_sharps_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_sharps_j\wpn_sharps_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position			= 0, 0, 0
+item_orientation		= 0, 0, 0
+
+hands_position			= -0.012213, 0.007896, -0.015151
+hands_position_16x9		= -0.012213, 0.007896, -0.015151
+hands_orientation		= 1.04576, 0.742397, 0
+hands_orientation_16x9	= 1.04576, 0.742397, 0
+
+aim_hud_offset_pos		= -0.051888, 0.025662, -0.035839
+aim_hud_offset_pos_16x9	= -0.051888, 0.025662, -0.035839
+aim_hud_offset_rot		= 0.008889, 0.01888, 0
+aim_hud_offset_rot_16x9	= 0.008889, 0.01888, 0
+
+lowered_hud_offset_pos		= 0.017652, 0.01209, 0.016711
+lowered_hud_offset_pos_16x9	= 0.017652, 0.01209, 0.016711
+lowered_hud_offset_rot		= 0.24825, -0.257978, 0
+lowered_hud_offset_rot_16x9	= 0.24825, -0.257978, 0
+
+anm_hide						= sharpsj_holster
+anm_hide_empty					= sharpsj_holster, idle_empty
+anm_idle						= sharpsj_idle
+anm_idle_empty					= sharpsj_idle, idle_empty
+anm_idle_aim					= sharpsj_idle_aim
+anm_idle_aim_empty				= sharpsj_idle_aim, idle_empty
+anm_idle_aim_moving				= sharpsj_idle_aim, idle, 1.6
+anm_idle_aim_moving_empty		= sharpsj_idle_aim, idle_empty, 1.6
+anm_idle_aim_moving_crouch		= sharpsj_idle_aim, idle, 1.3
+anm_idle_moving_crouch_empty	= sharpsj_idle_aim, idle_empty, 1.3
+anm_idle_moving					= sharpsj_walk, idle, 1.9
+anm_idle_moving_empty			= sharpsj_walk, idle_empty, 1.9
+anm_idle_sprint					= sharpsj_run, idle, 1.9
+anm_idle_sprint_empty			= sharpsj_run, idle_empty, 1.9
+anm_reload						= sharpsj_reload, reload
+anm_reload_empty				= sharpsj_reload, reload
+anm_shots						= sharpsj_shooting, shooting
+anm_show						= sharpsj_draw
+anm_show_empty					= sharpsj_draw, idle_empty
+anm_bore						= sharpsj_inspect, idle
+anm_bore_empty					= sharpsj_inspect, idle_empty
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= 0.025, 0.055, 0.221
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
+
+freelook_z_offset_mul		= 0.2
+
+;------------------------------------------------------------------------------------------------
+[wpn_sharps_j_wpn_addon_scope_zf4]:wpn_sharps_j
+$spawn			= "weapons\wpn_sharps_j_zf4"
+
+visual			= dynamics\weapons\wpn_sharps_j\wpn_sharps_j_world.ogf
+hud				= wpn_sharps_j_wpn_addon_scope_zf4_hud
+
+icons_texture	= ui\ui_icon_sharpsj
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 6
+inv_grid_y		= 0
+
+inv_weight		= 4.2
+
+scope_name		= wpn_addon_scope_pu
+scope_status		= 1
+scope_texture		= wpn_crosshair_zf9
+scope_zoom_factor	= 13
+zoom_rotate_time	= 0.19
+use_alt_aim_hud		= true
+
+[wpn_sharps_j_wpn_addon_scope_zf4_hud]:wpn_sharps_j_hud
+item_visual	= anomaly_weapons\wpn_sharps_j\wpn_sharps_j_hud.ogf
+
+aim_hud_offset_pos		= -0.027994, 0.017414, -0.104465
+aim_hud_offset_pos_16x9	= -0.027994, 0.017414, -0.104465
+aim_hud_offset_alt_pos			= -0.051888, 0.025662, -0.035839
+aim_hud_offset_alt_pos_16x9		= -0.051888, 0.025662, -0.035839
+aim_hud_offset_alt_rot			= 0.008889, 0.01888, 0
+aim_hud_offset_alt_rot_16x9		= 0.008889, 0.01888, 0

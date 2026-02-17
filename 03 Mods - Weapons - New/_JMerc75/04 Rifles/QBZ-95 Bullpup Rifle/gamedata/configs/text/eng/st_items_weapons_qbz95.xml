@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_qbz95">
+		<text>QBZ-95</text>
+	</string>
+	<string id="st_wpn_qbz95_descr">
+		<text>The QBZ-95 rifle, also known as the Norinco Type 95 5.56, is a Chinese assault rifle chambered in 5.56x45mm NATO caliber. It is a variant of the QBZ-95 family of rifles and is in service with the People's Liberation Army (PLA) and other Chinese armed forces. The QBZ-95 5.56 rifle retains the distinct bullpup design of its predecessors, with the action and magazine located behind the trigger. It offers a compact and lightweight build, featuring a polymer construction and ergonomic design for improved handling. Equipped with a gas-operated, rotating bolt system, the rifle ensures reliable performance in various environments. It boasts a top-mounted Picatinny rail for optics and accessories, as well as ambidextrous controls for ease of use by both left- and right-handed shooters. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most Picatinny/weaver sights with the exception of low mount optics\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Suppressor: 5.56 NATO Standard Suppressor\n</text>
+	</string>
+</string_table>

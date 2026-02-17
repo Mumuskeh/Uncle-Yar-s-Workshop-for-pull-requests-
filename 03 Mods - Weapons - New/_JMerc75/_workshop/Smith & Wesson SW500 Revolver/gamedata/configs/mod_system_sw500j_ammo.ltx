@@ -1,0 +1,65 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;---------------------.500	Magnum	AMMO-----------------------
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_sw500j]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency	=
+$spawn			= "weapons\ammo\ammo_sw500j"
+class			= AMMO_S
+cform				= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_sw500j.ogf
+description		= st_ammo_sw500j_descr
+$prefetch			= 64
+
+cost			= 4652
+tier				= 4
+box_size		= 10
+
+inv_name		= st_ammo_sw500j
+inv_name_short	= st_ammo_sw500j
+inv_weight		= .45
+
+icons_texture								= ui\sw500j_icon
+inv_grid_width								= 2
+inv_grid_height								= 1
+inv_grid_x									= 8
+inv_grid_y									= 0
+
+k_disp			= 0.5
+k_hit			= 1.7 ; 1.25
+k_impulse		= 2.2
+k_ap			= 0.65
+wm_size			= 0.048
+k_air_resistance	= 0.8
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_sw500j_hp]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency	=
+$spawn			= "weapons\ammo\ammo_sw500j_hp"
+class			= AMMO_S
+cform				= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_sw500j_alt.ogf
+description		= st_ammo_sw500j_hp_descr
+$prefetch			= 64
+
+cost			= 5532
+tier				= 4
+box_size		= 10
+
+inv_name		= st_ammo_sw500j_hp
+inv_name_short	= st_ammo_sw500j_hp
+inv_weight		= .45
+
+icons_texture								= ui\sw500j_icon
+inv_grid_width								= 2
+inv_grid_height								= 1
+inv_grid_x									= 8
+inv_grid_y									= 1
+
+k_disp			= 0.5
+k_hit			= 2.0 ; 1.25
+k_impulse		= 3.5
+k_ap			= 0.20
+wm_size			= 0.048
+k_air_resistance	= 0.8
+

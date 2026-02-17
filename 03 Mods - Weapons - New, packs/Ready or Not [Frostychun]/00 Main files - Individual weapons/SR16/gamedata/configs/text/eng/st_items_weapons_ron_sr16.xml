@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_sr16">
+		<text>KAC SR-16</text>
+	</string>
+	<string id="st_wpn_sr16_s">
+		<text>SR-16</text>
+	</string>
+	<string id="st_wpn_sr16_descr">
+		<text>The KAC SR-16 is a AR variant carbine manufactured by Knight's Armament Company (KAC). It is a select-fire rifle chambered for the 5.56x45mm NATO cartridge. Being a select-fire rifle, it is unavailable to the civilian market.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255] Most basic sights and scopes\n
+		%c[d_cyan] • %c[0,255,255,255] NATO Silencer</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_tec9">
+		<text>Tec-9</text>
+	</string>
+	<string id="st_wpn_tec9_descr">
+		<text>The Tec-9 Submachinegun, renowned for its compact design and rapid-fire capability, stands as an emblem of firepower and versatility. Initially developed in the 1980s in Sweden, this semi-automatic pistol-caliber firearm gained notoriety for its high-capacity magazines, accommodating up to 36 rounds, and its semi-automatic firing mode. Its lightweight polymer construction coupled with a menacing appearance and the option for modifications for increased lethality made it a popular choice among both military and civilian circles. However, its notoriety also led to controversy, prompting legal restrictions due to its association with criminal activities. Despite its checkered reputation, the Tec-9 remains a symbol of innovation and firepower in the world of firearms.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+        %c[d_purple] - %c[ui_gray_2] 9mm Suppressor\n \n</text>
+	</string>
+
+	<string id="st_mag_tec9_default">
+		<text>Tec-9 Magazine</text>
+	</string>
+	<string id="st_mag_tec9_default_descr">
+		<text>Standard magazine for the Tec-9 Submachinegun, it holds 30 rounds of 9x19mm ammunition.\n \n</text>
+	</string>
+
+</string_table>

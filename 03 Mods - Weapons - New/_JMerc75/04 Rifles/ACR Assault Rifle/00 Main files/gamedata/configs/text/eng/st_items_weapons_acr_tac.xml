@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_acr_tac">
+		<text>Adaptive Combat Rifle</text>
+	</string>
+	<string id="st_wpn_acr_tac_s">
+		<text>ACR</text>
+	</string>
+	<string id="st_wpn_acr_tac_descr">
+		<text>The Adaptive Combat Rifle (ACR), known initially as the Masada, is a modular assault rifle designed by Magpul Industries of Austin, Texas.\n
+		In late January 2008, Bushmaster Firearms International entered into a licensing agreement with Magpul whereby Bushmaster would take over production, future development, and sales of the Masada. It was then known as the Bushmaster ACR. However, Remington Arms is contracted to manufacture the rifle for the US military and US law enforcement agencies, in which it is known as the Remington ACR. Hence, Remington Arms is responsible for the selective fire version of the ACR, while Bushmaster Firearms International is responsible for the semi-automatic only version.The Remington ACR was one of the weapons displayed to U.S. Army officials during an invitation-only Industry Day on November 13, 2008. The goal of the Industry Day was to review current carbine technology prior to writing formal requirements for a future replacement for the M4 Carbine. It was also part of the Individual Carbine competition to replace the M4.\n
+		This particular rifle uses 5.56x45 ammunition.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for Picatinny/weaver\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Surefire SOCOM556-MONSTER\n</text>
+	</string>
+
+	<string id="st_wpn_acr_tac_68">
+		<text>Adaptive Combat Rifle - 6.8 Remington SPC</text>
+	</string>
+	<string id="st_wpn_acr_tac_68_s">
+		<text>ACR 6.8 SPC</text>
+	</string>
+	<string id="st_wpn_acr_tac_68_descr">
+		<text>The Adaptive Combat Rifle (ACR), known initially as the Masada, is a modular assault rifle designed by Magpul Industries of Austin, Texas.\n
+		In late January 2008, Bushmaster Firearms International entered into a licensing agreement with Magpul whereby Bushmaster would take over production, future development, and sales of the Masada. It was then known as the Bushmaster ACR. However, Remington Arms is contracted to manufacture the rifle for the US military and US law enforcement agencies, in which it is known as the Remington ACR. Hence, Remington Arms is responsible for the selective fire version of the ACR, while Bushmaster Firearms International is responsible for the semi-automatic only version.The Remington ACR was one of the weapons displayed to U.S. Army officials during an invitation-only Industry Day on November 13, 2008. The goal of the Industry Day was to review current carbine technology prior to writing formal requirements for a future replacement for the M4 Carbine. It was also part of the Individual Carbine competition to replace the M4.\n
+		This particular rifle has been converted to fire 6.8mm Remington SPC rounds.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All for Picatinny/weaver\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 6.8 Remington SPC compatible\n</text>
+	</string>
+
+</string_table>

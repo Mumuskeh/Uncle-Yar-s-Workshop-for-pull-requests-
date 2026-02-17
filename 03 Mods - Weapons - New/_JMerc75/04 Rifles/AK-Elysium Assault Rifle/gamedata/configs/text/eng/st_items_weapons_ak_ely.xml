@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak_ely">
+		<text>AK-47 "Family Heirloom"</text>
+	</string>
+	<string id="st_wpn_ak_ely_descr">
+		<text>This AK-47 has been modified to include an advanced computerized targeting system that includes a holosight, aiming laser, and rangefinder. As you understand, whoever did it wanted the weapon to load 7.62x39mm airburst munitions, and the targeting system would designate a target, then determine the range at which the airburst munition will detonate.\n
+		While the sight is satisfactory and it's hard to zero down a laser pointer more than this, you don't know of any military in the world using airburst munitions as if they were standard weapons grade. But without those rounds, or an appropiate substitute, this weapon is little more than an AK with a very expensive laser pointer.</text>
+	</string>
+
+</string_table>

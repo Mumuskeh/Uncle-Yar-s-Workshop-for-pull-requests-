@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_pm_tishina">
+		<text>PM Makarov "Tishina"</text>
+	</string>
+	<string id="st_wpn_pm_tishina_s">
+		<text>PM Tishina</text>
+	</string>
+	<string id="st_wpn_pm_tishina_descr">
+		<text>Introducing the Makarov PM pistol "Tishina," an elite silenced sidearm renowned for its deadly stealth capabilities. This sleek and compact semi-automatic firearm, inspired by the legendary Makarov PM, is enhanced with a custom suppressor, ensuring every shot remains discreet and virtually unnoticed. "Tishina" is designed to operate with astonishing quietness, making it an ideal choice for covert operations, clandestine missions, and special forces engagements. Additionally, the integrated optic provides precision accuracy, granting its wielder the advantage of quick target acquisition and seamless adaptability in low-light environments. Engineered for silent lethality and optimal performance, the Makarov PM "Tishina" stands as a reliable and fearsome companion in the shadows.</text>
+	</string>
+</string_table>

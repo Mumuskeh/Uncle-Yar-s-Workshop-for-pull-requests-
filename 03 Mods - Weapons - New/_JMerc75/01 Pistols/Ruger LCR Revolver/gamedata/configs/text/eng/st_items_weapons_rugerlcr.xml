@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rugerlcr">
+		<text>Ruger LCR 9mm</text>
+	</string>
+	<string id="st_wpn_rugerlcr_s">
+		<text>LCR 9mm</text>
+	</string>
+	<string id="st_wpn_rugerlcr_descr">
+		<text>The Ruger LCR 9mm is a compact and lightweight revolver designed for concealed carry and personal defense. With a sleek, modern design, it features a polymer grip frame that contributes to its portability while maintaining durability. The LCR (Lightweight Compact Revolver) utilizes a double-action-only mechanism for simplicity and reliability, and it is chambered in the popular 9mm caliber, allowing users to benefit from the widespread availability and versatility of 9mm ammunition. The revolver boasts a five-round capacity and a short 1.87-inch barrel, striking a balance between ease of carry and effective close-quarters performance. Known for its smooth trigger pull, reduced recoil, and snag-free design, the Ruger LCR 9mm offers a practical option for those seeking a dependable and discreet self-defense firearm.</text>
+	</string>
+</string_table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_slr_107ur">
+		<text>SLR-107UR (Custom)</text>
+	</string>
+	<string id="st_wpn_slr_107ur_descr">
+		<text>The SLR-107UR is a distant cousin of the AKS-74u, by Bulgarian manufacturer Arsenal.\n
+		This one seems to have been modified with extra Picattini rails, a front handgrip, and a shortened barrel.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Most red dot sights and some scopes\n
+		%c[d_purple] • %c[ui_gray_2] PBS-4 Silencer</text>
+	</string>
+
+</string_table>

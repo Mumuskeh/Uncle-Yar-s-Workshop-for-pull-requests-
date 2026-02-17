@@ -1,0 +1,482 @@
+;------------------------------------------------------------------------------------------------
+[wpn_remington700_aac]:wpn_remington700 ;;wpn_k98_sounds
+$spawn						= "weapons\remington700_aac"
+parent_section				= wpn_remington700_aac
+
+icons_texture				= ui\700black_icon
+inv_grid_width				= 6
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_name					= st_wpn_remington700_aac
+inv_name_short				= st_wpn_remington700_aac
+description					= st_wpn_remington700_aac_descr
+
+inv_weight					= 3.96
+cost						= 35492
+
+hud							= wpn_remington700_aac_hud
+visual						= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+position					= -0.003119, -0.005789, -0.01
+orientation					= 4.04, 24.283456, 0
+strap_orientation			= -180, -180, 153.688981
+strap_position				= -0.110308, -0.244518, 0.072183
+
+flame_particles				= ghost_particles\weapons\generic_smoke_eft_sil
+smoke_particles				= ghost_particles\weapons\flame_eft_sks
+
+upgrades					= up_gr_firstab_remi700, up_gr_seconab_remi700, up_gr_thirdab_remi700, up_gr_fourtab_remi700, up_gr_fourtcd_remi700, up_gr_fourtef_remi700 ; up_gr_firstab_sv98, up_gr_seconab_sv98, up_gr_thirdab_sv98
+ammo_current				= 12
+ammo_elapsed				= 0
+ammo_limit					= 12
+ammo_mag_size				= 12
+startup_ammo				= 48
+
+scopes						= acog, eot, specter, c-more, ac10632, leupold, aimpoint, point_aimpro, e0t2, pn23, compm4s, marchf, triji, mark8_rmr, spec_alt, mepro
+scope_status			= 0
+scope_zoom_factor			= 0
+
+silencer_status				= 1
+silencer_x					= 248
+silencer_y					= 5
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
+
+hit_impulse					= 40
+hit_power					= 1.5, 1.5, 1.5, 1.5
+fire_distance				= 1650
+bullet_speed				= 1100
+
+use_aim_bullet				= false ; true
+
+fire_dispersion_base		= 0.05
+
+condition_shot_dec			= 0.0037
+min_radius					= 0
+max_radius					= 800
+
+hud_fov						= 0.78
+;---------------------------------------------------------------SND-------------------------------------------------------------------------
+snd_draw				= weapons\scar_yang_prince\scar_inspect
+snd_holster				= weapons\generic\rifle_holster
+snd_shoot				= eft_wp\dvl_10\dvl_shoot_silenced
+snd_silncer_shot		= eft_wp\dvl_10\dvl_shoot_silenced
+snd_silncer_shot_actor	= eft_wp\dvl_10\dvl_shoot_silenced
+snd_bore				= weapons\toz106\inspect
+snd_empty				= weapons\toz106\empty_click_rifle
+snd_reload				= weapons\toz106\reload
+snd_reload_empty		= weapons\toz106\reload_empty
+snd_reload_misfire		= weapons\toz106\reload_empty
+;---------------------------------------------------------------HUD-------------------------------------------------------------------------
+[wpn_remington700_aac_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+aim_hud_offset_pos		= -0.052544, 0.009425, -0.053577
+aim_hud_offset_pos_16x9	= -0.052544, 0.009425, -0.053577
+aim_hud_offset_rot		= 0.004583, 0.027583, -0.0465
+aim_hud_offset_rot_16x9	= 0.004583, 0.027583, -0.0465
+
+item_orientation	= -0.500034, -4.546664, 0
+item_position		= -0.00106, 0.01174, -0.004162
+
+hands_orientation_16x9	= 2.259977, 4.870678, -2.649999
+hands_position			= -0.02519, -0.04514, -0.24208
+hands_position_16x9		= -0.02519, -0.04514, -0.24208
+
+lowered_hud_offset_pos		= 0.075309, 0.016207, 0
+lowered_hud_offset_pos_16x9	= 0.075309, 0.016207, 0
+lowered_hud_offset_rot		= 0.209016, -0.834933, 0.1
+lowered_hud_offset_rot_16x9	= 0.209016, -0.834933, 0.1
+
+anm_show			= toz106_draw, draw
+anm_show_empty		= toz106_draw, draw_empty
+
+anm_hide			= toz106_hide, hide
+anm_hide_empty		= toz106_hide, hide_empty
+
+anm_idle			= toz106_idle, idle
+anm_idle_empty		= toz106_idle, idle_empty
+
+anm_shots			= toz106_shoot_1, shoot_1
+anm_shots1			= toz106_shoot_2, shoot_2
+anm_shots2			= toz106_shoot_3, shoot_3
+anm_shot_l			= toz106_shoot_1, shoot_1
+
+anm_shots_aim		= toz106_shoot_aim, shoot_1
+anm_shots_aim1		= toz106_shoot_aim, shoot_2
+anm_shots_aim2		= toz106_shoot_aim, shoot_3
+anm_shot_l_aim		= toz106_shoot_aim, shoot_1
+
+anm_idle_aim		= toz106_idle_aim, idle_aim
+anm_idle_aim_empty	= toz106_idle_aim, idle_aim_empty
+
+anm_reload			= toz106_reload_4rnd_fullstock, reload
+anm_reload_empty	= toz106_reload_empty_4rnd_fullstock, reload_empty_old
+
+anm_idle_moving					= toz106_idle_moving, idle, 0.9
+anm_idle_moving_empty			= toz106_idle_moving, idle_empty, 0.9
+
+anm_idle_moving_crouch			= toz106_idle_moving, idle
+anm_idle_moving_empty_crouch	= toz106_idle_moving, idle_empty
+
+anm_idle_sprint			= toz106_idle_sprint, idle
+anm_idle_sprint_empty	= toz106_idle_sprint, idle_empty
+
+anm_bore				= toz106_inspect, inspect
+anm_bore_empty			= toz106_inspect, inspect_empty
+anm_reload_misfire		= toz106_reload_empty_4rnd_fullstock, reload_empty_old
+
+shell_dir	= 0, 1, 0
+shell_point	= 0,0,0 ;0.013,0.046,0.463
+shell_bone	= shell
+
+fire_point	= 0.000000,0.009000,0.224000
+fire_bone	= muzzle
+fire_point2	= 0.0,0.0,0.0
+fire_bone2	= wpn_body
+
+freelook_z_offset_mul	= 0.4
+
+;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
+[wpn_remington700_aac_ac10632]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_ac10632_hud
+
+1icon_layer		= ac10632
+1icon_layer_x	= 120
+1icon_layer_y	= -10
+
+inv_weight		= 3.795
+
+[wpn_remington700_aac_ac10632_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.05249, 0.010921, -0.053577
+aim_hud_offset_pos_16x9	= -0.05249, 0.010921, -0.053577
+;-------------------------------------------------------------------------------
+[wpn_remington700_aac_acog]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 105
+1icon_layer_y	= -7
+
+inv_weight		= 4.130
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_remington700_aac_acog_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.052969, 0.00978, -0.105844
+aim_hud_offset_pos_16x9	= -0.052969, 0.00978, -0.105844
+;-------------------------------------------------------------------------------
+[wpn_remington700_aac_eot]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_eot_hud
+
+1icon_layer		= eot
+1icon_layer_x	= 105
+1icon_layer_y	= -7
+
+inv_weight		= 4.080
+
+[wpn_remington700_aac_eot_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.052277, 0.008216, -0.053577
+aim_hud_offset_pos_16x9	= -0.052277, 0.008216, -0.053577
+;-----------------------------------------------------------------------------
+[wpn_remington700_aac_c-more]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 110
+1icon_layer_y	= -7
+
+inv_weight		= 4.080
+
+[wpn_remington700_aac_c-more_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.052597, 0.01369, -0.053577
+aim_hud_offset_pos_16x9	= -0.052597, 0.01369, -0.053577
+;--------------------------------------------------------------------------------
+[wpn_remington700_aac_specter]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 90
+1icon_layer_y	= -8
+
+inv_weight		= 4.350
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_remington700_aac_specter_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_specter_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.052265, -0.006972, -0.074877
+aim_hud_offset_alt_pos_16x9	= -0.052265, -0.006972, -0.074877
+aim_hud_offset_alt_rot		= 0.0094, 0.02645, -0.049137
+aim_hud_offset_alt_rot_16x9	= 0.0094, 0.02645, -0.049137
+aim_hud_offset_pos		= -0.052541, 0.010633, -0.116795
+aim_hud_offset_pos_16x9	= -0.052541, 0.010633, -0.116795
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_mepro]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_mepro_hud
+
+inv_weight		= 4.150
+
+1icon_layer		= mepro
+1icon_layer_x	= 120
+1icon_layer_y	= -6
+
+[wpn_remington700_aac_mepro_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_mepro_hud.ogf
+
+aim_hud_offset_pos		= -0.052917, 0.004016, -0.053577
+aim_hud_offset_pos_16x9	= -0.052917, 0.004016, -0.053577
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_leupold]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_leupold_hud
+
+1icon_layer		= leupold
+1icon_layer_x	= 90
+1icon_layer_y	= -6
+
+inv_weight		= 4.460
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_remington700_aac_leupold_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.052757, 0.008076, -0.116582
+aim_hud_offset_pos_16x9	= -0.052757, 0.008076, -0.116582
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_aimpoint]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_aimpoint_hud
+
+inv_weight		= 3.830
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 115
+1icon_layer_y	= -7
+
+[wpn_remington700_aac_aimpoint_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.052438, 0.008644, -0.053577
+aim_hud_offset_pos_16x9	= -0.052438, 0.008644, -0.053577
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_point_aimpro]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_point_aimpro_hud
+
+inv_weight		= 4.120
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 125
+1icon_layer_y	= -10
+
+[wpn_remington700_aac_point_aimpro_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.052386, 0.005804, -0.053577
+aim_hud_offset_pos_16x9	= -0.052386, 0.005804, -0.053577
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_e0t2]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_e0t2_hud
+
+inv_weight		= 4.00
+
+1icon_layer		= e0t2
+1icon_layer_x	= 115
+1icon_layer_y	= -10
+
+[wpn_remington700_aac_e0t2_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.052491, 0.010845, -0.06048
+aim_hud_offset_pos_16x9	= -0.052491, 0.010845, -0.06048
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_pn23]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_pn23_hud
+
+1icon_layer		= pn23
+1icon_layer_x	= 80
+1icon_layer_y	= -16
+
+;;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
+
+nv_scope_status	= 1
+
+inv_weight		= 4.330
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_remington700_aac_pn23_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.052596, 0.001107, -0.104422
+aim_hud_offset_pos_16x9	= -0.052596, 0.001107, -0.104422
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_compm4s]:wpn_remington700_aac
+hud				= wpn_remington700_aac_compm4s_hud
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 115
+1icon_layer_y	= -10
+
+inv_weight		= 4.160
+
+[wpn_remington700_aac_compm4s_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.052435, 0.01106, -0.053577
+aim_hud_offset_pos_16x9	= -0.052435, 0.01106, -0.053577
+aim_hud_offset_rot		= 0.001591, 0.027958, -0.0465
+aim_hud_offset_rot_16x9	= 0.001591, 0.027958, -0.0465
+;--------------------------------------------------------------------------------------------
+[wpn_remington700_aac_marchf]:wpn_remington700_aac
+hud				= wpn_remington700_aac_marchf_hud
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+
+1icon_layer		= marchf
+1icon_layer_x	= 95
+1icon_layer_y	= -4
+
+inv_weight		= 4.420
+
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+[wpn_remington700_aac_marchf_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_marchf_hud.ogf
+
+aim_hud_offset_pos		= -0.052596, 0.01055, -0.111107
+aim_hud_offset_pos_16x9	= -0.052596, 0.01055, -0.111107
+;------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_triji]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_triji_hud
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+inv_weight		= 3.800
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog_rmr
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_remington700_aac_triji_hud]:wpn_remington700_aac_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black\wpn_700black_trijicon_rmr_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_pos_16x9	= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_rot		= -0.00057, 0.029331, 0.228194
+aim_hud_offset_alt_rot_16x9	= -0.00057, 0.029331, 0.228194
+aim_hud_offset_pos		= -0.052862, 0.009354, -0.109898
+aim_hud_offset_pos_16x9	= -0.052862, 0.009354, -0.109898
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_spec_alt]:wpn_remington700_aac
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+
+hud				= wpn_remington700_aac_spec_alt_hud
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 4
+
+inv_weight		= 4.125
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_remington700_aac_spec_alt_hud]:wpn_700black_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black_spec_alt_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_pos_16x9	= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_rot		= -0.00057, 0.029331, 0.228194
+aim_hud_offset_alt_rot_16x9	= -0.00057, 0.029331, 0.228194
+aim_hud_offset_pos		= -0.052862, 0.009354, -0.109898
+aim_hud_offset_pos_16x9	= -0.052862, 0.009354, -0.109898
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_remington700_aac_mark8_rmr]:wpn_700black
+visual			= dynamics\weapons\wpn_700black\wpn_700black_world.ogf
+hud				= wpn_remington700_aac_mark8_rmr_hud
+
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+inv_weight		= 4.235
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold_rmr
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_remington700_aac_mark8_rmr_hud]:wpn_700black_hud
+item_visual	= anomaly_weapons\wpn_700black\wpn_700black_mark8_rmr_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_pos_16x9	= -0.078719, -0.003485, -0.035127
+aim_hud_offset_alt_rot		= -0.00057, 0.029331, 0.228194
+aim_hud_offset_alt_rot_16x9	= -0.00057, 0.029331, 0.228194
+aim_hud_offset_pos		= -0.052862, 0.009354, -0.109898
+aim_hud_offset_pos_16x9	= -0.052862, 0.009354, -0.109898
+;------------------------------------------------------------------------------------

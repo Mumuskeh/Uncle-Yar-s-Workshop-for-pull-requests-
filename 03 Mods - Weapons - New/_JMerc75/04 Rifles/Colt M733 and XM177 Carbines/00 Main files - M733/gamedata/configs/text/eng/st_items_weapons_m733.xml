@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m16_m733_j">
+		<text>Colt Model M733 Commando</text>
+	</string>
+	<string id="st_wpn_m16_m733_j_s">
+		<text>M733</text>
+	</string>
+	<string id="st_wpn_m16_m733_j_descr">
+		<text>The Colt M733 Carbine, also known as the "Commando", is a compact, lightweight assault rifle designed for close-quarters combat and special operations. Developed in the 1980s, this carbine features a 11.5-inch barrel, a collapsible stock, and utilizes the 5.56x45mm NATO cartridge, making it highly maneuverable and effective at shorter ranges. With its rugged construction and reliable gas-operated, rotating bolt system, the M733 is favored by military and law enforcement units for its quick handling and ease of use in tight, confined spaces. Its versatility and robust performance have cemented its place as a trusted tool in modern tactical arsenals.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most for the Picatinny/weeaver system except for RMR. Kits\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: 5.56 NATO Suppressor\n</text>
+	</string>	
+
+</string_table>

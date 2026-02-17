@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_tavorx95_j">
+		<text>X95</text>
+	</string>
+	<string id="st_wpn_tavorx95_j_descr">
+		<text>The Tavor X95 is a cutting-edge bullpup rifle designed by Israel Weapon Industries (IWI) to excel in modern combat scenarios. Compact yet powerful, it features a lightweight polymer chassis, a modular design for easy customization, and an ambidextrous layout to suit any operator. Chambered in popular calibers like 5.56 NATO, the X95 offers exceptional accuracy and reliability even in extreme environments. With its integrated Picatinny rails, ergonomic controls, and intuitive handling, the X95 is equally suited for close-quarters combat and mid-range engagements, making it a favored choice among military, law enforcement, and civilian users worldwide.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most Picatinny/weaver sights with the exception of low mount optics\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC M4-2000\n</text>
+	</string>	
+
+	<string id="st_wpn_tavorx95_j9mm">
+		<text>X95 9mm</text>
+	</string>
+	<string id="st_wpn_tavorx95_j9mm_descr">
+		<text>The Tavor X95 9mm variant is a highly versatile submachine gun adaptation of the standard X95 platform, chambered in 9x19mm for enhanced control and reduced recoil in close-quarters engagements. Retaining the compact, bullpup configuration, it offers superior maneuverability and minimal muzzle rise, making it ideal for tactical operations in confined spaces. This variant features a quick-change barrel system, ambidextrous controls, and compatibility with high-capacity magazines, ensuring streamlined logistics and adaptability in the field. Lightweight yet rugged, it is a top choice for law enforcement and special operations needing reliable performance with a pistol-caliber round.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most Picatinny/weaver sights with the exception of high magnifiers\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: Osprey-9\n</text>
+	</string>
+</string_table>

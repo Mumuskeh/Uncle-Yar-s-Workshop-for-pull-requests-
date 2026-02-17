@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_welrod">
+		<text>Welrod MK.2</text>
+	</string>
+	<string id="st_wpn_welrod_descr">
+		<text>The Welrod MK.2, now chambered in .45 ACP, retains its iconic integrally suppressed design and compact profile, offering a discreet and effective firearm for specialized operations. The .45 ACP variant enhances the pistol's stopping power, making it even more suitable for close-range engagements. The pistol's simplicity, reliability, and near-silent operation make it an ideal choice for clandestine missions where stealth and precision are paramount. \n \n</text>
+	</string>
+	
+	<string id="st_mag_welrod_default">
+		<text>Welrod MK.2 6-Round Magazine</text>
+	</string>
+	<string id="st_mag_welrod_default_descr">
+		<text>Magazine made for the Welrod MK.2 Pistol, doubling as a handle. Holds 6 rounds of .45 ACP ammunition. \n \n</text>
+	</string>
+</string_table>

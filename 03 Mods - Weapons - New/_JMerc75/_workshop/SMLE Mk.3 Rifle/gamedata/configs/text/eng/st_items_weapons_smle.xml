@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_smle">
+		<text>SMLE Mk.3</text>
+	</string>
+	<string id="st_wpn_smle_descr">
+		<text>The Lee Enfield Mark 3 rifle, equipped with a 5-round magazine, is a formidable and reliable bolt-action firearm. Renowned for its exceptional accuracy and robust construction, this iconic rifle served as the standard British infantry weapon during World War I and World War II. The shortened magazine capacity of 5 rounds allows for a balance between swift reloading and sustained fire, making it ideal for engagements that require precise shooting. With its smooth bolt action and powerful 7.62x54 caliber rounds, the Lee Enfield Mark 3 with a 5-round magazine remains a timeless symbol of military excellence and a beloved choice among shooting enthusiasts and collectors alike.</text>
+	</string>
+</string_table>

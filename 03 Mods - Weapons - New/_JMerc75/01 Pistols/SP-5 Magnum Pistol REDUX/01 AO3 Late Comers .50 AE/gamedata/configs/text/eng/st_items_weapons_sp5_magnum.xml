@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_sp5_magnum">
+		<text>SP-5 Magnum Pistol</text>
+	</string>
+	<string id="st_wpn_sp5_magnum_s">
+		<text>SP-5 Magnum</text>
+	</string>
+	<string id="st_wpn_sp5_magnum_descr">
+		<text>The Magnum SP-5 Pistol is a semi-automatic, recoil-operated, magazine-fed, large-caliber handgun. Known for it's excellent performance in battle, sometimes even replacing the main gun of some soldiers, the SP-5 has a lot of firepower for it's compact size, althought the nature of the firearm makes it a bit exclusive. The weapon has a polymer handle, along with a titanium alloy body and an electroless nickel-plate finish. The sidearm fires the .50 Action Express rounds from a 12-round magazine.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Gemtech Supressor\n</text>
+	</string>
+
+	<string id="st_mag_sp5_magnum_9x39_default">
+		<text>SP-5 .50 Action Express 12-round Magazine</text>
+	</string>
+	<string id="st_mag_sp5_magnum_9x39_default_descr">
+		<text>Titanium alloy made magazine that hold 12 .50 Action Express rounds for the SP-5 Magnum handgun.</text>
+	</string>
+</string_table>

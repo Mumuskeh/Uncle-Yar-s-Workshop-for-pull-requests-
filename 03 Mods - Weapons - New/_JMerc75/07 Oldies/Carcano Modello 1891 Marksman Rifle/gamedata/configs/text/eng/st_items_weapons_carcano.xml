@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_carcano">
+		<text>Carcano Modello 1891</text>
+	</string>
+	<string id="st_wpn_carcano_descr">
+		<text>The Carcano 1891 rifle is a renowned firearm developed by Italian arms manufacturer Salvatore Carcano. This bolt-action rifle, chambered in 6.5mm, showcases a sleek and elongated design with a straight-pull bolt mechanism. Known for its reliability and accuracy, the Carcano 1891 gained popularity as a military rifle during its era. With a six-round internal magazine, it offered consistent performance on the battlefield. The Carcano 1891 holds historical significance as a testament to Italian engineering and craftsmanship in the realm of firearm design.</text>
+	</string>
+</string_table>

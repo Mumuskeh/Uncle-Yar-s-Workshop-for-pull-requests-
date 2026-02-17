@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_colt1911_tactical">
+		<text>Colt M1911 (Tactical)</text>
+	</string>
+	<string id="st_wpn_colt1911_tactical_descr">
+		<text>The M1911 was the standard-issue side arm for the US military from 1911 to 1985. An extremely reliable and robust weapon, it's been adopted for military, police and civilian use around the world and remains a very popular firearm to this day.\n
+		This particular pistol has been outfitted with a muzzle brake, a laser pointer, and an extended 10 rounds magazine.\n</text>
+	</string>
+	
+	<string id="st_mag_colt1911_tactical">
+		<text>Extended Colt 1911 Magazine</text>
+	</string>
+	<string id="st_mag_colt1911_tactical_descr">
+		<text>Extended magazine for the Colt 1911 "Tactical", holds 10 rounds of .45 ACP ammunition.</text>
+	</string>
+
+</string_table>

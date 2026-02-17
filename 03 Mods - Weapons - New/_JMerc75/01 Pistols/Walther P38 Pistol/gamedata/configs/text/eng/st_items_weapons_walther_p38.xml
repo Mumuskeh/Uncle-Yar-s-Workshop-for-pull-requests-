@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_walther_p38">
+		<text>Walther P-38</text>
+	</string>
+	<string id="st_wpn_walther_p38_descr">
+		<text>The Walther P38 (originally written Walther P.38) is a 9mm semi-automatic pistol that was developed by Carl Walther GmbH as the service pistol of the Wehrmacht at the beginning of World War II. It was intended to replace the costly Luger P08, the production of which was scheduled to end in 1942. The P.38 was a cutting edge semi-automatic pistol design, which introduced technical features still used today in current commercial and military semi-automatic pistols, including the Beretta 92FS and its M9 sub-variant adopted by the United States military in 1985. \n \n</text>
+	</string>
+
+	<string id="st_mag_walther_p38_default">
+		<text>Walther P-38 8-Round Magazine</text>
+	</string>
+	<string id="st_mag_walther_p38_default_descr">
+		<text>Stamped metal magazine made for the P-38 Pistol. Holds 8 rounds of 9x19 parabellum ammunition.\n\n</text>
+	</string>
+</string_table>

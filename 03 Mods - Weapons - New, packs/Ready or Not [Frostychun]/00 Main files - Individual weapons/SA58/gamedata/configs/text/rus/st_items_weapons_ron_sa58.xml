@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+		<string id="st_wpn_sa58_new">
+		<text>SA58 OSW</text>
+	</string>
+	<string id="st_wpn_sa58_new_descr">
+		<text>SA58 — это штурмовой карабин, вариант десантной модели FAL. Он имеет складной вбок полимерный приклад Enhanced PARA, укороченный ствол длиной 279 мм (11 дюймов) или 330 мм (13 дюймов) и опциональную полностью автоматическую настройку.\n \n
+		%c[ui_gray_2]Навесное оборудование: \n
+		%c[d_purple] • %c[ui_gray_2] Много прицелов и коллиматоров\n
+		%c[d_purple] • %c[ui_gray_2] Глушитель: НАТО\n</text>
+	</string>
+</string_table>

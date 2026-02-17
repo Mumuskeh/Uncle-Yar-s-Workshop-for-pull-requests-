@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_revolver50cal">
+		<text>NKA Revolver</text>
+	</string>
+	<string id="st_wpn_revolver50cal_descr">
+		<text>The NKA Revolver is a sleek and powerful firearm that strikes the perfect balance between classic design and modern technology. Crafted with precision engineering, this fictional revolver features a polished stainless steel frame, giving it an air of elegance. Its distinctive rubber grip provides a comfortable and secure hold, enhancing the shooter's control. Chambered in the potent .338 Federal ammunition, the NKA Revolver delivers exceptional stopping power and accuracy, making it ideal for both self-defense and sporting purposes. Its three-round cylinder ensures a quick and reliable rotation, allowing for rapid follow-up shots. With its blend of timeless aesthetics and cutting-edge performance, the NKA Revolver stands as a symbol of craftsmanship and innovation in the world of firearms.</text>
+	</string>
+</string_table>

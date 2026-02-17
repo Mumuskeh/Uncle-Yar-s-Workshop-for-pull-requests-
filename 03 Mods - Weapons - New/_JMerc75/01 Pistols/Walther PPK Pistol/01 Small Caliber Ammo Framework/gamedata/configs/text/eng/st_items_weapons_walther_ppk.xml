@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_walther_ppk">
+		<text>Walther PPK</text>
+	</string>
+	<string id="st_wpn_walther_ppk_s">
+		<text>PPK</text>
+	</string>
+	<string id="st_wpn_walther_ppk_descr">
+		<text>The Walther PPK is a compact, semi-automatic pistol renowned for its sleek design and reliable performance. Introduced in the early 1930s, it quickly gained fame as the iconic firearm of James Bond, solidifying its status as a cultural symbol. The PPK features a single-stack magazine and a blowback-operated action, chambered in various calibers such as .32 ACP or .380 ACP, providing a balance between power and manageable recoil. Its distinct ergonomic grip, combined with a fixed barrel and low-profile sights, ensures excellent accuracy and control. With its reputation for reliability and the timeless elegance of its design, the Walther PPK continues to captivate firearms enthusiasts and collectors alike.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] 9mm caliber supressor\n
+		%c[d_purple] - %c[ui_gray_2] LMU unit (integrated)\n</text>
+	</string>
+</string_table>

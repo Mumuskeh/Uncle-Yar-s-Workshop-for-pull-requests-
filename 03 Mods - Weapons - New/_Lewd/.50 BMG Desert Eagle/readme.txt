@@ -3,7 +3,7 @@
 
 ----------------------------------------------------------
 -Compatibility:
-NOTE: You need the original mod. Let this overwrite it.
+NOTE: You need the original mod. Disable the configs folder.
 
 ----------------------------------------------------------
 -Explanation:
@@ -23,6 +23,10 @@ Use this instead of the original mod's non hq option.
 
 Sound performance patch
 Reduces the number of layers used, in case they cause lag for you when shooting.
+
+Mags Redux + .50 BMG Restoration
+Adds magazines with full world models and icons.
+It requires the .50 BMG Restoration in this same package, as it uses its basic settings to work (reuse and recycle, you know). You will be able to use these mags with other .50 BMG guns.
 
 ----------------------------------------------------------
 -Known issues:

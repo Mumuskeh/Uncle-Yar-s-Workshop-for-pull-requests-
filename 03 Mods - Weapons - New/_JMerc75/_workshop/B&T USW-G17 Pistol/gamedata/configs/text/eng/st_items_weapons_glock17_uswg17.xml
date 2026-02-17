@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_glock17_uswg17">
+		<text>Glock 17 w/ USW-G17</text>
+	</string>
+	<string id="st_wpn_glock17_uswg17_descr">
+		<text>The USW-G17 conversion kit is the ultimate add on for the Glock 17 and 19. It offers the operator the choice of using the pistol in the traditional way as well as with the built in folding stock, while the transition only requires less than a mere second. Due to its elaborated design, the operator can use the optionally available red dot sight and the original open sights as backup. The USW-G17 conversion kit fits all Glock pistols with a standard rail (Gen. 3 – 5) in calibers 9x19mm, .40 S&W and .357 SIG. Red dot sight (MOS) may not be mounted. \n \n %c[ui_gray_2]ATTACHMENTS: \n%c[d_purple] - %c[ui_gray_2] 9mm Caliber Supressor \n \n</text>
+	</string>
+</string_table>

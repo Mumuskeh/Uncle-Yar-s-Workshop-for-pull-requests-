@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_hecate_2">
+		<text>Hecate II</text>
+	</string>
+	<string id="st_wpn_hecate_2_descr">
+		<text>The PMG Hecate II is a formidable long-range precision sniper rifle known for its exceptional accuracy and power. Developed by the French company PGM Precision, this bolt-action rifle is designed to deliver devastating shots with unmatched precision at extreme distances. Its sturdy and ergonomic construction provides optimal stability for steady aiming, while the integrated bipod ensures enhanced shooting control. Chambered in powerful .338 ammunition, the Hecate II is capable of penetrating hardened targets and effectively neutralizing threats at extended ranges. Widely favored by military and law enforcement units, the PMG Hecate II stands as an epitome of cutting-edge engineering and marksmanship excellence.\n \n 
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ACOG, Gauss Rifle Sight, PN-23, March-F, Leupold and Specter\n</text>
+	</string>
+	
+	<string id="st_mag_hecate2_default">
+		<text>Hecate II 4-Round Magazine</text>
+	</string>
+	<string id="st_mag_hecate2_default_descr">
+		<text>Stamped steel magazine for the PMG Hecate Sniper rifle. Holds 4 rounds of .338 Magnum ammunition.</text>
+	</string>
+
+</string_table>

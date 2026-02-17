@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_cronen_squall">
+		<text>Cronen Squall</text>
+	</string>
+	<string id="st_wpn_cronen_squall_descr">
+		<text>An experimental bullpup, semi-automatic rifle designed for distance shooting and exceptional damage output. Supposedly designed for a yet unknown propietary 6.8mm round, but this particular example has been chambered for 7.62x51.\n\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most Picatinny/weaver sights with the exception of low mount optics\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Suppressor: AAC-7.62 Suppresor\n</text>
+	</string>
+</string_table>

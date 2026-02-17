@@ -1,0 +1,161 @@
+;------------------------------------------------------------------------------------------------
+[wpn_ak74u_rattler]:wpn_ak74u
+$spawn						= "weapons\ak74u_rattler"
+parent_section				= wpn_ak74u_rattler
+
+animation_slot				= 2
+ef_weapon_type				= 8
+
+
+icons_texture				= ui\ui_icon_ak74u_rattler
+inv_grid_width				= 4
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_name					= st_wpn_ak74u_rattler
+inv_name_short				= st_wpn_ak74u_rattler
+description					= st_wpn_ak74u_rattler_descr
+
+inv_weight					= 4.5
+cost						= 65962
+
+hud							= wpn_ak74u_rattler_hud
+visual						= dynamics\weapons\wpn_ak74u_rattler\wpn_ak74u_rattler_world.ogf
+position					= -0.026, 0.0, 0.0
+fire_point					= 0, 0.0, 0.656
+strap_position				= -0.26, -0.11, 0.25
+strap_orientation			= -15, -9, 110
+
+smoke_particles				= ghost_particles\weapons\flame_eft_ak
+shell_particles				= weapons\762x39
+
+upgrades					= up_gr_firstab_rpk, up_gr_seconab_rpk, up_gr_thirdab_rpk, up_gr_fourtab_rpk, up_gr_fifthab_rpk, up_gr_fifthcd_rpk
+upgrade_scheme				= upgrade_scheme_ak74
+upgr_icon_path				= ui\ui_icon_ak74u_rattler
+upgr_icon_x					= 350
+upgr_icon_y					= 00
+upgr_icon_width				= 150
+
+ammo_class					= ammo_7.62x39_fmj, ammo_7.62x39_fmj_bad, ammo_7.62x39_fmj_verybad, ammo_7.62x39_ap, ammo_7.62x39_ap_bad, ammo_7.62x39_ap_verybad
+ammo_elapsed				= 80
+ammo_mag_size				= 80
+
+silencer_x					= 150
+silencer_y					= 9
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_launcher_x			= 114
+grenade_launcher_y			= 14
+
+hit_impulse					= 39
+hit_power					= 0.65, 0.65, 0.65, 0.65
+fire_distance				= 1000
+bullet_speed				= 880
+rpm							= 720
+
+crosshair_inertion			= 5.8
+fire_dispersion_base		= 0.15
+
+condition_queue_shot_dec	= 0.0008
+condition_shot_dec			= 0.0008
+
+cam_relax_speed				= 10
+cam_dispersion				= 0.545
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 1.15
+zoom_cam_relax_speed		= 10
+zoom_cam_dispersion			= 0.515
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 1.05
+
+PDM_disp_accel_factor		= 2.5
+PDM_disp_base				= 1.0
+PDM_disp_vel_factor			= 2.5
+
+cam_relax_speed_ai			= 360
+
+kill_msg_y					= 28
+kill_msg_width				= 84
+kill_msg_height				= 28
+
+hud_fov				= 0.6
+
+use_alt_aim_hud		= true
+;---------------------------------------------------------------------SND-------------------------------------------------------------------------------
+snd_bore				= $no_sound
+snd_draw				= weapons\ak12custom\draw
+snd_holster				= weapons\ak12custom\hide
+
+snd_empty				= weapons\ak12custom\ak12_empty
+snd_reload				= weapons\ak_drummag\rattler_reload
+snd_reload_empty		= weapons\ak_drummag\rattler_reload_empty
+snd_reload_misfire		= weapons\ak_drummag\rattler_unjam
+
+snd_shoot				= wpn_akm_snd_shoot
+snd_shoot_actor			= wpn_akm_snd_shoot_actor
+snd_silncer_shot		= wpn_762_warsaw_snd_silenced
+snd_silncer_shot_actor	= wpn_762_warsaw_snd_silenced_actor
+
+snd_switch_mode			= weapons\generic\switch_mode
+;------------------------------------------------------------------------HUD------------------------------------------------------
+[wpn_ak74u_rattler_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_ak74u_rattler\wpn_ak74u_rattler_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= -0.001976, -0.011235, 0.023395
+hands_position_16x9		= -0.001976, -0.011235, 0.023395
+hands_orientation		= 4.608433, 2.85753, 0
+hands_orientation_16x9	= 4.608433, 2.85753, 0
+
+aim_hud_offset_pos		= -0.076805, 0.012937, 0
+aim_hud_offset_pos_16x9	= -0.076805, 0.012937, 0
+aim_hud_offset_rot		= 0.045867, 0.088278, 0
+aim_hud_offset_rot_16x9	= 0.045867, 0.088278, 0
+
+aim_hud_offset_alt_pos		= -0.111574, -0.075798, 0.003199
+aim_hud_offset_alt_pos_16x9	= -0.111574, -0.075798, 0.003199
+aim_hud_offset_alt_rot		= -0.019841, 0.122453, 0.593351
+aim_hud_offset_alt_rot_16x9	= -0.019841, 0.122453, 0.593351
+
+lowered_hud_offset_pos		= 0.010188, 0.032351, 0
+lowered_hud_offset_pos_16x9	= 0.010188, 0.032351, 0
+lowered_hud_offset_rot		= 0.29198, -0.371251, 0
+lowered_hud_offset_rot_16x9	= 0.29198, -0.371251, 0
+
+anm_hide					= rattlerj_holster, 1.2
+anm_idle					= rattlerj_idle, idle
+anm_idle_aim				= rattlerj_idle_aim, idle, 1.0
+anm_idle_aim_moving			= rattlerj_idle_aim, idle, 1.6
+anm_idle_aim_moving_crouch	= rattlerj_idle_aim, idle, 1.2
+anm_idle_moving				= rattlerj_walk, idle, 1.8
+anm_idle_sprint				= rattlerj_run, idle, 2.6
+anm_reload					= rattlerj_reload, reload
+anm_reload_empty			= rattlerj_reload_empty, reload_empty
+anm_reload_misfire			= rattlerj_unjam, unjam
+anm_shots					= rattlerj_shoot, shoot
+anm_show					= rattlerj_draw, idle
+anm_bore					= rattlerj_inspect, idle
+
+anm_idle_jammed				= rattlerj_idle, idle_jam
+anm_show_jammed				= rattlerj_draw, idle_jam
+anm_hide_jammed				= rattlerj_holster, idle_jam
+anm_idle_aim_jammed			= rattlerj_idle_aim, idle_jam, 1.0
+anm_idle_sprint_jammed		= rattlerj_run, idle_jam, 2.6
+anm_idle_moving_jammed		= rattlerj_walk, idle_jam, 1.8
+anm_bore_jammed				= rattlerj_inspect_jammed, idle_jam
+
+
+shell_bone									= bolt
+shell_point									= 0, 0, 0
+
+fire_bone									= muzzle
+fire_bone2									= muzzle
+fire_point									= 0, 0, 0
+fire_point2									= 0, 0, 0

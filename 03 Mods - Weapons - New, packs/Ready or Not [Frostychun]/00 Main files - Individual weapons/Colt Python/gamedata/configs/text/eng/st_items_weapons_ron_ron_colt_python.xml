@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_colt_python">
+		<text>Colt Python</text>
+	</string>
+	<string id="st_wpn_colt_python_descr">
+		<text>The Colt Python is a legendary double-action revolver introduced in 1955, renowned for its precision and power. Known as the "Rolls-Royce of revolvers," it features a full underlug barrel for stability and reduced muzzle flip, typically chambered in .357 Magnum. Its sleek design, ventilated rib, and hand-finished craftsmanship make it exceptionally accurate and aesthetically appealing. Favored by law enforcement and enthusiasts alike, the Colt Python is celebrated for its smooth trigger pull and outstanding accuracy.</text>
+	</string>
+
+</string_table>

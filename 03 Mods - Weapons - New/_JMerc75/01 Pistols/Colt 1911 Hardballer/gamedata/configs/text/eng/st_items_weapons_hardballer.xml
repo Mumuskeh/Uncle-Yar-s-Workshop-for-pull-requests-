@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_colt1911_hardballer">
+		<text>1911 Hardballer</text>
+	</string>
+	<string id="st_wpn_colt1911_hardballer_descr">
+		<text>The AMT Hardballer are a series of pistols that are part of the 1911 platform (based on the .45 ACP M1911) made by Arcadia Machine & Tool (AMT) from 1977 to 2002. The Hardballer was the first entirely stainless steel 1911 pattern pistol. Other features included adjustable rear sights and a lengthened grip safety.\n
+		The pistol was notably featured in a variety of western media such as The Terminator.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: .45 ACP Suppressor\n</text>
+	</string>
+</string_table>

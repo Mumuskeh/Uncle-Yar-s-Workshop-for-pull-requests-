@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m95_j">
+		<text>M95</text>
+	</string>
+	<string id="st_wpn_m95_j_descr">
+		<text>The Mannlicher M95 rifle, originally designed as a straight-pull bolt-action rifle for the Austro-Hungarian army, was known for its fast cycling mechanism and distinctive en-bloc clip system. When chambered in the powerful 7.62x54r, this rifle takes on a more formidable role, combining the robust, reliable design of the M95 with the hard-hitting, long-range capabilities of the Russian cartridge. This combination offers a unique blend of rapid fire and stopping power, making it a potent choice for both military and sporting applications, particularly in environments where durability and accuracy are paramount.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ZF-4 Scope\n \n</text>
+	</string>
+
+	<string id="st_wpn_m95_j_carbine">
+		<text>M95 Carbine</text>
+	</string>
+
+	<string id="st_mag_m95j_clip">
+		<text>Mannlicher 95 Clip</text>
+	</string>
+	<string id="st_mag_m95j_clip_descr">
+		<text>Steel clip for the Mannlicher 95, holds 5 rounds of 8x56r Mannlicher ammunition. \n \n</text>
+	</string>
+
+	<string id="st_ammo_856j">
+		<text>8x56r Mannlicher ammunition</text>
+	</string>
+	<string id="st_ammo_856j_descr">
+		<text>The 8×56mmR Mannlicher is a rimmed rifle cartridge developed for Austro-Hungarian and later Austrian military service, known for its use in the Steyr M95 series rifles and distinctive 208-grain spitzer bullet. \n \n
+		%c[d_purple] • %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]I \n
+		%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_8x56_pack">
+		<text>Mannlicher Standard Issue ammunition pack</text>
+	</string>
+	<string id="st_8x56_pack_descr">
+		<text>A standard-issue pack of 8×56mmR Mannlicher ammunition contained two stripper clips, each loaded with five rimmed cartridges, totaling 10 rounds, ready for use with Steyr M95 rifles. \n \n</text>
+	</string>
+</string_table>

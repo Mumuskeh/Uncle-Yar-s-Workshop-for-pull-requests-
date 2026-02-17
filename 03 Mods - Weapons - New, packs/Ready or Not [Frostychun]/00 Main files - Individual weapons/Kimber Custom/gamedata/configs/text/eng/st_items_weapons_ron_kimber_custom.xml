@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_kimber_custom">
+		<text>Kimber Custom (Custom)</text>
+	</string>
+	<string id="st_wpn_kimber_custom_s">
+		<text>Kimber Custom</text>
+	</string>
+	<string id="st_wpn_kimber_custom_descr">
+		<text>The Kimber Custom is an M1911 style semi-automatic pistol chambered in .45 ACP. It is designed, manufactured, and distributed by Kimber Manufacturing, Inc. in Yonkers, New York. It is a full-sized model 1911, with a five-inch barrel, usually chambered in .45 ACP. Although the Custom is considered Kimber's base model, it has a number of features that were formerly found only on customized model 1911s, such as a lowered ejection port, custom trigger, beveled magazine well, extended thumb safety, and beavertail grip safety.\n
+		This particular gun had a laser pointer module and a red dot sight attached.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] .45 Silencer</text>
+	</string>
+
+</string_table>

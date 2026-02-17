@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+		<string id="st_wpn_beretta_1301">
+		<text>Beretta 1301 Auto Shotgun </text>
+	</string>
+	<string id="st_wpn_beretta_1301_descr">
+		<text>Beretta 1301 — это газоотводное полуавтоматическое ружье, произведенное компанией Beretta и импортируемое компанией Beretta USA в США. У этого огнестрельного оружия есть две отдельные конструкции. Одна предназначена для тактической самообороны и правоохранительных целей, а другая — для спортивной стрельбы по мишеням.\n \n
+		%c[ui_gray_2]Навесное оборудование: \n
+		%c[d_purple] • %c[ui_gray_2] Прицелы : 0kp2, e0t2, eot, ac10632, c-more, ekp8_18, rmr, deltapoint, aim low, d0cter\n 
+		%c[d_purple] • %c[ui_gray_2] Глушитель: SALVO12 \n</text>
+	</string>	
+</string_table>

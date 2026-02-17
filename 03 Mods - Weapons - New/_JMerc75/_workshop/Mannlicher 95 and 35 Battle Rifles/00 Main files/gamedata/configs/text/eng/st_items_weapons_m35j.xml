@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m35_j">
+		<text>M35</text>
+	</string>
+	<string id="st_wpn_m35_j_descr">
+		<text>The Hungarian M35 bolt-action rifle was a locally produced variant of the Mannlicher M95, chambered in 7.62x54r and used primarily by Hungary during the interwar period and World War II. It featured the same straight-pull bolt system for rapid cycling, a five-round en-bloc clip, and a sturdy design suited for military use. The M35 was an improvement over earlier models, often featuring better metallurgy and sights. While largely replaced by semi-automatic rifles later in the war, it remained in use with Hungarian and Axis-aligned forces.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ZF-4 Scope. \n \n</text>
+	</string>
+</string_table>

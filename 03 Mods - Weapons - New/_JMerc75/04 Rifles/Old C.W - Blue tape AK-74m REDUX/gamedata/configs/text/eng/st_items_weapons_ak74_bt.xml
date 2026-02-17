@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak74_bt">
+		<text>AK-74N with blue tape</text>
+	</string>
+	<string id="st_wpn_ak74_bt_s">
+		<text>AK-74N, blue tape</text>
+	</string>
+	<string id="st_wpn_ak74_bt_descr">
+		<text>The AK-74 (Avtomat Kalashnikova obraztsa 1974'Kalashnikov assault rifle model 1974') is an assault rifle designed by small arms designer Mikhail Kalashnikov in 1974. While primarily associated with the Soviet Union, it has been used by many countries since the 1970s. It is chambered for the 5.45×39mm cartridge, which replaced the 7.62×39mm cartridge of Kalashnikov's earlier automatic weapons for the Soviet armed forces.\n
+		Someone used blue tape on this particular rifle and its magazines, one supposes to improve the grip. Or just because it looked "cooler".\n\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] -%c[ui_gray_2] GP-25 grenade launcher (after modification)\n
+		%c[d_purple] -%c[ui_gray_2] TGP-A Supressor\n
+		%c[d_purple] -%c[ui_gray_2] EKP-8-02 Kobra, 1P29, Scopes\n</text>
+	</string>
+</string_table>

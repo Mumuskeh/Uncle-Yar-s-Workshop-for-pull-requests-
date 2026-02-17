@@ -28,6 +28,8 @@ hit_fraction_actor				= 0.95
 bones_koeff_protection			= actor_helm_respirator
 control_inertion_factor			= 1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.0005
 shock_protection				= 0.01
 radiation_protection			= 0.0055
@@ -69,6 +71,8 @@ hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.085
 shock_protection				= 0.075
 radiation_protection			= 0.0311
@@ -109,6 +113,8 @@ repair_type						= helmet_light
 hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_respirator
 control_inertion_factor			= 1
+
+helmet_type						= basic ; helmet restriction compatibility
 
 burn_protection					= 0.008
 shock_protection				= 0.06
@@ -152,6 +158,8 @@ bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 1
 power_loss						= 0.1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.0099
 shock_protection				= 0.090
 radiation_protection			= 0.0285
@@ -194,6 +202,8 @@ bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 1
 power_loss						= 0.1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.0016
 shock_protection				= 0.0098
 radiation_protection			= 0.0480
@@ -234,6 +244,8 @@ repair_type						= helmet
 hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 1
+
+helmet_type						= basic ; helmet restriction compatibility
 
 burn_protection					= 0.010
 shock_protection				= 0.07
@@ -276,6 +288,8 @@ hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_respirator
 control_inertion_factor			= 1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.005
 shock_protection				= 0.07
 radiation_protection			= 0.0161
@@ -300,6 +314,8 @@ inv_grid_y						= 0
 cost							= 10000
 inv_weight						= 1.48
 
+helmet_type						= basic ; helmet restriction compatibility
+
 radiation_protection			= 0.0230
 chemical_burn_protection		= 0.016
 telepatic_protection			= 0.005
@@ -321,6 +337,8 @@ inv_grid_y						= 0
 cost							= 8920
 inv_weight						= 1.6
 immunities_sect					= sect_helm_respirator_gp5_old_immunities
+
+helmet_type						= basic ; helmet restriction compatibility
 
 burn_protection					= 0.005
 shock_protection				= 0.07
@@ -366,6 +384,8 @@ hit_fraction_actor				= 0.9
 bones_koeff_protection			= helmet ; actor_helm_respirator ; the text mentions including a helmet
 control_inertion_factor			= 1
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.01
 shock_protection				= 0.06
 radiation_protection			= 0.021
@@ -406,6 +426,8 @@ repair_type						= helmet_light
 hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_respirator
 control_inertion_factor			= 1
+
+helmet_type						= basic ; helmet restriction compatibility
 
 burn_protection					= 0.009
 shock_protection				= 0.09
@@ -448,6 +470,8 @@ hit_fraction_actor				= 0.9
 bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 1
 power_loss						= 0.1
+
+helmet_type						= basic ; helmet restriction compatibility
 
 burn_protection					= 0.0015
 shock_protection				= 0.0093
@@ -507,6 +531,8 @@ hit_fraction_actor				= 0.95
 bones_koeff_protection			= actor_helm_m40
 control_inertion_factor			= 2
 
+helmet_type						= basic ; helmet restriction compatibility
+
 burn_protection					= 0.023
 shock_protection				= 0.099
 radiation_protection			= 0.0375
@@ -531,29 +557,31 @@ wound_immunity					= 0.0
 ;--------------------------------------------------------------------------
 
 [helm_tactic_23m]:helm_tactic
-$spawn							= "outfit\helm_s23m"
+$spawn						= "outfit\helm_s23m"
 
-inv_name						= st_helm_s23m
-inv_name_short					= st_helm_s23m
-description						= st_helm_s23m_descr
-inv_grid_x						= 80
-inv_grid_y						= 14
-upgr_icon_x						= 716
-upgr_icon_y						= 824
-upgr_icon_width					= 198
-upgr_icon_height				= 129
+inv_name					= st_helm_s23m
+inv_name_short				= st_helm_s23m
+description					= st_helm_s23m_descr
+inv_grid_x					= 80
+inv_grid_y					= 14
+upgr_icon_x					= 716
+upgr_icon_y					= 824
+upgr_icon_width				= 198
+upgr_icon_height			= 129
 
-cost							= 16400
-inv_weight						= 1.89
-;repair_part_bonus				= 0.17
+cost						= 16400
+inv_weight					= 1.89
+;repair_part_bonus			= 0.17
 
-burn_protection					= 0.010
-shock_protection				= 0.15
-radiation_protection			= 0.0150
-chemical_burn_protection		= 0.014
-telepatic_protection			= 0.03
-strike_protection				= 0.18
-explosion_protection			= 0.38
-wound_protection				= 0.09
+helmet_type					= medium ; helmet restriction compatibility
+
+burn_protection				= 0.010
+shock_protection			= 0.15
+radiation_protection		= 0.0150
+chemical_burn_protection	= 0.014
+telepatic_protection		= 0.03
+strike_protection			= 0.18
+explosion_protection		= 0.38
+wound_protection			= 0.09
 
 ;--------------------------------------------------------------------------

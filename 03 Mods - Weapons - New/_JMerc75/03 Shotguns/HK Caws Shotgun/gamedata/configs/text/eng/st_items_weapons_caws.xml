@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_caws">
+		<text>HK CAWS</text>
+	</string>
+	<string id="st_wpn_caws_s">
+		<text>CAWS</text>
+	</string>
+	<string id="st_wpn_caws_descr">
+		<text>The Heckler & Koch HK CAWS (Close Assault Weapon System) is a prototype for a fully ambidextrous 12-gauge, bullpup, automatic shotgun, co-produced by Heckler & Koch (designing the weapon system) and Winchester/Olin (the caseless ammunition) during the 1980s, as HK's entry into the U.S. military's Close Assault Weapon System program. The program was ultimately canceled, and the development of all CAWS projects cancelled.\n
+		How Nimble got his hands on this sample decades later, you don't care to know. But it has been modified to load normal shells, due to the propietary caseless ammo not only being hard but impossible to source anymore. A set of drum magazines is also included.\n\n</text>
+	</string>	
+</string_table>

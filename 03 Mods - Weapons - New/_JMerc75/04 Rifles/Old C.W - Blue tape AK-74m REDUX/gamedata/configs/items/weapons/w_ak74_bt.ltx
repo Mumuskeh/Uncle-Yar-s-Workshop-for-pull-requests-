@@ -1,0 +1,203 @@
+;------------------------------------------------------------------------------------------------
+[wpn_ak74_bt]:wpn_ak74
+$spawn						= "weapons\ak74_bt"
+parent_section				= wpn_ak74_bt
+
+icons_texture				= ui\ui_icon_ak74_bt
+inv_grid_height				= 2
+inv_grid_width				= 5
+inv_grid_x					= 0
+inv_grid_y					= 0
+inv_name					= st_wpn_ak74_bt
+inv_name_short				= st_wpn_ak74_bt
+description					= st_wpn_ak74_bt_descr
+
+cost						= 26530
+
+hud							= wpn_ak74_bt_hud
+visual						= dynamics\weapons\wpn_ak74m_bt\wpn_ak74m_world.ogf
+
+shell_point					= 0, 0.216, 0.174
+shell_dir					= 0.0, 0.0, 0.4
+
+; upgrades					= up_gr_firstab_ak74m, up_gr_seconab_ak74m, up_gr_thirdab_ak74m, up_gr_fourtab_ak74m, up_gr_fifthab_ak74m, up_gr_fifthcd_ak74m
+upgr_icon_y					= 500
+
+scope_zoom_factor			= 100
+
+silencer_x					= 230
+silencer_y					= 4
+
+grenade_launcher_x			= 100
+grenade_launcher_y			= 10
+
+rpm							= 600
+
+; time_to_aim					= 3.0
+control_inertion_factor		= 1.28f
+crosshair_inertion			= 5.6
+fire_dispersion_base		= 0.32
+
+misfire_start_condition		= 0.72
+
+cam_dispersion				= 0.93
+cam_dispersion_inc			= 0.65
+
+zoom_cam_dispersion			= 0.25
+zoom_cam_dispersion_frac	= 0.25
+zoom_cam_dispersion_inc		= 0.25
+
+hud_fov						= 0.6
+
+snd_shoot				= wpn_ak74_snd_shoot
+snd_shoot_actor			= wpn_ak74_snd_shoot_actor
+snd_silncer_shot		= wpn_545_snd_silenced
+snd_silncer_shot_actor	= wpn_545_snd_silenced_actor
+
+[wpn_ak74_bt_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_ak74m_bt\wpn_ak74m_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_position			= -0.093333, -0.11343, -0.146953
+hands_position_16x9		= -0.093333, -0.11343, -0.146953
+hands_orientation		= 1.419995, 1.613337, -3
+hands_orientation_16x9	= 1.419995, 1.613337, -3
+
+aim_hud_offset_pos		= -0.050183, 0.022654, -0.117561
+aim_hud_offset_pos_16x9	= -0.050183, 0.022654, -0.117561
+aim_hud_offset_rot		= 0.027575, 0.025256, -0.0475
+aim_hud_offset_rot_16x9	= 0.027575, 0.025256, -0.0475
+
+gl_hud_offset_pos		= -0.011525, -0.00607, -0.15289
+gl_hud_offset_pos_16x9	= -0.011525, -0.00607, -0.15289
+gl_hud_offset_rot		= -0.077841, 0.01619, 0
+gl_hud_offset_rot_16x9	= -0.077841, 0.01619, 0
+
+lowered_hud_offset_pos		= 0.086213, 8e-06, 0.011235
+lowered_hud_offset_pos_16x9	= 0.086213, 8e-06, 0.011235
+lowered_hud_offset_rot		= 0.132854, -0.701913, 0.1
+lowered_hud_offset_rot_16x9	= 0.132854, -0.701913, 0.1
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_bore						= ak74_idle_aim
+anm_bore_g						= ak74_idle_aim_w_gl
+anm_bore_w_gl					= ak74_idle_aim_w_gl
+anm_hide						= ak74_holster
+anm_hide_g						= ak74_holster_w_gl
+anm_hide_w_gl					= ak74_holster_w_gl
+anm_idle						= ak74_idle
+anm_idle_aim					= ak74_idle_aim
+anm_idle_aim_moving				= ak74_idle_moving, idle, 0.75
+anm_idle_aim_moving_crouch		= ak74_idle_moving, idle, 0.7
+anm_idle_g						= ak74_idle_w_gl
+anm_idle_g_aim					= ak74_idle_aim_w_gl
+anm_idle_moving					= ak74_idle_moving
+anm_idle_moving_crouch			= ak74_idle_crouch
+anm_idle_moving_crouch_g		= ak74_idle_crouch_w_gl
+anm_idle_moving_crouch_g_aim	= ak74_idle_moving_w_glm, idle, 0.7
+anm_idle_moving_crouch_w_gl		= ak74_idle_crouch_w_gl
+anm_idle_moving_crouch_w_gl_aim	= ak74_idle_moving_w_glm, idle, 0.7
+anm_idle_moving_g				= ak74_idle_moving_w_gl
+anm_idle_moving_g_aim			= ak74_idle_moving_w_glm, idle, 0.75
+anm_idle_moving_w_gl			= ak74_idle_moving_w_gl
+anm_idle_moving_w_gl_aim		= ak74_idle_moving_w_glm, idle, 0.75
+anm_idle_sprint					= ak74_idle_sprint
+anm_idle_sprint_g				= ak74_idle_sprint_w_gl
+anm_idle_sprint_w_gl			= ak74_idle_sprint_w_gl
+anm_idle_w_gl					= ak74_idle_w_gl
+anm_idle_w_gl_aim				= ak74_idle_aim_w_gl
+anm_reload						= ak74_reload
+anm_reload_empty				= ak74_reload_empty
+anm_reload_empty_w_gl			= ak74_reload_empty_w_gl
+anm_reload_g					= ak74_reload_grenade
+anm_reload_w_gl					= ak74_reload_w_gl
+anm_shots						= ak74_shoot
+anm_shots_g						= ak74_shoot_grenade
+anm_shots_w_gl					= ak74_shoot_w_gl
+anm_show						= ak74_draw
+anm_show_g						= ak74_draw_w_gl
+anm_show_w_gl					= ak74_draw_w_gl
+anm_switch						= ak74_idle_aim_w_gl
+anm_switch_g					= ak74_idle_aim_w_gl
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= muzzle_gl
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak74_bt_1p29]:wpn_ak74_bt
+hud				= wpn_ak74_bt_1p29_hud
+visual			= dynamics\weapons\wpn_ak74m_bt\wpn_ak74m_1p29_world.ogf
+
+1icon_layer		= 1p29
+1icon_layer_x	= 72
+1icon_layer_y	= -8
+
+inv_weight		= 4.22
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p29
+scope_zoom_factor	= 20
+
+scope_zoom_factor_16x9	= 20
+
+[wpn_ak74_bt_1p29_hud]:wpn_ak74_bt_hud
+item_visual	= anomaly_weapons\wpn_ak74m_bt\wpn_ak74m_1p29_hud.ogf
+
+aim_hud_offset_pos		= -0.045116, -0.003798, -0.058468
+aim_hud_offset_pos_16x9	= -0.045116, -0.003798, -0.058468
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak74_bt_kobra]:wpn_ak74_bt
+hud				= wpn_ak74_bt_kobra_hud
+visual			= dynamics\weapons\wpn_ak74m_bt\wpn_ak74m_kobra_world.og
+
+1icon_layer		= kobra
+1icon_layer_x	= 72
+1icon_layer_y	= -8
+
+inv_weight		= 3.8
+
+[wpn_ak74_bt_kobra_hud]:wpn_ak74_bt_hud
+item_visual	= anomaly_weapons\wpn_ak74m_bt\wpn_ak74m_kobra_hud.ogf
+
+aim_hud_offset_pos		= -0.05034, -0.016386, -0.052354
+aim_hud_offset_pos_16x9	= -0.05034, -0.016386, -0.052354
+
+;------------------------------------------------------------------------------------------------
+[wpn_ak74_bt_ps01]:wpn_ak74_bt
+hud				= wpn_ak74_bt_pso1_hud
+
+1icon_layer		= ps01
+1icon_layer_x	= 69
+1icon_layer_y	= -8
+
+inv_weight		= 4.03
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso1
+scope_zoom_factor	= 15
+
+[wpn_ak74_bt_pso1_hud]:wpn_ak74_bt_hud
+item_visual	= anomaly_weapons\wpn_ak74m_bt\wpn_ak74m_pso1_hud.ogf
+
+aim_hud_offset_pos		= -0.045856, 0.020732, -0.037631
+aim_hud_offset_pos_16x9	= -0.045856, 0.020732, -0.037631
+
+hands_orientation		= 1.465797, 2.067727, -3
+hands_orientation_16x9	= 1.465797, 2.067727, -3
+hands_position			= -0.091201, -0.120681, -0.130951
+hands_position_16x9		= -0.091201, -0.120681, -0.130951

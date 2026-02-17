@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_berthier_carbine_j">
+		<text>Berthier 1907/15</text>
+	</string>
+	<string id="st_wpn_berthier_carbine_j_descr">
+		<text>The Berthier 1907/15 carbine, an early version of the French military rifle, was a compact and practical bolt-action weapon designed for use by cavalry and specialized troops. Chambered for the 8mm Lebel cartridge, this version featured a unique 3-round en-bloc clip system, which allowed for quick reloading but limited ammunition capacity. Its shorter barrel and reduced weight made it more maneuverable than the standard infantry rifles, particularly useful in the close quarters of trench warfare. While its limited magazine capacity was a drawback, the carbine's reliability and simplicity made it a favored choice among soldiers who needed a lighter, easy-to-handle rifle.\n \n</text>
+	</string>
+
+	<string id="st_mag_berthierj_clip">
+		<text>Berthier 1907/15 Clip</text>
+	</string>
+	<string id="st_mag_berthierj_clip_descr">
+		<text>Steel clip for the Berthier 1907/15, holds 3 rounds of 8x50r ammunition. \n \n</text>
+	</string>
+
+	<string id="st_ammo_8mmlebelj_fmj">
+		<text>8x50r Lebel Ammunition</text>
+	</string>
+	<string id="st_ammo_8mmlebelj_fmj_descr">
+		<text>The 8mm Lebel cartridge, introduced in 1886, was the first smokeless powder military round, featuring a rimmed, tapered case and pointed bullet. Known for high velocity and strong stopping power, it had substantial recoil and could be tricky to feed due to its rimmed design. \n \n</text>
+	</string>
+
+	<string id="st_ammo_8mmlebelj_hp">
+		<text>8x50r Lebel Soft Point Ammunition</text>
+	</string>
+	<string id="st_ammo_8mmlebelj_hp_descr">
+		<text>The 8mm Lebel soft point round, with its exposed lead tip, allowed for greater expansion on impact, boosting stopping power and energy transfer. This made it highly effective for hunting and close-range encounters, while retaining the high velocity and recoil of the standard 8mm Lebel. \n \n</text>
+	</string>
+
+</string_table>

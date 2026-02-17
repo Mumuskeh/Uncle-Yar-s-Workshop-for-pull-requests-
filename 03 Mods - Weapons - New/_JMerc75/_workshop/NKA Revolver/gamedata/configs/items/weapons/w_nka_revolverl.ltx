@@ -1,0 +1,264 @@
+wpn_revolver50cal
+wpn_nka_revolver
+
+;------------------------------------------------------------------------------------------------
+[wpn_revolver50cal]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection							= spawn_group
+discovery_dependency						=
+$npc										= on
+$prefetch									= 8
+$spawn										= "weapons\revolver50cal"
+scheduled									= off
+cform										= skeleton
+parent_section								= wpn_revolver50cal
+
+class										= WP_PM
+slot										= 1
+animation_slot								= 1
+ef_weapon_type								= 5
+hand_dependence								= 1
+single_handed								= 1
+
+default_to_ruck								= false
+sprint_allowed								= true
+
+icons_texture								= ui\ui_icon_revolver50cal
+inv_grid_height								= 2
+inv_grid_width								= 3
+inv_grid_x									= 0
+inv_grid_y									= 0
+inv_name									= st_wpn_revolver50cal
+inv_name_short								= st_wpn_revolver50cal
+description									= st_wpn_revolver50cal_descr
+
+kind										= w_pistol
+inv_weight									= 2.6
+cost										= 69351
+repair_type									= pistol
+
+hud											= wpn_revolver50cal_hud
+visual										= dynamics\weapons\wpn_revolver50cal\wpn_revolver50cal_world.ogf
+position									= -0.021, -0.085, 0.0
+orientation									= 0, 0, 0
+fire_point									= 0.0, 0.133, 0.22
+ph_mass										= 1
+
+flame_particles								= weapons\generic_weapon03
+smoke_particles								= weapons\generic_shoot_00
+
+light_color									= 0.6, 0.5, 0.3
+light_range									= 3.0
+light_time									= 0.2
+light_var_color								= 0.05
+light_var_range								= 0.5
+
+upgrades									= up_gr_firstab_mp412, up_gr_seconab_mp412
+installed_upgrades							=
+upgrade_scheme								= upgrade_scheme_mp412
+upgr_icon_x									= 750
+upgr_icon_y									= 1850
+upgr_icon_width								= 150
+upgr_icon_height							= 100
+
+fire_modes									= 1
+ammo_class									= ammo_338_federal
+ammo_current								= 90
+ammo_elapsed								= 12
+ammo_limit									= 120
+ammo_mag_size								= 3
+
+scopes										= none
+scope_status								= 0
+scope_zoom_factor							= 0
+
+silencer_status								= 0
+silencer_light_color						= 0.6, 0.5, 0.3
+silencer_light_range						= 0.01
+silencer_light_time							= 0.2
+silencer_light_var_color					= 0.05
+silencer_light_var_range					= 0.5
+silencer_smoke_particles					= weapons\generic_shoot_00
+
+grenade_launcher_status						= 0
+
+hit_impulse					= 40
+hit_power						= 1.0, 1.0, 1.0, 1.0
+hit_type						= fire_wound
+fire_distance					= 750
+bullet_speed					= 1150
+rpm											= 200
+rpm_empty_click								= 200
+
+use_aim_bullet								= true
+time_to_aim									= 0.0 ; 1.0
+zoom_dof									= -1000, 1.0, 1000
+zoom_enabled								= true
+zoom_rotate_time	= 0.25
+reload_dof									= 0.0, 0.5, 5, 1.7
+control_inertion_factor						= 1.0f
+crosshair_inertion							= 4.3
+fire_dispersion_base						= 0.54
+fire_dispersion_condition_factor			= 0.001
+
+misfire_start_condition						= 0.7 ; 0.85
+misfire_start_prob							= 0.007
+misfire_end_condition						= 0.12
+misfire_end_prob							= 0.11
+
+condition_queue_shot_dec					= 0.0024
+condition_shot_dec							= 0.0024
+
+		cam_return						= 0
+		cam_relax_speed				= 20
+		cam_dispersion					= 6.88
+		cam_dispersion_frac			= 1.1
+		cam_dispersion_inc				= 0.0
+		cam_max_angle					= 30.0
+		cam_max_angle_horz				= 30.0
+		cam_step_angle_horz			= 2.77
+		zoom_cam_relax_speed			= 10
+		zoom_cam_dispersion			= 6.03
+		zoom_cam_dispersion_frac		= 0.7
+		zoom_cam_dispersion_inc		= 0.0
+		zoom_cam_max_angle				= 50.0
+		zoom_cam_max_angle_horz		= 50.0
+		zoom_cam_step_angle_horz		= 2.31
+
+		PDM_disp_accel_factor			= 1.755
+		PDM_disp_base					= 1.7
+		PDM_disp_crouch				= 1.0
+		PDM_disp_crouch_no_acc			= 1.0
+		PDM_disp_vel_factor			= 1.75
+
+		cam_relax_speed_ai				= 360
+		zoom_cam_relax_speed_ai		= 120.75
+		holder_fov_modifier			= 1.0
+		holder_range_modifier			= 1.0
+		min_radius						= 0
+		max_radius						= 500
+		hit_probability_gd_novice		= 1.00
+		hit_probability_gd_stalker		= 1.00
+		hit_probability_gd_veteran		= 1.00
+		hit_probability_gd_master		= 1.00
+
+kill_msg_x									= 194
+kill_msg_y									= 123
+kill_msg_width								= 46
+kill_msg_height								= 27
+weapon_lower_speed							= 0.2
+
+hud_fov										= 0.65
+
+;======================================================================================================================================================;
+; 																										;
+; 																SOUNDS	BY	TheTazDJ							;
+; 																										;
+;======================================================================================================================================================;
+;MISC	SOUNDS
+snd_draw											= weapons\357\handling\357_deploy_tcwp
+snd_holster											= weapons\357\handling\357_holster_tcwp
+snd_bore											= weapons\357\handling\357_inspect_spin_tcwp
+snd_empty											= weapons\357\handling\357_trigger_hammer_tcwp
+scripted_snd_sprint_end								= weapons\357\handling\357_end_sprint_tcwp1
+
+;RELOAD	SOUNDS
+snd_reload_empty									= weapons\357\handling\357_reload_empty_tcwp1
+snd_reload_empty1									= weapons\357\handling\357_reload_empty_tcwp2
+snd_reload_empty2									= weapons\357\handling\357_reload_empty_tcwp3
+
+snd_reload_misfire									= weapons\357\handling\357_unjam_tcwp
+
+;_AMMO_1_;
+scripted_snd_reload_ammo1							= weapons\357\handling\357_reload_empty_tcwp1
+
+
+;_AMMO_2_;
+scripted_snd_reload_ammo2							= weapons\357\handling\357_reload_empty_tcwp1
+
+
+;_AMMO_3_;
+scripted_snd_reload_ammo3							= weapons\357\handling\357_reload_empty_tcwp1
+
+
+;_AMMO_4_;
+scripted_snd_reload_ammo4							= weapons\357\handling\357_reload_empty_tcwp1
+
+
+;_AMMO_5_;
+scripted_snd_reload_ammo5							= weapons\357\handling\357_reload_empty_tcwp1
+
+
+;SHOOT	SOUNDS
+snd_shoot												= wpn_m82_snd_shoot
+snd_shoot_actor										= wpn_m82_snd_shoot
+
+;====================================================================== HUD	===========================================================================;
+[wpn_revolver50cal_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_revolver50cal\wpn_revolver50cal_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_orientation		= 1.9174, 0.046695, 0.584002
+hands_orientation_16x9	= 1.9174, 0.046695, 0.584002
+hands_position			= -0.003469, -0.006539, -0.035943
+hands_position_16x9		= -0.003469, -0.006539, -0.035943
+
+aim_hud_offset_pos		= -0.042786, 0.017543, -0.003535
+aim_hud_offset_pos_16x9	= -0.042786, 0.017543, -0.003535
+aim_hud_offset_rot		= 0.003505, 0.039163, -0.0687
+aim_hud_offset_rot_16x9	= 0.003505, 0.039163, -0.0687
+
+aim_hud_offset_alt_pos				= -0.04, -0.02, -0.047908
+aim_hud_offset_alt_pos_16x9			= -0.04, -0.02, -0.047908
+aim_hud_offset_alt_rot				= 0, 0.044, 0.3
+aim_hud_offset_alt_rot_16x9			= 0, 0.044, 0.3
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+		lowered_hud_offset_pos		= 0.000402, 0.023117, 0.039075
+		lowered_hud_offset_pos_16x9	= 0.000402, 0.023117, 0.039075
+		lowered_hud_offset_rot		= 0.258927, -0.113125, 0
+		lowered_hud_offset_rot_16x9	= 0.258927, -0.113125, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+anm_hide									= colt357_new_holster, holster
+anm_idle									= colt357_new_idle, idle
+anm_idle_aim								= colt357_new_aim, idle
+anm_idle_aim_moving							= colt357_new_walk, walk, 0.75
+anm_idle_aim_moving_crouch					= colt357_new_walk, walk, 0.7
+anm_idle_moving								= colt357_new_walk, walk
+anm_idle_moving_crouch						= colt357_new_walk, walk, 0.7
+anm_idle_sprint								= colt357_new_sprint, sprint
+anm_reload_ammo5							= colt357_new_reload_5, reload_5
+anm_reload_ammo4							= revolver50cal_reload_empty, reload_empty
+anm_reload_ammo3							= revolver50cal_reload_empty, reload_empty
+anm_reload_ammo2							= revolver50cal_reload_empty, reload_empty
+anm_reload_ammo1							= revolver50cal_reload_empty, reload_empty
+anm_reload_empty							= revolver50cal_reload_empty, reload_empty
+anm_reload_misfire							= colt357_new_unjam, unjam
+anm_shots									= colt357_new_shoot, shoot
+anm_show									= colt357_new_draw, draw
+anm_bore									= colt357_new_inspect, inspect
+
+fire_bone									= muzzle
+fire_bone2									= muzzle
+fire_point									= 0.0, 0.0, 0.0
+fire_point2									= 0.0, 0.0, 0.0
+
+freelook_z_offset_mul	= 0.1
+
+;--- Переходы	спринта---
+anm_sprint_end								= colt357_new_sprint_end, sprint_end
+
+;--- Паттерны	спринта---
+ts_pattern_sprint_end						= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
+
+;==================================================================================================================================

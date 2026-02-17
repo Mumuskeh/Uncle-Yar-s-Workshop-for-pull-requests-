@@ -11,17 +11,19 @@ Install it with the guns listed below, then disable the folders:
 ----------------------------------------------------------
 -Explanation:
 
-First, for compatibility, this gathers the guns not covered by other mods to consolidate their files, including integrating the trader and Mags Redux files. These are:
+Two options are offered: Consolidated files, and Individual weapons. Either drop all guns into the game gathered in joined files, or pick and choose depending on your choices during the mod's installer.
 
-Kimber 1911
-Staccato 2011
-Colt Python
-Beretta 1301
-KAC SR-16
-DDM4 PDW
-MCX SBR
-SA-58
-SLR AK
+Guns covered by other mods like Pretty Pistols Pack are ignored, leaving this selection:
+
+-Kimber 1911
+-Staccato 2011
+-Colt Python
+-Beretta 1301
+-KAC SR-16
+-DDM4 PDW
+-MCX SBR
+-SA-58
+-SLR AK
 
 Beretta 92X, FN509, P229, and MP510 are ignored in favor of the same in Pretty Pistols Pack, and 10mm Auto Ecosystem. The MP510 in particular is pretty redundant given it doesn't use the intended 10mm Auto ammo, so it's just a MP5 with a different model.
 
@@ -37,7 +39,6 @@ Trader files have been reworked. The original mod just offered everything at the
 
 The icon file has been trimed as well. Text edited a bit.
 
-Also I'm not sure what the Vanilla Anomaly Damage Balance Patch is intended for, because unlike what it says, it actually makes the guns stronger. So it is included in the main files, but disabled. Your choice to reenable.
 
 Integration into:
 Grok's Enhanced Recoil
@@ -55,6 +56,10 @@ NPC loadouts rework?
 
 Sound performance patch
 This will reduce the number of sound layers if shooting the gun affects your game's performance.
+Only useful for the Colt Python.
+
+Vanilla Anomaly Damage Balance Patch
+I'm not sure what it is intended for, because unlike what the mod says, it actually makes the guns stronger in relation to the vanilla balance. Your choice to use.
 
 ----------------------------------------------------------
 -Known issues:

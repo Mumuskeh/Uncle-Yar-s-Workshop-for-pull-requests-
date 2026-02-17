@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_beretta_1301">
+		<text>Beretta 1301 Auto Shotgun </text>
+	</string>
+	<string id="st_wpn_beretta_1301_descr">
+		<text>The Beretta 1301 is a gas-operated semi-automatic shotgun produced by Beretta, and imported by Beretta USA in the United States. The firearm has two separate designs. One is intended for tactical self-defense and law enforcement applications whereas the other is designed for target shooting sports.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Sights: 0kp2, e0t2, eot, ac10632, c-more, ekp8_18, rmr, deltapoint, aim low, d0cter\n 
+		%c[d_purple] • %c[ui_gray_2] SALVO12 Silencer</text>
+	</string>
+
+</string_table>

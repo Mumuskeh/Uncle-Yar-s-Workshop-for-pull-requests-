@@ -1,0 +1,651 @@
+;------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_aug_sounds
+GroupControlSection							= spawn_group
+$npc										= on
+$prefetch									= 8
+$spawn										= "weapons\l85"
+scheduled									= off
+cform										= skeleton
+parent_section								= wpn_tavorx95_j
+
+class										= WP_AK74
+slot										= 2
+animation_slot								= 2
+ef_main_weapon_type							= 2
+ef_weapon_type								= 7
+hand_dependence								= 1
+single_handed								= 0
+
+default_to_ruck								= false
+sprint_allowed								= true
+
+icons_texture								= ui\tavorsj_icon
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 0
+inv_name									= st_wpn_tavorx95_j
+inv_name_short								= st_wpn_tavorx95_j
+description									= st_wpn_tavorx95_j_descr
+
+kind										= w_rifle
+inv_weight									= 3.3
+cost										= 46792
+repair_type									= rifle_5
+weapon_class								= assault_rifle
+
+hud											= wpn_tavorx95_j_hud
+visual										= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+position									= -0.026, -0.135, 0.0
+orientation									= 0, 0, 0
+fire_point									= 0.0, 0.186, 0.415
+fire_point2									= 0.0, 0.106, 0.468
+strap_bone0									= bip01_spine2
+strap_bone1									= bip01_spine1
+strap_position								= -0.15, -0.36, 0.25
+strap_orientation							= -10, -5, 10
+ph_mass										= 5
+
+flame_particles								= weapons\generic_weapon05
+smoke_particles								= weapons\generic_shoot_00
+grenade_flame_particles						= weapons\generic_weapon01
+
+shell_point									= -0.02, 0.17, -0.18
+shell_dir									= 0,0,0.4
+shell_particles								= weapons\556x45
+
+light_disabled								= false
+light_color									= 0.6, 0.5, 0.3
+light_range									= 5
+light_time									= 0.2
+light_var_color								= 0.05
+light_var_range								= 0.5
+
+upgrades						= up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_pm
+upgr_icon_path								= ui\tavorsj_icon
+upgr_icon_x									= 0
+upgr_icon_y									= 100
+upgr_icon_width								= 250
+upgr_icon_height							= 100
+
+fire_modes									= 1, -1
+ammo_class									= ammo_5.56x45_fmj, ammo_5.56x45_fmj_bad, ammo_5.56x45_fmj_verybad, ammo_5.56x45_ss190, ammo_5.56x45_ss190_bad, ammo_5.56x45_ss190_verybad, ammo_5.56x45_ap, ammo_5.56x45_ap_bad, ammo_5.56x45_ap_verybad
+ammo_elapsed								= 30
+ammo_mag_size								= 30
+startup_ammo								= 90
+
+scopes											= acog, eot, ac10632, specter	,c-more	,point_aimpro, leupold, aimpoint, e0t2, pn23, gauss_sight, compm4s, marchf, kemper, mepro, ekp8_18, 0kp2
+scope_status		= 0
+scope_zoom_factor	= 0
+
+silencer_name								= wpn_sil_m42k
+silencer_status								= 2
+silencer_x						= 223
+silencer_y						= 6
+silencer_light_color						= 0.6, 0.5, 0.3
+silencer_light_range						= 0.01
+silencer_light_time							= 0.2
+silencer_light_var_color					= 0.05
+silencer_light_var_range					= 0.5
+silencer_smoke_particles					= weapons\generic_shoot_00
+
+grenade_class								= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name						= wpn_addon_grenade_launcher_m203
+grenade_launcher_status						= 0
+grenade_launcher_x							= 128
+grenade_launcher_y							= 28
+launch_speed								= 0
+
+hit_impulse									= 35
+hit_power									= 0.55, 0.55, 0.55, 0.55
+hit_type									= fire_wound
+fire_distance								= 1000
+bullet_speed								= 930
+rpm											= 750
+rpm_empty_click								= 200
+
+use_aim_bullet								= false
+time_to_aim									= 0.0 ; 3.0
+zoom_dof									= 0.5, 1.0, 180
+zoom_enabled								= true
+zoom_rotate_time	= 0.25
+reload_dof									= 0.0, 0.5, 5, 2
+control_inertion_factor	= 1.0f
+crosshair_inertion							= 5.6
+fire_dispersion_base						= 0.3
+fire_dispersion_condition_factor			= 0.001
+
+misfire_probability							= 0.05
+misfire_start_condition						= 0.7 ; 0.7
+misfire_start_prob							= 0.007
+misfire_end_condition						= 0.1
+misfire_end_prob							= 0.11
+
+condition_queue_shot_dec					= 0.0008
+condition_shot_dec							= 0.0008
+
+cam_return									= 0
+cam_relax_speed								= 5
+cam_dispersion								= 0.556
+cam_dispersion_frac							= 1.1
+cam_dispersion_inc							= 0.0675
+cam_max_angle								= 50.0
+cam_max_angle_horz							= 50.0
+cam_step_angle_horz							= 2.0
+zoom_cam_relax_speed						= 5
+zoom_cam_dispersion							= 0.466
+zoom_cam_dispersion_frac					= 1.0
+zoom_cam_dispersion_inc						= 0.0525
+zoom_cam_max_angle							= 50.0
+zoom_cam_max_angle_horz						= 50.0
+zoom_cam_step_angle_horz					= 1.8
+
+PDM_disp_accel_factor						= 1.58
+PDM_disp_base								= 0.5
+PDM_disp_crouch								= 1.0
+PDM_disp_crouch_no_acc						= 1.0
+PDM_disp_vel_factor							= 1.58
+
+cam_relax_speed_ai							= 360
+zoom_cam_relax_speed_ai						= 360
+holder_fov_modifier							= 1.0
+holder_range_modifier						= 1.85
+min_radius									= 0
+max_radius									= 500
+hit_probability_gd_novice					= 1.00
+hit_probability_gd_stalker					= 1.00
+hit_probability_gd_veteran					= 1.00
+hit_probability_gd_master					= 1.00
+
+kill_msg_x									= 84
+kill_msg_y									= 28
+kill_msg_width								= 73
+kill_msg_height								= 30
+
+use_alt_aim_hud		= true
+
+laser_status	= true
+
+hud_fov								= 0.58
+
+snd_reload								= weapons\tavorx95j\tavorx95j_reload
+snd_reload_empty						= weapons\tavorx95j\tavorx95j_reload_empty
+snd_reload_misfire						= weapons\tavorx95j\tavorx95j_unjam
+
+
+[wpn_tavorx95_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_alt_pos		= -0.102983, -0.063152, 0
+aim_hud_offset_alt_pos_16x9	= -0.102983, -0.063152, 0
+aim_hud_offset_alt_rot		= -0.002053, 0.015465, 0.45
+aim_hud_offset_alt_rot_16x9	= -0.002053, 0.015465, 0.45
+
+aim_hud_offset_pos		= -0.073922, 0.007394, -0.027662
+aim_hud_offset_pos_16x9	= -0.073922, 0.007394, -0.027662
+aim_hud_offset_rot		= 0.009303, 0.010562, 0
+aim_hud_offset_rot_16x9	= 0.009303, 0.010562, 0
+
+		hands_orientation		= 0.524797, 0.795306, 0
+		hands_orientation_16x9	= 0.524797, 0.795306, 0
+		hands_position			= 0, 0, 0.04742
+		hands_position_16x9		= 0, 0, 0.04742
+
+		lowered_hud_offset_pos		= 0.089946, -0.047979, 0.137029
+		lowered_hud_offset_pos_16x9	= 0.089946, -0.047979, 0.137029
+		lowered_hud_offset_rot		= 0.108106, -0.839946, 0.1
+		lowered_hud_offset_rot_16x9	= 0.108106, -0.839946, 0.1
+
+anm_bore									= tavorx95j_inspecting, idle
+anm_show									= tavorx95j_draw, idle
+anm_hide									= tavorx95j_holster, idle
+
+anm_idle									= tavorx95j_idle, idle
+anm_idle_aim_moving							= tavorx95j_idle_aim, idle, 1.6
+anm_idle_aim_moving_crouch					= tavorx95j_idle_aim, idle, 1.3
+anm_idle_moving								= tavorx95j_walk, idle, 1.9
+anm_idle_moving_crouch						= tavorx95j_walk, idle, 1.5
+anm_idle_sprint								= tavorx95j_run, idle, 2.75
+
+anm_reload									= tavorx95j_reload, reload
+anm_reload_empty							= tavorx95j_reload_empty, reload_empty
+anm_reload_misfire							= tavorx95j_unjam, unjam
+
+
+anm_shots									= tavorx95j_shoot, shoot
+anm_idle_aim								= tavorx95j_idle_aim, idle
+
+
+anm_bore_empty									= tavorx95j_inspecting, idle_empty
+anm_show_empty									= tavorx95j_draw, idle_empty
+anm_hide_empty									= tavorx95j_holster, idle_empty
+
+anm_idle_empty									= tavorx95j_idle, idle_empty
+anm_idle_aim_moving_empty							= tavorx95j_idle_aim, idle_empty, 1.6
+anm_idle_aim_moving_crouch_empty					= tavorx95j_idle_aim, idle_empty, 1.3
+anm_idle_moving_empty								= tavorx95j_walk, idle_empty, 1.9
+anm_idle_moving_crouch_empty						= tavorx95j_walk, idle_empty, 1.5
+anm_idle_sprint_empty								= tavorx95j_run, idle_empty, 2.75
+anm_idle_aim_empty								= tavorx95j_idle_aim, idle_empty
+
+
+	 ; Jammed	Animation	Variants
+anm_idle_jammed						= tavorx95j_idle, idle_jammed
+anm_show_jammed						= tavorx95j_draw, idle_jammed
+anm_hide_jammed						= tavorx95j_holster, idle_jammed
+anm_idle_aim_jammed					= tavorx95j_idle_aim, idle_jammed
+anm_idle_sprint_jammed				= tavorx95j_run, idle_jammed, 2.75
+anm_idle_moving_jammed				= tavorx95j_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed			= tavorx95j_walk, idle_jammed, 1.5
+anm_bore_jammed						= tavorx95j_inspecting, idle_jammed
+		anm_shots_jammed						= tavorx95j_shoot, shoot_jam
+
+
+shell_bone									= bolt
+shell_dir									= 0, 1, 0
+shell_point									= 0, 0, 0
+
+fire_bone									= muzzle
+fire_bone2									= wpn_body
+fire_point									= 0, 0, 0
+fire_point2									= 0, -0.017, 0.692
+
+
+;---------------------------------------------------------------------------Addons------------------------------------------------
+[wpn_tavorx95_j_acog]:wpn_tavorx95_j
+
+inv_weight		= 2.95
+
+hud				= wpn_tavorx95_j_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 89
+1icon_layer_y	= -18
+
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom		= off
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+[wpn_tavorx95_j_acog_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.073869, 0.005689, -0.108227
+aim_hud_offset_pos_16x9	= -0.073869, 0.005689, -0.108227
+;-------------------------------------------------------------------------------
+[wpn_tavorx95_j_ac10632]:wpn_tavorx95_j
+
+1icon_layer		= ac10632
+1icon_layer_x	= 93
+1icon_layer_y	= -17
+
+inv_weight		= 2.715
+
+hud				= wpn_tavorx95_j_ac10632_hud
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+[wpn_tavorx95_j_ac10632_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.073392, 0.006045, -0.027662
+aim_hud_offset_pos_16x9	= -0.073392, 0.006045, -0.027662
+aim_hud_offset_rot		= -0.000224, 0.009814, 0
+aim_hud_offset_rot_16x9	= -0.000224, 0.009814, 0
+;-------------------------------------------------------------------------------
+[wpn_tavorx95_j_eot]:wpn_tavorx95_j
+
+1icon_layer		= eot
+1icon_layer_x	= 93
+1icon_layer_y	= -15
+
+inv_weight		= 2.900
+
+hud				= wpn_tavorx95_j_eot_hud
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+[wpn_tavorx95_j_eot_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.07307, 0.001142, -0.027662
+aim_hud_offset_pos_16x9	= -0.07307, 0.001142, -0.027662
+aim_hud_offset_rot		= -0.000153, 0.009443, 0
+aim_hud_offset_rot_16x9	= -0.000153, 0.009443, 0
+;-----------------------------------------------------------------------------
+[wpn_tavorx95_j_c-more]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 97
+1icon_layer_y	= -12
+
+inv_weight		= 2.900
+
+[wpn_tavorx95_j_c-more_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.073869, 0.005761, -0.027662
+aim_hud_offset_pos_16x9	= -0.073869, 0.005761, -0.027662
+aim_hud_offset_rot		= 0.000209, 0.009123, 0
+aim_hud_offset_rot_16x9	= 0.000209, 0.009123, 0
+;--------------------------------------------------------------------------------
+[wpn_tavorx95_j_specter]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 71
+1icon_layer_y	= -17
+
+inv_weight		= 3.270
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_tavorx95_j_specter_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.074081, 0.006542, -0.0992
+aim_hud_offset_pos_16x9	= -0.074081, 0.006542, -0.0992
+;--------------------------------------------------------------------------------
+[wpn_tavorx95_j_mepro]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_mepro_hud
+
+inv_weight		= 2.970
+
+1icon_layer		= mepro
+1icon_layer_x	= 100
+1icon_layer_y	= -14
+
+[wpn_tavorx95_j_mepro_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_mepro_hud.ogf
+
+aim_hud_offset_pos		= -0.074293, -0.005259, -0.027662
+aim_hud_offset_pos_16x9	= -0.074293, -0.005259, -0.027662
+aim_hud_offset_rot		= 0.000206, 0.010508, 0
+aim_hud_offset_rot_16x9	= 0.000206, 0.010508, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_leupold]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_leupold_hud
+
+1icon_layer		= leupold
+1icon_layer_x	= 77
+1icon_layer_y	= -14
+
+inv_weight		= 3.280
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_tavorx95_j_leupold_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.073764, 0.002488, -0.071893
+aim_hud_offset_pos_16x9	= -0.073764, 0.002488, -0.071893
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_aimpoint]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_aimpoint_hud
+
+inv_weight		= 2.730
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 96
+1icon_layer_y	= -20
+
+[wpn_tavorx95_j_aimpoint_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.07371, 0.002205, -0.027662
+aim_hud_offset_pos_16x9	= -0.07371, 0.002205, -0.027662
+aim_hud_offset_rot		= 0.001341, 0.009978, 0
+aim_hud_offset_rot_16x9	= 0.001341, 0.009978, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_point_aimpro]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_point_aimpro_hud
+
+inv_weight		= 2.930
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 103
+1icon_layer_y	= -22
+
+[wpn_tavorx95_j_point_aimpro_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.073599, -0.004405, -0.027662
+aim_hud_offset_pos_16x9	= -0.073599, -0.004405, -0.027662
+aim_hud_offset_rot		= 0.000414, 0.010083, 0
+aim_hud_offset_rot_16x9	= 0.000414, 0.010083, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_ekp8_18]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_ekp8_18_hud
+
+inv_weight		= 2.872
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 95
+1icon_layer_y	= -7
+
+[wpn_tavorx95_j_ekp8_18_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.073611, 0.002059, -0.071323
+aim_hud_offset_pos_16x9	= -0.073611, 0.002059, -0.071323
+aim_hud_offset_rot		= -0.000291, 0.009817, 0
+aim_hud_offset_rot_16x9	= -0.000291, 0.009817, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_e0t2]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_e0t2_hud
+
+inv_weight		= 2.827
+
+1icon_layer		= e0t2
+1icon_layer_x	= 115
+1icon_layer_y	= -10
+
+[wpn_tavorx95_j_e0t2_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_e0t2_hud.ogf
+
+
+aim_hud_offset_pos		= -0.073968, 0.001566, -0.069405
+aim_hud_offset_pos_16x9	= -0.073968, 0.001566, -0.069405
+aim_hud_offset_rot		= 0.000343, 0.010086, 0
+aim_hud_offset_rot_16x9	= 0.000343, 0.010086, 0
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_pn23]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud				= wpn_tavorx95_j_pn23_hud
+
+1icon_layer		= pn23
+1icon_layer_x	= 55
+1icon_layer_y	= -23
+
+;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
+
+nv_scope_status	= 1
+
+inv_weight		= 3.25
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_tavorx95_j_pn23_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.074136, -0.002346, -0.091661
+aim_hud_offset_pos_16x9	= -0.074136, -0.002346, -0.091661
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_gauss_sight]:wpn_tavorx95_j
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+hud					= wpn_tavorx95_j_gauss_sight_hud
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 60
+1icon_layer_y	= -8
+
+inv_weight		= 4.00
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;installed_upgrades			= up_fourtc_svd_nimble
+
+[wpn_tavorx95_j_gauss_sight_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_gauss_hud.ogf
+
+aim_hud_offset_pos		= -0.073869, 0.021111, -0.086402
+aim_hud_offset_pos_16x9	= -0.073869, 0.021111, -0.086402
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_compm4s]:wpn_tavorx95_j
+
+hud				= wpn_tavorx95_j_compm4s_hud
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -21
+
+inv_weight		= 2.980
+
+[wpn_tavorx95_j_compm4s_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.07355, 0.004482, -0.066206
+aim_hud_offset_pos_16x9	= -0.07355, 0.004482, -0.066206
+aim_hud_offset_rot		= 0.000631, 0.01035, 0
+aim_hud_offset_rot_16x9	= 0.000631, 0.01035, 0
+;--------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_marchf]:wpn_tavorx95_j
+1icon_layer		= marchf
+1icon_layer_x	= 80
+1icon_layer_y	= -14
+
+inv_weight		= 3.240
+
+hud				= wpn_tavorx95_j_marchf_hud
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+[wpn_tavorx95_j_marchf_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_marchf_hud.ogf
+
+aim_hud_offset_pos		= -0.073922, 0.007394, -0.091738
+aim_hud_offset_pos_16x9	= -0.073922, 0.007394, -0.091738
+;------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_kemper]:wpn_tavorx95_j
+
+inv_weight		= 2.870
+
+hud				= wpn_tavorx95_j_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 95
+1icon_layer_y	= -19
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+scope_status		= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_tavorx95_j_kemper_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.07355, 0.001204, -0.065492
+aim_hud_offset_pos_16x9	= -0.07355, 0.001204, -0.065492
+aim_hud_offset_rot		= 0.002058, 0.010138, 0
+aim_hud_offset_rot_16x9	= 0.002058, 0.010138, 0
+;------------------------------------------------------------------------------------------------
+[wpn_tavorx95_j_0kp2]:wpn_tavorx95_j
+
+inv_weight		= 2.734
+
+hud				= wpn_tavorx95_j_0kp2_hud
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 97
+1icon_layer_y	= -11
+
+visual			= dynamics\weapons\wpn_tavorx95_j\wpn_tavorx95_j_world.ogf
+
+[wpn_tavorx95_j_0kp2_hud]:wpn_tavorx95_j_hud
+
+item_visual	= anomaly_weapons\wpn_tavorx95_j\wpn_tavorx95_j_0kp2_hud.ogf
+
+aim_hud_offset_pos		= -0.071576, 0.01038, -0.0709
+aim_hud_offset_pos_16x9	= -0.071576, 0.01038, -0.0709
+aim_hud_offset_rot		= -0.000435, 0.009442, 0
+aim_hud_offset_rot_16x9	= -0.000435, 0.009442, 0
+;----------------------------------------------------------------------------------------

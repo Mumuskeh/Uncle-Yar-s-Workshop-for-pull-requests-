@@ -1,0 +1,295 @@
+;------------------------------------------------------------------------------------------------
+[wpn_fnp45_ocw]:wpn_fnp45
+$spawn			= "weapons\fnp45_ocw"
+
+icons_texture	= ui\ui_icon_cw_pistols_fnp45
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 0
+inv_name		= st_wpn_fnp45_ocw
+inv_name_short	= st_wpn_fnp45_ocw
+description		= st_wpn_fnp45_ocw_descr
+
+hud				= wpn_fnp45_ocw_hud
+visual			= dynamics\weapons\wpn_fnp45_ocw\wpn_fnp45_world.ogf
+
+silencer_y		= -21
+
+; rpm				= 228
+
+; time_to_aim		= 1.0
+
+; misfire_start_condition	= 0.83
+
+; cam_dispersion			= 1.18
+; cam_dispersion_inc		= 1.13
+
+; zoom_cam_dispersion		= 0.95
+; zoom_cam_dispersion_inc	= 0.1
+; zoom_cam_relax_speed	= 1
+; zoom_cam_dispersion_frac= 0.95
+
+hud_fov					= 0.78
+
+snd_draw				= eft_wp\shared\draw_pistol
+snd_holster				= eft_wp\shared\hide_pistol
+
+snd_shoot				= wpn_usp_snd_shoot
+snd_shoot_actor			= wpn_usp_snd_shoot_actor
+snd_silncer_shot		= wpn_45_2_snd_silenced
+snd_silncer_shot_actor	= wpn_45_2_snd_silenced_actor
+snd_empty				= eft_wp\shared\empty_click_pistol
+snd_reload				= eft_wp\glock17\glock17_reload_speed, 1.5
+snd_reload_empty		= eft_wp\glock17\glock17_reload_empty_speed, 1.5
+snd_bore				= eft_wp\sil
+
+[wpn_fnp45_ocw_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_fnp45_ocw\wpn_fnp45_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+aim_hud_offset_pos		= -0.05021, 0.028806, -0.020093
+aim_hud_offset_pos_16x9	= -0.05021, 0.028806, -0.020093
+aim_hud_offset_rot		= 0.002958, 0.010424, -0.02735
+aim_hud_offset_rot_16x9	= 0.002958, 0.010424, -0.02735
+
+hands_orientation		= -0.819397, 0.569139, 0.15
+hands_orientation_16x9	= -0.819397, 0.569139, 0.15
+hands_position			= -0.074051, -0.14568, -0.3
+hands_position_16x9		= -0.074051, -0.14568, -0.3
+
+item_orientation	= 1.254178, -0.153246, -2.052052
+item_position		= -0.001066, -0.002865, 0.006256
+
+lowered_hud_offset_pos		= -0.031625, 0.035424, 0
+lowered_hud_offset_pos_16x9	= -0.031625, 0.035424, 0
+lowered_hud_offset_rot		= 0.372675, -0.190399, 0.1
+lowered_hud_offset_rot_16x9	= 0.372675, -0.190399, 0.1
+
+anm_show			= glock_eft_ins_draw, idle
+anm_show_empty		= glock_eft_ins_draw, idle_empty
+anm_hide			= glock_eft_ins_hide, idle
+anm_hide_empty		= glock_eft_ins_hide, idle_empty
+anm_idle			= glock_eft_ins_idle, idle
+anm_idle_empty		= glock_eft_ins_idle, idle_empty
+anm_shots			= glock_eft_ins_shoot, shoot
+anm_shot_l			= glock_eft_ins_shoot_last, shoot_last
+anm_idle_aim		= glock_eft_ins_idle_aim, idle
+anm_idle_aim_empty	= glock_eft_ins_idle_aim, idle_empty
+
+anm_reload			= glock_eft_ins_reload, reload, 1.5
+anm_reload_empty	= glock_eft_ins_reload_empty, reload_empty, 1.4
+
+;anm_reload			= glock_eft_ins_reload_speed, reload_speed_glock
+;anm_reload_empty	= glock_eft_ins_reload_empty_speed, reload_empty_speed_glock
+
+anm_idle_moving					= glock_eft_ins_idle_moving, idle, 0.7
+anm_idle_moving_empty			= glock_eft_ins_idle_moving, idle_empty, 0.7
+anm_idle_moving_crouch			= glock_eft_ins_idle_crouch, idle
+anm_idle_moving_crouch_empty	= glock_eft_ins_idle_crouch, idle_empty
+anm_idle_sprint					= glock_eft_ins_idle_sprint_v4, idle
+anm_idle_sprint_empty			= glock_eft_ins_idle_sprint_v4, idle_empty
+anm_bore						= ocw_inspect_2, idle, 0.7
+anm_bore_empty					= ocw_inspect_2, idle_empty, 0.7
+
+shell_bone	= gilza
+shell_point	= -0.03,-0.05,0.05
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
+;------------------------------------------------------------------------------------------------
+[wpn_fnp45_ocw_custom]:wpn_fnp45_ocw
+icons_texture		= ui\ui_icon_cw_pistols_fnp45
+inv_grid_height		= 1
+inv_grid_width		= 2
+inv_grid_x			= 0
+inv_grid_y			= 1
+inv_name			= st_wpn_fnp45_custom_ocw
+inv_name_short		= st_wpn_fnp45_custom_ocw
+
+cost				= 17550
+
+hud					= wpn_fnp45_ocw_sk1_hud
+visual				= dynamics\weapons\wpn_fnp45_ocw\wpn_fnp45_sk1_world.ogf
+
+installed_upgrades	= up_secona_fnp45
+
+rpm					= 243
+
+fire_dispersion_base		= 0.38
+
+misfire_start_condition		= 0.8
+misfire_start_prob			= 0.006
+misfire_end_condition		= 0.07
+misfire_end_prob			= 0.08
+
+condition_queue_shot_dec	= 0.0015
+condition_shot_dec			= 0.0015
+
+laser_status				= true
+
+use_alt_aim_hud				= true
+
+[wpn_fnp45_ocw_sk1_hud]:wpn_fnp45_ocw_hud
+item_visual	= anomaly_weapons\wpn_fnp45_ocw\wpn_fnp45_sk1_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.076321, -0.05219, 0
+aim_hud_offset_alt_pos_16x9	= -0.076321, -0.05219, 0
+aim_hud_offset_alt_rot		= -0.001568, 0.013925, 0.401494
+aim_hud_offset_alt_rot_16x9	= -0.001568, 0.013925, 0.401494
+aim_hud_offset_pos		= -0.050954, 0.029516, -0.020093
+aim_hud_offset_pos_16x9	= -0.050954, 0.029516, -0.020093
+aim_hud_offset_rot		= 0.00474, 0.008562, -0.02735
+aim_hud_offset_rot_16x9	= 0.00474, 0.008562, -0.02735
+hands_orientation		= -0.939403, 0.52914, 0.15
+hands_orientation_16x9	= -0.939403, 0.52914, 0.15
+;------------------------------------------------------------------------------------------------
+[wpn_fnx45_ocw]:wpn_fnp45_ocw
+icons_texture		= ui\ui_icon_cw_pistols_fnp45
+inv_grid_height		= 2
+inv_grid_width		= 2
+inv_grid_x			= 0
+inv_grid_y			= 2
+inv_name			= st_wpn_fnx45_ocw
+inv_name_short		= st_wpn_fnx45_ocw
+description			= st_wpn_fnx45_ocw_descr
+
+inv_weight			= 1.3
+cost				= 15880
+
+hud					= wpn_fnx45_cw_hud
+visual				= dynamics\weapons\wpn_fnp45_ocw\wpn_fnx45_world.ogf
+
+silencer_x			= 65
+silencer_y			= 5
+
+upgrades			= up_gr_firstab_fnx45, up_gr_seconab_fnx45, up_gr_thirdab_fnx45, up_gr_fourtab_fnx45, up_gr_fifthab_fnx45
+installed_upgrades	=
+upgrade_scheme		= upgrade_scheme_usp
+
+rpm					= 235
+
+control_inertion_factor		= 1.06f
+fire_dispersion_base		= 0.43
+
+misfire_start_condition		= 0.81
+misfire_start_prob			= 0.006
+misfire_end_condition		= 0.08
+misfire_end_prob			= 0.1
+
+condition_queue_shot_dec	= 0.0015
+condition_shot_dec			= 0.0015
+
+cam_dispersion				= 1.03
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.98
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 0.9
+
+zoom_cam_dispersion			= 0.75
+zoom_cam_dispersion_inc		= 0.1
+zoom_cam_relax_speed		= 1
+zoom_cam_dispersion_frac	= 0.75
+
+[wpn_fnx45_cw_hud]:wpn_fnp45_ocw_hud
+item_visual	= anomaly_weapons\wpn_fnp45_ocw\wpn_fnx45_hud.ogf
+
+aim_hud_offset_pos		= -0.050109, 0.022328, -0.020093
+aim_hud_offset_pos_16x9	= -0.050109, 0.022328, -0.020093
+;------------------------------------------------------------------------------------------------
+[wpn_fnx45_ocw_alt]:wpn_fnx45_ocw
+icons_texture		= ui\ui_icon_cw_pistols_fnp45
+inv_grid_height		= 2
+inv_grid_width		= 2
+inv_grid_x			= 0
+inv_grid_y			= 4
+inv_name			= st_wpn_fnx45_ocw_alt
+inv_name_short		= st_wpn_fnx45_ocw_alt
+
+cost				= 12850
+
+hud					= wpn_fnx45_cw_sk2_hud
+visual				= dynamics\weapons\wpn_fnp45_ocw\wpn_fnx45_sk2_world.ogf
+
+silencer_x			= 65
+silencer_y			= 5
+
+rpm					= 225
+
+fire_dispersion_base		= 0.46
+
+misfire_start_condition		= 0.83
+misfire_start_prob			= 0.007
+misfire_end_condition		= 0.08
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0016
+condition_shot_dec			= 0.0016
+
+laser_status				= true
+
+use_alt_aim_hud				= true
+
+[wpn_fnx45_cw_sk2_hud]:wpn_fnx45_cw_hud
+item_visual	= anomaly_weapons\wpn_fnp45_ocw\wpn_fnx45_sk2_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.071622, -0.043588, 0
+aim_hud_offset_alt_pos_16x9	= -0.071622, -0.043588, 0
+aim_hud_offset_alt_rot		= -0.003985, 0.012001, 0.264251
+aim_hud_offset_alt_rot_16x9	= -0.003985, 0.012001, 0.264251
+aim_hud_offset_pos		= -0.045364, 0.019911, -0.020093
+aim_hud_offset_pos_16x9	= -0.045364, 0.019911, -0.020093
+aim_hud_offset_rot		= 0.002887, 0.007649, -0.02735
+aim_hud_offset_rot_16x9	= 0.002887, 0.007649, -0.02735
+hands_orientation		= -0.976397, 0.437671, 0.15
+hands_orientation_16x9	= -0.976397, 0.437671, 0.15
+hands_position			= -0.079651, -0.142201, -0.3
+hands_position_16x9		= -0.079651, -0.142201, -0.3
+;------------------------------------------------------------------------------------------------
+[wpn_fnx45_ocw_custom]:wpn_fnx45_ocw
+icons_texture				= ui\ui_icon_cw_pistols_fnp45
+inv_grid_height				= 2
+inv_grid_width				= 2
+inv_grid_x					= 0
+inv_grid_y					= 6
+inv_name					= st_wpn_fnx45_ocw_custom
+inv_name_short				= st_wpn_fnx45_ocw_custom
+cost						= 18650
+
+hud							= wpn_fnx45_cw_sk1_hud
+visual						= dynamics\weapons\wpn_fnp45_ocw\wpn_fnx45_sk1_world.ogf
+
+silencer_x					= 65
+silencer_y					= 5
+
+installed_upgrades			= up_firsta_fnx45
+rpm							= 245
+fire_dispersion_base		= 0.4
+
+misfire_start_condition		= 0.79
+misfire_end_condition		= 0.07
+
+zoom_cam_dispersion			= 0.5
+zoom_cam_dispersion_frac	= 0.5
+
+laser_status				= true
+
+use_alt_aim_hud				= true
+
+[wpn_fnx45_cw_sk1_hud]:wpn_fnx45_cw_hud
+item_visual	= anomaly_weapons\wpn_fnp45_ocw\wpn_fnx45_sk1_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.071622, -0.043588, 0
+aim_hud_offset_alt_pos_16x9	= -0.071622, -0.043588, 0
+aim_hud_offset_alt_rot		= -0.003985, 0.012001, 0.264251
+aim_hud_offset_alt_rot_16x9	= -0.003985, 0.012001, 0.264251
+aim_hud_offset_pos		= -0.04547, 0.010031, -0.020093
+aim_hud_offset_pos_16x9	= -0.04547, 0.010031, -0.020093
+aim_hud_offset_rot		= -0.001097, 0.007757, -0.02735
+aim_hud_offset_rot_16x9	= -0.001097, 0.007757, -0.02735
+hands_orientation		= -0.976397, 0.437671, 0.15
+hands_orientation_16x9	= -0.976397, 0.437671, 0.15
+hands_position			= -0.079651, -0.142201, -0.3
+hands_position_16x9		= -0.079651, -0.142201, -0.3

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ak74u_rattler">
+		<text>AK74U - Rattler</text>
+	</string>
+	<string id="st_wpn_ak74u_rattler_descr">
+		<text>The 'Rattler' is a modified AK-74U rifle, featuring a distinctive 80-round drum magazine that gives it a fearsome appearance and unmatched firepower. Customized for rapid, close-quarters combat, the Rattler boasts a shortened barrel and an ergonomic design, making it highly maneuverable in tight spaces. Its black matte finish and rugged construction exude durability and reliability, ideal for intense urban operations. The Rattler's reputation for relentless performance and its iconic design have made it a favorite among soldiers and mercenaries alike.</text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39_rattler_drum">
+		<text>80-Round 7.62x39 AK-47 Magazine.</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_rattler_drum_descr">
+		<text>80-Round Drum magazine for the AK-47 "Rattler" rifle, although it can be used with any rifle with a similar magwell and caliber.\n \n</text>
+	</string>
+</string_table>

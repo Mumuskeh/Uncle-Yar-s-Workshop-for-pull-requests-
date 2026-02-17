@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_wpn_sr16">
+    <text>KAC SR-16</text>
+  </string>
+	<string id="st_wpn_sr16_s">
+		<text>SR-16</text>
+	</string>
+  <string id="st_wpn_sr16_descr">
+    <text>KAC SR-16 — это карабин AR-вариации, производимый Knight's Armament Company (KAC). Это винтовка с селекторным огнем под патрон 5.56x45 мм NATO. Будучи винтовкой с селекторным огнем, она недоступна для гражданского рынка.\n \n
+		%c[0,255,255,255]Навесное оборудование:\n
+		%c[d_cyan] • %c[0,255,255,255]Много прицелов и коллиматоров\n
+		%c[d_cyan] • %c[0,255,255,255]Глушитель: %c[ui_gray_1]НАТО \n
+		</text>
+  </string>
+</string_table>

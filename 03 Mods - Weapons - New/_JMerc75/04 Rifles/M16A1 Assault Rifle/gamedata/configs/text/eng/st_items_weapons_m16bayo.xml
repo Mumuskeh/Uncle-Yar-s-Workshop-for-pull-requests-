@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m16bayo">
+		<text>M16A1</text>
+	</string>
+	<string id="st_wpn_m16bayo_descr">
+		<text>The M16A1 rifle is a lightweight and ergonomic select-fire firearm that was widely used by the United States military during the Vietnam War. It has a 20-inch barrel chambered for the 5.56x45mm NATO cartridge, offering excellent range and accuracy. The rifle features a collapsible triangular stock, detachable 30-round magazine, and a selector switch for semi-automatic or automatic fire modes. Its reliability, accuracy, and suitability for jungle warfare made it a significant weapon during its time. The M16A1 played a pivotal role in shaping subsequent rifle designs.\n\n</text>
+	</string>
+</string_table>

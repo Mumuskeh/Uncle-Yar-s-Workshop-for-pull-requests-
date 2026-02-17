@@ -1,0 +1,263 @@
+;------------------------------------------------------------------------------------------------
+[wpn_m35_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_mosin_sounds
+		GroupControlSection			= spawn_group
+		$npc							= on
+		$prefetch						= 8
+		$spawn					= "weapons\svd"
+		scheduled						= off
+		cform							= skeleton
+		parent_section					= wpn_m35_j
+
+		class							= WP_SVD
+		slot							= 2
+animation_slot					= 2
+		ef_main_weapon_type			= 3
+		ef_weapon_type					= 11
+		hand_dependence				= 1
+		single_handed					= 0
+
+		default_to_ruck				= false
+		sprint_allowed					= true
+
+icons_texture					= ui\m35j_icon
+inv_grid_width								= 5
+inv_grid_height								= 1
+inv_grid_x									= 0
+inv_grid_y									= 0
+		inv_name						= st_wpn_m35_j
+		inv_name_short					= st_wpn_m35_j
+		description					= st_wpn_m35_j_descr
+
+		kind							= w_sniper
+		inv_weight					= 3.8
+		cost							= 32651
+		repair_type					= rifle_7
+		weapon_class					= sniper_rifle
+
+		hud					= wpn_m35_j_hud
+		visual			= dynamics\weapons\wpn_m35_j\wpn_m35_j_world.ogf
+		position						= -0.026, -0.115, 0.00 ;old -> -0.026, -0.077, 0.00
+		orientation					= 0, 0, 0
+		fire_point						= 0.0, 0.129, 0.942
+		fire_point2					= 0.0, 0.129, 0.942
+		strap_bone0					= bip01_spine2
+		strap_bone1					= bip01_spine1
+		strap_position					= -0.15, -0.15, 0.45
+		strap_orientation				= -25, -189, 65
+		ph_mass						= 3
+
+		flame_particles				= weapons\generic_weapon06
+		smoke_particles				= weapons\generic_shoot_00
+
+		shell_point						= 0.0, 0.129, 0.192
+		shell_dir						= 0.0, 0.0, 0.4
+	 ;shell_particles				= weapons\762x54
+
+		light_disabled					= false
+		light_color					= 0.6, 0.5, 0.3
+		light_range					= 4.0
+		light_time						= 0.2
+		light_var_color				= 0.05
+		light_var_range				= 0.5
+
+upgrades									= up_gr_firstab_sks, up_gr_seconab_sks, up_gr_thirdab_sks
+installed_upgrades	=
+upgrade_scheme								= upgrade_scheme_toz34
+		upgr_icon_path					= ui\m35j_icon
+		upgr_icon_x					= 0
+		upgr_icon_y					= 50
+		upgr_icon_width				= 300
+		upgr_icon_height				= 100
+
+		fire_modes						= 1
+ammo_class						= ammo_856j
+ammo_elapsed					= 5
+ammo_mag_size					= 5
+		startup_ammo					= 10
+
+scopes							= wpn_addon_scope_zf4
+scope_status				= 0
+scope_zoom_factor				= 0
+
+		silencer_status				= 0
+		silencer_light_color			= 0.6, 0.5, 0.3
+		silencer_light_range			= 0.01
+		silencer_light_time			= 0.2
+		silencer_light_var_color		= 0.05
+		silencer_light_var_range		= 0.5
+		silencer_smoke_particles		= weapons\generic_shoot_00
+
+		grenade_launcher_status		= 0
+
+		hit_impulse					= 65
+		hit_power						= 1.45, 1.45, 1.45, 1.45
+		hit_type						= fire_wound
+		fire_distance					= 1100
+		bullet_speed					= 1100
+		rpm							= 33
+		rpm_empty_click				= 200
+
+		use_aim_bullet					= false
+		time_to_aim					= 0.0 ; 1.0
+		zoom_enabled					= true
+		zoom_rotate_time				= 0.25
+		reload_dof						= 0.0, 0.5, 5, 2.2
+control_inertion_factor	= 1.0f
+		crosshair_inertion				= 8.3
+		fire_dispersion_base			= 0.12
+		fire_dispersion_condition_factor	= 0.001
+
+		misfire_probability			= 0.005
+		misfire_start_condition		= 0.7 ; 0.84
+		misfire_start_prob				= 0.007
+		misfire_end_condition			= 0.12
+		misfire_end_prob				= 0.11
+
+		condition_queue_shot_dec		= 0.0044
+		condition_shot_dec				= 0.0044
+
+		cam_return						= 0
+		cam_relax_speed				= 4.5
+		cam_dispersion					= 1.98
+		cam_dispersion_frac			= 1.0
+		cam_dispersion_inc				= 1.98
+		cam_max_angle					= 50.0
+		cam_max_angle_horz				= 50.0
+		cam_step_angle_horz			= 1.04
+		zoom_cam_relax_speed			= 0.75
+		zoom_cam_dispersion			= 0.75
+		zoom_cam_dispersion_frac		= 1.0
+		zoom_cam_dispersion_inc		= 1.54
+		zoom_cam_max_angle				= 50.0
+		zoom_cam_max_angle_horz		= 50.0
+		zoom_cam_step_angle_horz		= 0.94
+
+		PDM_disp_accel_factor			= 2.75
+		PDM_disp_base					= 1.45
+		PDM_disp_crouch				= 1.0
+		PDM_disp_crouch_no_acc			= 1.0
+		PDM_disp_vel_factor			= 2.75
+
+		cam_relax_speed_ai				= 360
+		zoom_cam_relax_speed_ai		= 120.75
+		holder_fov_modifier			= 1.0
+		holder_range_modifier			= 2.15
+		min_radius						= 0
+		max_radius						= 500
+		hit_probability_gd_novice		= 1.00
+		hit_probability_gd_stalker		= 1.00
+		hit_probability_gd_veteran		= 1.00
+		hit_probability_gd_master		= 1.00
+
+		kill_msg_x						= 0
+		kill_msg_y						= 0
+		kill_msg_width					= 98
+		kill_msg_height				= 23
+
+scripted_snd_shot_l							= weapons\m35j\ping_last, 0.5
+scripted_snd_ammo_check					= weapons\m35j\m35j_magcheck
+scripted_snd_ammo_check_empty				= weapons\m35j\m35j_magcheck
+
+snd_shoot							= weapons\m35j\m35j_shoot
+snd_shoot_actor						= weapons\m35j\m35j_shoot
+snd_reload								= weapons\m35j\m35j_reload
+snd_reload_empty						= weapons\m35j\m35j_reload_empty
+snd_reload_misfire						= weapons\m35j\m35j_unjam
+scripted_snd_shot_l					= weapons\m35j\ping_last, 0.5
+
+
+[wpn_m35_j_hud]:hud_base
+		item_visual	= anomaly_weapons\wpn_m35_j\wpn_m35_j_hud.ogf
+attach_place_idx	= 0
+		zoom_hide_crosshair	= true
+
+		item_position			= 0, 0, 0
+		item_orientation		= 0, 0, 0
+
+aim_hud_offset_pos		= -0.058514, 0.024956, -0.028872
+aim_hud_offset_pos_16x9	= -0.058514, 0.024956, -0.028872
+aim_hud_offset_rot		= 0.009252, 0.025334, 0
+aim_hud_offset_rot_16x9	= 0.009252, 0.025334, 0
+
+		hands_orientation		= 1.440004, 0.555239, 0
+		hands_orientation_16x9	= 1.440004, 0.555239, 0
+		hands_position			= -0.003253, -0.005689, 0.039751
+		hands_position_16x9		= -0.003253, -0.005689, 0.039751
+
+		lowered_hud_offset_pos		= 0.076777, 0.021703, -0.02226
+		lowered_hud_offset_pos_16x9	= 0.076777, 0.021703, -0.02226
+		lowered_hud_offset_rot		= 0.140607, -0.508639, 0.1
+		lowered_hud_offset_rot_16x9	= 0.140607, -0.508639, 0.1
+
+anm_hide									= m35j_holster, idle
+anm_idle									= m35j_idle, idle
+anm_idle_aim								= m35j_idle_aim, idle
+anm_idle_aim_moving							= m35j_idle_aim, idle, 1.5
+anm_idle_aim_moving_crouch					= m35j_idle_aim, idle, 1.2
+anm_idle_moving								= m35j_walk, idle, 1.9
+anm_idle_moving_crouch						= m35j_walk, idle, 1.4
+anm_idle_sprint								= m35j_run, idle, 2.0
+anm_shots									= m35j_shoot, shoot
+anm_shot_l									= m35j_shoot, shoot_last
+anm_show									= m35j_draw, idle
+anm_bore									= m35j_inspect, idle
+anm_reload									= m35j_reload, reload
+anm_reload_empty							= m35j_reload_empty, reload_empty
+anm_reload_misfire							= m35j_unjam, unjam
+
+anm_idle_jammed								= m35j_idle, idle_jammed
+anm_show_jammed								= m35j_draw, idle_jammed
+anm_hide_jammed								= m35j_holster, idle_jammed
+anm_idle_aim_jammed							= m35j_idle_aim, idle_jammed
+anm_idle_sprint_jammed						= m35j_run, idle_jammed, 2.0
+anm_idle_moving_jammed						= m35j_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed				= m35j_walk, idle_jammed, 1.5
+anm_bore_jammed								= m35j_inspect, idle_jammed
+anm_shots_jammed							= m35j_shoot, shoot_jam
+
+anm_ammo_check								= m35j_magcheck, magcheck
+anm_ammo_check_empty						= m35j_magcheck, magcheck_empty
+
+
+		shell_bone						= wpn_body
+		shell_dir						= 0, 1, 0
+		shell_point					= 0.025, 0.055, 0.221
+
+		fire_bone						= muzzle
+		fire_point						= 0, 0, 0
+
+		freelook_z_offset_mul		= 0.2
+
+;------------------------------------------------------------------------------------------------
+[wpn_m35_j_wpn_addon_scope_zf4]:wpn_m35_j
+
+visual			= dynamics\weapons\wpn_m35_j\wpn_m35_j_world.ogf
+
+scope_name						= wpn_addon_scope_pu
+icons_texture					= ui\m35j_icon
+inv_grid_width								= 5
+inv_grid_height								= 1
+inv_grid_x									= 5
+inv_grid_y									= 0
+
+inv_weight		= 3.8
+scope_status		= 1
+scope_texture		= wpn_crosshair_zf9
+scope_zoom_factor	= 15
+zoom_rotate_time	= 0.23
+use_alt_aim_hud						= true
+
+hud				= wpn_m35_j_wpn_addon_scope_zf4_hud
+
+[wpn_m35_j_wpn_addon_scope_zf4_hud]:wpn_m35_j_hud
+
+item_visual	= anomaly_weapons\wpn_m35_j\wpn_m35_j_hud.ogf
+
+aim_hud_offset_pos		= -0.039899, 0.033342, -0.108586
+aim_hud_offset_pos_16x9	= -0.039899, 0.033342, -0.108586
+aim_hud_offset_rot		= 0.003418, 0.03712, 0
+aim_hud_offset_rot_16x9	= 0.003418, 0.03712, 0
+		hands_orientation		= 1.252697, -0.225277, 0
+		hands_orientation_16x9	= 1.252697, -0.225277, 0
+		hands_position			= 0.005445, -0.014371, 0.05319
+		hands_position_16x9		= 0.005445, -0.014371, 0.05319

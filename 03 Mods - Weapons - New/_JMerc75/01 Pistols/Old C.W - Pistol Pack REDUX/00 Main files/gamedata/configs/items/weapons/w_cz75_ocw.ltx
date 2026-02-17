@@ -1,0 +1,159 @@
+;------------------------------------------------------------------------------------------------
+[wpn_cz75_ocw]:wpn_cz75,wpn_colt1911_sounds
+$spawn			= "weapons\cz75_ocw"
+parent_section	= wpn_cz75_ocw
+
+icons_texture	= ui\ui_icon_cw_pistols_cz75
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 0
+inv_name		= st_wpn_cz75_ocw
+inv_name_short	= st_wpn_cz75_ocw
+description		= st_wpn_cz75_ocw_descr
+
+hud				= wpn_cz75_ocw_hud
+visual			= dynamics\weapons\wpn_cz75_ocw\wpn_cz75_cw_world.ogf
+
+silencer_x		= 83
+silencer_y		= -22
+
+; hit_impulse		= 55
+; hit_power		= 0.5, 0.5, 0.5, 0.5
+; rpm				= 233
+
+; time_to_aim				= 1.0
+; control_inertion_factor	= 1.05f
+; misfire_start_condition	= 0.85
+; cam_dispersion			= 0.62
+; cam_dispersion_inc		= 0.71
+
+snd_draw				= eft_wp\shared\draw_pistol
+snd_holster				= eft_wp\shared\hide_pistol
+snd_shoot				= wpn_cz75_snd_shoot
+snd_shoot_actor			= wpn_cz75_snd_shoot_actor
+snd_silncer_shot		= wpn_9_2_snd_silenced
+snd_silncer_shot_actor	= wpn_9_2_snd_silenced_actor
+snd_empty				= eft_wp\shared\empty_click_pistol
+;snd_reload				= eft_wp\p226r\reload, 1.0
+;snd_reload_empty		= eft_wp\p226r\reload_empty, 1.0
+;snd_reload				= eft_wp\glock17\glock17_reload_speed, 1.5
+;snd_reload_empty		= eft_wp\glock17\glock17_reload_empty_speed, 1.5
+snd_bore				= eft_wp\sil
+
+hud_fov					= 0.78
+
+[wpn_cz75_ocw_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_cz75_ocw\s3000.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+aim_hud_offset_pos		= -0.066042, 0.031415, -0.022136
+aim_hud_offset_pos_16x9	= -0.066042, 0.031415, -0.022136
+aim_hud_offset_rot		= 0.049142, 0.064372, -0.02525
+aim_hud_offset_rot_16x9	= 0.049142, 0.064372, -0.02525
+
+hands_orientation		= 2.678811, 2.983198, 0.15
+hands_orientation_16x9	= 2.678811, 2.983198, 0.15
+hands_position			= -0.039223, -0.157332, -0.31
+hands_position_16x9		= -0.039223, -0.157332, -0.31
+
+item_orientation	= 0.869362, -0.10738, -2.052052
+item_position		= 0.000747, -0.005989, 0.007535
+
+lowered_hud_offset_pos		= -0.047892, 0.022561, 0
+lowered_hud_offset_pos_16x9	= -0.047892, 0.022561, 0
+lowered_hud_offset_rot		= 0.305759, -0.04219, 0.1
+lowered_hud_offset_rot_16x9	= 0.305759, -0.04219, 0.1
+
+anm_show			= glock_eft_ins_draw, idle
+anm_show_empty		= glock_eft_ins_draw, idle_empty
+anm_hide			= glock_eft_ins_hide, idle
+anm_hide_empty		= glock_eft_ins_hide, idle_empty
+anm_idle			= glock_eft_ins_idle, idle
+anm_idle_empty		= glock_eft_ins_idle, idle_empty
+anm_shots			= glock_eft_ins_shoot, shoot
+anm_shot_l			= glock_eft_ins_shoot_last, shoot_last
+anm_idle_aim		= glock_eft_ins_idle_aim, idle
+anm_idle_aim_empty	= glock_eft_ins_idle_aim, idle_empty
+anm_reload			= glock_eft_ins_reload, 			reload, 1.5
+anm_reload_empty	= glock_eft_ins_reload_empty, 	reload_empty, 1.4
+
+;anm_reload			= glock_eft_ins_reload_speed, 	reload_speed
+;anm_reload_empty	= glock_eft_ins_reload_empty_speed, reload_empty_speed
+
+anm_idle_moving					= glock_eft_ins_idle_moving, idle, 0.7
+anm_idle_moving_empty			= glock_eft_ins_idle_moving, idle_empty, 0.7
+anm_idle_moving_crouch			= glock_eft_ins_idle_crouch, idle
+anm_idle_moving_crouch_empty	= glock_eft_ins_idle_crouch, idle_empty
+anm_idle_sprint					= glock_eft_ins_idle_sprint_v4, idle
+anm_idle_sprint_empty			= glock_eft_ins_idle_sprint_v4, idle_empty
+anm_bore						= ocw_inspect, idle, 0.6
+anm_bore_empty					= ocw_inspect, idle_empty, 0.6
+
+shell_bone	= gilza
+shell_point	= -0.03,-0.05,0.05
+
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
+;------------------------------------------------------------------------------------------------
+[wpn_cz75_ocw_auto]:wpn_cz75_auto ;,wpn_colt1911_sounds
+$spawn					= "weapons\cz75_ocw_auto"
+parent_section			= wpn_cz75_ocw_auto
+
+icons_texture			= ui\ui_icon_cw_pistols_cz75
+inv_grid_height			= 2
+inv_grid_width			= 2
+inv_grid_x				= 0
+inv_grid_y				= 1
+inv_name				= st_wpn_cz75_ocw_auto
+inv_name_short			= st_wpn_cz75_ocw_auto
+description				= st_wpn_cz75_ocw_auto_descr
+
+hud						= wpn_cz75_ocw_auto_hud
+visual					= dynamics\weapons\wpn_cz75_ocw\wpn_cz75_auto_cw_world.ogf
+
+upgrades				= up_gr_firstab_cz75_auto, up_gr_seconab_cz75_auto, up_gr_thirdab_cz75_auto, up_gr_fourtab_cz75_auto, up_gr_fifthab_cz75_auto, up_gr_fifthcd_cz75_auto
+
+silencer_name			= wpn_sil_9mm
+silencer_status			= 2
+silencer_x				= 85
+silencer_y				= 8
+
+; hit_impulse			= 55
+; hit_power				= 0.5, 0.5, 0.5, 0.5
+; rpm					= 650
+
+time_to_aim				= 1.0
+control_inertion_factor	= 1.05f
+fire_dispersion_base	= 0.4
+
+misfire_start_condition	= 0.85
+misfire_end_condition	= 0.12
+
+condition_queue_shot_dec= 0.0016
+condition_shot_dec		= 0.0016
+
+cam_dispersion			= 0.62
+cam_dispersion_inc		= 0.71
+
+snd_draw				= eft_wp\shared\draw_pistol
+snd_holster				= eft_wp\shared\hide_pistol
+snd_shoot				= wpn_cz75_snd_shoot
+snd_shoot_actor			= wpn_cz75_snd_shoot_actor
+snd_silncer_shot		= wpn_9_2_snd_silenced
+snd_silncer_shot_actor	= wpn_9_2_snd_silenced_actor
+snd_empty				= eft_wp\shared\empty_click_pistol
+;snd_reload				= eft_wp\p226r\reload, 1.0
+;snd_reload_empty		= eft_wp\p226r\reload_empty, 1.0
+;snd_reload				= eft_wp\glock17\glock17_reload_speed, 1.5
+;snd_reload_empty		= eft_wp\glock17\glock17_reload_empty_speed, 1.5
+snd_bore				= eft_wp\sil
+
+hud_fov					= 0.78
+
+[wpn_cz75_ocw_auto_hud]:wpn_cz75_ocw_hud
+item_visual	= anomaly_weapons\wpn_cz75_ocw\s3000h1.ogf
+
+aim_hud_offset_pos		= -0.065714, 0.015055, -0.022136
+aim_hud_offset_pos_16x9	= -0.065714, 0.015055, -0.022136

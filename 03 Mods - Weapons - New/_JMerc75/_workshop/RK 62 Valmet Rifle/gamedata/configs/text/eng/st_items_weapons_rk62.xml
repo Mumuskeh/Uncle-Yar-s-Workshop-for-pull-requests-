@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_rk62">
+		<text>RK 62</text>
+	</string>
+	<string id="st_wpn_rk62_descr">
+		<text>The RK 62, officially 7.62 RK 62 and commercially M62, is an assault rifle manufactured by Valmet and Sako. It is the standard issue infantry weapon of the Finnish Defence Forces.The RK 62 was designed in 1962 and is based on the Polish licensed version of the Soviet AK-47 design. The RK 62 uses the same 7.62-39mm cartridge as the AK-47. Between 1965 and 1994 350,000 M62 rifles were produced jointly by Valmet and Sako. It is the basis of the IMI Galil, an Israeli-made assault rifle with many similarities. The RK 62 has a three-pronged flash suppressor, and a groove for a specially designed knife bayonet, which can be used alone as a combat knife. The RK 95 TP is a more modern, improved version of the RK 62. One of the most distinctive features of the Valmet rifles, including the M62 and all subsequent variations, is the open-ended, three prong flash suppressor with a bayonet lug on its lower side. In addition to the flash suppression, the end can quickly cut barbed wire by pushing the muzzle onto a strand of wire and firing a round. \n \n %c[ui_gray_2]ATTACHMENTS: \n%c[d_purple] - %c[ui_gray_2] TGP-A Supressor \n \n</text>
+	</string>
+</string_table>

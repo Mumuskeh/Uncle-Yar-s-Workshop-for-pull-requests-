@@ -1,0 +1,208 @@
+;------------------------------------------------------------------------------------------------
+[wpn_colt_saa_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_mp412_sounds
+GroupControlSection			= spawn_group
+discovery_dependency			=
+$npc							= on
+$prefetch						= 8
+$spawn					= "weapons\colt_saa_j"
+scheduled						= off
+cform							= skeleton
+
+class										= WP_ASHTG
+slot							= 1
+animation_slot					= 1
+ef_weapon_type					= 5
+hand_dependence				= 1
+single_handed					= 1
+
+default_to_ruck				= false
+sprint_allowed					= true
+
+cons_texture					= ui\coltsaaj_icon
+inv_grid_width								= 2
+inv_grid_height								= 1
+inv_grid_x									= 0
+inv_grid_y									= 0
+inv_name						= st_wpn_colt_saa_j
+inv_name_short					= st_wpn_colt_saa_j
+description					= st_wpn_colt_saa_j_descr
+
+kind							= w_pistol
+inv_weight					= 1.3
+cost							= 34216
+repair_type					= pistol
+
+hud					= wpn_colt_saa_j_hud
+visual			= dynamics\weapons\wpn_colt_saa_j\wpn_colt_saa_j_world.ogf
+position						= -0.025374, -0.07483, -0.021837
+orientation					= 0, 0, 0
+fire_point						= 0, 0.133, 0.353399
+ph_mass						= 1
+
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point						= 0.0, 0.133, 0.047
+shell_dir						= 0.0, 0.0, 0.4
+;shell_particles				= weapons\45acp
+
+light_color					= 0.6, 0.5, 0.3
+light_range					= 3.0
+light_time						= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
+
+upgrades						= up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_pm
+upgr_icon_path		= ui\coltsaaj_icon
+upgr_icon_x					= 100
+upgr_icon_y					= 0
+upgr_icon_width				= 200
+upgr_icon_height				= 100
+
+tri_state_reload				= on
+fire_modes						= 1
+ammo_class						= ammo_357_hp_mag, ammo_357_hp_mag_bad, ammo_357_hp_mag_verybad
+ammo_current					= 90
+ammo_elapsed					= 12
+ammo_limit						= 120
+ammo_mag_size					= 6
+
+scope_status				= 0
+scope_zoom_factor				= 0
+
+silencer_name					= wpn_sil_9mm
+silencer_status				= 0
+silencer_x						= 39
+silencer_y						= -16
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_launcher_status		= 0
+
+hit_impulse					= 80
+hit_power						= 1.3, 1.3, 1.3, 1.3
+hit_type						= fire_wound
+fire_distance					= 500
+bullet_speed					= 600
+rpm							= 50
+rpm_empty_click				= 120
+
+use_aim_bullet	= false
+time_to_aim					= 0.0 ; 1.0
+zoom_dof						= -1000, 1.0, 1000
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 1.7
+control_inertion_factor	= 1.0f
+crosshair_inertion				= 3.8
+fire_dispersion_base			= 0.23
+fire_dispersion_condition_factor	= 0.001
+
+misfire_start_condition		= 0.7 ; 0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0012
+condition_shot_dec				= 0.0012
+
+cam_return						= 0
+cam_relax_speed				= 4.5
+cam_dispersion					= 1.98
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc				= 1.98
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz			= 1.04
+zoom_cam_dispersion			= 0.75
+
+
+PDM_disp_accel_factor			= 1.055
+PDM_disp_base					= 0.85
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor			= 1.05
+
+cam_relax_speed_ai				= 120.75
+holder_fov_modifier			= 1.0
+holder_range_modifier			= 1.0
+min_radius						= 0
+max_radius						= 500
+hit_probability_gd_novice		= 1.00
+hit_probability_gd_stalker		= 1.00
+hit_probability_gd_veteran		= 1.00
+hit_probability_gd_master		= 1.00
+
+kill_msg_x						= 194
+kill_msg_y						= 123
+kill_msg_width					= 46
+kill_msg_height				= 27
+weapon_lower_speed			= 0.2
+
+snd_shoot							= weapons\coltsaaj\coltsaaj_shoot
+snd_shoot_actor						= weapons\coltsaaj\coltsaaj_shoot
+snd_open_weapon														= weapons\coltsaaj\coltsaaj_open
+snd_add_cartridge														= weapons\coltsaaj\coltsaaj_add_cartridge
+snd_close_weapon														= weapons\coltsaaj\coltsaaj_close
+;snd_reload_misfire													= weapons\coltsaaj\n1887_j_unjam
+
+[wpn_colt_saa_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_colt_saa_j\wpn_colt_saa_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position			= 0, 0, 0
+item_orientation		= 0, 0, 0
+
+aim_hud_offset_pos		= -0.06352, 0.039459, -0.109725
+aim_hud_offset_pos_16x9	= -0.06352, 0.039459, -0.109725
+aim_hud_offset_rot		= 0.037758, 0.036158, 0
+aim_hud_offset_rot_16x9	= 0.037758, 0.036158, 0
+
+hands_orientation		= 2.013864, 1.916585, 0
+hands_orientation_16x9	= 2.013864, 1.916585, 0
+hands_position			= 0, 0, 0.048852
+hands_position_16x9		= 0, 0, 0.048852
+
+lowered_hud_offset_pos		= -0.005826, 0.06308, 0.007888
+lowered_hud_offset_pos_16x9	= -0.005826, 0.06308, 0.007888
+lowered_hud_offset_rot		= 0.35138, -0.072442, 0.045395
+lowered_hud_offset_rot_16x9	= 0.35138, -0.072442, 0.045395
+
+
+anm_add_cartridge				= coltsaaj_load_cartridge, load_cartridge
+anm_close						= coltsaaj_close, close
+anm_hide						= coltsaaj_holster, idle
+anm_idle						= coltsaaj_idle, idle
+anm_idle_aim					= coltsaaj_idle_aim
+anm_idle_aim_moving			= coltsaaj_idle_aim, idle, 1.5
+anm_idle_aim_moving_crouch		= coltsaaj_idle_aim, idle, 1.2
+anm_idle_moving				= coltsaaj_walk, idle, 1.9
+anm_idle_sprint				= coltsaaj_run, idle, 1.9
+anm_open						= coltsaaj_open, open
+anm_reload						= coltsaaj_load_cartridge, load_cartridge
+anm_shots						= coltsaaj_shoot, shoot
+;anm_reload_misfire				= coltsaaj_unjam, unjam
+anm_bore						= coltsaaj_inspect, idle
+anm_show						= coltsaaj_draw, idle
+
+;anm_idle_jammed								= coltsaaj_idle, idle_jammed
+;anm_show_jammed								= coltsaaj_draw, idle_jammed
+;anm_hide_jammed								= coltsaaj_holster, idle_jammed
+;anm_idle_aim_jammed							= coltsaaj_idle_aim, idle_jammed
+;anm_idle_sprint_jammed						= coltsaaj_run, idle_jammed, 1.9
+;anm_idle_moving_jammed						= coltsaaj_walk, idle_jammed, 1.9
+;anm_idle_moving_crouch_jammed				= coltsaaj_walk, idle_jammed, 1.5
+;anm_bore_jammed								= coltsaaj_inspect, idle_jammed
+
+shell_bone						= wpn_body
+shell_point					= 0, 0, -50
+
+fire_bone						= muzzle
+fire_point						= 0, 0, 0

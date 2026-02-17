@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m16a2_m727">
+		<text>M16A2 Carbine Model 727</text>
+	</string>
+	<string id="st_wpn_m16a2_m727_s">
+		<text>M16A2 727</text>
+	</string>
+	<string id="st_wpn_m16a2_m727_descr">
+		<text>The Colt M16A2 Carbine Model 727 is a smaller, more compact version of the M16A2 rifle, intended for use wherever lightness and speed of action are required.\n \n</text>
+	</string>
+</string_table>

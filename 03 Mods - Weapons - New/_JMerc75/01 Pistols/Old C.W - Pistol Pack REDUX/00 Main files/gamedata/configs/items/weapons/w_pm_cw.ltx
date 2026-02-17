@@ -1,0 +1,191 @@
+;------------------------------------------------------------------------------------------------
+[wpn_pm_ocw]:wpn_pm
+$spawn			= "weapons\pm_ocw"
+
+icons_texture	= ui\ui_icon_cw_pistols_pm
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 0
+inv_name		= st_wpn_pm_ocw
+inv_name_short	= st_wpn_pm_ocw
+description		= st_wpn_pm_ocw_descr
+
+hud				= wpn_pm_ocw_hud
+visual			= dynamics\weapons\wpn_pm_ocw\pm_world.ogf
+
+silencer_status	= 2
+silencer_x		= 76
+silencer_y		= -22
+
+; rpm				= 290
+
+; time_to_aim				= 1.0
+; control_inertion_factor	= 1.0
+
+; misfire_start_condition	= 0.81
+; cam_dispersion			= 0.62
+; cam_dispersion_inc		= 0.675
+
+hud_fov					= 0.78
+;---------------------------------------------------------------------SND-------------------------------------------------------------------------------
+snd_draw				= eft_wp\shared\draw_pistol
+snd_holster				= eft_wp\shared\hide_pistol
+
+snd_empty				= eft_wp\shared\empty_click_pistol
+
+snd_reload				= weapons\pm_young_prince\pm_reload
+snd_reload_empty		= weapons\pm_young_prince\pm_reload_empty
+
+snd_shoot				= wpn_pm_snd_shoot
+snd_shoot_actor			= wpn_pm_snd_shoot_actor
+snd_silncer_shot		= wpn_pb_snd_silenced
+snd_silncer_shot_actor	= wpn_pb_snd_silenced_actor
+
+snd_bore				= eft_wp\sil
+
+[wpn_pm_ocw_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_pm_ocw\pm.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+aim_hud_offset_pos		= -0.061993, 0.036768, -0.013995
+aim_hud_offset_pos_16x9	= -0.061993, 0.036768, -0.013995
+aim_hud_offset_rot		= 0.076103, 0.077964, 0.021062
+aim_hud_offset_rot_16x9	= 0.076103, 0.077964, 0.021062
+
+hands_orientation		= 4.469942, 4.346008, 3.605055
+hands_orientation_16x9	= 4.469942, 4.346008, 3.605055
+hands_position			= -0.005681, -0.1665, -0.293322
+hands_position_16x9		= -0.005681, -0.1665, -0.293322
+
+item_orientation	= -0.0258, -0.002933, 0
+item_position		= 0.000159, 0.000994, 0
+
+lowered_hud_offset_pos		= -0.019575, 0.029439, 0
+lowered_hud_offset_pos_16x9	= -0.019575, 0.029439, 0
+lowered_hud_offset_rot		= 0.344301, -0.110934, 0.1
+lowered_hud_offset_rot_16x9	= 0.344301, -0.110934, 0.1
+
+anm_show				= pm_new_eft_ins_draw, idle
+anm_show_empty			= pm_new_eft_ins_draw, idle_empty
+anm_hide				= pm_new_eft_ins_hide, idle
+anm_hide_empty			= pm_new_eft_ins_hide, idle_empty
+anm_idle				= pm_new_eft_ins_idle, idle
+anm_idle_empty			= pm_new_eft_ins_idle, idle_empty
+anm_shots				= pm_new_eft_ins_shoot, shoot
+anm_shot_l				= pm_new_eft_ins_shoot, shoot_last
+anm_idle_aim			= pm_new_eft_ins_idle_aim, idle
+anm_idle_aim_empty		= pm_new_eft_ins_idle_aim, idle_empty
+anm_reload				= pm_new_eft_ins_reload, reload
+anm_reload_empty		= pm_new_eft_ins_reload_empty, reload_empty
+anm_idle_moving			= pm_new_eft_ins_idle_moving, idle, 0.7
+anm_idle_moving_empty	= pm_new_eft_ins_idle_moving, idle_empty, 0.7
+anm_idle_sprint			= pm_new_eft_ins_idle_sprint, idle
+anm_idle_sprint_empty	= pm_new_eft_ins_idle_sprint, idle_empty
+anm_bore				= ocw_inspect_4, idle
+anm_bore_empty			= ocw_inspect_4, idle
+anm_reload_misfire		= pm_new_eft_ins_reload_empty, reload_empty
+
+shell_dir	= 0,0,0.4
+shell_point	= 0,0,0.25
+shell_bone	= wpn_body
+
+fire_point	= 0,0,0
+fire_bone	= muzzle
+
+lowered_hud_offset_pos_16x9	= 0,0,0
+lowered_hud_offset_rot_16x9	= 0.3,-0.1,0.1
+;------------------------------------------------------------------------------------------------
+[wpn_pm_ocw_actor]:wpn_pm_ocw
+$spawn			= "weapons\pm_actor"
+
+icons_texture	= ui\ui_icon_cw_pistols_pm
+inv_grid_height	= 3
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 4
+inv_name		= st_wpn_pm_ocw_actor
+inv_name_short	= st_wpn_pm_ocw_actor
+description		= st_wpn_pm_ocw_actor_descr
+
+cost			= 47352
+
+hud				= wpn_pm_ocw_actor_hud
+visual			= dynamics\weapons\wpn_pm_ocw\wpn_pm_actor_world.ogf
+
+rpm				= 550
+
+fire_modes		= 1, -1
+
+silencer_x		= 78
+silencer_y		= -12
+
+ammo_mag_size	= 80
+ammo_elapsed	= 80
+
+laser_status	= true
+
+use_alt_aim_hud	= true
+
+[wpn_pm_ocw_actor_hud]:wpn_pm_ocw_hud
+item_visual	= anomaly_weapons\wpn_pm_ocw\pm_actor.ogf
+
+anm_reload			= pm_actor_ocw_reload, reload
+anm_reload_empty	= pm_actor_ocw_reload_empty, reload_empty
+
+aim_hud_offset_alt_pos		= -0.080219, -0.05632, 0
+aim_hud_offset_alt_pos_16x9	= -0.080219, -0.05632, 0
+aim_hud_offset_alt_rot		= -0.002205, 0.014024, 0.375966
+aim_hud_offset_alt_rot_16x9	= -0.002205, 0.014024, 0.375966
+aim_hud_offset_pos		= -0.053146, 0.018205, -0.013995
+aim_hud_offset_pos_16x9	= -0.053146, 0.018205, -0.013995
+aim_hud_offset_rot		= 0.003357, 0.008685, 0.021062
+aim_hud_offset_rot_16x9	= 0.003357, 0.008685, 0.021062
+hands_orientation		= 0.436165, 0.276145, 3.605055
+hands_orientation_16x9	= 0.436165, 0.276145, 3.605055
+hands_position			= -0.035278, -0.127391, -0.293322
+hands_position_16x9		= -0.035278, -0.127391, -0.293322
+;------------------------------------------------------------------------------------------------
+[wpn_pmm_ocw]:wpn_pm_ocw
+icons_texture	= ui\ui_icon_cw_pistols_pm
+inv_grid_height	= 1
+inv_grid_width	= 2
+inv_grid_x		= 0
+inv_grid_y		= 1
+inv_name		= st_wpn_pmm_ocw
+inv_name_short	= st_wpn_pmm_ocw
+description		= st_wpn_pmm_ocw_descr
+
+inv_weight		= 0.76
+cost			= 13421
+
+hud				= wpn_pmm_ocw_hud
+visual			= dynamics\weapons\wpn_pm_ocw\wpn_pmm12_world.ogf
+
+silencer_x		= 76
+silencer_y		= -23
+
+ammo_elapsed	= 12
+ammo_mag_size	= 12
+
+control_inertion_factor		= 1.08f
+fire_dispersion_base		= 0.56
+
+misfire_start_condition		= 0.8
+misfire_start_prob			= 0.007
+misfire_end_condition		= 0.11
+misfire_end_prob			= 0.11
+
+condition_queue_shot_dec	= 0.0015
+condition_shot_dec			= 0.0015
+
+hit_power					= 0.6,0.6,0.6,0.6
+
+[wpn_pmm_ocw_hud]:wpn_pm_ocw_hud
+item_visual	= anomaly_weapons\wpn_pm_ocw\pmm12.ogf
+
+aim_hud_offset_pos		= -0.061358, 0.037052, -0.013995
+aim_hud_offset_pos_16x9	= -0.061358, 0.037052, -0.013995
+aim_hud_offset_rot		= 0.073829, 0.078228, 0.021062
+aim_hud_offset_rot_16x9	= 0.073829, 0.078228, 0.021062

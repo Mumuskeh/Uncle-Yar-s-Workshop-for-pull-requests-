@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_sig516_articfox">
+		<text>Sig Sauer 516 "Artic Fox"</text>
+	</string>
+	<string id="st_wpn_sig516_articfox_s">
+		<text>SIG 516</text>
+	</string>
+	<string id="st_wpn_sig516_articfox_descr">
+		<text>The SIG Sauer SIG516 is an assault rifle and a semi automatic rifle manufactured by SIG Sauer, chambered in 5.56?45mm NATO, and sharing lineage with the Heckler & Koch HK416. The SIG516 omitted many proprietary HK416 components that were exchanged for standard (ie: M4 carbine spec) components. Other HK416 issues like the (at the time) high cyclic rate, which causes lower life cycle, a gas vent, which showed up in low light conditions, and safety issues (i.e. the need for a firing pin safety) were also addressed.\n
+		This variant has been designed for enhanced stealth and versatility in tactical operations. Equipped with a built-in suppressor, it significantly reduces muzzle blast and suppresses the sound signature, enabling discreet engagements. Complementing its suppressed capabilities, it also incorporates canted sights, allowing rapid transition between traditional optic and offset iron sights, facilitating quick target acquisition in close-quarter environments.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ACOG Scope and canted iron sights\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: Suppressor: Surefire SOCOM556-MONSTER\n</text>
+	</string>
+</string_table>

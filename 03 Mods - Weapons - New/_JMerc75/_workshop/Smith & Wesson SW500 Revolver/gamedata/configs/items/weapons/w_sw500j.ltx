@@ -1,0 +1,201 @@
+;------------------------------------------------------------------------------------------------
+[wpn_sw500_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_mp412_sounds
+GroupControlSection			= spawn_group
+discovery_dependency			=
+$npc							= on
+$prefetch						= 8
+$spawn					= "weapons\Desert	Eagle"
+scheduled						= off
+cform							= skeleton
+
+class							= WP_PM
+slot							= 1
+animation_slot					= 1
+ef_weapon_type					= 5
+hand_dependence				= 1
+single_handed					= 1
+
+default_to_ruck				= false
+sprint_allowed					= true
+
+icons_texture					= ui\sw500j_icon
+inv_grid_width								= 3
+inv_grid_height								= 1
+inv_grid_x									= 0
+inv_grid_y									= 0
+inv_name						= st_wpn_sw500_j
+inv_name_short					= st_wpn_sw500_j
+description					= st_wpn_sw500_j_descr
+
+kind							= w_pistol
+inv_weight					= 3.5
+cost							= 49652
+repair_type					= pistol
+
+hud					= wpn_sw500_j_hud
+visual			= dynamics\weapons\wpn_sw500_j\wpn_sw500_j_world.ogf
+position						= -0.021, -0.085, 0.0
+orientation					= 0, 0, 0
+fire_point						= 0.0, 0.133, 0.22
+ph_mass						= 1
+
+flame_particles				= weapons\generic_weapon03
+smoke_particles				= weapons\generic_shoot_00
+
+shell_point						= 0.0, 0.133, 0.047
+shell_dir						= 0.0, 0.0, 0.4
+;shell_particles				= weapons\45acp
+
+light_color					= 0.6, 0.5, 0.3
+light_range					= 3.0
+light_time						= 0.2
+light_var_color				= 0.05
+light_var_range				= 0.5
+
+upgrades						= up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_pm
+upgr_icon_path		= ui\sw500j_icon
+upgr_icon_x					= 150
+upgr_icon_y					= 0
+upgr_icon_width				= 200
+upgr_icon_height				= 100
+
+fire_modes						= 1
+ammo_class						= ammo_sw500j, ammo_sw500j_hp
+ammo_current					= 90
+ammo_elapsed					= 12
+ammo_limit						= 120
+ammo_mag_size					= 5
+
+scope_status				= 0
+scope_zoom_factor				= 0
+
+silencer_status				= 0
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= weapons\generic_shoot_00
+
+grenade_launcher_status		= 0
+
+hit_impulse					= 75
+hit_power						= 0.95, 0.95, 0.95, 0.95
+hit_type						= fire_wound
+fire_distance					= 800
+bullet_speed					= 550
+rpm							= 100
+rpm_empty_click				= 120
+
+use_aim_bullet	= false
+time_to_aim					= 0.0 ; 1.0
+zoom_dof						= -1000, 1.0, 1000
+zoom_enabled					= true
+zoom_rotate_time				= 0.25
+reload_dof						= 0.0, 0.5, 5, 1.7
+control_inertion_factor	= 1.0f
+crosshair_inertion				= 3.8
+fire_dispersion_base			= 0.23
+fire_dispersion_condition_factor	= 0.001
+
+misfire_start_condition		= 0.7 ; 0.85
+misfire_start_prob				= 0.007
+misfire_end_condition			= 0.12
+misfire_end_prob				= 0.11
+
+condition_queue_shot_dec		= 0.0016
+condition_shot_dec				= 0.0016
+
+cam_return									= 0
+cam_relax_speed								= 10
+cam_dispersion								= 6.0
+cam_dispersion_frac							= 0.7
+cam_dispersion_inc							= 2.0
+cam_max_angle								= 15.0
+cam_max_angle_horz							= 15.0
+cam_step_angle_horz							= 3.0
+zoom_cam_relax_speed						= 10
+zoom_cam_dispersion							= 5.0
+
+PDM_disp_accel_factor						= 2.0
+PDM_disp_base								= 0.5
+PDM_disp_crouch								= 1.0
+PDM_disp_crouch_no_acc						= 1.0
+PDM_disp_vel_factor							= 2.0
+
+cam_relax_speed_ai							= 360
+zoom_cam_relax_speed_ai						= 120.75
+holder_fov_modifier							= 1.0
+holder_range_modifier						= 1.0
+min_radius									= 30
+max_radius									= 50
+
+kill_msg_x						= 194
+kill_msg_y						= 123
+kill_msg_width					= 46
+kill_msg_height				= 27
+weapon_lower_speed			= 0.2
+
+snd_shoot					= wpn_sks_snd_shoot
+snd_shoot_actor			= wpn_sks_snd_shoot_actor
+snd_reload					= weapons\sw500j\sw500j_reload
+snd_reload_misfire			= weapons\sw500j\sw500j_unjam
+snd_reload_empty			= weapons\sw500j\sw500j_reload
+
+[wpn_sw500_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_sw500_j\wpn_sw500_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position			= 0, 0, 0
+item_orientation		= 0, 0, 0
+
+aim_hud_offset_pos		= -0.0601, 0.029151, -0.022099
+aim_hud_offset_pos_16x9	= -0.0601, 0.029151, -0.022099
+aim_hud_offset_rot		= 0.015008, 0.018191, 0
+aim_hud_offset_rot_16x9	= 0.015008, 0.018191, 0
+
+hands_orientation		= 1.02144, 0.528502, 0
+hands_orientation_16x9	= 1.02144, 0.528502, 0
+hands_position			= 0.004377, -0.001278, 0.067129
+hands_position_16x9		= 0.004377, -0.001278, 0.067129
+
+lowered_hud_offset_pos		= -0.015227, 0.048936, 0
+lowered_hud_offset_pos_16x9	= -0.015227, 0.048936, 0
+lowered_hud_offset_rot		= 0.315108, -0.142238, 0.1
+lowered_hud_offset_rot_16x9	= 0.315108, -0.142238, 0.1
+
+anm_bore									= sw500j_inspect, idle
+anm_show									= sw500j_draw, idle
+anm_hide									= sw500j_holster, idle
+
+anm_idle									= sw500j_idle, idle
+anm_idle_aim_moving							= sw500j_idle_aim, idle, 1.6
+anm_idle_aim_moving_crouch					= sw500j_idle_aim, idle, 1.3
+anm_idle_moving								= sw500j_walk, idle, 1.9
+anm_idle_moving_crouch						= sw500j_walk, idle, 1.5
+anm_idle_sprint								= sw500j_run, idle, 1.8
+
+anm_reload									= sw500j_reload, reload
+anm_reload_misfire							= sw500j_unjam, unjam
+
+anm_shots									= sw500j_shoot, shoot
+anm_idle_aim								= sw500j_idle_aim, idle
+
+; Jammed	Animation	Variants
+anm_idle_jammed						= sw500j_idle, idle_jammed
+anm_show_jammed						= sw500j_draw, idle_jammed
+anm_hide_jammed						= sw500j_holster, idle_jammed
+anm_idle_aim_jammed					= sw500j_idle_aim, idle_jammed
+anm_idle_sprint_jammed				= sw500j_run, idle_jammed, 1.8
+anm_idle_moving_jammed				= sw500j_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed			= sw500j_walk, idle_jammed, 1.5
+anm_bore_jammed						= sw500j_inspect, idle_jammed
+
+shell_bone						= wpn_body
+shell_point					= 0, 0, -50
+
+fire_bone						= muzzle
+fire_point						= 0, 0, 0

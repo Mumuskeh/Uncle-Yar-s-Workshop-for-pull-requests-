@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_950jdj">
+		<text>SSK .950 JDJ "Fat Mac"</text>
+	</string>
+	<string id="st_wpn_950jdj_s">
+		<text>SSK .950 JDJ</text>
+	</string>
+	<string id="st_wpn_950jdj_descr">
+		<text>The SSK .950 JDJ Rifle is a behemoth in the world of firearms, renowned for its sheer power and caliber. Crafted by SSK Industries, this mammoth rifle fires the .950 JDJ cartridge, one of the largest centerfire rifle cartridges ever produced. Weighing in at around 30 pounds and measuring over four feet in length, this rifle is a testament to engineering prowess. Its sheer force is matched only by its rarity, with only a handful ever manufactured. The recoil from firing this weapon is substantial, requiring specialized techniques and equipment to handle.\n
+		It's a collector's dream and a testament to the extremes of firearm design and power, though not very practical when lighter and even more powerful options are much more easily available in the Zone.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Integrated High Power Scope\n</text>
+	</string>
+
+	<string id="st_prt_w_barrel_950jdj">
+		<text>.950 Barrel</text>
+	</string>
+	<string id="st_prt_w_barrel_950jdj_descr">
+		<text>.950 JDJ caliber barrel.\n\n</text>
+	</string>
+
+	<string id="st_bolt_950jdj">
+		<text>.950 Bolt</text>
+	</string>
+	<string id="st_bolt_950jdj_descr">
+		<text>.950 JDJ bolt.\n\n</text>
+	</string>
+
+	<string id="st_trigger_950jdj">
+		<text>.950 Trigger</text>
+	</string>
+	<string id="st_trigger_950jdj_descr">
+		<text>.950 JDJ trigger mechanism.\n\n</text>
+	</string>
+
+	<string id="st_ammo_950jdj">
+		<text>.950 JDJ Ammunition.</text>
+	</string>
+	<string id="st_ammo_950jdj_descr">
+		<text>The .950 JDJ is a massive rifle cartridge with a 0.95-inch bullet, weighing about 3,600 grains. Known for its extreme recoil and muzzle energy, it's mainly used in custom rifles for experimental purposes due to its immense power.\n\n
+		%c[d_purple] - %c[ui_gray_2] Highest pierced armour class: %c[ui_gray_1]Any\n
+		%c[d_purple] - %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]All</text>
+	</string>
+
+</string_table>

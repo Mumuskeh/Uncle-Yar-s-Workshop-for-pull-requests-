@@ -1,0 +1,13 @@
+<string_table>
+	<string id="st_wpn_laugo_alien">
+		<text>Laugo Alien</text>
+	</string>
+	<string id="st_wpn_laugo_alien_descr">
+		<text>
+		The Laugo Arms Alien is a semi-automatic pistol in 9×19mm by the Czech company Laugo Arms Czechoslovakia. It has a gas-delayed mechanism and a fixed barrel which enables good precision, a low bore axis for less barrel lift and an internal slide which means that the sights remain stationary to the barrel during firing, which results in less negative recoil and thereby longer lifespan for reflex sights.\n
+		The pistol is still supposedly in development, and nobody knows why it is in the Zone of all places or how Nimble even managed to get his hands on a prototype, and even less have even thought about purchasing it, for no stalker would dare spend this much on a 9mm pistol.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Lebedev PL-15 LAM attachment\n
+		%c[d_purple] - %c[ui_gray_2] GemTech Supressor (aftermarket modification)\n</text>
+	</string>
+</string_table>

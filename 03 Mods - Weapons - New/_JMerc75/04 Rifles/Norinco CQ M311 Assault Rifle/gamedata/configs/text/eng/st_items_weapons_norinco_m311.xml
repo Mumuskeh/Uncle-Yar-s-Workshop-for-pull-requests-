@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_norinco_m311">
+		<text>Norinco Type CQ M311</text>
+	</string>
+	<string id="st_wpn_norinco_m311_s">
+		<text>CQ-311</text>
+	</string>
+	<string id="st_wpn_norinco_m311_descr">
+		<text>The Type CQ is an unlicensed Chinese variant of the M16 rifle first introduced in the early 1980s by Sichuan Changqing Machine Works, a subsidiary of Norinco, and intended for export sales. It is a a gas-operated, rotating-bolt full-automatic firearm chambered for 5.56?45mm. and this CQ 5.56 variant, also known as the CQ-311 or CQ M-311, is a select-fire assault rifle version intended for military and police use.\n
+		Though it has the same look as the M16 rifle, it has a different rifling pitch intended to stabilize the Type CJ Chinese clone of the 5.56?45mm NATO cartride, but it will not optimally stabilize the NATO standard 5.56mm ammunition.\n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: NATO 5.56 Suppressor\n</text>
+	</string>
+</string_table>

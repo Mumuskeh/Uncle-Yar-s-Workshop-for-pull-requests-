@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_delisle">
+		<text>DeLisle Suppressed Carbine</text>
+	</string>
+	<string id="st_wpn_delisle_descr">
+		<text>The De Lisle carbine or De Lisle commando carbine, designed by William Godfray de Lisle, was a British firearm used during World War II, chambered in .45 ACP and fitted with an integrated silencer. That, combined with its use of subsonic ammunition, made it extremely quiet in action, possibly one of the quietest firearms ever made.\n		
+		Few were manufactured as their use was limited to specialist military units, though modern reproductions are produced from time to time.</text>
+	</string>
+</string_table>

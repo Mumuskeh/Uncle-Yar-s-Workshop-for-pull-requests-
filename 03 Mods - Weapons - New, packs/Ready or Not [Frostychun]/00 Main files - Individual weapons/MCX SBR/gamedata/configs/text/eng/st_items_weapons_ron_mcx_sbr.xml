@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_mcx_sbr">
+		<text>SIG MCX SBR</text>
+	</string>
+	<string id="st_wpn_mcx_sbr_descr">
+		<text>The SIG MCX series features a short-stroke gas piston system to reduce recoil and improve the reliability of the weapon; this was based on the design of the earlier SIG MPX. The SIG MCX VIRTUS is the second generation of the SIG MCX series and was introduced in 2017. This version uses 5.56x45mm.\n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255]Origin: %c[ui_gray_1]Germany\n
+		%c[d_cyan] • %c[0,255,255,255]Manufacturer: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[0,255,255,255]Production Year: %c[ui_gray_1]2015</text>
+	</string>
+
+</string_table>

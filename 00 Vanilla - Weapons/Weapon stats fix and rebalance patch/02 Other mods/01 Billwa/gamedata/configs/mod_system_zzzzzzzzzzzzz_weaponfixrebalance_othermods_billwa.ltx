@@ -1,0 +1,103 @@
+; Modding Book on weapon parameters, for quick reference:
+; https://igigog.github.io/anomaly-modding-book/reference/configs/items/weapons/weapon-world.html
+
+;;;;;;; OTHER MODS
+
+;;BILLWA 	============	============	============	============
+
+;DP27
+![wpn_dp27]
+fire_distance	= 800 ; 900
+rpm				= 550 ; 500
+bullet_speed	= 840 ; 940
+
+;FG42
+![wpn_fg42]
+inv_weight		= 4.95
+fire_distance	= 650
+bullet_speed	= 740
+rpm				= 750
+
+;IZH18 and MP18
+; changes made by Meylin in the Anomaly Discord. To quote:
+; "Suffice to say: The new version of the Izh-18 with the new izh18 ltx, is a BIT more accurate than the double barrel shotguns, and has a very SLIGHT bit more damage since I've decided to base the 'highest damage' of 12 gauge shotguns on the current highest damage 12 gauge in the game, that being the Spas-12 Modern."
+; "Oh, and, again: Good fucking luck breaking that gun, and the MP-18 Rifle as well. It won't break easily. As, seriously: They're SINGLE SHOTS. Essentially the SIMPLEST GUN TYPE THERE IS."
+![wpn_izh18]
+hit_power		= 0.83, 0.83, 0.83, 0.83
+fire_distance	= 175
+bullet_speed	= 330
+fire_dispersion_base		= 0.28
+condition_queue_shot_dec	= 0.0004
+condition_shot_dec			= 0.0004
+![wpn_mp18]
+hit_power		= 1.135, 1.135, 1.135, 1.135
+fire_distance	= 1100
+bullet_speed	= 845
+fire_dispersion_base			= 0.11
+fire_dispersion_condition_factor= 0.001
+
+;M240
+![wpn_m240]
+inv_weight		= 12.5 ; 7.68
+bullet_speed	= 853 ; 855
+
+;M3A1 Grease Gun
+; The M3A1 is a 45 acp gun, not a 9mm
+![wpn_m3a1]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
+fire_distance	= 200
+bullet_speed	= 274
+![wpn_m3a1tac]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
+inv_weight		= 4.24
+cost			= 27693
+fire_distance	= 200
+bullet_speed	= 274
+![wpn_greasegun]
+silencer_name	= wpn_sil_45 ; wpn_sil_9mm
+inv_weight		= 4.24
+cost			= 27693
+fire_distance	= 200
+bullet_speed	= 274
+
+;Milkor
+![wpn_m32_mgl]
+fire_distance	= 400 ; 500
+bullet_speed	= 75 ; 76
+rpm				= 20 ; 115
+
+;MAC-10
+![wpn_mac10]
+fire_distance	= 100
+rpm				= 1146
+;in case someone uses the patch in my Hisalute pack, as I change the ID for that one
+;repeating from the hisalute patch for safety
+![wpn_mac10_45]
+fire_distance	= 50
+bullet_speed	= 280
+rpm				= 1146
+
+;MP40
+![wpn_mp40]
+inv_weight		= 4.2 ; 2.7
+fire_distance	= 200 ; 350
+
+;Type 56 pack
+![wpn_type56]
+fire_distance	= 500 ; 900
+bullet_speed	= 735; 715
+rpm				= 650 ; 600
+![wpn_type56_1]
+fire_distance	= 500 ; 900
+bullet_speed	= 735; 715
+rpm				= 650 ; 600
+![wpn_type56_2]
+inv_weight		= 3.9 ; 3.6
+fire_distance	= 500 ; 900
+bullet_speed	= 735; 715
+rpm				= 650 ; 600
+![wpn_type81]
+inv_weight		= 3.4 ; 3.3
+fire_distance	= 800 ; 1300
+bullet_speed	= 750 ; 950
+rpm				= 650 ; 720

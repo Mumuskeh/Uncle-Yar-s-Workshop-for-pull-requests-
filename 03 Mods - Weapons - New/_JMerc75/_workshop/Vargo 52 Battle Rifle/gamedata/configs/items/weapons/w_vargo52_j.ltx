@@ -1,0 +1,239 @@
+;------------------------------------------------------------------------------------------------
+[wpn_vargo52_j]:identity_immunities,weapon_probability,default_weapon_params,wpn_akm_sounds
+GroupControlSection							= spawn_group
+$npc										= on
+$prefetch									= 8
+$spawn								= "weapons\ak-74"
+scheduled									= off
+cform										= skeleton
+parent_section								= wpn_vargo52_j
+
+class										= WP_AK74
+slot										= 2
+animation_slot								= 2
+ef_main_weapon_type							= 2
+ef_weapon_type								= 8
+hand_dependence								= 1
+single_handed								= 0
+
+default_to_ruck								= false
+sprint_allowed								= true
+
+icons_texture								= ui\vargo52_icon
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 0
+inv_name									= st_wpn_vargo52_j
+inv_name_short								= st_wpn_vargo52_j
+description									= st_wpn_vargo52_j_descr
+
+kind										= w_rifle
+inv_weight									= 4.8
+cost										= 63214
+repair_type									= rifle_7
+weapon_class								= assault_rifle
+
+hud				= wpn_vargo52_j_hud
+visual			= dynamics\weapons\wpn_vargo52_j\wpn_vargo52_j_world.ogf
+position									= -0.026, -0.175, 0.0
+orientation									= 0, 0, 0
+fire_point									= 0, 0.218, 0.656
+fire_point2									= 0, 0.161, 0.583
+strap_bone0									= bip01_spine2
+strap_bone1									= bip01_spine1
+strap_position								= -0.26, -0.11, 0.25
+strap_orientation							= -15, -9, 110
+ph_mass										= 4
+
+flame_particles								= weapons\generic_weapon05
+smoke_particles								= weapons\generic_shoot_00
+grenade_flame_particles						= weapons\generic_weapon01
+
+shell_point									= 0.07,0.2,0.466
+shell_dir									= 0.0, 1.0, 0.0
+shell_bone									= wpn_body
+shell_particles								= weapons\762x54
+
+light_disabled								= false
+light_color									= 0.6, 0.5, 0.3
+light_range									= 5
+light_time									= 0.2
+light_var_color								= 0.05
+light_var_range								= 0.5
+
+upgrades						= up_gr_firstab_tt33, up_gr_seconab_tt33, up_gr_thirdab_tt33, up_gr_fourtab_tt33, up_gr_fifthab_tt33, up_gr_fifthcd_tt33
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_pm
+upgr_icon_path		= ui\vargo52_icon
+upgr_icon_x					= 0
+upgr_icon_y					= 100
+upgr_icon_width				= 300
+upgr_icon_height				= 100
+
+fire_modes									= 1, -1
+ammo_class									= ammo_7.62x54_7h1, ammo_7.62x54_7h1_bad, ammo_7.62x54_7h1_verybad, ammo_7.62x54_ap, ammo_7.62x54_ap_bad, ammo_7.62x54_ap_verybad, ammo_7.62x54_7h14, ammo_7.62x54_7h14_bad, ammo_7.62x54_7h14_verybad
+ammo_elapsed								= 22
+ammo_mag_size								= 22
+startup_ammo								= 90
+
+scopes										= 
+scope_status		= 0
+scope_zoom_factor	= 0
+
+silencer_name								= wpn_sil_kzrzp
+silencer_status								= 2
+silencer_x						= 208	 ; offset	in	inventory	icon
+silencer_y						= 1
+silencer_light_color						= 0.6, 0.5, 0.3
+silencer_light_range						= 0.01
+silencer_light_time							= 0.2
+silencer_light_var_color					= 0.05
+silencer_light_var_range					= 0.5
+silencer_smoke_particles					= weapons\generic_shoot_00
+
+grenade_class								= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_name						= wpn_addon_grenade_launcher
+grenade_launcher_status						= 0
+grenade_launcher_x							= 114
+grenade_launcher_y							= 21
+launch_speed								= 0
+
+hit_impulse									= 52
+hit_power									= 1.25, 1.25, 1.25, 1.25
+hit_type									= fire_wound
+fire_distance								= 850
+bullet_speed								= 760
+rpm											= 550
+rpm_empty_click								= 200
+
+use_aim_bullet								= false
+time_to_aim									= 0.0 ; 3.0
+zoom_dof									= 0.5, 1.0, 180
+zoom_enabled								= true
+zoom_rotate_time	= 0.25
+reload_dof									= 0.0, 0.5, 5, 2
+control_inertion_factor	= 1.0f
+crosshair_inertion							= 5.8
+fire_dispersion_base						= 0.35
+fire_dispersion_condition_factor			= 0.001
+
+misfire_probability							= 0.005
+misfire_start_condition						= 0.7 ; 0.75
+misfire_start_prob							= 0.007
+misfire_end_condition						= 0.1
+misfire_end_prob							= 0.11
+
+condition_queue_shot_dec					= 0.0006
+condition_shot_dec							= 0.0006
+
+cam_return									= 0
+cam_relax_speed								= 10
+cam_dispersion								= 0.545
+cam_dispersion_frac							= 1.1
+cam_dispersion_inc							= 0.0625
+cam_max_angle								= 50.0
+cam_max_angle_horz							= 50.0
+cam_step_angle_horz							= 1.15
+zoom_cam_relax_speed						= 10
+zoom_cam_dispersion							= 0.515
+zoom_cam_dispersion_frac					= 0.7
+zoom_cam_dispersion_inc						= 0.0525
+zoom_cam_max_angle							= 50.0
+zoom_cam_max_angle_horz						= 50.0
+zoom_cam_step_angle_horz					= 1.05
+
+PDM_disp_accel_factor						= 2.5
+PDM_disp_base								= 1.0
+PDM_disp_crouch								= 1.0
+PDM_disp_crouch_no_acc						= 1.0
+PDM_disp_vel_factor							= 2.5
+
+cam_relax_speed_ai							= 360
+zoom_cam_relax_speed_ai						= 360
+holder_fov_modifier							= 1.0
+holder_range_modifier						= 1.0
+min_radius									= 0
+max_radius									= 500
+hit_probability_gd_novice					= 1.00
+hit_probability_gd_stalker					= 1.00
+hit_probability_gd_veteran					= 1.00
+hit_probability_gd_master					= 1.00
+
+kill_msg_x									= 0
+kill_msg_y									= 28
+kill_msg_width								= 84
+kill_msg_height								= 28
+
+snd_shoot																= wpn_svt40_snd_shoot
+snd_shoot_actor															= wpn_svt40_snd_shoot_actor
+snd_silncer_shot														= wpn_dmr_snd_silenced
+snd_silncer_shot_actor													= wpn_dmr_snd_silenced_actor
+
+snd_reload					= weapons\vargo52\vargo52_reload
+snd_reload_empty			= weapons\vargo52\vargo52_reload_empty
+snd_reload_misfire			= weapons\vargo52\vargo52_unjam
+
+[wpn_vargo52_j_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_vargo52_j\wpn_vargo52_j_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_pos		= -0.07755, 0.023673, -0.044518
+aim_hud_offset_pos_16x9	= -0.07755, 0.023673, -0.044518
+aim_hud_offset_rot		= 0.036201, 0.055361, 0
+aim_hud_offset_rot_16x9	= 0.036201, 0.055361, 0
+
+		hands_orientation		= 3.133873, 2.307952, 0
+		hands_orientation_16x9	= 3.133873, 2.307952, 0
+		hands_position			= -0.008799, 0.001009, 0.033921
+		hands_position_16x9		= -0.008799, 0.001009, 0.033921
+
+		lowered_hud_offset_pos		= 0.114801, 0.010958, 0
+		lowered_hud_offset_pos_16x9	= 0.114801, 0.010958, 0
+		lowered_hud_offset_rot		= 0.110591, -0.776803, 0.1
+		lowered_hud_offset_rot_16x9	= 0.110591, -0.776803, 0.1
+
+anm_bore									= vargo52j_inspect, idle
+anm_show									= vargo52j_draw, idle
+anm_hide									= vargo52j_holster, idle
+
+anm_idle									= vargo52j_idle, idle
+anm_idle_aim_moving							= vargo52j_idle_aim, idle, 1.6
+anm_idle_aim_moving_crouch					= vargo52j_idle_aim, idle, 1.3
+anm_idle_moving								= vargo52j_walk, idle, 1.9
+anm_idle_moving_crouch						= vargo52j_walk, idle, 1.5
+anm_idle_sprint								= vargo52j_run, idle, 1.8
+
+anm_reload									= vargo52j_reload, reload
+anm_reload_empty							= vargo52j_reload_empty, reload_empty
+anm_reload_misfire							= vargo52j_unjam, unjam
+
+anm_shots									= vargo52j_shoot, shoot
+anm_idle_aim								= vargo52j_idle_aim, idle
+
+	 ; Jammed	Animation	Variants
+anm_idle_jammed						= vargo52j_idle, idle_jammed
+anm_show_jammed						= vargo52j_draw, idle_jammed
+anm_hide_jammed						= vargo52j_holster, idle_jammed
+anm_idle_aim_jammed					= vargo52j_idle_aim, idle_jammed
+anm_idle_sprint_jammed				= vargo52j_run, idle_jammed, 1.8
+anm_idle_moving_jammed				= vargo52j_walk, idle_jammed, 1.9
+anm_idle_moving_crouch_jammed			= vargo52j_walk, idle_jammed, 1.5
+anm_bore_jammed						= vargo52j_inspect, idle_jammed
+
+shell_bone									= bolt
+shell_dir									= 0, 1, 0
+shell_point									= 0, 0, 0
+
+fire_bone									= muzzle
+fire_bone2									= wpn_body
+fire_point									= 0, 0, 0
+fire_point2									= 0.078965, -0.211564, 0.553397
+
+freelook_z_offset_mul	= 0.2
+
+;------------------------------------------------------------------------------------------------

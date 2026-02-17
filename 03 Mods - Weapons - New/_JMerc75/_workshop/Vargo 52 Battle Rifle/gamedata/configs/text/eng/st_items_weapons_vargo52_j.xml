@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+			<string id="st_wpn_vargo52_j">
+		<text>Vargo 52</text>
+	</string>
+	<string id="st_wpn_vargo52_j_descr">
+		<text>The Vargo 52 is a rugged battle rifle chambered in 7.62x54r, featuring a 22-round detachable magazine for extended firepower. Utilizing a long-stroke gas piston system with a reinforced bolt and extended ejection port, it ensures reliable cycling and durability under harsh conditions. With a steady rate of fire and hard-hitting ballistics, the Vargo 52 excels in delivering sustained, accurate firepower suited for both frontline engagements and long-range support. .\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor. \n</text>
+	</string>
+	
+	<string id="st_mag_vargo52_default">
+		<text>22-Round Vargo-52 Magazine.</text>
+	</string>
+	<string id="st_mag_vargo52_default_descr">
+		<text>Magazine for the Vargo-52 rifle, holds 22 rounds of 7.62x54r ammunition. Smells like lemons. \n \n</text>
+	</string>
+</string_table>

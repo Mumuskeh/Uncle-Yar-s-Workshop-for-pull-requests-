@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ddm4_pdw">
+		<text>DDM4 PDW</text>
+	</string>
+	<string id="st_wpn_ddm4_pdw_descr">
+		<text>DDM4 is a series of weapons configured to be suitable to all kind of combat situations suited to the user's choice. Based on the AR-15 platform, the DDM4 performs adequately well with good firing speed and moderate draw/reload speed, however they each have their own unique traits that make them stand out from each other.\n
+		%c[0,255,255,255]ATTACHMENTS:\n
+		%c[d_cyan] • %c[0,255,255,255]Most basic sights and scopes\n
+		%c[d_cyan] • %c[0,255,255,255]%c[ui_gray_1]NATO Silencer</text>
+	</string>
+
+</string_table>

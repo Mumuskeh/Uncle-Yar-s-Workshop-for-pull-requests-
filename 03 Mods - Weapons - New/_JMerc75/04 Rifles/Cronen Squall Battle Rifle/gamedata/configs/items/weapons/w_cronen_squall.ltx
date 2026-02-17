@@ -1,0 +1,713 @@
+[wpn_cronen_squall]:identity_immunities,weapon_probability,default_weapon_params,wpn_famas_sounds
+GroupControlSection		= spawn_group
+$spawn			= "weapons\cronen_squall"
+$npc						= on
+$prefetch					= 8
+scheduled					= off
+cform						= skeleton
+class						= WP_AK74
+parent_section								= wpn_cronen_squall
+
+description				= st_wpn_cronen_squall_descr
+ef_main_weapon_type		= 2
+ef_weapon_type				= 6
+default_to_ruck			= false
+sprint_allowed			= true
+
+;-------------------------------------------------------------------------------
+
+kind										= w_rifle
+inv_weight									= 3.77
+cost										= 67321
+repair_type									= rifle_5
+weapon_class								= assault_rifle
+upgrades					= up_gr_firstab_scar, up_gr_seconab_scar, up_gr_thirdab_scar, up_gr_fourtab_scar, up_gr_fifthab_scar
+installed_upgrades			=
+upgrade_scheme				= upgrade_scheme_sig550
+
+;--TTX--------------------------------------------------------------------------
+hit_impulse									= 35
+hit_power									= 0.76, 0.76, 0.76, 0.76
+hit_type									= fire_wound
+fire_distance								= 1000
+bullet_speed				= 880
+rpm						= 650
+rpm_empty_click			= 120
+
+use_aim_bullet				= false
+
+time_to_aim				= 3.0
+
+hud				= wpn_cronen_squall_hud
+
+misfire_probability			= 0.005
+misfire_start_condition		= 0.875
+misfire_end_condition		= 0.125
+misfire_start_prob	= 0.00275
+misfire_end_prob	= 0.07
+condition_shot_dec			= 0.0010
+condition_queue_shot_dec	= 0.0014
+
+ammo_elapsed				= 20
+ammo_mag_size				= 20
+
+ammo_class					= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
+grenade_class				= ammo_m209
+fire_modes					= 1, -1
+launch_speed				= 0
+hand_dependence			= 1
+single_handed				= 0
+
+;--дисперсия----------------------------------------------------------------------------
+;базовая	дисперсия
+fire_dispersion_base		= 0.24
+fire_dispersion_condition_factor	= 0.001
+control_inertion_factor	= 1.0f
+crosshair_inertion	= 5.3
+
+cam_return									= 0
+cam_relax_speed								= 10
+cam_dispersion								= 0.556
+cam_dispersion_frac							= 1.0
+cam_dispersion_inc							= 0.0675
+cam_max_angle								= 50.0
+cam_max_angle_horz							= 50.0
+cam_step_angle_horz							= 0.9
+
+zoom_cam_relax_speed						= 10
+zoom_cam_dispersion							= 0.466
+zoom_cam_dispersion_frac					= 1.0
+zoom_cam_dispersion_inc						= 0.0525
+zoom_cam_max_angle							= 50.0
+zoom_cam_max_angle_horz						= 50.0
+zoom_cam_step_angle_horz					= 0.85
+
+PDM_disp_accel_factor						= 2.3
+PDM_disp_base								= 0.8
+PDM_disp_crouch								= 1.0
+PDM_disp_crouch_no_acc						= 1.0
+PDM_disp_vel_factor							= 2.3
+
+cam_relax_speed_ai							= 360
+zoom_cam_relax_speed_ai						= 360
+holder_fov_modifier							= 1.0
+holder_range_modifier						= 1.0
+min_radius									= 0
+max_radius									= 500
+hit_probability_gd_novice					= 1.00
+hit_probability_gd_stalker					= 1.00
+hit_probability_gd_veteran					= 1.00
+hit_probability_gd_master					= 1.00
+
+
+;---DOF-------------------------------------------------------------------------
+zoom_dof						= 0.5, 1.0, 180
+reload_dof					= 0.0, 0.5, 5, 2
+
+;-------------------------------------------------------------------------------
+slot						= 2
+animation_slot				= 8
+
+inv_name					= st_wpn_cronen_squall
+inv_name_short			= st_wpn_cronen_squall
+
+icons_texture								= ui\ui_icon_cronensquall
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 0
+
+upgr_icon_x			= 0 ; 303
+upgr_icon_y			= 800 ; 515
+upgr_icon_width		= 300 ; 294
+upgr_icon_height		= 101 ; 110
+
+kill_msg_x				= 84
+kill_msg_y				= 28
+kill_msg_width			= 73
+kill_msg_height			= 30
+
+;-------------------------------------------------------------------------------
+		orientation							= -1.588342, -10.766377, 0
+		position							= -0.022419, 0.105716, -0.199753
+
+fire_point					= 0.0,0.186,0.435
+fire_point2				= 0.0, 0.106, 0.468
+
+flame_particles								= weapons\generic_weapon05
+smoke_particles								= weapons\generic_shoot_00
+grenade_flame_particles						= weapons\generic_weapon01
+
+shell_point				= -0.020000,0.167000,0.082000
+shell_dir					= 0.0, 0.0, 0.4
+shell_particles			=
+
+;--STRAP	PARAMETERS-----------------------------------------------------------------
+;под	мишкой
+		strap_orientation					= -7.140198, -8.038435, 100
+		strap_position						= -0.20895, -0.125826, -0.017166
+
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+
+startup_ammo				= 90
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+light_disabled				= false
+light_color				= 0.6,0.5,0.3
+light_range				= 5
+light_var_color			= 0.05
+light_var_range			= 0.5
+light_time					= 0.2
+
+ph_mass					= 5
+;cost						= 2100
+
+;addons
+scopes						= acog, eot, ac10632, specter	,c-more	,point_aimpro, leupold, aimpoint, e0t2, pn23, gauss_sight, compm4s, marchf, kemper, triji, mark8_rmr, spec_alt, mepro, ekp8_18
+scope_status		= 0
+scope_zoom_factor	= 0
+silencer_status			= 2
+grenade_launcher_status	= 0
+
+zoom_enabled				= true
+zoom_rotate_time		= 0.25
+
+silencer_name				= wpn_sil_aac762
+silencer_x					= 213
+silencer_y					= 15
+grenade_launcher_name		= wpn_addon_grenade_launcher_m203
+grenade_launcher_x		= 128
+grenade_launcher_y		= 28
+
+
+
+;звуки
+snd_draw					= weapons\cronensquall\cronensquall_draw
+snd_holster				= weapons\cronensquall\cronensquall_hide
+snd_reload				= weapons\cronensquall\cronensquall_reload
+snd_switch				= weapons\cronensquall\cronensquall_firemode
+snd_bore					= weapons\cronensquall\cronensquall_inspect
+snd_reload_misfire		= weapons\cronensquall\cronensquall_unjam
+snd_reload_empty		= weapons\cronensquall\cronensquall_reload_empty
+snd_ammo_check								= weapons\cronensquall\cronensquall_magcheck
+snd_ammo_check_empty						= weapons\cronensquall\cronensquall_magcheck
+
+snd_shoot																= wpn_svd_snd_shoot
+snd_shoot_actor															= wpn_svd_snd_shoot_actor
+snd_silncer_shot														= wpn_big_snd_silenced
+snd_silncer_shot_actor													= wpn_big_snd_silenced_actor
+
+;настройки	для	глушителя
+silencer_smoke_particles					= weapons\generic_shoot_00
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color= 0.05
+silencer_light_var_range= 0.5
+silencer_light_time		= 0.2
+
+use_alt_aim_hud		= true
+
+laser_status	= true
+
+[wpn_cronen_squall_hud]:hud_base
+zoom_hide_crosshair		= true
+attach_place_idx			= 0
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_hud.ogf
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+aim_hud_offset_alt_pos		= -0.116982, -0.058027, 0
+aim_hud_offset_alt_pos_16x9	= -0.116982, -0.058027, 0
+aim_hud_offset_alt_rot		= 0.001426, 0.019948, 0.476394
+aim_hud_offset_alt_rot_16x9	= 0.001426, 0.019948, 0.476394
+
+aim_hud_offset_pos		= -0.083255, 0.02112, -0.08355
+aim_hud_offset_pos_16x9	= -0.083255, 0.02112, -0.08355
+aim_hud_offset_rot		= 0.013796, 0.012619, -0.018412
+aim_hud_offset_rot_16x9	= 0.013796, 0.012619, -0.018412
+
+hands_orientation		= -0.050349, -0.977263, 0
+hands_orientation_16x9	= -0.050349, -0.977263, 0
+hands_position			= 0.01544, 0.000991, 0.071952
+hands_position_16x9		= 0.01544, 0.000991, 0.071952
+
+lowered_hud_offset_pos		= 0.070853, -0.038367, -0.02
+lowered_hud_offset_pos_16x9	= 0.070853, -0.038367, -0.02
+lowered_hud_offset_rot		= -0.096517, -0.63168, 0.4
+lowered_hud_offset_rot_16x9	= -0.096517, -0.63168, 0.4
+
+gl_hud_offset_pos		= 0, 0, 0
+gl_hud_offset_pos_16x9	= 0, 0, 0
+gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_rot_16x9	= 0, 0, 0
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+shell_point				= 0.0,0.0,0.0
+shell_dir					= 0.0, 1.0, 0.0
+shell_bone				= wpn_body
+
+fire_point				= 0,0,0
+fire_bone						= muzzle
+
+anm_bore									= hands_cronensquall_inspect, inspect
+anm_hide									= hands_cronensquall_hide, idle
+anm_idle									= hands_cronensquall_idle, idle
+anm_idle_empty									= hands_cronensquall_idle, idle_empty
+anm_idle_aim								= hands_cronensquall_aim_idle, idle
+anm_idle_aim_moving							= hands_cronensquall_aim_idle, idle
+anm_idle_aim_moving_crouch					= hands_cronensquall_aim_idle, idle
+anm_idle_moving								= hands_cronensquall_walk, idle
+anm_idle_moving_crouch						= hands_cronensquall_walk, idle
+anm_idle_sprint								= hands_cronensquall_sprint, idle
+anm_reload									= hands_cronensquall_reload, cronensquall_reload
+anm_reload_empty							= hands_cronensquall_reload_empty, cronensquall_reload_empty
+anm_shots									= hands_cronensquall_fire01, cronensquall_fire01
+anm_shots_variant1							= hands_cronensquall_fire02, cronensquall_fire02
+anm_shots_variant2							= hands_cronensquall_fire03, cronensquall_fire03
+anm_show									= hands_cronensquall_draw, idle
+anm_reload_misfire							= hands_cronensquall_unjam, cronensquall_unjam
+anm_switch_mode								= hands_cronensquall_firemode, cronensquall_firemode
+anm_switch_mode_empty						= hands_cronensquall_firemode, cronensquall_firemode_empty
+
+anm_ammo_check								= hands_cronensquall_magcheck, cronensquall_magcheck
+anm_ammo_check_empty						= hands_cronensquall_magcheck, cronensquall_magcheck_empty
+anm_walk2sprint								= hands_cronensquall_walk2sprint, idle
+anm_sprint2walk								= hands_cronensquall_sprint2walk, idle
+
+
+
+;---------------------------------------------------------------------------Addons------------------------------------------------
+[wpn_cronen_squall_acog]:wpn_cronen_squall
+
+inv_weight		= 2.95
+
+hud				= wpn_cronen_squall_acog_hud
+
+1icon_layer		= acog
+1icon_layer_x	= 109
+1icon_layer_y	= -5
+
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom		= off
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+[wpn_cronen_squall_acog_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.083146, 0.019621, -0.156441
+aim_hud_offset_pos_16x9	= -0.083146, 0.019621, -0.156441
+;-------------------------------------------------------------------------------
+[wpn_cronen_squall_ac10632]:wpn_cronen_squall
+
+1icon_layer		= ac10632
+1icon_layer_x	= 110
+1icon_layer_y	= -7
+
+inv_weight		= 2.715
+
+hud				= wpn_cronen_squall_ac10632_hud
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+[wpn_cronen_squall_ac10632_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.08251, 0.021688, -0.08355
+aim_hud_offset_pos_16x9	= -0.08251, 0.021688, -0.08355
+;-------------------------------------------------------------------------------
+[wpn_cronen_squall_eot]:wpn_cronen_squall
+
+1icon_layer		= eot
+1icon_layer_x	= 110
+1icon_layer_y	= -6
+
+inv_weight		= 2.900
+
+hud				= wpn_cronen_squall_eot_hud
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+[wpn_cronen_squall_eot_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.082724, 0.020126, -0.108651
+aim_hud_offset_pos_16x9	= -0.082724, 0.020126, -0.108651
+;-----------------------------------------------------------------------------
+[wpn_cronen_squall_c-more]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_c-more_hud
+
+1icon_layer		= c-more
+1icon_layer_x	= 112
+1icon_layer_y	= -5
+
+inv_weight		= 2.900
+
+[wpn_cronen_squall_c-more_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.083254, 0.022469, -0.08355
+aim_hud_offset_pos_16x9	= -0.083254, 0.022469, -0.08355
+;--------------------------------------------------------------------------------
+[wpn_cronen_squall_specter]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_specter_hud
+
+1icon_layer		= specter
+1icon_layer_x	= 96
+1icon_layer_y	= -7
+
+inv_weight		= 3.270
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_cronen_squall_specter_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.083573, 0.01977, -0.152462
+aim_hud_offset_pos_16x9	= -0.083573, 0.01977, -0.152462
+;--------------------------------------------------------------------------------
+[wpn_cronen_squall_mepro]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_mepro_hud
+
+inv_weight		= 2.970
+
+1icon_layer		= mepro
+1icon_layer_x	= 111
+1icon_layer_y	= -3
+
+[wpn_cronen_squall_mepro_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_mepro_hud.ogf
+
+aim_hud_offset_pos		= -0.083566, 0.013222, -0.08355
+aim_hud_offset_pos_16x9	= -0.083566, 0.013222, -0.08355
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_leupold]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_leupold_hud
+
+1icon_layer		= leupold
+1icon_layer_x	= 100
+1icon_layer_y	= -4
+
+inv_weight		= 3.280
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+[wpn_cronen_squall_leupold_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_leupold_hud.ogf
+
+aim_hud_offset_pos		= -0.083042, 0.016354, -0.145204
+aim_hud_offset_pos_16x9	= -0.083042, 0.016354, -0.145204
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_aimpoint]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_aimpoint_hud
+
+inv_weight		= 2.730
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 115
+1icon_layer_y	= -8
+
+[wpn_cronen_squall_aimpoint_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.082832, 0.017286, -0.08355
+aim_hud_offset_pos_16x9	= -0.082832, 0.017286, -0.08355
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_point_aimpro]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_point_aimpro_hud
+
+inv_weight		= 2.930
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 115
+1icon_layer_y	= -9
+
+[wpn_cronen_squall_point_aimpro_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.082831, 0.014077, -0.08355
+aim_hud_offset_pos_16x9	= -0.082831, 0.014077, -0.08355
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_ekp8_18]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_ekp8_18_hud
+
+inv_weight		= 2.872
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 112
+1icon_layer_y	= 4
+
+[wpn_cronen_squall_ekp8_18_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.082934, 0.021617, -0.115835
+aim_hud_offset_pos_16x9	= -0.082934, 0.021617, -0.115835
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_e0t2]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_e0t2_hud
+
+inv_weight		= 2.827
+
+1icon_layer		= e0t2
+1icon_layer_x	= 115
+1icon_layer_y	= -8
+
+[wpn_cronen_squall_e0t2_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.082937, 0.020481, -0.094785
+aim_hud_offset_pos_16x9	= -0.082937, 0.020481, -0.094785
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_pn23]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_pn23_hud
+
+1icon_layer		= pn23
+1icon_layer_x	= 92
+1icon_layer_y	= -9
+
+;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
+
+nv_scope_status	= 1
+
+inv_weight		= 3.25
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+[wpn_cronen_squall_pn23_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.083413, 0.006763, -0.11953
+aim_hud_offset_pos_16x9	= -0.083413, 0.006763, -0.11953
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_gauss_sight]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud					= wpn_cronen_squall_gauss_sight_hud
+
+1icon_layer		= gauss_sight
+1icon_layer_x	= 100
+1icon_layer_y	= 2
+
+inv_weight		= 4.00
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;installed_upgrades			= up_fourtc_svd_nimble
+
+[wpn_cronen_squall_gauss_sight_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_gauss_hud.ogf
+
+aim_hud_offset_pos		= -0.083088, 0.029358, -0.138591
+aim_hud_offset_pos_16x9	= -0.083088, 0.029358, -0.138591
+;------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_compm4s]:wpn_cronen_squall
+
+hud				= wpn_cronen_squall_compm4s_hud
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+1icon_layer		= compm4s
+1icon_layer_x	= 115
+1icon_layer_y	= -10
+
+inv_weight		= 2.980
+
+[wpn_cronen_squall_compm4s_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.082566, 0.01828, -0.08355
+aim_hud_offset_pos_16x9	= -0.082566, 0.01828, -0.08355
+;--------------------------------------------------------------------------------------------
+[wpn_cronen_squall_marchf]:wpn_cronen_squall
+1icon_layer		= marchf
+1icon_layer_x	= 100
+1icon_layer_y	= -3
+
+inv_weight		= 3.240
+
+hud				= wpn_cronen_squall_marchf_hud
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
+
+[wpn_cronen_squall_marchf_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_marchf_hud.ogf
+
+aim_hud_offset_pos		= -0.082831, 0.01707, -0.122091
+aim_hud_offset_pos_16x9	= -0.082831, 0.01707, -0.122091
+;------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_kemper]:wpn_cronen_squall
+
+inv_weight		= 2.870
+
+hud				= wpn_cronen_squall_kemper_hud
+
+1icon_layer		= kemper
+1icon_layer_x	= 112
+1icon_layer_y	= -9
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+scope_status		= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_cronen_squall_kemper_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.082722, 0.017143, -0.08355
+aim_hud_offset_pos_16x9	= -0.082722, 0.017143, -0.08355
+;------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_triji]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+icons_texture								= ui\ui_icon_cronensquall
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 6
+
+inv_weight		= 3.275
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog_rmr
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+hud				= wpn_cronen_squall_triji_hud
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_cronen_squall_triji_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_trijicon_rmr_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.112666, -0.028381, 0
+aim_hud_offset_alt_pos_16x9	= -0.112666, -0.028381, 0
+aim_hud_offset_alt_rot		= 0.004837, 0.018084, 0.476394
+aim_hud_offset_alt_rot_16x9	= 0.004837, 0.018084, 0.476394
+aim_hud_offset_pos		= -0.082508, 0.01693, -0.145843
+aim_hud_offset_pos_16x9	= -0.082508, 0.01693, -0.145843
+;----------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_spec_alt]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_spec_alt_hud
+
+icons_texture								= ui\ui_icon_cronensquall
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 4
+
+inv_weight		= 3.600
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_cronen_squall_spec_alt_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_spec_alt_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.112825, -0.02866, 0
+aim_hud_offset_alt_pos_16x9	= -0.112825, -0.02866, 0
+aim_hud_offset_alt_rot		= 0.005548, 0.018507, 0.476394
+aim_hud_offset_alt_rot_16x9	= 0.005548, 0.018507, 0.476394
+aim_hud_offset_pos		= -0.082778, 0.019132, -0.137237
+aim_hud_offset_pos_16x9	= -0.082778, 0.019132, -0.137237
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_cronen_squall_mark8_rmr]:wpn_cronen_squall
+
+visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+
+hud				= wpn_cronen_squall_mark8_rmr_hud
+
+icons_texture								= ui\ui_icon_cronensquall
+inv_grid_width								= 5
+inv_grid_height								= 2
+inv_grid_x									= 0
+inv_grid_y									= 2
+
+inv_weight		= 3.600
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold_rmr
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud		= true
+
+[wpn_cronen_squall_mark8_rmr_hud]:wpn_cronen_squall_hud
+item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_mark8_rmr_hud.ogf
+
+aim_hud_offset_alt_pos		= -0.11218, -0.028737, 0
+aim_hud_offset_alt_pos_16x9	= -0.11218, -0.028737, 0
+aim_hud_offset_alt_rot		= 0.004695, 0.018033, 0.476394
+aim_hud_offset_alt_rot_16x9	= 0.004695, 0.018033, 0.476394
+aim_hud_offset_pos		= -0.083307, 0.014289, -0.124506
+aim_hud_offset_pos_16x9	= -0.083307, 0.014289, -0.124506

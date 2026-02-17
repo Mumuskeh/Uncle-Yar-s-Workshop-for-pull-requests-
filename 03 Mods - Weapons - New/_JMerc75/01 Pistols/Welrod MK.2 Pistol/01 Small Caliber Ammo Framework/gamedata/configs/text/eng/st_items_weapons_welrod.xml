@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_welrod">
+		<text>Welrod MK.2</text>
+	</string>
+	<string id="st_wpn_welrod_descr">
+		<text>The Welrod is a British bolt-action, magazine-fed pistol with an integrated suppressor that was devised at the Inter-Services Research Bureau for covert operations during the Second World War. It is is a "sanitised" weapon with no markings indicating its manufacturer or country of origin, designed for use by irregular forces and resistance groups. The integrated suppressor reduces the velocity of the bullet to subsonic speeds and slows the firing gases, and the bolt action mechanism was chosen due to being simple, reliable, and quiet. All this makes for a gun that can be quieter beyond pop culture depiction of suppressors, and has seen use by forces of any kind during the years.\n
+		The Welrod Mk II chambered for .32 ACP is the primary model, though the Welrod 9mm Mk I was later developed for 9?19mm Parabellum.\n \n</text>
+	</string>
+	
+	<string id="st_mag_welrod_default">
+		<text>Welrod MK.2 6-Round Magazine</text>
+	</string>
+	<string id="st_mag_welrod_default_descr">
+		<text>Magazine made for the Welrod MK.2 Pistol, doubling as a handle. Holds 8 rounds of .32 ACP ammunition.\n \n</text>
+	</string>
+</string_table>

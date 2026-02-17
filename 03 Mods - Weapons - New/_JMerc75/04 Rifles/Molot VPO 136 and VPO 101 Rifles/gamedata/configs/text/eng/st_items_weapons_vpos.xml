@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_vpo_136">
+		<text>VPO-136 Vepr-KM</text>
+	</string>
+	<string id="st_wpn_vpo_136">
+		<text>VPO-136</text>
+	</string>
+	<string id="st_wpn_vpo_136_descr">
+		<text>The Molot VPO-136, a robust and powerful rifle, is a variant of the renowned AK platform, prized for its reliability and performance. Chambered in the hard-hitting 7.62x39mm caliber, this semi-automatic rifle boasts a sturdy, reinforced design with a cold hammer-forged barrel, ensuring durability and accuracy in varied conditions. Its ergonomic stock and grip enhance handling, while the detachable magazine allows for swift reloads. Often sought after for its simplicity, ruggedness, the VPO-136 stands as a formidable choice for enthusiasts and marksmen alike.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: None\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: PBS-1\n</text>
+	</string>
+
+	<string id="st_wpn_vpo_101">
+		<text>VPO-101 Vepr HUNTER</text>
+	</string>
+	<string id="st_wpn_vpo_101">
+		<text>VPO-101</text>
+	</string>
+	<string id="st_wpn_vpo_101_descr">
+		<text>The Molot Vepr Hunter rifle stands as a robust and dependable option in the realm of hunting firearms. Built on the AK platform, it delivers reliable performance and durability. Available in various calibers, such as .308 Win, it offers considerable stopping power suitable for medium to large game. The rifle features a sturdy construction with a cold hammer-forged barrel, ensuring both accuracy and endurance in adverse conditions. Its ergonomic design, adjustable stock, and compatibility with accessories make it a favorable choice for hunters seeking a dependable, rugged firearm tailored for hunting expeditions.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: All scopes for the Dovetail and Picatinny systems\n
+		%c[d_purple] - %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n</text>
+	</string>
+
+	<string id="st_mag_molot101_default">
+		<text>VPO-101 Magazine</text>
+	</string>
+	<string id="st_mag_molot101_default_descr">
+		<text>Magazine for the Molot VPO-101 Hunter rifle, houses 5 rounds of 7.62x51 ammunition.\n</text>
+	</string>
+
+</string_table>
