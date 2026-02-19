@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+	
+	<string id="st_name_ammo_3006_neko_fmj_m1_new">
+		<text>.30-06 Springfield, Ball M1, FMJ</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_fmj_m1_new_descr">
+		<text>
+        United States, .30 Cal, Ball M1, a varient of 30-06 with a heavier aerodynamic bullet over previous designs, which while producing less muzzle velocity than previous varients,
+		\nThe aerodynamic shape lead to it producing higher over all velocity and energy at greater ranges than previous .30-06 Springfield cartridges.\n
+		\n(Hint: Hits harder than 7.62x51mm FMJ, with lower Armor Pen while being cheaper at the cost of higher weapon degredation)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_fmj_m1_new_s">
+		<text>30-06 FMJ M1</text>
+	</string>
+	
+	
+	<string id="st_name_ammo_3006_neko_fmj_m2_new">
+		<text>.30-06 Springfield, Ball M2, FMJ</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_fmj_m2_new_descr">
+		<text>
+        United States, .30 Cal, Ball M2, a varient of 30-06 improving on the Ball M1 design with a lighter bullet while having a denser lead core to improve energy on impact.\n
+		\nCleaner burning propellent and improved bullet design reduces fouling in weapons chambered for .30-06\n
+		\nBall M2 would become the standard cartridge for the M1 Garand and other .30-06 Weapons in WWII\n
+		\n(Hint: Hits harder than 7.62x51mm FMJ, with higher Armor Pen while being a little more expensive than Ball M1 due to its improved design.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_fmj_m2_new_s">
+		<text>30-06 FMJ M2</text>
+	</string>
+
+
+
+	<string id="st_name_ammo_3006_neko_ap_new">
+		<text>.30-06 Springfield, Armor Piercing, M2</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_ap_new_descr">
+		<text>
+        United States, .30 Cal, Armor Piercing, M2, an armor piercing varient of 30-06 which improves on previous iterations of 30-06 with a high velocity round, and a steel core rated to defeat anything less than Class IV armor.\n
+		\nAlso known as "Black Tip" 30-06 Armor piercing ammo, 30-06 AP M2 has become the standard for testing Class IV armor which is designed to withstand ONE single shot of .30-06 AP M2.\n
+		\n(Hint: Hits harder than 7.62x51mm AP, with higher Armor Pen while being quite a bit more expensive and also higher pressures degrade weapons slightly faster)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_ap_new_s">
+		<text>30-06 AP M2</text>
+	</string>
+
+
+
+	<string id="st_name_ammo_3006_neko_ap_m1917_new">
+		<text>.30-06 Springfield, Armor Piercing, M1917</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_ap_m1917_new_descr">
+		<text>
+        United States, .30 Cal, Armor Piercing, M1917, an armor piercing varient of 30-06 which uses a steel core encased in lead with a semi-jacketed bullet exposing the lead nose to allow for better penitration.\n
+		\nBy designing the M1917 round to have its jacket peel away on impact inadvertantly made an expanding cartridge that on impact with flesh causes injury similar to a hollow point.\n
+		\nSince such munitions are prohibited by the Hague Convetion, the Armor Piercing, M1917 did not see use in WWI\n
+		\nDue to the design of the cartridge, both the bullet and propellents quickly fouled the guns firing M1917 rounds.\n
+		\n(Hint: Hits harder than 7.62x51mm AP, with slightly higher Armor Pen while being quite a bit more expensive, and due to its design, its jacket causes extra "expansion" damage. How ever the design leads to heavily fouling of guns resulting in greatly increased degredation.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_ap_m1917_new_s">
+		<text>30-06 AP M1917</text>
+	</string>
+
+
+
+	<string id="st_name_ammo_3006_neko_sp_new">
+		<text>.30-06 Springfield, Round Nose Soft Point</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_sp_new_descr">
+		<text>
+        Large, heavy, round nose bullets packing more lead in it than your typical pointy "Spitzer" Soft point rounds\n
+		\nProvides incredible stopping power, and marginally better armor penitration over hollow point rounds at the cost of lower expansion potential\n
+		\nGreat for large game that needs both Damage and abit of OOMF to punch through thick hides.\n
+		\n(Hint: Hits quite a bit harder than 7.62x51mm FMJ, with slightly higher Armor Penthan hollow point at the cost of expansion damage. Exposed lead nose increases the chances of fouling thus slightly increasing weapon condition loss.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_sp_new_s">
+		<text>30-06 RNSP</text>
+	</string>
+
+
+
+	<string id="st_name_ammo_3006_neko_hp_new">
+		<text>.30-06 Springfield, Hollow Point</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_hp_new_descr">
+		<text>
+        High quality, high velocity .30-06 hollow point rounds designed for maximium expansion on unarmored targets and mutants.\n
+		\nThanks to the stricter tolerances in manufacturing, these cartridges produce marginally less wear on firearms.\n
+		\n(Hint: Hits a bit harder than FMJ but with sucessful penitration, the hollow points true potential comes out causing extra expansion damage. High quality ammo results in reduced wear on weapons.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_hp_new_s">
+		<text>30-06 HP</text>
+	</string>
+	
+	
+
+	<string id="st_name_ammo_3006_neko_match_new">
+		<text>.30-06 Springfield, Match Grade</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_match_new_descr">
+		<text>
+        When it comes to ammunition, be it for pistols, shotguns, rifles, what have you, Match Grade ammo is the creme-de-le-creme of strict manufacturing processes resulting in high precision rounds that some delicate rifles will only feed without damage.\n
+		\nHigh quality primers reduces irregularities and miss-fires, high quality match grade propellents provide clean burning high pressures, while the precission made bullets ensure every shot will be as predicatable as those you shot yesterday, today, and tomorrow.\n
+		\n(Hint: Hights a bit harder than 7.62x51mm NATO, while costly, the quality of these rounds greatly reduces weapon wear, and are great at penitrating armor at long range.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_match_new_s">
+		<text>30-06 Match</text>
+	</string>
+
+	
+	<string id="st_name_ammo_3006_neko_api_m14_new">
+		<text>.30-06 Springfield, API M14, FMJ</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_api_m14_new_descr">
+		<text>
+        United States, .30 Cal, Armor Piercing Indendiary, M14, is just what it says on the tin, its armor piercing, and its incendiary ie it'll set targets on fire most of the time.\n
+		\nDue to the higher heat build up and pressures from API rounds, this results in greatly increased wear to any weapons chambering API, M14.\n
+		\n(Hint: Hits way harder than 7.62x51mm FMJ, with much higher Armor Pen while having a 90% chance to set Enemies and Mutants on fire, at great cost to your weapon and your wallet.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_api_m14_new_s">
+		<text>30-06 API M14</text>
+	</string>	
+	
+	<string id="st_name_ammo_3006_neko_cast_new">
+		<text>.30-06 Springfield, Cast Lead Flat Nose</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_cast_new_descr">
+		<text>
+        Cheap, economical, and when well made, can provide a cheap alternative to FMJ ammo for target practice, but thanks to the unjacketed nature of these cast lead round,\n
+		\nthe lead is able to deform more easily, while the flat nose produces more trauma on impact with flesh and bone.\n
+		\nDue to the unjacketed nature of these lead flat nose rounds, they tend to foul up barrels more quickly than any other 30-06 round.\n
+		\n(Hint: Hits way harder than 7.62x51mm FMJ, with almost no armor penitration, and while cheap, greatly degrades your weapons.)
+		\n(PS, yes these rounds are made with shotgun shot since thats pure lead, and will also give you back shotgun shot instead of rifle bullets.)
+		\n
+		</text>
+	</string>
+	<string id="st_name_ammo_3006_neko_cast_new_s">
+		<text>30-06 Cast</text>
+	</string>
+</string_table>

@@ -7,6 +7,11 @@ Use of Arti's Ballistics is recommended.
 
 ----------------------------------------------------------
 -Explanation:
+
+----------------------------------------------------------
+-Patches:
+
+Vanilla patch
 Just a small patch to allow certain weapons to load this new ammo.
 
 Intended as a starting point for whoever wants to work with the framework. You can take this and expand it as you will.
@@ -25,8 +30,6 @@ Grok's Stash Overhaul
 Lootboxes
 PDA Interactive
 
-----------------------------------------------------------
--Patches:
 
 ----------------------------------------------------------
 -Known issues:

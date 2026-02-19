@@ -1,0 +1,401 @@
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_fmj_m1]:ammo_base ; Earlier Heavier FMJ, the Ball, M1
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_fmj_m1"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_fmj_m1		;;".30-06 Springfield (Ball, M1 FMJ)"
+inv_name_short		= st_name_ammo_30-06_neko_fmj_m1_short	;; ".30-06 (M1 FMJ)"
+description			= st_desc_ammo_30-06_neko_fmj_m1		;; "United States Ball, M1 Varient of their .30-06 which uses a 11.2 gram (173 grain) boat tailed bullet made of gilding metal (a mostly copper alloy with 5% zinc) while its solid lead core was made of 7 parts lead to 1 part anitomony to increase hardness.  -- While it produces lower velocity at the start compared to previous .30-06 varients, its aerodynamic shape allows it to retain higher velocity and energy at greater ranges. -- For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield. -- (Made By NekoMaster 2024)"
+
+cost				= 2399
+box_size			= 15
+inv_weight			= 00.431
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 0
+inv_grid_y        	= 0
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_disp				= 0.55
+k_hit				= 1.1 ; 1.1
+k_impulse			= 0.7
+k_ap		    	= 0.3
+impair				= 1.1
+
+tracer_color_ID		= 2
+wm_size         	= 0.0782
+k_air_resistance 	= 0.2
+
+;;==================================================================================================
+
+tier				= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_fmj_m2]:ammo_base ; Later, Lighter FMJ, the Ball, M2
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_fmj_m2"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_fmj_m2		;;".30-06 Springfield (Ball, M2 FMJ)"
+inv_name_short		= st_name_ammo_30-06_neko_fmj_m2_short	;;".30-06 (M2 FMJ)"
+description			= st_desc_ammo_30-06_neko_fmj_m2		;;"United States Ball, M2 Varient of their .30-06 which uses a 9.7 gram (150 grain)  incorperating the gilding metal of the Ball, M1 cartidge while having a heavier solid lead core. -- -- For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield. -- (Made By NekoMaster 2024)"
+
+cost				= 2599
+box_size			= 15
+inv_weight			= 00.378
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 2
+inv_grid_y        	= 0
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_disp				= 0.45
+k_hit				= 1.05
+k_impulse			= 0.75
+k_ap		    	= 0.45
+
+tracer_color_ID		= 2
+wm_size         	= 0.0782
+k_air_resistance 	= 0.1
+
+;;==================================================================================================
+
+tier				= 4
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_ap]:ammo_base ; .30-06 Armor Piercing M2
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_ap"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_ap
+inv_name_short		= st_name_ammo_30-06_neko_ap_short
+description			= st_desc_ammo_30-06_neko_ap
+
+cost				= 3799
+box_size			= 15
+inv_weight			= 00.378
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 4
+inv_grid_y        	= 0
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_disp				= 0.55
+k_hit				= 1.0
+k_impulse			= 0.6
+k_ap		   		= 0.7
+impair				= 1.15
+
+tracer_color_ID		= 2
+wm_size         	= 0.0782
+k_air_resistance 	= 0.1
+
+;;==================================================================================================
+
+tier				= 4
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_ap_m1917]:ammo_base ; .30-06 Armor Piercing M1917, soft point armor piercing bullet leads to "expansion" of the jacket.
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_ap_m1917"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_ap_m1917
+inv_name_short		= st_name_ammo_30-06_neko_ap_m1917_short
+description			= st_desc_ammo_30-06_neko_ap_m1917
+
+cost				= 6666
+box_size			= 15
+inv_weight			= 00.378
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 6
+inv_grid_y        	= 0
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_hit				= 1.2
+k_disp				= 0.7
+k_impulse			= 0.7
+k_ap		   		= 0.65
+impair				= 1.33
+
+tracer_color_ID		= 2
+wm_size         	= 0.0782
+k_air_resistance 	= 0.1
+
+;;==================================================================================================
+
+tier				= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_sp]:ammo_base ; .30-06 Round Nose Soft Point. Petter penitration over HP at the cost of damage.
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_sp"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_sp
+inv_name_short		= st_name_ammo_30-06_neko_sp_short
+description			= st_desc_ammo_30-06_neko_sp
+
+cost				= 3499
+box_size			= 15
+inv_weight			= 00.466
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 8
+inv_grid_y        	= 0
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_hit				= 1.3
+k_disp				= 0.7
+k_impulse			= 0.8
+k_ap		   		= 0.25
+impair				= 1.1
+
+tracer_color_ID		= 2
+wm_size         	= 0.0882
+k_air_resistance 	= 0.1
+
+;;==================================================================================================
+
+tier				= 4
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_hp]:ammo_base ; .30-06 Hollow Point, devestating damage on flesh but nearly no Armor Pen
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_hp"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_hp
+inv_name_short		= st_name_ammo_30-06_neko_hp_short
+description			= st_desc_ammo_30-06_neko_hp
+
+cost				= 3799
+box_size			= 15
+inv_weight			= 00.432
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 0
+inv_grid_y        	= 1
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_hit				= 1.5
+k_disp				= 0.5
+k_impulse			= 0.9
+k_ap		   		= 0.1
+impair				= 0.9
+
+tracer_color_ID		= 2
+wm_size         	= 0.0982
+k_air_resistance 	= 0.1
+
+;;==================================================================================================
+
+tier				= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_match]:ammo_base ; .30-06 Match Grade Ammmo, high quality high accuracy ammo with slightly higher damage and penitration.
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_match"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_match
+inv_name_short		= st_name_ammo_30-06_neko_match_short
+description			= st_desc_ammo_30-06_neko_match
+
+cost				= 4799
+box_size			= 15
+inv_weight			= 00.452
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 2
+inv_grid_y        	= 1
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_disp				= 0.2
+k_hit				= 1.15
+k_impulse			= 0.75
+k_ap		    	= 0.5
+impair				= 0.66
+
+tracer_color_ID		= 2
+wm_size         	= 0.0982
+k_air_resistance 	= 0.3
+
+;;==================================================================================================
+
+tier				= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_api_m14]:ammo_base ; .30-06 Armor Piercing Incendiary, M14
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_api_m14"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_api_m14
+inv_name_short		= st_name_ammo_30-06_neko_api_m14_short
+description			= st_desc_ammo_30-06_api_m14_m1917
+
+cost				= 13666
+box_size			= 15
+inv_weight			= 00.578
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 4
+inv_grid_y        	= 1
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_hit				= 1.5
+k_disp				= 0.7
+k_impulse			= 0.7
+k_ap		   		= 0.9
+impair				= 1.5
+
+tracer_color_ID		= 2
+wm_size         	= 0.0782
+k_air_resistance 	= 0.2
+
+;;==================================================================================================
+
+tier				= 4
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_3006_neko_cast]:ammo_base ; .30-06 Cast Lead Bullet, flat lead nose bullet meant for paper targets but also does tremenous damage on flesh.
+
+;;==================================================================================================
+
+$spawn				= "weapons\ammo\ammo_3006_neko_cast"
+class				= AMMO
+cform           	= skeleton
+$prefetch 			= 64
+
+inv_name			= st_name_ammo_30-06_neko_cast
+inv_name_short		= st_name_ammo_30-06_neko_cast_short
+description			= st_desc_ammo_30-06_neko_cast
+
+cost				= 1599
+box_size			= 15
+inv_weight			= 00.666
+
+icons_texture		= ui\ui_icon_ammo_30-06_neko
+
+inv_grid_width     	= 2
+inv_grid_height    	= 1
+inv_grid_x         	= 6
+inv_grid_y        	= 1
+
+visual				= dynamics\weapons\wpn_ammo\ammo_762x51_fmj.ogf
+
+k_hit				= 1.5
+k_disp				= 0.7
+k_impulse			= 1.0
+k_ap		   		= 0.05
+impair				= 2.5
+
+tracer_color_ID		= 2
+wm_size         	= 0.0982
+k_air_resistance 	= 0.5
+
+;;==================================================================================================
+
+tier				= 4
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

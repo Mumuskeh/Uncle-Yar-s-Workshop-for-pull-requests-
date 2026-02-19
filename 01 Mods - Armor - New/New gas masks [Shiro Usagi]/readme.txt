@@ -17,6 +17,7 @@ Some text editing for better flow. In particular, the Sangur-V is treated as a f
 The Sphere-23M now acts as an inferior Sphere-08, with its ballistic protection instead of that of the ACH-7EX headgear.
 
 Integration into:
+Headgear Restrictions
 Utjan's Item UI Improvements
 
 ----------------------------------------------------------

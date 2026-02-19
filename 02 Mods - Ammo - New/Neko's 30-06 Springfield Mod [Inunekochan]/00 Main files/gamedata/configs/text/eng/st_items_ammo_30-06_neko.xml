@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+<string id="st_name_ammo_30-06_neko_fmj_m1">
+	<text>.30-06 Springfield, Ball, M1, FMJ</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_fmj_m1_short">
+	<text>.30-06 M1 FMJ</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_fmj_m1">
+	<text>United States Ball, M1 Varient of their .30-06 which uses a 11.2 gram (173 grain) boat tailed bullet made of gilding metal (a mostly copper alloy with 5% zinc) while its solid lead core was made of 7 parts lead to 1 part anitomony to increase hardness.\n\n	While it produces lower velocity at the start compared to previous .30-06 varients, its aerodynamic shape allows it to retain higher velocity and energy at greater ranges.\n\n	For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n	(Specific data unavail. for now, hits harder than 7.62x51mm FMJ, has less accuracy and lower armor pen.)\n\n	\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.55 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.275 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.756 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.368 Armor Pen. (7.62x51mm FMJ = 0.4)\nk_impare: 1.1x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_fmj_m2">
+	<text>.30-06 Springfield, Ball, M2, FMJ</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_fmj_m2_short">
+	<text>.30-06 M2 FMJ</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_fmj_m2">
+	<text>United States Ball, M2 Varient of their .30-06 which uses a 9.7 gram (150 grain) incorperating the gilding metal of the Ball, M1 cartidge while having a heavier solid lead core.\n\n	It has a much higher muzzle velocity than any of the earlier .30-06 cartridges.\n\n	For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n	(Specific data unavail. for now, hits harder than 7.62x51mm FMJ, has slightly better accuracy and better armor penitration.)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.45 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.101 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.727 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.450 Armor Pen. (7.62x51mm FMJ = 0.4)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_ap">
+	<text>.30-06 Springfield, Armor Piercing, M2</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_ap_short">
+	<text>.30-06 AP, M2</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_ap">
+	<text>United States Ball, Armor Piercing M2 Varient of the .30-06 Cartridge with a Solid Steel Penitrator to provide increased penitration over the .30-06 M2 Ball Cartridge.\n\n	It has a much higher muzzle velocity than any of the earlier .30-06 cartridges.\n\nDefense against the M2 projectile by name is one of the performance standards for Type IV body armor.\n\n	For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n	(Specific data unavail. for now, slightly higher damage than 7.62x51mm ARMOR PIERCING, while having higher ARmor Pen and similar accuraccy. Higher pressures over Ball M2 result in slightly higher wear)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.55 Dispersion/Accuracy (7.62x51mm AP = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.0 Hit/DMG (7.62x51mm AP = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.6 Impulse/Stun Potential (7.62x51mm AP = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.450 Armor Pen. (7.62x51mm AP = 0.6)\n%c[d_purple] • %c[255,240,0,0] k_impare: 1.15x Wpn. Cond. Loss (7.62x51mm AP = 1.0)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_ap_m1917">
+	<text>.30-06 Springfield, Armor Piercing, M1917</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_ap_m1917_short">
+	<text>.30-06 AP, M1917</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_ap_m1917">
+	<text>United States Ball, Armor Piercing M1917 Varient of the .30-06 Cartridge with a Solid Steel Penitrator to provide increased penitration over earlier .30-06 cartridtges\n\nDue to it having an exposed lead soft nose to aid in the jacket "peeling" away on impact, the round ends causing expasion on impact resulting in a round that is not only a deadly armor piercing bullet, but also is a WAR CRIME through the Hague Convention and thus not used in WW1.\n\nDefense against the M2 projectile by name is one of the performance standards for Type IV body armor.\n\n	For use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n	(Specific data unavail. for now, higher armor pen than 7.62x51mm AP, but less so than .30-06 ARmor Piercing M2 while providing more damage at the cost of accuracy. The design of the cartridge fouls guns, quickly degrading them.)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.7 Dispersion/Accuracy (7.62x51mm AP = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.2 Hit/DMG (7.62x51mm AP = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.7 Impulse/Stun Potential (7.62x51mm AP = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.65 Armor Pen. (7.62x51mm AP = 0.6)\n%c[d_purple] • %c[255,240,0,0] k_impare: 1.5x Wpn. Cond. Loss (7.62x51mm AP = 1.0)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_sp">
+	<text>.30-06 Springfield, Round Nose Soft Point</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_sp_short">
+	<text>.30-06 SP</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_sp">
+	<text>Civilian Grade ammo designed with a larger, heavier round nose instead of pointy spitzer bullet shape with an exposed lead tip to greatly improve on expansion.\n\nWhile the RNSP does not penitrate armor as well as FMJ, it still performs better than Hollow point rounds, while still packing a punch being able to expand more than regular spitzer styled SP bullets.\n\nFor use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n(Specific data unavail. for now, hits much harder than 7.62x51mm FMJ, while providing better armor pen. than hollow points. Due to the exposed lead nose, there is a slightly higher chance of fouling degrading weapons slightly.)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.7 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.3 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.8 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.25 Armor Pen. (7.62x51mm FMJ = 0.4)\n%c[d_purple] • %c[255,240,0,0] k_impare: 1.1x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_hp">
+	<text>.30-06 Springfield, Hollow Point</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_hp_short">
+	<text>.30-06 HP</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_hp">
+	<text>High quality hollow point rounds for .30-06 springfield fire arms, providing excellent expansion on impact producing greater trauma and wounding than FMJ or Soft Point Rounds.\n\nDue to the nature of expanding bullets like hollow point rounds, they are highly ineffective on armor but devistating on unarmored targets.\n\nFor use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n(Specific data unavail. for now, absoLUTELY hits harder than 7.62x51mm at the cost of armor penitration, though the high quality nature of this ammo reduces degredation slightly.)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.5 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.5 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.9 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.1 Armor Pen. (7.62x51mm FMJ = 0.4)\n%c[d_purple] • %c[255,240,0,0] k_impare: 0.9x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_match">
+	<text>.30-06 Springfield, Match Grade</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_match_short">
+	<text>.30-06 Match</text>
+</string>
+
+<string id="st_desc_ammo_30-06_neko_match">
+	<text>For any caliber, pistol, shotgun, rifle, match grade ammo is the holy grail for accuracy in sniping, hunting, sport and competition shooting.\n\nTight tolerances in design and manufacturing result in every cartridge being nearly identical to each other, and have been like that since yesterday, and will remain the same tomorrow in quality.\nHigh quality primers and propellents provide reliable and predictable pressures for best performance, and greatly reduced fouling on sensitive high accuracy fire arms.\n\nFor use with the M1903 Springfield, M1918 BAR, the M1 Garand, Ohio Ordinance HCAR, and any other weapons chambered for .30-06 springfield.\n\n(Specific data unavail. for now, due to the high quality nature of this cartridge, it performs slightly better than typical Ball M2 ammo, meaning it hits a little harder than 7.62x51mm FMJ, penitrating armor slightly better, while providing the best accuracy of any 30.06 cartridge.\nHigh quality design greatly reduces wear on guns.)\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.2 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.15 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.75 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.5 Armor Pen. (7.62x51mm FMJ = 0.4)\n%c[d_purple] • %c[255,240,0,0] k_impare: 0.66x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)
+	</text>
+</string>
+
+
+
+
+<string id="st_name_ammo_30-06_neko_api_m14">
+	<text>.30-06 Springfield, API, M14</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_api_m14_short">
+	<text>.30-06 API</text>
+</string>
+
+<string id="st_desc_ammo_30-06_m14">
+	<text>United States, .30 Call, Armor Piercing Incendiary, M14, is a armor piercing round with incendiary compound to increase the likely hood of igniting targets on impact.\n\nDue to the compounds used and higher pressured, API M14 rounds greatly increases weapon degredation.\n\n(Specific data unavail. for now, hits way harder than 7.62x51mm FMJ or AP, while having a chance to set targets on fire. Greatly enhanced Armor Piercing at the cost of very high condition loss.)<!--\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.2 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.15 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.75 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.5 Armor Pen. (7.62x51mm FMJ = 0.4)\n%c[d_purple] • %c[255,240,0,0] k_impare: 0.66x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)-->
+	</text>
+</string>
+
+
+
+<string id="st_name_ammo_30-06_neko_cast">
+	<text>.30-06 Springfield, Cast Lead Flat Nose</text>
+</string>
+
+<string id="st_name_ammo_30-06_neko_cast_short">
+	<text>.30-06 Cast</text>
+</string>
+
+<string id="st_desc_ammo_30-06_cast">
+	<text>Flat nosed bullets made from cast lead in molds designed for producing clean shots on paper targets, but due to the nature of the bullets design, it can cause tremendous trauma on flesh.\n\nBeing a bare lead bullet in a high velocity rifle greatly increases fouling requiring frequent barrel cleaning.\n\n(Specific data unavail. for now, hits way harder than 7.62x51mm FMJ, while having almost no armor penitration at all, and lead fouling greatly increases weapon degredation) <!--\n\n		\n%c[d_purple] • %c[ui_gray_2] k_disp: 0.2 Dispersion/Accuracy (7.62x51mm FMJ = 0.5)	\n%c[d_purple] • %c[ui_gray_2] k_hit: 1.15 Hit/DMG (7.62x51mm FMJ = 1.0)	\n%c[d_purple] • %c[ui_gray_2] k_impulse: 0.75 Impulse/Stun Potential (7.62x51mm FMJ = 0.66)	\n%c[d_purple] • %c[ui_gray_2] k_ap: 0.5 Armor Pen. (7.62x51mm FMJ = 0.4)\n%c[d_purple] • %c[255,240,0,0] k_impare: 0.66x Wpn. Cond. Loss (7.62x51mm FMJ = 1.0)-->
+	</text>
+</string>
+</string_table>

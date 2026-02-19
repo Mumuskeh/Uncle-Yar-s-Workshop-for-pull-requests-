@@ -1,0 +1,15 @@
+<w>
+	<file	name="ui\ui_actor_exoseva_portraits">
+	
+	<!-- Exoseva	player	portraits -->
+	<texture	id="ui_exoseva_cbse_loner"	x="0"	y="0"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_dolg"	x="165"	y="0"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_svoboda"	x="330"	y="0"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_merc"	x="495"	y="0"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_military"	x="0"	y="108"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_monolith"	x="165"	y="108"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_ecolog"	x="330"	y="108"	width="165"	height="108"/>
+	<texture	id="ui_exoseva_cbse_isg"	x="495"	y="108"	width="165"	height="108"/>
+
+	</file>
+</w>
