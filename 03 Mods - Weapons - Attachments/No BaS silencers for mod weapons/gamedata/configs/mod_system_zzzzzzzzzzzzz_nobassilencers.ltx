@@ -1,0 +1,298 @@
+; Modding Book on weapon parameters, for quick reference:
+; https://igigog.github.io/anomaly-modding-book/reference/configs/items/weapons/weapon-world.html
+
+
+; Vanilla silencers:
+; wpn_sil_6p9		: 9mm (PB pistol), very good
+; wpn_sil_9mm		: 9mm, high suppression
+; wpn_sil_9a91		: 9x39 (9A-91, VSK-94), very high
+; wpn_sil_45		: .45, very high
+; wpn_sil_57		: 5.7x28, high
+; wpn_sil_aps		: 9mm (OTs-33), medium
+; wpn_sil_atg		: 5.56 + 7.62 (AK-102, AK-103, AK-104), medium
+; wpn_sil_gemtech	: 9mm + .45 (Glock, FN-FNP), high
+; wpn_sil_kzrzp		: 7.62 (SVD), medium
+; wpn_sil_nato		: .45, 5.56, 7.62 (standard NATO), high
+; wpn_sil_pbs1		: 7.62 (Kalashnikov 7.62mm), medium
+; wpn_sil_pbs4		: 5.45 (AKS-74U), medium
+; wpn_sil_sr25		: 7.62 (sr-25), high
+; wpn_sil_tgp-a		: 5.45 (AK rifle series, RPK-74), medium
+; wpn_sil_vihr		: 9x39 (SR-3M), very high
+
+;List of BaS Silencers
+; wpn_sil_aac762, wpn_sil_apb, wpn_sil_auga, wpn_sil_black_box, wpn_sil_daniel, wpn_sil_forester, wpn_sil_g28, wpn_sil_geks545, wpn_sil_hex23, wpn_sil_hexagon, wpn_sil_kac4, wpn_sil_kek12, wpn_sil_kip, wpn_sil_lapu7, wpn_sil_m42k, wpn_sil_osp9, wpn_sil_pl15, wpn_sil_pmm, wpn_sil_rotor, wpn_sil_salvo, wpn_sil_scorp, wpn_sil_spec_isg, wpn_sil_sr1m, wpn_sil_surfire, wpn_sil_tgpv, wpn_sil_timberwolf, wpn_sil_veresk
+
+
+;;;;;;; BaS Silencer removals
+
+
+; DEMONIZED 	============	============	============	============
+
+;BAS Extra weapons
+![wpn_saiga20s]
+silencer_name	= wpn_sil_pbs1 ; wpn_sil_kek12
+
+
+; ALEX 	============	============	============	============
+
+![wpn_ak107]
+silencer_name	= wpn_sil_atg ; wpn_sil_rotor
+![wpn_ak107_chaser107]
+silencer_name	= wpn_sil_atg ; wpn_sil_rotor
+![wpn_ak107_custom107]
+silencer_name	= wpn_sil_atg ; wpn_sil_rotor
+![wpn_ak107_ranger107]
+silencer_name	= wpn_sil_atg ; wpn_sil_rotor
+![wpn_ak107_raptor107]
+silencer_name	= wpn_sil_atg ; wpn_sil_rotor
+
+
+;ATHIS 	============	============	============	============
+
+;AK101 SP
+![wpn_ak101_sp]
+silencer_name	= wpn_sil_atg ; wpn_sil_surfire
+
+;Gungnir
+![wpn_gungnir]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_timberwolf
+
+;Saiga-23
+![wpn_saiga_bp]
+silencer_name	= wpn_sil_pbs1 ; wpn_sil_hex23
+![wpn_saiga_bp_23x75]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_hex23
+
+;MCX Spear
+;we let the SCAR modules give it the SCAR gl again
+![wpn_sig_spear]
+silencer_name	= wpn_sil_sr25
+grenade_launcher_name	= wpn_addon_grenade_launcher_m203 ; wpn_addon_grenade_launcher_scar
+![wpn_sig_spear_tan]
+silencer_name	= wpn_sil_sr25
+grenade_launcher_name	= wpn_addon_grenade_launcher_m203 ; wpn_addon_grenade_launcher_scar
+
+;PSG1A1
+![wpn_psg1]
+silencer_name	= wpn_sil_sr25 ; wpn_sil_aac762
+
+;SCAR 12
+![wpn_scar12]
+silencer_name	= wpn_sil_atg ; wpn_sil_kek12
+
+;Vepr 7.662
+![wpn_vepr762x54]
+silencer_name	= wpn_sil_atg ; wpn_sil_geks545
+
+
+;;BERT 	============	============	============	============
+
+;MSBS Grot
+![wpn_grot]
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+
+
+;;CHILLCAT 	============	============	============	============
+
+;MC-572 Astarta
+![wpn_mc572]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_lapu7
+
+
+;;FROSTYCHUN 	============	============	============	============
+
+;Ready Or Not pack
+![wpn_beretta_1301]
+silencer_name	= wpn_sil_nato ; wpn_sil_salvo
+
+![wpn_benelli_m1014]
+silencer_name	= wpn_sil_atg ; wpn_sil_salvo
+
+;EFT MP153
+![wpn_eft_mp153]
+silencer_name	= wpn_sil_atg ; wpn_sil_salvo
+![wpn_mp153_eft]
+silencer_name	= wpn_sil_atg ; wpn_sil_salvo
+
+
+;;JMERC 	============	============	============	============
+
+; ACR Assault Rifle
+![wpn_acr_tac] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+
+; AK SOCOM
+![wpn_ak_458] ; 9x39
+silencer_name	= wpn_sil_vihr ; wpn_sil_daniel
+![wpn_ak_458_9x39] ; 9x39
+silencer_name	= wpn_sil_vihr ; wpn_sil_daniel
+![wpn_ak_458_tac]
+silencer_name	= wpn_sil_vihr ; wpn_sil_daniel
+![wpn_ak_458_9x39_tac]
+silencer_name	= wpn_sil_vihr ; wpn_sil_daniel
+
+;AK-EM rifle
+![wpn_ak_em] ; 5.56x45
+silencer_name	= wpn_sil_pbs4 ; wpn_sil_spec_isg
+![wpn_ak74u_em] ; 5.56x45
+silencer_name	= wpn_sil_pbs4 ; wpn_sil_spec_isg
+
+;Arbiter pack
+![wpn_arbiter_bushmaster]
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+![wpn_arbiter_defender]
+silencer_name	= wpn_sil_pbs1 ; wpn_sil_tgp-a
+
+;BRN-108
+![wpn_brn180]
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+
+; Colt 1911 tactical
+![wpn_1911_tactical]
+silencer_name	= wpn_sil_45 ; wpn_sil_black_box
+![wpn_colt1911_tactical]
+silencer_name	= wpn_sil_45 ; wpn_sil_black_box
+
+; Colt 727
+![wpn_colt727] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+
+;Cronen Squall Battle Rifle
+![wpn_cronen_squall] ; 7.62x51
+silencer_name	= wpn_sil_sr25 ; wpn_sil_aac762
+
+; Dual CZ-805 Assault Rifle Pack
+![wpn_cz_805] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+![wpn_cz_805_skull] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+
+;M1 Garand Tactical
+;HCAR
+![wpn_hcar]
+silencer_name	= wpn_sil_sr25 ; wpn_sil_aac762
+
+; Higgins model 583
+![wpn_higgins] ; 12x70
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_forester
+
+;HK-G56 Assault Rifle
+![wpn_hk_g56]
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+![wpn_hk_g56_long]
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+
+; old cw hk417
+![wpn_hk417_jcw] ; 7.62x51
+silencer_name	= wpn_sil_nato ; wpn_sil_aac762
+
+;L86 LSW
+![wpn_l86_lsw] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+
+; M24 marksman rifle
+![wpn_m24_j] ; 7.62x51
+silencer_name	= wpn_sil_sr25 ; wpn_sil_daniel
+
+;Ghost Armory - 50 Beowulf Weapon Pack
+![wpn_m4_beowulf]
+silencer_name	= wpn_sil_nato ; wpn_sil_aac762
+![wpn_mdr_50]
+silencer_name	= wpn_sil_nato ; wpn_sil_aac762
+
+;M6C SOCOM
+;its silencer is integrated, we only need to change it to any vanilla one to avoid a crash
+![wpn_m6csocom]
+silencer_name	= wpn_sil_vihr ; wpn_sil_osp9
+
+;SilencerCo Maxim 9 Pistol
+![wpn_maxim9]
+silencer_name	= wpn_sil_gemtech ; wpn_sil_osp9
+
+;MP5K
+;this gun doesn't attach silencers though
+![wpn_mp5k]
+silencer_name	= wpn_sil_9mm ; wpn_sil_osp9
+![wpn_mp5k_short]
+silencer_name	= wpn_sil_9mm ; wpn_sil_osp9
+
+;MP9
+![wpn_mp9_n]
+silencer_name	= wpn_sil_gemtech ; wpn_sil_osp9
+![wpn_mp9_j]
+silencer_name	= wpn_sil_gemtech ; wpn_sil_osp9
+
+;Mjolnir
+![wpn_mjolnir]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_lapu7
+![wpn_mjolnir_ac]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_lapu7
+
+; Winchester 1886 and Marlin Dark Tracker Lever Action Rifles
+![wpn_marlin_tracker]
+silencer_name	= wpn_sil_sr25 ; wpn_sil_daniel
+
+;OPERATOR SERIES SIG 516 artic fox
+![wpn_sig_artic] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+![wpn_sig516_articfox] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_surfire
+
+; SRS99-AM Antimaterial Rifle
+![wpn_srs99]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_aac762
+
+; Molot VPO 136 and VPO 101 Rifles
+![wpn_vpo_101]
+silencer_name	= wpn_sil_pbs1 ; wpn_sil_aac762
+
+; Tavor x95
+![wpn_tavorx95_j] ; 5.56x45
+silencer_name	= wpn_sil_nato ; wpn_sil_m42k
+![wpn_tavorx95_j9mm] ; 9x19
+silencer_name	= wpn_sil_gemtech ; wpn_sil_osp9
+
+
+;LEWD 	============	============	============	============
+
+![wpn_50bmg_deagle]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_salvo
+![wpn_50bmg_deagle_tac]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_salvo
+
+;FAD
+![wpn_lewd_fad]
+grenade_launcher_name	= wpn_addon_grenade_launcher_m203 ; wpn_addon_grenade_launcher_l85
+
+![wpn_fara83]
+silencer_name	= wpn_sil_nato ; wpn_sil_geks545
+
+
+;Nullpath_01 	============	============	============	============
+
+;KSG12
+![wpn_ksg12]
+silencer_name	= wpn_sil_atg ; wpn_sil_nato
+
+![wpn_ksg23]
+silencer_name	= wpn_sil_kzrzp ; wpn_sil_hex23
+
+
+;;POPPATARA 	============	============	============	============
+
+![wpn_sg510]
+silencer_name	= wpn_sil_sr25 ; wpn_sil_daniel
+
+
+;;SOULCRYSTAL 	============	============	============	============
+
+;Benelli M4
+![wpn_benelli_m4]
+silencer_name	= wpn_sil_atg ; wpn_sil_salvo
+
+
+;; OTHER 	============	============	============	============
+
+;TCWP
+![wpn_mp155]
+silencer_name	= wpn_sil_atg ; wpn_sil_salvo

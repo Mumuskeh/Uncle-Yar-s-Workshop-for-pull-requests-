@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_deagle_50bmg_default">
+		<text>7-round Very Normal .50 BMG Desert Eagle Magazine</text>
+	</string>
+	<string id="st_mag_deagle_50bmg_default_descr">
+		<text>7-round magazine that could be chambered for .50 BMG rounds, and could be prepared for a Desert Eagle that could or could not be chambered for such caliber, but actually fits in a M82 as well!</text>
+	</string>
+
+	<string id="st_mag_deagle_50bmg_drum">
+		<text>20-round Absolutely Normal .50 BMG Desert Eagle Drum</text>
+	</string>
+	<string id="st_mag_deagle_50bmg_drum_descr">
+		<text>20-round drum magazine that could be chambered for .50 BMG rounds, and could be prepared for a Desert Eagle that could or could not be chambered for such caliber, but don't let your eyes deceive you, because such things aren't possi- yeah, ok, fine, it's all that, and yes you can load it on a M82, ask the maniac who made it why, please stop aiming at my head!</text>
+	</string>
+
+</string_table>

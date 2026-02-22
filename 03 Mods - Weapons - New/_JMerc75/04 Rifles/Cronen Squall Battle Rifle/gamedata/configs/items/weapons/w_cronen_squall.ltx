@@ -1,50 +1,50 @@
 [wpn_cronen_squall]:identity_immunities,weapon_probability,default_weapon_params,wpn_famas_sounds
-GroupControlSection		= spawn_group
-$spawn			= "weapons\cronen_squall"
+GroupControlSection			= spawn_group
+$spawn						= "weapons\cronen_squall"
 $npc						= on
 $prefetch					= 8
 scheduled					= off
 cform						= skeleton
 class						= WP_AK74
-parent_section								= wpn_cronen_squall
+parent_section				= wpn_cronen_squall
 
-description				= st_wpn_cronen_squall_descr
-ef_main_weapon_type		= 2
+description					= st_wpn_cronen_squall_descr
+ef_main_weapon_type			= 2
 ef_weapon_type				= 6
-default_to_ruck			= false
-sprint_allowed			= true
+default_to_ruck				= false
+sprint_allowed				= true
 
 ;-------------------------------------------------------------------------------
 
-kind										= w_rifle
-inv_weight									= 3.77
-cost										= 67321
-repair_type									= rifle_5
-weapon_class								= assault_rifle
+kind						= w_rifle
+inv_weight					= 3.77
+cost						= 67321
+repair_type					= rifle_5
+weapon_class				= assault_rifle
 upgrades					= up_gr_firstab_scar, up_gr_seconab_scar, up_gr_thirdab_scar, up_gr_fourtab_scar, up_gr_fifthab_scar
 installed_upgrades			=
 upgrade_scheme				= upgrade_scheme_sig550
 
 ;--TTX--------------------------------------------------------------------------
-hit_impulse									= 35
-hit_power									= 0.76, 0.76, 0.76, 0.76
-hit_type									= fire_wound
-fire_distance								= 1000
+hit_impulse					= 35
+hit_power					= 0.76, 0.76, 0.76, 0.76
+hit_type					= fire_wound
+fire_distance				= 1000
 bullet_speed				= 880
-rpm						= 650
-rpm_empty_click			= 120
+rpm							= 650
+rpm_empty_click				= 120
 
 use_aim_bullet				= false
 
-time_to_aim				= 3.0
+time_to_aim					= 3.0
 
-hud				= wpn_cronen_squall_hud
+hud							= wpn_cronen_squall_hud
 
 misfire_probability			= 0.005
 misfire_start_condition		= 0.875
 misfire_end_condition		= 0.125
-misfire_start_prob	= 0.00275
-misfire_end_prob	= 0.07
+misfire_start_prob			= 0.00275
+misfire_end_prob			= 0.07
 condition_shot_dec			= 0.0010
 condition_queue_shot_dec	= 0.0014
 
@@ -55,53 +55,53 @@ ammo_class					= ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_veryba
 grenade_class				= ammo_m209
 fire_modes					= 1, -1
 launch_speed				= 0
-hand_dependence			= 1
+hand_dependence				= 1
 single_handed				= 0
 
 ;--дисперсия----------------------------------------------------------------------------
-;базовая	дисперсия
+;базовая дисперсия
 fire_dispersion_base		= 0.24
 fire_dispersion_condition_factor	= 0.001
-control_inertion_factor	= 1.0f
-crosshair_inertion	= 5.3
+control_inertion_factor		= 1.0f
+crosshair_inertion			= 5.3
 
-cam_return									= 0
-cam_relax_speed								= 10
-cam_dispersion								= 0.556
-cam_dispersion_frac							= 1.0
-cam_dispersion_inc							= 0.0675
-cam_max_angle								= 50.0
-cam_max_angle_horz							= 50.0
-cam_step_angle_horz							= 0.9
+cam_return					= 0
+cam_relax_speed				= 10
+cam_dispersion				= 0.556
+cam_dispersion_frac			= 1.0
+cam_dispersion_inc			= 0.0675
+cam_max_angle				= 50.0
+cam_max_angle_horz			= 50.0
+cam_step_angle_horz			= 0.9
 
-zoom_cam_relax_speed						= 10
-zoom_cam_dispersion							= 0.466
-zoom_cam_dispersion_frac					= 1.0
-zoom_cam_dispersion_inc						= 0.0525
-zoom_cam_max_angle							= 50.0
-zoom_cam_max_angle_horz						= 50.0
-zoom_cam_step_angle_horz					= 0.85
+zoom_cam_relax_speed		= 10
+zoom_cam_dispersion			= 0.466
+zoom_cam_dispersion_frac	= 1.0
+zoom_cam_dispersion_inc		= 0.0525
+zoom_cam_max_angle			= 50.0
+zoom_cam_max_angle_horz		= 50.0
+zoom_cam_step_angle_horz	= 0.85
 
-PDM_disp_accel_factor						= 2.3
-PDM_disp_base								= 0.8
-PDM_disp_crouch								= 1.0
-PDM_disp_crouch_no_acc						= 1.0
-PDM_disp_vel_factor							= 2.3
+PDM_disp_accel_factor		= 2.3
+PDM_disp_base				= 0.8
+PDM_disp_crouch				= 1.0
+PDM_disp_crouch_no_acc		= 1.0
+PDM_disp_vel_factor			= 2.3
 
-cam_relax_speed_ai							= 360
-zoom_cam_relax_speed_ai						= 360
-holder_fov_modifier							= 1.0
-holder_range_modifier						= 1.0
-min_radius									= 0
-max_radius									= 500
-hit_probability_gd_novice					= 1.00
-hit_probability_gd_stalker					= 1.00
-hit_probability_gd_veteran					= 1.00
-hit_probability_gd_master					= 1.00
+cam_relax_speed_ai			= 360
+zoom_cam_relax_speed_ai		= 360
+holder_fov_modifier			= 1.0
+holder_range_modifier		= 1.0
+min_radius					= 0
+max_radius					= 500
+hit_probability_gd_novice	= 1.00
+hit_probability_gd_stalker	= 1.00
+hit_probability_gd_veteran	= 1.00
+hit_probability_gd_master	= 1.00
 
 
 ;---DOF-------------------------------------------------------------------------
-zoom_dof						= 0.5, 1.0, 180
+zoom_dof					= 0.5, 1.0, 180
 reload_dof					= 0.0, 0.5, 5, 2
 
 ;-------------------------------------------------------------------------------
@@ -109,112 +109,110 @@ slot						= 2
 animation_slot				= 8
 
 inv_name					= st_wpn_cronen_squall
-inv_name_short			= st_wpn_cronen_squall
+inv_name_short				= st_wpn_cronen_squall
 
-icons_texture								= ui\ui_icon_cronensquall
-inv_grid_width								= 5
-inv_grid_height								= 2
-inv_grid_x									= 0
-inv_grid_y									= 0
+icons_texture				= ui\ui_icon_cronensquall
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 0
 
-upgr_icon_x			= 0 ; 303
-upgr_icon_y			= 800 ; 515
-upgr_icon_width		= 300 ; 294
-upgr_icon_height		= 101 ; 110
+upgr_icon_x					= 0 ; 303
+upgr_icon_y					= 800 ; 515
+upgr_icon_width				= 300 ; 294
+upgr_icon_height			= 101 ; 110
 
-kill_msg_x				= 84
-kill_msg_y				= 28
-kill_msg_width			= 73
-kill_msg_height			= 30
+kill_msg_x					= 84
+kill_msg_y					= 28
+kill_msg_width				= 73
+kill_msg_height				= 30
 
 ;-------------------------------------------------------------------------------
-		orientation							= -1.588342, -10.766377, 0
-		position							= -0.022419, 0.105716, -0.199753
+orientation					= -1.588342, -10.766377, 0
+position					= -0.022419, 0.105716, -0.199753
 
 fire_point					= 0.0,0.186,0.435
-fire_point2				= 0.0, 0.106, 0.468
+fire_point2					= 0.0, 0.106, 0.468
 
-flame_particles								= weapons\generic_weapon05
-smoke_particles								= weapons\generic_shoot_00
-grenade_flame_particles						= weapons\generic_weapon01
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
 
-shell_point				= -0.020000,0.167000,0.082000
+shell_point					= -0.020000,0.167000,0.082000
 shell_dir					= 0.0, 0.0, 0.4
-shell_particles			=
+shell_particles				=
 
-;--STRAP	PARAMETERS-----------------------------------------------------------------
-;под	мишкой
-		strap_orientation					= -7.140198, -8.038435, 100
-		strap_position						= -0.20895, -0.125826, -0.017166
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;под мишкой
+strap_orientation			= -7.140198, -8.038435, 100
+strap_position				= -0.20895, -0.125826, -0.017166
 
-strap_bone0				= bip01_spine2
-strap_bone1				= bip01_spine1
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
 
 startup_ammo				= 90
-visual			= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
+visual						= dynamics\weapons\wpn_cronen_squall\wpn_cronen_squall_world.ogf
 
 light_disabled				= false
-light_color				= 0.6,0.5,0.3
-light_range				= 5
-light_var_color			= 0.05
-light_var_range			= 0.5
+light_color					= 0.6,0.5,0.3
+light_range					= 5
+light_var_color				= 0.05
+light_var_range				= 0.5
 light_time					= 0.2
 
-ph_mass					= 5
+ph_mass						= 5
 ;cost						= 2100
 
 ;addons
-scopes						= acog, eot, ac10632, specter	,c-more	,point_aimpro, leupold, aimpoint, e0t2, pn23, gauss_sight, compm4s, marchf, kemper, triji, mark8_rmr, spec_alt, mepro, ekp8_18
-scope_status		= 0
-scope_zoom_factor	= 0
-silencer_status			= 2
-grenade_launcher_status	= 0
+scopes						= acog, eot, ac10632, specter, c-more, point_aimpro, leupold, aimpoint, e0t2, pn23, gauss_sight, compm4s, marchf, kemper, triji, mark8_rmr, spec_alt, mepro, ekp8_18
+scope_status				= 0
+scope_zoom_factor			= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
 
 zoom_enabled				= true
-zoom_rotate_time		= 0.25
+zoom_rotate_time			= 0.25
 
 silencer_name				= wpn_sil_aac762
 silencer_x					= 213
 silencer_y					= 15
 grenade_launcher_name		= wpn_addon_grenade_launcher_m203
-grenade_launcher_x		= 128
-grenade_launcher_y		= 28
-
-
+grenade_launcher_x			= 128
+grenade_launcher_y			= 28
 
 ;звуки
 snd_draw					= weapons\cronensquall\cronensquall_draw
-snd_holster				= weapons\cronensquall\cronensquall_hide
-snd_reload				= weapons\cronensquall\cronensquall_reload
-snd_switch				= weapons\cronensquall\cronensquall_firemode
+snd_holster					= weapons\cronensquall\cronensquall_hide
+snd_reload					= weapons\cronensquall\cronensquall_reload
+snd_switch					= weapons\cronensquall\cronensquall_firemode
 snd_bore					= weapons\cronensquall\cronensquall_inspect
-snd_reload_misfire		= weapons\cronensquall\cronensquall_unjam
-snd_reload_empty		= weapons\cronensquall\cronensquall_reload_empty
-snd_ammo_check								= weapons\cronensquall\cronensquall_magcheck
-snd_ammo_check_empty						= weapons\cronensquall\cronensquall_magcheck
+snd_reload_misfire			= weapons\cronensquall\cronensquall_unjam
+snd_reload_empty			= weapons\cronensquall\cronensquall_reload_empty
+snd_ammo_check				= weapons\cronensquall\cronensquall_magcheck
+snd_ammo_check_empty		= weapons\cronensquall\cronensquall_magcheck
 
-snd_shoot																= wpn_svd_snd_shoot
-snd_shoot_actor															= wpn_svd_snd_shoot_actor
-snd_silncer_shot														= wpn_big_snd_silenced
-snd_silncer_shot_actor													= wpn_big_snd_silenced_actor
+snd_shoot					= wpn_svd_snd_shoot
+snd_shoot_actor				= wpn_svd_snd_shoot_actor
+snd_silncer_shot			= wpn_big_snd_silenced
+snd_silncer_shot_actor		= wpn_big_snd_silenced_actor
 
 ;настройки	для	глушителя
-silencer_smoke_particles					= weapons\generic_shoot_00
+silencer_smoke_particles	= weapons\generic_shoot_00
 
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
-silencer_light_var_color= 0.05
-silencer_light_var_range= 0.5
-silencer_light_time		= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time			= 0.2
 
-use_alt_aim_hud		= true
+use_alt_aim_hud	= true
 
 laser_status	= true
 
 [wpn_cronen_squall_hud]:hud_base
-zoom_hide_crosshair		= true
-attach_place_idx			= 0
 item_visual	= anomaly_weapons\wpn_cronen_squall\wpn_cronen_squall_hud.ogf
+zoom_hide_crosshair	= true
+attach_place_idx	= 0
 
 item_position		= 0, 0, 0
 item_orientation	= 0, 0, 0
@@ -247,38 +245,37 @@ gl_hud_offset_rot_16x9	= 0, 0, 0
 lean_hud_offset_pos	= 0, 0, 0
 lean_hud_offset_rot	= 0, 0, 0
 
-shell_point				= 0.0,0.0,0.0
-shell_dir					= 0.0, 1.0, 0.0
-shell_bone				= wpn_body
+shell_point	= 0.0,0.0,0.0
+shell_dir	= 0.0, 1.0, 0.0
+shell_bone	= wpn_body
 
-fire_point				= 0,0,0
-fire_bone						= muzzle
+fire_point	= 0,0,0
+fire_bone	= muzzle
 
-anm_bore									= hands_cronensquall_inspect, inspect
-anm_hide									= hands_cronensquall_hide, idle
-anm_idle									= hands_cronensquall_idle, idle
-anm_idle_empty									= hands_cronensquall_idle, idle_empty
-anm_idle_aim								= hands_cronensquall_aim_idle, idle
-anm_idle_aim_moving							= hands_cronensquall_aim_idle, idle
-anm_idle_aim_moving_crouch					= hands_cronensquall_aim_idle, idle
-anm_idle_moving								= hands_cronensquall_walk, idle
-anm_idle_moving_crouch						= hands_cronensquall_walk, idle
-anm_idle_sprint								= hands_cronensquall_sprint, idle
-anm_reload									= hands_cronensquall_reload, cronensquall_reload
-anm_reload_empty							= hands_cronensquall_reload_empty, cronensquall_reload_empty
-anm_shots									= hands_cronensquall_fire01, cronensquall_fire01
-anm_shots_variant1							= hands_cronensquall_fire02, cronensquall_fire02
-anm_shots_variant2							= hands_cronensquall_fire03, cronensquall_fire03
-anm_show									= hands_cronensquall_draw, idle
-anm_reload_misfire							= hands_cronensquall_unjam, cronensquall_unjam
-anm_switch_mode								= hands_cronensquall_firemode, cronensquall_firemode
-anm_switch_mode_empty						= hands_cronensquall_firemode, cronensquall_firemode_empty
+anm_bore					= hands_cronensquall_inspect, inspect
+anm_hide					= hands_cronensquall_hide, idle
+anm_idle					= hands_cronensquall_idle, idle
+anm_idle_empty				= hands_cronensquall_idle, idle_empty
+anm_idle_aim				= hands_cronensquall_aim_idle, idle
+anm_idle_aim_moving			= hands_cronensquall_aim_idle, idle
+anm_idle_aim_moving_crouch	= hands_cronensquall_aim_idle, idle
+anm_idle_moving				= hands_cronensquall_walk, idle
+anm_idle_moving_crouch		= hands_cronensquall_walk, idle
+anm_idle_sprint				= hands_cronensquall_sprint, idle
+anm_reload					= hands_cronensquall_reload, cronensquall_reload
+anm_reload_empty			= hands_cronensquall_reload_empty, cronensquall_reload_empty
+anm_shots					= hands_cronensquall_fire01, cronensquall_fire01
+anm_shots_variant1			= hands_cronensquall_fire02, cronensquall_fire02
+anm_shots_variant2			= hands_cronensquall_fire03, cronensquall_fire03
+anm_show					= hands_cronensquall_draw, idle
+anm_reload_misfire			= hands_cronensquall_unjam, cronensquall_unjam
+anm_switch_mode				= hands_cronensquall_firemode, cronensquall_firemode
+anm_switch_mode_empty		= hands_cronensquall_firemode, cronensquall_firemode_empty
 
-anm_ammo_check								= hands_cronensquall_magcheck, cronensquall_magcheck
-anm_ammo_check_empty						= hands_cronensquall_magcheck, cronensquall_magcheck_empty
-anm_walk2sprint								= hands_cronensquall_walk2sprint, idle
-anm_sprint2walk								= hands_cronensquall_sprint2walk, idle
-
+anm_ammo_check				= hands_cronensquall_magcheck, cronensquall_magcheck
+anm_ammo_check_empty		= hands_cronensquall_magcheck, cronensquall_magcheck_empty
+anm_walk2sprint				= hands_cronensquall_walk2sprint, idle
+anm_sprint2walk				= hands_cronensquall_sprint2walk, idle
 
 
 ;---------------------------------------------------------------------------Addons------------------------------------------------
@@ -291,7 +288,6 @@ hud				= wpn_cronen_squall_acog_hud
 1icon_layer		= acog
 1icon_layer_x	= 109
 1icon_layer_y	= -5
-
 
 scope_status		= 1
 scope_texture		= wpn_crosshair_acog

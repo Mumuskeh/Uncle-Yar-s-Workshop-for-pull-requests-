@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	
+
+<string id="st_wpn_remington_r5">
+		<text>Remington R5</text>
+	</string>
+	<string id="st_wpn_remington_r5_descr">
+		<text>Remington R5 - это штурмовая винтовка, известная своей универсальностью и точностью. Она основана на реальной конструкции Remington ACR (Adaptive Combat Rifle). Эта полностью автоматическая винтовка обеспечивает хороший баланс между управляемостью и огневой мощью. Remington R5 пользуется популярностью благодаря своим отличным характеристикам в различных боевых ситуациях. Он обладает умеренной скорострельностью и наносит приличный урон, что делает его эффективным в боях на средних и дальних дистанциях. Отдача оружия управляемая, что позволяет точно прицеливаться и вести непрерывный огонь. В целом, Remington R5 - это надежная и легко адаптируемая штурмовая винтовка, которую многие предпочитают за ее универсальность и точность. \n \n
+		%c[ui_gray_2]МОДИФИКАЦИИ: \n
+		%c[d_purple] - %c[ui_gray_2] ПРИЦЕЛЫ: Barska AC10632, ACOG, Aimpoint (Высокое крепление), Aimpoint CompM4s, EOTech XPS3-0, EOTech 553, Aimpoint PRO и Trijicon Tactical Kit.\n
+		%c[d_purple] - %c[ui_gray_2] ГЛУШИТЕЛЬ: ADVANCED ARMAMENT (AAC) M4-2000\n</text>
+	</string>	
+</string_table>

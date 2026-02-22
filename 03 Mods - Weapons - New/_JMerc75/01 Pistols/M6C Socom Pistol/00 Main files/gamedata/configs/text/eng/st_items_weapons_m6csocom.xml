@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m6csocom">
+		<text>M6C/SOCOM</text>
+	</string>
+	<string id="st_wpn_m6csocom_s">
+		<text>M6S</text>
+	</string>
+	<string id="st_wpn_m6csocom_descr">
+		<text>This is a semi-automatic, recoil-operated, 24-round magazine-fed, large-caliber handgun with a 3-round burst fire mode and an integrated sound suppressor, and muzzle brake. The plating indicates it's chambered for "12.7?40mm", but it seems to accept .357 rounds happily, and has a considerably high rate of fire with an long effective range, being able to hit a target accurately at about fifty meters. The laser pointer module not only seems to double as a flashlight, but also seems to include some sort of electronic scope, though you have no idea how to access it.\n
+		It bears the brand of Misriah Armory, a new company that only started presenting their first prototypes, and it while similar to their SP-5 Magnum project, this looks like a mass produced sample. Nimble simply shrugs when asked, so you wonder if this is just the Zone being the Zone.</text>
+	</string>
+
+	<string id="st_mag_m6csocom_default">
+		<text>M6C SOCOM .357 24 round magazine</text>
+	</string>
+	<string id="st_mag_m6csocom_default_descr">
+		<text>Standard magazine for the M6C SOCOM pistol, perfectly machined to work with the firearm's 3-round burst fire mode. \n \n</text>
+	</string>
+</string_table>

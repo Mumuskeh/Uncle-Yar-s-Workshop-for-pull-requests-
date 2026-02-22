@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_ksuper_j">
+		<text>Super Sport STX</text>
+	</string>
+	<string id="st_wpn_ksuper_j_descr">
+		<text>The Korth Super Sport STX Revolver is a high-end precision firearm, renowned for its exceptional craftsmanship and performance. Engineered in Germany, this revolver features a sleek, modern design with a stainless steel finish and adjustable weights on the barrel, allowing for customizable balance and recoil management. The revolver's six-round cylinder is chambered in .357 Magnum, providing powerful, accurate shots, making it ideal for competitive shooting and enthusiasts seeking superior quality. Its ergonomic grip, combined with a smooth trigger pull, ensures a comfortable and controlled shooting experience, setting it apart as a top-tier choice in the revolver market. \n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most collimator sights except for low-mount scopesn</text>
+	</string>
+
+	<string id="st_wpn_ksuper_j_comp">
+		<text>Super Sport STX Long</text>
+	</string>
+	<string id="st_wpn_ksuper_j_comp_descr">
+		<text>The Korth Super Sport STX Revolver is a top-tier precision firearm, known for its German craftsmanship and sleek design. It features a stainless steel finish, an integrated compensator to reduce muzzle rise, and adjustable barrel weights for customizable balance. Chambered in .357 Magnum, it's powerful and accurate, with scope mounting capabilities for enhanced precision. The ergonomic grip and smooth trigger pull make it a favorite among competitive shooters. \n \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Most magnifier sights except for RMR kitsn
+		</text>
+	</string>
+</string_table>

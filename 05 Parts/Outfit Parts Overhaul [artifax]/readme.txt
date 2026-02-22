@@ -11,6 +11,8 @@ Let this overwrite it.
 ----------------------------------------------------------
 -Explanation:
 
+Mechanics may now sell the basic parts.
+
 Integration into:
 PDA Interactive
 

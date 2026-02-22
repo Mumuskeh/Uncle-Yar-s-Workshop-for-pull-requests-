@@ -34,14 +34,13 @@ Integrated into the vanilla looting, dynamic item spawn, and treasure, and task 
 Integrated into:
 Grok's Stash Overhaul
 Lootboxes
-PDA Interactive
 Mags Redux. The M82 magazine now loads .50 BMG instead of 12.7x55.
-
+PDA Interactive
 
 ----------------------------------------------------------
 -Patches:
 
-Arti's Ballistics
+Arti's Ballistics patch
 The AP ammo is also craftable and added to traders at very high goodwill, with AB's new descriptions applied properly.
 I left AB to set the stats, as I assume there's a game plan there. I may be wrong and the work it's simply incomplete; I'm not a ballistics guy, so feel free to mention anything that should be changed.
 

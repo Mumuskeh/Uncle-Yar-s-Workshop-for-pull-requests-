@@ -15,6 +15,8 @@ NPC distribution. Given to experienced stalkers, with the number of entries redu
 Trader distribution. It will be sold by factions whose NPCs carry it at a low-mid goodwill tier.
 Icon file trimmed.
 
+The world model has been fixed, and won't crash the game anymore.
+
 Integration into:
 Grok's Stash Overhaul
 Lootboxes

@@ -12,6 +12,8 @@ NOTE: You still need the original mod. Let this overwrite it.
 NPC loadouts. The mod distributes to experienced and veteran members of CS, Freedom, Sin, ISg, mercs and Monolith. But not CS and merc experienced or Sin veterans (except for mercs, who skip the experienced pool of weapons). I add it to those ranks. In addition, veterans may still have a random ammo/addon configuration, but experienced get only FMJ ammo.
 Trader distribution. Added to same factions as above at low-mid goodwill.
 Actor effects and Grok's Enhanced Recoil configs tweaked to follow the MP5, not the P90.
+Disabled shell particle. As I understand, the Calico expells shells down by the handle. Not many opportunities to see the shell with this then.
+
 
 Mags Redux support. Added a 100 rounds mag.
 

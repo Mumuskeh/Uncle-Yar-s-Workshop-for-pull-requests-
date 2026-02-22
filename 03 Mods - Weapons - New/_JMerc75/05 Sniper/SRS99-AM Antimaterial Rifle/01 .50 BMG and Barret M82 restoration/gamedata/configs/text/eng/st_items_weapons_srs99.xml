@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_srs99">
+		<text>SRS99-AM</text>
+	</string>
+	<string id="st_wpn_srs99_descr">
+		<text>The Sniper Rifle System 99 Anti-Materiel rifle is a magazine-fed semi-automatic, gas-operated sniper rifle, with exceptional accuracy and long-range capabilities, that allows for rapid follow-up shots while maintaining accuracy. Though the markings indicate the use of a 14.5?114mm ammunition, someone managed to modify the weapon to fire .50 BMG rounds. It's equipped with a high-powered scope, enabling precise targeting of distant adversaries with ease. This versatile rifle incorporates a semi-automatic firing mechanism, allowing .\n		
+		It repeatedly bears the brand of a "UNSC" that you somehow suspect doesn't stand for the United Nations Security Council, and Misriah Armory, a new company that only started presenting their first prototypes, though none of a sniper rifle this big or advanced, and the scope's providence is just as mysterious. Nimble is as clueless as you are, simply stating a contact found it somewhere deep in the Zone.</text>
+	</string>
+	
+	<string id="st_mag_srs99_338_default">
+		<text>SRS99-AM .50 BMG 4-Round Magazine</text>
+	</string>
+	<string id="st_mag_srs99_338_default_descr">
+		<text>Magazine for the SRS99 Anti Material rifle. Houses 4 .50 BMG rounds.\n\n</text>
+	</string>
+
+	<string id="st_mag_srs99_338_ext">
+		<text>SRS99-AM .50 BMG Magnum 9-Round Magazine</text>
+	</string>
+	<string id="st_mag_srs99_338_ext_descr">
+		<text>Extended magazine for the SRS99 Anti Material rifle. Houses 9 .50 BMG rounds.\n\n</text>
+	</string>
+</string_table>

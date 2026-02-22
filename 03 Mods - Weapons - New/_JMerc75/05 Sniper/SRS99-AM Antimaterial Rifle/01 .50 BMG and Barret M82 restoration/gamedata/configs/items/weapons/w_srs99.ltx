@@ -1,0 +1,244 @@
+;------------------------------------------------------------------------------------------------
+[wpn_srs99_snd_shoot]
+snd_1_layer	= weapons\srs99\srs99_shoot
+snd_2_layer	= weapons\_distance_shooting_far\l96_distant
+;------------------------------------------------------------------------------------------------
+[wpn_srs99]:identity_immunities,weapon_probability,default_weapon_params;wpn_fal_sounds
+GroupControlSection				= spawn_group
+$npc							= on
+$prefetch						= 8
+$spawn							= "weapons\srs99"
+scheduled						= off
+cform							= skeleton
+parent_section					= wpn_srs99
+
+class							= WP_AK74
+slot							= 2
+animation_slot					= 2
+ef_main_weapon_type				= 2
+ef_weapon_type					= 8
+hand_dependence					= 1
+single_handed					= 0
+
+icons_texture					= ui\ui_icon_srs99
+inv_grid_width					= 6
+inv_grid_height					= 2
+inv_grid_x						= 0
+inv_grid_y						= 0
+
+inv_name						= st_wpn_srs99
+inv_name_short					= st_wpn_srs99
+description						= st_wpn_srs99_descr
+
+kind							= w_sniper
+inv_weight						= 5.3
+cost							= 93652
+repair_type						= rifle_7
+weapon_class					= assault_rifle
+
+hud								= wpn_srs99_hud
+visual							= dynamics\weapons\wpn_srs99\wpn_srs99s_world.ogf
+position						= -0.016348, -0.071462, 0.019815
+orientation						= 0, 0, 0
+fire_point						= 0, 0.137, 0.649
+fire_point2						= 0, 0.097, 0.722
+strap_bone0						= bip01_spine2
+strap_bone1						= bip01_spine1
+strap_position					= -0.26, -0.11, 0
+strap_orientation				= -15, -9, 110
+ph_mass							= 4
+
+flame_particles					= weapons\generic_weapon05
+smoke_particles					= ghost_particles\weapons\flame_eft_ak
+grenade_flame_particles			= weapons\generic_weapon01
+
+shell_point						= -0.02,0.167,0.082
+shell_dir						= 0, 0, 0.4
+shell_particles					= weapons\762x51
+
+light_disabled					= false
+light_color						= 0.6, 0.5, 0.3
+light_range						= 5
+light_time						= 0.2
+light_var_color					= 0.05
+light_var_range					= 0.5
+
+upgrades						= up_gr_firstab_m98b, up_gr_seconab_m98b, up_gr_thirdab_m98b, up_gr_fourtab_m98b, up_gr_fourtcd_m98b, up_gr_fourtef_m98b
+installed_upgrades				=
+upgrade_scheme					= upgrade_scheme_svd
+upgr_icon_x						= 1750
+upgr_icon_y						= 600
+upgr_icon_width					= 300
+upgr_icon_height				= 100
+
+fire_modes						= 1
+ammo_class						= ammo_50_bmg, ammo_50_bmg_bad, ammo_50_bmg_verybad
+ammo_current					= 120
+ammo_elapsed					= 4
+ammo_mag_size					= 4
+startup_ammo					= 90
+
+scopes							= none
+scope_status					= 1
+scope_dynamic_zoom				= on
+
+scope_texture					= wpn_crosshair_srs99
+scope_x							= 49
+scope_y							= 7
+scope_zoom_factor				= 8
+
+silencer_name					= wpn_sil_aac762
+silencer_status					= 0
+silencer_x						= 205
+silencer_y						= 20
+silencer_light_color			= 0.6, 0.5, 0.3
+silencer_light_range			= 0.01
+silencer_light_time				= 0.2
+silencer_light_var_color		= 0.05
+silencer_light_var_range		= 0.5
+silencer_smoke_particles		= ghost_particles\weapons\generic_smoke_eft_sil
+
+grenade_class					= ammo_m209, ammo_m209_bad, ammo_m209_verybad
+grenade_launcher_name			= wpn_addon_grenade_launcher_m203
+grenade_launcher_status			= 0
+grenade_launcher_x				= 133
+grenade_launcher_y				= 34
+grenade_vel						= 76
+launch_speed					= 76
+
+hit_impulse						= 100 ; 45
+hit_power						= 1.35, 1.35, 1.35, 1.35
+hit_type						= fire_wound
+fire_distance					= 2500 ; 1500
+bullet_speed					= 1950 ; 945
+rpm								= 100
+rpm_empty_click					= 200
+
+use_aim_bullet					= true
+time_to_aim						= 0.0 ; 3.0
+zoom_dof						= 0.5, 1, 180
+zoom_enabled					= true
+zoom_rotate_time				= 0.2
+reload_dof						= 0, 0.5, 5, 2
+control_inertion_factor			= 1.0f
+crosshair_inertion				= 6.75
+fire_dispersion_base			= 0.21
+fire_dispersion_condition_factor= 0.001
+
+misfire_probability				= 0.005
+misfire_start_condition			= 0.7 ; 0.6
+misfire_start_prob				= 0.003
+misfire_end_condition			= 0.1
+misfire_end_prob				= 0.045
+
+condition_queue_shot_dec		= 0.0015
+condition_shot_dec				= 0.0015
+
+cam_return						= 0
+cam_relax_speed					= 4.5
+cam_dispersion					= 3.14
+cam_dispersion_frac				= 1.0
+cam_dispersion_inc				= 3.14
+cam_max_angle					= 50.0
+cam_max_angle_horz				= 50.0
+cam_step_angle_horz				= 0.86
+zoom_cam_relax_speed			= 0.75
+zoom_cam_dispersion				= 0.95
+zoom_cam_dispersion_frac		= 1.0
+zoom_cam_dispersion_inc			= 2.53
+zoom_cam_max_angle				= 50.0
+zoom_cam_max_angle_horz			= 50.0
+zoom_cam_step_angle_horz		= 1.68
+
+PDM_disp_accel_factor			= 3.05
+PDM_disp_base					= 1.65
+PDM_disp_crouch					= 1.0
+PDM_disp_crouch_no_acc			= 1.0
+PDM_disp_vel_factor				= 3.05
+
+cam_relax_speed_ai				= 360
+zoom_cam_relax_speed_ai			= 120.75
+holder_fov_modifier				= 1.0
+holder_range_modifier			= 2.15
+min_radius						= 0
+max_radius						= 100
+hit_probability_gd_novice		= 1
+hit_probability_gd_stalker		= 1
+hit_probability_gd_veteran		= 1
+hit_probability_gd_master		= 1
+
+kill_msg_x						= 80
+kill_msg_y						= 59
+kill_msg_width					= 87
+kill_msg_height					= 24
+
+scope_zoom_factor_alt	= 0
+
+laser_status		= true
+use_alt_aim_hud		= true
+
+hud_fov				= 0.78
+;----------------------------------------------------------------------SND------------------------------------------------------------------------------
+snd_draw			= eft_wp\shared\draw_rifle
+snd_holster			= eft_wp\shared\hide_rifle
+
+snd_shoot			= wpn_srs99_snd_shoot
+
+snd_silncer_shot	= weapons\sa58\sa58_shoot_sil, 2.0
+snd_empty			= eft_wp\shared\empty_click_rifle, 0.5
+snd_reload			= weapons\srs99\srs99_reload
+snd_reload_empty	= weapons\srs99\srs99_reload_empty
+snd_reload_misfire	= weapons\srs99\srs99_reload_empty
+;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
+[wpn_srs99_hud]:hud_base
+item_visual	= anomaly_weapons\wpn_srs99s\wpn_srs99s_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+
+item_position		= -0.00067, -0.006588, 0.001043
+item_orientation	= 88.154649, -60.975472, -86.585159
+
+hands_position			= -0.009508, 0.004473, -0.0068
+hands_position_16x9		= -0.009508, 0.004473, -0.0068
+hands_orientation		= -3.050017, -0.593339, -4.499999
+hands_orientation_16x9	= -3.050017, -0.593339, -4.499999
+
+aim_hud_offset_pos		= -0.072674, 0.010983, -0.154099
+aim_hud_offset_pos_16x9	= -0.072674, 0.010983, -0.154099
+aim_hud_offset_rot		= 0.005235, 0.005621, 0.0275
+aim_hud_offset_rot_16x9	= 0.005235, 0.005621, 0.0275
+
+aim_hud_offset_alt_pos		= -0.022237, -0.017073, 0
+aim_hud_offset_alt_pos_16x9	= -0.022237, -0.017073, 0
+aim_hud_offset_alt_rot		= -0.004692, 0.0008, -0.200107
+aim_hud_offset_alt_rot_16x9	= -0.004692, 0.0008, -0.200107
+
+lowered_hud_offset_pos		= 0.098187, -0.010667, 0
+lowered_hud_offset_pos_16x9	= 0.098187, -0.010667, 0
+lowered_hud_offset_rot		= 0.124532, -0.800213, 0.1
+lowered_hud_offset_rot_16x9	= 0.124532, -0.800213, 0.1
+
+anm_show				= srs99_draw
+anm_hide				= srs99_hide
+anm_idle				= srs99_idle, idle
+anm_idle_sprint			= srs99_idle_sprint
+anm_idle_moving			= srs99_idle_moving
+anm_idle_moving_crouch	= srs99_idle_crouch
+anm_shots				= srs99_shoot, shoot
+;anm_shots_aim			= srs99_shoot_aim, shoot
+anm_reload				= srs99_reload, reload	,1.5
+anm_reload_empty		= srs99_reload_empty, reload_empty, 1.3
+anm_idle_moving_crouch	= srs99_idle_crouch
+anm_idle_aim			= srs99_idle_aim
+anm_bore				= srs99_bore
+anm_reload_misfire		= srs99_reload_empty, reload_empty, 1.3
+
+fire_point		= 0.006500,-0.127000,-0.009500
+fire_bone		= muzzle
+fire_point2		= 0.0,0.0,0.0 ;0.0,-0.028,0.678
+fire_bone2		= muzzle ;wpn_body
+fire_direction	= 0,-3.14,0
+
+shell_dir		= 0, 1, 0
+shell_bone		= shell
+shell_point		= 0.000000, -0.093500, 0.010000
