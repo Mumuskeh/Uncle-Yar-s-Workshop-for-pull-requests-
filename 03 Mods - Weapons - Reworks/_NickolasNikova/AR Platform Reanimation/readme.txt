@@ -11,6 +11,7 @@ Not compatible with other AR reworks like M4s Reimagined, AR Pack, or AR-15 rean
 ----------------------------------------------------------
 -Explanation:
 
+MK18's model now can show a silencer when attaching a AC10632 sight.
 Icon files consolidated.
 
 Integrated into:

@@ -4,6 +4,8 @@ Hunting Backpacks (DLTX Minimod)
 ----------------------------------------------------------
 -Compatibility:
 
+Prepared for use with Basic Trader Profiles Expansion.
+
 ----------------------------------------------------------
 -Explanation:
 Minor text editing.

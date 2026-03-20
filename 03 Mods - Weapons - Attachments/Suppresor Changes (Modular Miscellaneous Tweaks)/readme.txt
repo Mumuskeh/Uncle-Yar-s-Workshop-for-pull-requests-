@@ -7,9 +7,29 @@ Original mod not required.
 
 ----------------------------------------------------------
 -Explanation:
-DLTX conversion, for compatibility with BaS.
+DLTX conversion.
 
-Quoting from the original:
+The original mod changes the stats of the basic "wpn_addon_silencer" template that all silencers inherit everything from, and removes changed stats from individual silencers.
+
+Technically, all silencers are covered by the mod as long as it inherits its data from "wpn_addon_silencer", but some silencers add their own stat changes, which would need to be squashed.
+
+So, in addition to vanilla silencers, this conversion now also fully applies to silencers from:
+-BaS
+-AO3 Late Comers
+-Blackgrowl's AShey 'n ShAKky
+-Lewd's STG44
+-Onerock's MCX Spear
+
+Some silencers don't need to be patched, as they already take all stats directly from "wpn_addon_silencer" without changes:
+-half of the BaS silencers
+-MrB's 10mm Auto Ecosystem
+-Joseph Porta's Vulcan
+-Maid's Agram 2000
+
+There may be more I missed.
+
+
+Quoting the original:
 
 This changes how suppressors/silencers affect your weapon. Generally, they apply positive effects at the cost of increased maintenance. Thus, they are meant to be used by experienced STALKERs who can afford to pay the extra costs associated with them.
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-<string id="st_wpn_rsh12">
+	<string id="st_wpn_rsh12">
 		<text>РШ-12</text>
 	</string>
 	<string id="st_wpn_rsh12_descr">

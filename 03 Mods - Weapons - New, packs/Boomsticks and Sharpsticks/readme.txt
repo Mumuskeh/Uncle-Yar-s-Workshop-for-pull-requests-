@@ -32,5 +32,14 @@ It will use the AUG mag in the Extra Mags patch above.
 - Option 2 includes those in option 1 and the SCAR-SC. It's optional because it uses a modified SCAR-L model from BaS, with a shorter and wider barrel and different ironsights, and some people may not want more graphical assets. Also to maintain compatibility with BaS Lite.
 If you use BaS Lite, you need either the basic Lite package alone, or with the SCAR-L module.
 
+Disable 3D scopes
+DLTX conversion of kda2495's addon. It will force the use of 2D scoping textures for PKA scopes and those weapons with integrated PIP scopes: AK5C with ISG kit, AUG 1 and custom, and SCAR-H Specialist Operator.
+Use this if PIP scopes cause performance drops for you, or to avoid seeing certain weapons using those jump like crazy when shooting.
+
+Knife skinning monkey patch
+The vanilla item_knife.script file works out skinning, and it has a list of knives that can skin mutants, and another about which mutants are too hard for weak knifes. BaS has a copy including its knifes.
+If another mod includes its own copy, you may not be able to use the BaS knifes anymore.
+This allows you to bypass that issue. But it shouldn't be needed otherwise.
+
 ----------------------------------------------------------
 -Known issues:

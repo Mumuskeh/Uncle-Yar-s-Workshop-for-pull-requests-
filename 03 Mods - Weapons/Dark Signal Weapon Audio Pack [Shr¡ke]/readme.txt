@@ -5,6 +5,8 @@ Dark Signal Weapon Audio Pack [Shr¡ke]
 -Compatibility:
 NOTE: The original mod is still required. Let this overwrite it.
 
+This module is for the old Dark Signal mod, not the 2026 rework.
+
 ----------------------------------------------------------
 -Explanation:
 
@@ -21,7 +23,7 @@ Implemented BaS KS23 last shell pump fix by WhatIProcess.
 Otherwise identical to the pach already included in Dark Signal.
 
 Performance mode patch
-Similar to the one for JSRS. It reduces the number of used layers for extra performance.
+Similar to the one for JSRS. It reduces the number of used layers for extra performance. This affects sound quality, though.
 
 ----------------------------------------------------------
 -Known issues:

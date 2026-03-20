@@ -8,13 +8,12 @@ NOTE: You still need the original mod. Disable the original configs folder.
 ----------------------------------------------------------
 -Explanation:
 
-Settings for actor effects tweaked to follow the M60, not the AK.
+Shell particles changed from 5.56 to 7.62.
 
 Icon file trimmed.
 
 Integrated into:
 Lootboxes
-Grok's Enhanced Recoil
 Grok's Stash Overhaul
 PDA Interactive
 Weapon Parts Overhaul

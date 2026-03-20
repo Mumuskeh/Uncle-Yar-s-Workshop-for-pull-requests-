@@ -1,3 +1,8 @@
+THIS IS A WIP. DO NOT USE. THIS ARE JUST MY NOTES.
+
+
+
+
 A new game is required if you were already using the mod.
 
 

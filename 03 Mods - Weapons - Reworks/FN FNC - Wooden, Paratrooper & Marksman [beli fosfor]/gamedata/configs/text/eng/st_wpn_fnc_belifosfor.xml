@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_fnc_marksman">
+		<text>FN FNC Marksman</text>
+	</string>
+	<string id="st_wpn_fnc_marksman_s">
+		<text>FNC Marksman</text>
+	</string>
+	<string id="st_wpn_fnc_marksman_descr">
+		<text>A Long barreled, marksman version of the FN FNC with a PSG stock and a pistol grip adjusted for long ranged combat. It's modified with a Picatinny rail for collimators and sights. Made for precision, it has a slower fire rate, but hits harder than the average FNC. It includes a muzzle break and a set of 20 rounds magazines.\n
+		This Marksman modification was first found on an ISG member.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: ACOG, Leupold\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: NATO 5.56x45 Suppressor\n</text>
+	</string>
+
+	<string id="st_wpn_fnc_para">
+		<text>FN FNC Paratrooper</text>
+	</string>
+	<string id="st_wpn_fnc_para_s">
+		<text>FNC Paratrooper</text>
+	</string>
+	<string id="st_wpn_fnc_para_descr">
+		<text>A compact, lighter version of the FN FNC with a foldable skeleton stock and a short barrel used by paratroopers. It's modified with a Picatinny rail for collimators and sights. It has a faster fire rate than the average FNC, ideal for CQC.\n
+		This pre-ban version of the weapon found its way into the Zone through the illegal arms trading line between Mercenaries and ISG.\n\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: EoTech, ACOG, AC10632\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: NATO 5.56x45 Suppressor\n</text>
+	</string>
+</string_table>

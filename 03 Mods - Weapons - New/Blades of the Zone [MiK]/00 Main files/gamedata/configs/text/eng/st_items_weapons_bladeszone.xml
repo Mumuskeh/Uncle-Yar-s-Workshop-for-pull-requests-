@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_knifebf4">
+        <text>SP-8 Machete</text>
+    </string>
+    <string id="st_knifebf4_descr">
+        <text>SP8 is a survival machete made of a single piece of high carbon steel. Manufactured by Ontario Knife Company.</text>
+    </string>
+	
+	<string id="st_kukri">
+        <text>United Cutlery M48 Kukri</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>A 48 series tactical kukri manufactured by United Cutlery. Features a stainless steel blade and rubberized handle. A great addition to every survivalist's arsenal!</text>
+		</string>
+	
+	<string id="st_tactical_knife">
+		<text>APOK Wasteland Gladius</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>"Wasteland Gladius" Tactical sword. Manufactured by APOK. Someone said that this is the exact blade that one of the monoliths used to slaughter multiple squads of stalkers. Or well, that's what the rumors say.</text>
+	</string>
+
+	<string id="st_knife_combat">
+		<text>UVSR Taiga-1 Machete</text>
+	</string>
+	<string id="st_knife_combat_descr">
+		<text>UVSR "Device for carrying out rescue operations" Taiga-1. A truly versatile survival tool. It is a weapon and a shovel and an axe and everything you can imagine. It was developed and produced in the USSR for various agencies.</text>
+	</string>
+
+	<string id="st_knife_6x4">
+		<text>6Kh5 Bayonet</text>
+	</string>
+	<string id="st_knife_6x4_descr">
+		<text>The so-called item 6H5 is a knife bayonet adopted in 1989 as a standard issue for use with AK74. Unsuitable for cutting thick-skinned mutants.</text>
+	</string>
+
+	<string id="st_tomahawk">
+		<text>SOG Voodoo Hawk Tomahawk</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>SOG has combined its three best features: an extended cutting head, compact glass-reinforced nylon handle, and a metal butt cap on the end.</text>
+	</string>
+
+	<string id="st_knife_hunting">
+		<text>Bars A-2607 Damascus</text>
+	</string>
+	<string id="st_knife_hunting_descr">
+		<text>The Bars A-2607, forged of Damascus steel with a wenge handle and brass guard. </text>
+	</string>
+
+	<string id="st_knife_needle">
+		<text>Bars A-2607 95Kh18</text>
+	</string>
+	<string id="st_knife_needle_descr">
+		<text>The Bars A-2607, forged of 95Kh18 steel with a fine wood handle and brass guard. Unsuitable for cutting thick-skinned mutants.</text>
+	</string>
+
+	<string id="st_knife_swat">
+		<text>Miller Bros. Blades M-2</text>
+	</string>
+	<string id="st_knife_swat_descr">
+		<text>The "M-2" short tactical sword, manufactured by Miller Bros. Blades.</text>
+	</string>
+
+</string_table>

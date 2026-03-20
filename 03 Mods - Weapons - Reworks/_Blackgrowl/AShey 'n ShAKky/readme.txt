@@ -22,10 +22,16 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-ShAK-12 Tactical [Lewdnatic] patch
-Disables AShey's Shak-12 for whoever prefers LEWD's Tactical to avoid redundancies.
-Also disables the ASh specialized silencer and makes it use the vanilla silencer for consistency.
-Obviously, incompatible with the main option.
+Mods silencer patch
+Other 12.7x55 weapons may use the new silencer.
+For now this only covers:
+-JMerc's AGL Long Colt Revolver Pack
+-Lewd's ShAK-12 Tactical.
+
+ShAK-12 Tactical [Lewdnatic] reduction patch
+Disables AShey's Shak-12 for whoever prefers LEWD's Tactical alone.
+Also disables the Ash specialized silencer and makes it use a vanilla silencer.
+Obviously, this is incompatible with the rest of files in this module. Choose one thing or the other.
 
 ----------------------------------------------------------
 -Known issues:

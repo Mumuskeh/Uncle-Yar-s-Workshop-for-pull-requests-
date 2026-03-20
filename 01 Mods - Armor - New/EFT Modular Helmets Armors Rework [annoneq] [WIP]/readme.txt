@@ -1,3 +1,7 @@
+THIS IS A WIP. DO NOT USE. THIS ARE JUST MY NOTES.
+
+
+
 -Module:
 EFT Modular Helmets and Armors Rework [annoneq]
 

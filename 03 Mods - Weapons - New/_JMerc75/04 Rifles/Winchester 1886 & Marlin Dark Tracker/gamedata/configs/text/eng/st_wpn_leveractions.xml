@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_wpn_win1886">
+	<string id="st_wpn_winchester1886">
 		<text>Winchester Model 1886</text>
 	</string>
-	<string id="st_wpn_win1886_descr">
+	<string id="st_wpn_winchester1886_descr">
 		<text>The Winchester 1886 rifle stands as an iconic symbol of American firearms innovation and reliability. Designed by John Browning, this lever-action masterpiece epitomizes the late 19th-century firearms era, boasting a robust and sturdy construction coupled with exceptional functionality. Built to handle powerful cartridges like the .45-70 Government and .50-110 Winchester, its enduring popularity lies in its impeccable balance, smooth lever action, and remarkable strength capable of handling heavy loads. With its elegant lines, walnut stock, and reliable design, the Winchester 1886 remains a timeless embodiment of craftsmanship and utility in the realm of classic firearms. Rechambered for 7.62x51mm ammunition by Zone technicians for easier access to ammo.\n \n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] - %c[ui_gray_2] Scopes: ACOG, Specter, Leupold, March Tac and Gauss Rifle scope.\n</text>

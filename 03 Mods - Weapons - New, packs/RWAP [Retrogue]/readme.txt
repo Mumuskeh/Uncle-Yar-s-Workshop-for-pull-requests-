@@ -64,6 +64,9 @@ Consolidated and group files also include this:
 ----------------------------------------------------------
 -Patches:
 
+These patches are made for the consolidated files or the group modules. They won't work with the standard files.
+
+
 Honey Badger & .300 Blackout Framework [Pillii]
 This requires both Pillii's mod, and the patch for it in the "02 Mods - Ammo" folder in this package.
 Several weapons now have variants in .300 Blackout. Two options:
@@ -71,9 +74,12 @@ Several weapons now have variants in .300 Blackout. Two options:
 - SIG 553: variants for the SG-553R SBR, and SG-553R SBR Tactical.
 The two 553 will use the SG mag in the Extra Mags patch above.
 
+WARNING. For some reason, Weapon Parts Overhaul seems to not like the MCX conversions to .300 Blackout and crash the game when firing them. All other patches work fine with WPO, it only happens for this one. Avoid using both together until further notice.
+
+
 MAS RWAP
-Use this with the consolidated files or the group modules (MCX and Modified AKs).
-You can copy this directly into the MAS RWAP folder, nothing will be overwritten.
+Ensures compatibility with the changed IDs.
+If you use the group modules, you only need this if you picked the MCX and Modified AKs groups.
 
 ----------------------------------------------------------
 -Known issues:

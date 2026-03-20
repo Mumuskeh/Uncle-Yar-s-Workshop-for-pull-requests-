@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_m3super90blk">
+		<text>Benelli M3 Super 90 (Black)</text>
+	</string>
+	<string id="st_m3super90blk_s">
+		<text>M3 Super 90</text>
+	</string>
+	<string id="st_m3super90blk_descr">
+		<text>The Benelli M3, an updated version of the Benelli M1, is a dual-mode (hybrid pump-action and semi-automatic) shotgun designed and manufactured by Italian firearms manufacturer Benelli Armi SpA. The M3 holds a maximum of seven rounds and uses Benelli's proprietary inertia-driven action system first showcased in the M1. The M3 is notable for allowing the user to choose between semi-automatic or pump-action operation.\n
+		The M3 Super 90 features a smaller body, ideal for tactical applications.\n</text>
+	</string>
+
+	<string id="st_m3super90kromo">
+		<text>Benelli M3 Super 90 (Kromo)</text>
+	</string>
+<!-- 	<string id="st_m3super90kromo_descr">
+		<text>The Benelli M3, an updated version of the Benelli M1, is a dual-mode (hybrid pump-action and semi-automatic) shotgun designed and manufactured by Italian firearms manufacturer Benelli Armi SpA. The M3 holds a maximum of seven rounds and uses Benelli's proprietary inertia-driven action system first showcased in the M1. The M3 is notable for allowing the user to choose between semi-automatic or pump-action operation.\n
+		The M3 Super 90 features a smaller body, ideal for tactical applications.\n</text>
+	</string> -->
+</string_table>

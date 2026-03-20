@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_mag_desert_eagle_357_extended">
+		<text>Extended .357 Desert Eagle Magazine</text>
+	</string>
+	<string id="st_mag_desert_eagle_357_extended_descr">
+		<text>Extended .357 Desert Eagle Magazine holding 11 rounds. Even the magazine is massive.</text>
+	</string>
+
+</string_table>

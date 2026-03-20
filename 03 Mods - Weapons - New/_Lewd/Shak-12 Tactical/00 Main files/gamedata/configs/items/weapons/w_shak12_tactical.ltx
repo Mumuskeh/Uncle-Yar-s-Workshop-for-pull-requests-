@@ -1,0 +1,864 @@
+;------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical]:identity_immunities,weapon_probability,default_weapon_params,wpn_ash12_sounds
+GroupControlSection					= spawn_group
+$npc								= on
+$prefetch							= 8
+$spawn								= "weapons\shak12_tactical"
+scheduled							= off
+cform								= skeleton
+parent_section						= wpn_shak12_tactical
+
+class								= WP_AK74
+slot								= 2
+animation_slot						= 2
+ef_main_weapon_type					= 3
+ef_weapon_type						= 11
+hand_dependence						= 1
+single_handed						= 0
+
+;---------------------------------------------------------------------------------------;
+; 									ICONS
+;---------------------------------------------------------------------------------------;
+icons_texture						= ui\ui_wpn_ash_tactical
+
+inv_grid_width						= 4
+inv_grid_height						= 2
+inv_grid_x							= 0
+inv_grid_y							= 0
+
+inv_name							= st_wpn_shak12_tactical
+inv_name_short						= st_wpn_shak12
+description							= st_wpn_shak12_tactical_descr
+
+kind								= w_rifle
+inv_weight							= 4.5
+cost								= 87760
+repair_type							= rifle_7
+weapon_class						= assault_rifle
+
+hud									= wpn_shak12_tactical_hud
+visual								= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+position							= -0.026, -0.015, 0.046
+orientation							= 0, -7, 0
+fire_point							= 0, 0.186, 0.435
+fire_point2							= 0, 0.106, 0.468
+strap_bone0							= bip01_spine2
+strap_bone1							= bip01_spine1
+strap_position						= -0.15, -0.36, 0.25
+strap_orientation					= -10, -5, 10
+ph_mass								= 7
+
+flame_particles						= weapons\generic_weapon06
+smoke_particles						= amik\weapons\smoke_particles\smoke_particles_01
+grenade_flame_particles				= amik\weapons\grenade_flame_particles\grenade_flame_particles_00
+
+shell_point							= -0.02, 0.167, 0.082
+shell_dir							= 0, 0, 0.4
+shell_particles						= weapons\762x54
+
+light_disabled						= false
+light_color							= 0.6, 0.5, 0.3
+light_range							= 4.0
+light_time							= 0.2
+light_var_color						= 0.05
+light_var_range						= 0.5
+
+upgrades							= up_gr_firstab_groza, up_gr_seconab_groza, up_gr_thirdab_groza, up_gr_fourtab_groza
+installed_upgrades					=
+upgrade_scheme						= upgrade_scheme_ash12
+
+
+;---------------------------------------------------------------------------------------;
+; 							ICONS UPGRADE
+;---------------------------------------------------------------------------------------;
+upgr_icon_x							= 600
+upgr_icon_y							= 1400
+upgr_icon_width						= 300
+upgr_icon_height					= 100
+
+fire_modes							= 1, -1
+ammo_class							= ammo_12.7x55_fmj, ammo_12.7x55_fmj_bad, ammo_12.7x55_fmj_verybad, ammo_12.7x55_ap, ammo_12.7x55_ap_bad, ammo_12.7x55_ap_verybad
+ammo_current						= 20
+ammo_elapsed						= 0
+ammo_limit							= 10
+ammo_mag_size						= 20
+startup_ammo						= 20
+;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+; 							SCOPES
+;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+scopes								= acog, eot, specter, c-more, 0kp2, ac10632, d0cter, aimpoint, point_aimpro, e0t2, pn23, rmr, deltapoint, compm4s, rakurs, susat, kemper, ekp8_18, mepro, kit_lewd_operator, kit_lewd_specialist
+scope_status						= 0
+scope_zoom_factor					= 0
+
+;---------------------------------------------------------------------------------------;
+; 							SILENCER
+;---------------------------------------------------------------------------------------;
+
+silencer_name						= wpn_sil_kzrzp
+silencer_status						= 2
+silencer_x							= 171
+silencer_y							= 10
+silencer_light_color				= 0.6, 0.5, 0.3
+silencer_light_range				= 0.01
+silencer_light_time					= 0.2
+silencer_light_var_color			= 0.05
+silencer_light_var_range			= 0.5
+silencer_smoke_particles			= amik\weapons\smoke_particles\silencer_smoke_particles_02
+
+grenade_class						= ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad
+grenade_launcher_status				= 0
+launch_speed						= 76
+
+hit_impulse							= 50
+hit_power							= 0.90, 0.90, 0.90, 0.90
+hit_type							= fire_wound
+fire_distance						= 400
+bullet_speed						= 750
+rpm									= 750
+rpm_empty_click						= 200
+
+use_aim_bullet						= false
+time_to_aim							= 0.0 ; 1.0
+zoom_enabled						= true
+zoom_rotate_time					= 0.25
+reload_dof							= 0, 0.5, 5, 2.2
+control_inertion_factor				= 1.0f
+crosshair_inertion					= 9
+fire_dispersion_base				= 0.2
+fire_dispersion_condition_factor	= 0.001
+
+misfire_probability					= 0.005
+misfire_start_condition				= 0.7 ; 0.6
+misfire_start_prob					= 0.0055
+misfire_end_condition				= 0.1
+misfire_end_prob					= 0.055
+
+condition_queue_shot_dec			= 0.0025
+condition_shot_dec					= 0.0025
+
+cam_return							= 0
+cam_relax_speed						= 10
+cam_dispersion						= 2.5
+cam_dispersion_frac					= 1.0
+cam_dispersion_inc					= 0.5
+cam_max_angle						= 50.0
+cam_max_angle_horz					= 50.0
+cam_step_angle_horz					= 1.25
+zoom_cam_relax_speed				= 9
+zoom_cam_dispersion					= 2.25
+zoom_cam_dispersion_frac			= 1.0
+zoom_cam_dispersion_inc				= 0.25
+zoom_cam_max_angle					= 50.0
+zoom_cam_max_angle_horz				= 50.0
+zoom_cam_step_angle_horz			= 1.25
+
+PDM_disp_accel_factor				= 1.5
+PDM_disp_base						= 1.3
+PDM_disp_crouch						= 1.0
+PDM_disp_crouch_no_acc				= 1.0
+PDM_disp_vel_factor					= 1.5
+
+cam_relax_speed_ai					= 360
+zoom_cam_relax_speed_ai				= 120.75
+holder_fov_modifier					= 0.75
+holder_range_modifier				= 2.00
+min_radius							= 50
+max_radius							= 90
+hit_probability_gd_novice			= 1.0
+hit_probability_gd_stalker			= 1.0
+hit_probability_gd_veteran			= 1.0
+hit_probability_gd_master			= 1.0
+
+kill_msg_x							= 0
+kill_msg_y							= 0
+kill_msg_width						= 98
+kill_msg_height						= 23
+
+laser_status			= true
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud			= true	
+
+;============================SOUNDS===================================================
+snd_draw				= weapons\ash12_tac\ashtac_draw
+snd_holster				= weapons\ash12_tac\ashtac_holster
+snd_empty				= weapons\ash12_tac\ashtac_empty, 0.8
+snd_reload				= weapons\ash12_tac\ashtac_reload
+snd_reload_empty		= weapons\ash12_tac\ashtac_reload_empty
+snd_reload_misfire		= weapons\ash12_tac\ashtac_misfire
+snd_switch				= weapons\ash12_tac\ashtac_switch
+snd_bore				= weapons\ash12_tac\ashtac_bore
+snd_shoot				= weapons\ash12_tac\ashtac_shoot
+snd_shoot_actor			= weapons\ash12_tac\ashtac_shoot
+snd_silncer_shot		= weapons\ash12_tac\ashtac_silenced
+snd_silncer_shot_actor	= weapons\ash12_tac\ashtac_silenced
+
+;============================HUD===================================================
+[wpn_shak12_tactical_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true	
+
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
+
+hands_orientation		= 0.3996, -0.2412, 0.0208
+hands_orientation_16x9	= 0.3996, -0.2412, 0.0208
+hands_position			= 0.0295, 0.001472, 0.072174
+hands_position_16x9		= 0.0295, 0.001472, 0.072174
+
+aim_hud_offset_pos		= -0.08192, -0.011474, -0.027536
+aim_hud_offset_pos_16x9	= -0.08192, -0.011474, -0.027536
+aim_hud_offset_rot		= -0.00091, 0.00769, -0.051
+aim_hud_offset_rot_16x9	= -0.00091, 0.00769, -0.051
+
+aim_hud_offset_alt_pos		= -0.09272, -0.065598, -0.0139
+aim_hud_offset_alt_pos_16x9	= -0.09272, -0.065598, -0.0139
+aim_hud_offset_alt_rot		= 0.001506, 0.00919, 0.720506
+aim_hud_offset_alt_rot_16x9	= 0.001506, 0.00919, 0.720506
+
+gl_hud_offset_pos_16x9	= -0.027200,-0.003990,-0.029220
+gl_hud_offset_rot_16x9	= -0.046500,0.010000,0.065000
+
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1	
+
+lowered_hud_offset_pos	= 0.16, 0.02, 0.0
+lowered_hud_offset_rot	= 0.2, -0.7, 0.0
+
+gl_hud_offset_pos	= -0.092, -0.024, -0.07
+gl_hud_offset_rot	= 0.065, 0.015, 0.25
+
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
+
+;============================ANIMS===================================================
+
+anm_hide							= wpn_hand_out_ashtac, idle
+anm_idle							= wpn_hand_idle_ashtac, idle
+anm_idle_aim						= wpn_hand_idle_ashtac_aim, idle
+anm_idle_aim_moving					= wpn_hand_idle_ashtac_aim, idle
+anm_idle_moving_crouch				= wpn_hand_walk_ashtac, idle
+anm_idle_aim_moving_crouch			= wpn_hand_walk_ashtac_aim, idle
+anm_idle_moving						= wpn_hand_walk_ashtac, idle
+anm_idle_sprint						= wpn_hand_run_alone_hand_ashtac, idle
+anm_reload							= wpn_hand_reload_ashtac, wpn_reload_ashtac
+anm_reload_empty					= wpn_hand_reload_empty_ashtac, wpn_reload_empty_ashtac
+anm_shots							= wpn_hand_shoot_ashtac, wpn_shoot_ashtac
+anm_show							= wpn_hand_in_ashtac, idle
+anm_reload_misfire					= wpn_hand_misfire_ashtac, wpn_misfire_ashtac
+anm_bore							= wpn_hand_boring_ashtac, idle
+anm_hide_empty						= wpn_hand_out_ashtac, wpn_idle_empty_ashtac
+anm_idle_empty						= wpn_hand_idle_ashtac, wpn_idle_empty_ashtac
+anm_idle_aim_empty					= wpn_hand_idle_ashtac_aim, wpn_idle_empty_ashtac
+anm_idle_aim_moving_empty			= wpn_hand_walk_ashtac, wpn_idle_empty_ashtac
+anm_idle_moving_crouch_empty		= wpn_hand_walk_ashtac, wpn_idle_empty_ashtac
+anm_idle_aim_moving_crouch_empty	= wpn_hand_walk_ashtac, wpn_idle_empty_ashtac
+anm_idle_moving_empty				= wpn_hand_walk_ashtac, wpn_idle_empty_ashtac
+anm_idle_sprint_empty				= wpn_hand_run_alone_hand_ashtac, wpn_idle_empty_ashtac
+anm_shots_empty						= wpn_hand_shoot_ashtac, wpn_shoot_empty_ashtac
+anm_show_empty						= wpn_hand_in_ashtac, wpn_idle_empty_ashtac
+anm_bore_empty						= wpn_hand_boring_ashtac, wpn_idle_empty_ashtac
+
+shell_bone	= wpn_body
+shell_dir	= 0, 1, 0
+shell_point	= 0.01, -0.05, -0.1
+
+fire_bone	= muzzle
+fire_bone2	= wpn_body
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul	= 0.9
+
+;============================Addons===================================================
+[wpn_shak12_tactical_ac10632]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_ac10632_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= ac10632
+1icon_layer_x	= 129
+1icon_layer_y	= -16
+inv_grid_y		= 4
+
+inv_weight		= 4.515
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_ac10632_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_ac10632_hud.ogf
+
+aim_hud_offset_pos		= -0.081875, 0.00178, -0.034478
+aim_hud_offset_pos_16x9	= -0.081875, 0.00178, -0.034478
+aim_hud_offset_rot		= -0.000321, 0.007217, -0.066078
+aim_hud_offset_rot_16x9	= -0.000321, 0.007217, -0.066078
+;-------------------------------------------------------------------------------
+[wpn_shak12_tactical_acog]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_acog_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= acog
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.850
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true	
+
+[wpn_shak12_tactical_acog_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_acog_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+
+;-------------------------------------------------------------------------------
+[wpn_shak12_tactical_eot]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_eot_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= eot
+1icon_layer_x	= 129
+1icon_layer_y	= -16
+inv_grid_y		= 4
+
+inv_weight		= 4.800
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_eot_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_eot_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-----------------------------------------------------------------------------
+[wpn_shak12_tactical_c-more]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_c-more_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= c-more
+1icon_layer_x	= 129
+1icon_layer_y	= -16
+inv_grid_y		= 4
+
+inv_weight		= 4.800
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_c-more_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_c-more_hud.ogf
+
+aim_hud_offset_pos		= -0.081875, 0.00178, -0.034478
+aim_hud_offset_pos_16x9	= -0.081875, 0.00178, -0.034478
+aim_hud_offset_rot		= -0.000321, 0.007217, -0.066078
+aim_hud_offset_rot_16x9	= -0.000321, 0.007217, -0.066078
+;--------------------------------------------------------------------------------
+[wpn_shak12_tactical_specter]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_specter_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= specter
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 5.170
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true	
+
+[wpn_shak12_tactical_specter_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_specter_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+
+;--------------------------------------------------------------------------------
+[wpn_shak12_tactical_0kp2]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_0kp2_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= 0kp2
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.700
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_0kp2_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_0kp2_hud.ogf
+
+aim_hud_offset_pos		= -0.080755, 0.00882, -0.060062
+aim_hud_offset_pos_16x9	= -0.080755, 0.00882, -0.060062
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_d0cter]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_d0cter_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= d0cter
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.530
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_d0cter_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_d0cter_hud.ogf
+
+aim_hud_offset_pos		= -0.081875, 0.018853, -0.094205
+aim_hud_offset_pos_16x9	= -0.081875, 0.018853, -0.094205
+aim_hud_offset_rot		= 0.001384, 0.007217, -0.053924
+aim_hud_offset_rot_16x9	= 0.001384, 0.007217, -0.053924
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_mepro]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_mepro_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= mepro
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.872
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_mepro_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_mepro_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_aimpoint]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_aimpoint_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= aimpoint
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.630
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_aimpoint_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_aimpoint_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+
+[wpn_shak12_tactical_point_aimpro]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_point_aimpro_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= point_aimpro
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.830
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_point_aimpro_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_aimpoint_pro_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_ekp8_18]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_ekp8_18_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= ekp8_18
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.773
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_ekp8_18_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_ekp8_18_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_e0t2]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_e0t2_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= e0t2
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.727
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_e0t2_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_e0t2_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_pn23]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_pn23_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= pn23
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 5.150
+
+nv_scope_status	= 1
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+use_alt_aim_hud		= true
+
+;zoom_rotate_time	= 0.25
+;scope_lense_fov	= 12
+
+[wpn_shak12_tactical_pn23_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_pn23_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-------------------------------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_deltapoint]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_deltapoint_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= deltapoint
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.541
+
+scope_status	= 0
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_deltapoint_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_deltapoint_hud.ogf
+
+aim_hud_offset_pos		= -0.081875, 0.018853, -0.094205
+aim_hud_offset_pos_16x9	= -0.081875, 0.018853, -0.094205
+aim_hud_offset_rot		= 0.001384, 0.007217, -0.053924
+aim_hud_offset_rot_16x9	= 0.001384, 0.007217, -0.053924
+		
+;----------------------------------------------------------------------------------------
+[wpn_shak12_tactical_rmr]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_rmr_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= rmr
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.534
+
+use_alt_aim_hud	= false
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_shak12_tactical_rmr_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_rmr_hud.ogf
+
+aim_hud_offset_pos		= -0.081875, 0.018853, -0.094205
+aim_hud_offset_pos_16x9	= -0.081875, 0.018853, -0.094205
+aim_hud_offset_rot		= 0.001384, 0.007217, -0.053924
+aim_hud_offset_rot_16x9	= 0.001384, 0.007217, -0.053924
+;----------------------------------------------------------------------------------------
+[wpn_shak12_tactical_compm4s]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_compm4s_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= compm4s
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.980
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_compm4s_hud]:wpn_shak12_tactical_hud
+item_visual		= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_compm4s_hud.ogf
+
+aim_hud_offset_pos		= -0.082195, 0.002851, -0.044063
+aim_hud_offset_pos_16x9	= -0.082195, 0.002851, -0.044063
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;--------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_rakurs]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_rakurs_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= rakurs
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 5.100
+
+use_alt_aim_hud	= false
+
+[wpn_shak12_tactical_rakurs_hud]:wpn_shak12_tactical_hud
+item_visual		= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_rakurs_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;---------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_susat]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_susat_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= susat
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 5.020
+
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_susat
+scope_zoom_factor	= 25
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud	= true	
+
+[wpn_shak12_tactical_susat_hud]:wpn_shak12_tactical_hud
+item_visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_susat_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+;-----------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_kemper]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_kemper_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_x		= 0
+inv_grid_y		= 2
+
+1icon_layer		= kemper
+1icon_layer_x	= 124
+1icon_layer_y	= -18
+inv_grid_y		= 4
+
+inv_weight		= 4.866
+
+use_alt_aim_hud	= false
+
+scope_status	= 0
+
+scope_dynamic_zoom	= off
+
+[wpn_shak12_tactical_kemper_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_kemper_hud.ogf
+
+aim_hud_offset_pos		= -0.085075, 0.008396, -0.053898
+aim_hud_offset_pos_16x9	= -0.085075, 0.008396, -0.053898
+aim_hud_offset_rot		= 0.000532, 0.009457, 0.002187
+aim_hud_offset_rot_16x9	= 0.000532, 0.009457, 0.002187
+;------------------------------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------LEWD	Kits-------------------------------------------------
+
+[wpn_shak12_tactical_kit_lewd_specialist]:wpn_shak12_tactical
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_height	= 2
+inv_grid_width	= 5
+inv_grid_x		= 0
+inv_grid_y		= 4
+
+inv_name		= st_wpn_ash_tactical_specialist
+description		= st_wpn_ash_tactical_specialist_descr
+
+silencer_status	= 1
+
+hud				= wpn_shak12_tactical_kit_lewd_specialist_hud
+
+inv_weight		= 4.50
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;installed_upgrades	= up_fourtc_svd_nimble
+
+use_alt_aim_hud	= true
+scope_zoom_factor_alt	= 0
+
+;============================SOUNDS===================================================
+snd_silncer_shot		= weapons\ash12_tac\ashtac_silenced_spec
+snd_silncer_shot_actor	= weapons\ash12_tac\ashtac_silenced_spec
+
+[wpn_shak12_tactical_kit_lewd_specialist_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_kit_lewd_specialist_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+		
+aim_hud_offset_alt_pos		= -0.09272, -0.065598, -0.0139
+aim_hud_offset_alt_pos_16x9	= -0.09272, -0.065598, -0.0139
+aim_hud_offset_alt_rot		= 0.001506, 0.00919, 0.720506
+aim_hud_offset_alt_rot_16x9	= 0.001506, 0.00919, 0.720506
+
+;------------------------------------------------------------------------------------------------------
+[wpn_shak12_tactical_kit_lewd_operator]:wpn_shak12_tactical
+hud				= wpn_shak12_tactical_kit_lewd_operator_hud
+visual			= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_world.ogf
+
+inv_grid_height	= 2
+inv_grid_width	= 4
+inv_grid_x		= 0
+inv_grid_y		= 6
+
+inv_name		= st_wpn_ash_tactical_operator
+description		= st_wpn_ash_tactical_operator_descr
+
+inv_weight		= 5.50
+
+scope_status		= 1
+scope_texture		= wpn_crosshair_march_shorty
+scope_zoom_factor	= 20
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+
+use_alt_aim_hud	= true
+
+;============================SOUNDS===================================================
+snd_silncer_shot		= weapons\ash12_tac\ashtac_silenced_spec
+snd_silncer_shot_actor	= weapons\ash12_tac\ashtac_silenced_spec
+
+[wpn_shak12_tactical_kit_lewd_operator_hud]:wpn_shak12_tactical_hud
+item_visual	= dynamics\weapons\wpn_ash_tactical\wpn_ash_tactical_kit_lewd_operator_hud.ogf
+
+aim_hud_offset_pos		= -0.082835, -0.000134, -0.0302
+aim_hud_offset_pos_16x9	= -0.082835, -0.000134, -0.0302
+aim_hud_offset_rot		= -0.000106, 0.007377, -0.064371
+aim_hud_offset_rot_16x9	= -0.000106, 0.007377, -0.064371
+
+aim_hud_offset_alt_pos		= -0.081875, 0.002422, -0.041267
+aim_hud_offset_alt_pos_16x9	= -0.081875, 0.002422, -0.041267
+aim_hud_offset_alt_rot		= -0.000745, 0.007377, -0.064371
+aim_hud_offset_alt_rot_16x9	= -0.000745, 0.007377, -0.064371
+;------------------------------------------------------------------------------------------------------

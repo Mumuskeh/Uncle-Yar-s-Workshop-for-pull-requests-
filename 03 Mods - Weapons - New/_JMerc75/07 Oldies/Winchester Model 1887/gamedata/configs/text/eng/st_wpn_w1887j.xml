@@ -1,15 +1,15 @@
 <string_table>
-			<string id="st_wpn_w_1887_j">
+			<string id="st_wpn_winchester1887_j">
 		<text>Model 1887 "T-800"</text>
 	</string>
-	<string id="st_wpn_w_1887_j_descr">
+	<string id="st_wpn_winchester1887_j_descr">
 		<text>The Winchester Model 1887 shotgun is a legendary lever-action firearm known for its robust design and reliable performance. Introduced at the end of the 19th century, this shotgun quickly gained popularity among lawmen, outlaws, and sportsmen alike. Its distinctive lever-action mechanism allows for rapid cycling of shells, making it a formidable weapon in close-quarters combat or hunting situations. With its classic exposed hammer and walnut stock, the Winchester 1887 is not only a reliable firearm but also a piece of American history, embodying the rugged spirit of the Wild West. \n \n</text>
 	</string>
 	
-				<string id="wpn_w_1887_j_long">
+				<string id="wpn_winchester1887_j_long">
 		<text>Model 1887</text>
 	</string>
-	<string id="wpn_w_1887_j_long_descr">
+	<string id="wpn_winchester1887_j_long_descr">
 		<text>The Winchester Model 1887 variant with a longer barrel and full stock embodies a classic and formidable presence. Its extended barrel enhances accuracy and range, making it ideal for hunting or target shooting. The full stock provides a comfortable and secure grip, allowing for steady aim and control. This variant retains the iconic lever-action mechanism of the original, ensuring reliable and swift cycling of shells. With its timeless design and enhanced features, the Winchester 1887 with a longer barrel and full stock is a symbol of American craftsmanship and a favored choice among shooters who appreciate both tradition and performance. \n \n</text>
 	</string>
 	

@@ -6,6 +6,7 @@ Optics and laser sights for firearms [Joseph Porta]
 
 ----------------------------------------------------------
 -Explanation:
+
 Resized and compacted its icon files.
 
 ----------------------------------------------------------

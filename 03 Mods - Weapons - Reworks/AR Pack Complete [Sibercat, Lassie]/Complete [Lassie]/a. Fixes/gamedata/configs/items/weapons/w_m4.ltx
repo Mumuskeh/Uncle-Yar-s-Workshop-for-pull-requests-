@@ -226,7 +226,8 @@ anm_shots								 = ar_pack_ras_m4a1_hand_shot, ar_pack_ras_m4a1_shot
 anm_show								 = ar_pack_ras_m4a1_hand_in, idle
 anm_reload_misfire						 = ar_pack_ras_m4a1_hand_misfire, ar_pack_ras_m4a1_misfire
 anm_bore								 = ar_pack_ras_m4a1_hand_inspect, idle
- Gl_off
+
+ ; Gl_off
 ; ---------------------------------------
 anm_hide_w_gl							 = ar_pack_ras_m4a1_hand_out_w_gl, idle
 anm_idle_moving_crouch_w_gl_aim			 = ar_pack_ras_m4a1_hand_crouch_w_gl, idle
@@ -242,7 +243,8 @@ anm_show_w_gl							 = ar_pack_ras_m4a1_hand_in_w_gl, idle
 anm_switch_g							 = ar_pack_ras_m4a1_hand_switch_on, ar_pack_ras_m4a1_switch_on
 anm_reload_misfire_w_gl					 = ar_pack_ras_m4a1_hand_misfire_w_gl, ar_pack_ras_m4a1_misfire
 anm_bore_w_gl							 = ar_pack_ras_m4a1_hand_boring_w_gl, idle
-GL_On
+
+; GL_On
 ; ----------------------------------------
 anm_hide_g								 = ar_pack_ras_m4a1_hand_out_gl, ar_pack_ras_m4a1_idle_gl
 anm_idle_g								 = ar_pack_ras_m4a1_hand_idle_gl, ar_pack_ras_m4a1_idle_gl
@@ -269,6 +271,9 @@ freelook_z_offset_mul					 = 0.15
 
 ;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
 [wpn_m4_ac10632]:wpn_m4
+hud										 = wpn_m4_ac10632_hud
+visual 									 = dynamics\weapons\wpn_m4\wpn_m4a1_ras.ogf
+
 inv_grid_x                               = 0
 inv_grid_y                               = 2
 1icon_layer                              = ac10632
@@ -276,10 +281,6 @@ inv_grid_y                               = 2
 1icon_layer_y                            = -7
 
 inv_weight                               = 3.250
-
-hud										 = wpn_m4_ac10632_hud
-visual 									 = dynamics\weapons\wpn_m4\wpn_m4a1_ras.ogf
-
 
 [wpn_m4_ac10632_hud]:wpn_m4_hud
 item_visual                				 = dynamics\weapons\wpn_m4\wpn_m4a1_ras_barska_hud.ogf
@@ -304,6 +305,9 @@ gl_hud_offset_rot_16x9           		 = -0.034561, 0.031736, 0.25
 
 ;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
 [wpn_m4_acog]:wpn_m4
+hud										 = wpn_m4_acog_hud
+visual                                   = dynamics\weapons\wpn_m4\wpn_m4a1_ras_acog.ogf
+
 inv_grid_x                               = 0
 inv_grid_y                               = 2
 1icon_layer                              = acog
@@ -311,9 +315,6 @@ inv_grid_y                               = 2
 1icon_layer_y                            = -6
 
 inv_weight								 = 3.3
-
-hud										 = wpn_m4_acog_hud
-visual                                   = dynamics\weapons\wpn_m4\wpn_m4a1_ras_acog.ogf
 
 scope_status                             = 1
 scope_texture                            = wpn_crosshair_acog
@@ -323,7 +324,6 @@ scope_dynamic_zoom		                 = off
 
 ;zoom_rotate_time                        = 0.25
 ;scope_lense_fov                         = 11
-
 
 [wpn_m4_acog_hud]:wpn_m4_hud
 item_visual            	 				 = dynamics\weapons\wpn_m4\wpn_m4a1_ras_acog_hud.ogf
@@ -340,6 +340,9 @@ gl_hud_offset_rot_16x9          		 = -0.027242, 0.031836, 0.25
 
 ;---------------------------------------------------------------------------Addons----------------------------------------------------------------------
 [wpn_m4_eot]:wpn_m4
+hud										 = wpn_m4_eot_hud
+visual 									 = dynamics\weapons\wpn_m4\wpn_m4a1_ras_eot.ogf
+
 inv_grid_x                               = 0
 inv_grid_y                               = 2
 1icon_layer                              = eot
@@ -347,10 +350,6 @@ inv_grid_y                               = 2
 1icon_layer_y                            = -3
 
 inv_weight                               = 3.250
-
-hud										 = wpn_m4_eot_hud
-visual 									 = dynamics\weapons\wpn_m4\wpn_m4a1_ras_eot.ogf
-
 
 [wpn_m4_eot_hud]:wpn_m4_hud
 item_visual                				 = dynamics\weapons\wpn_m4\wpn_m4a1_ras_eot_hud.ogf
@@ -372,5 +371,4 @@ gl_hud_offset_pos                		 = -0.09504, -0.055779, -0.07
 gl_hud_offset_pos_16x9           		 = -0.09504, -0.055779, -0.07
 gl_hud_offset_rot                		 = -0.034561, 0.031736, 0.25
 gl_hud_offset_rot_16x9           		 = -0.034561, 0.031736, 0.25
-
 ;---------------------------------------------------------------------------End----------------------------------------------------------------------

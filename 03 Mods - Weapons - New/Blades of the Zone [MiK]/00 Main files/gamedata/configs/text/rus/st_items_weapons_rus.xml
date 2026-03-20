@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	ia ne eby kak eto delat
+-->
+
+<string_table>
+
+	<string id="st_knifebf4">
+        <text>Мачете SP-8</text>
+    </string>
+    <string id="st_knifebf4_descr">
+        <text>SP8, мачете для выживания, выполненное из цельного куска высокоуглеродистой стали.</text>
+    </string>
+	
+	<string id="st_kukri">
+        <text>United Cutlery M48 Кукри</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>48 серия тактического кукри сделанного компанией "United Cutlery". Имеет нержавеющее стальное лезвие и прорезиненную рукоятку. Идеальное дополнение к каждому арсеналу выживальщика!</text>
+		</string>
+	
+	<string id="st_tactical_knife">
+		<text>APOK "Пустынный Гладиус"</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>Тактический меч "Пустынный Гладиус". Сделан компанией APOK. Кто-то сказал то что с помощью данного меча один из монолитовцев зачищал целые отряды сталкеров. Если верить слухам, конечно же.</text>
+	</string>
+
+
+	<string id="st_knife_combat">
+		<text>Мачете Тайга-1</text>
+	</string>
+	<string id="st_knife_combat_descr">
+		<text>Поистине универсальная вещь для выживания. Это и оружие и лопата и топор и всё что вы только можете себе представить. Был разработан и производился в СССР для разных структур.</text>
+	</string>
+
+
+	<string id="st_knife_6x4">
+		<text>Штык-нож Изделие 6Х5</text>
+	</string>
+	<string id="st_knife_6x4_descr">
+		<text>Изделие 6Х5- штык-нож, принятый на вооружение в 1989 году для использования с автоматами АК74. Непригоден для разделки толстокожих мутантов.</text>
+	</string>
+
+
+	<string id="st_tomahawk">
+		<text>SOG Voodoo Hawk Томагавк</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>SOG Voodoo Hawk объединил в себе три лучшие черты: удлиненную режущую головку, компактную рукоятку из нейлона, армированного стекловолокном, и металлическую заглушку на конце.</text>
+	</string>
+
+
+	<string id="st_knife_hunting">
+		<text>Барс А-2607 Дамаск</text>
+	</string>
+	<string id="st_knife_hunting_descr">
+		<text>Нож от Барс А-2607 выполненный из дамасской стали с рукоятью венге и латунной гардой.</text>
+	</string>
+	
+
+	<string id="st_knife_needle">
+		<text>Барс А-2607 95x18</text>
+	</string>
+	<string id="st_knife_needle_descr">
+		<text>Нож от Барс А-2607 кованый из стали 95Х18 с рукоятью из ценных пород дерева и латунной гардой. Непригоден для разделки толстокожих мутантов.</text>
+	</string>
+
+
+	<string id="st_knife_swat">
+		<text>Miller Bros. Blades M-2</text>
+	</string>
+	<string id="st_knife_swat_descr">
+		<text>Тактический меч "M-2", сделанный компанией Miller Bros.</text>
+	</string>
+
+</string_table>

@@ -8,7 +8,7 @@ Let this overwrite the original mod.
 ----------------------------------------------------------
 -Explanation:
 
-Actor effects and Grok's Recoil configs tweaked to follow a VSSK, not a Beretta (different calibers and all that).
+Actor effects and Grok's Recoil configs tweaked to follow a VSSK, not an AK (different calibers and all that).
 
 Integration into:
 Grok's Stash Overhaul

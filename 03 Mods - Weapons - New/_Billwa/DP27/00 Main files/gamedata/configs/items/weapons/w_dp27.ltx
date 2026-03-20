@@ -34,7 +34,7 @@ hit_impulse				= 40
 hit_power				= 0.77, 0.77, 0.77, 0.77
 hit_type				= fire_wound
 fire_distance			= 900
-bullet_speed			= 840
+bullet_speed			= 940
 rpm						= 500
 rpm_empty_click			= 120
 
@@ -42,6 +42,7 @@ hud						= wpn_dp27_hud
 visual					= dynamics\weapons\wpn_dp27\wpn_dp27.ogf
 
 shell_particles			= ;weapons\9x18
+
 silencer_x				= 188
 silencer_y				= 10
 silencer_status			= 0
@@ -122,9 +123,9 @@ snd_shoot_actor_first5	= wpn\dp27\stereo\dp27_single_stereo_close5, 0.9
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ;======================================================================================================================================================;
-;					;
-;	SHOOTING LAYERS	;
-;					;
+;								;
+;		SHOOTING LAYERS			;
+;								;
 ;======================================================================================================================================================;
 
 [wpn_dp27_snd_shoot_npc]
@@ -139,10 +140,10 @@ snd_1_layer4	= wpn\dp27\stereo\dp27_cyclic_stereo_close5, 1.0, 0.068
 
 [wpn_dp27_hud]:hud_base
 item_visual			= anomaly_weapons\wpn_dp27\wpn_dp27_hud.ogf
-	
+
 attach_place_idx	= 0
-zoom_hide_crosshair	= true	
-	
+zoom_hide_crosshair	= true
+
 item_position		= 0, 0, 0
 item_orientation	= 0, 0, 0
 
@@ -168,7 +169,7 @@ lowered_hud_offset_pos		= 0.066434, -0.004754, 0.007759
 lowered_hud_offset_pos_16x9	= 0.066434, -0.004754, 0.007759
 lowered_hud_offset_rot		= 0.186898, -0.469335, 0.1
 lowered_hud_offset_rot_16x9	= 0.186898, -0.469335, 0.1
-;-----------------------------------------------------------------------------------		
+;-----------------------------------------------------------------------------------
 anm_reload_ammo1	= dp27_reload_part, dp27_reload_ammo_1
 anm_reload_ammo2	= dp27_reload_part, dp27_reload_ammo_2
 anm_reload_ammo3	= dp27_reload_part, dp27_reload_ammo_3
@@ -217,7 +218,7 @@ anm_reload_ammo45	= dp27_reload_part, dp27_reload_ammo_45
 anm_reload_ammo46	= dp27_reload_part, dp27_reload_ammo_46
 anm_reload			= dp27_reload_part, dp27_reload_ammo_46
 anm_reload_empty	= dp27_reload_full
-;-----------------------------------------------------------------------------------		
+;-----------------------------------------------------------------------------------
 anm_reload_misfire			= dp27_rasklin, dp27_rasklin_ammo_47
 anm_reload_misfire_ammo1	= dp27_rasklin, dp27_rasklin_ammo_1
 anm_reload_misfire_ammo2	= dp27_rasklin, dp27_rasklin_ammo_2
@@ -266,7 +267,7 @@ anm_reload_misfire_ammo44	= dp27_rasklin, dp27_rasklin_ammo_44
 anm_reload_misfire_ammo45	= dp27_rasklin, dp27_rasklin_ammo_45
 anm_reload_misfire_ammo46	= dp27_rasklin, dp27_rasklin_ammo_46
 anm_reload_misfire_ammo47	= dp27_rasklin, dp27_rasklin_ammo_47
-;-----------------------------------------------------------------------------------		
+;-----------------------------------------------------------------------------------
 anm_shots_ammo1		= dp27_shot, dp27_shot_ammo_1
 anm_shots_ammo2		= dp27_shot, dp27_shot_ammo_2
 anm_shots_ammo3		= dp27_shot, dp27_shot_ammo_3
@@ -314,7 +315,7 @@ anm_shots_ammo44	= dp27_shot, dp27_shot_ammo_44
 anm_shots_ammo45	= dp27_shot, dp27_shot_ammo_45
 anm_shots_ammo46	= dp27_shot, dp27_shot_ammo_46
 anm_shots_ammo47	= dp27_shot, dp27_shot_ammo_47
-;-----------------------------------------------------------------------------------		
+;-----------------------------------------------------------------------------------
 anm_shots_aim			= dp27_shot_aim, dp27_shot_ammo_47
 anm_shots_aim_ammo1		= dp27_shot_aim, dp27_shot_ammo_1
 anm_shots_aim_ammo2		= dp27_shot_aim, dp27_shot_ammo_2
@@ -363,7 +364,7 @@ anm_shots_aim_ammo44	= dp27_shot_aim, dp27_shot_ammo_44
 anm_shots_aim_ammo45	= dp27_shot_aim, dp27_shot_ammo_45
 anm_shots_aim_ammo46	= dp27_shot_aim, dp27_shot_ammo_46
 anm_shots_aim_ammo47	= dp27_shot_aim, dp27_shot_ammo_47
-;-----------------------------------------------------------------------------------		
+;-----------------------------------------------------------------------------------
 anm_ammo_check_ammo1	= dp27_mag_check, dp27_mag_check_ammo_1
 anm_ammo_check_ammo2	= dp27_mag_check, dp27_mag_check_ammo_2
 anm_ammo_check_ammo3	= dp27_mag_check, dp27_mag_check_ammo_3
@@ -1166,7 +1167,7 @@ anm_idle_aim_end_empty	= dp27_aim_in, idle_empty
 ts_pattern_sprint_start		= .+, anm_idle_sprint, anm_sprint_start, 1
 ts_pattern_sprint_end		= anm_idle_sprint, ^anm_idle.*, anm_sprint_end
 ts_strict_sprint_end_move	= anm_sprint_start, anm_idle_moving, anm_sprint_end
-;-----------------------------------------------------------------------------------	
+;-----------------------------------------------------------------------------------
 shell_bone	= wpn_body
 shell_point	= 0,0,0
 shell_dir	= 0,0,0
