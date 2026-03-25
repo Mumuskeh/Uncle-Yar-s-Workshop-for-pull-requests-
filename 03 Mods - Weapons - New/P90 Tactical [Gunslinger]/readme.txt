@@ -30,5 +30,9 @@ Weapon Parts Overhaul
 Boomsticks and Sharpsticks
 Cleaned up files to use the BaS scopes.
 
+Mags Redux Standalone
+If you don't want the weapon (say because you don't want bloat in your game), this will add the extended P90 mag in the mod and nothing more.
+They're not assigned to guns carried by NPCs, and must be bought.
+
 ----------------------------------------------------------
 -Known issues:

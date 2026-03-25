@@ -575,12 +575,15 @@ wpn_colt1911_modern:r:r
 wpn_usp_match:r:r
 
 
-[monolith_novice_extra]:extras_novice
+[monolith_basic_extras]
 
-[monolith_experienced_extra]:extras_experienced
+[monolith_novice_extra]:monolith_basic_extras
 
-[monolith_veteran_extra]:extras_veteran
+[monolith_experienced_extra]:monolith_novice_extra
+
+[monolith_veteran_extra]:monolith_experienced_extra
 grenade_gd-05:0:1
 grenade_rgd5:0:1
 
-[monolith_master_extra]:extras_master
+[monolith_master_extra]:monolith_veteran_extra
+grenade_f1:0:1

@@ -328,10 +328,14 @@ wpn_saiga12s:r:r
 wpn_fnc:r:r
 
 
-[ecolog_stalker_extra]:extras_novice
+[ecolog_basic_extras]
 
-[ecolog_experienced_extra]:extras_experienced
+[ecolog_stalker_extra]:ecolog_basic_extras
 
-[ecolog_merc_extra]:extras_veteran
+[ecolog_experienced_extra]:ecolog_stalker_extra
 
-[ecolog_master_extra]:extras_master
+[ecolog_merc_extra]:ecolog_experienced_extra
+grenade_rgd5:0:1
+
+[ecolog_master_extra]:ecolog_merc_extra
+grenade_f1:0:1

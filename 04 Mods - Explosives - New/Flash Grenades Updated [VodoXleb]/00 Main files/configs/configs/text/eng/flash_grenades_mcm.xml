@@ -1,0 +1,63 @@
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+	
+	<string id="ui_mcm_menu_flash_grenades">
+		<text>Flash Grenades</text>
+	</string>
+	
+	<string id="ui_mcm_flashgren_title_1">
+		<text>Stun time settings (6 in-game seconds equal to 1 real life second)</text>
+	</string>		
+	
+	<string id="ui_mcm_flash_grenades_actor_stun_time">
+		<text>Actor stun time (in-game seconds):</text>
+	</string>
+	<string id="ui_mcm_flash_grenades_actor_stun_time_desc">
+		<text>6 in-game seconds equal to 1 real second</text>
+	</string>
+	
+	<string id="ui_mcm_flash_grenades_npc_stun_time">
+		<text>NPC stun time (in-game seconds):</text>
+	</string>
+	<string id="ui_mcm_flash_grenades_npc_stun_time_desc">
+		<text>6 in-game seconds equal to 1 real second</text>
+	</string>
+
+	<string id="ui_mcm_flash_grenades_eft_like">
+		<text>EFT style</text>
+	</string>
+	<string id="ui_mcm_flash_grenades_eft_like_desc">
+		<text>Screen will go black and flash will be displayed instead of white screen</text>
+	</string>
+
+	<string id="ui_mcm_flash_grenades_can_dodge">
+		<text>Ability to dodge grenades:</text>
+	</string>
+	<string id="ui_mcm_flash_grenades_can_dodge_desc">
+		<text>If you are not looking at grenade at the explosion moment, it can affect you less</text>
+	</string>
+
+	<string id="ui_mcm_lst_vulnerable">
+		<text>Always affected</text>
+	</string>
+	
+	<string id="ui_mcm_lst_invincible">
+		<text>Not affected</text>
+	</string>
+	
+	<string id="ui_mcm_lst_time_based">
+		<text>Affected but the time is reduced</text>
+	</string>
+
+	<string id="ui_mcm_flash_grenades_dodge_mult">
+		<text>Dodge multiplier:</text>
+	</string>
+	<string id="ui_mcm_flash_grenades_dodge_mult_desc">
+		<text>If you selected time reducing dodge it will be multiplicated by this</text>
+	</string>
+
+</string_table>

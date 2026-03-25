@@ -10,6 +10,9 @@ VSSK Reanimation [BarryBogs]
 ----------------------------------------------------------
 -Patches:
 
+DLTX Trader distribution
+Disables the scripted trader_autoinject method in favor of DLTX.
+
 Better Upgrades (DLTX Minimod) [Demonized]
 Halved Installed Upgrades (DLTX Minimod)
 Both upgrades modules complained continually on boot up about not finding the upgrades that Barry's VSSK mod deletes. I got fed up and made them shut the f up.

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_pouchsmall2_name">
+        <text>Small magazine pouch - 2 pockets</text>
+    </string>
+    <string id="st_pouchsmall2_name_s">
+        <text>Small pouch - 2</text>
+    </string>
+	<string id="st_pouchsmall2_desc">
+        <text>Pouch with two small magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall3_name">
+        <text>Small magazine pouch - 3 pockets</text>
+    </string>
+    <string id="st_pouchsmall3_name_s">
+        <text>Small pouch - 3</text>
+    </string>
+	<string id="st_pouchsmall3_desc">
+        <text>Pouch with three small magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall8_name">
+        <text>Small magazine pouch - 8 pockets</text>
+    </string>
+    <string id="st_pouchsmall8_name_s">
+        <text>Small pouch - 8</text>
+    </string>
+	<string id="st_pouchsmall8_desc">
+        <text>Pouch with eight small magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium1_name">
+        <text>Medium magazine pouch - 1 pocket</text>
+    </string>
+    <string id="st_pouchmedium1_name_s">
+        <text>Medium pouch - 1</text>
+    </string>
+	<string id="st_pouchmedium1_desc">
+        <text>Pouch with one medium magazine pocket, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		%c[d_cyan] • %c[ui_gray_2] Dual slot item\n
+		</text>
+    </string>
+
+	<string id="st_pouchmedium2_name">
+        <text>Medium magazine pouch - 2 pockets</text>
+    </string>
+	<string id="st_pouchmedium2_name_s">
+        <text>Medium pouch - 2</text>
+    </string>
+	<string id="st_pouchmedium2_desc">
+        <text>Pouch with two medium magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+	<string id="st_pouchmedium3_name">
+        <text>Medium magazine pouch - 3 pockets</text>
+    </string>
+	<string id="st_pouchmedium3_name_s">
+        <text>Medium pouch - 3</text>
+    </string>
+	<string id="st_pouchmedium3_desc">
+        <text>Pouch with three medium magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+	<string id="st_pouchmedium6_name">
+        <text>Medium magazine pouch - 6 pockets</text>
+    </string>
+	<string id="st_pouchmedium6_name_s">
+        <text>Medium pouch - 6</text>
+    </string>
+	<string id="st_pouchmedium6_desc">
+        <text>Pouch with six medium magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		%c[d_cyan] • %c[ui_gray_2] Dual slot item\n
+		</text>
+    </string>
+
+	<string id="st_pouchlarge_name">
+        <text>Drum Magazine pouch - 1 pocket</text>
+    </string>
+	<string id="st_pouchlarge_name_s">
+        <text>Drum pouch - 1</text>
+    </string>
+	<string id="st_pouchlarge_desc">
+        <text>A pouch designed to hold drum magazines, you can force ammo boxes to fit as well, if you insist enough. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+	<string id="st_pouchlarge2_name">
+        <text>Drum Magazine pouch - 2 pockets</text>
+    </string>
+	<string id="st_pouchlarge2_name_s">
+        <text>Drum pouch - 2</text>
+    </string>
+	<string id="st_pouchlarge2_desc">
+        <text>A pouch designed to hold two drum magazines and a few spare mags alongside it. Who needs quite amount of firepower? Who knows. You can force ammo boxes to fit as well, if you insist enough. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] military item\n
+		%c[d_cyan] • %c[ui_gray_2] can be worn on the belt\n
+		%c[d_cyan] • %c[ui_gray_2] Dual slot item\n
+		</text>
+    </string>
+
+	<string id="st_fannypack_name">
+        <text>Zone-made fanny pack</text>
+    </string>
+	<string id="st_fannypack_name_s">
+        <text>Fannypack</text>
+    </string>
+	<string id="st_fannypack_desc">
+        <text>A Zone-made fanny pack that helps distribute weight, even if it is a small pack in the belt. Can also hold a small magazine if needed. A lot of stalkers use it at a daily basis, making it easy to find.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Everyday item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+	<string id="st_fannypackadidas_name">
+        <text>Adidas fanny pack</text>
+    </string>
+	<string id="st_fannypackadidas_name_s">
+        <text>Adidas pack</text>
+    </string>
+	<string id="st_fannypackadidas_desc">
+        <text>Adidas Fanny pack, similar to the Zone-made ones, it can hold a small magazine if needed and its still as popular as the local product. Popular with bandits, mercs, and some loners.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Everyday item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+	<string id="st_sidebag_name">
+        <text>Generic sidebag</text>
+    </string>
+	<string id="st_sidebag_name_s">
+        <text>Sidebag</text>
+    </string>
+	<string id="st_sidebag_desc">
+        <text>A generic Chinese made sidebag, made of some cheap but durable materials, found plenty in the Zone and used for some cheap weight management, but this comes to a cost of being slower, more visible and more gear to get irradiated.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Everyday item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		%c[d_cyan] • %c[ui_gray_2] Dual slot item\n
+		</text>
+    </string>
+
+	<string id="st_fannypacksuckpreme_name">
+        <text>Supreme fanny pack</text>
+    </string>
+	<string id="st_fannypacksuckpreme_name_s">
+        <text>Supreme fannypack</text>
+    </string>
+	<string id="st_fannypacksuckpreme_desc">
+        <text>Sometimes these supreme fanny (funny, ho ho) packs make their way into the Zone, maybe as a luxury item, maybe some (fashion challenged) people come to the Zone with it as if it was a drip contest. Either way, it can hold a mag and help distributing weight but... are you sure that you want a bright red thing strapped to your body? maybe giving the enemy a free laser sight is the new drip. stop thinking about it, and be careful with that boar behind you...\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Everyday item? Luxury item? Drip item?\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+</string_table>

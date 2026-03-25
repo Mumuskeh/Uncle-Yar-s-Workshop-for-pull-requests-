@@ -12,7 +12,7 @@ Configs trimmed of redundant data.
 Files consolidated.
 NPC Loadout file fixed for the Marksman variant (it only repeated what the file for the Paratrooper variant did).
 Minor text edits.
-Icons gathered and trimmed.
+Icon file trimmed.
 Added default actor effects configs.
 
 Mags Redux support. Redone the support for the Marksman (because the folder is in the download, but there was nothing inside).
@@ -26,6 +26,9 @@ Weapon Parts Overhaul
 
 ----------------------------------------------------------
 -Patches:
+
+Modular Attachment System
+Splits the original MAS support, to avoid crashes in case you don't use MAS + BOOBS/PUSSY.
 
 ----------------------------------------------------------
 -Known issues:

@@ -1,0 +1,230 @@
+;===============SMALL=========
+
+[af_ammo_pouch_2_small]:af_frames
+$spawn			= "artefacts\af_ammo_pouch_2_small"
+parent_section	= af_ammo_pouch_2_small
+
+description		= st_pouchsmall2_desc
+inv_name		= st_pouchsmall2_name
+inv_name_short	= st_pouchsmall2_name_s
+
+icons_texture 	= ui\ui_icon_pouches
+inv_grid_x		= 0
+inv_grid_y		= 1
+inv_grid_width	= 1
+inv_grid_height	= 1
+
+inv_weight		= 0.25
+cost			= 11000 ; 6200
+
+hit_absorbation_sect			= af_base_absorbation
+additional_inventory_weight		= 0.1 ;3.58
+additional_inventory_weight2	= 0.1 ;3.58
+
+
+[af_ammo_pouch_3_small]:af_ammo_pouch_2_small
+$spawn			= "artefacts\af_ammo_pouch_3_small"
+parent_section	= af_ammo_pouch_3_small
+
+description		= st_pouchsmall3_desc
+inv_name		= st_pouchsmall3_name
+inv_name_short	= st_pouchsmall3_name_s
+
+inv_weight		= 0.31
+cost			= 19000 ; 6200
+
+inv_grid_x		= 1
+
+
+[af_ammo_pouch_8_small]:af_ammo_pouch_2_small
+$spawn			= "artefacts\af_ammo_pouch_8_small"
+parent_section	= af_ammo_pouch_8_small
+
+description		= st_pouchsmall8_desc
+inv_name		= st_pouchsmall8_name
+inv_name_short	= st_pouchsmall8_name_s
+
+inv_weight		= 0.45
+cost			= 46000 ; 6200
+
+inv_grid_x		= 5
+inv_grid_y		= 0
+inv_grid_width	= 2
+
+additional_inventory_weight		= 0.15 ;3.58
+additional_inventory_weight2	= 0.15 ; 3.58
+
+;===============MEDIUM=========
+
+[af_ammo_pouch_1_medium]:af_ammo_pouch_2_small
+$spawn			= "artefacts\af_ammo_pouch_1_medium"
+parent_section	= af_ammo_pouch_1_medium
+
+description		= st_pouchmedium1_desc
+inv_name		= st_pouchmedium1_name
+inv_name_short	= st_pouchmedium1_name_s
+
+inv_weight		= 0.102
+cost			= 9200 ; 6200
+
+inv_grid_x		= 2
+
+
+[af_ammo_pouch_2_medium]:af_ammo_pouch_1_medium
+$spawn			= "artefacts\af_ammo_pouch_2_medium"
+parent_section	= af_ammo_pouch_2_medium
+
+description		= st_pouchmedium2_desc
+inv_name		= st_pouchmedium2_name
+inv_name_short	= st_pouchmedium2_name_s
+
+cost			= 12500 ; 6200
+
+inv_grid_x		= 3
+
+
+[af_ammo_pouch_3_medium]:af_ammo_pouch_1_medium
+$spawn			= "artefacts\af_ammo_pouch_3_medium"
+parent_section	= af_ammo_pouch_3_medium
+
+description		= st_pouchmedium3_desc
+inv_name		= st_pouchmedium3_name
+inv_name_short	= st_pouchmedium3_name_s
+
+cost			= 18500 ; 6200
+
+inv_grid_x		= 4
+
+[af_ammo_pouch_6_medium]:af_ammo_pouch_1_medium
+$spawn			= "artefacts\af_ammo_pouch_6_medium"
+parent_section	= af_ammo_pouch_6_medium
+
+description		= st_pouchmedium6_desc
+inv_name		= st_pouchmedium6_name
+inv_name_short	= st_pouchmedium6_name_s
+
+cost			= 36500 ; 6200
+
+inv_grid_x		= 7
+inv_grid_y		= 0
+inv_grid_width	= 2
+
+;===============DRUM=========
+
+[af_ammo_pouch_large]:af_ammo_pouch_2_small
+$spawn			= "artefacts\af_ammo_pouch_large"
+parent_section	= af_ammo_pouch_large
+
+description		= st_pouchlarge_desc
+inv_name		= st_pouchlarge_name
+inv_name_short	= st_pouchlarge_name_s
+
+inv_weight		= 0.102
+cost			= 22500 ; 6200
+
+inv_grid_x		= 5
+
+
+[af_ammo_pouch_large_2]:af_ammo_pouch_large
+$spawn			= "artefacts\af_ammo_pouch_large_2"
+parent_section	= af_ammo_pouch_large_2
+
+description		= st_pouchlarge2_desc
+inv_name		= st_pouchlarge2_name
+inv_name_short	= st_pouchlarge2_name_s
+
+inv_weight		= 0.300
+cost			= 35500 ; 6200
+
+inv_grid_x		= 6
+inv_grid_width	= 2
+
+additional_inventory_weight		= 0.500;3.58
+additional_inventory_weight2	= 0.500	;3.58
+
+
+;===============FANNY PACKS=========
+
+[af_fanny_pack]:af_ammo_pouch_2_small
+$spawn			= "artefacts\af_fanny_pack"
+parent_section	= af_fanny_pack
+
+description		= st_fannypack_desc
+inv_name		= st_fannypack_name
+inv_name_short	= st_fannypack_name_s
+
+inv_weight		= 0.255
+cost			= 5100 ; 6200
+
+inv_grid_y		= 0
+
+power_restore_speed				= -0.00006
+hit_absorbation_sect			= af_fannypack_absorbation
+additional_inventory_weight		= 2.20;3.58
+additional_inventory_weight2	= 2.20	;3.58
+
+tier = 1
+
+[af_fannypack_absorbation]:af_base_absorbation
+fire_wound_immunity	= -0.0015
+
+
+[af_fanny_pack_adidas]:af_fanny_pack
+$spawn			= "artefacts\af_fanny_pack_adidas"
+parent_section	= af_fanny_pack_adidas
+
+description		= st_fannypackadidas_desc
+inv_name		= st_fannypackadidas_name
+inv_name_short	= st_fannypackadidas_name_s
+
+cost		= 5150 ; 6200
+
+inv_grid_x	= 1
+
+additional_inventory_weight	= 2.55;3.58
+additional_inventory_weight2	= 2.55	;3.58
+
+
+[af_fanny_pack_suckpreme]:af_fanny_pack
+$spawn			= "artefacts\af_fanny_pack_suckpreme"
+parent_section	= af_fanny_pack_suckpreme
+
+description		= st_fannypacksuckpreme_desc
+inv_name		= st_fannypacksuckpreme_name
+inv_name_short	= st_fannypacksuckpreme_name_s
+
+cost		= 18000 ; 6200
+
+inv_grid_x	= 2
+
+hit_absorbation_sect			= af_fannypacksupreme_absorbation
+additional_inventory_weight		= 2.65;3.58
+additional_inventory_weight2	= 2.65	;3.58
+
+[af_fannypacksupreme_absorbation]:af_base_absorbation
+burn_immunity		= -0.00015
+fire_wound_immunity	= -0.0035
+
+
+[af_sidebag]:af_fanny_pack
+$spawn			= "artefacts\af_sidebag"
+parent_section	= af_sidebag
+
+description		= st_sidebag_desc
+inv_name		= st_sidebag_name
+inv_name_short	= st_sidebag_name_s
+
+inv_weight		= 1.250
+cost			= 15000 ; 6200
+
+inv_grid_x		= 3
+inv_grid_width	= 2
+
+power_restore_speed				= -0.00101
+hit_absorbation_sect			= af_sidebag_absorbation
+additional_inventory_weight		= 12 ;3.58
+additional_inventory_weight2	= 12 ;3.58
+
+[af_sidebag_absorbation]:af_base_absorbation
+radiation_immunity	= -0.00027
+fire_wound_immunity	= -0.0075

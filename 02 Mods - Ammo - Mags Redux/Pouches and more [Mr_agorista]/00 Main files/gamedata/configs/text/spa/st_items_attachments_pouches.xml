@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_pouchsmall2_name">
+        <text>Funda para dos cargadores pequenos</text>
+    </string>
+    <string id="st_pouchsmall2_name_s">
+        <text>Small pouch - 2</text>
+    </string>
+    <string id="st_pouchsmall2_desc">
+        <text>Funda disenada para colocar 2 cargadores pequenos. De alta calidad y muy resistente. Se puede desmontar.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall3_name">
+        <text>Funda para tres cargadores pequenos</text>
+    </string>
+    <string id="st_pouchsmall3_name_s">
+        <text>Small pouch - 3</text>
+    </string>
+    <string id="st_pouchsmall3_desc">
+        <text>Funda disenada para colocar 3 cargadores pequenos. De alta calidad y muy resistente. Se puede desmontar.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall8_name">
+        <text>Small magazine pouch - 8 pockets</text>
+    </string>
+    <string id="st_pouchsmall8_name_s">
+        <text>Small pouch - 8</text>
+    </string>
+	<string id="st_pouchsmall8_desc">
+        <text>Pouch with eight small magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium1_name">
+        <text>Funda para un cargador estandar</text>
+    </string>
+    <string id="st_pouchmedium1_name_s">
+        <text>Medium pouch - 1</text>
+    </string>
+    <string id="st_pouchmedium1_desc">
+        <text>Funda disenada para colocar 1 cargador estandar (Mediano). De alta calidad y muy resistente. Se puede desmontar.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium2_name">
+        <text>Funda para dos cargadores estandar</text>
+    </string>
+	<string id="st_pouchmedium2_name_s">
+        <text>Medium pouch - 2</text>
+    </string>
+    <string id="st_pouchmedium2_desc">
+        <text>Funda disenada para colocar 2 cargadores estandar (Mediano). De alta calidad y muy resistente. Se puede desmontar.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium3_name">
+        <text>Funda para tres cargadores estandar</text>
+    </string>
+	<string id="st_pouchmedium3_name_s">
+        <text>Medium pouch - 3</text>
+    </string>
+    <string id="st_pouchmedium3_desc">
+        <text>Funda disenada para colocar 3 cargadores estandar (Mediano). De alta calidad y muy resistente. Se puede desmontar.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+	<string id="st_pouchmedium6_name">
+        <text>Medium magazine pouch - 6 pockets</text>
+    </string>
+	<string id="st_pouchmedium6_name_s">
+        <text>Medium pouch - 6</text>
+    </string>
+	<string id="st_pouchmedium6_desc">
+        <text>Pouch with six medium magazine pockets, attachable to the belt. Quite durable and high quality. Can be dismantled.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Military item\n
+		%c[d_cyan] • %c[ui_gray_2] Can be worn on the belt\n
+		%c[d_cyan] • %c[ui_gray_2] Dual slot item\n
+		</text>
+    </string>
+
+    <string id="st_pouchlarge_name">
+        <text>Funda para cargadores redondos</text>
+    </string>
+	<string id="st_pouchlarge_name_s">
+        <text>Drum pouch - 1</text>
+    </string>
+    <string id="st_pouchlarge_desc">
+        <text>Funda creada para cargadores redondos de gran capacidad. Aunque no se recomienda, se pueden forzar los cargadores cudrados o "en caja" .\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		</text>
+    </string>
+
+	<string id="st_pouchlarge2_name">
+        <text>Funda doble para cargadores redondos</text>
+    </string>
+	<string id="st_pouchlarge2_name_s">
+        <text>Drum pouch - 2</text>
+    </string>
+		  <string id="st_pouchlarge2_desc">
+        <text>Funda hecha para almacenar 2 cargadores redondos y un poco mas, quien necesita tanta potencia sigue siendo un misterio. se pueden forzar facilmente los cargadores en caja. De alta calidad y resistente, se puede desmontar\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso militar\n
+		%c[d_cyan] • %c[ui_gray_2] Utilizable en el cinturon\n
+		%c[d_cyan] • %c[ui_gray_2] Usa 2 espacios del cinturon\n
+		</text>
+    </string>
+
+	<string id="st_fannypack_name">
+        <text>Bandolera de produccion local</text>
+    </string>
+	<string id="st_fannypack_name_s">
+        <text>Bandolera</text>
+    </string>
+    <string id="st_fannypack_desc">
+        <text>Una bandolera producida localmente, ayuda a mitigar y distribuir el peso. Tiene la capacidad de portar un cargador pequeno. muchos stalkers la utilizan asi que es facil encontrar una.\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] objeto de uso diario\n
+		%c[d_cyan] • %c[ui_gray_2] se puede colocar en el cinturon\n
+		</text>
+    </string>
+
+    <string id="st_fannypackadidas_name">
+        <text>Bandolera Adidas</text>
+    </string>
+	<string id="st_fannypackadidas_name_s">
+        <text>Bandolera Adidas</text>
+    </string>
+    <string id="st_fannypackadidas_desc">
+        <text>bandolera de la marca Adidas, no muy diferente a su hermana de produccion local. distribuye el peso y se puede colocar un cargador pequeno. Utilizada principalmente por los bandidos, mercenarios y algun que otro stalker solitario..\n \n
+		%c[ui_gray_2]PROPIEDADES:\n
+		%c[d_cyan] • %c[ui_gray_2] objeto de uso diario\n
+		%c[d_cyan] • %c[ui_gray_2] se puede colocar en el cinturon\n
+		</text>
+    </string>
+
+	<string id="st_sidebag_name">
+        <text>Morral generico</text>
+    </string>
+	<string id="st_sidebag_name_s">
+        <text>Morral</text>
+    </string>
+    <string id="st_sidebag_desc">
+        <text>Morral generico fabricado en china, hecho con materiales baratos pero de calidad,Utilizado ampliamente en toda ls zona como una forma barata y efectiva de distribuir peso. Pero el uso de algo tan incomodo y grande dificulta el movimiento, te hace mas visible y te hace mas vulerable a la radiacion\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] Objeto de uso diario\n
+		%c[d_cyan] • %c[ui_gray_2] Se puede utilizar en el cinturon\n
+		%c[d_cyan] • %c[ui_gray_2] Usa 2 espacios del cinturon\n
+		</text>
+    </string>
+
+	<string id="st_fannypacksuckpreme_name">
+        <text>Bandolera Supreme</text>
+    </string>
+	<string id="st_fannypacksuckpreme_name_s">
+        <text>Bandolera Supreme</text>
+    </string>
+    <string id="st_fannypacksuckpreme_desc">
+        <text>Algunas veces estas bandoleras "Supreme" aparecen en la zona, quizas como un objeto de lujo, quizas alguien la trajo pensando que era la moda, de cualquier forma sigue siendo util para distribuir peso y entra un cargador... Estas seguro que queres una cosa asi de brillante colgando en tu cuerpo? acaso es la nueva moda darle una mira laser a tu enemigo? Yo que vos dejo de pensar en eso y me preocuparia mas por el jabali que esta detras tuyo...\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2]objeto de... Uso diario? De lujo? A la moda?\n
+		%c[d_cyan] • %c[ui_gray_2] se puede colocar en el cinturon\n
+		</text>
+    </string>
+
+</string_table>

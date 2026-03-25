@@ -286,10 +286,14 @@ wpn_cz52
 wpn_cz52:0:r
 
 
-[bandit_novice_extra]:extras_novice
+[bandit_basic_extras]
 
-[bandit_experienced_extra]:extras_experienced
+[bandit_novice_extra]:bandit_basic_extras
 
-[bandit_veteran_extra]:extras_veteran
+[bandit_experienced_extra]:bandit_novice_extra
 
-[bandit_master_extra]:extras_master
+[bandit_veteran_extra]:bandit_experienced_extra
+grenade_rgd5:0:1
+
+[bandit_master_extra]:bandit_veteran_extra
+grenade_f1:0:1

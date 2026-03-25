@@ -17,6 +17,11 @@ For example, the MP-153 (Custom) is nothing more than the BaS' MP-153 Carabiner 
 
 "Holy shit Connelly, you basically removed the whole of the mod-" Yes yes, I know. But seriously, at this point in time in the modding scene, the obrez shotguns are the only things here worth the bother. You could make a case for the shortened SKS and Mosin with the Blindsides patch if you weren't using Simple Weapon Pack, but Blindsides is abandoned and irrelevant with MRAA now, and Mosin Trio has its own shortened Mosins. So, really, this is is it.
 
+For the Mateba, you have options. Diphenhydramine-HCl and RIFLEISFINE have standalone options using the same assets as this pack; the former replaces the MP412, and the later is fully standalone. ATHI has an improved edit with variant with scopes. All these are covered in this pack.
+Joseph Porta also has a Mateba with variant and scope attaching, though his model is quite more performance heavy than the TAZ one.
+
+ANYWAY.
+
 DLTX conversion and files updated. You can ignore the patches in the original mod.
 Added default actor effects.
 Model textures won't overwrite vanilla ones anymore.

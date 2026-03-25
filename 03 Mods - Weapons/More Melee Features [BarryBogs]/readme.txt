@@ -11,5 +11,10 @@ The sharpened shovel is supposed to be a brittler axe, but it seems it had its d
 ----------------------------------------------------------
 -Patches:
 
+DLTX Trader distribution
+Disables the scripted trader_autoinject method in favor of DLTX.
+This mod tries something I'm not sure how to explain. Most traders sell the basic axe at the second supply tier. More Melee adds it to the first tier and the common supplies list (a list used when a trader has no supply tiers) on top of that. It feels redundant.
+In any case I remove the axe in the second tier.
+
 ----------------------------------------------------------
 -Known issues:

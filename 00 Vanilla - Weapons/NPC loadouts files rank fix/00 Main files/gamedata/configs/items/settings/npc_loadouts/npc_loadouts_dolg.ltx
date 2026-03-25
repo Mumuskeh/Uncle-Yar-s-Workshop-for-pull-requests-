@@ -242,10 +242,14 @@ wpn_aps:r:r
 wpn_mp412:r:r
 
 
-[duty_novice_extra]:extras_novice
+[duty_basic_extras]
 
-[duty_experienced_extra]:extras_experienced
+[duty_novice_extra]:duty_basic_extras
 
-[duty_veteran_extra]:extras_veteran
+[duty_experienced_extra]:duty_novice_extra
 
-[duty_master_extra]:extras_master
+[duty_veteran_extra]:duty_experienced_extra
+grenade_rgd5:0:1
+
+[duty_master_extra]:duty_veteran_extra
+grenade_f1:0:1

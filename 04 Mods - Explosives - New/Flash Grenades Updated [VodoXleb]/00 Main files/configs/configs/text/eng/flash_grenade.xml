@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_grenade_flash">
+		<text>Zarya-2 stun grenade</text>
+	</string>
+	<string id="st_grenade_flash_s">
+		<text>Zarya-2 stun grenade</text>
+	</string>
+	<string id="st_grenade_flash_descr">
+		<text>The Zarya-2 hand-held light-and-sound grenade has a plastic spherical body filled with a pyrotechnic composition based on rattlesnake mercury and magnesium powder. The body consists of upper and lower hemispheres. The upper hemisphere has an outer tube with a heat-exhaust fuse, closed with a corrugated rubber cap for sealing. A rubber cover with spikes is put on the lower hemisphere, which reduces the probability of destruction of the grenade body when it hits an obstacle. The diameter of the case without a cover is 56 mm.\n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]very weak (thermal damage)\n
+		%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]10 m\n
+		%c[d_purple] • %c[ui_gray_2] Fragments' radius: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~4 seconds</text>
+	</string>
+
+	<string id="st_grenade_flash2">
+		<text>M84 stun grenade</text>
+	</string>
+	<string id="st_grenade_flash2_s">
+		<text>M84</text>
+	</string>
+	<string id="st_grenade_flash2_descr">
+		<text>The M84 is the currently-issued stun grenade ("flashbang") of the United States Armed Forces and SWAT teams throughout the United States. Upon detonation, it emits an intensely loud "bang" of 170–180 decibels and a blinding flash of more than one million candela within 5 feet (1.5 meters) of initiation, sufficient to cause immediate flash blindness, deafness, tinnitus, and inner ear disturbance. Exposed personnel experience disorientation, confusion and loss of coordination and balance.The M84 features a magnesium-based pyrotechnic charge inside a thin aluminum case, contained within a perforated cast steel body. Unlike the high explosives (HE) used in traditional ordnance, the pyrotechnic charge produces a subsonic deflagration, not a supersonic detonation, minimizing the blast effects.\n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]very weak (thermal damage)\n
+		%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]10 m\n
+		%c[d_purple] • %c[ui_gray_2] Fragments' radius: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~4 seconds</text>
+	</string>
+
+	<string id="st_grenade_flash3">
+		<text>M7290 stun grenade</text>
+	</string>
+	<string id="st_grenade_flash3_s">
+		<text>M7290</text>
+	</string>
+	<string id="st_grenade_flash3_descr">
+		<text>This is the American Model 7290, a non-lethal, stun (flash-bang), hand grenade also produced in Israel producing 175db and 6-8 million candela of light output.\n
+		%c[d_purple] • %c[ui_gray_2] Blast power: %c[ui_gray_1]very weak (thermal damage)\n
+		%c[d_purple] • %c[ui_gray_2] Blast radius: %c[ui_gray_1]10 m\n
+		%c[d_purple] • %c[ui_gray_2] Fragments' radius: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Av. number of fragments: %c[ui_gray_1]none\n
+		%c[d_purple] • %c[ui_gray_2] Explosion delay: %c[ui_gray_1]~4 seconds</text>
+	</string>	
+</string_table>

@@ -116,11 +116,13 @@ wpn_fort
 wpn_gsh18
 wpn_oc33
 
-[army_novice_extra]:extras_novice
+[army_basic_extras]
 
-[army_experienced_extra]:extras_experienced
+[army_novice_extra]:army_basic_extras
 
-[army_veteran_extra]:extras_veteran
+[army_experienced_extra]:army_novice_extra
+
+[army_veteran_extra]:army_experienced_extra
 grenade_f1:0:1
 
-[army_master_extra]:extras_master
+[army_master_extra]:army_veteran_extra

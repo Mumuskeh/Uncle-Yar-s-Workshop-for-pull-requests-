@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="st_pouchsmall2_name">
+        <text>Подсумок для 2-х маленьких магазинов.</text>
+    </string>
+    <string id="st_pouchsmall2_name_s">
+        <text>Small pouch - 2</text>
+    </string>
+    <string id="st_pouchsmall2_desc">
+        <text>Крепящийся на поясе подсумок для 2-х маленьких магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall3_name">
+        <text>Подсумок для 3-х маленьких магазинов.</text>
+    </string>
+    <string id="st_pouchsmall3_name_s">
+        <text>Small pouch - 3</text>
+    </string>
+    <string id="st_pouchsmall3_desc">
+        <text>Крепящийся на поясе подсумок для 3-х маленьких магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchsmall8_name">
+        <text>Подсумок для 8-и маленьких магазинов.</text>
+    </string>
+    <string id="st_pouchsmall8_name_s">
+        <text>Small pouch - 8</text>
+    </string>
+    <string id="st_pouchsmall8_desc">
+        <text>Крепящийся на поясе подсумок для 8-и маленьких магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium1_name">
+        <text>Подсумок для 1-ого среднего магазина.</text>
+    </string>
+    <string id="st_pouchmedium1_name_s">
+        <text>Medium pouch - 1</text>
+    </string>
+    <string id="st_pouchmedium1_desc">
+        <text>Крепящийся на поясе подсумок для 1-ого среднего магазина. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		%c[d_cyan] • %c[ui_gray_2] Занимает 2 ячейки на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium2_name">
+        <text>Подсумок для 2-х средних магазинов.</text>
+    </string>
+	<string id="st_pouchmedium2_name_s">
+        <text>Medium pouch - 2</text>
+    </string>
+    <string id="st_pouchmedium2_desc">
+        <text>Крепящийся на поясе подсумок для 2-х средних магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium3_name">
+        <text>Подсумок для 3-х средних магазинов.</text>
+    </string>
+	<string id="st_pouchmedium3_name_s">
+        <text>Medium pouch - 3</text>
+    </string>
+    <string id="st_pouchmedium3_desc">
+        <text>Крепящийся на поясе подсумок для 3-х средних магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchmedium6_name">
+        <text>Подсумок для 6-и средних магазинов.</text>
+    </string>
+	<string id="st_pouchmedium6_name_s">
+        <text>Medium pouch - 6</text>
+    </string>
+    <string id="st_pouchmedium6_desc">
+        <text>Крепящийся на поясе подсумок для 6-и средних магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		%c[d_cyan] • %c[ui_gray_2] Занимает 2 ячейки на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchlarge_name">
+        <text>Подсумок для барабанного магазина.</text>
+    </string>
+	<string id="st_pouchlarge_name_s">
+        <text>Drum pouch - 1</text>
+    </string>
+    <string id="st_pouchlarge_desc">
+        <text>Крепящийся на поясе подсумок для барабанного магазина. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		</text>
+    </string>
+
+    <string id="st_pouchlarge2_name">
+        <text>Подсумок для 2-х барабанных магазинов.</text>
+    </string>
+	<string id="st_pouchlarge2_name_s">
+        <text>Drum pouch - 2</text>
+    </string>
+    <string id="st_pouchlarge2_desc">
+        <text>Крепящийся на поясе подсумок для 2-х барабанных магазинов. Довольно прочный и качественный. Может быть разобран.\n \n
+		%c[ui_gray_2]СВОЙСТВА:\n
+		%c[d_cyan] • %c[ui_gray_2] Военное снаряжение\n
+		%c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+		%c[d_cyan] • %c[ui_gray_2] Занимает 2 ячейки на поясе\n
+		</text>
+    </string>
+
+    <string id="st_fannypack_name">
+        <text>Кустарная поясная сумка</text>
+    </string>
+	<string id="st_fannypack_name_s">
+        <text>Fannypack</text>
+    </string>
+    <string id="st_fannypack_desc">
+        <text>Сделанная в зоне поясная сумка, которая немного разгружает спину. Даже несмотря на то, что это маленькая сумка на поясе, помогает немного распределить вес. Также при необходимости может вместить в себя небольшую обойму. Много кто из сталкеров пользуется такими сумками, поэтому достать такую не составит труда.\n \n
+        %c[ui_gray_2]СВОЙСТВА:\n
+        %c[d_cyan] • %c[ui_gray_2] Обычный предмет\n
+        %c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+        </text>
+    </string>
+
+    <string id="st_fannypackadidas_name">
+        <text>Поясная сумка Adidas.</text>
+    </string>
+	<string id="st_fannypackadidas_name_s">
+        <text>Adidas pack</text>
+    </string>
+    <string id="st_fannypackadidas_desc">
+        <text>Поясная сумка Adidas. Не сильно отличается от тех кустарных сумок, что делают в Зоне. Столь же популярная, как и сумки местного производства. Подобно своему Чернобыльскому собрату, может вместить в себя небольшую обойму при необходимости. Популярна у бандитов, наемников и некоторых одиночек.\n \n
+        %c[ui_gray_2]СВОЙСТВА:\n
+        %c[d_cyan] • %c[ui_gray_2] Обычный предмет\n
+        %c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+        </text>
+    </string>
+
+    <string id="st_sidebag_name">
+        <text>Дешевая поясная сумка.</text>
+    </string>
+	<string id="st_sidebag_name_s">
+        <text>Sidebag</text>
+    </string>
+    <string id="st_sidebag_desc">
+        <text>Обычная сумка, сделанная в Китае из дешевых, но прочных материалов. Часто встречается в Зоне и применяется как дешевый способ распределить вес. Взамен стесняет движения, более заметна и содержимое быстрее облучается радиацией.\n \n
+        %c[ui_gray_2]СВОЙСТВА:\n
+        %c[d_cyan] • %c[ui_gray_2] Обычный предмет\n
+        %c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+        %c[d_cyan] • %c[ui_gray_2] Занимает 2 слота\n
+        </text>
+    </string>
+
+    <string id="st_fannypacksuckpreme_name">
+        <text>Стильная поясная сумка</text>
+    </string>
+	<string id="st_fannypacksuckpreme_name_s">
+        <text>Supreme fannypack</text>
+    </string>
+    <string id="st_fannypacksuckpreme_desc">
+        <text>Такие модные поясные сумки иногда попадают в Зону. Может как предмет роскоши, или может люди пришли с ней в зону чтобы покрасоваться. Но тем не менее, может вместить в себя магазин и поможет распределить вес. Но... ты уверен, что хочешь вешать на себя ярко-красную тряпку? Может дать противнику отличную, красную мишень и есть новый стиль? Лучше не думай об этом. И будь поосторожнее с тем кабаном у тебя за спиной....\n \n
+        %c[ui_gray_2]СВОЙСТВА:\n
+        %c[d_cyan] • %c[ui_gray_2] Обычный предмет? Предмет роскоши? Предмет стиля?\n
+        %c[d_cyan] • %c[ui_gray_2] Можно носить на поясе\n
+        </text>
+    </string>
+</string_table>

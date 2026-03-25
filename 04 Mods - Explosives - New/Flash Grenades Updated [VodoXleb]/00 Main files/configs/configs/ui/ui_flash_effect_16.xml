@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<window>
+
+	<flash x="0" y="0" width="567" height="457" stretch="1" >
+			<texture>ui\flashgrens\flash</texture>
+	</flash>
+
+</window>

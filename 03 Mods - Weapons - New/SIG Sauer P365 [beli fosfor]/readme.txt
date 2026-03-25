@@ -28,9 +28,6 @@ Weapon Parts Overhaul
 ----------------------------------------------------------
 -Patches:
 
-Vanilla silencers [REMOVED, FOLDED INTO WEAPONS FIX AND REBALANCE PATCH]
-Uses the vanilla Gemtech silencer, instead of the BaS Black Box.
-
 Small Caliber Ammo Framework
 Clones the gun into the P365-380, a model chambered for .380 ACP. It's less powerful, but is lighter, cheaper, more common, and fires faster. Only Freedom will sell and carry it, plus some novice ecologist NPCs.
 

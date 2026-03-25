@@ -10,6 +10,7 @@ NOTE: You still need the original mod. Disable the configs\items\settings\npc_lo
 
 The NPC loadout configs will work for the NPC loadout rework in this pack (00 Vanilla - Weapons\NPC loadouts files rank fix), and won't wipe clean the sections it tries to add items to.
 Traders will now sell the items at mid goodwill, instead of out of the gate (this is to not completely devalue the vanilla smoke nades).
+The M662 and M18 will be sold by NATO leaning factions, and the explosive charge by solvent factions. Otherwise connected traders might still sell both.
 Crafting file now will only add instead of override the crafting sections its trying to add the recipes to, leading to only the tripwires being available.
 Icons gathered into a single file.
 
